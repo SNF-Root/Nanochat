@@ -63,7 +63,7 @@ if __name__ == "__main__":
     try: 
         con = get_db_connection()
     except Exception as e:
-        print("Could not establish connection")
+        print("Could not establish connection to database")
         print(e)
         raise SystemExit(1)
     asyncio.run(worker())

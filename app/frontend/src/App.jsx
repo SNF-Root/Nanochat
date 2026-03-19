@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Header from './components/Header'
 import SearchSection from './components/SearchSection'
 import SuggestedQueries from './components/SuggestedQueries'
@@ -7,6 +7,7 @@ import ChatView from './components/ChatView'
 import UploadPromPage from './components/UploadPromPage'
 
 function App() {
+  const isLogoutPath = window.location.pathname === '/logout'
   const [view, setView] = useState('search') // 'search' | 'upload'
   const [query, setQuery] = useState('')
   const [messages, setMessages] = useState([])
@@ -14,6 +15,130 @@ function App() {
   const [searchMode, setSearchMode] = useState('emails')
   const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
+
+  const appendAssistantChunk = (assistantId, chunk) => {
+    setMessages((prev) => {
+      const idx = prev.findIndex((message) => message.id === assistantId)
+      if (idx === -1) {
+        return [
+          ...prev,
+          {
+            id: assistantId,
+            role: 'assistant',
+            text: chunk,
+          },
+        ]
+      }
+
+      return prev.map((message) =>
+        message.id === assistantId
+          ? { ...message, text: message.text + chunk }
+          : message
+      )
+    })
+  }
+
+  const setAssistantText = (assistantId, text) => {
+    setMessages((prev) => {
+      const idx = prev.findIndex((message) => message.id === assistantId)
+      if (idx === -1) {
+        return [
+          ...prev,
+          {
+            id: assistantId,
+            role: 'assistant',
+            text,
+          },
+        ]
+      }
+
+      return prev.map((message) =>
+        message.id === assistantId ? { ...message, text } : message
+      )
+    })
+  }
+
+  const streamEmbedResponse = async (endpoint, text, onChunk) => {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    })
+
+    if (!response.ok) {
+      throw new Error(`Stream request failed: ${response.status}`)
+    }
+
+    if (!response.body) {
+      const data = await response.json()
+      const fallbackText = data.text || ''
+      if (fallbackText) onChunk(fallbackText)
+      return fallbackText
+    }
+
+    const reader = response.body.getReader()
+    const decoder = new TextDecoder()
+    let fullText = ''
+
+    while (true) {
+      const { value, done } = await reader.read()
+      if (done) break
+      const chunk = decoder.decode(value, { stream: true })
+      if (!chunk) continue
+      fullText += chunk
+      onChunk(chunk)
+    }
+
+    const tail = decoder.decode()
+    if (tail) {
+      fullText += tail
+      onChunk(tail)
+    }
+
+    return fullText
+  }
+
+  useEffect(() => {
+    if (isLogoutPath) {
+      const logout = async () => {
+        try {
+          await fetch('/logout', {
+            method: 'POST',
+            credentials: 'include',
+          })
+        } catch (error) {
+          console.error('Logout request failed:', error)
+        } finally {
+          window.location.replace('/')
+        }
+      }
+
+      logout()
+      return
+    }
+
+    const initializeSession = async () => {
+      try {
+        await fetch('/session/init', {
+          method: 'GET',
+          credentials: 'include',
+        })
+      } catch (error) {
+        console.error('Session init request failed:', error)
+      }
+    }
+
+    initializeSession()
+  }, [isLogoutPath])
+
+  if (isLogoutPath) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-100 text-slate-600">
+        Signing out...
+      </div>
+    )
+  }
 
   // Lightweight search — returns top 5 results with titles
   const handleSearch = async (searchQuery) => {
@@ -63,48 +188,37 @@ function App() {
     ])
 
     setIsThinking(true)
+    const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
+    let firstChunkReceived = false
 
     try {
       const endpoint =
-        searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: result.title }),
+        searchMode === 'proms' ? '/embed/proms/stream' : '/embed/emails/stream'
+
+      await streamEmbedResponse(endpoint, result.title, (chunk) => {
+        if (!firstChunkReceived) {
+          firstChunkReceived = true
+          setIsThinking(false)
+        }
+        appendAssistantChunk(assistantId, chunk)
       })
-
-      if (!response.ok) {
-        console.error('Embed request failed:', response.status)
-        setMessages((prev) => [
-          ...prev,
-          {
-            id: `${Date.now()}-err`,
-            role: 'assistant',
-            text: 'Sorry, something went wrong. Please try again.',
-          },
-        ])
-        return
-      }
-
-      const data = await response.json()
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
-          role: 'assistant',
-          text: data.text,
-        },
-      ])
     } catch (error) {
-      console.error('Embed request error:', error)
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: `${Date.now()}-err`,
-          role: 'assistant',
-          text: 'Could not reach the server. Please try again.',
-        },
-      ])
+      console.error('Stream embed request error:', error)
+      try {
+        const fallbackEndpoint =
+          searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
+        const fallbackResponse = await fetch(fallbackEndpoint, {
+          method: 'POST',
+          credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: result.title }),
+        })
+        if (!fallbackResponse.ok) throw new Error(`Fallback request failed: ${fallbackResponse.status}`)
+        const data = await fallbackResponse.json()
+        setAssistantText(assistantId, data.text)
+      } catch (fallbackError) {
+        setAssistantText(assistantId, 'Could not reach the server. Please try again.')
+      }
     } finally {
       setIsThinking(false)
     }
@@ -125,46 +239,36 @@ function App() {
     ])
     setQuery('')
     setIsThinking(true)
+    const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
+    let firstChunkReceived = false
 
     try {
       const endpoint =
-        searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: trimmed }),
+        searchMode === 'proms' ? '/embed/proms/stream' : '/embed/emails/stream'
+
+      await streamEmbedResponse(endpoint, trimmed, (chunk) => {
+        if (!firstChunkReceived) {
+          firstChunkReceived = true
+          setIsThinking(false)
+        }
+        appendAssistantChunk(assistantId, chunk)
       })
-
-      if (!response.ok) {
-        setMessages((prev) => [
-          ...prev,
-          {
-            id: `${Date.now()}-err`,
-            role: 'assistant',
-            text: 'Sorry, something went wrong. Please try again.',
-          },
-        ])
-        return
-      }
-
-      const data = await response.json()
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
-          role: 'assistant',
-          text: data.text,
-        },
-      ])
     } catch (error) {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: `${Date.now()}-err`,
-          role: 'assistant',
-          text: 'Could not reach the server. Please try again.',
-        },
-      ])
+      try {
+        const fallbackEndpoint =
+          searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
+        const fallbackResponse = await fetch(fallbackEndpoint, {
+          method: 'POST',
+          credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: trimmed }),
+        })
+        if (!fallbackResponse.ok) throw new Error(`Fallback request failed: ${fallbackResponse.status}`)
+        const data = await fallbackResponse.json()
+        setAssistantText(assistantId, data.text)
+      } catch (fallbackError) {
+        setAssistantText(assistantId, 'Could not reach the server. Please try again.')
+      }
     } finally {
       setIsThinking(false)
     }
