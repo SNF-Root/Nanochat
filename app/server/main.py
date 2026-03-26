@@ -92,8 +92,8 @@ class UploadFileResponse(BaseModel):
     status: str
 
 class UploadCounterResetResponse(BaseModel):
-    key: str
-    value: int
+    number_of_files_cleared: int
+    status_of_queue: str
 
 
 def _session_key(session_id: str) -> str:
@@ -180,7 +180,7 @@ async def upload_file(
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
     unique_suffix = uuid.uuid4().hex[:8]
-    stored_filename = f"{stem}__{unique_suffix}{ext}"
+    stored_filename = f"prom_{stem}__{unique_suffix}{ext}"
     filepath = os.path.join(UPLOAD_DIR, stored_filename)
     #maybe use aiofiles and turn this blocking operation into async
     total_file_bytes = 0
@@ -199,18 +199,25 @@ async def upload_file(
     )
 
 @app.post("/upload/emails", response_model=UploadFileResponse)
-async def upload_email(
-    file: UploadFile = File(...),
-    path: str = Form(...)
-) -> UploadFileResponse:
-    data = await file.read()
-    await redis_memory.incr("email_upload_counter")
+async def upload_email(file: UploadFile = File(...), path: str = Form(...)) -> UploadFileResponse:
+    safe_filename = os.path.basename(file.filename or "upload.bin")
+    stem, ext = os.path.splitext(safe_filename)
+    unique_suffix = uuid.uuid4().hex[:8]
+    stored_filename = f"email_{stem}__{unique_suffix}{ext}"
+    filepath = os.path.join(UPLOAD_DIR, stored_filename)
+    total_file_bytes = 0
+    with open(filepath, "wb") as f:
+        while chunk := await file.read(1024*1024):
+            f.write(chunk)
+            total_file_bytes += len(chunk)
+    await redis_file_queue.rpush("pending_files", filepath)
+
     return UploadFileResponse(
-        filename=file.filename,
-        path = path,
-        content_type = "email_threads",
-        size_bytes = len(data),
-        status = "queued"
+        filename = file.filename,
+        path=path,
+        content_type="email_threads",
+        size_bytes=total_file_bytes,
+        status="queued"
     )
 
 
@@ -219,15 +226,16 @@ async def show_list():
     data_items = await redis_file_queue.lrange("pending_files", 0, -1)
     return data_items
 
-@app.post("/upload/reset-counter", response_model=UploadCounterResetResponse)
+@app.post("/upload/reset_counter", response_model=UploadCounterResetResponse)
 async def reset_upload_counter() -> UploadCounterResetResponse:
     key = "promfile_upload_counter"
     queue_name = "pending_files"
+    len_of_queue = await redis_file_queue.llen(queue_name)
     await redis_memory.set(key, 0)
     await redis_file_queue.delete(queue_name)
     print(f"{key} set to 0")
     print(f"{queue_name} cleared")
-    return UploadCounterResetResponse(key=key, value=0)
+    return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
 
 def embed_query(text: str) -> list[float]:
@@ -250,7 +258,7 @@ def chat_completion(system_prompt: str, user_payload: str) -> str:
     print(f"[DEBUG] Chat completion succeeded, response length: {len(response_text)}")
     return response_text.strip() or "No summary returned."
 
-
+    
 async def stream_chat_completion_and_store(
     system_prompt: str,
     user_payload: str,

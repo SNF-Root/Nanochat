@@ -8,7 +8,28 @@ import {
   X,
 } from 'lucide-react'
 
-const VALID_EXTENSIONS = ['.pdf', '.docx']
+const UPLOAD_TARGETS = {
+  prom: {
+    label: 'PROM',
+    badge: 'PROM forms',
+    title: 'Upload PROM documents',
+    boxLabel: 'PROM forms',
+    extensions: ['.pdf', '.docx'],
+    route: '/upload/prom',
+    uploadButton: 'Upload PROMs',
+    folderButton: 'Upload PROM Folder',
+  },
+  emails: {
+    label: 'Emails',
+    badge: 'Emails',
+    title: 'Upload Email',
+    boxLabel: 'Emails',
+    extensions: ['.txt'],
+    route: '/upload/emails',
+    uploadButton: 'Upload Emails',
+    folderButton: 'Upload Email Folder',
+  },
+}
 
 const getExtension = (name) => {
   const lower = (name || '').toLowerCase()
@@ -20,20 +41,20 @@ const getDisplayPath = (file) => file?.webkitRelativePath || file?.name || ''
 
 const resetUploadCounter = async () => {
   try {
-    await fetch('/upload/reset-counter', { method: 'POST' })
+    await fetch('/upload/reset_counter', { method: 'POST' })
   } catch {
     // Counter reset failure should not block UI actions.
   }
 }
 
-const uploadPromFile = (file, path, onProgress) =>
+const uploadFile = (file, path, route, onProgress) =>
   new Promise((resolve, reject) => {
     const formData = new FormData()
     formData.append('file', file)
     formData.append('path', path)
 
     const xhr = new XMLHttpRequest()
-    xhr.open('POST', '/upload/prom')
+    xhr.open('POST', route)
 
     xhr.upload.onprogress = (event) => {
       if (!event.lengthComputable) return
@@ -129,21 +150,23 @@ export default function UploadPromPage() {
   const [isDragging, setIsDragging] = useState(false)
   const [error, setError] = useState('')
   const [mode, setMode] = useState('idle') // 'idle' | 'queue'
+  const [toasts, setToasts] = useState([])
+  const [uploadType, setUploadType] = useState('prom')
+
+  const target = UPLOAD_TARGETS[uploadType]
 
   const counts = useMemo(() => {
     let valid = 0
-    let invalid = 0
     let done = 0
     let uploading = 0
     let queued = 0
     for (const it of items) {
-      if (it.status === 'invalid') invalid += 1
-      else valid += 1
+      valid += 1
       if (it.status === 'done') done += 1
       if (it.status === 'uploading') uploading += 1
       if (it.status === 'queued') queued += 1
     }
-    return { valid, invalid, done, uploading, queued }
+    return { valid, done, uploading, queued }
   }, [items])
 
   useEffect(() => {
@@ -185,7 +208,7 @@ export default function UploadPromPage() {
       }
 
       try {
-        await uploadPromFile(it.file, it.path, (progress) => {
+        await uploadFile(it.file, it.path, target.route, (progress) => {
           setItems((prev) =>
             prev.map((p) =>
               p.id === it.id && p.status === 'uploading'
@@ -220,7 +243,7 @@ export default function UploadPromPage() {
         )
       }
     })
-  }, [items, mode])
+  }, [items, mode, target.route])
 
   useEffect(() => {
     if (mode !== 'queue') return
@@ -272,21 +295,30 @@ export default function UploadPromPage() {
     for (const { file, path } of entries) {
       if (!path) continue
       const ext = getExtension(path)
-      const id = makeId()
-      const isValid = VALID_EXTENSIONS.includes(ext) && !!file
-      if (isValid) hasValid = true
+      const isValid = target.extensions.includes(ext) && !!file
+      if (!isValid) {
+        const filename = path.split('/').pop() || path
+        const toastId = makeId()
+        setToasts((prev) => [
+          ...prev,
+          { id: toastId, message: `Removed invalid format: ${filename}` },
+        ])
+        setTimeout(() => {
+          setToasts((prev) => prev.filter((t) => t.id !== toastId))
+        }, 3500)
+        continue
+      }
 
+      hasValid = true
       next.push({
-        id,
+        id: makeId(),
         file,
         path,
         filename: path.split('/').pop() || path,
         ext,
-        status: isValid ? 'queued' : 'invalid',
+        status: 'queued',
         progress: 0,
-        message: isValid
-          ? ''
-          : 'Only .pdf and .docx are allowed, and each item must include a file',
+        message: '',
       })
     }
 
@@ -366,7 +398,11 @@ export default function UploadPromPage() {
     }
 
     if (collectedEntries.length === 0) {
-      setError('Nothing to upload. Try dropping a folder with .pdf/.docx files.')
+      setError(
+        `Nothing to upload. Try dropping a folder with ${target.extensions.join(
+          '/',
+        )} files.`,
+      )
       return
     }
 
@@ -385,20 +421,48 @@ export default function UploadPromPage() {
     setItems((prev) => prev.filter((p) => p.id !== id))
   }
 
+  const onChangeUploadType = async (nextType) => {
+    setUploadType(nextType)
+    setError('')
+    setItems([])
+    setUploaded([])
+    setMode('idle')
+    await resetUploadCounter()
+  }
+
   return (
     <div className="w-full max-w-6xl mx-auto h-full min-h-0 flex flex-col overflow-hidden">
-      <div className="flex flex-col gap-1 mb-2 flex-none">
+      <div className="flex items-start justify-between gap-4 mb-2 flex-none">
         <div>
           <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-red-700 bg-red-50 border border-red-100 px-3 py-1 rounded-full">
-            PROM forms
+            {target.badge}
           </div>
           <h1 className="text-xl md:text-2xl font-semibold text-slate-900 mt-1.5">
-            Upload PROM documents
+            {target.title}
           </h1>
           <p className="text-xs text-slate-600 mt-1">
-            Accepted extensions: <span className="font-medium">.pdf</span>,{' '}
-            <span className="font-medium">.docx</span>. Folder upload is supported.
+            Accepted extension{target.extensions.length > 1 ? 's' : ''}:{' '}
+            {target.extensions.map((ext) => (
+              <span key={ext} className="font-medium mr-1.5">
+                {ext}
+              </span>
+            ))}
+            Folder upload is supported.
           </p>
+        </div>
+
+        <div className="shrink-0">
+          <label className="block text-xs font-medium text-slate-600 mb-1">
+            Upload Type
+          </label>
+          <select
+            value={uploadType}
+            onChange={(e) => onChangeUploadType(e.target.value)}
+            className="px-3 py-2 rounded-xl border border-slate-200 bg-white text-sm text-slate-700"
+          >
+            <option value="prom">PROM</option>
+            <option value="emails">Emails</option>
+          </select>
         </div>
       </div>
 
@@ -455,25 +519,33 @@ export default function UploadPromPage() {
                   Drag and drop files or a folder
                 </h2>
                 <p className="text-sm text-slate-600 mt-1.5">
-                  This upload box is for <span className="font-medium">PROM forms</span>{' '}
-                  only. Accepted: <span className="font-medium">.pdf</span>,{' '}
-                  <span className="font-medium">.docx</span>.
+                  This upload box is for{' '}
+                  <span className="font-medium">{target.boxLabel}</span> only.
+                  Accepted:{' '}
+                  {target.extensions.map((ext) => (
+                    <span key={ext} className="font-medium mr-1.5">
+                      {ext}
+                    </span>
+                  ))}
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-5">
                   <button
-                    onClick={() => fileInputRef.current?.click()}
+                    onClick={async () => {
+                      await resetUploadCounter()
+                      fileInputRef.current?.click()
+                    }}
                     className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-red-600 text-white hover:bg-red-700 transition-colors inline-flex items-center justify-center gap-2"
                   >
                     <FileText className="w-4 h-4" />
-                    Choose files
+                    {target.uploadButton}
                   </button>
                   <button
                     onClick={() => folderInputRef.current?.click()}
                     className="w-full sm:w-auto px-4 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 transition-colors inline-flex items-center justify-center gap-2"
                   >
                     <FolderUp className="w-4 h-4" />
-                    Choose folder
+                    {target.folderButton}
                   </button>
                 </div>
 
@@ -487,7 +559,7 @@ export default function UploadPromPage() {
                   ref={fileInputRef}
                   type="file"
                   multiple
-                  accept={VALID_EXTENSIONS.join(',')}
+                  accept={target.extensions.join(',')}
                   className="hidden"
                   onChange={onPickFiles}
                 />
@@ -544,7 +616,6 @@ export default function UploadPromPage() {
                   <ul className="divide-y divide-slate-100">
                   {items.map((it) => {
                     const isDone = it.status === 'done'
-                    const isInvalid = it.status === 'invalid'
                     const isError = it.status === 'error'
                     const statusLabel = isDone
                       ? 'Completed'
@@ -552,9 +623,7 @@ export default function UploadPromPage() {
                         ? 'Uploading'
                         : it.status === 'queued'
                           ? 'Queued'
-                          : isInvalid
-                            ? 'Invalid'
-                            : isError
+                          : isError
                               ? 'Error'
                               : it.status
 
@@ -566,14 +635,14 @@ export default function UploadPromPage() {
                                 'mt-0.5 w-10 h-10 rounded-2xl flex items-center justify-center',
                                 isDone
                                   ? 'bg-emerald-50 text-emerald-600'
-                                  : isInvalid || isError
+                                  : isError
                                     ? 'bg-red-50 text-red-600'
                                     : 'bg-slate-50 text-slate-600',
                               ].join(' ')}
                             >
                               {isDone ? (
                                 <CheckCircle2 className="w-5 h-5" />
-                              ) : isInvalid || isError ? (
+                              ) : isError ? (
                                 <AlertTriangle className="w-5 h-5" />
                               ) : (
                                 <FileText className="w-5 h-5" />
@@ -597,7 +666,7 @@ export default function UploadPromPage() {
                                       'text-xs px-2.5 py-1 rounded-full border',
                                       isDone
                                         ? 'bg-emerald-50 text-emerald-700 border-emerald-100'
-                                        : isInvalid || isError
+                                        : isError
                                           ? 'bg-red-50 text-red-700 border-red-100'
                                           : 'bg-slate-50 text-slate-700 border-slate-200',
                                     ].join(' ')}
@@ -621,12 +690,12 @@ export default function UploadPromPage() {
                                       'h-full rounded-full transition-[width] duration-200',
                                       isDone
                                         ? 'bg-emerald-500'
-                                        : isInvalid || isError
+                                        : isError
                                           ? 'bg-red-400'
                                           : 'bg-gradient-to-r from-red-500 via-red-500 to-red-600',
                                     ].join(' ')}
                                     style={{
-                                      width: `${isInvalid || isError ? 100 : it.progress}%`,
+                                      width: `${isError ? 100 : it.progress}%`,
                                     }}
                                   />
                                 </div>
@@ -635,7 +704,7 @@ export default function UploadPromPage() {
                                     {it.message ? it.message : ' '}
                                   </div>
                                   <div className="tabular-nums">
-                                    {isInvalid || isError ? '—' : `${it.progress}%`}
+                                    {isError ? '—' : `${it.progress}%`}
                                   </div>
                                 </div>
                               </div>
@@ -650,6 +719,17 @@ export default function UploadPromPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="fixed top-20 right-4 z-50 flex flex-col gap-2 w-[min(92vw,22rem)] pointer-events-none">
+        {toasts.map((toast) => (
+          <div
+            key={toast.id}
+            className="pointer-events-auto rounded-xl border border-red-200 bg-white shadow-lg px-3 py-2 text-sm text-red-700"
+          >
+            {toast.message}
+          </div>
+        ))}
       </div>
     </div>
   )

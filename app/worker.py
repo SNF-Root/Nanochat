@@ -12,6 +12,9 @@ if PREPROCESSING_DIR not in sys.path:
 from preprocessing.database.pg import get_db_connection
 from preprocessing.test import fork_then_extract
 from preprocessing.prom_pipeline import filter_duplicates, run_prom_pipeline
+from preprocessing.order_emails import create_dict_of_threads, get_email_by_msgids
+from preprocessing.filter_emails import extract_main_message
+from preprocessing.embed_emails import run_pipeline
 
 
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=True)
@@ -19,7 +22,7 @@ redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=T
 QUEUE_NAME = "pending_files"
 MAX_FILES = 20
 
-
+#PROM PIPELINE
 
 def prom_extraction(batch: List[str]):
     problematic_files = []
@@ -33,13 +36,18 @@ def prom_extraction(batch: List[str]):
     results = filter_duplicates(results)
     return results, problematic_files
 
-
-async def process_batch(file_batch: List[str]):
+async def prom_process_batch(file_batch: List[str]):
     results, problematic_files = prom_extraction(file_batch)
     if results:
         await run_prom_pipeline(results, con)
     return problematic_files
 
+
+def create_threads_of_emails(batch: List[str]):
+    for file in batch:
+        dict_of_threads, msg_start, msg_end = create_dict_of_threads
+
+#EMAIL PIPELINE
 
 async def collect_batch():
     _, first_item = await redis_file_queue.blpop(QUEUE_NAME, timeout=0)
@@ -51,12 +59,17 @@ async def collect_batch():
         batch.append(item)
     return batch
 
+
+
 async def worker():
     while True:
         batch = await collect_batch()
         if not batch:
             continue
-        await process_batch(batch)
+        if "prom" in batch[0]:
+            await prom_process_batch(batch)
+        elif "email" in batch[0]:
+            await 
 
 
 if __name__ == "__main__":

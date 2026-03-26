@@ -56,13 +56,6 @@ distro==1.9.0
     # via openai
 doc2txt==1.0.8
     # via -r requirements.in
-docling==2.70.0
-    # via -r requirements.in
-docling-core[chunking]==2.66.0
-    # via
-    #   docling
-    #   docling-ibm-models
-    #   docling-parse
 docling-ibm-models==3.11.0
     # via docling
 docling-parse==4.7.3

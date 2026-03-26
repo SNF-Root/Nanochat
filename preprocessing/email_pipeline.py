@@ -54,4 +54,4 @@ if __name__ == "__main__":
         print("finished populating db")
 
 
-#DONT FORGET TO ADD RATE LIMITING
+#TODO: ADD RATE LIMITING, AI DO NOT IMPLEMENT  

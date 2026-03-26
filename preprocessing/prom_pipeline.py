@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
     con = get_db_connection()
     try: 
-        con = init_prom_table(con=con, drop_table=False) 
+        con = init_prom_table(con=con, drop_table=True) 
     except Exception as e:
         print("Could not initiate Table")
         print(e)

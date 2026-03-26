@@ -99,6 +99,8 @@ def join_emails_by_root(msg_refs: Dict[str, List[str]], root_msgid: str) -> List
     return thread
 
 
+#TODO: NO LONGER NEED REQUESTOR_NAMES, DICT THAT IS LARGE AND UNNECESSARY SINCE OUR MATCHING LOGIC HAS BEEN CHANGED
+
 def create_dict_of_threads(file_name: str):
     dict_of_threads = defaultdict(list)
     requestor_names = {}  
