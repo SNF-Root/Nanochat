@@ -12,6 +12,7 @@ export default defineConfig({
       '/search': 'http://localhost:8000',
       '/upload': 'http://localhost:8000',
       '/session': 'http://localhost:8000',
+      '/context': 'http://localhost:8000',
       '/logout': 'http://localhost:8000'
     }
   }

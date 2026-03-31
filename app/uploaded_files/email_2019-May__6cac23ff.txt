@@ -1,0 +1,2573 @@
+From danyalukin at gmail.com  Fri May  3 15:20:52 2019
+From: danyalukin at gmail.com (Daniil Lukin)
+Date: Fri, 3 May 2019 15:20:52 -0700
+Subject: [snf-promcommittee] CMP alternative pad
+In-Reply-To: <CAPAWyXvBHoK59sWhN5VECHWAdLdmFmx_=VAm2PyBLy+McY5JGw@mail.gmail.com>
+References: <CAPAWyXuxMCsMKqLNuqhjPsHXzuqxPGSwri6uzfh7zEo4xbXE2w@mail.gmail.com>
+ <CAPAWyXuq_TC1f5-y+E6tMf3TVE-HpaBfOG9vmST_dk4O4bnn7A@mail.gmail.com>
+ <CAFSuyDQvT9O4i5-RZ5YhtJGbBKxPS5j9nD3d-X+Aafxyr+2XNw@mail.gmail.com>
+ <CAPAWyXvBHoK59sWhN5VECHWAdLdmFmx_=VAm2PyBLy+McY5JGw@mail.gmail.com>
+Message-ID: <CAPAWyXtVX_EYeP=cgrjWc9Mh=N0_SH=-uVCz__n6rBX6L3qTrw@mail.gmail.com>
+
+Hi Jim and Mike,
+
+Just checking about this again - would CMP pad replacement late this coming
+week be possible?
+
+Thank you,
+
+Daniil
+
+On Tue, Apr 30, 2019 at 22:41 Daniil Lukin <danyalukin at gmail.com> wrote:
+
+> Dear Jim and Mike,
+>
+> I was wondering if we could do the pad replacement on the CMP on Thursday
+> or Friday May 9th-10th, for the weekend? Please let me know if this would
+> be an option.
+>
+> Thank you,
+>
+> Daniil
+>
+> On Mon, Apr 15, 2019 at 11:03 AM Michelle Rincon <mmrincon at stanford.edu>
+> wrote:
+>
+>> Hi Daniil,
+>>
+>> Your request is approved. Please make sure to work with Jim and Mike and
+>> I to schedule the time and then I can send out the notice to the cmp tool
+>> users that you will be using the tool over a weekend. Most of our current
+>> users are industrial users who prefer the week so I think that is a good
+>> strategy to minimize impact to other folks.
+>>
+>> Best,
+>> Michelle
+>>
+>> On Tue, Apr 2, 2019 at 1:08 PM Daniil Lukin <danyalukin at gmail.com> wrote:
+>>
+>>> Dear PROM Committee,
+>>>
+>>> Please find attached the PROM request for polishing films of SiC in the
+>>> CMP using a different polishing pad from the one provided.
+>>>
+>>> In the Fall 2018 we obtained approval to polish SiC in POLI-400L, but
+>>> for proper results we need to use a diamond slurry. While IC1000 is
+>>> compatible with diamond, it produced in sub-optimal results (scratches)
+>>> compared to a softer pad.
+>>>
+>>> We provide the polishing pad that we need (SUBA 800, from eminess), as
+>>> well as a replacement IC1000 pad to be installed after our session is done,
+>>> so there are no material costs to SNF.
+>>>
+>>> Thank you,
+>>>
+>>> Daniil
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190503/77b4a85d/attachment.html>
+
+From mmrincon at stanford.edu  Tue May  7 07:47:53 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 7 May 2019 07:47:53 -0700
+Subject: [snf-promcommittee] CMP alternative pad
+In-Reply-To: <CAPAWyXtVX_EYeP=cgrjWc9Mh=N0_SH=-uVCz__n6rBX6L3qTrw@mail.gmail.com>
+References: <CAPAWyXuxMCsMKqLNuqhjPsHXzuqxPGSwri6uzfh7zEo4xbXE2w@mail.gmail.com>
+ <CAPAWyXuq_TC1f5-y+E6tMf3TVE-HpaBfOG9vmST_dk4O4bnn7A@mail.gmail.com>
+ <CAFSuyDQvT9O4i5-RZ5YhtJGbBKxPS5j9nD3d-X+Aafxyr+2XNw@mail.gmail.com>
+ <CAPAWyXvBHoK59sWhN5VECHWAdLdmFmx_=VAm2PyBLy+McY5JGw@mail.gmail.com>
+ <CAPAWyXtVX_EYeP=cgrjWc9Mh=N0_SH=-uVCz__n6rBX6L3qTrw@mail.gmail.com>
+Message-ID: <CAFSuyDTqDFcuC84GeBvc8cu-+3R07GvCcQ3QNvQNvavY8RQJRQ@mail.gmail.com>
+
+Hi Daniil,
+
+Mike is thinking we should be able to make it work this weekend! Where is
+the pad you need us to load? We can try and start prepping early since the
+pad change portion can get a little tricky.
+
+Michelle
+
+On Fri, May 3, 2019 at 3:21 PM Daniil Lukin <danyalukin at gmail.com> wrote:
+
+> Hi Jim and Mike,
+>
+> Just checking about this again - would CMP pad replacement late this
+> coming week be possible?
+>
+> Thank you,
+>
+> Daniil
+>
+> On Tue, Apr 30, 2019 at 22:41 Daniil Lukin <danyalukin at gmail.com> wrote:
+>
+>> Dear Jim and Mike,
+>>
+>> I was wondering if we could do the pad replacement on the CMP on Thursday
+>> or Friday May 9th-10th, for the weekend? Please let me know if this would
+>> be an option.
+>>
+>> Thank you,
+>>
+>> Daniil
+>>
+>> On Mon, Apr 15, 2019 at 11:03 AM Michelle Rincon <mmrincon at stanford.edu>
+>> wrote:
+>>
+>>> Hi Daniil,
+>>>
+>>> Your request is approved. Please make sure to work with Jim and Mike and
+>>> I to schedule the time and then I can send out the notice to the cmp tool
+>>> users that you will be using the tool over a weekend. Most of our current
+>>> users are industrial users who prefer the week so I think that is a good
+>>> strategy to minimize impact to other folks.
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> On Tue, Apr 2, 2019 at 1:08 PM Daniil Lukin <danyalukin at gmail.com>
+>>> wrote:
+>>>
+>>>> Dear PROM Committee,
+>>>>
+>>>> Please find attached the PROM request for polishing films of SiC in the
+>>>> CMP using a different polishing pad from the one provided.
+>>>>
+>>>> In the Fall 2018 we obtained approval to polish SiC in POLI-400L, but
+>>>> for proper results we need to use a diamond slurry. While IC1000 is
+>>>> compatible with diamond, it produced in sub-optimal results (scratches)
+>>>> compared to a softer pad.
+>>>>
+>>>> We provide the polishing pad that we need (SUBA 800, from eminess), as
+>>>> well as a replacement IC1000 pad to be installed after our session is done,
+>>>> so there are no material costs to SNF.
+>>>>
+>>>> Thank you,
+>>>>
+>>>> Daniil
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+>>>
+>>> --
+>>> Michelle Rincon, PhD
+>>> Senior Engineer
+>>> Stanford Nanofabrication Facility
+>>>
+>>> (650)-725-0307
+>>> mmrincon at stanford.edu
+>>>
+>> --
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190507/ff9ba608/attachment.html>
+
+From Roderick.Marstell at sunpower.com  Tue May  7 11:52:38 2019
+From: Roderick.Marstell at sunpower.com (Rod Marstell)
+Date: Tue, 7 May 2019 18:52:38 +0000
+Subject: [snf-promcommittee] Request to have ALD Al2O3 films deposited
+Message-ID: <SN6PR07MB4703893432F47632523D0BD091310@SN6PR07MB4703.namprd07.prod.outlook.com>
+
+Good morning,
+
+My name is Rod Marstell and I am an engineer at SunPower. As part of our R&D work, we are interested in having some Al2O3 films deposited by ALD onto silicon wafers and we have some questions about your user facility:
+-What size wafers are you capable of processing in the ALD tools in your lab?
+-What is the cost for industry use of your ALD systems?
+-I was able to find the list of available ALD materials on your website (https://snf.stanford.edu/SNF/equipment/chemical-vapor-deposition/ald/available-films-at-snf/films-and-data). Is this an exhaustive list, or are there any others that may be available?
+
+I look forward to hearing back from you and getting some plans laid out for some experiments!
+
+Cheers,
+Rod
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190507/07e1b4ba/attachment.html>
+
+From Archana_Kumar at amat.com  Thu May  9 18:21:57 2019
+From: Archana_Kumar at amat.com (Archana_Kumar at amat.com)
+Date: Fri, 10 May 2019 01:21:57 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+Message-ID: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+
+Hi PROM committee,
+
+I'm submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/8c62375f/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Review Request Form.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 100780 bytes
+Desc: Process or Materials Review Request Form.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/8c62375f/attachment-0001.docx>
+
+From steelxu at stanford.edu  Thu May  9 18:48:21 2019
+From: steelxu at stanford.edu (Xiaoqing Xu)
+Date: Fri, 10 May 2019 01:48:21 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+
+I have a couple questions about this:
+
+  1.  what beaker?
+  2.  do we need to dilute the aqua regia waste when collecting it into the regular waste container? Or use special pressure waste container with high pressure relieve?
+
+Xiaoqing
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Archana_Kumar at amat.com <Archana_Kumar at amat.com>
+Sent: Thursday, May 9, 2019 6:21 PM
+To: snf-promcommittee at lists.stanford.edu
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+
+Hi PROM committee,
+
+
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+
+Please let me know if you have any questions or concerns.
+
+
+
+Regards,
+
+Archana
+
+408-518-1453
+
+
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/28df1c73/attachment.html>
+
+From mtang at stanford.edu  Fri May 10 08:08:26 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 10 May 2019 08:08:26 -0700
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+Message-ID: <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+
+Hi Xiaoqing, et al -
+
+
+First, for reference, here's the 
+https://suwater.stanford.edu/sites/g/files/sbiybj7756/f/wastewater_bmp_factsheet.pdf
+
+
+I'd like to propose the following as a general approach for situations 
+like this.? I think it would be OK to aspirate for this experiment -- 
+and better for safety reasons.? Here's what I'm thinking (and please 
+provide counterarguments as you see them!)
+
+
+1.? Aqua Regia (HCl, Nitric acid), when diluted and neutralized, is 
+acceptable AWN waste.
+
+
+2.? Platinum is not listed on this sheet with a discharge limit. That's 
+not to say that just because it doesn't appear on the sheet it's OK to 
+discharge -- BUT this sheet shows all the common industrial wastes of 
+concern -- noble metals are common in industrial use - and generally not 
+considered hazardous.? AND, it would be good to double-check, but I 
+imagine that the amount Archana plans to etch will be a thin layer that 
+will result in concentrations (etchant plus 3X rinses) that will be 
+nowhere near the mg/L scales on this sheet.
+
+
+3.? Safety.? When I hear about chemical incidents in other labs like 
+ours, it's invariably because they don't have a functional AWN (in one 
+case, they had one, but decided not to commission it for reasons of 
+cost) and they had aqua regia in a container without pressure relief or 
+had inadvertently come into contact with combustible materials.? So, I 
+would much rather use our AWN in those situations for aqua regia (and 
+other mixes) where the identity and concentration of waste materials is 
+not incompatible with the wastewater policy.
+
+
+What do you all think?
+
+
+Mary
+
+
+On 5/9/2019 6:48 PM, Xiaoqing Xu wrote:
+>
+> I have a couple questions about this:
+>
+>  1. what beaker?
+>  2. do we need to dilute the aqua regia waste when collecting it into
+>     the regular waste container? Or use special pressure waste
+>     container with high pressure relieve?
+>
+>
+> Xiaoqing
+> ------------------------------------------------------------------------
+> *From:* snf-promcommittee 
+> <snf-promcommittee-bounces at lists.stanford.edu> on behalf of 
+> Archana_Kumar at amat.com <Archana_Kumar at amat.com>
+> *Sent:* Thursday, May 9, 2019 6:21 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [snf-promcommittee] PROM request for aqua regia etch of Pt
+>
+> Hi PROM committee,
+>
+> I?m submitting a request to be allowed to wet etch Pt in aqua regia at 
+> wbflexcorr-1/2. I require this specific step as part of a customer 
+> project and would like to seek your inputs. ?Please find attached all 
+> the information requested in the attached form.
+>
+> Please let me know if you have any questions or concerns.
+>
+> Regards,
+>
+> Archana
+>
+> 408-518-1453
+>
+> The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you 
+> are not the intended recipient, please notify me, delete this email 
+> and do not use or distribute this email.
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/5735e151/attachment.html>
+
+From maurice at stanford.edu  Fri May 10 08:24:42 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 10 May 2019 08:24:42 -0700
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+ <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+Message-ID: <A933B0AA-B0CD-4D27-91A4-25B3C511B26D@stanford.edu>
+
+Good border setting.
+
+Sent from my mobile device
+
+
+> On May 10, 2019, at 8:08 AM, Mary Tang <mtang at stanford.edu> wrote:
+> 
+> Hi Xiaoqing, et al -
+> 
+> 
+> 
+> First, for reference, here's the https://suwater.stanford.edu/sites/g/files/sbiybj7756/f/wastewater_bmp_factsheet.pdf
+> 
+> 
+> 
+> I'd like to propose the following as a general approach for situations like this.  I think it would be OK to aspirate for this experiment -- and better for safety reasons.  Here's what I'm thinking (and please provide counterarguments as you see them!)
+> 
+> 
+> 
+> 1.  Aqua Regia (HCl, Nitric acid), when diluted and neutralized, is acceptable AWN waste.
+> 
+> 
+> 
+> 2.  Platinum is not listed on this sheet with a discharge limit.  That's not to say that just because it doesn't appear on the sheet it's OK to discharge -- BUT this sheet shows all the common industrial wastes of concern -- noble metals are common in industrial use - and generally not considered hazardous.  AND, it would be good to double-check, but I imagine that the amount Archana plans to etch will be a thin layer that will result in concentrations (etchant plus 3X rinses) that will be nowhere near the mg/L scales on this sheet.
+> 
+> 
+> 
+> 3.  Safety.  When I hear about chemical incidents in other labs like ours, it's invariably because they don't have a functional AWN (in one case, they had one, but decided not to commission it for reasons of cost) and they had aqua regia in a container without pressure relief or had inadvertently come into contact with combustible materials.  So, I would much rather use our AWN in those situations for aqua regia (and other mixes) where the identity and concentration of waste materials is not incompatible with the wastewater policy.
+> 
+> 
+> 
+> What do you all think?
+> 
+> 
+> Mary
+> 
+> 
+> 
+>> On 5/9/2019 6:48 PM, Xiaoqing Xu wrote:
+>> I have a couple questions about this:
+>> what beaker?
+>> do we need to dilute the aqua regia waste when collecting it into the regular waste container? Or use special pressure waste container with high pressure relieve? 
+>> 
+>> Xiaoqing
+>> From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Archana_Kumar at amat.com <Archana_Kumar at amat.com>
+>> Sent: Thursday, May 9, 2019 6:21 PM
+>> To: snf-promcommittee at lists.stanford.edu
+>> Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+>>  
+>> Hi PROM committee,
+>> 
+>>  
+>> 
+>> I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+>> 
+>> Please let me know if you have any questions or concerns.
+>> 
+>>  
+>> 
+>> Regards,
+>> 
+>> Archana
+>> 
+>> 408-518-1453
+>> 
+>>  
+>> 
+>> The content of this message is APPLIED MATERIALS                 CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+>> 
+>> 
+>> 
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+> -- 
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980
+> mtang at stanford.edu
+> https://snf.stanford.edu
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/6ce5f215/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri May 10 08:38:39 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 10 May 2019 08:38:39 -0700
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <A933B0AA-B0CD-4D27-91A4-25B3C511B26D@stanford.edu>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+ <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+ <A933B0AA-B0CD-4D27-91A4-25B3C511B26D@stanford.edu>
+Message-ID: <CAFSuyDQROuV2SFBoymKyHtDrn1zb0O11iPU51WZdS-ciEEMO-A@mail.gmail.com>
+
+Fortunately it looks like Archana has also done her homework- I appreciate
+the links she sent that highlighted the safety concerns and she is a
+careful and conscientious lab member so I think she can do this safely!
+That sounds reasonable to me as well. Although we should make sure Uli is
+on board too- Uli would you like her to reserve the whole bench and do this
+during business hours?
+
+
+
+On Fri, May 10, 2019 at 8:25 AM maurice stevens <maurice at stanford.edu>
+wrote:
+
+> Good border setting.
+>
+> Sent from my mobile device
+>
+>
+> On May 10, 2019, at 8:08 AM, Mary Tang <mtang at stanford.edu> wrote:
+>
+> Hi Xiaoqing, et al -
+>
+>
+> First, for reference, here's the
+> https://suwater.stanford.edu/sites/g/files/sbiybj7756/f/wastewater_bmp_factsheet.pdf
+>
+>
+> I'd like to propose the following as a general approach for situations
+> like this.  I think it would be OK to aspirate for this experiment -- and
+> better for safety reasons.  Here's what I'm thinking (and please provide
+> counterarguments as you see them!)
+>
+>
+> 1.  Aqua Regia (HCl, Nitric acid), when diluted and neutralized, is
+> acceptable AWN waste.
+>
+>
+> 2.  Platinum is not listed on this sheet with a discharge limit.  That's
+> not to say that just because it doesn't appear on the sheet it's OK to
+> discharge -- BUT this sheet shows all the common industrial wastes of
+> concern -- noble metals are common in industrial use - and generally not
+> considered hazardous.  AND, it would be good to double-check, but I imagine
+> that the amount Archana plans to etch will be a thin layer that will result
+> in concentrations (etchant plus 3X rinses) that will be nowhere near the
+> mg/L scales on this sheet.
+>
+>
+> 3.  Safety.  When I hear about chemical incidents in other labs like ours,
+> it's invariably because they don't have a functional AWN (in one case, they
+> had one, but decided not to commission it for reasons of cost) and they had
+> aqua regia in a container without pressure relief or had inadvertently come
+> into contact with combustible materials.  So, I would much rather use our
+> AWN in those situations for aqua regia (and other mixes) where the identity
+> and concentration of waste materials is not incompatible with the
+> wastewater policy.
+>
+>
+> What do you all think?
+>
+>
+> Mary
+>
+>
+> On 5/9/2019 6:48 PM, Xiaoqing Xu wrote:
+>
+> I have a couple questions about this:
+>
+>    1. what beaker?
+>    2. do we need to dilute the aqua regia waste when collecting it into
+>    the regular waste container? Or use special pressure waste container with
+>    high pressure relieve?
+>
+>
+> Xiaoqing
+> ------------------------------
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+> <snf-promcommittee-bounces at lists.stanford.edu> on behalf of
+> Archana_Kumar at amat.com <Archana_Kumar at amat.com> <Archana_Kumar at amat.com>
+> *Sent:* Thursday, May 9, 2019 6:21 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [snf-promcommittee] PROM request for aqua regia etch of Pt
+>
+>
+> Hi PROM committee,
+>
+>
+>
+> I?m submitting a request to be allowed to wet etch Pt in aqua regia at
+> wbflexcorr-1/2. I require this specific step as part of a customer project
+> and would like to seek your inputs.  Please find attached all the
+> information requested in the attached form.
+>
+> Please let me know if you have any questions or concerns.
+>
+>
+>
+> Regards,
+>
+> Archana
+>
+> 408-518-1453
+>
+>
+>
+> The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are
+> not the intended recipient, please notify me, delete this email and do not
+> use or distribute this email.
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/7a897b99/attachment.html>
+
+From mcvittie at stanford.edu  Fri May 10 10:45:10 2019
+From: mcvittie at stanford.edu (James P McVittie)
+Date: Fri, 10 May 2019 17:45:10 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <CAFSuyDQROuV2SFBoymKyHtDrn1zb0O11iPU51WZdS-ciEEMO-A@mail.gmail.com>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+ <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+ <A933B0AA-B0CD-4D27-91A4-25B3C511B26D@stanford.edu>,
+ <CAFSuyDQROuV2SFBoymKyHtDrn1zb0O11iPU51WZdS-ciEEMO-A@mail.gmail.com>
+Message-ID: <BYAPR02MB5592496129E25E1A8EC410CDAA0C0@BYAPR02MB5592.namprd02.prod.outlook.com>
+
+Hi,
+
+
+We use Aqua Regia to clean our quartz reactor chamber for our SiGeSn nanowire system in the 111x lab. We dilute it and drain it into the acid waste system. We have been doing this for SiGe many many yrs and with Sn for the last few yrs.   Some yrs ago we had a project where we used Aqua Rega to etch one of the restricted material for the city drain.  It may have been Ni. Initially, we tried to put in a vented top jug for the chemical waste pickup but we had to keep the jug in the exhaust bench forever for it to stop venting.  We finally got the ok to put it down the HF drain since the H waste does not go into the city system. This particular project ended some yrs ago.
+
+
+Be careful when working with Aqua Regia. It splits. There can be sudden reactions which cause drops of Aqua Regia to fly out of its container.  I did a lot of work with Aqua Regia when I was a student and when I was at Lincoln Labs.
+
+
+    Jim
+
+
+
+
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+Sent: Friday, May 10, 2019 8:38 AM
+To: Maurice M Stevens
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+Fortunately it looks like Archana has also done her homework- I appreciate the links she sent that highlighted the safety concerns and she is a careful and conscientious lab member so I think she can do this safely! That sounds reasonable to me as well. Although we should make sure Uli is on board too- Uli would you like her to reserve the whole bench and do this during business hours?
+
+
+
+On Fri, May 10, 2019 at 8:25 AM maurice stevens <maurice at stanford.edu<mailto:maurice at stanford.edu>> wrote:
+Good border setting.
+
+Sent from my mobile device
+
+
+On May 10, 2019, at 8:08 AM, Mary Tang <mtang at stanford.edu<mailto:mtang at stanford.edu>> wrote:
+
+
+Hi Xiaoqing, et al -
+
+
+First, for reference, here's the https://suwater.stanford.edu/sites/g/files/sbiybj7756/f/wastewater_bmp_factsheet.pdf
+
+
+I'd like to propose the following as a general approach for situations like this.  I think it would be OK to aspirate for this experiment -- and better for safety reasons.  Here's what I'm thinking (and please provide counterarguments as you see them!)
+
+
+1.  Aqua Regia (HCl, Nitric acid), when diluted and neutralized, is acceptable AWN waste.
+
+
+2.  Platinum is not listed on this sheet with a discharge limit.  That's not to say that just because it doesn't appear on the sheet it's OK to discharge -- BUT this sheet shows all the common industrial wastes of concern -- noble metals are common in industrial use - and generally not considered hazardous.  AND, it would be good to double-check, but I imagine that the amount Archana plans to etch will be a thin layer that will result in concentrations (etchant plus 3X rinses) that will be nowhere near the mg/L scales on this sheet.
+
+
+3.  Safety.  When I hear about chemical incidents in other labs like ours, it's invariably because they don't have a functional AWN (in one case, they had one, but decided not to commission it for reasons of cost) and they had aqua regia in a container without pressure relief or had inadvertently come into contact with combustible materials.  So, I would much rather use our AWN in those situations for aqua regia (and other mixes) where the identity and concentration of waste materials is not incompatible with the wastewater policy.
+
+
+What do you all think?
+
+Mary
+
+
+On 5/9/2019 6:48 PM, Xiaoqing Xu wrote:
+
+I have a couple questions about this:
+
+  1.  what beaker?
+  2.  do we need to dilute the aqua regia waste when collecting it into the regular waste container? Or use special pressure waste container with high pressure relieve?
+
+Xiaoqing
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu><mailto:snf-promcommittee-bounces at lists.stanford.edu> on behalf of Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> <Archana_Kumar at amat.com><mailto:Archana_Kumar at amat.com>
+Sent: Thursday, May 9, 2019 6:21 PM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+
+Hi PROM committee,
+
+
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+
+Please let me know if you have any questions or concerns.
+
+
+
+Regards,
+
+Archana
+
+408-518-1453
+
+
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+https://snf.stanford.edu
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/eaef10e7/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri May 10 13:48:04 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 10 May 2019 13:48:04 -0700
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <BYAPR02MB5592496129E25E1A8EC410CDAA0C0@BYAPR02MB5592.namprd02.prod.outlook.com>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <SN6PR02MB4077F8B5688EEEF5FF4091D4D10C0@SN6PR02MB4077.namprd02.prod.outlook.com>
+ <12bec902-9bff-322d-7881-dd33e7860c18@stanford.edu>
+ <A933B0AA-B0CD-4D27-91A4-25B3C511B26D@stanford.edu>
+ <CAFSuyDQROuV2SFBoymKyHtDrn1zb0O11iPU51WZdS-ciEEMO-A@mail.gmail.com>
+ <BYAPR02MB5592496129E25E1A8EC410CDAA0C0@BYAPR02MB5592.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTRRZURRuwixF_cf=mZ4Fg8K+5N7dSfNbVZi7MJRJre7A@mail.gmail.com>
+
+Thanks Jim!
+
+On Fri, May 10, 2019 at 10:45 AM James P McVittie <mcvittie at stanford.edu>
+wrote:
+
+> Hi,
+>
+>
+> We use Aqua Regia to clean our quartz reactor chamber for our SiGeSn
+> nanowire system in the 111x lab. We dilute it and drain it into the acid
+> waste system. We have been doing this for SiGe many many yrs and with Sn
+> for the last few yrs.   Some yrs ago we had a project where we used Aqua
+> Rega to etch one of the restricted material for the city drain.  It may
+> have been Ni. Initially, we tried to put in a vented top jug for the
+> chemical waste pickup but we had to keep the jug in the exhaust bench
+> forever for it to stop venting.  We finally got the ok to put it down the
+> HF drain since the H waste does not go into the city system. This
+> particular project ended some yrs ago.
+>
+>
+> Be careful when working with Aqua Regia. It splits. There can be sudden
+> reactions which cause drops of Aqua Regia to fly out of its container.  I
+> did a lot of work with Aqua Regia when I was a student and when I was at
+> Lincoln Labs.
+>
+>
+>     Jim
+>
+>
+>
+>
+>
+> ------------------------------
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Friday, May 10, 2019 8:38 AM
+> *To:* Maurice M Stevens
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+>
+> Fortunately it looks like Archana has also done her homework- I appreciate
+> the links she sent that highlighted the safety concerns and she is a
+> careful and conscientious lab member so I think she can do this safely!
+> That sounds reasonable to me as well. Although we should make sure Uli is
+> on board too- Uli would you like her to reserve the whole bench and do this
+> during business hours?
+>
+>
+>
+> On Fri, May 10, 2019 at 8:25 AM maurice stevens <maurice at stanford.edu>
+> wrote:
+>
+> Good border setting.
+>
+> Sent from my mobile device
+>
+>
+> On May 10, 2019, at 8:08 AM, Mary Tang <mtang at stanford.edu> wrote:
+>
+> Hi Xiaoqing, et al -
+>
+>
+> First, for reference, here's the
+> https://suwater.stanford.edu/sites/g/files/sbiybj7756/f/wastewater_bmp_factsheet.pdf
+>
+>
+> I'd like to propose the following as a general approach for situations
+> like this.  I think it would be OK to aspirate for this experiment -- and
+> better for safety reasons.  Here's what I'm thinking (and please provide
+> counterarguments as you see them!)
+>
+>
+> 1.  Aqua Regia (HCl, Nitric acid), when diluted and neutralized, is
+> acceptable AWN waste.
+>
+>
+> 2.  Platinum is not listed on this sheet with a discharge limit.  That's
+> not to say that just because it doesn't appear on the sheet it's OK to
+> discharge -- BUT this sheet shows all the common industrial wastes of
+> concern -- noble metals are common in industrial use - and generally not
+> considered hazardous.  AND, it would be good to double-check, but I imagine
+> that the amount Archana plans to etch will be a thin layer that will result
+> in concentrations (etchant plus 3X rinses) that will be nowhere near the
+> mg/L scales on this sheet.
+>
+>
+> 3.  Safety.  When I hear about chemical incidents in other labs like ours,
+> it's invariably because they don't have a functional AWN (in one case, they
+> had one, but decided not to commission it for reasons of cost) and they had
+> aqua regia in a container without pressure relief or had inadvertently come
+> into contact with combustible materials.  So, I would much rather use our
+> AWN in those situations for aqua regia (and other mixes) where the identity
+> and concentration of waste materials is not incompatible with the
+> wastewater policy.
+>
+>
+> What do you all think?
+>
+>
+> Mary
+>
+>
+> On 5/9/2019 6:48 PM, Xiaoqing Xu wrote:
+>
+> I have a couple questions about this:
+>
+>    1. what beaker?
+>    2. do we need to dilute the aqua regia waste when collecting it into
+>    the regular waste container? Or use special pressure waste container with
+>    high pressure relieve?
+>
+>
+> Xiaoqing
+> ------------------------------
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+> <snf-promcommittee-bounces at lists.stanford.edu> on behalf of
+> Archana_Kumar at amat.com <Archana_Kumar at amat.com> <Archana_Kumar at amat.com>
+> *Sent:* Thursday, May 9, 2019 6:21 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [snf-promcommittee] PROM request for aqua regia etch of Pt
+>
+>
+> Hi PROM committee,
+>
+>
+>
+> I?m submitting a request to be allowed to wet etch Pt in aqua regia at
+> wbflexcorr-1/2. I require this specific step as part of a customer project
+> and would like to seek your inputs.  Please find attached all the
+> information requested in the attached form.
+>
+> Please let me know if you have any questions or concerns.
+>
+>
+>
+> Regards,
+>
+> Archana
+>
+> 408-518-1453
+>
+>
+>
+> The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are
+> not the intended recipient, please notify me, delete this email and do not
+> use or distribute this email.
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190510/40fcfd39/attachment.html>
+
+From adijung at berkeley.edu  Mon May 13 19:00:31 2019
+From: adijung at berkeley.edu (Adi Jung)
+Date: Mon, 13 May 2019 19:00:31 -0700
+Subject: [snf-promcommittee] Interest in Intlvac_sputter + quick questions
+Message-ID: <CAJiK-i+UEb3s7y=yWEunqPseRYs=nqY_tV0=Bm+iFXa_aiZ--w@mail.gmail.com>
+
+Hello,
+
+I'm a graduate student currently at UC Berkeley, and I'm interested in
+potentially using the Intlvac_sputter for Mo and piezoelectric AlN reactive
+sputtering. Wanted to ask a couple of questions about the tool to figure
+out if it would work for me.
+
+   1. Is there an existing AlN reactive sputtering process in use?
+   2. If so, is it used for piezoelectric film deposition?
+   3. What size wafers are compatible with the tool?
+
+Thanks very much for your help,
+Adi Jung
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190513/d2164414/attachment.html>
+
+From mmrincon at stanford.edu  Tue May 14 09:41:53 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 14 May 2019 16:41:53 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190514/e2e692ed/attachment.html>
+
+From snf-access at stanford.edu  Tue May 14 09:46:04 2019
+From: snf-access at stanford.edu (snf-access)
+Date: Tue, 14 May 2019 16:46:04 +0000
+Subject: [snf-promcommittee] Interest in Intlvac_sputter + quick
+	questions
+In-Reply-To: <CAJiK-i+UEb3s7y=yWEunqPseRYs=nqY_tV0=Bm+iFXa_aiZ--w@mail.gmail.com>
+References: <CAJiK-i+UEb3s7y=yWEunqPseRYs=nqY_tV0=Bm+iFXa_aiZ--w@mail.gmail.com>
+Message-ID: <BYAPR02MB5045793EC207AA3D846FE251E5080@BYAPR02MB5045.namprd02.prod.outlook.com>
+
+Hi Adi,
+
+I am copying Maurice Stevens, the engineer for that tool, to answer your questions.
+
+Lori
+
+From: Adi Jung <adijung at berkeley.edu>
+Sent: Monday, May 13, 2019 7:01 PM
+To: snf-promcommittee at lists.stanford.edu; snf-access <snf-access at stanford.edu>
+Subject: Interest in Intlvac_sputter + quick questions
+
+Hello,
+
+I'm a graduate student currently at UC Berkeley, and I'm interested in potentially using the Intlvac_sputter for Mo and piezoelectric AlN reactive sputtering. Wanted to ask a couple of questions about the tool to figure out if it would work for me.
+
+  1.  Is there an existing AlN reactive sputtering process in use?
+  2.  If so, is it used for piezoelectric film deposition?
+  3.  What size wafers are compatible with the tool?
+Thanks very much for your help,
+Adi Jung
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190514/d108fa10/attachment-0001.html>
+
+From Archana_Kumar at amat.com  Tue May 14 09:53:59 2019
+From: Archana_Kumar at amat.com (Archana_Kumar at amat.com)
+Date: Tue, 14 May 2019 16:53:59 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+Message-ID: <DM5P102MB00763DFC31ECD7CD41AC1CCCE5080@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+
+Hi Michelle,
+Thanks for your response! I?m flexible with the timing as long as I can fit it into my SNF days.
+As of now the earliest attempt I?d like to make is next week ? perhaps Wednesday 5/22 or Thursday 5/23? On that day, I expect to use the bench for a  maximum of 2 hours depending on how easy this process ends up being -  I?ll only have 3 actual samples to etch, with maybe 1 or 2 calibration samples.
+
+After I measure those devices, I might want to iterate on the experiments one or two more times, perhaps 1-2 weeks after that. I?m flexible and can plan to work around any scheduling constraints on the bench.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com>
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190514/1d291189/attachment.html>
+
+From maurice at stanford.edu  Tue May 14 10:34:09 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Tue, 14 May 2019 10:34:09 -0700
+Subject: [snf-promcommittee] Interest in Intlvac_sputter + quick
+	questions
+In-Reply-To: <CAJiK-i+UEb3s7y=yWEunqPseRYs=nqY_tV0=Bm+iFXa_aiZ--w@mail.gmail.com>
+References: <CAJiK-i+UEb3s7y=yWEunqPseRYs=nqY_tV0=Bm+iFXa_aiZ--w@mail.gmail.com>
+Message-ID: <3786D7BA-AB50-48F8-8AF8-B3E7AED8A879@stanford.edu>
+
+
+Hi Adi,
+
+If you can use a gold contaminated system, I would suggest our Lesker-Sputter. It can do Mo and has reactive processes running on it.
+It deposit on one six inch wafer or one 4 inch wafer or pieces.
+
+The Intlvac-Sputter (from your original question) can do Mo and was initial set up for reactive sputtering?but a reactive process was not optimized on the tool.
+We plan on retiring the Intlvac-Sputter later this year and are strongly recommending user not commit their processes to this tool.
+
+In a few months we hope to have our second Lesker-Sputter system up and running (it is already here and waiting for permits/installation).  It will not be gold contaminated
+but will deposit Mo and reactive materials.
+
+I hope this helps.  Shoot me another email if you need more information.
+
+
+-m
+
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On May 13, 2019, at 7:00 PM, Adi Jung <adijung at berkeley.edu> wrote:
+> 
+> Hello,
+> 
+> I'm a graduate student currently at UC Berkeley, and I'm interested in potentially using the Intlvac_sputter for Mo and piezoelectric AlN reactive sputtering. Wanted to ask a couple of questions about the tool to figure out if it would work for me.
+> Is there an existing AlN reactive sputtering process in use?
+> If so, is it used for piezoelectric film deposition?
+> What size wafers are compatible with the tool?
+> Thanks very much for your help,
+> Adi Jung
+> 
+> 
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190514/39418c5f/attachment-0001.html>
+
+From mmrincon at stanford.edu  Tue May 14 15:54:52 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 14 May 2019 22:54:52 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DM5P102MB00763DFC31ECD7CD41AC1CCCE5080@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+ <DM5P102MB00763DFC31ECD7CD41AC1CCCE5080@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <70A4BCB3-7443-4E0F-8C36-536F60E78815@stanford.edu>
+
+Hi PROM Comm,
+
+So this is helpful from the scheduling part, but we should nail down the disposal.
+
+Uli reminded me that the HNA etch goes down the HF drain, if Archana dilutes her solution after etch, could we pour it down the HF drain? That way we don?t have to worry about the metals levels and it will get treated as Hazardous Waste. (Are those statements correct?).
+
+Or I found this on the University of Illinois lab page (https://www.drs.illinois.edu/SafetyLibrary/AquaRegia)
+
+DISPOSAL
+
+Pour excess and waste aqua regia into a large quantity of ice (500 grams of ice per 100 mL of aqua regia). Neutralize the mixture with an aqueous basic solution, such as 1M or 10% sodium hydroxide (NaOH) or saturated sodium bicarbonate (NaHCO3) in water until pH is neutral. The neutralized solution may then be poured down drain. If the neutralized mixture contains heavy metals (e.g., gold, platinum, lead, chromium), the solution should be labeled and disposed of through the chemical waste management system.
+
+  *   Aqua regia (with barium, cadmium, lead & selenium waste) ? UI# 80574
+  *   Aqua regia (with chromium waste) ? UI# 80575
+  *   Aqua regia (with all other wastes) ? UI# 586
+  *
+
+On May 14, 2019, at 9:53 AM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi Michelle,
+Thanks for your response! I?m flexible with the timing as long as I can fit it into my SNF days.
+As of now the earliest attempt I?d like to make is next week ? perhaps Wednesday 5/22 or Thursday 5/23? On that day, I expect to use the bench for a  maximum of 2 hours depending on how easy this process ends up being -  I?ll only have 3 actual samples to etch, with maybe 1 or 2 calibration samples.
+
+After I measure those devices, I might want to iterate on the experiments one or two more times, perhaps 1-2 weeks after that. I?m flexible and can plan to work around any scheduling constraints on the bench.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190514/f3f8a0c3/attachment-0001.html>
+
+From Archana_Kumar at amat.com  Thu May 16 17:03:46 2019
+From: Archana_Kumar at amat.com (Archana_Kumar at amat.com)
+Date: Fri, 17 May 2019 00:03:46 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+Message-ID: <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+
+Hi Michelle,
+I also received two SOP references (they appear to be from Yale and Tufts) ?  please see if these might help.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com>
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190517/290d8464/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SOP_AquaRegiaEtch.pdf
+Type: application/pdf
+Size: 168969 bytes
+Desc: SOP_AquaRegiaEtch.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190517/290d8464/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: aqua-regia-sopYale.pdf
+Type: application/pdf
+Size: 620731 bytes
+Desc: aqua-regia-sopYale.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190517/290d8464/attachment-0003.pdf>
+
+From jwonseo at stanford.edu  Mon May 20 12:39:00 2019
+From: jwonseo at stanford.edu (Ji Won Seo)
+Date: Mon, 20 May 2019 19:39:00 +0000
+Subject: [snf-promcommittee] Request a chemical,
+	negative photoresist NR9-3000PY
+Message-ID: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+
+Hi, This is Ji Won Seo, SNF member.
+
+I request for use and storage of a chemical, negative photoresist NR9-3000PY.
+
+
+I attach a PROM form for placing my chemical in SNF.
+
+
+Additionally, I attach a MSDS, protocol sheet, and image of bottle in SNF.
+
+
+Please check it and let me know how it is going on.
+
+
+Thank  you.
+
+
+Best, Ji Won.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190520/4b4cddda/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: NR9-3000PY SDS GHS format 2019.pdf
+Type: application/pdf
+Size: 152724 bytes
+Desc: NR9-3000PY SDS GHS format 2019.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190520/4b4cddda/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: NR9-3000PY.pdf
+Type: application/pdf
+Size: 2288437 bytes
+Desc: NR9-3000PY.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190520/4b4cddda/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: KakaoTalk_20190520_123039103.jpg
+Type: image/jpeg
+Size: 319996 bytes
+Desc: KakaoTalk_20190520_123039103.jpg
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190520/4b4cddda/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_Ji Won Seo.doc.docx
+Type: application/haansoftdocx
+Size: 103265 bytes
+Desc: Process or Materials Request Form_Ji Won Seo.doc.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190520/4b4cddda/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Wed May 22 10:59:59 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 22 May 2019 17:59:59 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+ <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <4BC93FFD-B31C-4B3D-B91F-5CDA3865A9D2@stanford.edu>
+
+Hi Archana,
+
+We have discussed and have decided that the safest way for you to dispose of the solution will be down the HF drain immediately followed with a long rinse of DI water down the drain to dilute the chemistry. You will need to reserve the entire bench during your processing, so please coordinate with Uli for times since there are other lab members with processes that they are currently doing that also require reserving the whole bench.
+
+Please update the PROM request and re-sumbit for archiving purposes. I won?t make the request public since you are representing a company now!
+
+Best,
+Michelle
+
+On May 16, 2019, at 5:03 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi Michelle,
+I also received two SOP references (they appear to be from Yale and Tufts) ?  please see if these might help.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+<SOP_AquaRegiaEtch.pdf><aqua-regia-sopYale.pdf>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190522/1316374e/attachment-0001.html>
+
+From mmrincon at stanford.edu  Wed May 22 11:11:10 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 22 May 2019 11:11:10 -0700
+Subject: [snf-promcommittee] Request a chemical,
+	negative photoresist NR9-3000PY
+In-Reply-To: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+References: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTmdQ=BqMyuF342KYXzeKh65kBao+4HaH1pQbnaBu220w@mail.gmail.com>
+
+I think this looks fine- Phil are you ok with it?
+
+On Mon, May 20, 2019 at 12:39 PM Ji Won Seo <jwonseo at stanford.edu> wrote:
+
+> Hi, This is Ji Won Seo, SNF member.
+>
+> I request for use and storage of a chemical, negative photoresist
+> NR9-3000PY.
+>
+>
+> I attach a PROM form for placing my chemical in SNF.
+>
+>
+> Additionally, I attach a MSDS, protocol sheet, and image of bottle in
+> SNF.
+>
+>
+> Please check it and let me know how it is going on.
+>
+>
+> Thank  you.
+>
+>
+> Best, Ji Won.
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190522/ab58ff09/attachment.html>
+
+From mmrincon at stanford.edu  Wed May 22 16:35:21 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 22 May 2019 16:35:21 -0700
+Subject: [snf-promcommittee] Fwd: PROMCOM Request For EKC640
+In-Reply-To: <CAH1gGp0JTLfJV=cB5fT-p-Uv=kr64KTQRSBgDiP2=atBzosqtw@mail.gmail.com>
+References: <CAH1gGp26T+97oAX6TzxA1FTjYCJTQP1jrLx_fSN=hC-L70oRNw@mail.gmail.com>
+ <CAFSuyDRwhDVwNsLgVzMRrnTt6PrOj7in8EpzD7cjt1StyocsvQ@mail.gmail.com>
+ <93D83CDD-0C8F-400E-99FD-24C62CE99499@gmail.com>
+ <CAFSuyDS8mtRf-5oMjWkn0J7xkWmzcUS01GOjtKv0RDVTiMnYxg@mail.gmail.com>
+ <CAH1gGp2XK6hoZHRLHM7o9QwUNzjY-cAS1grzzEua9xZEkX_CJw@mail.gmail.com>
+ <CAH1gGp3msiwxLCheiOfqDc3rYosCcg0J2SFQEQmZjYhnBTiTog@mail.gmail.com>
+ <CAFSuyDTuECGJgJNmyPwZSreKEjL4EA1GifmHvM6N5HkKN4HvvQ@mail.gmail.com>
+ <CAH1gGp0JTLfJV=cB5fT-p-Uv=kr64KTQRSBgDiP2=atBzosqtw@mail.gmail.com>
+Message-ID: <CAFSuyDQ4RoEuDAoL=Zq6y9U0PbEzY6H8a9TxpHrDhbdeknOk-A@mail.gmail.com>
+
+Thank you Yvonne,
+
+Your request is approved. We are working on a new system for the yellow
+labels, so please talk to Uli and Gary to get the yellow label printed for
+your bottle.
+
+Please let me know if you have any further questions,
+
+Michelle
+---------- Forwarded message ---------
+From: Yvonne Sun <mengsnf0220 at gmail.com>
+Date: Wed, May 22, 2019 at 1:56 PM
+Subject: Re: PROMCOM Request For EKC640
+To: Michelle Rincon <mmrincon at stanford.edu>
+
+
+Hi Michelle,
+
+Thanks for the quick response.
+-Here is the updated application form with 40C application added.
+-I have not heard about 630. I have a demo session at DuPont with various
+chemicals (EKC630 was not in the recommendation list), and EKC640 seems to
+be effective in terms of removing post-etch residues.
+
+Thanks,
+Yvonne
+
+On Wed, May 22, 2019 at 1:45 PM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> Hi Yvonne,
+>
+> You should add that to the request, but that looks like it is under the
+> flash point so I believe it should be ok.
+>
+> Best,
+> Michelle
+>
+> On Wed, May 22, 2019 at 1:39 PM Yvonne Sun <mengsnf0220 at gmail.com> wrote:
+>
+>> Hi Michelle,
+>>
+>> What is the status of my PROM request for EKC640? Also, I would like to
+>> use EKC640 under both room temperature and 40C, do I have to submit another
+>> PROM application for 40C application?
+>>
+>> Thanks,
+>> Yvonne
+>>
+>> On Tue, Apr 9, 2019 at 1:13 PM Yvonne Sun <mengsnf0220 at gmail.com> wrote:
+>>
+>>> Hi Michelle,
+>>>
+>>> I fixed the typo. Here is the current version.
+>>>
+>>> Thanks,
+>>> Yvonne
+>>>
+>>> On Tue, Apr 9, 2019 at 1:01 PM Michelle Rincon <mmrincon at stanford.edu>
+>>> wrote:
+>>>
+>>>> Thanks Yvonne,
+>>>>
+>>>> Could you please correct the steps in your form and resubmit?
+>>>>
+>>>> Thanks!
+>>>> Michelle
+>>>>
+>>>> On Tue, Apr 9, 2019 at 12:14 PM Yvonne Sun <mengsnf0220 at gmail.com>
+>>>> wrote:
+>>>>
+>>>>> Hi Michelle,
+>>>>>
+>>>>> I will not be heating EKC640.
+>>>>>
+>>>>> Thanks,
+>>>>> Yvonne
+>>>>>
+>>>>> Sent from my iPhone
+>>>>>
+>>>>> On Apr 9, 2019, at 12:03 PM, Michelle Rincon <
+>>>>> michelle.rincon at gmail.com> wrote:
+>>>>>
+>>>>> Hi Yvonne,
+>>>>>
+>>>>> Thank you for your submission. Could I ask for a bit of clarification?
+>>>>> You list your steps and have listed both EKC640 and 265 in the same step.
+>>>>> Will you be heating the 640? If so, at what temperature will you be using
+>>>>> it?
+>>>>> Best,
+>>>>> Michelle
+>>>>>
+>>>>> On Mon, Apr 8, 2019 at 5:13 PM Yvonne Sun <mengsnf0220 at gmail.com>
+>>>>> wrote:
+>>>>>
+>>>>>> Dear PROMCOM,
+>>>>>>
+>>>>>> I am submitting a request to bring in EKC640. This is a post-etch
+>>>>>> residue remover. My request form and SDS are attached in this email.
+>>>>>>
+>>>>>> Thanks,
+>>>>>> Yvonne
+>>>>>>
+>>>>> --
+>>>> Michelle Rincon, PhD
+>>>> Senior Engineer
+>>>> Stanford Nanofabrication Facility
+>>>>
+>>>> (650)-725-0307
+>>>> mmrincon at stanford.edu
+>>>>
+>>>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190522/5a62868c/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Yvonne_Process or Materials Request Form.doc.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 106370 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190522/5a62868c/attachment-0001.docx>
+
+From Archana_Kumar at amat.com  Fri May 24 09:02:46 2019
+From: Archana_Kumar at amat.com (Archana_Kumar at amat.com)
+Date: Fri, 24 May 2019 16:02:46 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <4BC93FFD-B31C-4B3D-B91F-5CDA3865A9D2@stanford.edu>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+ <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <4BC93FFD-B31C-4B3D-B91F-5CDA3865A9D2@stanford.edu>
+Message-ID: <DM5P102MB00769E5457A3D0F7E41D5BFAE5020@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+
+Thank you Michelle. I will resend the updated request shortly.
+
+Uli ? I?d like to try this process next week ? does Tuesday 1-330pm sound good? I have booked both the sides of the bench and if you agree I will send out an advance email to the user list informing them that the bench will be off limits that time. Thanks!
+
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Wednesday, May 22, 2019 11:00 AM
+To: Archana Kumar <Archana_Kumar at amat.com>
+Cc: Michelle Rincon <michelle.rincon at gmail.com>; snf-promcommittee at lists.stanford.edu
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+Hi Archana,
+
+We have discussed and have decided that the safest way for you to dispose of the solution will be down the HF drain immediately followed with a long rinse of DI water down the drain to dilute the chemistry. You will need to reserve the entire bench during your processing, so please coordinate with Uli for times since there are other lab members with processes that they are currently doing that also require reserving the whole bench.
+
+Please update the PROM request and re-sumbit for archiving purposes. I won?t make the request public since you are representing a company now!
+
+Best,
+Michelle
+
+
+On May 16, 2019, at 5:03 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi Michelle,
+I also received two SOP references (they appear to be from Yale and Tufts) ?  please see if these might help.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+<SOP_AquaRegiaEtch.pdf><aqua-regia-sopYale.pdf>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190524/a8edba4f/attachment-0001.html>
+
+From jwonseo at stanford.edu  Tue May 28 12:35:42 2019
+From: jwonseo at stanford.edu (Ji Won Seo)
+Date: Tue, 28 May 2019 19:35:42 +0000
+Subject: [snf-promcommittee] Fw: Request a chemical,
+	negative photoresist NR9-3000PY
+In-Reply-To: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+References: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+Message-ID: <CY4PR02MB2584604D7ED19947482E6323D21E0@CY4PR02MB2584.namprd02.prod.outlook.com>
+
+Hi, All.
+
+It's reminder. I want to use it asap.
+
+Thank you.
+
+
+Best, Ji Won.
+
+
+________________________________
+From: Ji Won Seo
+Sent: Monday, May 20, 2019 12:39 PM
+To: snf-promcommittee at lists.stanford.edu
+Subject: Request a chemical, negative photoresist NR9-3000PY
+
+
+Hi, This is Ji Won Seo, SNF member.
+
+I request for use and storage of a chemical, negative photoresist NR9-3000PY.
+
+
+I attach a PROM form for placing my chemical in SNF.
+
+
+Additionally, I attach a MSDS, protocol sheet, and image of bottle in SNF.
+
+
+Please check it and let me know how it is going on.
+
+
+Thank  you.
+
+
+Best, Ji Won.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190528/14264868/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: NR9-3000PY SDS GHS format 2019.pdf
+Type: application/pdf
+Size: 152724 bytes
+Desc: NR9-3000PY SDS GHS format 2019.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190528/14264868/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: NR9-3000PY.pdf
+Type: application/pdf
+Size: 2288437 bytes
+Desc: NR9-3000PY.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190528/14264868/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: KakaoTalk_20190520_123039103.jpg
+Type: image/jpeg
+Size: 319996 bytes
+Desc: KakaoTalk_20190520_123039103.jpg
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190528/14264868/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_Ji Won Seo.doc.docx
+Type: application/haansoftdocx
+Size: 103265 bytes
+Desc: Process or Materials Request Form_Ji Won Seo.doc.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190528/14264868/attachment-0001.docx>
+
+From mtang at stanford.edu  Wed May 29 08:54:30 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Wed, 29 May 2019 08:54:30 -0700
+Subject: [snf-promcommittee] Fw: Request a chemical,
+ negative photoresist NR9-3000PY
+In-Reply-To: <CY4PR02MB2584604D7ED19947482E6323D21E0@CY4PR02MB2584.namprd02.prod.outlook.com>
+References: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+ <CY4PR02MB2584604D7ED19947482E6323D21E0@CY4PR02MB2584.namprd02.prod.outlook.com>
+Message-ID: <46235b04-664d-f859-cd9a-203cba8ae80f@stanford.edu>
+
+Hi all -
+
+
+It seems to me that this should be fine, as long as there is space in 
+the cabinet for this chemical.
+
+
+We should revisit the photoresist procedures, now that Mahnaz is no 
+longer the gate-keeper.? Maybe a topic for the next User Experience 
+meeting, in a couple of weeks?
+
+
+Mary
+
+
+
+On 5/28/2019 12:35 PM, Ji Won Seo wrote:
+>
+> Hi, All.
+>
+> It's reminder. I want to use it asap.
+>
+> Thank you.
+>
+>
+> Best, Ji Won.
+>
+>
+>
+> ------------------------------------------------------------------------
+> *From:* Ji Won Seo
+> *Sent:* Monday, May 20, 2019 12:39 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Request a chemical, negative photoresist NR9-3000PY
+>
+> Hi, This is Ji Won Seo, SNF member.
+>
+> I request for use and storage of a?chemical, negative photoresist 
+> NR9-3000PY.
+>
+>
+> I attach a PROM form for placing my chemical in SNF.
+>
+>
+> Additionally, I attach a MSDS, protocol sheet, and?image of bottle in 
+> SNF.
+>
+>
+> Please check it and let me know how it is going on.
+>
+>
+> Thank? you.
+>
+>
+> Best, Ji Won.
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190529/a8a71c88/attachment.html>
+
+From rxu at raxium.com  Wed May 29 14:13:20 2019
+From: rxu at raxium.com (Robert Xu)
+Date: Wed, 29 May 2019 21:13:20 +0000
+Subject: [snf-promcommittee] LOL1000
+Message-ID: <BN8PR19MB251440DC04843D9304551427D01F0@BN8PR19MB2514.namprd19.prod.outlook.com>
+
+Hi Phil and Uli,
+Would you please review LOL1000?
+Thanks
+
+Robert Xu
+Raxium, Inc.
+1250 Reliance Way,
+Fremont, CA 94539
+Office: (510) 296-9914
+Cell: 408-221-4908
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190529/cbfd46d9/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Review Request Form-LOL1000.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 25961 bytes
+Desc: Process or Materials Review Request Form-LOL1000.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190529/cbfd46d9/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MICROPOSIT? LOL? 1000 LIFT OFF LAYER Rev 07Nov2017-sds.PDF
+Type: application/pdf
+Size: 330550 bytes
+Desc: MICROPOSIT? LOL? 1000 LIFT OFF LAYER Rev 07Nov2017-sds.PDF
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190529/cbfd46d9/attachment-0001.PDF>
+
+From mmrincon at stanford.edu  Thu May 30 10:38:37 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 30 May 2019 10:38:37 -0700
+Subject: [snf-promcommittee] Request a chemical,
+	negative photoresist NR9-3000PY
+In-Reply-To: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+References: <CY4PR02MB2584F1C4AC17F6AA56D990D1D2060@CY4PR02MB2584.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQR3t77FnB7EC997b4cpa1fCJUNUzbvNA6HwtszyHdO_A@mail.gmail.com>
+
+Hi Ji Won,
+
+We have reviewed our storage and your request is approved. Please see Gary
+Sosa to print a yellow label for your chemical.
+
+Please let me know if you have any questions!
+
+Best,
+Michelle
+
+On Mon, May 20, 2019 at 12:39 PM Ji Won Seo <jwonseo at stanford.edu> wrote:
+
+> Hi, This is Ji Won Seo, SNF member.
+>
+> I request for use and storage of a chemical, negative photoresist
+> NR9-3000PY.
+>
+>
+> I attach a PROM form for placing my chemical in SNF.
+>
+>
+> Additionally, I attach a MSDS, protocol sheet, and image of bottle in
+> SNF.
+>
+>
+> Please check it and let me know how it is going on.
+>
+>
+> Thank  you.
+>
+>
+> Best, Ji Won.
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/25e45c96/attachment.html>
+
+From rxu at raxium.com  Thu May 30 10:40:15 2019
+From: rxu at raxium.com (Robert Xu)
+Date: Thu, 30 May 2019 17:40:15 +0000
+Subject: [snf-promcommittee] LOL1000
+In-Reply-To: <CAFSuyDRKSsb5p2-J5PnLb5emFUGx7o-E=hJSOtX1jbfGxgofXA@mail.gmail.com>
+References: <BN8PR19MB251440DC04843D9304551427D01F0@BN8PR19MB2514.namprd19.prod.outlook.com>
+ <CAFSuyDRKSsb5p2-J5PnLb5emFUGx7o-E=hJSOtX1jbfGxgofXA@mail.gmail.com>
+Message-ID: <BN8PR19MB251441C62248382CE7DBD9DDD0180@BN8PR19MB2514.namprd19.prod.outlook.com>
+
+Hi Michelle,
+Thank you very much.
+Robert
+
+From: Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Thursday, May 30, 2019 10:38 AM
+To: Robert Xu <rxu at raxium.com>; Gary J Sosa <gsosa at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu; Phillip Himmer <phimmer at stanford.edu>; Uli Thumser <uthumser at stanford.edu>
+Subject: Re: [snf-promcommittee] LOL1000
+
+Hi Robert,
+
+Your request is approved. Please see Gary Sosa to print a yellow label for your chemical when you bring it in.
+
+Please let me know if you have any questions!
+
+Best,
+Michelle
+
+On Wed, May 29, 2019 at 2:13 PM Robert Xu <rxu at raxium.com<mailto:rxu at raxium.com>> wrote:
+Hi Phil and Uli,
+Would you please review LOL1000?
+Thanks
+
+Robert Xu
+Raxium, Inc.
+1250 Reliance Way,
+Fremont, CA 94539
+Office: (510) 296-9914
+Cell: 408-221-4908
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/52f4a248/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Thu May 30 10:37:41 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 30 May 2019 10:37:41 -0700
+Subject: [snf-promcommittee] LOL1000
+In-Reply-To: <BN8PR19MB251440DC04843D9304551427D01F0@BN8PR19MB2514.namprd19.prod.outlook.com>
+References: <BN8PR19MB251440DC04843D9304551427D01F0@BN8PR19MB2514.namprd19.prod.outlook.com>
+Message-ID: <CAFSuyDRKSsb5p2-J5PnLb5emFUGx7o-E=hJSOtX1jbfGxgofXA@mail.gmail.com>
+
+Hi Robert,
+
+Your request is approved. Please see Gary Sosa to print a yellow label for
+your chemical when you bring it in.
+
+Please let me know if you have any questions!
+
+Best,
+Michelle
+
+On Wed, May 29, 2019 at 2:13 PM Robert Xu <rxu at raxium.com> wrote:
+
+> Hi Phil and Uli,
+>
+> Would you please review LOL1000?
+>
+> Thanks
+>
+>
+>
+> Robert Xu
+>
+> Raxium, Inc.
+>
+> 1250 Reliance Way,
+>
+> Fremont, CA 94539
+>
+> Office: *(510) 296-9914*
+>
+> Cell: 408-221-4908
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/3b0d9705/attachment-0001.html>
+
+From Archana_Kumar at amat.com  Thu May 30 11:59:51 2019
+From: Archana_Kumar at amat.com (Archana_Kumar at amat.com)
+Date: Thu, 30 May 2019 18:59:51 +0000
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <DM5P102MB00769E5457A3D0F7E41D5BFAE5020@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+ <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <4BC93FFD-B31C-4B3D-B91F-5CDA3865A9D2@stanford.edu>
+ <DM5P102MB00769E5457A3D0F7E41D5BFAE5020@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <CY4P102MB01228FFCE90F2EDEF377B4C0E5180@CY4P102MB0122.NAMP102.PROD.OUTLOOK.COM>
+
+Hi Michelle,
+Here is the updated form for archival.
+
+An update on the aqua regia process (for your record or for any future users): I used about 200ml of solution ? 3:1 HCl:HNO3 by volume. The solution was very well behaved and not too bubbly or vigorous as I had feared. There is very mild effervescence during the etch. It starts colorless and quickly turns yellow and then deep orange. It etches Pt too slowly and non-uniformly at room temperature. A literature search suggests this process should be done at 75-80C (which I am not pursuing at this point).
+
+Hope that helps.
+Regards,
+Archana
+
+
+From: Archana Kumar
+Sent: Friday, May 24, 2019 9:03 AM
+To: Michelle Rincon <mmrincon at stanford.edu>; Ulrike Martina Thumser <uthumser at stanford.edu>
+Cc: Michelle Rincon <michelle.rincon at gmail.com>; snf-promcommittee at lists.stanford.edu
+Subject: RE: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+Thank you Michelle. I will resend the updated request shortly.
+
+Uli ? I?d like to try this process next week ? does Tuesday 1-330pm sound good? I have booked both the sides of the bench and if you agree I will send out an advance email to the user list informing them that the bench will be off limits that time. Thanks!
+
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, May 22, 2019 11:00 AM
+To: Archana Kumar <Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com>>
+Cc: Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>>; snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+Hi Archana,
+
+We have discussed and have decided that the safest way for you to dispose of the solution will be down the HF drain immediately followed with a long rinse of DI water down the drain to dilute the chemistry. You will need to reserve the entire bench during your processing, so please coordinate with Uli for times since there are other lab members with processes that they are currently doing that also require reserving the whole bench.
+
+Please update the PROM request and re-sumbit for archiving purposes. I won?t make the request public since you are representing a company now!
+
+Best,
+Michelle
+
+On May 16, 2019, at 5:03 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi Michelle,
+I also received two SOP references (they appear to be from Yale and Tufts) ?  please see if these might help.
+Regards,
+Archana
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, May 14, 2019 9:42 AM
+To: Archana Kumar <Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [External] Re: [snf-promcommittee] PROM request for aqua regia etch of Pt
+
+CAUTION: EXTERNAL EMAIL. Verify before you click links or open attachments. Questions? Contact GIS.
+
+Hi Archana,
+
+Thank you for the well written request! Your proposal sounds reasonable, and we are still working out the details of how we would like you to handle the safety aspect but we also have a logistical question- when would you like to do this etch? We currently have a few labmembers who are doing special processing which requires them to reserve the whole bench for safety reasons and we need to also consider how to incorporate the scheduling.
+
+Thanks!
+Michelle
+
+
+On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com<mailto:Archana_Kumar at amat.com> wrote:
+
+Hi PROM committee,
+
+I?m submitting a request to be allowed to wet etch Pt in aqua regia at wbflexcorr-1/2. I require this specific step as part of a customer project and would like to seek your inputs.  Please find attached all the information requested in the attached form.
+Please let me know if you have any questions or concerns.
+
+Regards,
+Archana
+408-518-1453
+
+The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are not the intended recipient, please notify me, delete this email and do not use or distribute this email.
+<Process or Materials Review Request Form.docx>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+<SOP_AquaRegiaEtch.pdf><aqua-regia-sopYale.pdf>_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/00fc32be/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Review Request Form.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 100745 bytes
+Desc: Process or Materials Review Request Form.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/00fc32be/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Thu May 30 13:37:43 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 30 May 2019 13:37:43 -0700
+Subject: [snf-promcommittee] PROM request for aqua regia etch of Pt
+In-Reply-To: <CY4P102MB01228FFCE90F2EDEF377B4C0E5180@CY4P102MB0122.NAMP102.PROD.OUTLOOK.COM>
+References: <DM5P102MB0076E50F0C44ED62CF8A3051E50C0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <DF84C5E6-8A86-4528-93CF-15F84253BB7E@stanford.edu>
+ <DM5P102MB00762FE0AB2F373CF4751FCDE50B0@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <4BC93FFD-B31C-4B3D-B91F-5CDA3865A9D2@stanford.edu>
+ <DM5P102MB00769E5457A3D0F7E41D5BFAE5020@DM5P102MB0076.NAMP102.PROD.OUTLOOK.COM>
+ <CY4P102MB01228FFCE90F2EDEF377B4C0E5180@CY4P102MB0122.NAMP102.PROD.OUTLOOK.COM>
+Message-ID: <CAFSuyDSPd_eq0cL07fZe7L7TELYOeJCVj7RyN6q6EzAtJdwoXQ@mail.gmail.com>
+
+Thank you Archana!!
+
+On Thu, May 30, 2019 at 11:59 AM <Archana_Kumar at amat.com> wrote:
+
+> Hi Michelle,
+>
+> Here is the updated form for archival.
+>
+>
+>
+> An update on the aqua regia process (for your record or for any future
+> users): I used about 200ml of solution ? 3:1 HCl:HNO3 by volume. The
+> solution was very well behaved and not too bubbly or vigorous as I had
+> feared. There is very mild effervescence during the etch. It starts
+> colorless and quickly turns yellow and then deep orange. It etches Pt too
+> slowly and non-uniformly at room temperature. A literature search suggests
+> this process should be done at 75-80C (which I am not pursuing at this
+> point).
+>
+>
+>
+> Hope that helps.
+>
+> Regards,
+>
+> Archana
+>
+>
+>
+>
+>
+> *From:* Archana Kumar
+> *Sent:* Friday, May 24, 2019 9:03 AM
+> *To:* Michelle Rincon <mmrincon at stanford.edu>; Ulrike Martina Thumser <
+> uthumser at stanford.edu>
+> *Cc:* Michelle Rincon <michelle.rincon at gmail.com>;
+> snf-promcommittee at lists.stanford.edu
+> *Subject:* RE: [snf-promcommittee] PROM request for aqua regia etch of Pt
+>
+>
+>
+> Thank you Michelle. I will resend the updated request shortly.
+>
+>
+>
+> Uli ? I?d like to try this process next week ? does Tuesday 1-330pm sound
+> good? I have booked both the sides of the bench and if you agree I will
+> send out an advance email to the user list informing them that the bench
+> will be off limits that time. Thanks!
+>
+>
+>
+> Regards,
+>
+> Archana
+>
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Wednesday, May 22, 2019 11:00 AM
+> *To:* Archana Kumar <Archana_Kumar at amat.com>
+> *Cc:* Michelle Rincon <michelle.rincon at gmail.com>;
+> snf-promcommittee at lists.stanford.edu
+> *Subject:* [External] Re: [snf-promcommittee] PROM request for aqua regia
+> etch of Pt
+>
+>
+>
+> CAUTION: EXTERNAL EMAIL. Verify before you click links or open
+> attachments. Questions? Contact GIS.
+>
+>
+>
+> Hi Archana,
+>
+>
+>
+> We have discussed and have decided that the safest way for you to dispose
+> of the solution will be down the HF drain immediately followed with a long
+> rinse of DI water down the drain to dilute the chemistry. You will need to
+> reserve the entire bench during your processing, so please coordinate with
+> Uli for times since there are other lab members with processes that they
+> are currently doing that also require reserving the whole bench.
+>
+>
+>
+> Please update the PROM request and re-sumbit for archiving purposes. I
+> won?t make the request public since you are representing a company now!
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On May 16, 2019, at 5:03 PM, Archana_Kumar at amat.com wrote:
+>
+>
+>
+> Hi Michelle,
+>
+> I also received two SOP references (they appear to be from Yale and Tufts)
+> ?  please see if these might help.
+>
+> Regards,
+>
+> Archana
+>
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, May 14, 2019 9:42 AM
+> *To:* Archana Kumar <Archana_Kumar at amat.com>
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [External] Re: [snf-promcommittee] PROM request for aqua regia
+> etch of Pt
+>
+>
+>
+> CAUTION: EXTERNAL EMAIL. Verify before you click links or open
+> attachments. Questions? Contact GIS.
+>
+>
+>
+> Hi Archana,
+>
+>
+>
+> Thank you for the well written request! Your proposal sounds reasonable,
+> and we are still working out the details of how we would like you to handle
+> the safety aspect but we also have a logistical question- when would you
+> like to do this etch? We currently have a few labmembers who are doing
+> special processing which requires them to reserve the whole bench for
+> safety reasons and we need to also consider how to incorporate the
+> scheduling.
+>
+>
+>
+> Thanks!
+>
+> Michelle
+>
+>
+>
+> On May 9, 2019, at 6:21 PM, Archana_Kumar at amat.com wrote:
+>
+>
+>
+> Hi PROM committee,
+>
+>
+>
+> I?m submitting a request to be allowed to wet etch Pt in aqua regia at
+> wbflexcorr-1/2. I require this specific step as part of a customer project
+> and would like to seek your inputs.  Please find attached all the
+> information requested in the attached form.
+>
+> Please let me know if you have any questions or concerns.
+>
+>
+>
+> Regards,
+>
+> Archana
+>
+> 408-518-1453
+>
+>
+>
+> The content of this message is APPLIED MATERIALS CONFIDENTIAL. If you are
+> not the intended recipient, please notify me, delete this email and do not
+> use or distribute this email.
+>
+> <Process or Materials Review Request Form.docx>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+> <SOP_AquaRegiaEtch.pdf><aqua-regia-sopYale.pdf>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190530/320bb089/attachment.html>
+
+From maurice at stanford.edu  Fri May 31 08:25:13 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 31 May 2019 08:25:13 -0700
+Subject: [snf-promcommittee] PROM result
+In-Reply-To: <7651C9A4-4689-48C7-B9B4-E7E9774C103E@me.com>
+References: <E9988CBB-68C4-4980-B0BE-A5A67D1F7EB3@me.com>
+ <7651C9A4-4689-48C7-B9B4-E7E9774C103E@me.com>
+Message-ID: <B7A10505-0D0E-41D1-B745-52430077E5EF@stanford.edu>
+
+Hi Don,
+
+I will forward your question to the entire PROM committee.
+
+
+-m
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On May 31, 2019, at 8:23 AM, Donald Gardner <don.gardner at me.com> wrote:
+> 
+> 
+> 
+> Begin forwarded message:
+> 
+> From: Donald Gardner <don.gardner at me.com <mailto:don.gardner at me.com>>
+> Date: May 31, 2019 at 10:19:53 AM CDT
+> To: Mary Tang <mtang at stanford.edu <mailto:mtang at stanford.edu>>, Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Subject: PROM result
+> 
+> Hi Michelle,
+> 
+> I am interested in learning what the timeline would be for installing the oxygen to the Savannah reactors?
+> 
+> With best regards,
+> Don
+> 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190531/ee44882c/attachment-0001.html>
+
+From mtang at stanford.edu  Fri May 31 08:29:14 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 31 May 2019 08:29:14 -0700
+Subject: [snf-promcommittee] PROM result
+In-Reply-To: <B7A10505-0D0E-41D1-B745-52430077E5EF@stanford.edu>
+References: <E9988CBB-68C4-4980-B0BE-A5A67D1F7EB3@me.com>
+ <7651C9A4-4689-48C7-B9B4-E7E9774C103E@me.com>
+ <B7A10505-0D0E-41D1-B745-52430077E5EF@stanford.edu>
+Message-ID: <ec060db9-e929-86dc-7f1e-22cb97592ebe@stanford.edu>
+
+Hi all -
+
+Don made a request to the PROM for platinum in the Savannah, which 
+included the request to plumb oxygen to it.
+
+I think this is on Carsen's to do list which, as we all know, is pretty 
+long...? It would be a good idea for a subset of us (perhaps Michelle, 
+Jim, Carsen, me) to convene to discuss feasibility.? As we all know, 
+changes these days that may trigger a permit are scrutinized very 
+carefully, because of political issues far above our pay grade...
+
+Mary
+
+On 5/31/2019 8:25 AM, maurice stevens wrote:
+> Hi Don,
+>
+> I will forward your question to the entire PROM committee.
+>
+>
+> -m
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA ?94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+>> On May 31, 2019, at 8:23 AM, Donald Gardner <don.gardner at me.com 
+>> <mailto:don.gardner at me.com>> wrote:
+>>
+>>
+>>
+>> Begin forwarded message:
+>>
+>> *From:* Donald Gardner <don.gardner at me.com <mailto:don.gardner at me.com>>
+>> *Date:* May 31, 2019 at 10:19:53 AM CDT
+>> *To:* Mary Tang <mtang at stanford.edu <mailto:mtang at stanford.edu>>, 
+>> Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+>> *Subject:* *PROM result*
+>>
+>> Hi Michelle,
+>>
+>> I am interested in learning what the timeline would be for installing 
+>> the oxygen to the Savannah reactors?
+>>
+>> With best regards,
+>> Don
+>>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190531/f43cdcab/attachment.html>
+

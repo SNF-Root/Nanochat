@@ -188,7 +188,7 @@ async def upload_file(
         while chunk := await file.read(1024 * 1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    await redis_file_queue.rpush("pending_files", filepath)
+    await redis_file_queue.rpush("pending_prom_files", filepath)
 
     return UploadFileResponse(
         filename=file.filename,
@@ -210,7 +210,8 @@ async def upload_email(file: UploadFile = File(...), path: str = Form(...)) -> U
         while chunk := await file.read(1024*1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    await redis_file_queue.rpush("pending_files", filepath)
+    await redis_file_queue.rpush("pending_email_files", filepath)
+    print("email file pushed to redis queue")
 
     return UploadFileResponse(
         filename = file.filename,
@@ -223,8 +224,43 @@ async def upload_email(file: UploadFile = File(...), path: str = Form(...)) -> U
 
 @app.get("/upload/show-list")
 async def show_list():
-    data_items = await redis_file_queue.lrange("pending_files", 0, -1)
-    return data_items
+    prom_data_items = await redis_file_queue.lrange("pending_prom_files", 0, -1)
+    emails_data_items = await redis_file_queue.lrange("pending_email_files", 0, -1)
+    return_obj = {
+        "prom_data_files": prom_data_items,
+        "queued_email_files": emails_data_items
+    }
+    return return_obj
+
+
+@app.get("/context/show-list")
+async def show_context_list(request: Request):
+    print(
+        "[TRACE][/context/show-list]",
+        {
+            "referer": request.headers.get("referer"),
+            "origin": request.headers.get("origin"),
+            "user_agent": request.headers.get("user-agent"),
+            "session_cookie_in": request.cookies.get(SESSION_COOKIE),
+        },
+    )
+    session_id = request.cookies.get(SESSION_COOKIE)
+    if not session_id:
+        return {
+            "has_session": False,
+            "context_length": 0,
+            "context_history": [],
+        }
+
+    key = _session_key(session_id)
+    raw_context = await redis_memory.get(key)
+    context_history = json.loads(raw_context) if raw_context else []
+    return {
+        "has_session": True,
+        "session_id": session_id,
+        "context_length": len(context_history),
+        "context_history": context_history,
+    }
 
 @app.post("/upload/reset_counter", response_model=UploadCounterResetResponse)
 async def reset_upload_counter() -> UploadCounterResetResponse:

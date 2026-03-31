@@ -1,0 +1,3571 @@
+From jarodm2 at stanford.edu  Fri Jun  2 15:52:18 2023
+From: jarodm2 at stanford.edu (Jarod Ethan Meyer)
+Date: Fri, 2 Jun 2023 22:52:18 +0000
+Subject: [snf-promcommittee] PROM Request: RTA of IV-VI Chalcogenides on
+ GaAs in Allwin RTA up to 375C
+Message-ID: <SJ0PR02MB8657707596B525E8CC6A6D079A4EA@SJ0PR02MB8657.namprd02.prod.outlook.com>
+
+Hello Prom committee,
+
+I am looking to conduct Rapid Thermal Annealing experiments in the flexible-class Allwin 610 RTA on my IV-VI semiconductor films. Attached is my filled out PROM Request form.
+
+Thank you for your consideration and I look forward to hearing back! Let me know if there any questions/anything needs clarification.
+
+Best,
+Jarod Meyer
+PhD Candidate, Kunal Mukherjee Group
+Stanford University
+Jarodm2 at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230602/2fe47f63/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROMRequest_JarodMeyer_IV-VI_RTA.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 157472 bytes
+Desc: PROMRequest_JarodMeyer_IV-VI_RTA.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230602/2fe47f63/attachment-0001.docx>
+
+From dominique.piche at houndlabs.com  Wed Jun  7 12:48:45 2023
+From: dominique.piche at houndlabs.com (Dominique Piche)
+Date: Wed, 7 Jun 2023 19:48:45 +0000
+Subject: [snf-promcommittee] request
+Message-ID: <PH7PR14MB60910C2C5E8CE69D063E12A6E153A@PH7PR14MB6091.namprd14.prod.outlook.com>
+
+Hi there!
+
+Please find attached my request for bringing in samples to test with DLS as an external user
+
+Many thanks
+
+Dominique
+
+Sent from Mail<https://go.microsoft.com/fwlink/?LinkId=550986> for Windows
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230607/351789f9/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form_DP.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 106001 bytes
+Desc: process_or_materials_request_form_DP.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230607/351789f9/attachment-0001.docx>
+
+From narunl at stanford.edu  Thu Jun  8 11:43:13 2023
+From: narunl at stanford.edu (Leah Narun)
+Date: Thu, 8 Jun 2023 18:43:13 +0000
+Subject: [snf-promcommittee] Lasker sputtering
+Message-ID: <PH0PR02MB7109F3D496FEBD69A7B5CBCFBD50A@PH0PR02MB7109.namprd02.prod.outlook.com>
+
+Hello,
+
+I am a first year PhD student in the Chueh group working with a solid electrolyte. I would like to deposit Ti/Pt contacts to measure the high-temperature conductivity of my material. Would this be feasible with the Lesker sputter in SNF?
+
+Thank you,
+Leah Narun
+
+Leah Narun
+PhD Student, Materials Science and Engineering
+Stanford University
+narunl at stanford.edu<mailto:narunl at stanford.edu>
+484-886-7479
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230608/cc50e8ea/attachment.htm>
+
+From adenton at stanford.edu  Thu Jun  8 16:05:25 2023
+From: adenton at stanford.edu (Alexander Enrique Denton)
+Date: Thu, 8 Jun 2023 23:05:25 +0000
+Subject: [snf-promcommittee] Lasker sputtering
+In-Reply-To: <PH0PR02MB7109F3D496FEBD69A7B5CBCFBD50A@PH0PR02MB7109.namprd02.prod.outlook.com>
+References: <PH0PR02MB7109F3D496FEBD69A7B5CBCFBD50A@PH0PR02MB7109.namprd02.prod.outlook.com>
+Message-ID: <DM4PR02MB914302A2C4C895270673E02BCC50A@DM4PR02MB9143.namprd02.prod.outlook.com>
+
+Hi Leah,
+
+I am one of the process engineers here at the SNF. If you?ll tell me a bit more about your solid electrolyte, I can help you decide whether it is compatible with the Lesker. We can communicate directly, no need to bother the rest of the PROM committee.
+
+The PROM committee serves to vet new materials coming into the lab for safety and compatibility with our tools. If your solid electrolyte is totally new to the lab, you will have to fill out a PROM request form. However, if this is a known material and has been in the lab before then there is no need for the PROM request. I can help you figure out if the request is necessary or not.
+
+I?m happy to answer any questions.
+
+Thanks,
+Alex
+
+
+Alex Denton
+ALD Process Engineer
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snfexfab.stanford.edu<https://snf.stanford.edu/>
+
+
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Leah Narun <narunl at stanford.edu>
+Date: Thursday, June 8, 2023 at 11:43 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] Lasker sputtering
+Hello,
+
+I am a first year PhD student in the Chueh group working with a solid electrolyte. I would like to deposit Ti/Pt contacts to measure the high-temperature conductivity of my material. Would this be feasible with the Lesker sputter in SNF?
+
+Thank you,
+Leah Narun
+
+Leah Narun
+PhD Student, Materials Science and Engineering
+Stanford University
+narunl at stanford.edu<mailto:narunl at stanford.edu>
+484-886-7479
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230608/90c21799/attachment.htm>
+
+From zhu.ying at gene.com  Tue Jun 13 09:34:06 2023
+From: zhu.ying at gene.com (Ying Zhu)
+Date: Tue, 13 Jun 2023 09:34:06 -0700
+Subject: [snf-promcommittee] PROM for nanoPOTS project
+In-Reply-To: <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+References: <CADS0cXpeG+8NkL6YdfO0rGry5Oqr46R==inD3AayVbVA5fzHHw@mail.gmail.com>
+ <283cf65b-ca28-c359-f18a-33c875d6f23e@stanford.edu>
+ <CADS0cXpZwoCvNwt5-mUuqaEC+CHUXsTZth4THxcMefmV9f5g3A@mail.gmail.com>
+ <0dc5490f-5d0e-165c-1496-b6b0519e9d03@stanford.edu>
+ <CADS0cXpUg832k35XqZcV7fcUPN=w5nhx1FOUEi7mU2ddr4Drbw@mail.gmail.com>
+ <CADS0cXpKciVug7tLmp+GKsMnJR7vEOfbU71VyhfPBKazpv8wuA@mail.gmail.com>
+ <CADS0cXpfxMKRCznFf-6TtkcpYitYnr_-31K9koC+rQ_2PG1OOg@mail.gmail.com>
+ <CADS0cXqVyhCv5uT29cxw_386Wa_EpLXCoh-v6s4_zQLeVxj9CQ@mail.gmail.com>
+ <8f181e46-9312-92c8-05d6-042467a02998@stanford.edu>
+ <BY5PR02MB609804DFABE982D69FB95A93DE759@BY5PR02MB6098.namprd02.prod.outlook.com>
+ <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+Message-ID: <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+
+Hi Gary and Mary,
+
+I am scheduling with our company transportation service to deliver organic
+solvent to SNF. I understand the solvent should be delivered from the
+loading dock. Is there any other requirement to bring the solvent from the
+loading dock to cleanroom?
+I can get the metal cart from cleanroom and transport the solvent
+
+Thanks
+Ying
+
+
+
+On Fri, May 12, 2023 at 12:05?PM Ying Zhu <zhuy127 at gene.com> wrote:
+
+> Hi Gary,
+>
+> Thanks. I just pick it up today
+>
+> Ying
+>
+> On Fri, May 12, 2023 at 11:20 AM Gary J Sosa <gsosa at stanford.edu> wrote:
+>
+>> Hi Ying...
+>>
+>>      Your personal chemical labels are ready for pickup. I taped them to
+>> my office door(Office 144). You can pick them up at any time.
+>>
+>> ***Please note that the label is now printed with the expiration date***
+>>
+>>            Thanks....  Gary
+>>
+>> ------------------------------
+>> *From:* Mary Tang <mtang at stanford.edu>
+>> *Sent:* Thursday, May 11, 2023 3:06 PM
+>> *To:* Ying Zhu <zhu.ying at gene.com>
+>> *Cc:* Tommy K Cheung <cheung.tommy at gene.com>; Ulrike Martina Thumser <
+>> uthumser at stanford.edu>; snf-promcommittee at lists.stanford.edu <
+>> snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+>> *Subject:* Re: [snf-promcommittee] PROM for nanoPOTS project
+>>
+>>
+>> Hi Ying -
+>>
+>> Apologies for the delay!  Your PROM request is approved.  Please contact
+>> Gary Sosa about picking up yellow tags for the chemicals you will be
+>> storing at SNF.  From your request, here are the chemicals you will need
+>> tags for (Gary, could you please create these three labels for Ying?):
+>>
+>> o Name and Contact: Ying Zhu; 5095784648
+>> o Full name: (heptadecafluoro-1,1,2,2-tetrahydrodecyl)
+>> dimethylchlorosilane
+>> o Volume of container: 5 mL
+>> o Chemical storage class: Group
+>> o Primary hazard: flammable
+>> o Experiment end date: 5/11/2024
+>> (You'd noted you would need a dry box to store this chemical.  Let me
+>> know when it arrives and we can find a place for it.)
+>>
+>> o Name and Contact: Ying Zhu; 5095784648
+>> o Full name: 2,2,4-trimethylpentane
+>> o Volume of container: 4 L
+>> o Chemical storage class: Group L
+>> o Primary hazard: flammable
+>> o Experiment end date: 5/11/2024
+>>
+>> o Name and Contact: Ying Zhu; 5095784648
+>> o Full name: Ethanol
+>> o Volume of container: 4 L
+>> o Chemical storage class: Group L
+>> o Primary hazard: flammable
+>> o Experiment end date: 5/11/2024
+>>
+>> Thanks for your patience -
+>>
+>> Mary
+>> On 5/8/2023 8:00 AM, Ying Zhu wrote:
+>>
+>> Hello Mary,
+>>
+>> I check in this project again.
+>> Thanks
+>>
+>> Ying
+>>
+>> On Fri, May 5, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>
+>> Hi Mary,
+>>
+>> Could you take a look at the new form? If everything is approved, I will
+>> bring chemicals to SNF. Also, where I can find the chemical labels to label
+>> these chemical bottles?
+>>
+>> Thanks
+>> Ying
+>>
+>> On Thu, Apr 27, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>
+>> Hi Mary,
+>>
+>> Do you have more feedbacks in the new form? Thanks
+>>
+>> Ying
+>>
+>> On Tue, Apr 25, 2023 at 12:10 PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>
+>> Hi Mary,
+>>
+>> Here is my reply to your comments.
+>>
+>> 1. We can use BOE at 1:6 ratio. The etching rate is not critical for our
+>> procedures.
+>> 2. I can prepare the etching solution every time I use it. I deleted it
+>> from the storage section of the PROM form
+>> 3. I have updated the disposal section
+>>
+>> Thanks
+>> Ying
+>>
+>> On Mon, Apr 24, 2023 at 6:04?AM Mary Tang <mtang at stanford.edu> wrote:
+>>
+>> Hi Ying -
+>>
+>> Sorry, a couple more minor points/questions.
+>>
+>> 1.  We do not stock 7:1 BOE, but we do have 6:1 BOE and 20:1 BOE.  We
+>> also carry 49% HF and concentrated ammonium fluoride if you want to make up
+>> your own, but I'd suggest adjusting your mix -- or you can supply yourself.
+>>
+>> 2.  In your stored chemicals, you've included a 4L bottle of mixed
+>> etchant.  Would you consider mixing each time you need it at the station?
+>> If you are performing this experiment frequently, then it makes sense to
+>> mix up once -- but our storage space for corrosives is limited, so I wanted
+>> to ask.
+>>
+>> 3.  Waste disposal.  Just a reminder that your solvent waste is OK to go
+>> into the solvent station carboy, but your BOE etchant mix and the rinseate
+>> must go into the HF waste.
+>>
+>> Mary
+>>
+>>
+>>
+>>
+>> On 4/23/2023 6:59 PM, Ying Zhu wrote:
+>>
+>> Hi Mary,
+>>
+>> Thanks for your feedback. Here I added the (1) information of Individual
+>> personal chemical containers; and (2) volumes of solution in the protocol.
+>> I tag the new edits with red
+>>
+>> I also add ethanol in the form because we will bring our own.
+>>
+>> Best
+>> Ying
+>>
+>> On Sat, Apr 22, 2023 at 7:43?AM Mary Tang <mtang at stanford.edu> wrote:
+>>
+>> Hi Ying -
+>>
+>> Apologies for the delay in responding.  I think your protocol is
+>> generally good, but we should clarify a few things:
+>>
+>> 1.  Please list individual personal chemical containers that you plan to
+>> store at SNF. Each of these will need to be registered and should have a
+>> yellow label.  The info required:  Your name and email/contact info; full
+>> chemical name or contents (by concentration for mixtures); volume of the
+>> container; chemical storage class (L, I believe, but double-check me on
+>> this at https://ehs.stanford.edu/forms-tools/stanford-storage-groups);
+>> primary hazard (i.e., flammable vs oxidizer); experiment end date (not to
+>> exceed one year.)
+>>
+>> 2.  Please list the volumes of solution you plan to use in your
+>> protocol.  If I understand correctly from our discussions, the volumes of
+>> chemicals that you will actually use in an experiment will be pretty small
+>> (and this will reassure everyone about risks.)
+>>
+>> 3.  Also, while ethanol is OK to use in the lab, we don't routinely stock
+>> it for wet bench use so you won't always find it.  It might be best if you
+>> could provide your own, so you can be assured of the quality and that
+>> you'll always have it.
+>>
+>> Once we have #1 and #2, your request can be approved --
+>>
+>> Thanks for your patience,
+>>
+>> Mary
+>>
+>> --
+>> Mary X. Tang, Ph.D.
+>> Managing Director
+>> Stanford Nanofabrication Facility
+>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>
+>> On 4/12/2023 4:01 PM, Ying Zhu wrote:
+>>
+>> Dear committee members,
+>>
+>> Please find the attached form for  Chemicals and materials for
+>> fabricating nanoPOTS glass slide
+>> Let me know if you have any questions
+>> Thanks
+>>
+>> Ying
+>>
+>> --
+>> Ying Zhu, Ph.D.
+>> Senior Principal Scientist
+>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>> Sequencing
+>> Genentech Inc, A Member of the Roche Group
+>> 1 DNA Way, South San Francisco, CA 94080
+>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>> --
+>> Ying Zhu, Ph.D.
+>> Senior Principal Scientist
+>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>> Sequencing
+>> Genentech Inc, A Member of the Roche Group
+>> 1 DNA Way, South San Francisco, CA 94080
+>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>
+>> --
+>> Mary X. Tang, Ph.D.
+>> Managing Director
+>> Stanford Nanofabrication Facility
+>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>
+>> --
+> Ying Zhu, Ph.D.
+> Senior Principal Scientist
+> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+> Sequencing
+> Genentech Inc, A Member of the Roche Group
+> 1 DNA Way, South San Francisco, CA 94080
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230613/33906c4f/attachment-0001.htm>
+
+From helenaguan at stanford.edu  Tue Jun 13 16:46:29 2023
+From: helenaguan at stanford.edu (Helena Guan)
+Date: Tue, 13 Jun 2023 23:46:29 +0000
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift Off
+ Resist (LOR) 30B at SNF
+Message-ID: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+
+Hi,
+
+Hope this email finds you well. I'm writing to submit a ProM request for storing and spinning lift off resist (LOR) 30B at SNF. Please let me know if I can provide any additional information that may be helpful for this process.
+
+Thank you!
+
+Best,
+Helena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230613/e2ab4497/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: proM_LOR_30B_Guan.pdf
+Type: application/pdf
+Size: 461060 bytes
+Desc: proM_LOR_30B_Guan.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230613/e2ab4497/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SDS_LOR-B-Series-Resists_-_US.pdf
+Type: application/pdf
+Size: 182119 bytes
+Desc: SDS_LOR-B-Series-Resists_-_US.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230613/e2ab4497/attachment-0003.pdf>
+
+From sateesh at myravision.com  Wed Jun 14 19:13:41 2023
+From: sateesh at myravision.com (Sateesh Bajikar)
+Date: Thu, 15 Jun 2023 02:13:41 +0000
+Subject: [snf-promcommittee] Status check- Solvent for removing DSE sidewall
+ polymer-submitted 04/20/23
+In-Reply-To: <PH7PR12MB7139597F445B9A70AA5A949FCB419@PH7PR12MB7139.namprd12.prod.outlook.com>
+References: <PH7PR12MB713986BCE5CDFDBF43F1D1CBCB639@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <PH7PR12MB7139597F445B9A70AA5A949FCB419@PH7PR12MB7139.namprd12.prod.outlook.com>
+Message-ID: <PH7PR12MB7139F575B0E48AF0A8F52BEDCB5BA@PH7PR12MB7139.namprd12.prod.outlook.com>
+
+Hello,
+Checking again with the committee on approval for using the new solvent in the cleanroom.  I have several wafers that are ready for this process step now and would like to proceed .  Please confirm that it is okay for me to do so or let me know if there any issues that would need me to look for alternative ways to proceed.
+Thank you,
+Regards,
+Sateesh
+
+From: Sateesh Bajikar
+Sent: Wednesday, May 24, 2023 4:20 PM
+To: snf-promcommittee at lists.stanford.edu
+Cc: Diana Van <diana at myravision.com>
+Subject: Status check- Solvent for removing DSE sidewall polymer
+
+Hello,
+Just checking back on the status of this request.  I have attached a slightly modified version of the request form here,  with changes/ additions to address issues that came up in our discussions with Uli earlier today.
+Please let me know when we could begin to use this material in the cleanroom or if there are any concerns or additional information needed that I need to address .
+Regards,
+Sateesh
+
+From: Sateesh Bajikar
+Sent: Thursday, April 20, 2023 11:58 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Cc: Diana Van <diana at myravision.com<mailto:diana at myravision.com>>
+Subject: Solvent for removing DSE sidewall polymer
+
+Attached is a completed prom form and supporting documents to bring in a new solvent -Precision V 3710 - for use in the SNF cleanroom as a remover for the sidewall polymer that is deposited during the Deep Silicon Etching process.  The solvent is fairly safe to handle and use as it is non-flammable, has no flash point, is non-corrosive and has low toxicity.
+
+  1.  Completed PROM request.
+  2.  SDS for Precision V 3710
+  3.  TDS for Precision V 3710
+  4.  Paper showing the efficacy of the material for the intended application.
+Please let me know if you have any questions.
+Regards,
+Sateesh
+
+__________________________
+Sateesh Bajikar, Ph.D.
+Principal Engineer,
+Myra Vison
+1717 Dell Avenue
+Campbell, CA 95008, USA
++1 408 464 0956
+sateesh at myravision.com<mailto:sateesh at myravision.com>
+www.myravision.com<http://www.myravision.com/>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/809046e8/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Precision V 3710_United States (US) SDS HCS 2012_English (US) 2023.pdf
+Type: application/pdf
+Size: 125427 bytes
+Desc: Precision V 3710_United States (US) SDS HCS 2012_English (US) 2023.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/809046e8/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: TDS 3710_ENG_TDS.pdf
+Type: application/pdf
+Size: 971448 bytes
+Desc: TDS 3710_ENG_TDS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/809046e8/attachment-0004.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Bosch sidewall polymer removal 3MNovec7100 2009.pdf
+Type: application/pdf
+Size: 953270 bytes
+Desc: Bosch sidewall polymer removal 3MNovec7100 2009.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/809046e8/attachment-0005.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM Solvent 3710 MYRA rev2.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 18094 bytes
+Desc: PROM Solvent 3710 MYRA rev2.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/809046e8/attachment-0001.docx>
+
+From mtang at stanford.edu  Thu Jun 15 06:10:55 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Thu, 15 Jun 2023 06:10:55 -0700
+Subject: [snf-promcommittee] Status check- Solvent for removing DSE
+ sidewall polymer-submitted 04/20/23
+In-Reply-To: <PH7PR12MB7139F575B0E48AF0A8F52BEDCB5BA@PH7PR12MB7139.namprd12.prod.outlook.com>
+References: <PH7PR12MB713986BCE5CDFDBF43F1D1CBCB639@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <PH7PR12MB7139597F445B9A70AA5A949FCB419@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <PH7PR12MB7139F575B0E48AF0A8F52BEDCB5BA@PH7PR12MB7139.namprd12.prod.outlook.com>
+Message-ID: <a5d5e518-8af5-67ab-0721-e188b51e3854@stanford.edu>
+
+Hi Sateesh -
+
+Many apologies for the delay in response! As the current PROM archivist, 
+this was in my court to answer.
+
+Your chemical is approved, but please hold off on processing for just a 
+bit. Your chemical is very much like the EKC family of chemicals which 
+have been previously approved for processing at the WBFlexCorr stations 
+rather than the solvent bench, so we have a protocol which may be 
+applicable. Let me double check a few things with Uli and others and 
+I'll get back to you in a day or so.? Meanwhile, please go ahead and 
+make arrangements to bring your chemical into the lab. Please also 
+contact Gary Sosa about obtaining a yellow label for your chemical. The 
+info required is (as per section 4.4 of the safety guide 
+<https://snfexfab.stanford.edu/guide/safety/general-policies-at-snf/general-policies-at-snf/general-policies-at-snf/general-chemical-safety>):
+
+  * *Labeling.*?Containers for personal chemicals must be registered as
+    indicated by the official yellow hazardous materials label,
+    available from staff. The information required on the label includes:
+    ? Your contact info:? Full name and email.
+    ? The main hazard group (corrosive, flammable, oxidizer, reactive,
+    toxic/poison, non-toxic)
+    ? Chemical Storage Group identifier (see the Stanford Chemical
+    Safety Database and the SNF website) is denoted by a single letter.
+    ? Exact name(s) of the chemical.
+    ? Container volume (i.e., 500 ml)
+    ? End date:? not to exceed one year
+
+Finally, your request mentions "containers" - how many will you be 
+bringing in and what size are they?
+
+Thanks for your patience -
+
+Mary
+
+On 6/14/2023 7:13 PM, Sateesh Bajikar wrote:
+>
+> Hello,
+>
+> Checking again with the committee on approval for using the new 
+> solvent in the cleanroom. ?I have several wafers that are ready for 
+> this process step now and would like to proceed .? Please confirm that 
+> it is okay for me to do so or let me know if there any issues that 
+> would need me to look for alternative ways to proceed.
+>
+> Thank you,
+>
+> Regards,
+>
+> Sateesh
+>
+> *From:*Sateesh Bajikar
+> *Sent:* Wednesday, May 24, 2023 4:20 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Cc:* Diana Van <diana at myravision.com>
+> *Subject:* Status check- Solvent for removing DSE sidewall polymer
+>
+> Hello,
+>
+> Just checking back on the status of this request.? I have attached a 
+> slightly modified version of the request form here, ?with changes/ 
+> additions to address issues that came up in our discussions with Uli 
+> earlier today.
+>
+> Please let me know when we could begin to use this material in the 
+> cleanroom or if there are any concerns or additional information 
+> needed that I need to address .
+>
+> Regards,
+>
+> Sateesh
+>
+> *From:*Sateesh Bajikar
+> *Sent:* Thursday, April 20, 2023 11:58 AM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Cc:* Diana Van <diana at myravision.com>
+> *Subject:* Solvent for removing DSE sidewall polymer
+>
+> Attached is a completed prom form and supporting documents to bring in 
+> a new solvent -Precision V 3710 - for use in the SNF cleanroom as a 
+> remover for the sidewall polymer that is deposited during the Deep 
+> Silicon Etching process.? The solvent is fairly safe to handle and use 
+> as it is non-flammable, has no flash point, is non-corrosive and has 
+> low toxicity.
+>
+>  1. Completed PROM request.
+>  2. SDS for Precision V 3710
+>  3. TDS for Precision V 3710
+>  4. Paper showing the efficacy of the material for the intended
+>     application.
+>
+> Please let me know if you have any questions.
+>
+> Regards,
+>
+> Sateesh
+>
+> */__________________________/*
+>
+> /Sateesh Bajikar, Ph.D./
+>
+> /Principal Engineer,/
+>
+> */Myra Vison/*
+>
+> /1717 Dell Avenue/
+>
+> /Campbell, CA 95008, USA/
+>
+> /+1 408 464 0956/
+>
+> /sateesh at myravision.com <mailto:sateesh at myravision.com>/
+>
+> /www.myravision.com <http://www.myravision.com/>/
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/91c8eaee/attachment.htm>
+
+From sateesh at myravision.com  Thu Jun 15 11:04:18 2023
+From: sateesh at myravision.com (Sateesh Bajikar)
+Date: Thu, 15 Jun 2023 18:04:18 +0000
+Subject: [snf-promcommittee] Status check- Solvent for removing DSE
+ sidewall polymer-submitted 04/20/23
+In-Reply-To: <a5d5e518-8af5-67ab-0721-e188b51e3854@stanford.edu>
+References: <PH7PR12MB713986BCE5CDFDBF43F1D1CBCB639@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <PH7PR12MB7139597F445B9A70AA5A949FCB419@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <PH7PR12MB7139F575B0E48AF0A8F52BEDCB5BA@PH7PR12MB7139.namprd12.prod.outlook.com>
+ <a5d5e518-8af5-67ab-0721-e188b51e3854@stanford.edu>
+Message-ID: <PH7PR12MB713998A7D5ED8C0F322E4337CB5BA@PH7PR12MB7139.namprd12.prod.outlook.com>
+
+Hi  Mary,
+No problem- I understand that there are a lot of issues competing for your attention and I was not ready to use it until now anyway . And thank you for the approval- this process step is quite critical to my current device process (and next device runs).  I don?t think this material is really similar to the EKC PR strippers ( which if I remember correctly being corrosive  + ?)- this is quite innocuous- just volatile.  I would like to use it in the solvent bench in the heated ultrasound bath- the ultrasound may be neecessary to help clean in narrow deep trenches that my next device would have.  I have discussed the operating procedure for this with Uli.
+I will follow up with Gary about generating the yellow labels.
+Re. containers- I plan to have 1 ea -1 gal metal can  ( smallest available size-  except the sample can I have now) in the lab. storage and in use most times,  but may have a second one in storage when it is running low to avoid problems while in the midst of processing - so at most 2 containers at a time with 1 in use.
+Regards,
+Sateesh
+
+
+From: Mary Tang <mtang at stanford.edu>
+Sent: Thursday, June 15, 2023 6:11 AM
+To: Sateesh Bajikar <sateesh at myravision.com>; snf-promcommittee at lists.stanford.edu
+Cc: Diana Van <diana at myravision.com>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: [snf-promcommittee] Status check- Solvent for removing DSE sidewall polymer-submitted 04/20/23
+
+
+Hi Sateesh -
+
+Many apologies for the delay in response! As the current PROM archivist, this was in my court to answer.
+
+Your chemical is approved, but please hold off on processing for just a bit. Your chemical is very much like the EKC family of chemicals which have been previously approved for processing at the WBFlexCorr stations rather than the solvent bench, so we have a protocol which may be applicable. Let me double check a few things with Uli and others and I'll get back to you in a day or so.  Meanwhile, please go ahead and make arrangements to bring your chemical into the lab. Please also contact Gary Sosa about obtaining a yellow label for your chemical. The info required is (as per section 4.4 of the safety guide<https://snfexfab.stanford.edu/guide/safety/general-policies-at-snf/general-policies-at-snf/general-policies-at-snf/general-chemical-safety>):
+?  Labeling. Containers for personal chemicals must be registered as indicated by the official yellow hazardous materials label, available from staff. The information required on the label includes:
+? Your contact info:  Full name and email.
+? The main hazard group (corrosive, flammable, oxidizer, reactive, toxic/poison, non-toxic)
+? Chemical Storage Group identifier (see the Stanford Chemical Safety Database and the SNF website) is denoted by a single letter.
+? Exact name(s) of the chemical.
+? Container volume (i.e., 500 ml)
+? End date:  not to exceed one year
+
+Finally, your request mentions "containers" - how many will you be bringing in and what size are they?
+
+Thanks for your patience -
+
+Mary
+On 6/14/2023 7:13 PM, Sateesh Bajikar wrote:
+Hello,
+Checking again with the committee on approval for using the new solvent in the cleanroom.  I have several wafers that are ready for this process step now and would like to proceed .  Please confirm that it is okay for me to do so or let me know if there any issues that would need me to look for alternative ways to proceed.
+Thank you,
+Regards,
+Sateesh
+
+From: Sateesh Bajikar
+Sent: Wednesday, May 24, 2023 4:20 PM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Cc: Diana Van <diana at myravision.com><mailto:diana at myravision.com>
+Subject: Status check- Solvent for removing DSE sidewall polymer
+
+Hello,
+Just checking back on the status of this request.  I have attached a slightly modified version of the request form here,  with changes/ additions to address issues that came up in our discussions with Uli earlier today.
+Please let me know when we could begin to use this material in the cleanroom or if there are any concerns or additional information needed that I need to address .
+Regards,
+Sateesh
+
+From: Sateesh Bajikar
+Sent: Thursday, April 20, 2023 11:58 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Cc: Diana Van <diana at myravision.com<mailto:diana at myravision.com>>
+Subject: Solvent for removing DSE sidewall polymer
+
+Attached is a completed prom form and supporting documents to bring in a new solvent -Precision V 3710 - for use in the SNF cleanroom as a remover for the sidewall polymer that is deposited during the Deep Silicon Etching process.  The solvent is fairly safe to handle and use as it is non-flammable, has no flash point, is non-corrosive and has low toxicity.
+
+  1.  Completed PROM request.
+  2.  SDS for Precision V 3710
+  3.  TDS for Precision V 3710
+  4.  Paper showing the efficacy of the material for the intended application.
+Please let me know if you have any questions.
+Regards,
+Sateesh
+
+__________________________
+Sateesh Bajikar, Ph.D.
+Principal Engineer,
+Myra Vison
+1717 Dell Avenue
+Campbell, CA 95008, USA
++1 408 464 0956
+sateesh at myravision.com<mailto:sateesh at myravision.com>
+www.myravision.com<http://www.myravision.com/>
+
+
+
+
+_______________________________________________
+
+snf-promcommittee mailing list
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+--
+
+Mary X. Tang, Ph.D.
+
+Managing Director
+
+Stanford Nanofabrication Facility
+
+Paul G. Allen Building
+
+420 Via Palou Mall
+
+Stanford, CA 94305
+
+https://snf.stanford.edu<https://snf.stanford.edu/>
+
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/e6d0003d/attachment-0001.htm>
+
+From smithzj at stanford.edu  Thu Jun 15 15:52:48 2023
+From: smithzj at stanford.edu (Zoe Smith)
+Date: Thu, 15 Jun 2023 15:52:48 -0700
+Subject: [snf-promcommittee] PROM committee: SiC wafers at wbclean 1 & 2
+Message-ID: <CAJUB0BjWYxmMv3gMH7Fu7KR6gQNrUZT=QK4DiH8=4ouFgsHV6A@mail.gmail.com>
+
+Hello PROM committee,
+
+I have attached my PROM request for SiC wafers at wbclean1 & 2.
+
+Happy to answer any questions you might have!
+
+Best,
+Zo? Smith
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/e18341aa/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form_SiC_at_wbclean12.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 106102 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230615/e18341aa/attachment-0001.docx>
+
+From cknollen at stanford.edu  Thu Jun 15 17:59:11 2023
+From: cknollen at stanford.edu (Clifford F Knollenberg)
+Date: Fri, 16 Jun 2023 00:59:11 +0000
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift
+ Off Resist (LOR) 30B at SNF
+In-Reply-To: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+References: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+Message-ID: <DM6PR02MB52585AF7BA7B9769B70675C0B55BA@DM6PR02MB5258.namprd02.prod.outlook.com>
+
+Hi Helena,
+
+The request is approved, but ...
+
+The storage cabinet by Headway 3 is pretty full. Actually, fitting a .5 liter bottle may not be physically possible.  So options:
+
+  1.  Split the bottle into smaller bottles and only store one bottle at a time in the cabinet near Headway 3
+  2.  Store the 0.5 litter bottle in the cabinet by Headway 2 and transport it using a red rubber bucket to Headway 3 for use.
+
+There is also another lab user who is interested in this resist and might be interested in sharing/splitting the bottle (and the bill).  His name is Ziad Ahmend and I've asked him to contact you directly. It might even be to your advantage to work together to establish a working process for both your needs.
+
+Gary Sosa (cc'd above) handles label printing, so when you decide whether you want one large bottle or to split it into smaller bottles, let him know and provide the following information:
+
+
+  *   User Name
+  *   Email Address
+  *   Badger  Login ID
+  *   Phone Number
+  *   Chemical Name
+  *   Manufacturer
+  *   Type of chemical (ie: developer, photoresist, solvent)
+  *   Main Hazard
+  *   Storage Group
+  *   PDF of the MSDS (should be attached)
+
+Ok, I think that's it, but let me know if I've forgotten something or something is unclear.
+
+-Cliff????
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Helena Guan <helenaguan at stanford.edu>
+Sent: Tuesday, June 13, 2023 4:46 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi,
+
+Hope this email finds you well. I'm writing to submit a ProM request for storing and spinning lift off resist (LOR) 30B at SNF. Please let me know if I can provide any additional information that may be helpful for this process.
+
+Thank you!
+
+Best,
+Helena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230616/95515fcf/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SDS_LOR-B-Series-Resists_-_US.pdf
+Type: application/pdf
+Size: 182119 bytes
+Desc: SDS_LOR-B-Series-Resists_-_US.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230616/95515fcf/attachment-0001.pdf>
+
+From zhu.ying at gene.com  Fri Jun 16 10:41:24 2023
+From: zhu.ying at gene.com (Ying Zhu)
+Date: Fri, 16 Jun 2023 10:41:24 -0700
+Subject: [snf-promcommittee] PROM for nanoPOTS project
+In-Reply-To: <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+References: <CADS0cXpeG+8NkL6YdfO0rGry5Oqr46R==inD3AayVbVA5fzHHw@mail.gmail.com>
+ <283cf65b-ca28-c359-f18a-33c875d6f23e@stanford.edu>
+ <CADS0cXpZwoCvNwt5-mUuqaEC+CHUXsTZth4THxcMefmV9f5g3A@mail.gmail.com>
+ <0dc5490f-5d0e-165c-1496-b6b0519e9d03@stanford.edu>
+ <CADS0cXpUg832k35XqZcV7fcUPN=w5nhx1FOUEi7mU2ddr4Drbw@mail.gmail.com>
+ <CADS0cXpKciVug7tLmp+GKsMnJR7vEOfbU71VyhfPBKazpv8wuA@mail.gmail.com>
+ <CADS0cXpfxMKRCznFf-6TtkcpYitYnr_-31K9koC+rQ_2PG1OOg@mail.gmail.com>
+ <CADS0cXqVyhCv5uT29cxw_386Wa_EpLXCoh-v6s4_zQLeVxj9CQ@mail.gmail.com>
+ <8f181e46-9312-92c8-05d6-042467a02998@stanford.edu>
+ <BY5PR02MB609804DFABE982D69FB95A93DE759@BY5PR02MB6098.namprd02.prod.outlook.com>
+ <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+ <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+Message-ID: <CADS0cXr-LGra-Czqhu0CgnUsObaaFN9RpFH_QeCNZ-tttNKg7w@mail.gmail.com>
+
+Hi Gary and Mary,
+
+Our company's transportation  department is waiting for information on how
+to deliver the reagent to SNF. Should we just stopby and I use the
+receiving dock to get the chemical into the cleanroom?
+
+Thanks
+Ying
+
+On Tue, Jun 13, 2023 at 9:34?AM Ying Zhu <zhuy127 at gene.com> wrote:
+
+> Hi Gary and Mary,
+>
+> I am scheduling with our company transportation service to deliver organic
+> solvent to SNF. I understand the solvent should be delivered from the
+> loading dock. Is there any other requirement to bring the solvent from the
+> loading dock to cleanroom?
+> I can get the metal cart from cleanroom and transport the solvent
+>
+> Thanks
+> Ying
+>
+>
+>
+> On Fri, May 12, 2023 at 12:05?PM Ying Zhu <zhuy127 at gene.com> wrote:
+>
+>> Hi Gary,
+>>
+>> Thanks. I just pick it up today
+>>
+>> Ying
+>>
+>> On Fri, May 12, 2023 at 11:20 AM Gary J Sosa <gsosa at stanford.edu> wrote:
+>>
+>>> Hi Ying...
+>>>
+>>>      Your personal chemical labels are ready for pickup. I taped them to
+>>> my office door(Office 144). You can pick them up at any time.
+>>>
+>>> ***Please note that the label is now printed with the expiration date***
+>>>
+>>>            Thanks....  Gary
+>>>
+>>> ------------------------------
+>>> *From:* Mary Tang <mtang at stanford.edu>
+>>> *Sent:* Thursday, May 11, 2023 3:06 PM
+>>> *To:* Ying Zhu <zhu.ying at gene.com>
+>>> *Cc:* Tommy K Cheung <cheung.tommy at gene.com>; Ulrike Martina Thumser <
+>>> uthumser at stanford.edu>; snf-promcommittee at lists.stanford.edu <
+>>> snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+>>> *Subject:* Re: [snf-promcommittee] PROM for nanoPOTS project
+>>>
+>>>
+>>> Hi Ying -
+>>>
+>>> Apologies for the delay!  Your PROM request is approved.  Please contact
+>>> Gary Sosa about picking up yellow tags for the chemicals you will be
+>>> storing at SNF.  From your request, here are the chemicals you will need
+>>> tags for (Gary, could you please create these three labels for Ying?):
+>>>
+>>> o Name and Contact: Ying Zhu; 5095784648
+>>> o Full name: (heptadecafluoro-1,1,2,2-tetrahydrodecyl)
+>>> dimethylchlorosilane
+>>> o Volume of container: 5 mL
+>>> o Chemical storage class: Group
+>>> o Primary hazard: flammable
+>>> o Experiment end date: 5/11/2024
+>>> (You'd noted you would need a dry box to store this chemical.  Let me
+>>> know when it arrives and we can find a place for it.)
+>>>
+>>> o Name and Contact: Ying Zhu; 5095784648
+>>> o Full name: 2,2,4-trimethylpentane
+>>> o Volume of container: 4 L
+>>> o Chemical storage class: Group L
+>>> o Primary hazard: flammable
+>>> o Experiment end date: 5/11/2024
+>>>
+>>> o Name and Contact: Ying Zhu; 5095784648
+>>> o Full name: Ethanol
+>>> o Volume of container: 4 L
+>>> o Chemical storage class: Group L
+>>> o Primary hazard: flammable
+>>> o Experiment end date: 5/11/2024
+>>>
+>>> Thanks for your patience -
+>>>
+>>> Mary
+>>> On 5/8/2023 8:00 AM, Ying Zhu wrote:
+>>>
+>>> Hello Mary,
+>>>
+>>> I check in this project again.
+>>> Thanks
+>>>
+>>> Ying
+>>>
+>>> On Fri, May 5, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>
+>>> Hi Mary,
+>>>
+>>> Could you take a look at the new form? If everything is approved, I will
+>>> bring chemicals to SNF. Also, where I can find the chemical labels to label
+>>> these chemical bottles?
+>>>
+>>> Thanks
+>>> Ying
+>>>
+>>> On Thu, Apr 27, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>
+>>> Hi Mary,
+>>>
+>>> Do you have more feedbacks in the new form? Thanks
+>>>
+>>> Ying
+>>>
+>>> On Tue, Apr 25, 2023 at 12:10 PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>
+>>> Hi Mary,
+>>>
+>>> Here is my reply to your comments.
+>>>
+>>> 1. We can use BOE at 1:6 ratio. The etching rate is not critical for our
+>>> procedures.
+>>> 2. I can prepare the etching solution every time I use it. I deleted it
+>>> from the storage section of the PROM form
+>>> 3. I have updated the disposal section
+>>>
+>>> Thanks
+>>> Ying
+>>>
+>>> On Mon, Apr 24, 2023 at 6:04?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>
+>>> Hi Ying -
+>>>
+>>> Sorry, a couple more minor points/questions.
+>>>
+>>> 1.  We do not stock 7:1 BOE, but we do have 6:1 BOE and 20:1 BOE.  We
+>>> also carry 49% HF and concentrated ammonium fluoride if you want to make up
+>>> your own, but I'd suggest adjusting your mix -- or you can supply yourself.
+>>>
+>>> 2.  In your stored chemicals, you've included a 4L bottle of mixed
+>>> etchant.  Would you consider mixing each time you need it at the station?
+>>> If you are performing this experiment frequently, then it makes sense to
+>>> mix up once -- but our storage space for corrosives is limited, so I wanted
+>>> to ask.
+>>>
+>>> 3.  Waste disposal.  Just a reminder that your solvent waste is OK to go
+>>> into the solvent station carboy, but your BOE etchant mix and the rinseate
+>>> must go into the HF waste.
+>>>
+>>> Mary
+>>>
+>>>
+>>>
+>>>
+>>> On 4/23/2023 6:59 PM, Ying Zhu wrote:
+>>>
+>>> Hi Mary,
+>>>
+>>> Thanks for your feedback. Here I added the (1) information of Individual
+>>> personal chemical containers; and (2) volumes of solution in the protocol.
+>>> I tag the new edits with red
+>>>
+>>> I also add ethanol in the form because we will bring our own.
+>>>
+>>> Best
+>>> Ying
+>>>
+>>> On Sat, Apr 22, 2023 at 7:43?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>
+>>> Hi Ying -
+>>>
+>>> Apologies for the delay in responding.  I think your protocol is
+>>> generally good, but we should clarify a few things:
+>>>
+>>> 1.  Please list individual personal chemical containers that you plan to
+>>> store at SNF. Each of these will need to be registered and should have a
+>>> yellow label.  The info required:  Your name and email/contact info; full
+>>> chemical name or contents (by concentration for mixtures); volume of the
+>>> container; chemical storage class (L, I believe, but double-check me on
+>>> this at https://ehs.stanford.edu/forms-tools/stanford-storage-groups);
+>>> primary hazard (i.e., flammable vs oxidizer); experiment end date (not to
+>>> exceed one year.)
+>>>
+>>> 2.  Please list the volumes of solution you plan to use in your
+>>> protocol.  If I understand correctly from our discussions, the volumes of
+>>> chemicals that you will actually use in an experiment will be pretty small
+>>> (and this will reassure everyone about risks.)
+>>>
+>>> 3.  Also, while ethanol is OK to use in the lab, we don't routinely
+>>> stock it for wet bench use so you won't always find it.  It might be best
+>>> if you could provide your own, so you can be assured of the quality and
+>>> that you'll always have it.
+>>>
+>>> Once we have #1 and #2, your request can be approved --
+>>>
+>>> Thanks for your patience,
+>>>
+>>> Mary
+>>>
+>>> --
+>>> Mary X. Tang, Ph.D.
+>>> Managing Director
+>>> Stanford Nanofabrication Facility
+>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>
+>>> On 4/12/2023 4:01 PM, Ying Zhu wrote:
+>>>
+>>> Dear committee members,
+>>>
+>>> Please find the attached form for  Chemicals and materials for
+>>> fabricating nanoPOTS glass slide
+>>> Let me know if you have any questions
+>>> Thanks
+>>>
+>>> Ying
+>>>
+>>> --
+>>> Ying Zhu, Ph.D.
+>>> Senior Principal Scientist
+>>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>>> Sequencing
+>>> Genentech Inc, A Member of the Roche Group
+>>> 1 DNA Way, South San Francisco, CA 94080
+>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>> --
+>>> Ying Zhu, Ph.D.
+>>> Senior Principal Scientist
+>>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>>> Sequencing
+>>> Genentech Inc, A Member of the Roche Group
+>>> 1 DNA Way, South San Francisco, CA 94080
+>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>
+>>> --
+>>> Mary X. Tang, Ph.D.
+>>> Managing Director
+>>> Stanford Nanofabrication Facility
+>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>
+>>> --
+>> Ying Zhu, Ph.D.
+>> Senior Principal Scientist
+>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>> Sequencing
+>> Genentech Inc, A Member of the Roche Group
+>> 1 DNA Way, South San Francisco, CA 94080
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230616/3d1c22d7/attachment-0001.htm>
+
+From mtang at stanford.edu  Fri Jun 16 10:53:07 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 16 Jun 2023 10:53:07 -0700
+Subject: [snf-promcommittee] PROM for nanoPOTS project
+In-Reply-To: <CADS0cXr-LGra-Czqhu0CgnUsObaaFN9RpFH_QeCNZ-tttNKg7w@mail.gmail.com>
+References: <CADS0cXpeG+8NkL6YdfO0rGry5Oqr46R==inD3AayVbVA5fzHHw@mail.gmail.com>
+ <283cf65b-ca28-c359-f18a-33c875d6f23e@stanford.edu>
+ <CADS0cXpZwoCvNwt5-mUuqaEC+CHUXsTZth4THxcMefmV9f5g3A@mail.gmail.com>
+ <0dc5490f-5d0e-165c-1496-b6b0519e9d03@stanford.edu>
+ <CADS0cXpUg832k35XqZcV7fcUPN=w5nhx1FOUEi7mU2ddr4Drbw@mail.gmail.com>
+ <CADS0cXpKciVug7tLmp+GKsMnJR7vEOfbU71VyhfPBKazpv8wuA@mail.gmail.com>
+ <CADS0cXpfxMKRCznFf-6TtkcpYitYnr_-31K9koC+rQ_2PG1OOg@mail.gmail.com>
+ <CADS0cXqVyhCv5uT29cxw_386Wa_EpLXCoh-v6s4_zQLeVxj9CQ@mail.gmail.com>
+ <8f181e46-9312-92c8-05d6-042467a02998@stanford.edu>
+ <BY5PR02MB609804DFABE982D69FB95A93DE759@BY5PR02MB6098.namprd02.prod.outlook.com>
+ <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+ <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+ <CADS0cXr-LGra-Czqhu0CgnUsObaaFN9RpFH_QeCNZ-tttNKg7w@mail.gmail.com>
+Message-ID: <376e1cce-8fe0-3f12-7ed0-3d0dd03241ce@stanford.edu>
+
+Hi Ying -
+
+Apologies, I'm just catching up with emails today...
+
+Please deliver to the loading dock during working hours, 7 am - 4 pm. 
+The earlier, the better. Your shipment should have your name on it - 
+please let us know what to expect and when. When we receive the 
+chemical, it will be kept in a storage area until you are ready to pick 
+it up. To transport chemicals, we have roll around carts or chemical 
+carriers. Wearing appropriate chemical protection, you can unpack your 
+chemicals, label with your yellow labels, place in the appropriate 
+carrier for transport, and bring to the L119 entry at the back of the 
+lab. Just ask a staff member to help.
+
+Mary
+
+On 6/16/2023 10:41 AM, Ying Zhu wrote:
+> Hi Gary and Mary,
+>
+> Our company's transportation? department is waiting for information on 
+> how to deliver the reagent to SNF. Should we just stopby?and I use the 
+> receiving?dock to get the chemical into the cleanroom?
+>
+> Thanks
+> Ying
+>
+> On Tue, Jun 13, 2023 at 9:34?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>
+>     Hi Gary and Mary,
+>
+>     I am scheduling with our company transportation service to
+>     deliver?organic solvent to SNF. I understand the solvent should be
+>     delivered from the loading dock. Is there any other requirement?to
+>     bring the solvent?from the loading dock to cleanroom?
+>     I can get the metal cart from cleanroom and transport the solvent
+>
+>     Thanks
+>     Ying
+>
+>
+>
+>     On Fri, May 12, 2023 at 12:05?PM Ying Zhu <zhuy127 at gene.com> wrote:
+>
+>         Hi Gary,
+>
+>         Thanks. I just pick it up today
+>
+>         Ying
+>
+>         On Fri, May 12, 2023 at 11:20 AM Gary J Sosa
+>         <gsosa at stanford.edu> wrote:
+>
+>             Hi?Ying...
+>             ? ?Your personal chemical labels are ready for pickup. I
+>             taped them to my office door(Office 144). You can pick
+>             them up at any time.
+>
+>             ***Please note that the label is now printed with the
+>             expiration date***
+>
+>             ? ? ? ? ?Thanks....? Gary
+>
+>             ------------------------------------------------------------------------
+>             *From:* Mary Tang <mtang at stanford.edu>
+>             *Sent:* Thursday, May 11, 2023 3:06 PM
+>             *To:* Ying Zhu <zhu.ying at gene.com>
+>             *Cc:* Tommy K Cheung <cheung.tommy at gene.com>; Ulrike
+>             Martina Thumser <uthumser at stanford.edu>;
+>             snf-promcommittee at lists.stanford.edu
+>             <snf-promcommittee at lists.stanford.edu>; Gary J Sosa
+>             <gsosa at stanford.edu>
+>             *Subject:* Re: [snf-promcommittee] PROM for nanoPOTS project
+>
+>             Hi Ying -
+>
+>             Apologies for the delay!? Your PROM request is approved.?
+>             Please contact Gary Sosa about picking up yellow tags for
+>             the chemicals you will be storing at SNF.? From your
+>             request, here are the chemicals you will need tags for
+>             (Gary, could you please create these three labels for Ying?):
+>
+>             o Name and Contact: Ying Zhu; 5095784648
+>             o Full name: (heptadecafluoro-1,1,2,2-tetrahydrodecyl)
+>             dimethylchlorosilane
+>             o Volume of container: 5 mL
+>             o Chemical storage class: Group
+>             o Primary hazard: flammable
+>             o Experiment end date: 5/11/2024
+>             (You'd noted you would need a dry box to store this
+>             chemical.? Let me know when it arrives and we can find a
+>             place for it.)
+>
+>             o Name and Contact: Ying Zhu; 5095784648
+>             o Full name: 2,2,4-trimethylpentane
+>             o Volume of container: 4 L
+>             o Chemical storage class: Group L
+>             o Primary hazard: flammable
+>             o Experiment end date: 5/11/2024
+>
+>             o Name and Contact: Ying Zhu; 5095784648
+>             o Full name: Ethanol
+>             o Volume of container: 4 L
+>             o Chemical storage class: Group L
+>             o Primary hazard: flammable
+>             o Experiment end date: 5/11/2024
+>
+>             Thanks for your patience -
+>
+>             Mary
+>
+>             On 5/8/2023 8:00 AM, Ying Zhu wrote:
+>>             Hello Mary,
+>>
+>>             I check in this project again.
+>>             Thanks
+>>
+>>             Ying
+>>
+>>             On Fri, May 5, 2023 at 8:00?AM Ying Zhu
+>>             <zhuy127 at gene.com> wrote:
+>>
+>>                 Hi Mary,
+>>
+>>                 Could you take a look at the new form? If everything
+>>                 is approved, I will bring chemicals to SNF. Also,
+>>                 where I can find the chemical labels to label these
+>>                 chemical bottles?
+>>
+>>                 Thanks
+>>                 Ying
+>>
+>>                 On Thu, Apr 27, 2023 at 8:00?AM Ying Zhu
+>>                 <zhuy127 at gene.com> wrote:
+>>
+>>                     Hi Mary,
+>>
+>>                     Do you have more feedbacks in the new form? Thanks
+>>
+>>                     Ying
+>>
+>>                     On Tue, Apr 25, 2023 at 12:10 PM Ying Zhu
+>>                     <zhuy127 at gene.com> wrote:
+>>
+>>                         Hi Mary,
+>>
+>>                         Here is my reply to your comments.
+>>
+>>                         1. We can use BOE at 1:6 ratio. The etching
+>>                         rate is not critical for our procedures.
+>>                         2. I can prepare the etching solution every
+>>                         time I use it. I?deleted it from the
+>>                         storage?section of the PROM form
+>>                         3. I have updated the disposal section
+>>
+>>                         Thanks
+>>                         Ying
+>>
+>>                         On Mon, Apr 24, 2023 at 6:04?AM Mary Tang
+>>                         <mtang at stanford.edu> wrote:
+>>
+>>                             Hi Ying -
+>>
+>>                             Sorry, a couple more minor points/questions.
+>>
+>>                             1.? We do not stock 7:1 BOE, but we do
+>>                             have 6:1 BOE and 20:1 BOE.? We also carry
+>>                             49% HF and concentrated ammonium fluoride
+>>                             if you want to make up your own, but I'd
+>>                             suggest adjusting your mix -- or you can
+>>                             supply yourself.
+>>
+>>                             2.? In your stored chemicals, you've
+>>                             included a 4L bottle of mixed etchant.?
+>>                             Would you consider mixing each time you
+>>                             need it at the station?? If you are
+>>                             performing this experiment frequently,
+>>                             then it makes sense to mix up once -- but
+>>                             our storage space for corrosives is
+>>                             limited, so I wanted to ask.
+>>
+>>                             3.? Waste disposal. Just a reminder that
+>>                             your solvent waste is OK to go into the
+>>                             solvent station carboy, but your BOE
+>>                             etchant mix and the rinseate must go into
+>>                             the HF waste.
+>>
+>>                             Mary
+>>
+>>
+>>
+>>
+>>                             On 4/23/2023 6:59 PM, Ying Zhu wrote:
+>>>                             Hi Mary,
+>>>
+>>>                             Thanks for your feedback. Here I added
+>>>                             the (1) information of Individual
+>>>                             personal chemical containers; and (2)
+>>>                             volumes of solution in the protocol. I
+>>>                             tag the new edits with red
+>>>
+>>>                             I also add ethanol?in the form
+>>>                             because?we will bring our own.
+>>>
+>>>                             Best
+>>>                             Ying
+>>>
+>>>                             On Sat, Apr 22, 2023 at 7:43?AM Mary
+>>>                             Tang <mtang at stanford.edu> wrote:
+>>>
+>>>                                 Hi Ying -
+>>>
+>>>                                 Apologies for the delay in
+>>>                                 responding.? I think your protocol
+>>>                                 is generally good, but we should
+>>>                                 clarify a few things:
+>>>
+>>>                                 1.? Please list individual personal
+>>>                                 chemical containers that you plan to
+>>>                                 store at SNF. Each of these will
+>>>                                 need to be registered and should
+>>>                                 have a yellow label. The info
+>>>                                 required:? Your name and
+>>>                                 email/contact info; full chemical
+>>>                                 name or contents (by concentration
+>>>                                 for mixtures); volume of the
+>>>                                 container; chemical storage class
+>>>                                 (L, I believe, but double-check me
+>>>                                 on this at
+>>>                                 https://ehs.stanford.edu/forms-tools/stanford-storage-groups);
+>>>                                 primary hazard (i.e., flammable vs
+>>>                                 oxidizer); experiment end date (not
+>>>                                 to exceed one year.)
+>>>
+>>>                                 2.? Please list the volumes of
+>>>                                 solution you plan to use in your
+>>>                                 protocol. If I understand correctly
+>>>                                 from our discussions, the volumes of
+>>>                                 chemicals that you will actually use
+>>>                                 in an experiment will be pretty
+>>>                                 small (and this will reassure
+>>>                                 everyone about risks.)
+>>>
+>>>                                 3.? Also, while ethanol is OK to use
+>>>                                 in the lab, we don't routinely stock
+>>>                                 it for wet bench use so you won't
+>>>                                 always find it. It might be best if
+>>>                                 you could provide your own, so you
+>>>                                 can be assured of the quality and
+>>>                                 that you'll always have it.
+>>>
+>>>                                 Once we have #1 and #2, your request
+>>>                                 can be approved --
+>>>
+>>>                                 Thanks for your patience,
+>>>
+>>>                                 Mary
+>>>
+>>>                                 -- 
+>>>                                 Mary X. Tang, Ph.D.
+>>>                                 Managing Director
+>>>                                 Stanford Nanofabrication Facility
+>>>                                 Paul G. Allen Building
+>>>                                 420 Via Palou  <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g>  Mall
+>>>                                 Stanford, CA 94305
+>>>                                 https://snf.stanford.edu
+>>>                                 mtang at stanford.edu
+>>>
+>>>                                 On 4/12/2023 4:01 PM, Ying Zhu wrote:
+>>>>                                 Dear committee members,
+>>>>
+>>>>                                 Please find the attached form for
+>>>>                                 ?Chemicals and materials for
+>>>>                                 fabricating nanoPOTS glass slide
+>>>>                                 Let me know if you have?any questions
+>>>>                                 Thanks
+>>>>
+>>>>                                 Ying
+>>>>
+>>>>                                 -- 
+>>>>                                 Ying Zhu, Ph.D.
+>>>>                                 Senior Principal Scientist
+>>>>                                 Department of Microchemistry,
+>>>>                                 Proteomics, Lipidomics and Next
+>>>>                                 Generation Sequencing
+>>>>                                 Genentech Inc, A Member of the
+>>>>                                 Roche Group
+>>>>                                 1 DNA Way, South San Francisco, CA
+>>>>                                 94080
+>>>>                                 <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>>
+>>>>                                 _______________________________________________
+>>>>                                 snf-promcommittee mailing list
+>>>>                                 snf-promcommittee at lists.stanford.edu
+>>>>                                 https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>                     -- 
+>>                     Ying Zhu, Ph.D.
+>>                     Senior Principal Scientist
+>>                     Department of Microchemistry, Proteomics,
+>>                     Lipidomics and Next Generation Sequencing
+>>                     Genentech Inc, A Member of the Roche Group
+>>                     1 DNA Way, South San Francisco, CA 94080
+>>                     <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>
+>             -- 
+>             Mary X. Tang, Ph.D.
+>             Managing Director
+>             Stanford Nanofabrication Facility
+>             Paul G. Allen Building
+>             420 Via Palou  <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g>  Mall
+>             Stanford, CA 94305
+>             https://snf.stanford.edu
+>             mtang at stanford.edu
+>
+>         -- 
+>         Ying Zhu, Ph.D.
+>         Senior Principal Scientist
+>         Department of Microchemistry, Proteomics, Lipidomics and Next
+>         Generation Sequencing
+>         Genentech Inc, A Member of the Roche Group
+>         1 DNA Way, South San Francisco, CA 94080
+>
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230616/f1652bfa/attachment-0001.htm>
+
+From zhu.ying at gene.com  Fri Jun 16 13:42:18 2023
+From: zhu.ying at gene.com (Ying Zhu)
+Date: Fri, 16 Jun 2023 13:42:18 -0700
+Subject: [snf-promcommittee] PROM for nanoPOTS project
+In-Reply-To: <376e1cce-8fe0-3f12-7ed0-3d0dd03241ce@stanford.edu>
+References: <CADS0cXpeG+8NkL6YdfO0rGry5Oqr46R==inD3AayVbVA5fzHHw@mail.gmail.com>
+ <283cf65b-ca28-c359-f18a-33c875d6f23e@stanford.edu>
+ <CADS0cXpZwoCvNwt5-mUuqaEC+CHUXsTZth4THxcMefmV9f5g3A@mail.gmail.com>
+ <0dc5490f-5d0e-165c-1496-b6b0519e9d03@stanford.edu>
+ <CADS0cXpUg832k35XqZcV7fcUPN=w5nhx1FOUEi7mU2ddr4Drbw@mail.gmail.com>
+ <CADS0cXpKciVug7tLmp+GKsMnJR7vEOfbU71VyhfPBKazpv8wuA@mail.gmail.com>
+ <CADS0cXpfxMKRCznFf-6TtkcpYitYnr_-31K9koC+rQ_2PG1OOg@mail.gmail.com>
+ <CADS0cXqVyhCv5uT29cxw_386Wa_EpLXCoh-v6s4_zQLeVxj9CQ@mail.gmail.com>
+ <8f181e46-9312-92c8-05d6-042467a02998@stanford.edu>
+ <BY5PR02MB609804DFABE982D69FB95A93DE759@BY5PR02MB6098.namprd02.prod.outlook.com>
+ <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+ <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+ <CADS0cXr-LGra-Czqhu0CgnUsObaaFN9RpFH_QeCNZ-tttNKg7w@mail.gmail.com>
+ <376e1cce-8fe0-3f12-7ed0-3d0dd03241ce@stanford.edu>
+Message-ID: <CADS0cXod8UXsvNZSAJfNJnb5+p2p1E0xUUWzV6Zuq_TZkDonDw@mail.gmail.com>
+
+Thanks Mary,
+
+I will let them know the deliver time to make sure the chemicals are
+delivered before noon time. I will send you the information when they
+schedule the delivery time
+
+Ying
+
+On Fri, Jun 16, 2023 at 10:53?AM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hi Ying -
+>
+> Apologies, I'm just catching up with emails today...
+>
+> Please deliver to the loading dock during working hours, 7 am - 4 pm. The
+> earlier, the better. Your shipment should have your name on it - please let
+> us know what to expect and when. When we receive the chemical, it will be
+> kept in a storage area until you are ready to pick it up. To transport
+> chemicals, we have roll around carts or chemical carriers. Wearing
+> appropriate chemical protection, you can unpack your chemicals, label with
+> your yellow labels, place in the appropriate carrier for transport, and
+> bring to the L119 entry at the back of the lab. Just ask a staff member to
+> help.
+>
+> Mary
+> On 6/16/2023 10:41 AM, Ying Zhu wrote:
+>
+> Hi Gary and Mary,
+>
+> Our company's transportation  department is waiting for information on how
+> to deliver the reagent to SNF. Should we just stopby and I use the
+> receiving dock to get the chemical into the cleanroom?
+>
+> Thanks
+> Ying
+>
+> On Tue, Jun 13, 2023 at 9:34?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>
+>> Hi Gary and Mary,
+>>
+>> I am scheduling with our company transportation service to
+>> deliver organic solvent to SNF. I understand the solvent should be
+>> delivered from the loading dock. Is there any other requirement to bring
+>> the solvent from the loading dock to cleanroom?
+>> I can get the metal cart from cleanroom and transport the solvent
+>>
+>> Thanks
+>> Ying
+>>
+>>
+>>
+>> On Fri, May 12, 2023 at 12:05?PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>
+>>> Hi Gary,
+>>>
+>>> Thanks. I just pick it up today
+>>>
+>>> Ying
+>>>
+>>> On Fri, May 12, 2023 at 11:20 AM Gary J Sosa <gsosa at stanford.edu> wrote:
+>>>
+>>>> Hi Ying...
+>>>>
+>>>>      Your personal chemical labels are ready for pickup. I taped them
+>>>> to my office door(Office 144). You can pick them up at any time.
+>>>>
+>>>> ***Please note that the label is now printed with the expiration date***
+>>>>
+>>>>            Thanks....  Gary
+>>>>
+>>>> ------------------------------
+>>>> *From:* Mary Tang <mtang at stanford.edu>
+>>>> *Sent:* Thursday, May 11, 2023 3:06 PM
+>>>> *To:* Ying Zhu <zhu.ying at gene.com>
+>>>> *Cc:* Tommy K Cheung <cheung.tommy at gene.com>; Ulrike Martina Thumser <
+>>>> uthumser at stanford.edu>; snf-promcommittee at lists.stanford.edu <
+>>>> snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+>>>> *Subject:* Re: [snf-promcommittee] PROM for nanoPOTS project
+>>>>
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Apologies for the delay!  Your PROM request is approved.  Please
+>>>> contact Gary Sosa about picking up yellow tags for the chemicals you will
+>>>> be storing at SNF.  From your request, here are the chemicals you will need
+>>>> tags for (Gary, could you please create these three labels for Ying?):
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: (heptadecafluoro-1,1,2,2-tetrahydrodecyl)
+>>>> dimethylchlorosilane
+>>>> o Volume of container: 5 mL
+>>>> o Chemical storage class: Group
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>> (You'd noted you would need a dry box to store this chemical.  Let me
+>>>> know when it arrives and we can find a place for it.)
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: 2,2,4-trimethylpentane
+>>>> o Volume of container: 4 L
+>>>> o Chemical storage class: Group L
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: Ethanol
+>>>> o Volume of container: 4 L
+>>>> o Chemical storage class: Group L
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>>
+>>>> Thanks for your patience -
+>>>>
+>>>> Mary
+>>>> On 5/8/2023 8:00 AM, Ying Zhu wrote:
+>>>>
+>>>> Hello Mary,
+>>>>
+>>>> I check in this project again.
+>>>> Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> On Fri, May 5, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Could you take a look at the new form? If everything is approved, I
+>>>> will bring chemicals to SNF. Also, where I can find the chemical labels to
+>>>> label these chemical bottles?
+>>>>
+>>>> Thanks
+>>>> Ying
+>>>>
+>>>> On Thu, Apr 27, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Do you have more feedbacks in the new form? Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> On Tue, Apr 25, 2023 at 12:10 PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Here is my reply to your comments.
+>>>>
+>>>> 1. We can use BOE at 1:6 ratio. The etching rate is not critical for
+>>>> our procedures.
+>>>> 2. I can prepare the etching solution every time I use it. I deleted it
+>>>> from the storage section of the PROM form
+>>>> 3. I have updated the disposal section
+>>>>
+>>>> Thanks
+>>>> Ying
+>>>>
+>>>> On Mon, Apr 24, 2023 at 6:04?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Sorry, a couple more minor points/questions.
+>>>>
+>>>> 1.  We do not stock 7:1 BOE, but we do have 6:1 BOE and 20:1 BOE.  We
+>>>> also carry 49% HF and concentrated ammonium fluoride if you want to make up
+>>>> your own, but I'd suggest adjusting your mix -- or you can supply yourself.
+>>>>
+>>>> 2.  In your stored chemicals, you've included a 4L bottle of mixed
+>>>> etchant.  Would you consider mixing each time you need it at the station?
+>>>> If you are performing this experiment frequently, then it makes sense to
+>>>> mix up once -- but our storage space for corrosives is limited, so I wanted
+>>>> to ask.
+>>>>
+>>>> 3.  Waste disposal.  Just a reminder that your solvent waste is OK to
+>>>> go into the solvent station carboy, but your BOE etchant mix and the
+>>>> rinseate must go into the HF waste.
+>>>>
+>>>> Mary
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> On 4/23/2023 6:59 PM, Ying Zhu wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Thanks for your feedback. Here I added the (1) information of
+>>>> Individual personal chemical containers; and (2) volumes of solution in the
+>>>> protocol. I tag the new edits with red
+>>>>
+>>>> I also add ethanol in the form because we will bring our own.
+>>>>
+>>>> Best
+>>>> Ying
+>>>>
+>>>> On Sat, Apr 22, 2023 at 7:43?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Apologies for the delay in responding.  I think your protocol is
+>>>> generally good, but we should clarify a few things:
+>>>>
+>>>> 1.  Please list individual personal chemical containers that you plan
+>>>> to store at SNF. Each of these will need to be registered and should have a
+>>>> yellow label.  The info required:  Your name and email/contact info; full
+>>>> chemical name or contents (by concentration for mixtures); volume of the
+>>>> container; chemical storage class (L, I believe, but double-check me on
+>>>> this at https://ehs.stanford.edu/forms-tools/stanford-storage-groups);
+>>>> primary hazard (i.e., flammable vs oxidizer); experiment end date (not to
+>>>> exceed one year.)
+>>>>
+>>>> 2.  Please list the volumes of solution you plan to use in your
+>>>> protocol.  If I understand correctly from our discussions, the volumes of
+>>>> chemicals that you will actually use in an experiment will be pretty small
+>>>> (and this will reassure everyone about risks.)
+>>>>
+>>>> 3.  Also, while ethanol is OK to use in the lab, we don't routinely
+>>>> stock it for wet bench use so you won't always find it.  It might be best
+>>>> if you could provide your own, so you can be assured of the quality and
+>>>> that you'll always have it.
+>>>>
+>>>> Once we have #1 and #2, your request can be approved --
+>>>>
+>>>> Thanks for your patience,
+>>>>
+>>>> Mary
+>>>>
+>>>> --
+>>>> Mary X. Tang, Ph.D.
+>>>> Managing Director
+>>>> Stanford Nanofabrication Facility
+>>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>>
+>>>> On 4/12/2023 4:01 PM, Ying Zhu wrote:
+>>>>
+>>>> Dear committee members,
+>>>>
+>>>> Please find the attached form for  Chemicals and materials for
+>>>> fabricating nanoPOTS glass slide
+>>>> Let me know if you have any questions
+>>>> Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> --
+>>>> Ying Zhu, Ph.D.
+>>>> Senior Principal Scientist
+>>>> Department of Microchemistry, Proteomics, Lipidomics and Next
+>>>> Generation Sequencing
+>>>> Genentech Inc, A Member of the Roche Group
+>>>> 1 DNA Way, South San Francisco, CA 94080
+>>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>> --
+>>>> Ying Zhu, Ph.D.
+>>>> Senior Principal Scientist
+>>>> Department of Microchemistry, Proteomics, Lipidomics and Next
+>>>> Generation Sequencing
+>>>> Genentech Inc, A Member of the Roche Group
+>>>> 1 DNA Way, South San Francisco, CA 94080
+>>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>>
+>>>> --
+>>>> Mary X. Tang, Ph.D.
+>>>> Managing Director
+>>>> Stanford Nanofabrication Facility
+>>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>>
+>>>> --
+>>> Ying Zhu, Ph.D.
+>>> Senior Principal Scientist
+>>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>>> Sequencing
+>>> Genentech Inc, A Member of the Roche Group
+>>> 1 DNA Way, South San Francisco, CA 94080
+>>>
+>> --
+> Mary X. Tang, Ph.D.
+> Managing Director
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building
+> 420 Via Palou Mall
+> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230616/fbfeb9b4/attachment-0001.htm>
+
+From rjson at stanford.edu  Fri Jun 16 20:54:03 2023
+From: rjson at stanford.edu (Rosa Jie Son)
+Date: Sat, 17 Jun 2023 03:54:03 +0000
+Subject: [snf-promcommittee] SNF new materials request
+Message-ID: <BYAPR02MB59927842BCBB942EBFE405DEDD59A@BYAPR02MB5992.namprd02.prod.outlook.com>
+
+Hi,
+
+I would like to request to bring in a new chemical and substance to the SNF. I've attached the PROM request and the MSDS for the relevant substances.
+
+Thank you very much!
+
+Best,
+Rosa
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230617/a33d1289/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 3499699 bytes
+Desc: process_or_materials_request_form.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230617/a33d1289/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: cyclohexanone msds.pdf
+Type: application/pdf
+Size: 242250 bytes
+Desc: cyclohexanone msds.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230617/a33d1289/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: DF-1000 Series safety data sheet.pdf
+Type: application/pdf
+Size: 3220775 bytes
+Desc: DF-1000 Series safety data sheet.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230617/a33d1289/attachment-0004.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: EMS-Dry-Film-Lamination-Guidelines-2020.pptx.pdf
+Type: application/pdf
+Size: 757713 bytes
+Desc: EMS-Dry-Film-Lamination-Guidelines-2020.pptx.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230617/a33d1289/attachment-0005.pdf>
+
+From narunl at stanford.edu  Mon Jun 19 09:00:00 2023
+From: narunl at stanford.edu (Leah Narun)
+Date: Mon, 19 Jun 2023 16:00:00 +0000
+Subject: [snf-promcommittee] LLZO in Lesker
+Message-ID: <PH0PR02MB710989BDEEF06B2A00F05F95BD59A@PH0PR02MB7109.namprd02.prod.outlook.com>
+
+Hi PROM committee,
+
+I am a first year PhD student in the Chueh group. I am working with a solid electrolyte material Li7La3Zr2O12 (LLZO) and would like to sputter Pt/Ti electrodes using the Lesker sputtering tool.
+
+LLZO is a garnet-type lithium-ion conductor. In addition to undoped tetragonal LLZO, I am also working with Ta-, Ga-, Al-, and Nb-doped cubic LLZO. The dopants stabilize the higher conductivity cubic form at room temperature.
+
+  *   Li6.25La3Zr2Al0.25O12
+  *   Li6.25La3Zr2Ga0.25O12
+  *   Li6.75La3Zr1.75Nb0.25O12
+  *   Li6.75La3Zr1.75Ta0.4O12
+
+Please let me know if there is other information necessary to determine if this material can be used with the Lesker tool. My group has previously requested to use LLZO in SNF as linked here<https://drive.google.com/file/d/1J3kgeyh_ThZfXqKVFdSmBml9bNEs-77m/view>.
+
+Thank you,
+Leah
+
+Leah Narun
+PhD Student, Materials Science and Engineering
+Stanford University
+narunl at stanford.edu<mailto:narunl at stanford.edu>
+484-886-7479
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230619/e29266cb/attachment.htm>
+
+From cknollen at stanford.edu  Mon Jun 19 13:46:41 2023
+From: cknollen at stanford.edu (Clifford F Knollenberg)
+Date: Mon, 19 Jun 2023 20:46:41 +0000
+Subject: [snf-promcommittee] LLZO in Lesker
+In-Reply-To: <PH0PR02MB710989BDEEF06B2A00F05F95BD59A@PH0PR02MB7109.namprd02.prod.outlook.com>
+References: <PH0PR02MB710989BDEEF06B2A00F05F95BD59A@PH0PR02MB7109.namprd02.prod.outlook.com>
+Message-ID: <DM6PR02MB52586EDF841968D74E9FC057B55FA@DM6PR02MB5258.namprd02.prod.outlook.com>
+
+Hi Leah,
+
+Our concerns around new materials are less about what you're using it for, and more about the dangers of working with the materials and how to mitigate them.  Do you have any SDS information for this material or the component elements (Especially La and Li, which we are not as familiar with).  Do any of these materials vaporize or volatilize at low temperatures (<800C) or outgas in high vacuum?
+
+Also is your process limited to sputter coating Ti and Pt on to solids of this material?  Will this require elevated temperatures that might vaporize or volatilize any of the component elements?  Are you planning on etching or machining this material in our facility? We're concerned about any steps or processes that start to break down the material leaving any residue of the material or its constitutive elements.
+
+Sorry if these are overly broad, but these are questions we're asking when evaluating how to work safely with a material.
+
+-Cliff
+
+
+
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Leah Narun <narunl at stanford.edu>
+Sent: Monday, June 19, 2023 9:00 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] LLZO in Lesker
+
+
+Hi PROM committee,
+
+
+
+I am a first year PhD student in the Chueh group. I am working with a solid electrolyte material Li7La3Zr2O12 (LLZO) and would like to sputter Pt/Ti electrodes using the Lesker sputtering tool.
+
+
+
+LLZO is a garnet-type lithium-ion conductor. In addition to undoped tetragonal LLZO, I am also working with Ta-, Ga-, Al-, and Nb-doped cubic LLZO. The dopants stabilize the higher conductivity cubic form at room temperature.
+
+  *   Li6.25La3Zr2Al0.25O12
+  *   Li6.25La3Zr2Ga0.25O12
+  *   Li6.75La3Zr1.75Nb0.25O12
+  *   Li6.75La3Zr1.75Ta0.4O12
+
+
+
+Please let me know if there is other information necessary to determine if this material can be used with the Lesker tool. My group has previously requested to use LLZO in SNF as linked here<https://drive.google.com/file/d/1J3kgeyh_ThZfXqKVFdSmBml9bNEs-77m/view>.
+
+
+
+Thank you,
+
+Leah
+
+
+
+Leah Narun
+
+PhD Student, Materials Science and Engineering
+
+Stanford University
+
+narunl at stanford.edu<mailto:narunl at stanford.edu>
+
+484-886-7479
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230619/bac03051/attachment.htm>
+
+From zhu.ying at gene.com  Tue Jun 20 17:42:19 2023
+From: zhu.ying at gene.com (Ying Zhu)
+Date: Tue, 20 Jun 2023 17:42:19 -0700
+Subject: [snf-promcommittee] PROM for nanoPOTS project
+In-Reply-To: <376e1cce-8fe0-3f12-7ed0-3d0dd03241ce@stanford.edu>
+References: <CADS0cXpeG+8NkL6YdfO0rGry5Oqr46R==inD3AayVbVA5fzHHw@mail.gmail.com>
+ <283cf65b-ca28-c359-f18a-33c875d6f23e@stanford.edu>
+ <CADS0cXpZwoCvNwt5-mUuqaEC+CHUXsTZth4THxcMefmV9f5g3A@mail.gmail.com>
+ <0dc5490f-5d0e-165c-1496-b6b0519e9d03@stanford.edu>
+ <CADS0cXpUg832k35XqZcV7fcUPN=w5nhx1FOUEi7mU2ddr4Drbw@mail.gmail.com>
+ <CADS0cXpKciVug7tLmp+GKsMnJR7vEOfbU71VyhfPBKazpv8wuA@mail.gmail.com>
+ <CADS0cXpfxMKRCznFf-6TtkcpYitYnr_-31K9koC+rQ_2PG1OOg@mail.gmail.com>
+ <CADS0cXqVyhCv5uT29cxw_386Wa_EpLXCoh-v6s4_zQLeVxj9CQ@mail.gmail.com>
+ <8f181e46-9312-92c8-05d6-042467a02998@stanford.edu>
+ <BY5PR02MB609804DFABE982D69FB95A93DE759@BY5PR02MB6098.namprd02.prod.outlook.com>
+ <CADS0cXrdzX1BOKijSHmHx-OsGZowqNntAKUcACJ4AzArqfi+xQ@mail.gmail.com>
+ <CADS0cXpU=x-PLUdY6etw2G_jpfE5jav1KHyP-9byW5OQhJaPjA@mail.gmail.com>
+ <CADS0cXr-LGra-Czqhu0CgnUsObaaFN9RpFH_QeCNZ-tttNKg7w@mail.gmail.com>
+ <376e1cce-8fe0-3f12-7ed0-3d0dd03241ce@stanford.edu>
+Message-ID: <CADS0cXroFngaxsCnOqE6cQb=0+YVPWzKtCmpp8ruy2xgbukpEQ@mail.gmail.com>
+
+Hi Mary,
+
+For the shipment, who should we address it to? Could you provide the name
+of staff member, as well as email address and phone number?
+Thanks
+
+Ying
+
+On Fri, Jun 16, 2023 at 10:53?AM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hi Ying -
+>
+> Apologies, I'm just catching up with emails today...
+>
+> Please deliver to the loading dock during working hours, 7 am - 4 pm. The
+> earlier, the better. Your shipment should have your name on it - please let
+> us know what to expect and when. When we receive the chemical, it will be
+> kept in a storage area until you are ready to pick it up. To transport
+> chemicals, we have roll around carts or chemical carriers. Wearing
+> appropriate chemical protection, you can unpack your chemicals, label with
+> your yellow labels, place in the appropriate carrier for transport, and
+> bring to the L119 entry at the back of the lab. Just ask a staff member to
+> help.
+>
+> Mary
+> On 6/16/2023 10:41 AM, Ying Zhu wrote:
+>
+> Hi Gary and Mary,
+>
+> Our company's transportation  department is waiting for information on how
+> to deliver the reagent to SNF. Should we just stopby and I use the
+> receiving dock to get the chemical into the cleanroom?
+>
+> Thanks
+> Ying
+>
+> On Tue, Jun 13, 2023 at 9:34?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>
+>> Hi Gary and Mary,
+>>
+>> I am scheduling with our company transportation service to
+>> deliver organic solvent to SNF. I understand the solvent should be
+>> delivered from the loading dock. Is there any other requirement to bring
+>> the solvent from the loading dock to cleanroom?
+>> I can get the metal cart from cleanroom and transport the solvent
+>>
+>> Thanks
+>> Ying
+>>
+>>
+>>
+>> On Fri, May 12, 2023 at 12:05?PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>
+>>> Hi Gary,
+>>>
+>>> Thanks. I just pick it up today
+>>>
+>>> Ying
+>>>
+>>> On Fri, May 12, 2023 at 11:20 AM Gary J Sosa <gsosa at stanford.edu> wrote:
+>>>
+>>>> Hi Ying...
+>>>>
+>>>>      Your personal chemical labels are ready for pickup. I taped them
+>>>> to my office door(Office 144). You can pick them up at any time.
+>>>>
+>>>> ***Please note that the label is now printed with the expiration date***
+>>>>
+>>>>            Thanks....  Gary
+>>>>
+>>>> ------------------------------
+>>>> *From:* Mary Tang <mtang at stanford.edu>
+>>>> *Sent:* Thursday, May 11, 2023 3:06 PM
+>>>> *To:* Ying Zhu <zhu.ying at gene.com>
+>>>> *Cc:* Tommy K Cheung <cheung.tommy at gene.com>; Ulrike Martina Thumser <
+>>>> uthumser at stanford.edu>; snf-promcommittee at lists.stanford.edu <
+>>>> snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+>>>> *Subject:* Re: [snf-promcommittee] PROM for nanoPOTS project
+>>>>
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Apologies for the delay!  Your PROM request is approved.  Please
+>>>> contact Gary Sosa about picking up yellow tags for the chemicals you will
+>>>> be storing at SNF.  From your request, here are the chemicals you will need
+>>>> tags for (Gary, could you please create these three labels for Ying?):
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: (heptadecafluoro-1,1,2,2-tetrahydrodecyl)
+>>>> dimethylchlorosilane
+>>>> o Volume of container: 5 mL
+>>>> o Chemical storage class: Group
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>> (You'd noted you would need a dry box to store this chemical.  Let me
+>>>> know when it arrives and we can find a place for it.)
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: 2,2,4-trimethylpentane
+>>>> o Volume of container: 4 L
+>>>> o Chemical storage class: Group L
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>>
+>>>> o Name and Contact: Ying Zhu; 5095784648
+>>>> o Full name: Ethanol
+>>>> o Volume of container: 4 L
+>>>> o Chemical storage class: Group L
+>>>> o Primary hazard: flammable
+>>>> o Experiment end date: 5/11/2024
+>>>>
+>>>> Thanks for your patience -
+>>>>
+>>>> Mary
+>>>> On 5/8/2023 8:00 AM, Ying Zhu wrote:
+>>>>
+>>>> Hello Mary,
+>>>>
+>>>> I check in this project again.
+>>>> Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> On Fri, May 5, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Could you take a look at the new form? If everything is approved, I
+>>>> will bring chemicals to SNF. Also, where I can find the chemical labels to
+>>>> label these chemical bottles?
+>>>>
+>>>> Thanks
+>>>> Ying
+>>>>
+>>>> On Thu, Apr 27, 2023 at 8:00?AM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Do you have more feedbacks in the new form? Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> On Tue, Apr 25, 2023 at 12:10 PM Ying Zhu <zhuy127 at gene.com> wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Here is my reply to your comments.
+>>>>
+>>>> 1. We can use BOE at 1:6 ratio. The etching rate is not critical for
+>>>> our procedures.
+>>>> 2. I can prepare the etching solution every time I use it. I deleted it
+>>>> from the storage section of the PROM form
+>>>> 3. I have updated the disposal section
+>>>>
+>>>> Thanks
+>>>> Ying
+>>>>
+>>>> On Mon, Apr 24, 2023 at 6:04?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Sorry, a couple more minor points/questions.
+>>>>
+>>>> 1.  We do not stock 7:1 BOE, but we do have 6:1 BOE and 20:1 BOE.  We
+>>>> also carry 49% HF and concentrated ammonium fluoride if you want to make up
+>>>> your own, but I'd suggest adjusting your mix -- or you can supply yourself.
+>>>>
+>>>> 2.  In your stored chemicals, you've included a 4L bottle of mixed
+>>>> etchant.  Would you consider mixing each time you need it at the station?
+>>>> If you are performing this experiment frequently, then it makes sense to
+>>>> mix up once -- but our storage space for corrosives is limited, so I wanted
+>>>> to ask.
+>>>>
+>>>> 3.  Waste disposal.  Just a reminder that your solvent waste is OK to
+>>>> go into the solvent station carboy, but your BOE etchant mix and the
+>>>> rinseate must go into the HF waste.
+>>>>
+>>>> Mary
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> On 4/23/2023 6:59 PM, Ying Zhu wrote:
+>>>>
+>>>> Hi Mary,
+>>>>
+>>>> Thanks for your feedback. Here I added the (1) information of
+>>>> Individual personal chemical containers; and (2) volumes of solution in the
+>>>> protocol. I tag the new edits with red
+>>>>
+>>>> I also add ethanol in the form because we will bring our own.
+>>>>
+>>>> Best
+>>>> Ying
+>>>>
+>>>> On Sat, Apr 22, 2023 at 7:43?AM Mary Tang <mtang at stanford.edu> wrote:
+>>>>
+>>>> Hi Ying -
+>>>>
+>>>> Apologies for the delay in responding.  I think your protocol is
+>>>> generally good, but we should clarify a few things:
+>>>>
+>>>> 1.  Please list individual personal chemical containers that you plan
+>>>> to store at SNF. Each of these will need to be registered and should have a
+>>>> yellow label.  The info required:  Your name and email/contact info; full
+>>>> chemical name or contents (by concentration for mixtures); volume of the
+>>>> container; chemical storage class (L, I believe, but double-check me on
+>>>> this at https://ehs.stanford.edu/forms-tools/stanford-storage-groups);
+>>>> primary hazard (i.e., flammable vs oxidizer); experiment end date (not to
+>>>> exceed one year.)
+>>>>
+>>>> 2.  Please list the volumes of solution you plan to use in your
+>>>> protocol.  If I understand correctly from our discussions, the volumes of
+>>>> chemicals that you will actually use in an experiment will be pretty small
+>>>> (and this will reassure everyone about risks.)
+>>>>
+>>>> 3.  Also, while ethanol is OK to use in the lab, we don't routinely
+>>>> stock it for wet bench use so you won't always find it.  It might be best
+>>>> if you could provide your own, so you can be assured of the quality and
+>>>> that you'll always have it.
+>>>>
+>>>> Once we have #1 and #2, your request can be approved --
+>>>>
+>>>> Thanks for your patience,
+>>>>
+>>>> Mary
+>>>>
+>>>> --
+>>>> Mary X. Tang, Ph.D.
+>>>> Managing Director
+>>>> Stanford Nanofabrication Facility
+>>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>>
+>>>> On 4/12/2023 4:01 PM, Ying Zhu wrote:
+>>>>
+>>>> Dear committee members,
+>>>>
+>>>> Please find the attached form for  Chemicals and materials for
+>>>> fabricating nanoPOTS glass slide
+>>>> Let me know if you have any questions
+>>>> Thanks
+>>>>
+>>>> Ying
+>>>>
+>>>> --
+>>>> Ying Zhu, Ph.D.
+>>>> Senior Principal Scientist
+>>>> Department of Microchemistry, Proteomics, Lipidomics and Next
+>>>> Generation Sequencing
+>>>> Genentech Inc, A Member of the Roche Group
+>>>> 1 DNA Way, South San Francisco, CA 94080
+>>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>> --
+>>>> Ying Zhu, Ph.D.
+>>>> Senior Principal Scientist
+>>>> Department of Microchemistry, Proteomics, Lipidomics and Next
+>>>> Generation Sequencing
+>>>> Genentech Inc, A Member of the Roche Group
+>>>> 1 DNA Way, South San Francisco, CA 94080
+>>>> <https://www.google.com/maps/search/1+DNA+Way,+South+San+Francisco,+CA+94080?entry=gmail&source=g>
+>>>>
+>>>> --
+>>>> Mary X. Tang, Ph.D.
+>>>> Managing Director
+>>>> Stanford Nanofabrication Facility
+>>>> Paul G. Allen Building420 Via Palou <https://www.google.com/maps/search/420+Via+Palou?entry=gmail&source=g> Mall
+>>>> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>>>>
+>>>> --
+>>> Ying Zhu, Ph.D.
+>>> Senior Principal Scientist
+>>> Department of Microchemistry, Proteomics, Lipidomics and Next Generation
+>>> Sequencing
+>>> Genentech Inc, A Member of the Roche Group
+>>> 1 DNA Way, South San Francisco, CA 94080
+>>>
+>> --
+> Mary X. Tang, Ph.D.
+> Managing Director
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building
+> 420 Via Palou Mall
+> Stanford, CA 94305https://snf.stanford.edumtang at stanford.edu
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230620/5f14340c/attachment-0001.htm>
+
+From dominique.piche at houndlabs.com  Wed Jun 21 10:47:09 2023
+From: dominique.piche at houndlabs.com (Dominique Piche)
+Date: Wed, 21 Jun 2023 17:47:09 +0000
+Subject: [snf-promcommittee] update on request
+Message-ID: <PH7PR14MB609192A3E6A53043034AD944E15DA@PH7PR14MB6091.namprd14.prod.outlook.com>
+
+Hi Prom committee!
+
+I am just wondering if you have an update on the request I submitted for iron oxide nanoparticles for DLS measurements?
+
+Many thanks
+
+Dominique
+
+DOMINIQUE PICHE, PHD
+Senior Scientist
+dominique.piche at houndlabs.com<mailto:dominique.piche at houndlabs.com> | 415.216.5194
+
+[cid:image001.png at 01D9A42D.BBEC7620]<https://houndlabs.com/>[cid:image002.png at 01D9A42D.BBEC7620]<https://www.linkedin.com/company/hound-labs-inc-/>[cid:image003.png at 01D9A42D.BBEC7620]<https://twitter.com/HoundLabsInc>
+Connect with Sales today<https://houndlabs.com/connect-with-sales/?utm_source=houndlabs&utm_medium=email> to order the HOUND(r) CANNABIS BREATHALYZER.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/ed8e9ac9/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 8383 bytes
+Desc: image001.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/ed8e9ac9/attachment-0003.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.png
+Type: image/png
+Size: 1289 bytes
+Desc: image002.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/ed8e9ac9/attachment-0004.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.png
+Type: image/png
+Size: 1896 bytes
+Desc: image003.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/ed8e9ac9/attachment-0005.png>
+
+From skommera at stanford.edu  Wed Jun 21 12:46:09 2023
+From: skommera at stanford.edu (Swaroop Kommera)
+Date: Wed, 21 Jun 2023 19:46:09 +0000
+Subject: [snf-promcommittee] update on request
+In-Reply-To: <PH7PR14MB609192A3E6A53043034AD944E15DA@PH7PR14MB6091.namprd14.prod.outlook.com>
+References: <PH7PR14MB609192A3E6A53043034AD944E15DA@PH7PR14MB6091.namprd14.prod.outlook.com>
+Message-ID: <BYAPR02MB552582B6BAE0DA662BF9BD2BB65DA@BYAPR02MB5525.namprd02.prod.outlook.com>
+
+Hi Dominique,
+    Thanks for the reminder. Your PROM request is approved.
+
+Swaroop
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Dominique Piche
+Sent: Wednesday, June 21, 2023 10:47 AM
+To: snf-promcommittee at lists.stanford.edu
+Subject: [snf-promcommittee] update on request
+
+Hi Prom committee!
+
+I am just wondering if you have an update on the request I submitted for iron oxide nanoparticles for DLS measurements?
+
+Many thanks
+
+Dominique
+
+DOMINIQUE PICHE, PHD
+Senior Scientist
+dominique.piche at houndlabs.com<mailto:dominique.piche at houndlabs.com> | 415.216.5194
+
+[cid:image001.png at 01D9A42D.BBEC7620]<https://houndlabs.com/>[cid:image002.png at 01D9A42D.BBEC7620]<https://www.linkedin.com/company/hound-labs-inc-/>[cid:image003.png at 01D9A42D.BBEC7620]<https://twitter.com/HoundLabsInc>
+Connect with Sales today<https://houndlabs.com/connect-with-sales/?utm_source=houndlabs&utm_medium=email> to order the HOUND(r) CANNABIS BREATHALYZER.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/44e9696d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 3690 bytes
+Desc: image001.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/44e9696d/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image004.png
+Type: image/png
+Size: 1113 bytes
+Desc: image004.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/44e9696d/attachment-0001.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image005.png
+Type: image/png
+Size: 1118 bytes
+Desc: image005.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/44e9696d/attachment-0002.png>
+
+From helenaguan at stanford.edu  Wed Jun 21 14:34:26 2023
+From: helenaguan at stanford.edu (Helena Guan)
+Date: Wed, 21 Jun 2023 21:34:26 +0000
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift
+ Off Resist (LOR) 30B at SNF
+In-Reply-To: <DM6PR02MB52585AF7BA7B9769B70675C0B55BA@DM6PR02MB5258.namprd02.prod.outlook.com>
+References: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+ <DM6PR02MB52585AF7BA7B9769B70675C0B55BA@DM6PR02MB5258.namprd02.prod.outlook.com>
+Message-ID: <BN0PR02MB79356F38603BE6D86745F609A15DA@BN0PR02MB7935.namprd02.prod.outlook.com>
+
+Hi Cliff,
+
+Thank you for the email! Sorry for the late reply as I was traveling.
+
+Understood. Are there other storage options near headway3? I remember seeing resists stored directly underneath the spinner bench. Would that be possible for LOR? If not I think we'll probably go ahead and use a smaller bottle. Let me know and I'll go proceed to label printing accordingly.
+
+And thanks for putting me in touch with Ziad Ahmend. I'll talk to them about potentially sharing/splitting the resist.
+
+Best,
+Helena
+________________________________
+From: Clifford F Knollenberg <cknollen at stanford.edu>
+Sent: Thursday, June 15, 2023 5:59 PM
+To: Helena Guan <helenaguan at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Helena,
+
+The request is approved, but ...
+
+The storage cabinet by Headway 3 is pretty full. Actually, fitting a .5 liter bottle may not be physically possible.  So options:
+
+  1.  Split the bottle into smaller bottles and only store one bottle at a time in the cabinet near Headway 3
+  2.  Store the 0.5 litter bottle in the cabinet by Headway 2 and transport it using a red rubber bucket to Headway 3 for use.
+
+There is also another lab user who is interested in this resist and might be interested in sharing/splitting the bottle (and the bill).  His name is Ziad Ahmend and I've asked him to contact you directly. It might even be to your advantage to work together to establish a working process for both your needs.
+
+Gary Sosa (cc'd above) handles label printing, so when you decide whether you want one large bottle or to split it into smaller bottles, let him know and provide the following information:
+
+
+  *   User Name
+  *   Email Address
+  *   Badger  Login ID
+  *   Phone Number
+  *   Chemical Name
+  *   Manufacturer
+  *   Type of chemical (ie: developer, photoresist, solvent)
+  *   Main Hazard
+  *   Storage Group
+  *   PDF of the MSDS (should be attached)
+
+Ok, I think that's it, but let me know if I've forgotten something or something is unclear.
+
+-Cliff????
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Helena Guan <helenaguan at stanford.edu>
+Sent: Tuesday, June 13, 2023 4:46 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi,
+
+Hope this email finds you well. I'm writing to submit a ProM request for storing and spinning lift off resist (LOR) 30B at SNF. Please let me know if I can provide any additional information that may be helpful for this process.
+
+Thank you!
+
+Best,
+Helena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230621/7c0fd004/attachment-0001.htm>
+
+From jangs at stanford.edu  Wed Jun 21 23:04:25 2023
+From: jangs at stanford.edu (Sophie Suhna Jang)
+Date: Thu, 22 Jun 2023 06:04:25 +0000
+Subject: [snf-promcommittee] SNF project feasibility
+Message-ID: <DS0PR02MB927084316EF4C239B5BE6F09C622A@DS0PR02MB9270.namprd02.prod.outlook.com>
+
+Hello,
+
+My name is Sophie Jang and I am a new postdoc in the Stankovic lab.
+
+I am working on a project that needs a micromill and would like to discuss project feasibility. We are piloting a pipeline to shave the material down to get to the inner structure of a dense object. I have a few machines that I would like to try if it is available.
+
+My background is in mechanical engineering and am currently working in the school of medicine. I have a few projects that I am looking to get started as soon as possible and would greatly appreciate getting set up and complete the required trainings.
+
+Thanks for your time and look forward to hearing from you.
+
+Best,
+Sophie
+
+Sophie Jang
+Postdoctoral Scholar
+Stanford Oto Head and Neck Surgery
+E: jangs at stanford.edu<mailto:jangs at stanford.edu>
+T: 562-569-4706
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230622/4c30345d/attachment.htm>
+
+From mtang at stanford.edu  Thu Jun 22 06:22:35 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Thu, 22 Jun 2023 13:22:35 +0000
+Subject: [snf-promcommittee] SNF project feasibility
+In-Reply-To: <DS0PR02MB927084316EF4C239B5BE6F09C622A@DS0PR02MB9270.namprd02.prod.outlook.com>
+References: <DS0PR02MB927084316EF4C239B5BE6F09C622A@DS0PR02MB9270.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB571750C3738F3EB097A80CE4C622A@BYAPR02MB5717.namprd02.prod.outlook.com>
+
+Hi Sophie -
+
+Do you have a sketch of your object? And what kind of material is it? Dimensions and tolerances too, please.
+
+We'd be glad to discuss the possibilities. We have biweekly Process Clinics, where several staffers and labmembers gather to brainstorm ideas about how to make/process/build things. (Unfortunately, I think the next one may fall on the 4th of July, so I trust we will reschedule and let you know.) And I'm no expert in machining, but am open this afternoon and most of tomorrow after 11, if you'd like to come by to chat.
+
+Cheers -
+
+Mary
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Sophie Suhna Jang <jangs at stanford.edu>
+Sent: Wednesday, June 21, 2023 11:04 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] SNF project feasibility
+
+
+Hello,
+
+
+
+My name is Sophie Jang and I am a new postdoc in the Stankovic lab.
+
+
+
+I am working on a project that needs a micromill and would like to discuss project feasibility. We are piloting a pipeline to shave the material down to get to the inner structure of a dense object. I have a few machines that I would like to try if it is available.
+
+
+
+My background is in mechanical engineering and am currently working in the school of medicine. I have a few projects that I am looking to get started as soon as possible and would greatly appreciate getting set up and complete the required trainings.
+
+
+
+Thanks for your time and look forward to hearing from you.
+
+
+
+Best,
+
+Sophie
+
+
+
+Sophie Jang
+
+Postdoctoral Scholar
+
+Stanford Oto Head and Neck Surgery
+
+E: jangs at stanford.edu<mailto:jangs at stanford.edu>
+
+T: 562-569-4706
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230622/ab0158a6/attachment-0001.htm>
+
+From jangs at stanford.edu  Thu Jun 22 08:37:23 2023
+From: jangs at stanford.edu (Sophie Suhna Jang)
+Date: Thu, 22 Jun 2023 15:37:23 +0000
+Subject: [snf-promcommittee] SNF project feasibility
+In-Reply-To: <BYAPR02MB571750C3738F3EB097A80CE4C622A@BYAPR02MB5717.namprd02.prod.outlook.com>
+References: <DS0PR02MB927084316EF4C239B5BE6F09C622A@DS0PR02MB9270.namprd02.prod.outlook.com>
+ <BYAPR02MB571750C3738F3EB097A80CE4C622A@BYAPR02MB5717.namprd02.prod.outlook.com>
+Message-ID: <IA1PR02MB92534109B406AFE6B925B5F0C622A@IA1PR02MB9253.namprd02.prod.outlook.com>
+
+Hi Mary,
+
+Thanks for your reply. I will bring the sketch when I come today afternoon. Is there a specific room/location I can find you?
+
+Look forward to chatting with you on my project and the team discussing it at the next meeting.
+
+Best,
+Sophie
+
+
+From: Mary Tang <mtang at stanford.edu>
+Date: Thursday, June 22, 2023 at 06:22
+To: Sophie Suhna Jang <jangs at stanford.edu>, snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: SNF project feasibility
+Hi Sophie -
+
+Do you have a sketch of your object? And what kind of material is it? Dimensions and tolerances too, please.
+
+We'd be glad to discuss the possibilities. We have biweekly Process Clinics, where several staffers and labmembers gather to brainstorm ideas about how to make/process/build things. (Unfortunately, I think the next one may fall on the 4th of July, so I trust we will reschedule and let you know.) And I'm no expert in machining, but am open this afternoon and most of tomorrow after 11, if you'd like to come by to chat.
+
+Cheers -
+
+Mary
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Sophie Suhna Jang <jangs at stanford.edu>
+Sent: Wednesday, June 21, 2023 11:04 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] SNF project feasibility
+
+
+Hello,
+
+
+
+My name is Sophie Jang and I am a new postdoc in the Stankovic lab.
+
+
+
+I am working on a project that needs a micromill and would like to discuss project feasibility. We are piloting a pipeline to shave the material down to get to the inner structure of a dense object. I have a few machines that I would like to try if it is available.
+
+
+
+My background is in mechanical engineering and am currently working in the school of medicine. I have a few projects that I am looking to get started as soon as possible and would greatly appreciate getting set up and complete the required trainings.
+
+
+
+Thanks for your time and look forward to hearing from you.
+
+
+
+Best,
+
+Sophie
+
+
+
+Sophie Jang
+
+Postdoctoral Scholar
+
+Stanford Oto Head and Neck Surgery
+
+E: jangs at stanford.edu<mailto:jangs at stanford.edu>
+
+T: 562-569-4706
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230622/0b2415a0/attachment.htm>
+
+From cknollen at stanford.edu  Thu Jun 22 09:03:33 2023
+From: cknollen at stanford.edu (Clifford F Knollenberg)
+Date: Thu, 22 Jun 2023 16:03:33 +0000
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift
+ Off Resist (LOR) 30B at SNF
+In-Reply-To: <BN0PR02MB79356F38603BE6D86745F609A15DA@BN0PR02MB7935.namprd02.prod.outlook.com>
+References: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+ <DM6PR02MB52585AF7BA7B9769B70675C0B55BA@DM6PR02MB5258.namprd02.prod.outlook.com>
+ <BN0PR02MB79356F38603BE6D86745F609A15DA@BN0PR02MB7935.namprd02.prod.outlook.com>
+Message-ID: <DM6PR02MB525811C92F531F24710FEB02B522A@DM6PR02MB5258.namprd02.prod.outlook.com>
+
+Hi Helena,
+
+ There is solvent storage underneath the bench, but ... these are solvents that break down resist (and some of them are quite strong).  So while its legal from a safety perspective, its not a good idea if you want your resist to work correctly every time.
+
+-Cliff
+________________________________
+From: Helena Guan <helenaguan at stanford.edu>
+Sent: Wednesday, June 21, 2023 2:34 PM
+To: Clifford F Knollenberg <cknollen at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Cliff,
+
+Thank you for the email! Sorry for the late reply as I was traveling.
+
+Understood. Are there other storage options near headway3? I remember seeing resists stored directly underneath the spinner bench. Would that be possible for LOR? If not I think we'll probably go ahead and use a smaller bottle. Let me know and I'll go proceed to label printing accordingly.
+
+And thanks for putting me in touch with Ziad Ahmend. I'll talk to them about potentially sharing/splitting the resist.
+
+Best,
+Helena
+________________________________
+From: Clifford F Knollenberg <cknollen at stanford.edu>
+Sent: Thursday, June 15, 2023 5:59 PM
+To: Helena Guan <helenaguan at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Helena,
+
+The request is approved, but ...
+
+The storage cabinet by Headway 3 is pretty full. Actually, fitting a .5 liter bottle may not be physically possible.  So options:
+
+  1.  Split the bottle into smaller bottles and only store one bottle at a time in the cabinet near Headway 3
+  2.  Store the 0.5 litter bottle in the cabinet by Headway 2 and transport it using a red rubber bucket to Headway 3 for use.
+
+There is also another lab user who is interested in this resist and might be interested in sharing/splitting the bottle (and the bill).  His name is Ziad Ahmend and I've asked him to contact you directly. It might even be to your advantage to work together to establish a working process for both your needs.
+
+Gary Sosa (cc'd above) handles label printing, so when you decide whether you want one large bottle or to split it into smaller bottles, let him know and provide the following information:
+
+
+  *   User Name
+  *   Email Address
+  *   Badger  Login ID
+  *   Phone Number
+  *   Chemical Name
+  *   Manufacturer
+  *   Type of chemical (ie: developer, photoresist, solvent)
+  *   Main Hazard
+  *   Storage Group
+  *   PDF of the MSDS (should be attached)
+
+Ok, I think that's it, but let me know if I've forgotten something or something is unclear.
+
+-Cliff????
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Helena Guan <helenaguan at stanford.edu>
+Sent: Tuesday, June 13, 2023 4:46 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi,
+
+Hope this email finds you well. I'm writing to submit a ProM request for storing and spinning lift off resist (LOR) 30B at SNF. Please let me know if I can provide any additional information that may be helpful for this process.
+
+Thank you!
+
+Best,
+Helena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230622/b231987c/attachment-0001.htm>
+
+From gfeng5 at stanford.edu  Thu Jun 22 16:40:43 2023
+From: gfeng5 at stanford.edu (Guangxia Feng)
+Date: Thu, 22 Jun 2023 23:40:43 +0000
+Subject: [snf-promcommittee] Thermal Evaporation Compound (CuF2,
+ Fe2O3 etc) on Cu foil
+Message-ID: <SN7PR02MB92839F02A4E95E041FB09756EF22A@SN7PR02MB9283.namprd02.prod.outlook.com>
+
+Dear,
+
+This is Guangxia from Prof. Cui's lab in Department of Materials and Engineering. I am planning to do some thermal evaporation to evaporate some compound, such as Fe2O3 on Cu foil. I am wondering can I do this at SNF?
+Please let me know your advice and I appreciate your help.
+
+Best,
+
+Best,
+
+Guangxia Feng
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230622/e246b94b/attachment.htm>
+
+From mtang at stanford.edu  Fri Jun 23 06:47:30 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 23 Jun 2023 06:47:30 -0700
+Subject: [snf-promcommittee] Thermal Evaporation Compound (CuF2,
+ Fe2O3 etc) on Cu foil
+In-Reply-To: <SN7PR02MB92839F02A4E95E041FB09756EF22A@SN7PR02MB9283.namprd02.prod.outlook.com>
+References: <SN7PR02MB92839F02A4E95E041FB09756EF22A@SN7PR02MB9283.namprd02.prod.outlook.com>
+Message-ID: <9b89ce12-f409-8383-f122-c24e407bb8e7@stanford.edu>
+
+Hi Guangxia -
+
+
+We don't have a thermal evaporator, but Carsen, our dep expert, says 
+this is doable on our AJA Ebeam evaporator. What is the size of your Cu 
+foil and how much/how thick is the iron oxide film you wish to deposit? 
+And are there any specific film or material properties required for this 
+film?
+
+
+Also, are you an SNF labmember?
+
+
+Mary
+
+
+On 6/22/2023 4:40 PM, Guangxia Feng wrote:
+> Dear,
+>
+> This is Guangxia from Prof. Cui's lab in Department of Materials and 
+> Engineering. I am planning to do some thermal evaporation to evaporate 
+> some compound, such as Fe2O3 on Cu foil. I am wondering can I do this 
+> at SNF?
+> Please let me know your advice and I appreciate your help.
+>
+> Best,
+>
+> Best,
+>
+> Guangxia Feng
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230623/4c3f5bed/attachment-0001.htm>
+
+From gfeng5 at stanford.edu  Fri Jun 23 09:20:29 2023
+From: gfeng5 at stanford.edu (Guangxia Feng)
+Date: Fri, 23 Jun 2023 16:20:29 +0000
+Subject: [snf-promcommittee] =?gb2312?b?u9i4tDogIFRoZXJtYWwgRXZhcG9yYXRp?=
+ =?gb2312?b?b24gQ29tcG91bmQgKEN1RjIsIEZlMk8zIGV0Yykgb24gQ3UgZm9pbA==?=
+In-Reply-To: <9b89ce12-f409-8383-f122-c24e407bb8e7@stanford.edu>
+References: <SN7PR02MB92839F02A4E95E041FB09756EF22A@SN7PR02MB9283.namprd02.prod.outlook.com>
+ <9b89ce12-f409-8383-f122-c24e407bb8e7@stanford.edu>
+Message-ID: <SN7PR02MB9283AC889281408852064CCEEF23A@SN7PR02MB9283.namprd02.prod.outlook.com>
+
+Dear Mary,
+
+Thanks a lot for your information and the Ebeam evaporator should be fine.
+The size of the Cu foil is adjustable from several cm2 or tens of cm2 all works. And the deposition thickness will be around 300 nm.
+I am a member of SNSF but not for SNF yet.
+
+Best,
+
+Guangxia Feng
+________________________________
+???: Mary Tang <mtang at stanford.edu>
+????: 2023?6?23? 6:47
+???: Guangxia Feng <gfeng5 at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+??: Re: [snf-promcommittee] Thermal Evaporation Compound (CuF2, Fe2O3 etc) on Cu foil
+
+
+Hi Guangxia -
+
+
+We don't have a thermal evaporator, but Carsen, our dep expert, says this is doable on our AJA Ebeam evaporator. What is the size of your Cu foil and how much/how thick is the iron oxide film you wish to deposit? And are there any specific film or material properties required for this film?
+
+
+Also, are you an SNF labmember?
+
+
+Mary
+
+
+On 6/22/2023 4:40 PM, Guangxia Feng wrote:
+Dear,
+
+This is Guangxia from Prof. Cui's lab in Department of Materials and Engineering. I am planning to do some thermal evaporation to evaporate some compound, such as Fe2O3 on Cu foil. I am wondering can I do this at SNF?
+Please let me know your advice and I appreciate your help.
+
+Best,
+
+Best,
+
+Guangxia Feng
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230623/32a47d7c/attachment.htm>
+
+From don.gardner at alumni.stanford.edu  Fri Jun 23 20:11:31 2023
+From: don.gardner at alumni.stanford.edu (Donald Gardner)
+Date: Fri, 23 Jun 2023 20:11:31 -0700
+Subject: [snf-promcommittee] Boron Carbide
+Message-ID: <5808E777-C7F9-48EB-9AF0-FA5EBB34F812@alumni.stanford.edu>
+
+Hi Folks,
+
+I would like to check to see if boron carbide (B4C) is an approved material for sputtering targets?  We use it for making multilayered x-ray mirrors in our Lesker sputtering system.
+
+With best regards,
+Don
+
+
+From mtang at stanford.edu  Sat Jun 24 07:06:13 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Sat, 24 Jun 2023 07:06:13 -0700
+Subject: [snf-promcommittee] Boron Carbide
+In-Reply-To: <5808E777-C7F9-48EB-9AF0-FA5EBB34F812@alumni.stanford.edu>
+References: <5808E777-C7F9-48EB-9AF0-FA5EBB34F812@alumni.stanford.edu>
+Message-ID: <ae059fd9-44fa-ed36-1e45-c85d046e3671@stanford.edu>
+
+Hi Don -
+
+I know nothing about this material - and it doesn't appear in our 
+records. Maybe the PVD experts in this gang have seen it, but it would 
+really help me if you have info to share. First, are there safety 
+concerns? Second, are there particle/contamination concerns? You know 
+the routine... Whatever you have on the safety and handling of this 
+material would be super helpful!
+
+Thanks,
+
+Mary
+
+On 6/23/2023 8:11 PM, Donald Gardner wrote:
+> Hi Folks,
+>
+> I would like to check to see if boron carbide (B4C) is an approved material for sputtering targets?  We use it for making multilayered x-ray mirrors in our Lesker sputtering system.
+>
+> With best regards,
+> Don
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+From don.gardner at alumni.stanford.edu  Sat Jun 24 08:01:40 2023
+From: don.gardner at alumni.stanford.edu (Donald Gardner)
+Date: Sat, 24 Jun 2023 08:01:40 -0700
+Subject: [snf-promcommittee] Boron Carbide
+In-Reply-To: <ae059fd9-44fa-ed36-1e45-c85d046e3671@stanford.edu>
+References: <ae059fd9-44fa-ed36-1e45-c85d046e3671@stanford.edu>
+Message-ID: <82D2AD17-A99E-416B-8564-A92EB9EB2230@alumni.stanford.edu>
+
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230624/cee285cd/attachment-0002.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 4ca0b80c63895d4aa1b77d9bc8e8b941860e53cb90c74e40cb89d908eeb2b53c.pdf
+Type: application/pdf
+Size: 132538 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230624/cee285cd/attachment-0001.pdf>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230624/cee285cd/attachment-0003.htm>
+
+From mtang at stanford.edu  Mon Jun 26 06:06:42 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Mon, 26 Jun 2023 06:06:42 -0700
+Subject: [snf-promcommittee] Boron Carbide
+In-Reply-To: <82D2AD17-A99E-416B-8564-A92EB9EB2230@alumni.stanford.edu>
+References: <ae059fd9-44fa-ed36-1e45-c85d046e3671@stanford.edu>
+ <82D2AD17-A99E-416B-8564-A92EB9EB2230@alumni.stanford.edu>
+Message-ID: <f6bff9bf-2c57-1b91-19b4-1a87f6cd31c7@stanford.edu>
+
+Thanks Don -
+
+Could you make this an official PROM request then? We'd want to know 
+whatever is relevant for safety and contamination reasons. I'm presuming 
+you'll provide the source. If you could also describe any special 
+procedures, process conditions, considerations for your substrates, etc. 
+it would be really helpful for the Lesker staff and user community.
+
+Mary
+
+On 6/24/2023 8:01 AM, Donald Gardner wrote:
+> Hi Mary,
+>
+> Aha, it?s new to SNF.
+>
+> Boron carbide has been determined to be non-hazardous and will not 
+> pose a risk to persons or the environment. ?It can produce dust or 
+> particulates when deposited (just like other materials such as 
+> aluminum when sputtered). ?Here is the MSDS and link to the manufacturer.
+>
+> https://www.lesker.com/newweb/deposition_materials/depositionmaterials_sputtertargets_1.cfm?pgid=bor3
+>
+>
+>
+> With best regards,
+> Don
+>
+>
+> On Jun 24, 2023, at 7:06 AM, Mary Tang <mtang at stanford.edu> wrote:
+>
+> ?Hi Don -
+>
+> I know nothing about this material - and it doesn't appear in our 
+> records. Maybe the PVD experts in this gang have seen it, but it would 
+> really help me if you have info to share. First, are there safety 
+> concerns? Second, are there particle/contamination concerns? You know 
+> the routine... Whatever you have on the safety and handling of this 
+> material would be super helpful!
+>
+> Thanks,
+>
+> Mary
+>
+> On 6/23/2023 8:11 PM, Donald Gardner wrote:
+>> Hi Folks,
+>>
+>> I would like to check to see if boron carbide (B4C) is an approved 
+>> material for sputtering targets? ?We use it for making multilayered 
+>> x-ray mirrors in our Lesker sputtering system.
+>>
+>> With best regards,
+>> Don
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/3f2dd429/attachment.htm>
+
+From cknollen at stanford.edu  Mon Jun 26 09:41:47 2023
+From: cknollen at stanford.edu (Clifford F Knollenberg)
+Date: Mon, 26 Jun 2023 16:41:47 +0000
+Subject: [snf-promcommittee] Boron Carbide
+In-Reply-To: <f6bff9bf-2c57-1b91-19b4-1a87f6cd31c7@stanford.edu>
+References: <ae059fd9-44fa-ed36-1e45-c85d046e3671@stanford.edu>
+ <82D2AD17-A99E-416B-8564-A92EB9EB2230@alumni.stanford.edu>
+ <f6bff9bf-2c57-1b91-19b4-1a87f6cd31c7@stanford.edu>
+Message-ID: <DM6PR02MB5258C3FC07B530052CA61476B526A@DM6PR02MB5258.namprd02.prod.outlook.com>
+
+Hi Don,
+
+Have you sputtered it before and have a starting recipe?  From what I think I know about boron carbide, it might have some unusual behavior (slow deposition rates), and any experience or knowledge might help flummoxed staff.
+
+-Cliff
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Mary Tang <mtang at stanford.edu>
+Sent: Monday, June 26, 2023 6:06 AM
+To: Donald Gardner <don.gardner at alumni.stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Boron Carbide
+
+
+Thanks Don -
+
+Could you make this an official PROM request then? We'd want to know whatever is relevant for safety and contamination reasons. I'm presuming you'll provide the source. If you could also describe any special procedures, process conditions, considerations for your substrates, etc. it would be really helpful for the Lesker staff and user community.
+
+Mary
+
+On 6/24/2023 8:01 AM, Donald Gardner wrote:
+Hi Mary,
+
+Aha, it?s new to SNF.
+
+Boron carbide has been determined to be non-hazardous and will not pose a risk to persons or the environment.  It can produce dust or particulates when deposited (just like other materials such as aluminum when sputtered).  Here is the MSDS and link to the manufacturer.
+
+https://www.lesker.com/newweb/deposition_materials/depositionmaterials_sputtertargets_1.cfm?pgid=bor3
+
+
+
+With best regards,
+Don
+
+
+On Jun 24, 2023, at 7:06 AM, Mary Tang <mtang at stanford.edu><mailto:mtang at stanford.edu> wrote:
+
+?Hi Don -
+
+I know nothing about this material - and it doesn't appear in our records. Maybe the PVD experts in this gang have seen it, but it would really help me if you have info to share. First, are there safety concerns? Second, are there particle/contamination concerns? You know the routine... Whatever you have on the safety and handling of this material would be super helpful!
+
+Thanks,
+
+Mary
+
+On 6/23/2023 8:11 PM, Donald Gardner wrote:
+Hi Folks,
+
+I would like to check to see if boron carbide (B4C) is an approved material for sputtering targets?  We use it for making multilayered x-ray mirrors in our Lesker sputtering system.
+
+With best regards,
+Don
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/5075db0e/attachment-0001.htm>
+
+From don.gardner at alumni.stanford.edu  Mon Jun 26 11:22:28 2023
+From: don.gardner at alumni.stanford.edu (Donald Gardner)
+Date: Mon, 26 Jun 2023 14:22:28 -0400
+Subject: [snf-promcommittee] Fwd:  Boron Carbide
+References: <23CD0C55-29BD-4636-8527-CEA467EFC298@alumni.stanford.edu>
+Message-ID: <A3E07250-4ADB-4F0C-B374-DBF71105AD86@alumni.stanford.edu>
+
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/6db391a8/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 185kX_300kV_0151.tiff
+Type: image/tiff
+Size: 2270166 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/6db391a8/attachment-0001.tiff>
+
+From ashildur at stanford.edu  Tue Jun 27 10:21:22 2023
+From: ashildur at stanford.edu (Ashildur Fridriksdottir)
+Date: Tue, 27 Jun 2023 17:21:22 +0000
+Subject: [snf-promcommittee] TMAH request for 06/28
+Message-ID: <DM6PR02MB6266FE2F21ED608B95ADCB5BAB27A@DM6PR02MB6266.namprd02.prod.outlook.com>
+
+Hello Prom Committee,
+
+Attached is a request for the use of 10% TMAH on 06/28/23.
+
+Best,
+Ashildur
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/d7a780b9/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 06072023_TMAH_PromRequest_AF.pdf
+Type: application/pdf
+Size: 133739 bytes
+Desc: 06072023_TMAH_PromRequest_AF.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/d7a780b9/attachment-0001.pdf>
+
+From ashildur at stanford.edu  Tue Jun 27 15:54:33 2023
+From: ashildur at stanford.edu (Ashildur Fridriksdottir)
+Date: Tue, 27 Jun 2023 22:54:33 +0000
+Subject: [snf-promcommittee] Prom request for TMAH updated - 07/03/2023
+Message-ID: <DM6PR02MB62669A464B5AD893BC1CB9C6AB27A@DM6PR02MB6266.namprd02.prod.outlook.com>
+
+Hello Prom Committee,
+
+Attached is a request for the use of 10% TMAH on 07/03/23. Uli will be my buddy. I had originally sent the request for another day but please regard that request.
+
+I gave Mary my yellow chemical label and I request for the bottle to be in the chemical passthrough on Monday.
+
+Best,
+Ashildur
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/6a8424cb/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 07032023_TMAH_PromRequest_AF.pdf
+Type: application/pdf
+Size: 133723 bytes
+Desc: 07032023_TMAH_PromRequest_AF.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/6a8424cb/attachment-0001.pdf>
+
+From ashutosh.divekar at evoloh.com  Tue Jun 27 16:06:39 2023
+From: ashutosh.divekar at evoloh.com (Ashutosh Divekar)
+Date: Tue, 27 Jun 2023 23:06:39 +0000
+Subject: [snf-promcommittee] PROM request for using centrifuge in Exfab
+ maverick
+Message-ID: <SA1PR22MB3075CBCE471FC2C136E3A9F2E527A@SA1PR22MB3075.namprd22.prod.outlook.com>
+
+Hi,
+
+I am a user at SNF and I am attaching the PROM request form as reccomended by Swaroop. Please let me know if you have any questions.
+
+Thanks,
+Ash
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/728258bf/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form_Evoloh.pdf
+Type: application/pdf
+Size: 148339 bytes
+Desc: process_or_materials_request_form_Evoloh.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/728258bf/attachment-0001.pdf>
+
+From mtang at stanford.edu  Tue Jun 27 16:09:31 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Tue, 27 Jun 2023 16:09:31 -0700
+Subject: [snf-promcommittee] Prom request for TMAH updated - 07/03/2023
+In-Reply-To: <DM6PR02MB62669A464B5AD893BC1CB9C6AB27A@DM6PR02MB6266.namprd02.prod.outlook.com>
+References: <DM6PR02MB62669A464B5AD893BC1CB9C6AB27A@DM6PR02MB6266.namprd02.prod.outlook.com>
+Message-ID: <dc418785-6fd3-bf8c-ff13-a12aef58c08e@stanford.edu>
+
+Hi Ashildur -
+
+
+Your PROM request is approved with one change request: for disposal, 
+please use the aspirator at the wet bench.
+
+
+I have your yellow chemical label and will place it in the personal 
+chemical section of the passthrough by Monday.
+
+
+For your session Monday, please fill out the TMAH checklist and have 
+your buddy read and sign. Print out the Fact Sheet and keep it with you 
+as you work.
+
+
+Any questions, just let Uli and me know.
+
+
+Thanks,
+
+
+Mary
+
+
+
+On 6/27/2023 3:54 PM, Ashildur Fridriksdottir wrote:
+> Hello Prom Committee,
+>
+> Attached is a request for the use of 10% TMAH on 07/03/23. Uli will be 
+> my buddy. I had originally sent the request for another day but please 
+> regard that request.
+>
+> I gave Mary my yellow chemical label and I request for the bottle to 
+> be in the chemical passthrough on Monday.
+>
+> Best,
+> Ashildur
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/6a1e467a/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 21-012-TMAH-Fact-Sheet.pdf
+Type: application/pdf
+Size: 55412 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/6a1e467a/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: TMAH-Checklist.pdf
+Type: application/pdf
+Size: 125025 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230627/6a1e467a/attachment-0003.pdf>
+
+From mtang at stanford.edu  Wed Jun 28 06:19:44 2023
+From: mtang at stanford.edu (Mary Tang)
+Date: Wed, 28 Jun 2023 13:19:44 +0000
+Subject: [snf-promcommittee] PROM request for using centrifuge in Exfab
+ maverick
+In-Reply-To: <SA1PR22MB3075CBCE471FC2C136E3A9F2E527A@SA1PR22MB3075.namprd22.prod.outlook.com>
+References: <SA1PR22MB3075CBCE471FC2C136E3A9F2E527A@SA1PR22MB3075.namprd22.prod.outlook.com>
+Message-ID: <BYAPR02MB5717A6AD27B77B1733F568A3C624A@BYAPR02MB5717.namprd02.prod.outlook.com>
+
+Hi all -
+
+This is a well-written PROM request - and looks good to me.  Swaroop, are you good with this?  Anyone else?
+
+Mary
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Ashutosh Divekar <ashutosh.divekar at evoloh.com>
+Sent: Tuesday, June 27, 2023 4:06 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Cc: Hye Ryoung Lee <hyeryoung.lee at stanford.edu>
+Subject: [snf-promcommittee] PROM request for using centrifuge in Exfab maverick
+
+Hi,
+
+I am a user at SNF and I am attaching the PROM request form as reccomended by Swaroop. Please let me know if you have any questions.
+
+Thanks,
+Ash
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230628/3f1418d5/attachment.htm>
+
+From mohuna at stanford.edu  Wed Jun 28 14:01:42 2023
+From: mohuna at stanford.edu (Andrew Denis Bechdolt)
+Date: Wed, 28 Jun 2023 21:01:42 +0000
+Subject: [snf-promcommittee] Form Submission - Tungsten Hexacarbonyl for ALD
+ Process or Materials Request
+Message-ID: <BYAPR02MB5526E3E19485FC9D35D6A721A724A@BYAPR02MB5526.namprd02.prod.outlook.com>
+
+To Whom it may concern,
+
+I hope you are doing well. I am writing to submit the PROM request form for Tungsten Hexacarbonyl for ALD Tungsten Oxide. Please find it attached to this email. Thank you for your time and consideration.
+
+Sincerely,
+
+Andrew Bechdolt
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230628/b03e17ec/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Tungsten Hexacarbonyl Process or Materials Request Form.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 112049 bytes
+Desc: Tungsten Hexacarbonyl Process or Materials Request Form.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230628/b03e17ec/attachment-0001.docx>
+
+From cknollen at stanford.edu  Thu Jun 29 13:33:43 2023
+From: cknollen at stanford.edu (Clifford F Knollenberg)
+Date: Thu, 29 Jun 2023 20:33:43 +0000
+Subject: [snf-promcommittee] LLZO in Lesker
+In-Reply-To: <PH0PR02MB7109D94939EF502733E9ADC0BD24A@PH0PR02MB7109.namprd02.prod.outlook.com>
+References: <PH0PR02MB710989BDEEF06B2A00F05F95BD59A@PH0PR02MB7109.namprd02.prod.outlook.com>
+ <DM6PR02MB52586EDF841968D74E9FC057B55FA@DM6PR02MB5258.namprd02.prod.outlook.com>
+ <PH0PR02MB7109D94939EF502733E9ADC0BD24A@PH0PR02MB7109.namprd02.prod.outlook.com>
+Message-ID: <DM6PR02MB5258A67D661AF84FCC012096B525A@DM6PR02MB5258.namprd02.prod.outlook.com>
+
+
+Do you have a Safety Data Sheet (by law the manufacture has to provide these) and/or your lab's Safe Operating Procedures for us to keep on file.
+
+Also, in rereading this,  you want to sputter, but it appears we do not have a Pt sputter source/target (they can be prohibitively expensive) .  What led you to choose sputtering? Or could these films be evaporated instead (we have Ti and Pt evaporation sources)?
+
+-Cliff
+
+________________________________
+From: Leah Narun <narunl at stanford.edu>
+Sent: Wednesday, June 28, 2023 2:27 PM
+To: Clifford F Knollenberg <cknollen at stanford.edu>
+Subject: Re: [snf-promcommittee] LLZO in Lesker
+
+
+Hi Cliff,
+
+
+
+Apologies for the delayed reply as I was out of office last week.
+
+
+
+The solid electrolyte LLZO is a very stable oxide ceramic. A surface layer of Li2CO3 and LiOH forms upon exposure to air, and TGA and DSC measurements show there is some off-gassing above 100C attributed to water and CO2 loss from the surface layer (see the attachment and link here<https://pubs.rsc.org/en/content/articlehtml/2022/ta/d2ta00323f>). At around 1100C these surface Li species volatilize.  At this point my process only involves sputtering Ti/Pt electrodes and I do not plan to etch or machine the material.
+
+
+
+Please let me know the next steps for this request.
+
+
+
+Thank you,
+
+Leah
+
+
+
+From: Clifford F Knollenberg <cknollen at stanford.edu>
+Date: Monday, June 19, 2023 at 1:46 PM
+To: Leah Narun <narunl at stanford.edu>, snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] LLZO in Lesker
+
+Hi Leah,
+
+
+
+Our concerns around new materials are less about what you're using it for, and more about the dangers of working with the materials and how to mitigate them.  Do you have any SDS information for this material or the component elements (Especially La and Li, which we are not as familiar with).  Do any of these materials vaporize or volatilize at low temperatures (<800C) or outgas in high vacuum?
+
+
+
+Also is your process limited to sputter coating Ti and Pt on to solids of this material?  Will this require elevated temperatures that might vaporize or volatilize any of the component elements?  Are you planning on etching or machining this material in our facility? We're concerned about any steps or processes that start to break down the material leaving any residue of the material or its constitutive elements.
+
+
+
+Sorry if these are overly broad, but these are questions we're asking when evaluating how to work safely with a material.
+
+
+
+-Cliff
+
+
+
+
+
+
+
+
+
+________________________________
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Leah Narun <narunl at stanford.edu>
+Sent: Monday, June 19, 2023 9:00 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] LLZO in Lesker
+
+
+
+Hi PROM committee,
+
+
+
+I am a first year PhD student in the Chueh group. I am working with a solid electrolyte material Li7La3Zr2O12 (LLZO) and would like to sputter Pt/Ti electrodes using the Lesker sputtering tool.
+
+
+
+LLZO is a garnet-type lithium-ion conductor. In addition to undoped tetragonal LLZO, I am also working with Ta-, Ga-, Al-, and Nb-doped cubic LLZO. The dopants stabilize the higher conductivity cubic form at room temperature.
+
+?         Li6.25La3Zr2Al0.25O12
+
+?         Li6.25La3Zr2Ga0.25O12
+
+?         Li6.75La3Zr1.75Nb0.25O12
+
+?         Li6.75La3Zr1.75Ta0.4O12
+
+
+
+Please let me know if there is other information necessary to determine if this material can be used with the Lesker tool. My group has previously requested to use LLZO in SNF as linked here<https://drive.google.com/file/d/1J3kgeyh_ThZfXqKVFdSmBml9bNEs-77m/view>.
+
+
+
+Thank you,
+
+Leah
+
+
+
+Leah Narun
+
+PhD Student, Materials Science and Engineering
+
+Stanford University
+
+narunl at stanford.edu<mailto:narunl at stanford.edu>
+
+484-886-7479
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230629/df832b85/attachment.htm>
+
+From don.gardner at alumni.stanford.edu  Mon Jun 26 11:10:07 2023
+From: don.gardner at alumni.stanford.edu (Donald Gardner)
+Date: Mon, 26 Jun 2023 14:10:07 -0400
+Subject: [snf-promcommittee] Boron Carbide
+In-Reply-To: <DM6PR02MB5258C3FC07B530052CA61476B526A@DM6PR02MB5258.namprd02.prod.outlook.com>
+References: <DM6PR02MB5258C3FC07B530052CA61476B526A@DM6PR02MB5258.namprd02.prod.outlook.com>
+Message-ID: <23CD0C55-29BD-4636-8527-CEA467EFC298@alumni.stanford.edu>
+
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/b5999ea0/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 185kX_300kV_0151.tiff
+Type: image/tiff
+Size: 5667138 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230626/b5999ea0/attachment-0001.tiff>
+
+From helenaguan at stanford.edu  Fri Jun 30 15:37:19 2023
+From: helenaguan at stanford.edu (Helena Guan)
+Date: Fri, 30 Jun 2023 22:37:19 +0000
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift
+ Off Resist (LOR) 30B at SNF
+In-Reply-To: <DM6PR02MB525811C92F531F24710FEB02B522A@DM6PR02MB5258.namprd02.prod.outlook.com>
+References: <BN0PR02MB7935FB1353DDA236C0AFDACEA155A@BN0PR02MB7935.namprd02.prod.outlook.com>
+ <DM6PR02MB52585AF7BA7B9769B70675C0B55BA@DM6PR02MB5258.namprd02.prod.outlook.com>
+ <BN0PR02MB79356F38603BE6D86745F609A15DA@BN0PR02MB7935.namprd02.prod.outlook.com>
+ <DM6PR02MB525811C92F531F24710FEB02B522A@DM6PR02MB5258.namprd02.prod.outlook.com>
+Message-ID: <BN0PR02MB7935892FFE0B3B65CAB1A544A12AA@BN0PR02MB7935.namprd02.prod.outlook.com>
+
+Hi Cliff,
+
+Thank you! We'll split them into smaller bottles.
+
+Hi Gary,
+Can I please get two copies of this label (splitting the 0.5 L into two 0.25 ones):
+
+
+  *   User Name: Helena Guan
+  *   Email Address: wgguan at stanford.edu
+  *   Badger  Login ID: wgguan
+  *   Phone Number: (626) 319-6747
+  *   Chemical Name: Lift-Off Resist (LOR) 30B
+  *   Manufacturer: Kayaku Advanced Materials, Inc.
+  *   Type of chemical: Lift-off resist
+  *   Main Hazard: Flammable, skin irritation, eye irritation
+  *   Storage Group: L
+  *   PDF of the MSDS: See attached
+
+
+Thank you!
+
+Best,
+Helena
+________________________________
+From: Clifford F Knollenberg <cknollen at stanford.edu>
+Sent: Thursday, June 22, 2023 9:03 AM
+To: Helena Guan <helenaguan at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Helena,
+
+ There is solvent storage underneath the bench, but ... these are solvents that break down resist (and some of them are quite strong).  So while its legal from a safety perspective, its not a good idea if you want your resist to work correctly every time.
+
+-Cliff
+________________________________
+From: Helena Guan <helenaguan at stanford.edu>
+Sent: Wednesday, June 21, 2023 2:34 PM
+To: Clifford F Knollenberg <cknollen at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Cliff,
+
+Thank you for the email! Sorry for the late reply as I was traveling.
+
+Understood. Are there other storage options near headway3? I remember seeing resists stored directly underneath the spinner bench. Would that be possible for LOR? If not I think we'll probably go ahead and use a smaller bottle. Let me know and I'll go proceed to label printing accordingly.
+
+And thanks for putting me in touch with Ziad Ahmend. I'll talk to them about potentially sharing/splitting the resist.
+
+Best,
+Helena
+________________________________
+From: Clifford F Knollenberg <cknollen at stanford.edu>
+Sent: Thursday, June 15, 2023 5:59 PM
+To: Helena Guan <helenaguan at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Gary J Sosa <gsosa at stanford.edu>
+Subject: Re: ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi Helena,
+
+The request is approved, but ...
+
+The storage cabinet by Headway 3 is pretty full. Actually, fitting a .5 liter bottle may not be physically possible.  So options:
+
+  1.  Split the bottle into smaller bottles and only store one bottle at a time in the cabinet near Headway 3
+  2.  Store the 0.5 litter bottle in the cabinet by Headway 2 and transport it using a red rubber bucket to Headway 3 for use.
+
+There is also another lab user who is interested in this resist and might be interested in sharing/splitting the bottle (and the bill).  His name is Ziad Ahmend and I've asked him to contact you directly. It might even be to your advantage to work together to establish a working process for both your needs.
+
+Gary Sosa (cc'd above) handles label printing, so when you decide whether you want one large bottle or to split it into smaller bottles, let him know and provide the following information:
+
+
+  *   User Name
+  *   Email Address
+  *   Badger  Login ID
+  *   Phone Number
+  *   Chemical Name
+  *   Manufacturer
+  *   Type of chemical (ie: developer, photoresist, solvent)
+  *   Main Hazard
+  *   Storage Group
+  *   PDF of the MSDS (should be attached)
+
+Ok, I think that's it, but let me know if I've forgotten something or something is unclear.
+
+-Cliff????
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Helena Guan <helenaguan at stanford.edu>
+Sent: Tuesday, June 13, 2023 4:46 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] ProM Request for Storing and Spinning Lift Off Resist (LOR) 30B at SNF
+
+Hi,
+
+Hope this email finds you well. I'm writing to submit a ProM request for storing and spinning lift off resist (LOR) 30B at SNF. Please let me know if I can provide any additional information that may be helpful for this process.
+
+Thank you!
+
+Best,
+Helena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230630/e4cb72e1/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SDS_LOR-B-Series-Resists_-_US.pdf
+Type: application/pdf
+Size: 182119 bytes
+Desc: SDS_LOR-B-Series-Resists_-_US.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20230630/e4cb72e1/attachment-0001.pdf>
+

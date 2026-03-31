@@ -15,7 +15,7 @@ frontend:
 	cd frontend && npm run dev -- --host 0.0.0.0
 
 workers:
-	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.setup_db
+	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.setup_worker
 	@for i in 1 2 3 4; do \
 		cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.worker & \
 	done; \

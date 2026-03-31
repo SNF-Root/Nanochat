@@ -4,7 +4,9 @@ function Header({ view, setView }) {
   return (
     <header className="w-full px-6 py-4 flex items-center justify-between bg-white/80 backdrop-blur-sm border-b border-slate-100">
       <div className="flex items-center gap-3">
-        <span className="text-2xl font-bold text-red-600">SNF</span>
+        <a href="/" className="text-2xl font-bold text-red-600">
+          SNF
+        </a>
         <span className="text-slate-300">|</span>
         <button className="flex items-center gap-2 text-slate-600 hover:text-slate-800 transition-colors">
           <span className="font-medium">Internal RAG 1.0</span>

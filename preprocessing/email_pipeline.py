@@ -34,7 +34,7 @@ if __name__ == "__main__":
     con = get_db_connection()
     init_email_table(con=con, drop_table=True)
     for file in emails_files:
-        dict_of_threads, msg_start, msg_end, requestor_names = create_dict_of_threads(file)
+        dict_of_threads, msg_start, msg_end = create_dict_of_threads(file)
         if not dict_of_threads:
             print(f"No threads found in {file}")
             continue

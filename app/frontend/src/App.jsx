@@ -118,18 +118,6 @@ function App() {
       return
     }
 
-    const initializeSession = async () => {
-      try {
-        await fetch('/session/init', {
-          method: 'GET',
-          credentials: 'include',
-        })
-      } catch (error) {
-        console.error('Session init request failed:', error)
-      }
-    }
-
-    initializeSession()
   }, [isLogoutPath])
 
   if (isLogoutPath) {
@@ -192,6 +180,11 @@ function App() {
     let firstChunkReceived = false
 
     try {
+      await fetch('/session/init', {
+        method: 'GET',
+        credentials: 'include',
+      })
+
       const endpoint =
         searchMode === 'proms' ? '/embed/proms/stream' : '/embed/emails/stream'
 

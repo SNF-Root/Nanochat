@@ -1,0 +1,4004 @@
+From gstueber at centrilliontech.com  Fri Nov  1 07:14:42 2019
+From: gstueber at centrilliontech.com (Guido J Stueber)
+Date: Fri, 1 Nov 2019 14:14:42 +0000
+Subject: [snf-promcommittee] TiW sputtering
+Message-ID: <BYAPR02MB4742FA2C0B88F2BBBC74EDBEC5620@BYAPR02MB4742.namprd02.prod.outlook.com>
+
+Approved targets but user must supply: Ge, GST,HfO2, In2O3, LiCoO2, Nb2O5, Ru, Sc,  Ta2O5, TiO2, TiW, WO3, ZnO, ZrO2, ZRY and YSZ.
+
+
+Hello,
+I am seeing this on one of the SNF web pages; is this current information? I am looking to sputter TiW on 6-inch wafers.
+Thanks. Guido
+
+
+Guido Stueber
+(650) 618-0111 ext. 8407
+
+Centrillion Technologies, Inc.
+2500 Faber Place
+Palo Alto, CA 94303
+
+For general inquiries: info at centrilliontech.com<mailto:info at centrillionbio.com>
+
+For genomic services: services at centrilliontech.com<mailto:services at centrilliontech.com>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191101/dd2a4ee1/attachment.html>
+
+From maurice at stanford.edu  Fri Nov  1 08:25:28 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 1 Nov 2019 08:25:28 -0700
+Subject: [snf-promcommittee] TiW sputtering
+In-Reply-To: <BYAPR02MB4742FA2C0B88F2BBBC74EDBEC5620@BYAPR02MB4742.namprd02.prod.outlook.com>
+References: <BYAPR02MB4742FA2C0B88F2BBBC74EDBEC5620@BYAPR02MB4742.namprd02.prod.outlook.com>
+Message-ID: <5D5CAC80-FCC9-423D-BBD7-E0D983FA2309@stanford.edu>
+
+
+The info is current.  TiW is allowed.  You would have to purchase the target.
+
+
+-m
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Nov 1, 2019, at 7:14 AM, Guido J Stueber <gstueber at centrilliontech.com> wrote:
+> 
+> Approved targets but user must supply: Ge, GST,HfO2, In2O3, LiCoO2, Nb2O5, Ru, Sc,  Ta2O5, TiO2, TiW, WO3, ZnO, ZrO2, ZRY and YSZ.
+> 
+> 
+> Hello,
+> I am seeing this on one of the SNF web pages; is this current information? I am looking to sputter TiW on 6-inch wafers.
+> Thanks. Guido
+> 
+> Guido Stueber
+> (650) 618-0111 ext. 8407
+> Centrillion Technologies, Inc.
+> 2500 Faber Place
+> Palo Alto, CA 94303
+> 
+> For general inquiries: info at centrilliontech.com <mailto:info at centrillionbio.com>
+> For genomic services: services at centrilliontech.com <mailto:services at centrilliontech.com>
+> 
+> 
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191101/b95d9982/attachment-0001.html>
+
+From thaibaop at stanford.edu  Fri Nov  1 14:43:45 2019
+From: thaibaop at stanford.edu (Thaibao (Peter) Phan)
+Date: Fri, 1 Nov 2019 21:43:45 +0000
+Subject: [snf-promcommittee] PROM Request - Use of UV-Cured Optical
+	Adhesives in SNF Litho Area
+Message-ID: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>
+
+Hello,
+
+I would like to submit this PROM request!
+
+Thank you,
+Peter
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191101/f52c06f2/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20191101 T. Phan - NOA use in SNF Litho area.pdf
+Type: application/pdf
+Size: 276613 bytes
+Desc: 20191101 T. Phan - NOA use in SNF Litho area.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191101/f52c06f2/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: NOA 89H SDS GHS.pdf
+Type: application/pdf
+Size: 204365 bytes
+Desc: NOA 89H SDS GHS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191101/f52c06f2/attachment-0003.pdf>
+
+From ludwig.galambos at gmail.com  Sun Nov  3 21:32:38 2019
+From: ludwig.galambos at gmail.com (Ludwig G.)
+Date: Sun, 3 Nov 2019 21:32:38 -0800
+Subject: [snf-promcommittee] PZT etch in BOE
+In-Reply-To: <CAFSuyDTFVqW=wTDRr3DfTHQFRkD8W2fs5ui-NpkEv+T+Fve3SQ@mail.gmail.com>
+References: <CAC4rqR-5byndy95QVGt_RfkxFp+xeaOqU+Dkjy-TejWgDVa1qg@mail.gmail.com>
+ <CAFSuyDTFVqW=wTDRr3DfTHQFRkD8W2fs5ui-NpkEv+T+Fve3SQ@mail.gmail.com>
+Message-ID: <CAC4rqR_s+vOvWbg-2-aOTcDMbtx=KU052=UDALRMe9Gq6Ja2PA@mail.gmail.com>
+
+Hi Michelle
+
+the HCL it will be strait from the bottle few drops
+
+There is no rinse in between BOE (10:1) and HCL(straight),
+
+It?s putting 2 drops.
+
+5 sec of BOE, and then 15sec with the HCL/BOE together.  Total time about
+20sec, before rinsing.
+
+
+Thank you
+
+
+Ludwig
+
+
+
+
+
+On Thu, Oct 31, 2019 at 1:45 PM Michelle Rincon <michelle.rincon at gmail.com>
+wrote:
+
+> Hi Ludwig,
+>
+> Are you going to rinse in between the BOE application and the HCl? And
+> what concentration of HCl are you going to use?
+>
+> Thanks,
+> Michelle
+>
+> On Wed, Oct 30, 2019 at 10:31 PM Ludwig G. <ludwig.galambos at gmail.com>
+> wrote:
+>
+>>
+>>
+>> Hello SNF Prom Committee
+>>
+>> We would like to etch PZT(Lead Zirconium Titanite) SNF, can it be done at
+>> one of the wet benches Flexcor 1 or 2
+>>
+>>
+>>
+>> The wafers are Stainless Steel with CSD deposited which we would like to
+>> be etched for profilometer measurements.  The substrates are 100x100mm
+>> squares
+>>
+>>
+>>
+>> Etch is recipe:
+>>
+>>    1. Drop or Q-tip swab of BOE 10:1 or 6:1
+>>    2. Immediately Q-tip application of HCL
+>>    3. Etch time: 10-30sec
+>>    4. Rinse/Dry
+>>
+>>  Please let me know if this would be possible
+>>
+>>
+>> Many thanks
+>>
+>> Ludwig
+>>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191103/3b220c82/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form for PZT.doc
+Type: application/msword
+Size: 134656 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191103/3b220c82/attachment-0001.doc>
+
+From michelle.rincon at gmail.com  Mon Nov  4 16:13:21 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 4 Nov 2019 16:13:21 -0800
+Subject: [snf-promcommittee] PZT etch in BOE
+In-Reply-To: <CAC4rqR_s+vOvWbg-2-aOTcDMbtx=KU052=UDALRMe9Gq6Ja2PA@mail.gmail.com>
+References: <CAC4rqR-5byndy95QVGt_RfkxFp+xeaOqU+Dkjy-TejWgDVa1qg@mail.gmail.com>
+ <CAFSuyDTFVqW=wTDRr3DfTHQFRkD8W2fs5ui-NpkEv+T+Fve3SQ@mail.gmail.com>
+ <CAC4rqR_s+vOvWbg-2-aOTcDMbtx=KU052=UDALRMe9Gq6Ja2PA@mail.gmail.com>
+Message-ID: <CAFSuyDQ+ejxVXQR-Uo=t5Cjj9A+XO74wWxpwgpgMNsfkVcAC+w@mail.gmail.com>
+
+Hi Ludwig,
+
+Could you please put the step by step process in the flow (which includes
+glassware, how you will measure a few drops, which equipment you will use?)
+:)
+
+On Sun, Nov 3, 2019 at 9:32 PM Ludwig G. <ludwig.galambos at gmail.com> wrote:
+
+>
+> Hi Michelle
+>
+> the HCL it will be strait from the bottle few drops
+>
+> There is no rinse in between BOE (10:1) and HCL(straight),
+>
+> It?s putting 2 drops.
+>
+> 5 sec of BOE, and then 15sec with the HCL/BOE together.  Total time about
+> 20sec, before rinsing.
+>
+>
+> Thank you
+>
+>
+> Ludwig
+>
+>
+>
+>
+>
+> On Thu, Oct 31, 2019 at 1:45 PM Michelle Rincon <michelle.rincon at gmail.com>
+> wrote:
+>
+>> Hi Ludwig,
+>>
+>> Are you going to rinse in between the BOE application and the HCl? And
+>> what concentration of HCl are you going to use?
+>>
+>> Thanks,
+>> Michelle
+>>
+>> On Wed, Oct 30, 2019 at 10:31 PM Ludwig G. <ludwig.galambos at gmail.com>
+>> wrote:
+>>
+>>>
+>>>
+>>> Hello SNF Prom Committee
+>>>
+>>> We would like to etch PZT(Lead Zirconium Titanite) SNF, can it be done
+>>> at one of the wet benches Flexcor 1 or 2
+>>>
+>>>
+>>>
+>>> The wafers are Stainless Steel with CSD deposited which we would like to
+>>> be etched for profilometer measurements.  The substrates are 100x100mm
+>>> squares
+>>>
+>>>
+>>>
+>>> Etch is recipe:
+>>>
+>>>    1. Drop or Q-tip swab of BOE 10:1 or 6:1
+>>>    2. Immediately Q-tip application of HCL
+>>>    3. Etch time: 10-30sec
+>>>    4. Rinse/Dry
+>>>
+>>>  Please let me know if this would be possible
+>>>
+>>>
+>>> Many thanks
+>>>
+>>> Ludwig
+>>>
+>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191104/61588e69/attachment.html>
+
+From ludwig.galambos at gmail.com  Mon Nov  4 22:22:56 2019
+From: ludwig.galambos at gmail.com (Ludwig G.)
+Date: Mon, 4 Nov 2019 22:22:56 -0800
+Subject: [snf-promcommittee] PZT etch in BOE
+In-Reply-To: <CAFSuyDQ+ejxVXQR-Uo=t5Cjj9A+XO74wWxpwgpgMNsfkVcAC+w@mail.gmail.com>
+References: <CAC4rqR-5byndy95QVGt_RfkxFp+xeaOqU+Dkjy-TejWgDVa1qg@mail.gmail.com>
+ <CAFSuyDTFVqW=wTDRr3DfTHQFRkD8W2fs5ui-NpkEv+T+Fve3SQ@mail.gmail.com>
+ <CAC4rqR_s+vOvWbg-2-aOTcDMbtx=KU052=UDALRMe9Gq6Ja2PA@mail.gmail.com>
+ <CAFSuyDQ+ejxVXQR-Uo=t5Cjj9A+XO74wWxpwgpgMNsfkVcAC+w@mail.gmail.com>
+Message-ID: <CAC4rqR_LGVZ1tGh1eukHjywx5tsZ1f7gq44b_QCxkjwMo-wPuw@mail.gmail.com>
+
+HI Michelle,
+
+
+   1. Use the teflon lab dishes for this process in the WB Flexcor 2
+   2. since the sample is very small, less then 1x1" and apparently the
+   area where this needs to be applied on is even smaller, we can use a Q-tip
+   /swab to literally drop just a couple of drops of BOE 9:1 or 6:1
+   3. Followed Immediately by Q-tip application of HCL (37%)
+   4. The Etch time in BOE is 5sec , followed by HCL/BOE for 15 sec
+   together.  Total time about 20sec, before rinsing.
+   5. Rinse/Dry
+   6. The End
+
+
+On Mon, Nov 4, 2019 at 4:13 PM Michelle Rincon <michelle.rincon at gmail.com>
+wrote:
+
+> Hi Ludwig,
+>
+> Could you please put the step by step process in the flow (which includes
+> glassware, how you will measure a few drops, which equipment you will use?)
+> :)
+>
+> On Sun, Nov 3, 2019 at 9:32 PM Ludwig G. <ludwig.galambos at gmail.com>
+> wrote:
+>
+>>
+>> Hi Michelle
+>>
+>> the HCL it will be strait from the bottle few drops
+>>
+>> There is no rinse in between BOE (10:1) and HCL(straight),
+>>
+>> It?s putting 2 drops.
+>>
+>> 5 sec of BOE, and then 15sec with the HCL/BOE together.  Total time about
+>> 20sec, before rinsing.
+>>
+>>
+>> Thank you
+>>
+>>
+>> Ludwig
+>>
+>>
+>>
+>>
+>>
+>> On Thu, Oct 31, 2019 at 1:45 PM Michelle Rincon <
+>> michelle.rincon at gmail.com> wrote:
+>>
+>>> Hi Ludwig,
+>>>
+>>> Are you going to rinse in between the BOE application and the HCl? And
+>>> what concentration of HCl are you going to use?
+>>>
+>>> Thanks,
+>>> Michelle
+>>>
+>>> On Wed, Oct 30, 2019 at 10:31 PM Ludwig G. <ludwig.galambos at gmail.com>
+>>> wrote:
+>>>
+>>>>
+>>>>
+>>>> Hello SNF Prom Committee
+>>>>
+>>>> We would like to etch PZT(Lead Zirconium Titanite) SNF, can it be done
+>>>> at one of the wet benches Flexcor 1 or 2
+>>>>
+>>>>
+>>>>
+>>>> The wafers are Stainless Steel with CSD deposited which we would like
+>>>> to be etched for profilometer measurements.  The substrates are 100x100mm
+>>>> squares
+>>>>
+>>>>
+>>>>
+>>>> Etch is recipe:
+>>>>
+>>>>    1. Drop or Q-tip swab of BOE 10:1 or 6:1
+>>>>    2. Immediately Q-tip application of HCL
+>>>>    3. Etch time: 10-30sec
+>>>>    4. Rinse/Dry
+>>>>
+>>>>  Please let me know if this would be possible
+>>>>
+>>>>
+>>>> Many thanks
+>>>>
+>>>> Ludwig
+>>>>
+>>>>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191104/0cda6f46/attachment.html>
+
+From sooyeonpark at lbl.gov  Tue Nov  5 12:51:50 2019
+From: sooyeonpark at lbl.gov (Sooyeon Park)
+Date: Tue, 5 Nov 2019 12:51:50 -0800
+Subject: [snf-promcommittee] Inquiry for dry etcher
+Message-ID: <CAEkA1ksv-NeSNMS0rPW3NOPR7WGjpFLK+JOXOSVQ1RPW2-hWAQ@mail.gmail.com>
+
+Dear SNF,
+
+I'm Sooyeon Park who is working for ALS-U, LBNL. and I'm looking for the
+dry etcher that can run for Si and Fused silica substrate.
+Aimed substrates are thick Si substrate (maximum thickness is 20 mm, 4")
+and Fused silica (at this moment, this is general 4", 500?m thick). Etch
+mask will be the NIL resist (MRT's products), the main goal is optimizing
+the recipe for planarization.
+FYI, I'm usually working in Molecular Foundry and this is my first-time
+contact with SNF, so I believe the basic training is necessary.
+
+Could you let me know how can I get a permit to etching process? Also,
+price, and any other I need to know? If necessary, I'll visit you.
+
+Best,
+Sooyeon
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191105/e27b63a6/attachment.html>
+
+From snf-access at stanford.edu  Tue Nov  5 13:24:15 2019
+From: snf-access at stanford.edu (snf-access)
+Date: Tue, 5 Nov 2019 21:24:15 +0000
+Subject: [snf-promcommittee] Inquiry for dry etcher
+In-Reply-To: <CAEkA1ksv-NeSNMS0rPW3NOPR7WGjpFLK+JOXOSVQ1RPW2-hWAQ@mail.gmail.com>
+References: <CAEkA1ksv-NeSNMS0rPW3NOPR7WGjpFLK+JOXOSVQ1RPW2-hWAQ@mail.gmail.com>
+Message-ID: <BYAPR02MB46803C12AF2041767DCCD809E57E0@BYAPR02MB4680.namprd02.prod.outlook.com>
+
+Hi Sooyeon,
+
+Your first step is to discuss this project with a Technical Liaison who can determine if your project is a good fit for our lab. For Etching, that would be Usha (I have cc?d her on this email).
+
+Once Usha confirms your project for our lab, you will follow all the steps found here: http://snf.stanford.edu/join/ExtMembershipInstructions.pdf
+
+Thank you,
+
+Kasia Krow-Lucal
+Stanford Nanofabrication Facility
+Paul G Allen Building
+420 Via Palou Mall
+Stanford CA 94305
+kasiakl at stanford.edu<mailto:kasiakl at stanford.edu>
+https://snf.stanford.edu<https://snf.stanford.edu/>
+
+** For SNF labmembership, PTA changes and billing questions, please email snf-access at stanford.edu<mailto:snf-access at stanford.edu> **
+
+
+
+From: Sooyeon Park <sooyeonpark at lbl.gov>
+Sent: Tuesday, November 5, 2019 12:52 PM
+To: snf-promcommittee at lists.stanford.edu
+Cc: snf-access <snf-access at stanford.edu>
+Subject: Inquiry for dry etcher
+
+Dear SNF,
+
+I'm Sooyeon Park who is working for ALS-U, LBNL. and I'm looking for the dry etcher that can run for Si and Fused silica substrate.
+Aimed substrates are thick Si substrate (maximum thickness is 20 mm, 4") and Fused silica (at this moment, this is general 4", 500?m thick). Etch mask will be the NIL resist (MRT's products), the main goal is optimizing the recipe for planarization.
+FYI, I'm usually working in Molecular Foundry and this is my first-time contact with SNF, so I believe the basic training is necessary.
+
+Could you let me know how can I get a permit to etching process? Also, price, and any other I need to know? If necessary, I'll visit you.
+
+Best,
+Sooyeon
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191105/a957dd69/attachment.html>
+
+From mmrincon at stanford.edu  Wed Nov  6 10:43:11 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 6 Nov 2019 10:43:11 -0800
+Subject: [snf-promcommittee] PROM Request - Use of UV-Cured Optical
+ Adhesives in SNF Litho Area
+In-Reply-To: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>
+References: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDRWTd23EatjagwKG2yYA70GRiqLMJzyezs=9n8ia7Ruzw@mail.gmail.com>
+
+Litho guys, are we ok with this? I think it looks ok...
+
+On Fri, Nov 1, 2019 at 2:43 PM Thaibao (Peter) Phan <thaibaop at stanford.edu>
+wrote:
+
+> Hello,
+>
+> I would like to submit this PROM request!
+>
+> Thank you,
+> Peter
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/88cc6608/attachment-0001.html>
+
+From usha at stanford.edu  Wed Nov  6 11:37:31 2019
+From: usha at stanford.edu (Usha Raghuram)
+Date: Wed, 6 Nov 2019 19:37:31 +0000
+Subject: [snf-promcommittee] Inquiry for dry etcher
+In-Reply-To: <CAEkA1ksv-NeSNMS0rPW3NOPR7WGjpFLK+JOXOSVQ1RPW2-hWAQ@mail.gmail.com>
+References: <CAEkA1ksv-NeSNMS0rPW3NOPR7WGjpFLK+JOXOSVQ1RPW2-hWAQ@mail.gmail.com>
+Message-ID: <BYAPR02MB4903D64539B2A2DF0C2F7A94B8790@BYAPR02MB4903.namprd02.prod.outlook.com>
+
+Hello Sooyeon,
+
+Thank you for your interest in using SNF.  Etching a 4? fused silica wafer is not an issue.  But, etching 20mm thick Si wafers may be an issue.  If you would like to use MRC, it may be doable.  But, I am not sure about other tools as we normally do not process such thick substrates.
+
+Are you planning to do the work yourself?  Can you give us more details as to the etch characteristics such as etch depth, selectivity and profile requirements you are looking for and any other processing you are planning to do over here?  I am including link to MRC operations and capabilities so that you can judge if this will work for you.
+
+https://snfexfab.stanford.edu/equipment/mrc-reactive-ion-etcher-mrc
+
+Regards,
+
+Usha
+
+
+From: snf-promcommittee [mailto:snf-promcommittee-bounces at lists.stanford.edu] On Behalf Of Sooyeon Park
+Sent: Tuesday, November 5, 2019 12:52 PM
+To: snf-promcommittee at lists.stanford.edu
+Cc: snf-access <snf-access at stanford.edu>
+Subject: [snf-promcommittee] Inquiry for dry etcher
+
+Dear SNF,
+
+I'm Sooyeon Park who is working for ALS-U, LBNL. and I'm looking for the dry etcher that can run for Si and Fused silica substrate.
+Aimed substrates are thick Si substrate (maximum thickness is 20 mm, 4") and Fused silica (at this moment, this is general 4", 500?m thick). Etch mask will be the NIL resist (MRT's products), the main goal is optimizing the recipe for planarization.
+FYI, I'm usually working in Molecular Foundry and this is my first-time contact with SNF, so I believe the basic training is necessary.
+
+Could you let me know how can I get a permit to etching process? Also, price, and any other I need to know? If necessary, I'll visit you.
+
+Best,
+Sooyeon
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/6c99a5d7/attachment.html>
+
+From JieYao at WavefrontVision.com  Wed Nov  6 18:38:41 2019
+From: JieYao at WavefrontVision.com (JieYao at WavefrontVision.com)
+Date: Wed, 6 Nov 2019 21:38:41 -0500
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+	=?utf-8?q?=E2=80=90beam_evaporator?=
+Message-ID: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+
+Hi, Michelle,
+
+May I make the following PROM request, please?
+
+Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf, with which Maurice (cc?ed here) is OK.  
+
+Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/af6db025/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: eBeamEvaporation_NiSi.pdf
+Type: application/pdf
+Size: 108681 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/af6db025/attachment-0001.pdf>
+
+From JieYao at WavefrontVision.com  Wed Nov  6 18:42:46 2019
+From: JieYao at WavefrontVision.com (JieYao at WavefrontVision.com)
+Date: Wed, 6 Nov 2019 21:42:46 -0500
+Subject: [snf-promcommittee] PROM request for InP/InGaAs in Fiji1
+Message-ID: <00f601d59515$09ed82f0$1dc888d0$@WavefrontVision.com>
+
+Hi, Michelle,
+
+May I make the following PROM request, please?
+
+Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for InP/InGaAs MOSFET? according to https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+
+InGaAs is typically epitaxially grown on InP substrates, and does not decompose at 300C, which Xiaoqing can readily verify. 
+
+According to Fiji1 at https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+
+?A Note on III-V Materials
+
+Traditionally III-V materials in SNF are classified as gold contaminated.  However, because the Fiji1 operates at low temperatures III-V materials can be used in the Fiji1 under the following conditions (failure to adhere to these rules will result in removal from use of the tool):
+
+The III-V materials in question do not violate any of the above restrictions.
+
+Users wishing to use III-V materials must speak directly to the quality circle about their plans before beginning to use these materials in the system.
+
+III-V materials should never touch the inside of the deposition chamber or the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2 substrate must be used as a carrier wafer.  ?
+
+Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>  <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com>  <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/29e94bbe/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ThermalALD_InGaAlAsP.pdf
+Type: application/pdf
+Size: 116993 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191106/29e94bbe/attachment-0001.pdf>
+
+From rsawadic at Central.UH.EDU  Thu Nov  7 09:11:44 2019
+From: rsawadic at Central.UH.EDU (Sawadichai, Ryan)
+Date: Thu, 7 Nov 2019 17:11:44 +0000
+Subject: [snf-promcommittee] Inquiry about fabrication services for
+	University of Houston
+Message-ID: <SN6PR06MB4943FF1457F6BCE4F66CC39EE8790@SN6PR06MB4943.namprd06.prod.outlook.com>
+
+Hello, I am a student at the University of Houston looking to fabricate arrays of electrostatic microlenses on silicon for my research project and I was wondering if you can provide fabrication services. The description of my project is as follows:
+
+The structures we need consist of a highly doped p-type Si wafer with a 100 nm dielectric layer and a very thin (~10 nm) metal such as tungsten or aluminum deposited on top. Through this stack, we need to pattern an array of 100 nm diameter circular holes that go through the metal and dielectric stack, ending on the Si surface.
+
+For the dielectric, we need a 100 nm layer that is able to consistently withstand a voltage of +100 V (i.e. a dielectric breakdown strength 10 MV/cm or more). We prefer something other than SiO2 for the dielectric layer because we have made our own samples using SiO2 and the samples tend to electrically break down well under +100 V bias for a 300 nm thick layer. We maybe only get 4 MV/cm even with dry thermal oxide. We want to use diamond/diamond-like carbon since people have reported 30 MV/cm (i.e. here)<https://insights.globalspec.com/article/9768/what-is-the-ultimate-dielectric-material-diamond-materials-part-4>, but if you have another high dielectric strength material that you can deposit and pattern then it might work too.
+
+We made a large number of samples with 1000 nm SiO2 dielectric thickness and 650 nm diameter almost 10 years ago from SEMATECH, and an example of the cross section of what this looked like is shown below (ignore the trenches on the silicon, those are created after we use them in our experiment).
+
+[cid:a3e421a2-0d4f-4e2b-97f9-00fe70c4db31]
+
+Ultimately we want the lens arrays to be on 2.5 cm dies like shown below:
+
+[cid:ffcc16a0-89b1-4181-9bb7-0af4a8324193]
+
+We are looking to make around 50 or more of these dies so that we can test different process conditions with these in our experiments.
+
+Please let me know if this is something you can do, or if you know anyone that might be able to do it. When SEMATECH was still around it was simple finding someone to help us with fabrication but since they no longer exist it has been hard knowing who to look for.
+
+Thank you,
+Ryan Sawadichai
+Graduate Student Researcher, Plasma Processing Lab
+University of Houston
+rsawadichai at uh.edu<mailto:rsawadichai at uh.edu> 909-348-3925
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/876eaf92/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImagebase640.png
+Type: image/png
+Size: 74487 bytes
+Desc: pastedImagebase640.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/876eaf92/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImagebase640.png
+Type: image/png
+Size: 133106 bytes
+Desc: pastedImagebase640.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/876eaf92/attachment-0003.png>
+
+From michelle.rincon at gmail.com  Thu Nov  7 10:01:25 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 7 Nov 2019 10:01:25 -0800
+Subject: [snf-promcommittee] PROM Request - Use of UV-Cured Optical
+ Adhesives in SNF Litho Area
+In-Reply-To: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>
+References: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTRMcGX64R1grp4vANs7H=r2V5AZM-bS7OXWnjkCm6rEA@mail.gmail.com>
+
+Hi Peter,
+
+Your request is approved! Please let us know if anything changes!
+
+Best,
+Michelle
+
+On Fri, Nov 1, 2019 at 2:43 PM Thaibao (Peter) Phan <thaibaop at stanford.edu>
+wrote:
+
+> Hello,
+>
+> I would like to submit this PROM request!
+>
+> Thank you,
+> Peter
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/bc2fa441/attachment.html>
+
+From mmrincon at stanford.edu  Thu Nov  7 10:30:52 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 7 Nov 2019 10:30:52 -0800
+Subject: [snf-promcommittee] PROM request for InP/InGaAs in Fiji1
+In-Reply-To: <00f601d59515$09ed82f0$1dc888d0$@WavefrontVision.com>
+References: <00f601d59515$09ed82f0$1dc888d0$@WavefrontVision.com>
+Message-ID: <CAFSuyDRcShhVMquAXZ59EbYfqTw5PkdcNtyvmb-PP3wm-=0QRA@mail.gmail.com>
+
+Hi Jie,
+
+Thank you for your request. We need more information from you, please,
+regarding the step by step details that you will use to prevent chamber
+contamination, as well as the calculations or other proof to demonstrate
+that you will not be exposing anyone (including yourself!) to As. Please
+see this prior PROM request for an example:
+https://snfexfab.stanford.edu/snf/prom-requests/inas-on-gaas-piece-in-fiji2-and-savannah
+
+<https://snfexfab.stanford.edu/snf/prom-requests/inas-on-gaas-piece-in-fiji2-and-savannah>
+Best,
+Michelle
+
+On Wed, Nov 6, 2019 at 6:42 PM <JieYao at wavefrontvision.com> wrote:
+
+> Hi, Michelle,
+>
+> May I make the following PROM request, please?
+>
+> *Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean
+> Fiji as ?gate dielectric for InP/InGaAs MOSFET?* according to
+> https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+>
+> InGaAs is typically epitaxially grown on InP substrates, and does not
+> decompose at 300C, which Xiaoqing can readily verify.
+>
+> According to Fiji1 at
+> https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+>
+> ?A Note on III-V Materials
+>
+> Traditionally III-V materials in SNF are classified as gold contaminated.
+> However, because the Fiji1 operates at low temperatures III-V materials can
+> be used in the Fiji1 under the following conditions (failure to adhere to
+> these rules will result in removal from use of the tool):
+>
+> The III-V materials in question do not violate any of the above
+> restrictions.
+>
+> Users wishing to use III-V materials must speak directly to the quality
+> circle about their plans before beginning to use these materials in the
+> system.
+>
+> III-V materials should never touch the inside of the deposition chamber or
+> the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2
+> substrate must be used as a carrier wafer.  ?
+>
+> Thank you very much in advance!!  See you at SNF from 1st December thru 14
+> th December 2019.
+>
+> Best regards,
+>
+> Jay Yao, Ph.D., P.I.
+>
+> Scientist
+>
+> Wavefront Vision, Inc.
+>
+> Tel: 650-695-9316
+>
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com
+> <JieYao at WavefrontVision.com>>
+>
+> Web: www.WavefrontVision.com <http://www.WavefrontVision.com/>
+>
+>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+>
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/588d448a/attachment.html>
+
+From thaibaop at stanford.edu  Thu Nov  7 11:04:47 2019
+From: thaibaop at stanford.edu (Thaibao (Peter) Phan)
+Date: Thu, 7 Nov 2019 19:04:47 +0000
+Subject: [snf-promcommittee] PROM Request - Use of UV-Cured Optical
+ Adhesives in SNF Litho Area
+In-Reply-To: <CAFSuyDTRMcGX64R1grp4vANs7H=r2V5AZM-bS7OXWnjkCm6rEA@mail.gmail.com>
+References: <CY4PR02MB22932B966FF632ADFAA0D200BF620@CY4PR02MB2293.namprd02.prod.outlook.com>,
+ <CAFSuyDTRMcGX64R1grp4vANs7H=r2V5AZM-bS7OXWnjkCm6rEA@mail.gmail.com>
+Message-ID: <CY4PR02MB2293641E7D36AA6B5417FC7BBF780@CY4PR02MB2293.namprd02.prod.outlook.com>
+
+Awesome!  Thank you!
+
+Peter
+________________________________
+From: Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Thursday, November 7, 2019 10:01 AM
+To: Thaibao (Peter) Phan <thaibaop at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] PROM Request - Use of UV-Cured Optical Adhesives in SNF Litho Area
+
+Hi Peter,
+
+Your request is approved! Please let us know if anything changes!
+
+Best,
+Michelle
+
+On Fri, Nov 1, 2019 at 2:43 PM Thaibao (Peter) Phan <thaibaop at stanford.edu<mailto:thaibaop at stanford.edu>> wrote:
+Hello,
+
+I would like to submit this PROM request!
+
+Thank you,
+Peter
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/7c2a163f/attachment-0001.html>
+
+From maurice at stanford.edu  Thu Nov  7 13:36:35 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Thu, 7 Nov 2019 13:36:35 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+ =?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+Message-ID: <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+
+Hi Jay,
+
+In the past we have had users depositing Ti and W for silicides in our ?clean metal? system.  Ni was not included in that.
+
+Can you use Ti or W instead of Ni?  Those two metals are approved on the Intlvac-evap and have processes already developed.
+
+
+-m
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com wrote:
+> 
+> Hi, Michelle,
+> 
+> May I make the following PROM request, please?
+> 
+> Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>, with which Maurice (cc?ed here) is OK.  
+> 
+> Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+> 
+> Best regards,
+> Jay Yao, Ph.D., P.I.
+> Scientist
+> Wavefront Vision, Inc.
+> Tel: 650-695-9316
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>  
+> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>  
+> <eBeamEvaporation_NiSi.pdf>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/86406ffc/attachment.html>
+
+From JieYao at WavefrontVision.com  Thu Nov  7 13:44:38 2019
+From: JieYao at WavefrontVision.com (JieYao at WavefrontVision.com)
+Date: Thu, 7 Nov 2019 16:44:38 -0500
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+	=?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+Message-ID: <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+
+Hi, Maurice,
+
+ 
+
+We have proven in Ni in our process, and Ni is superior to Ti according to  <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf> https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf.
+
+ 
+
+Ni in Intlvac is NOT planned for my early December trip though, so we have time on this PROM request.  
+
+ 
+
+Many thanks. 
+
+ 
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+From: maurice stevens <maurice at stanford.edu> 
+Sent: Thursday, 7 November, 2019 16:37
+To: JieYao at WavefrontVision.com
+Cc: snf-promcommittee at lists.stanford.edu; Michelle Rincon <mmrincon at stanford.edu>
+Subject: Re: PROM request for Ni in Intlvac e?beam evaporator
+
+ 
+
+Hi Jay,
+
+ 
+
+In the past we have had users depositing Ti and W for silicides in our ?clean metal? system.  Ni was not included in that.
+
+ 
+
+Can you use Ti or W instead of Ni?  Those two metals are approved on the Intlvac-evap and have processes already developed.
+
+ 
+
+ 
+
+-m
+
+ 
+
+ 
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+ 
+
+
+
+
+
+
+
+
+
+
+On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>  wrote:
+
+ 
+
+Hi, Michelle,
+
+May I make the following PROM request, please?
+
+Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to  <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf> https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf, with which Maurice (cc?ed here) is OK.  
+
+Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail:  <mailto:JieYao at WavefrontVision.com> JieYao at WavefrontVision.com < <mailto:JieYao at WavefrontVision.com> mailto:JieYao at WavefrontVision.com> 
+
+Web:  <http://www.wavefrontvision.com/> www.WavefrontVision.com < <http://www.wavefrontvision.com/> http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+<eBeamEvaporation_NiSi.pdf>
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191107/659ba816/attachment-0001.html>
+
+From JieYao at WavefrontVision.com  Thu Nov  7 21:14:35 2019
+From: JieYao at WavefrontVision.com (JieYao at WavefrontVision.com)
+Date: Fri, 8 Nov 2019 00:14:35 -0500
+Subject: [snf-promcommittee] PROM request for InP in Fiji1
+Message-ID: <000401d595f3$697ae170$3c70a450$@WavefrontVision.com>
+
+Good evening, Michelle,
+
+This is my PROM request for thermal ALD onto InP in Fiji1.
+
+1.                   The chemical or material. InGaAlAsP epitaxially grown on InP substrate using MBE or MOCVD.
+
+2.                   Vendor/manufacturer info: Industrial standard MBE or MOCVD reactors.
+
+3.                   Reason for request: Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for InP/InGaAs MOSFET? according to https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+
+4.                   Process Flow: According to Fiji1 at https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+
+?A Note on III-V Materials:  Traditionally III-V materials in SNF are classified as gold contaminated.  However, because the Fiji1 operates at low temperatures III-V materials can be used in the Fiji1 under the following conditions (failure to adhere to these rules will result in removal from use of the tool):  The III-V materials in question do not violate any of the above restrictions.  Users wishing to use III-V materials must speak directly to the quality circle about their plans before beginning to use these materials in the system.  
+
+III-V materials should never touch the inside of the deposition chamber or the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2 substrate must be used as a carrier wafer.?
+
+I will use separate tweezers only for loading/unloading the III-V wafer into/from the recessed Si carrier wafer. I will use a Teflon-coated tweezer when loading/unloading the Si carrier wafer onto/off the Fiji.  Cool down in load lock prior to removal.
+
+5.                   Amount and form. How?
+
+InGaAs is typically epitaxially grown on InP substrates, and does not decompose at 300C, which Xiaoqing can readily verify. 
+
+According to the temperature dependence of saturation vapor pressure of indium phosphide (InP) shown in Figure, the InP vapor pressure is below 10^-8 Torr at 300 C.
+
+Source of data:  Panish, M. B. and J. R. Arthur, J. Chem. Thermodyn. 2, (1970) 299.
+
+http://www.ioffe.ru/SVA/NSM/Semicond/InP/thermal.html
+
+http://www.ioffe.ru/SVA/NSM/Semicond/InP/Figs/854.gif
+
+6.                   Storage: Will not be stored in the SNF.
+
+7.                   Disposal: Not applicable.
+
+It will be greatly appreciated if I can be qualified and use Fiji for InP during my stay at SNF between 1st and 14th December 2019.  Thank you very much in advance!!
+
+ 
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+From: Michelle Rincon <mmrincon at stanford.edu> 
+Sent: Thursday, 7 November, 2019 13:31
+To: JieYao at wavefrontvision.com
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>; maurice stevens <maurice at stanford.edu>
+Subject: Re: PROM request for InP/InGaAs in Fiji1
+
+ 
+
+Hi Jie,
+
+ 
+
+Thank you for your request. We need more information from you, please, regarding the step by step details that you will use to prevent chamber contamination, as well as the calculations or other proof to demonstrate that you will not be exposing anyone (including yourself!) to As. Please see this prior PROM request for an example: https://snfexfab.stanford.edu/snf/prom-requests/inas-on-gaas-piece-in-fiji2-and-savannah
+
+ 
+
+Best,
+
+Michelle 
+
+ 
+
+On Wed, Nov 6, 2019 at 6:42 PM <JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com> > wrote:
+
+Hi, Michelle,
+
+May I make the following PROM request, please?
+
+Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for InP/InGaAs MOSFET? according to https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+
+InGaAs is typically epitaxially grown on InP substrates, and does not decompose at 300C, which Xiaoqing can readily verify. 
+
+According to Fiji1 at https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+
+?A Note on III-V Materials
+
+Traditionally III-V materials in SNF are classified as gold contaminated.  However, because the Fiji1 operates at low temperatures III-V materials can be used in the Fiji1 under the following conditions (failure to adhere to these rules will result in removal from use of the tool):
+
+The III-V materials in question do not violate any of the above restrictions.
+
+Users wishing to use III-V materials must speak directly to the quality circle about their plans before beginning to use these materials in the system.
+
+III-V materials should never touch the inside of the deposition chamber or the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2 substrate must be used as a carrier wafer.  ?
+
+Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>  <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com>  <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+
+
+
+ 
+
+-- 
+
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+ <mailto:mmrincon at stanford.edu> mmrincon at stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/c4ef3961/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 4624 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/c4ef3961/attachment-0001.gif>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.jpg
+Type: image/jpeg
+Size: 8885 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/c4ef3961/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ThermalALD_InP-jY.pdf
+Type: application/pdf
+Size: 174481 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/c4ef3961/attachment-0001.pdf>
+
+From ludwig.galambos at gmail.com  Fri Nov  8 21:40:17 2019
+From: ludwig.galambos at gmail.com (Ludwig G.)
+Date: Fri, 8 Nov 2019 21:40:17 -0800
+Subject: [snf-promcommittee] Request for the use of Parylene N in Parcoater
+Message-ID: <CAC4rqR-xKt6SK5HRnW9ifm1U8hRG4q3YZx7xK2xTW9RwQj6uLQ@mail.gmail.com>
+
+Dear PromCommitte,
+
+I would like to request the use of Parylene N type in the Parcoater.
+
+Tried to download the MSDS , but could not access it, no account @
+https://scscoatings.com/corporate/technical-library/?ref=eq&gclid=CjwKCAiAwZTuBRAYEiwAcr67OVj_K3mTnUxeE057EvHCojx2MTsdo-R-mEuSIY9pw77TkCjf3bu5dRoCbokQAvD_BwE#sds
+
+If there is other information required, please let me know
+
+Many thanks
+Ludwig
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/b632eeac/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 02-SCS-Parylene-Properties-1016.pdf
+Type: application/pdf
+Size: 554361 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/b632eeac/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PTC-Parylene_Properties_Chart.pdf
+Type: application/pdf
+Size: 247275 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/b632eeac/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form for Parylene N.doc
+Type: application/msword
+Size: 136704 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191108/b632eeac/attachment-0001.doc>
+
+From mmrincon at stanford.edu  Mon Nov 11 10:23:03 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 11 Nov 2019 10:23:03 -0800
+Subject: [snf-promcommittee] Request for the use of Parylene N in
+	Parcoater
+In-Reply-To: <CAC4rqR-xKt6SK5HRnW9ifm1U8hRG4q3YZx7xK2xTW9RwQj6uLQ@mail.gmail.com>
+References: <CAC4rqR-xKt6SK5HRnW9ifm1U8hRG4q3YZx7xK2xTW9RwQj6uLQ@mail.gmail.com>
+Message-ID: <CAFSuyDT--1yx_SOQBv1gDEmLaVVoHK5NXfXYVtLNt0FtMCLRpg@mail.gmail.com>
+
+Hi Ludwig,
+
+Your request is approved. In addition to cleaning up as you documented
+here, please also make sure to return the setpoints to the Parylene C
+conditions after your run to make sure that the users who come after you
+are set up with the normal set up.
+
+Best,
+Michelle
+
+On Fri, Nov 8, 2019 at 9:40 PM Ludwig G. <ludwig.galambos at gmail.com> wrote:
+
+>
+> Dear PromCommitte,
+>
+> I would like to request the use of Parylene N type in the Parcoater.
+>
+> Tried to download the MSDS , but could not access it, no account @
+>
+> https://scscoatings.com/corporate/technical-library/?ref=eq&gclid=CjwKCAiAwZTuBRAYEiwAcr67OVj_K3mTnUxeE057EvHCojx2MTsdo-R-mEuSIY9pw77TkCjf3bu5dRoCbokQAvD_BwE#sds
+>
+> If there is other information required, please let me know
+>
+> Many thanks
+> Ludwig
+>
+>
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191111/fbf0d57b/attachment.html>
+
+From ludwig.galambos at gmail.com  Mon Nov 11 11:21:12 2019
+From: ludwig.galambos at gmail.com (Ludwig Galambos)
+Date: Mon, 11 Nov 2019 11:21:12 -0800
+Subject: [snf-promcommittee] Request for the use of Parylene N in
+	Parcoater
+In-Reply-To: <CAFSuyDT--1yx_SOQBv1gDEmLaVVoHK5NXfXYVtLNt0FtMCLRpg@mail.gmail.com>
+References: <CAC4rqR-xKt6SK5HRnW9ifm1U8hRG4q3YZx7xK2xTW9RwQj6uLQ@mail.gmail.com>
+ <CAFSuyDT--1yx_SOQBv1gDEmLaVVoHK5NXfXYVtLNt0FtMCLRpg@mail.gmail.com>
+Message-ID: <490D4237-76D6-4DB6-8F1E-6ED18D8435A5@gmail.com>
+
+Hi Michelle 
+
+Thank you for the prompt response and approval process 
+
+Yes, all the settings will be set for C as default 
+
+Best 
+Ludwig 
+
+Sent from my iPhone
+
+> On Nov 11, 2019, at 10:23 AM, Michelle Rincon <mmrincon at stanford.edu> wrote:
+> 
+> Hi Ludwig,
+> 
+> Your request is approved. In addition to cleaning up as you documented here, please also make sure to return the setpoints to the Parylene C conditions after your run to make sure that the users who come after you are set up with the normal set up.
+> 
+> Best,
+> Michelle
+> 
+>> On Fri, Nov 8, 2019 at 9:40 PM Ludwig G. <ludwig.galambos at gmail.com> wrote:
+>> 
+>> Dear PromCommitte,
+>> 
+>> I would like to request the use of Parylene N type in the Parcoater.
+>> 
+>> Tried to download the MSDS , but could not access it, no account @
+>> https://scscoatings.com/corporate/technical-library/?ref=eq&gclid=CjwKCAiAwZTuBRAYEiwAcr67OVj_K3mTnUxeE057EvHCojx2MTsdo-R-mEuSIY9pw77TkCjf3bu5dRoCbokQAvD_BwE#sds
+>> 
+>> If there is other information required, please let me know
+>> 
+>> Many thanks
+>> Ludwig
+>> 
+>> 
+>> 
+> 
+> 
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+> 
+> (650)-725-0307
+> mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191111/728e1bbf/attachment.html>
+
+From chuang at ganworks.com  Wed Nov 13 13:15:21 2019
+From: chuang at ganworks.com (Carol Huang)
+Date: Wed, 13 Nov 2019 13:15:21 -0800
+Subject: [snf-promcommittee] Request to use Aqua Regia
+Message-ID: <CAOsE0UEroQMJEA1svP0hxxYcP-iwLePNHWUmjrPgb-5MEajkzA@mail.gmail.com>
+
+Hi SNF ProM Comittee,
+
+Please see attached PROM form for request to use aqua regia in SNF and let
+us know if additional information is needed.
+
+Thanks,
+Carol
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191113/de980633/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SNF PROM_AquaRegia V1.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 107962 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191113/de980633/attachment-0001.docx>
+
+From michelle.rincon at gmail.com  Wed Nov 13 13:28:22 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 13 Nov 2019 13:28:22 -0800
+Subject: [snf-promcommittee] Request to use Aqua Regia
+In-Reply-To: <CAOsE0UEroQMJEA1svP0hxxYcP-iwLePNHWUmjrPgb-5MEajkzA@mail.gmail.com>
+References: <CAOsE0UEroQMJEA1svP0hxxYcP-iwLePNHWUmjrPgb-5MEajkzA@mail.gmail.com>
+Message-ID: <CAFSuyDRtMQ+nELBRvydpi_J4MJBoApvsC7u+bO11EGU0xRKQ-g@mail.gmail.com>
+
+Hi Carol,
+
+Thank you for your submission. Xiaoqing would like you to do a process
+review with her- could you please contact her to discuss your need for Aqua
+Regia?
+
+Best,
+Michelle
+
+On Wed, Nov 13, 2019 at 1:15 PM Carol Huang <chuang at ganworks.com> wrote:
+
+> Hi SNF ProM Comittee,
+>
+> Please see attached PROM form for request to use aqua regia in SNF and let
+> us know if additional information is needed.
+>
+> Thanks,
+> Carol
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191113/e3f6327e/attachment.html>
+
+From michelle.rincon at gmail.com  Thu Nov 14 16:14:52 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 14 Nov 2019 16:14:52 -0800
+Subject: [snf-promcommittee] Inquiry about fabrication services for
+ University of Houston
+In-Reply-To: <SN6PR06MB4943FF1457F6BCE4F66CC39EE8790@SN6PR06MB4943.namprd06.prod.outlook.com>
+References: <SN6PR06MB4943FF1457F6BCE4F66CC39EE8790@SN6PR06MB4943.namprd06.prod.outlook.com>
+Message-ID: <CAFSuyDQxzLgHZXpfN-=LUdgXC6HhzzEWJ-O-P_PCxtfXStuEpA@mail.gmail.com>
+
+Hi Ryan,
+
+Unfortunately, the SNF does not provide fabrication services. There are
+consultants who use the SNF to fabricate devices for customers, so you may
+be able to talk to one of them to see if this is a project that they could
+take on. They are not Stanford employees so all discussions regarding the
+fees for their services would have to be done with them directly. We have a
+list of consultants on our website:
+https://snfexfab.stanford.edu/snf/contacts/outside-consultants
+
+That being said, we do not have diamond deposition capability so that is an
+even bigger problem.
+
+Have you tried contacting TSI semiconductors? http://www.tsisemi.com/ They
+are offering foundry services- I have no idea how expensive it is or what
+their capabilities are but it might be worth asking!
+
+Best regards,
+Michelle
+
+
+
+On Thu, Nov 7, 2019 at 9:11 AM Sawadichai, Ryan <rsawadic at central.uh.edu>
+wrote:
+
+> Hello, I am a student at the University of Houston looking to fabricate
+> arrays of electrostatic microlenses on silicon for my research project and
+> I was wondering if you can provide fabrication services. The description of
+> my project is as follows:
+>
+> The structures we need consist of a highly doped p-type Si wafer with a
+> 100 nm dielectric layer and a very thin (~10 nm) metal such as tungsten or
+> aluminum deposited on top. Through this stack, we need to pattern an array
+> of 100 nm diameter circular holes that go through the metal and dielectric
+> stack, ending on the Si surface.
+>
+> For the dielectric, we need a 100 nm layer that is able to consistently
+> withstand a voltage of +100 V (i.e. a dielectric breakdown strength 10
+> MV/cm or more). We prefer something other than SiO2 for the dielectric
+> layer because we have made our own samples using SiO2 and the samples
+> tend to electrically break down well under +100 V bias for a 300 nm thick
+> layer. We maybe only get 4 MV/cm even with dry thermal oxide. We want to
+> use diamond/diamond-like carbon since people have reported 30 MV/cm (i.e.
+> here)
+> <https://insights.globalspec.com/article/9768/what-is-the-ultimate-dielectric-material-diamond-materials-part-4>,
+> but if you have another high dielectric strength material that you can
+> deposit and pattern then it might work too.
+>
+> We made a large number of samples with 1000 nm SiO2 dielectric thickness
+> and 650 nm diameter almost 10 years ago from SEMATECH, and an example of
+> the cross section of what this looked like is shown below (ignore the
+> trenches on the silicon, those are created after we use them in our
+> experiment).
+>
+>
+> Ultimately we want the lens arrays to be on 2.5 cm dies like shown below:
+>
+>
+>
+> We are looking to make around 50 or more of these dies so that we can test
+> different process conditions with these in our experiments.
+>
+> Please let me know if this is something you can do, or if you know anyone
+> that might be able to do it. When SEMATECH was still around it was simple
+> finding someone to help us with fabrication but since they no longer exist
+> it has been hard knowing who to look for.
+>
+> Thank you,
+> Ryan Sawadichai
+> Graduate Student Researcher, Plasma Processing Lab
+> University of Houston
+> rsawadichai at uh.edu 909-348-3925
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191114/2301b351/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImagebase640.png
+Type: image/png
+Size: 74487 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191114/2301b351/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImagebase640.png
+Type: image/png
+Size: 133106 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191114/2301b351/attachment-0003.png>
+
+From rgruenke at stanford.edu  Thu Nov 14 18:15:29 2019
+From: rgruenke at stanford.edu (Rachel Gruenke)
+Date: Fri, 15 Nov 2019 02:15:29 +0000
+Subject: [snf-promcommittee] Epoxy Request for Non-galvanic Flip Chip
+	Bonding
+In-Reply-To: <DM6PR02MB4281267034A9C263872ACED7A0950@DM6PR02MB4281.namprd02.prod.outlook.com>
+References: <DM6PR02MB4281267034A9C263872ACED7A0950@DM6PR02MB4281.namprd02.prod.outlook.com>
+Message-ID: <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+
+Hello PROM committee,
+
+I have worked with Swaroop on my PROM request and made some adjustments to the procedure to protect the flip chip bonding tool. Here is my updated request.
+
+Best,
+Rachel Gruenke
+?Ph.D. Student in Physics | Stanford University
+LINQS Laboratory: https://web.stanford.edu/~safavi/
+________________________________
+From: Rachel Gruenke
+Sent: Wednesday, October 9, 2019 11:47 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Epoxy Request for Non-galvanic Flip Chip Bonding
+
+Hello PROM Committee,
+
+I would like to submit the following PROM request for Stycast 2850FT/Catalyst 24LV/VGE-7301
+to aid in the development of a non-galvanic flip chip bonding procedure. Attached, you will find my request form, the three MSDSs, and a paper explaining the basics of the non-galvanic flip chip procedure that I am working to improve with these other epoxy options. Please let me know if you have any questions.
+
+Best,
+Rachel Gruenke
+?Ph.D. Student in Physics | Stanford University
+LINQS Laboratory: https://web.stanford.edu/~safavi/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/fdd06335/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form- RGRUENKE 111419.pdf
+Type: application/pdf
+Size: 199760 bytes
+Desc: Process or Materials Request Form- RGRUENKE 111419.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/fdd06335/attachment-0001.pdf>
+
+From skommera at stanford.edu  Thu Nov 14 18:17:05 2019
+From: skommera at stanford.edu (Swaroop Kommera)
+Date: Fri, 15 Nov 2019 02:17:05 +0000
+Subject: [snf-promcommittee] Epoxy Request for Non-galvanic Flip
+	Chip	Bonding
+In-Reply-To: <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+References: <DM6PR02MB4281267034A9C263872ACED7A0950@DM6PR02MB4281.namprd02.prod.outlook.com>
+ <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB432718AFA12C1160AACF5FAAB6700@BYAPR02MB4327.namprd02.prod.outlook.com>
+
+Hi Prom committee,
+OK to approve form my side. Please let me know if you see any issues.
+
+Swaroop
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Rachel Gruenke
+Sent: Thursday, November 14, 2019 6:15 PM
+To: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] Epoxy Request for Non-galvanic Flip Chip Bonding
+
+Hello PROM committee,
+
+I have worked with Swaroop on my PROM request and made some adjustments to the procedure to protect the flip chip bonding tool. Here is my updated request.
+
+Best,
+Rachel Gruenke
+?Ph.D. Student in Physics | Stanford University
+LINQS Laboratory: https://web.stanford.edu/~safavi/
+________________________________
+From: Rachel Gruenke
+Sent: Wednesday, October 9, 2019 11:47 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Epoxy Request for Non-galvanic Flip Chip Bonding
+
+Hello PROM Committee,
+
+I would like to submit the following PROM request for Stycast 2850FT/Catalyst 24LV/VGE-7301
+to aid in the development of a non-galvanic flip chip bonding procedure. Attached, you will find my request form, the three MSDSs, and a paper explaining the basics of the non-galvanic flip chip procedure that I am working to improve with these other epoxy options. Please let me know if you have any questions.
+
+Best,
+Rachel Gruenke
+?Ph.D. Student in Physics | Stanford University
+LINQS Laboratory: https://web.stanford.edu/~safavi/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/bef1840a/attachment.html>
+
+From maurice at stanford.edu  Fri Nov 15 08:54:25 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 15 Nov 2019 08:54:25 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+ =?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+ <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+Message-ID: <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+
+I think we should approve this.  Ni was aways intended to be introduced on this tool when needed.
+
+-m
+
+
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Nov 7, 2019, at 1:44 PM, <JieYao at wavefrontvision.com> <JieYao at WavefrontVision.com> wrote:
+> 
+> Hi, Maurice,
+>  
+> We have proven in Ni in our process, and Ni is superior to Ti according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>.
+>  
+> Ni in Intlvac is NOT planned for my early December trip though, so we have time on this PROM request.  
+>  
+> Many thanks. 
+>  
+> Best regards,
+> Jay Yao, Ph.D., P.I.
+> Scientist
+> Wavefront Vision, Inc.
+> Tel: 650-695-9316
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>  
+> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>  
+> From: maurice stevens <maurice at stanford.edu <mailto:maurice at stanford.edu>> 
+> Sent: Thursday, 7 November, 2019 16:37
+> To: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>; Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Subject: Re: PROM request for Ni in Intlvac e?beam evaporator
+>  
+> Hi Jay,
+>  
+> In the past we have had users depositing Ti and W for silicides in our ?clean metal? system.  Ni was not included in that.
+>  
+> Can you use Ti or W instead of Ni?  Those two metals are approved on the Intlvac-evap and have processes already developed.
+>  
+>  
+> -m
+>  
+>  
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+>  
+> 
+> 
+> 
+> 
+> 
+> 
+>> On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> wrote:
+>>  
+>> Hi, Michelle,
+>> 
+>> May I make the following PROM request, please?
+>> 
+>> Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>, with which Maurice (cc?ed here) is OK.  
+>> 
+>> Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+>> 
+>> Best regards,
+>> Jay Yao, Ph.D., P.I.
+>> Scientist
+>> Wavefront Vision, Inc.
+>> Tel: 650-695-9316
+>> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+>> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>>  
+>> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>>  
+>> <eBeamEvaporation_NiSi.pdf>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/a0530811/attachment-0001.html>
+
+From maurice at stanford.edu  Fri Nov 15 09:20:39 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 15 Nov 2019 09:20:39 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+ =?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <23d8277c-72e5-a43a-88ba-06bb55222d6b@stanford.edu>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+ <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+ <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+ <23d8277c-72e5-a43a-88ba-06bb55222d6b@stanford.edu>
+Message-ID: <49AB90CD-96B8-42F8-B613-601E5A95FCDA@stanford.edu>
+
+Not too challenging?but time consuming.
+
+
+-m
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Nov 15, 2019, at 9:16 AM, Mary Tang <mtang at stanford.edu> wrote:
+> 
+> Hi Maurice -
+> 
+> I would agree.  The stable silicide is compatible with CMOS processing.  It was on the "semiclean B" list of acceptable materials.  
+> 
+> Is it going to be challenging, not to have an established process for it?
+> 
+> Mary
+> 
+> On 11/15/2019 8:54 AM, maurice stevens wrote:
+>> I think we should approve this.  Ni was aways intended to be introduced on this tool when needed.
+>> 
+>> -m
+>> 
+>> 
+>> 
+>> 
+>> Maurice Stevens
+>> Stanford Nanofabrication Facility
+>> Allen Room 145, Mail Code 4070
+>> 420 Via Palou
+>> Stanford, CA  94305
+>> P. (650)725-3660
+>> F. (650)725.6278
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>>> On Nov 7, 2019, at 1:44 PM, <JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com>> <JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> wrote:
+>>> 
+>>> Hi, Maurice,
+>>>  
+>>> We have proven in Ni in our process, and Ni is superior to Ti according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>.
+>>>  
+>>> Ni in Intlvac is NOT planned for my early December trip though, so we have time on this PROM request.  
+>>>  
+>>> Many thanks. 
+>>>  
+>>> Best regards,
+>>> Jay Yao, Ph.D., P.I.
+>>> Scientist
+>>> Wavefront Vision, Inc.
+>>> Tel: 650-695-9316
+>>> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+>>> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>>>  
+>>> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>>>  
+>>> From: maurice stevens <maurice at stanford.edu <mailto:maurice at stanford.edu>> 
+>>> Sent: Thursday, 7 November, 2019 16:37
+>>> To: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+>>> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>; Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+>>> Subject: Re: PROM request for Ni in Intlvac e?beam evaporator
+>>>  
+>>> Hi Jay,
+>>>  
+>>> In the past we have had users depositing Ti and W for silicides in our ?clean metal? system.  Ni was not included in that.
+>>>  
+>>> Can you use Ti or W instead of Ni?  Those two metals are approved on the Intlvac-evap and have processes already developed.
+>>>  
+>>>  
+>>> -m
+>>>  
+>>>  
+>>> Maurice Stevens
+>>> Stanford Nanofabrication Facility
+>>> Allen Room 145, Mail Code 4070
+>>> 420 Via Palou
+>>> Stanford, CA  94305
+>>> P. (650)725-3660
+>>> F. (650)725.6278
+>>>  
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>>> On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> wrote:
+>>>>  
+>>>> Hi, Michelle,
+>>>> 
+>>>> May I make the following PROM request, please?
+>>>> 
+>>>> Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>, with which Maurice (cc?ed here) is OK.  
+>>>> 
+>>>> Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+>>>> 
+>>>> Best regards,
+>>>> Jay Yao, Ph.D., P.I.
+>>>> Scientist
+>>>> Wavefront Vision, Inc.
+>>>> Tel: 650-695-9316
+>>>> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+>>>> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>>>>  
+>>>> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>>>>  
+>>>> <eBeamEvaporation_NiSi.pdf>
+>> 
+>> 
+>> 
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+> -- 
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980
+> mtang at stanford.edu <mailto:mtang at stanford.edu>
+> https://snf.stanford.edu <https://snf.stanford.edu/>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/4980044c/attachment-0001.html>
+
+From mtang at stanford.edu  Fri Nov 15 09:16:26 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 15 Nov 2019 09:16:26 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+ =?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+ <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+ <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+Message-ID: <23d8277c-72e5-a43a-88ba-06bb55222d6b@stanford.edu>
+
+Hi Maurice -
+
+I would agree.? The stable silicide is compatible with CMOS processing.? 
+It was on the "semiclean B" list of acceptable materials.
+
+Is it going to be challenging, not to have an established process for it?
+
+Mary
+
+On 11/15/2019 8:54 AM, maurice stevens wrote:
+> I think we should approve this. ?Ni was aways intended to be 
+> introduced on this tool when needed.
+>
+> -m
+>
+>
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA ?94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+>> On Nov 7, 2019, at 1:44 PM, <JieYao at wavefrontvision.com 
+>> <mailto:JieYao at wavefrontvision.com>> <JieYao at WavefrontVision.com 
+>> <mailto:JieYao at WavefrontVision.com>> wrote:
+>>
+>> Hi, Maurice,
+>> We have proven in Ni in our process, and Ni is superior to Ti 
+>> according tohttps://web.stanford.edu/class/ee311/NOTES/Silicides.pdf.
+>> Ni in Intlvac is NOT planned for my early December trip though, so we 
+>> have time on this PROM request.
+>> Many thanks.
+>> Best regards,
+>> Jay Yao, Ph.D., P.I.
+>> Scientist
+>> Wavefront Vision, Inc.
+>> Tel: 650-695-9316
+>> eMail:JieYao at WavefrontVision.com 
+>> <mailto:JieYao at WavefrontVision.com><mailto:JieYao at WavefrontVision.com>
+>> Web:www.WavefrontVision.com 
+>> <http://www.wavefrontvision.com/><http://www.WavefrontVision.com/ 
+>> <http://www.wavefrontvision.com/>>
+>> Confidentiality NOTICE: This e-mail message and any attachments 
+>> contain confidential and legally privileged information from 
+>> Wavefront Vision, Inc. If you are not the intended recipient, you are 
+>> hereby notified that any disclosure, dissemination, reproduction or 
+>> other use of this e-mail and/or any of its attachments is prohibited. 
+>> If you have received this communication in error, please reply to the 
+>> sender advising of the error in transmission and delete the e-mail 
+>> message and any attachments from your system. Thank you!
+>> *From:*maurice stevens <maurice at stanford.edu 
+>> <mailto:maurice at stanford.edu>>
+>> *Sent:*Thursday, 7 November, 2019 16:37
+>> *To:*JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+>> *Cc:*snf-promcommittee at lists.stanford.edu 
+>> <mailto:snf-promcommittee at lists.stanford.edu>; Michelle Rincon 
+>> <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+>> *Subject:*Re: PROM request for Ni in Intlvac e?beam evaporator
+>> Hi Jay,
+>> In the past we have had users depositing Ti and W for silicides in 
+>> our ?clean metal? system. ?Ni was not included in that.
+>> Can you use Ti or W instead of Ni? ?Those two metals are approved on 
+>> the Intlvac-evap and have processes already developed.
+>> -m
+>> Maurice Stevens
+>> Stanford Nanofabrication Facility
+>> Allen Room 145, Mail Code 4070
+>> 420 Via Palou
+>> Stanford, CA ?94305
+>> P. (650)725-3660
+>> F. (650)725.6278
+>>
+>>
+>>
+>>
+>>
+>>
+>>> On Nov 6, 2019, at 6:38 PM,JieYao at WavefrontVision.com 
+>>> <mailto:JieYao at WavefrontVision.com>wrote:
+>>>
+>>> Hi, Michelle,
+>>>
+>>> May I make the following PROM request, please?
+>>>
+>>> *Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam 
+>>> evaporator*according 
+>>> tohttps://web.stanford.edu/class/ee311/NOTES/Silicides.pdf, with 
+>>> which Maurice (cc?ed here) is OK.
+>>>
+>>> Thank you very much in advance!! ?See you at SNF from 1^st December 
+>>> thru 14^th December 2019.
+>>>
+>>> Best regards,
+>>> Jay Yao, Ph.D., P.I.
+>>> Scientist
+>>> Wavefront Vision, Inc.
+>>> Tel: 650-695-9316
+>>> eMail:JieYao at WavefrontVision.com 
+>>> <mailto:JieYao at WavefrontVision.com><mailto:JieYao at WavefrontVision.com>
+>>> Web:www.WavefrontVision.com 
+>>> <http://www.wavefrontvision.com/><http://www.WavefrontVision.com/ 
+>>> <http://www.wavefrontvision.com/>>
+>>> Confidentiality NOTICE: This e-mail message and any attachments 
+>>> contain confidential and legally privileged information from 
+>>> Wavefront Vision, Inc. If you are not the intended recipient, you 
+>>> are hereby notified that any disclosure, dissemination, reproduction 
+>>> or other use of this e-mail and/or any of its attachments is 
+>>> prohibited. If you have received this communication in error, please 
+>>> reply to the sender advising of the error in transmission and delete 
+>>> the e-mail message and any attachments from your system. Thank you!
+>>> <eBeamEvaporation_NiSi.pdf>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/98b62a9b/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Nov 15 09:29:25 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 15 Nov 2019 09:29:25 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+	=?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <49AB90CD-96B8-42F8-B613-601E5A95FCDA@stanford.edu>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+ <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+ <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+ <23d8277c-72e5-a43a-88ba-06bb55222d6b@stanford.edu>
+ <49AB90CD-96B8-42F8-B613-601E5A95FCDA@stanford.edu>
+Message-ID: <CAFSuyDS9bCfjr0u1VzhSonv6QJVAD4R0dZ152=7K8POehkfXUQ@mail.gmail.com>
+
+Sounds good! Should we ask him to purchase the target?
+
+On Fri, Nov 15, 2019 at 9:20 AM maurice stevens <maurice at stanford.edu>
+wrote:
+
+> Not too challenging?but time consuming.
+>
+>
+> -m
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+> On Nov 15, 2019, at 9:16 AM, Mary Tang <mtang at stanford.edu> wrote:
+>
+> Hi Maurice -
+>
+> I would agree.  The stable silicide is compatible with CMOS processing.
+> It was on the "semiclean B" list of acceptable materials.
+>
+> Is it going to be challenging, not to have an established process for it?
+>
+> Mary
+> On 11/15/2019 8:54 AM, maurice stevens wrote:
+>
+> I think we should approve this.  Ni was aways intended to be introduced on
+> this tool when needed.
+>
+> -m
+>
+>
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+> On Nov 7, 2019, at 1:44 PM, <JieYao at wavefrontvision.com> <
+> JieYao at WavefrontVision.com> wrote:
+>
+> Hi, Maurice,
+>
+> We have proven in Ni in our process, and Ni is superior to Ti according to
+>  https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf.
+>
+> Ni in Intlvac is NOT planned for my early December trip though, so we have
+> time on this PROM request.
+>
+> Many thanks.
+>
+> Best regards,
+> Jay Yao, Ph.D., P.I.
+> Scientist
+> Wavefront Vision, Inc.
+> Tel: 650-695-9316
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com
+> <JieYao at WavefrontVision.com>>
+> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <
+> http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+> *From:* maurice stevens <maurice at stanford.edu>
+> *Sent:* Thursday, 7 November, 2019 16:37
+> *To:* JieYao at WavefrontVision.com
+> *Cc:* snf-promcommittee at lists.stanford.edu; Michelle Rincon <
+> mmrincon at stanford.edu>
+> *Subject:* Re: PROM request for Ni in Intlvac e?beam evaporator
+>
+> Hi Jay,
+>
+> In the past we have had users depositing Ti and W for silicides in our
+> ?clean metal? system.  Ni was not included in that.
+>
+> Can you use Ti or W instead of Ni?  Those two metals are approved on the
+> Intlvac-evap and have processes already developed.
+>
+>
+> -m
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+>
+> On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com wrote:
+>
+>
+> Hi, Michelle,
+>
+> May I make the following PROM request, please?
+>
+> *Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam
+> evaporator* according to
+> https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf, with which
+> Maurice (cc?ed here) is OK.
+>
+> Thank you very much in advance!!  See you at SNF from 1st December thru 14
+> th December 2019.
+> Best regards,
+> Jay Yao, Ph.D., P.I.
+> Scientist
+> Wavefront Vision, Inc.
+> Tel: 650-695-9316
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com
+> <JieYao at WavefrontVision.com>>
+> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <
+> http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+> <eBeamEvaporation_NiSi.pdf>
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/a941f4c9/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Nov 15 09:31:11 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 15 Nov 2019 09:31:11 -0800
+Subject: [snf-promcommittee] PROM request for InP in Fiji1
+In-Reply-To: <000401d595f3$697ae170$3c70a450$@WavefrontVision.com>
+References: <000401d595f3$697ae170$3c70a450$@WavefrontVision.com>
+Message-ID: <CAFSuyDRBjPWCURYmWpVxTKkuCGmmTgJZQ97j0ckiT=nEWnP8Og@mail.gmail.com>
+
+Hi Jie,
+
+Thank you for the updated request. Your request is approved. Please let us
+know if anything changes!
+
+Best,
+Michelle
+
+On Thu, Nov 7, 2019 at 9:14 PM <JieYao at wavefrontvision.com> wrote:
+
+> Good evening, Michelle,
+>
+> This is my PROM request for thermal ALD onto *InP in Fiji1.*
+>
+> 1.                   *The chemical or material. *InGaAlAsP epitaxially
+> grown on InP substrate using MBE or MOCVD.
+>
+> 2.                   *Vendor/manufacturer info:* Industrial standard MBE
+> or MOCVD reactors.
+>
+> 3.                   *Reason for request:* Thermal ALD of Al2O3 at
+> approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for
+> InP/InGaAs MOSFET? according to
+> https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+>
+> 4.                   *Process Flow:* According to Fiji1 at
+> https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+>
+> ?A Note on III-V Materials:  Traditionally III-V materials in SNF are
+> classified as gold contaminated.  However, because the Fiji1 operates at
+> low temperatures III-V materials can be used in the Fiji1 under the
+> following conditions (failure to adhere to these rules will result in
+> removal from use of the tool):  The III-V materials in question do not
+> violate any of the above restrictions.  Users wishing to use III-V
+> materials must speak directly to the quality circle about their plans
+> before beginning to use these materials in the system.
+>
+> III-V materials should never touch the inside of the deposition chamber or
+> the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2
+> substrate must be used as a carrier wafer.?
+>
+> *I will use separate tweezers only for loading/unloading the III-V wafer
+> into/from the recessed Si carrier wafer. I will use a Teflon-coated tweezer
+> when loading/unloading the Si carrier wafer onto/off the Fiji.  Cool down
+> in load lock prior to removal.*
+>
+> 5.                   *Amount and form. *How?
+>
+> InGaAs is typically epitaxially grown on InP substrates, and does not
+> decompose at 300C, which Xiaoqing can readily verify.
+>
+> According to the temperature dependence of saturation vapor pressure of
+> indium phosphide (InP) shown in Figure, the InP vapor pressure is below
+> 10^-8 Torr at 300 C.
+>
+> Source of data:  Panish, M. B. and J. R. Arthur, *J. Chem. Thermodyn.* *2*,
+> (1970) 299.
+>
+> http://www.ioffe.ru/SVA/NSM/Semicond/InP/thermal.html
+>
+> http://www.ioffe.ru/SVA/NSM/Semicond/InP/Figs/854.gif
+>
+> 6.                   *Storage: *Will not be stored in the SNF.
+>
+> 7.                   *Disposal*: Not applicable.
+>
+> It will be greatly appreciated if I can be qualified and use Fiji for InP
+> during my stay at SNF between 1st and 14th December 2019.  Thank you very
+> much in advance!!
+>
+>
+>
+> Best regards,
+>
+> Jay Yao, Ph.D., P.I.
+>
+> Scientist
+>
+> Wavefront Vision, Inc.
+>
+> Tel: 650-695-9316
+>
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+>
+> Web: www.WavefrontVision.com <http://www.WavefrontVision.com/>
+>
+>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, 7 November, 2019 13:31
+> *To:* JieYao at wavefrontvision.com
+> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu>; maurice
+> stevens <maurice at stanford.edu>
+> *Subject:* Re: PROM request for InP/InGaAs in Fiji1
+>
+>
+>
+> Hi Jie,
+>
+>
+>
+> Thank you for your request. We need more information from you, please,
+> regarding the step by step details that you will use to prevent chamber
+> contamination, as well as the calculations or other proof to demonstrate
+> that you will not be exposing anyone (including yourself!) to As. Please
+> see this prior PROM request for an example:
+> https://snfexfab.stanford.edu/snf/prom-requests/inas-on-gaas-piece-in-fiji2-and-savannah
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On Wed, Nov 6, 2019 at 6:42 PM <JieYao at wavefrontvision.com> wrote:
+>
+> Hi, Michelle,
+>
+> May I make the following PROM request, please?
+>
+> *Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean
+> Fiji as ?gate dielectric for InP/InGaAs MOSFET?* according to
+> https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+>
+> InGaAs is typically epitaxially grown on InP substrates, and does not
+> decompose at 300C, which Xiaoqing can readily verify.
+>
+> According to Fiji1 at
+> https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+>
+> ?A Note on III-V Materials
+>
+> Traditionally III-V materials in SNF are classified as gold contaminated.
+> However, because the Fiji1 operates at low temperatures III-V materials can
+> be used in the Fiji1 under the following conditions (failure to adhere to
+> these rules will result in removal from use of the tool):
+>
+> The III-V materials in question do not violate any of the above
+> restrictions.
+>
+> Users wishing to use III-V materials must speak directly to the quality
+> circle about their plans before beginning to use these materials in the
+> system.
+>
+> III-V materials should never touch the inside of the deposition chamber or
+> the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2
+> substrate must be used as a carrier wafer.  ?
+>
+> Thank you very much in advance!!  See you at SNF from 1st December thru 14
+> th December 2019.
+>
+> Best regards,
+>
+> Jay Yao, Ph.D., P.I.
+>
+> Scientist
+>
+> Wavefront Vision, Inc.
+>
+> Tel: 650-695-9316
+>
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com
+> <JieYao at WavefrontVision.com>>
+>
+> Web: www.WavefrontVision.com <http://www.WavefrontVision.com/>
+>
+>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+>
+>
+>
+>
+>
+> --
+>
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/38dae406/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.jpg
+Type: image/jpeg
+Size: 8885 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/38dae406/attachment-0001.jpg>
+
+From maurice at stanford.edu  Fri Nov 15 09:40:07 2019
+From: maurice at stanford.edu (maurice stevens)
+Date: Fri, 15 Nov 2019 09:40:07 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+ =?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <CAFSuyDS9bCfjr0u1VzhSonv6QJVAD4R0dZ152=7K8POehkfXUQ@mail.gmail.com>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+ <2E23D2CA-6C87-4B70-855B-5478DCC04649@stanford.edu>
+ <025201d595b4$8df40890$a9dc19b0$@WavefrontVision.com>
+ <5B73EE65-4F1C-47FD-A1A2-791794C15A55@stanford.edu>
+ <23d8277c-72e5-a43a-88ba-06bb55222d6b@stanford.edu>
+ <49AB90CD-96B8-42F8-B613-601E5A95FCDA@stanford.edu>
+ <CAFSuyDS9bCfjr0u1VzhSonv6QJVAD4R0dZ152=7K8POehkfXUQ@mail.gmail.com>
+Message-ID: <DC1A42A2-695F-4175-B6BC-4AB6862D0A43@stanford.edu>
+
+I think we have it already (I will check the safe).  If we don?t I think we should get it.  
+It is advertised as a ?future? standard metal for the tool on our website (thanks Carsen!).
+
+-m
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Nov 15, 2019, at 9:29 AM, Michelle Rincon <michelle.rincon at gmail.com> wrote:
+> 
+> Sounds good! Should we ask him to purchase the target?
+> 
+> On Fri, Nov 15, 2019 at 9:20 AM maurice stevens <maurice at stanford.edu <mailto:maurice at stanford.edu>> wrote:
+> Not too challenging?but time consuming.
+> 
+> 
+> -m
+> 
+> 
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+> 
+> 
+> 
+> 
+> 
+> 
+>> On Nov 15, 2019, at 9:16 AM, Mary Tang <mtang at stanford.edu <mailto:mtang at stanford.edu>> wrote:
+>> 
+>> Hi Maurice -
+>> 
+>> I would agree.  The stable silicide is compatible with CMOS processing.  It was on the "semiclean B" list of acceptable materials.  
+>> 
+>> Is it going to be challenging, not to have an established process for it?
+>> 
+>> Mary
+>> 
+>> On 11/15/2019 8:54 AM, maurice stevens wrote:
+>>> I think we should approve this.  Ni was aways intended to be introduced on this tool when needed.
+>>> 
+>>> -m
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Maurice Stevens
+>>> Stanford Nanofabrication Facility
+>>> Allen Room 145, Mail Code 4070
+>>> 420 Via Palou
+>>> Stanford, CA  94305
+>>> P. (650)725-3660
+>>> F. (650)725.6278
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>>> On Nov 7, 2019, at 1:44 PM, <JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com>> <JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> wrote:
+>>>> 
+>>>> Hi, Maurice,
+>>>>  
+>>>> We have proven in Ni in our process, and Ni is superior to Ti according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>.
+>>>>  
+>>>> Ni in Intlvac is NOT planned for my early December trip though, so we have time on this PROM request.  
+>>>>  
+>>>> Many thanks. 
+>>>>  
+>>>> Best regards,
+>>>> Jay Yao, Ph.D., P.I.
+>>>> Scientist
+>>>> Wavefront Vision, Inc.
+>>>> Tel: 650-695-9316
+>>>> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+>>>> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>>>>  
+>>>> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>>>>  
+>>>> From: maurice stevens <maurice at stanford.edu <mailto:maurice at stanford.edu>> 
+>>>> Sent: Thursday, 7 November, 2019 16:37
+>>>> To: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+>>>> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>; Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+>>>> Subject: Re: PROM request for Ni in Intlvac e?beam evaporator
+>>>>  
+>>>> Hi Jay,
+>>>>  
+>>>> In the past we have had users depositing Ti and W for silicides in our ?clean metal? system.  Ni was not included in that.
+>>>>  
+>>>> Can you use Ti or W instead of Ni?  Those two metals are approved on the Intlvac-evap and have processes already developed.
+>>>>  
+>>>>  
+>>>> -m
+>>>>  
+>>>>  
+>>>> Maurice Stevens
+>>>> Stanford Nanofabrication Facility
+>>>> Allen Room 145, Mail Code 4070
+>>>> 420 Via Palou
+>>>> Stanford, CA  94305
+>>>> P. (650)725-3660
+>>>> F. (650)725.6278
+>>>>  
+>>>> 
+>>>> 
+>>>> 
+>>>> 
+>>>> 
+>>>> 
+>>>>> On Nov 6, 2019, at 6:38 PM, JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> wrote:
+>>>>>  
+>>>>> Hi, Michelle,
+>>>>> 
+>>>>> May I make the following PROM request, please?
+>>>>> 
+>>>>> Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam evaporator according to https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf <https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf>, with which Maurice (cc?ed here) is OK.  
+>>>>> 
+>>>>> Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+>>>>> 
+>>>>> Best regards,
+>>>>> Jay Yao, Ph.D., P.I.
+>>>>> Scientist
+>>>>> Wavefront Vision, Inc.
+>>>>> Tel: 650-695-9316
+>>>>> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>> 
+>>>>> Web: www.WavefrontVision.com <http://www.wavefrontvision.com/> <http://www.WavefrontVision.com/ <http://www.wavefrontvision.com/>> 
+>>>>>  
+>>>>> Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+>>>>>  
+>>>>> <eBeamEvaporation_NiSi.pdf>
+>>> 
+>>> 
+>>> 
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+>> -- 
+>> Mary X. Tang, Ph.D.
+>> Stanford Nanofabrication Facility
+>> Paul G. Allen Building, Rm 141
+>> 420 Via Palou Mall
+>> Stanford, CA  94305
+>> (650)723-9980
+>> mtang at stanford.edu <mailto:mtang at stanford.edu>
+>> https://snf.stanford.edu <https://snf.stanford.edu/>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/2c92e42a/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Nov 15 09:44:49 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 15 Nov 2019 09:44:49 -0800
+Subject: [snf-promcommittee] Epoxy Request for Non-galvanic Flip Chip
+	Bonding
+In-Reply-To: <BYAPR02MB432718AFA12C1160AACF5FAAB6700@BYAPR02MB4327.namprd02.prod.outlook.com>
+References: <DM6PR02MB4281267034A9C263872ACED7A0950@DM6PR02MB4281.namprd02.prod.outlook.com>
+ <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+ <BYAPR02MB432718AFA12C1160AACF5FAAB6700@BYAPR02MB4327.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTOgnkavSodH+V=_7QL2D0kyfvc0xsQeg5yHbs7a8WnDg@mail.gmail.com>
+
+That looks good!!
+
+On Thu, Nov 14, 2019 at 6:17 PM Swaroop Kommera <skommera at stanford.edu>
+wrote:
+
+> Hi Prom committee,
+>
+> OK to approve form my side. Please let me know if you see any issues.
+>
+>
+>
+> Swaroop
+>
+>
+>
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> *On
+> Behalf Of *Rachel Gruenke
+> *Sent:* Thursday, November 14, 2019 6:15 PM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] Epoxy Request for Non-galvanic Flip
+> Chip Bonding
+>
+>
+>
+> Hello PROM committee,
+>
+>
+>
+> I have worked with Swaroop on my PROM request and made some adjustments to
+> the procedure to protect the flip chip bonding tool. Here is my updated
+> request.
+>
+>
+>
+> Best,
+>
+> Rachel Gruenke
+>
+> ?Ph.D. Student in Physics | Stanford University
+>
+> LINQS Laboratory: https://web.stanford.edu/~safavi/
+> ------------------------------
+>
+> *From:* Rachel Gruenke
+> *Sent:* Wednesday, October 9, 2019 11:47 AM
+> *To:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Epoxy Request for Non-galvanic Flip Chip Bonding
+>
+>
+>
+> Hello PROM Committee,
+>
+>
+>
+> I would like to submit the following PROM request for Stycast
+> 2850FT/Catalyst 24LV/VGE-7301
+>
+> to aid in the development of a non-galvanic flip chip bonding
+> procedure. Attached, you will find my request form, the three MSDSs, and a
+> paper explaining the basics of the non-galvanic flip chip procedure that I
+> am working to improve with these other epoxy options. Please let me know if
+> you have any questions.
+>
+>
+>
+> Best,
+>
+> Rachel Gruenke
+>
+> ?Ph.D. Student in Physics | Stanford University
+>
+> LINQS Laboratory: https://web.stanford.edu/~safavi/
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/b44acd32/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Nov 15 09:48:18 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 15 Nov 2019 09:48:18 -0800
+Subject: [snf-promcommittee] =?utf-8?q?PROM_request_for_Ni_in_Intlvac_e?=
+	=?utf-8?q?=E2=80=90beam_evaporator?=
+In-Reply-To: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+References: <00f001d59514$77cfcf90$676f6eb0$@WavefrontVision.com>
+Message-ID: <CAFSuyDQW2h_wrHymZcypn=9zD6dRc_SNpN8h52eTb4b2NQCmwA@mail.gmail.com>
+
+Hi Jie,
+
+Thank you for your request. You are approved!
+
+Best,
+Michelle
+
+
+On Wed, Nov 6, 2019 at 6:38 PM <JieYao at wavefrontvision.com> wrote:
+
+> Hi, Michelle,
+>
+> May I make the following PROM request, please?
+>
+> *Nickel (Ni) for nickel silicide in Intlvac clean/semi-clean e-beam
+> evaporator* according to
+> https://web.stanford.edu/class/ee311/NOTES/Silicides.pdf, with which
+> Maurice (cc?ed here) is OK.
+>
+> Thank you very much in advance!!  See you at SNF from 1st December thru 14
+> th December 2019.
+>
+> Best regards,
+>
+> Jay Yao, Ph.D., P.I.
+>
+> Scientist
+>
+> Wavefront Vision, Inc.
+>
+> Tel: 650-695-9316
+>
+> eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>
+>
+> Web: www.WavefrontVision.com <http://www.WavefrontVision.com/>
+>
+>
+>
+> Confidentiality NOTICE: This e-mail message and any attachments contain
+> confidential and legally privileged information from Wavefront Vision, Inc.
+> If you are not the intended recipient, you are hereby notified that any
+> disclosure, dissemination, reproduction or other use of this e-mail and/or
+> any of its attachments is prohibited. If you have received this
+> communication in error, please reply to the sender advising of the error in
+> transmission and delete the e-mail message and any attachments from your
+> system. Thank you!
+>
+>
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/d86b1a6e/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Nov 15 09:45:32 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 15 Nov 2019 09:45:32 -0800
+Subject: [snf-promcommittee] Epoxy Request for Non-galvanic Flip Chip
+	Bonding
+In-Reply-To: <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+References: <DM6PR02MB4281267034A9C263872ACED7A0950@DM6PR02MB4281.namprd02.prod.outlook.com>
+ <BY5PR02MB648773A15FCAD459D566B20FA0700@BY5PR02MB6487.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDT14KaQbexkjmD6aOWpOxjZKdF-GpzeQkuEywyW6jtTqA@mail.gmail.com>
+
+Hi Rachel,
+
+Thank you for the updated request- those details are great! Your request is
+approved. Please let us know if anything changes.
+
+Best,
+Michelle
+
+On Thu, Nov 14, 2019 at 6:15 PM Rachel Gruenke <rgruenke at stanford.edu>
+wrote:
+
+> Hello PROM committee,
+>
+> I have worked with Swaroop on my PROM request and made some adjustments to
+> the procedure to protect the flip chip bonding tool. Here is my updated
+> request.
+>
+> Best,
+> Rachel Gruenke
+> ?Ph.D. Student in Physics | Stanford University
+> LINQS Laboratory: https://web.stanford.edu/~safavi/
+> ------------------------------
+> *From:* Rachel Gruenke
+> *Sent:* Wednesday, October 9, 2019 11:47 AM
+> *To:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Epoxy Request for Non-galvanic Flip Chip Bonding
+>
+> Hello PROM Committee,
+>
+> I would like to submit the following PROM request for Stycast
+> 2850FT/Catalyst 24LV/VGE-7301
+> to aid in the development of a non-galvanic flip chip bonding procedure. Attached,
+> you will find my request form, the three MSDSs, and a paper explaining the
+> basics of the non-galvanic flip chip procedure that I am working to improve
+> with these other epoxy options. Please let me know if you have any
+> questions.
+>
+> Best,
+> Rachel Gruenke
+> ?Ph.D. Student in Physics | Stanford University
+> LINQS Laboratory: https://web.stanford.edu/~safavi/
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/47f1cdf2/attachment-0001.html>
+
+From JieYao at WavefrontVision.com  Fri Nov 15 10:14:32 2019
+From: JieYao at WavefrontVision.com (JieYao at WavefrontVision.com)
+Date: Fri, 15 Nov 2019 13:14:32 -0500
+Subject: [snf-promcommittee] PROM request for InP in Fiji1
+In-Reply-To: <CAFSuyDRBjPWCURYmWpVxTKkuCGmmTgJZQ97j0ckiT=nEWnP8Og@mail.gmail.com>
+References: <000401d595f3$697ae170$3c70a450$@WavefrontVision.com>
+ <CAFSuyDRBjPWCURYmWpVxTKkuCGmmTgJZQ97j0ckiT=nEWnP8Og@mail.gmail.com>
+Message-ID: <002901d59be0$87a62590$96f270b0$@WavefrontVision.com>
+
+Thank you so much, Michelle!  
+
+ 
+
+As we discussed, please do not publish any of our PROM requests. 
+
+ 
+
+See you in two weeks between 1st and 14th December 2019.  Season?s greetings!!
+
+ 
+
+Best regards,
+
+Jay 
+
+ 
+
+ 
+
+From: Michelle Rincon <mmrincon at stanford.edu> 
+Sent: Friday, 15 November, 2019 12:31
+To: JieYao at wavefrontvision.com
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>; maurice stevens <maurice at stanford.edu>
+Subject: Re: PROM request for InP in Fiji1
+
+ 
+
+Hi Jie,
+
+ 
+
+Thank you for the updated request. Your request is approved. Please let us know if anything changes!
+
+ 
+
+Best,
+
+Michelle
+
+ 
+
+On Thu, Nov 7, 2019 at 9:14 PM <JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com> > wrote:
+
+Good evening, Michelle,
+
+This is my PROM request for thermal ALD onto InP in Fiji1.
+
+1.                   The chemical or material. InGaAlAsP epitaxially grown on InP substrate using MBE or MOCVD.
+
+2.                   Vendor/manufacturer info: Industrial standard MBE or MOCVD reactors.
+
+3.                   Reason for request: Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for InP/InGaAs MOSFET? according to https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+
+4.                   Process Flow: According to Fiji1 at https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+
+?A Note on III-V Materials:  Traditionally III-V materials in SNF are classified as gold contaminated.  However, because the Fiji1 operates at low temperatures III-V materials can be used in the Fiji1 under the following conditions (failure to adhere to these rules will result in removal from use of the tool):  The III-V materials in question do not violate any of the above restrictions.  Users wishing to use III-V materials must speak directly to the quality circle about their plans before beginning to use these materials in the system.  
+
+III-V materials should never touch the inside of the deposition chamber or the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2 substrate must be used as a carrier wafer.?
+
+I will use separate tweezers only for loading/unloading the III-V wafer into/from the recessed Si carrier wafer. I will use a Teflon-coated tweezer when loading/unloading the Si carrier wafer onto/off the Fiji.  Cool down in load lock prior to removal.
+
+5.                   Amount and form. How?
+
+InGaAs is typically epitaxially grown on InP substrates, and does not decompose at 300C, which Xiaoqing can readily verify. 
+
+According to the temperature dependence of saturation vapor pressure of indium phosphide (InP) shown in Figure, the InP vapor pressure is below 10^-8 Torr at 300 C.
+
+Source of data:  Panish, M. B. and J. R. Arthur, J. Chem. Thermodyn. 2, (1970) 299.
+
+http://www.ioffe.ru/SVA/NSM/Semicond/InP/thermal.html
+
+http://www.ioffe.ru/SVA/NSM/Semicond/InP/Figs/854.gif
+
+6.                   Storage: Will not be stored in the SNF.
+
+7.                   Disposal: Not applicable.
+
+It will be greatly appreciated if I can be qualified and use Fiji for InP during my stay at SNF between 1st and 14th December 2019.  Thank you very much in advance!!
+
+ 
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>  <mailto:JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com> > 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com>  <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+From: Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu> > 
+Sent: Thursday, 7 November, 2019 13:31
+To: JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com> 
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu> >; maurice stevens <maurice at stanford.edu <mailto:maurice at stanford.edu> >
+Subject: Re: PROM request for InP/InGaAs in Fiji1
+
+ 
+
+Hi Jie,
+
+ 
+
+Thank you for your request. We need more information from you, please, regarding the step by step details that you will use to prevent chamber contamination, as well as the calculations or other proof to demonstrate that you will not be exposing anyone (including yourself!) to As. Please see this prior PROM request for an example: https://snfexfab.stanford.edu/snf/prom-requests/inas-on-gaas-piece-in-fiji2-and-savannah
+
+ 
+
+Best,
+
+Michelle 
+
+ 
+
+On Wed, Nov 6, 2019 at 6:42 PM <JieYao at wavefrontvision.com <mailto:JieYao at wavefrontvision.com> > wrote:
+
+Hi, Michelle,
+
+May I make the following PROM request, please?
+
+Thermal ALD of Al2O3 at approximately 300C inside the clean/semi-clean Fiji as ?gate dielectric for InP/InGaAs MOSFET? according to https://pdfs.semanticscholar.org/7683/babd7f4e5f2098b0cc81e96dd6047e097892.pdf
+
+InGaAs is typically epitaxially grown on InP substrates, and does not decompose at 300C, which Xiaoqing can readily verify. 
+
+According to Fiji1 at https://docs.google.com/document/d/e/2PACX-1vR18yXWnh6r5DEABuISeMmLAIBdB5AXgxeFAw9lGIETTP1KZGuEkuX-OH7CSxoM9I2AjDX6cydg94Jw/pub#h.j1er2ydjzeqn
+
+?A Note on III-V Materials
+
+Traditionally III-V materials in SNF are classified as gold contaminated.  However, because the Fiji1 operates at low temperatures III-V materials can be used in the Fiji1 under the following conditions (failure to adhere to these rules will result in removal from use of the tool):
+
+The III-V materials in question do not violate any of the above restrictions.
+
+Users wishing to use III-V materials must speak directly to the quality circle about their plans before beginning to use these materials in the system.
+
+III-V materials should never touch the inside of the deposition chamber or the tweezers that are used in the chamber.  A clean Si, SiN, or SiO2 substrate must be used as a carrier wafer.  ?
+
+Thank you very much in advance!!  See you at SNF from 1st December thru 14th December 2019.
+
+Best regards,
+
+Jay Yao, Ph.D., P.I.
+
+Scientist
+
+Wavefront Vision, Inc.
+
+Tel: 650-695-9316
+
+eMail: JieYao at WavefrontVision.com <mailto:JieYao at WavefrontVision.com>  <mailto:JieYao at WavefrontVision.com> 
+
+Web: www.WavefrontVision.com <http://www.WavefrontVision.com>  <http://www.WavefrontVision.com/> 
+
+ 
+
+Confidentiality NOTICE: This e-mail message and any attachments contain confidential and legally privileged information from Wavefront Vision, Inc. If you are not the intended recipient, you are hereby notified that any disclosure, dissemination, reproduction or other use of this e-mail and/or any of its attachments is prohibited. If you have received this communication in error, please reply to the sender advising of the error in transmission and delete the e-mail message and any attachments from your system. Thank you!
+
+ 
+
+
+
+
+ 
+
+-- 
+
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+ <mailto:mmrincon at stanford.edu> mmrincon at stanford.edu
+
+
+
+
+ 
+
+-- 
+
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+ <mailto:mmrincon at stanford.edu> mmrincon at stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/b2f7f660/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 8885 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/b2f7f660/attachment-0001.jpg>
+
+From amgu at royole.com  Fri Nov 15 13:51:10 2019
+From: amgu at royole.com (Amit Gupta)
+Date: Fri, 15 Nov 2019 21:51:10 +0000
+Subject: [snf-promcommittee] SNF PROM for Zeocoat curing using BlueM Oven
+In-Reply-To: <d2e06fa5e8b64761aafcd95c6b305f37@royole.com>
+References: <a9d2b6737552400c99d9d1aa1450f708@royole.com>,
+ <CAFSuyDSTSoCSaKZCF64FvLvtos8B-nyPM-vnupQ1vot6XC73HQ@mail.gmail.com>,
+ <d2e06fa5e8b64761aafcd95c6b305f37@royole.com>
+Message-ID: <d761d54d7a844cd79dfe931bb77c10a3@royole.com>
+
+Dear Michelle,
+
+
+I just wanted to send out the update that I have cured up to 4 Zeocoat wafers in the BlueM oven with no smell or any issue.
+
+
+Best,
+
+Amit
+
+
+________________________________
+From: Amit Gupta
+Sent: Tuesday, October 8, 2019 4:55 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] SNF PROM for Zeocoat curing using BlueM Oven
+
+
+Hi Michelle,
+
+
+Thank you for your email.  I will work with Phil on identifying the maximum number of Zeocoat coated wafers per pass in the BlueM oven.
+
+
+Best,
+
+Amit
+
+________________________________
+From: Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Tuesday, October 8, 2019 10:36:04 AM
+To: Amit Gupta
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] SNF PROM for Zeocoat curing using BlueM Oven
+
+Hi Amit,
+
+Your request is approved with the following condition:
+
+In order to verify the exhaust is working properly, please make sure to use only 1 or 2 wafers during your first run and confirm there is no odor present upon opening the chamber. Please confirm that worked with Phil, who will work with you to set the maximum number of wafers allowed per pass based on tests you do.
+
+If you could update the PROM request with the maximum number of wafers per pass when you identify that, it would be very helpful for our archives!
+
+Thanks,
+Michelle
+
+On Mon, Sep 30, 2019 at 5:32 PM Amit Gupta <amgu at royole.com<mailto:amgu at royole.com>> wrote:
+
+Dear SNF PROM Committee,
+
+
+Please find attach the PROM application for the approval of curing Zeocoat CP1010-14 (an photosensitive organic resin) using BlueM Oven at 230C in N2 for up to an hour.  I am also attaching the MSDS for Zeocoat CP1010-14.
+
+
+Zeocoat is already approved to be used in the fab.  The present PROM is to get the approval to be able to cure Zeocoat using BlueM oven.
+
+
+Thank you.
+
+
+Best,
+
+Amit
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/cdd1d124/attachment.html>
+
+From michelle.rincon at gmail.com  Fri Nov 15 14:07:34 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 15 Nov 2019 14:07:34 -0800
+Subject: [snf-promcommittee] SNF PROM for Zeocoat curing using BlueM Oven
+In-Reply-To: <d761d54d7a844cd79dfe931bb77c10a3@royole.com>
+References: <a9d2b6737552400c99d9d1aa1450f708@royole.com>
+ <CAFSuyDSTSoCSaKZCF64FvLvtos8B-nyPM-vnupQ1vot6XC73HQ@mail.gmail.com>
+ <d2e06fa5e8b64761aafcd95c6b305f37@royole.com>
+ <d761d54d7a844cd79dfe931bb77c10a3@royole.com>
+Message-ID: <CAFSuyDQeuGtf8u+C3KZwO=XT9ji3pHPTKPzxB+YRxV8iMsRONA@mail.gmail.com>
+
+Thanks Amit!
+
+On Fri, Nov 15, 2019 at 1:51 PM Amit Gupta <amgu at royole.com> wrote:
+
+> Dear Michelle,
+>
+>
+> I just wanted to send out the update that I have cured up to 4 Zeocoat
+> wafers in the BlueM oven with no smell or any issue.
+>
+>
+> Best,
+>
+> Amit
+>
+>
+> ------------------------------
+> *From:* Amit Gupta
+> *Sent:* Tuesday, October 8, 2019 4:55 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] SNF PROM for Zeocoat curing using
+> BlueM Oven
+>
+>
+> Hi Michelle,
+>
+>
+> Thank you for your email.  I will work with Phil on identifying the
+> maximum number of Zeocoat coated wafers per pass in the BlueM oven.
+>
+>
+> Best,
+>
+> Amit
+> ------------------------------
+> *From:* Michelle Rincon <michelle.rincon at gmail.com>
+> *Sent:* Tuesday, October 8, 2019 10:36:04 AM
+> *To:* Amit Gupta
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] SNF PROM for Zeocoat curing using
+> BlueM Oven
+>
+> Hi Amit,
+>
+> Your request is approved with the following condition:
+>
+> In order to verify the exhaust is working properly, please make sure to
+> use only 1 or 2 wafers during your first run and confirm there is no odor
+> present upon opening the chamber. Please confirm that worked with Phil, who
+> will work with you to set the maximum number of wafers allowed per pass
+> based on tests you do.
+>
+> If you could update the PROM request with the maximum number of wafers per
+> pass when you identify that, it would be very helpful for our archives!
+>
+> Thanks,
+> Michelle
+>
+> On Mon, Sep 30, 2019 at 5:32 PM Amit Gupta <amgu at royole.com> wrote:
+>
+>> Dear SNF PROM Committee,
+>>
+>>
+>> Please find attach the PROM application for the approval of curing
+>> Zeocoat CP1010-14 (an photosensitive organic resin) using BlueM Oven at
+>> 230C in N2 for up to an hour.  I am also attaching the MSDS for Zeocoat
+>> CP1010-14.
+>>
+>>
+>> Zeocoat is already approved to be used in the fab.  The present PROM is
+>> to get the approval to be able to cure Zeocoat using BlueM oven.
+>>
+>>
+>> Thank you.
+>>
+>>
+>> Best,
+>>
+>> Amit
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191115/b03a134f/attachment.html>
+
+From sh.jamali7 at gmail.com  Wed Nov 20 16:52:12 2019
+From: sh.jamali7 at gmail.com (Shirin Jamali)
+Date: Wed, 20 Nov 2019 16:52:12 -0800
+Subject: [snf-promcommittee] Fwd: Request on negative Photoresist
+In-Reply-To: <CA+kB=FBqtS_4tPnUgnMCg=9T+19_+qFWwNDqfb_uXXJB25BUdQ@mail.gmail.com>
+References: <CA+kB=FBox-Vtk8+LSisfEKKZAxSwNFbigYVg3vD+HYiCeNQTRg@mail.gmail.com>
+ <CA+kB=FCK-eWThjsBbqJ0nzzrAvdHBnHSaiZyr3O_2TFYGRArGg@mail.gmail.com>
+ <CA+kB=FBqtS_4tPnUgnMCg=9T+19_+qFWwNDqfb_uXXJB25BUdQ@mail.gmail.com>
+Message-ID: <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+
+Dear SNF Committe Members,
+
+Would you please review my request on bringing a bottle of negative
+photoresist ( AZ nLof 2020) to SNF?
+The bottle was purchased recently from imicromaterials <
+RonEakin at imicromaterials.com>.
+This negative resist has easier steps than AZ? 5214 E.
+Process Flow:
+1-  Use headway 2 to spincoat the resist
+2-  Use Karlsuss to expose the resist
+3-  Use AZ300 MIF  developer in wetbench by headway 2
+ AZ 300 MIF-
+http://www.imicromaterials.com/index.php/Products/Developers/mif-specs
+Thank you
+Best regards
+Shirin
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191120/65e7cc6f/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 15742184658081749536884210690353.jpg
+Type: image/jpeg
+Size: 3722043 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191120/65e7cc6f/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: AZ nLoF 2000 Series Data Package EMD.pdf
+Type: application/pdf
+Size: 754304 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191120/65e7cc6f/attachment-0001.pdf>
+
+From akotila at quantapore.com  Fri Nov 22 17:26:30 2019
+From: akotila at quantapore.com (Andrew Kotila)
+Date: Fri, 22 Nov 2019 17:26:30 -0800
+Subject: [snf-promcommittee] Material Review
+Message-ID: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+
+Hello attached is a pdf with a request to bring in negative e-beam resists
+for spin coating at SNF.
+
+Thank you,
+
+Andrew Kotila
+
+-- 
+
+Andrew Kotila
+
+Research Associate
+
+Quantapore Inc.
+
+815 Dubuque Ave,.
+
+South San Francisco, CA 94080
+
+Tel: 650-321-2032 ext: 715
+
+Email: akotila at quantapore.com <dsanchez at quantapore.com>
+
+www.quantapore.com
+
+CONFIDENTIALITY NOTICE: The contents of this e-mail message and any
+attachments are intended solely for the addressee(s) named in this
+message.  This communication is intended to be and to remain confidential
+and may be subject to applicable attorney/client and/or work product
+privileges.  If you are not the intended recipient of this message, or if
+this message has been addressed to you in error, please immediately alert
+the sender by reply e-mail and then delete this message and its
+attachments.  Do not deliver, distribute or copy this message and/or any
+attachments and if you are not the intended recipient, do not disclose the
+contents or take any action in reliance upon the information contained in
+this communication or any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191122/ef6f4594/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Bring in_Store negative e-beam resists ma-N 2403, AR-N 7520.pdf
+Type: application/pdf
+Size: 33538 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191122/ef6f4594/attachment-0001.pdf>
+
+From mmrincon at stanford.edu  Mon Nov 25 15:44:19 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 25 Nov 2019 15:44:19 -0800
+Subject: [snf-promcommittee] Material Review
+In-Reply-To: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+References: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+Message-ID: <CAFSuyDReKC-oJHiNXFBi9_rJS+dxO5rE6fAU5nSTOj+LoE-s7Q@mail.gmail.com>
+
+Hi Phil and Swaroop-
+
+What do you think?
+
+On Fri, Nov 22, 2019 at 5:26 PM Andrew Kotila <akotila at quantapore.com>
+wrote:
+
+> Hello attached is a pdf with a request to bring in negative e-beam resists
+> for spin coating at SNF.
+>
+> Thank you,
+>
+> Andrew Kotila
+>
+> --
+>
+> Andrew Kotila
+>
+> Research Associate
+>
+> Quantapore Inc.
+>
+> 815 Dubuque Ave,.
+>
+> South San Francisco, CA 94080
+>
+> Tel: 650-321-2032 ext: 715
+>
+> Email: akotila at quantapore.com <dsanchez at quantapore.com>
+>
+> www.quantapore.com
+>
+> CONFIDENTIALITY NOTICE: The contents of this e-mail message and any
+> attachments are intended solely for the addressee(s) named in this
+> message.  This communication is intended to be and to remain confidential
+> and may be subject to applicable attorney/client and/or work product
+> privileges.  If you are not the intended recipient of this message, or if
+> this message has been addressed to you in error, please immediately alert
+> the sender by reply e-mail and then delete this message and its
+> attachments.  Do not deliver, distribute or copy this message and/or any
+> attachments and if you are not the intended recipient, do not disclose the
+> contents or take any action in reliance upon the information contained in
+> this communication or any attachments.
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/5dbdda43/attachment.html>
+
+From mmrincon at stanford.edu  Mon Nov 25 15:45:47 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 25 Nov 2019 15:45:47 -0800
+Subject: [snf-promcommittee] Fwd: Request on negative Photoresist
+In-Reply-To: <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+References: <CA+kB=FBox-Vtk8+LSisfEKKZAxSwNFbigYVg3vD+HYiCeNQTRg@mail.gmail.com>
+ <CA+kB=FCK-eWThjsBbqJ0nzzrAvdHBnHSaiZyr3O_2TFYGRArGg@mail.gmail.com>
+ <CA+kB=FBqtS_4tPnUgnMCg=9T+19_+qFWwNDqfb_uXXJB25BUdQ@mail.gmail.com>
+ <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+Message-ID: <CAFSuyDTaFTzss18ekJ2V8Mgy8qw0_uPiUFdKi=nRD3uKMdhoiQ@mail.gmail.com>
+
+Hi Phil,
+
+What about this one?
+Thanks!
+Michelle
+
+On Wed, Nov 20, 2019 at 5:33 PM Shirin Jamali <sh.jamali7 at gmail.com> wrote:
+
+>
+> Dear SNF Committe Members,
+>
+> Would you please review my request on bringing a bottle of negative
+> photoresist ( AZ nLof 2020) to SNF?
+> The bottle was purchased recently from imicromaterials <
+> RonEakin at imicromaterials.com>.
+> This negative resist has easier steps than AZ? 5214 E.
+> Process Flow:
+> 1-  Use headway 2 to spincoat the resist
+> 2-  Use Karlsuss to expose the resist
+> 3-  Use AZ300 MIF  developer in wetbench by headway 2
+>  AZ 300 MIF-
+> http://www.imicromaterials.com/index.php/Products/Developers/mif-specs
+> Thank you
+> Best regards
+> Shirin
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/0d17d6a5/attachment.html>
+
+From michelle.rincon at gmail.com  Mon Nov 25 16:45:50 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 25 Nov 2019 16:45:50 -0800
+Subject: [snf-promcommittee] Fwd: Request on negative Photoresist
+In-Reply-To: <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+References: <CA+kB=FBox-Vtk8+LSisfEKKZAxSwNFbigYVg3vD+HYiCeNQTRg@mail.gmail.com>
+ <CA+kB=FCK-eWThjsBbqJ0nzzrAvdHBnHSaiZyr3O_2TFYGRArGg@mail.gmail.com>
+ <CA+kB=FBqtS_4tPnUgnMCg=9T+19_+qFWwNDqfb_uXXJB25BUdQ@mail.gmail.com>
+ <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+Message-ID: <CAFSuyDTcWWu875TKz+=MFr0xsNGGtdNq3tuRv3Pb9ofLSGzhRg@mail.gmail.com>
+
+Hi Shirin,
+
+Your request is approved to use the resist on the Headway. Please let us
+know if anything changes.
+
+Best,
+Michelle
+
+On Wed, Nov 20, 2019 at 5:33 PM Shirin Jamali <sh.jamali7 at gmail.com> wrote:
+
+>
+> Dear SNF Committe Members,
+>
+> Would you please review my request on bringing a bottle of negative
+> photoresist ( AZ nLof 2020) to SNF?
+> The bottle was purchased recently from imicromaterials <
+> RonEakin at imicromaterials.com>.
+> This negative resist has easier steps than AZ? 5214 E.
+> Process Flow:
+> 1-  Use headway 2 to spincoat the resist
+> 2-  Use Karlsuss to expose the resist
+> 3-  Use AZ300 MIF  developer in wetbench by headway 2
+>  AZ 300 MIF-
+> http://www.imicromaterials.com/index.php/Products/Developers/mif-specs
+> Thank you
+> Best regards
+> Shirin
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/abe3b057/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Mon Nov 25 16:51:12 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 25 Nov 2019 16:51:12 -0800
+Subject: [snf-promcommittee] Fwd: Request on negative Photoresist
+In-Reply-To: <CAFSuyDTcWWu875TKz+=MFr0xsNGGtdNq3tuRv3Pb9ofLSGzhRg@mail.gmail.com>
+References: <CA+kB=FBox-Vtk8+LSisfEKKZAxSwNFbigYVg3vD+HYiCeNQTRg@mail.gmail.com>
+ <CA+kB=FCK-eWThjsBbqJ0nzzrAvdHBnHSaiZyr3O_2TFYGRArGg@mail.gmail.com>
+ <CA+kB=FBqtS_4tPnUgnMCg=9T+19_+qFWwNDqfb_uXXJB25BUdQ@mail.gmail.com>
+ <CA+kB=FAv-cA_jsEmY74M__TkGGZXGe6DgbfXQmfzgfmz3Jv1fw@mail.gmail.com>
+ <CAFSuyDTcWWu875TKz+=MFr0xsNGGtdNq3tuRv3Pb9ofLSGzhRg@mail.gmail.com>
+Message-ID: <CAFSuyDSif7NF=LCxeLH1J5PHPRr3K0qxN=5c16Xrv4RP1tCxbg@mail.gmail.com>
+
+Hi Shirin,
+
+I forgot to mention that you should contact Gary Sosa for a yellow
+label for your chemical bottle before you bring it into the fab.
+
+Best,
+Michelle
+
+On Mon, Nov 25, 2019 at 4:45 PM Michelle Rincon <michelle.rincon at gmail.com>
+wrote:
+
+> Hi Shirin,
+>
+> Your request is approved to use the resist on the Headway. Please let us
+> know if anything changes.
+>
+> Best,
+> Michelle
+>
+> On Wed, Nov 20, 2019 at 5:33 PM Shirin Jamali <sh.jamali7 at gmail.com>
+> wrote:
+>
+>>
+>> Dear SNF Committe Members,
+>>
+>> Would you please review my request on bringing a bottle of negative
+>> photoresist ( AZ nLof 2020) to SNF?
+>> The bottle was purchased recently from imicromaterials <
+>> RonEakin at imicromaterials.com>.
+>> This negative resist has easier steps than AZ? 5214 E.
+>> Process Flow:
+>> 1-  Use headway 2 to spincoat the resist
+>> 2-  Use Karlsuss to expose the resist
+>> 3-  Use AZ300 MIF  developer in wetbench by headway 2
+>>  AZ 300 MIF-
+>> http://www.imicromaterials.com/index.php/Products/Developers/mif-specs
+>> Thank you
+>> Best regards
+>> Shirin
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/31ea9729/attachment.html>
+
+From michelle.rincon at gmail.com  Mon Nov 25 16:50:10 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 25 Nov 2019 16:50:10 -0800
+Subject: [snf-promcommittee] Material Review
+In-Reply-To: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+References: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+Message-ID: <CAFSuyDSqVN-c4fu+Gyo1z7hSUgPApxnQx9K3FV-RX5v89Kdpdg@mail.gmail.com>
+
+Hi Andrew,
+
+Your request is approved for the Laurell coater. Please let us know if
+anything changes!
+
+Also- please contact Gary Sosa for a yellow label for your bottle before
+you bring it into the lab.
+
+Best,
+Michelle
+
+On Fri, Nov 22, 2019 at 5:26 PM Andrew Kotila <akotila at quantapore.com>
+wrote:
+
+> Hello attached is a pdf with a request to bring in negative e-beam resists
+> for spin coating at SNF.
+>
+> Thank you,
+>
+> Andrew Kotila
+>
+> --
+>
+> Andrew Kotila
+>
+> Research Associate
+>
+> Quantapore Inc.
+>
+> 815 Dubuque Ave,.
+>
+> South San Francisco, CA 94080
+>
+> Tel: 650-321-2032 ext: 715
+>
+> Email: akotila at quantapore.com <dsanchez at quantapore.com>
+>
+> www.quantapore.com
+>
+> CONFIDENTIALITY NOTICE: The contents of this e-mail message and any
+> attachments are intended solely for the addressee(s) named in this
+> message.  This communication is intended to be and to remain confidential
+> and may be subject to applicable attorney/client and/or work product
+> privileges.  If you are not the intended recipient of this message, or if
+> this message has been addressed to you in error, please immediately alert
+> the sender by reply e-mail and then delete this message and its
+> attachments.  Do not deliver, distribute or copy this message and/or any
+> attachments and if you are not the intended recipient, do not disclose the
+> contents or take any action in reliance upon the information contained in
+> this communication or any attachments.
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/136a06ed/attachment.html>
+
+From akotila at quantapore.com  Mon Nov 25 17:12:05 2019
+From: akotila at quantapore.com (Andrew Kotila)
+Date: Mon, 25 Nov 2019 17:12:05 -0800
+Subject: [snf-promcommittee] Material Review
+In-Reply-To: <CAFSuyDSqVN-c4fu+Gyo1z7hSUgPApxnQx9K3FV-RX5v89Kdpdg@mail.gmail.com>
+References: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+ <CAFSuyDSqVN-c4fu+Gyo1z7hSUgPApxnQx9K3FV-RX5v89Kdpdg@mail.gmail.com>
+Message-ID: <CAGfjQ3PnKK+BcjVP=4cKRG0MmE0KMgubjq6wqFk90tK_aTcHWg@mail.gmail.com>
+
+Will do, thank you!
+
+Andrew
+
+On Mon, Nov 25, 2019 at 4:50 PM Michelle Rincon <michelle.rincon at gmail.com>
+wrote:
+
+> Hi Andrew,
+>
+> Your request is approved for the Laurell coater. Please let us know if
+> anything changes!
+>
+> Also- please contact Gary Sosa for a yellow label for your bottle before
+> you bring it into the lab.
+>
+> Best,
+> Michelle
+>
+> On Fri, Nov 22, 2019 at 5:26 PM Andrew Kotila <akotila at quantapore.com>
+> wrote:
+>
+>> Hello attached is a pdf with a request to bring in negative e-beam
+>> resists for spin coating at SNF.
+>>
+>> Thank you,
+>>
+>> Andrew Kotila
+>>
+>> --
+>>
+>> Andrew Kotila
+>>
+>> Research Associate
+>>
+>> Quantapore Inc.
+>>
+>> 815 Dubuque Ave,.
+>>
+>> South San Francisco, CA 94080
+>>
+>> Tel: 650-321-2032 ext: 715
+>>
+>> Email: akotila at quantapore.com <dsanchez at quantapore.com>
+>>
+>> www.quantapore.com
+>>
+>> CONFIDENTIALITY NOTICE: The contents of this e-mail message and any
+>> attachments are intended solely for the addressee(s) named in this
+>> message.  This communication is intended to be and to remain confidential
+>> and may be subject to applicable attorney/client and/or work product
+>> privileges.  If you are not the intended recipient of this message, or if
+>> this message has been addressed to you in error, please immediately alert
+>> the sender by reply e-mail and then delete this message and its
+>> attachments.  Do not deliver, distribute or copy this message and/or any
+>> attachments and if you are not the intended recipient, do not disclose the
+>> contents or take any action in reliance upon the information contained in
+>> this communication or any attachments.
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+
+-- 
+
+Andrew Kotila
+
+Research Associate
+
+Quantapore Inc.
+
+815 Dubuque Ave,.
+
+South San Francisco, CA 94080
+
+Tel: 650-321-2032 ext: 715
+
+Email: akotila at quantapore.com <dsanchez at quantapore.com>
+
+www.quantapore.com
+
+CONFIDENTIALITY NOTICE: The contents of this e-mail message and any
+attachments are intended solely for the addressee(s) named in this
+message.  This communication is intended to be and to remain confidential
+and may be subject to applicable attorney/client and/or work product
+privileges.  If you are not the intended recipient of this message, or if
+this message has been addressed to you in error, please immediately alert
+the sender by reply e-mail and then delete this message and its
+attachments.  Do not deliver, distribute or copy this message and/or any
+attachments and if you are not the intended recipient, do not disclose the
+contents or take any action in reliance upon the information contained in
+this communication or any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191125/48b7f54e/attachment-0001.html>
+
+From mtang at stanford.edu  Tue Nov 26 01:15:07 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Tue, 26 Nov 2019 01:15:07 -0800
+Subject: [snf-promcommittee] Material Review
+In-Reply-To: <CAFSuyDReKC-oJHiNXFBi9_rJS+dxO5rE6fAU5nSTOj+LoE-s7Q@mail.gmail.com>
+References: <CAGfjQ3NHVbchjnLjEfi75CFsEu2kKFvJBT9XEKkok-KuhPhajA@mail.gmail.com>
+ <CAFSuyDReKC-oJHiNXFBi9_rJS+dxO5rE6fAU5nSTOj+LoE-s7Q@mail.gmail.com>
+Message-ID: <44acc99c-9b4a-6539-9aee-db3f8ea13d30@stanford.edu>
+
+Uh, do they have the right lab?
+
+M
+
+On 11/25/2019 3:44 PM, Michelle Rincon wrote:
+> Hi Phil and Swaroop-
+>
+> What do you think?
+>
+> On Fri, Nov 22, 2019 at 5:26 PM Andrew Kotila <akotila at quantapore.com 
+> <mailto:akotila at quantapore.com>> wrote:
+>
+>     Hello attached is a pdf with a request to bring in negative e-beam
+>     resists for spin coating at SNF.
+>
+>     Thank you,
+>
+>     Andrew Kotila
+>
+>     -- 
+>
+>     Andrew Kotila
+>
+>     Research Associate
+>
+>     Quantapore Inc.
+>
+>     815 Dubuque Ave,.
+>
+>     South San Francisco, CA 94080
+>
+>     Tel: 650-321-2032 ext: 715
+>
+>     Email: akotila at quantapore.com <mailto:dsanchez at quantapore.com>
+>
+>     www.quantapore.com <http://www.quantapore.com/>
+>
+>     CONFIDENTIALITY NOTICE:?The contents of this e-mail message and
+>     any attachments are intended solely for the addressee(s) named in
+>     this message.? This communication is intended to be and to remain
+>     confidential and may be subject to applicable attorney/client
+>     and/or work product privileges.? If you are not the intended
+>     recipient of this message, or if this message has been addressed
+>     to you in error, please immediately alert the sender by reply
+>     e-mail and then delete this message and its attachments.? Do not
+>     deliver, distribute or copy this message and/or any attachments
+>     and if you are not the intended recipient, do not disclose the
+>     contents or take any action in reliance upon the information
+>     contained in this communication or any attachments.
+>
+>     _______________________________________________
+>     snf-promcommittee mailing list
+>     snf-promcommittee at lists.stanford.edu
+>     <mailto:snf-promcommittee at lists.stanford.edu>
+>     https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191126/25d4b378/attachment.html>
+
+From arash at genapsys.com  Tue Nov 26 17:41:18 2019
+From: arash at genapsys.com (Arash Afsarifard)
+Date: Tue, 26 Nov 2019 17:41:18 -0800
+Subject: [snf-promcommittee] Materials Request Form
+Message-ID: <CANCgsEsGq+nNG8dicdJRU1-9M42-tQPZ2=UxP-T60S3J_cgfgw@mail.gmail.com>
+
+Hello,
+I would like to bring in wafers and process them with a solid-baked sugar
+layer on top. This sugar layer is not in a powder form, nor will it become
+one with this processing method. Please find the attached request form and
+email me if you have any questions or concerns.
+We would like for this process to remain private.
+Thank you,
+Arash Afsarifard
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191126/e044922f/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_Sugar Materials and Processing.docx
+Type: application/octet-stream
+Size: 91970 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191126/e044922f/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Wed Nov 27 11:05:11 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 27 Nov 2019 11:05:11 -0800
+Subject: [snf-promcommittee] Materials Request Form
+In-Reply-To: <CANCgsEsGq+nNG8dicdJRU1-9M42-tQPZ2=UxP-T60S3J_cgfgw@mail.gmail.com>
+References: <CANCgsEsGq+nNG8dicdJRU1-9M42-tQPZ2=UxP-T60S3J_cgfgw@mail.gmail.com>
+Message-ID: <CAFSuyDS6pZ4He4qqasuRni+tPv__k+HBv03Jtk3XVOo-hQhSQA@mail.gmail.com>
+
+Hi PROM Comm,
+
+What do you think? It seems like the easy path is to have him spin coat and
+bake in his own lab and just measure here?
+
+On Tue, Nov 26, 2019 at 5:42 PM Arash Afsarifard <arash at genapsys.com> wrote:
+
+> Hello,
+> I would like to bring in wafers and process them with a solid-baked sugar
+> layer on top. This sugar layer is not in a powder form, nor will it become
+> one with this processing method. Please find the attached request form and
+> email me if you have any questions or concerns.
+> We would like for this process to remain private.
+> Thank you,
+> Arash Afsarifard
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191127/f29ecd01/attachment.html>
+
+From steelxu at stanford.edu  Wed Nov 27 12:06:27 2019
+From: steelxu at stanford.edu (Xiaoqing Xu)
+Date: Wed, 27 Nov 2019 20:06:27 +0000
+Subject: [snf-promcommittee] Materials Request Form
+In-Reply-To: <CAFSuyDS6pZ4He4qqasuRni+tPv__k+HBv03Jtk3XVOo-hQhSQA@mail.gmail.com>
+References: <CANCgsEsGq+nNG8dicdJRU1-9M42-tQPZ2=UxP-T60S3J_cgfgw@mail.gmail.com>,
+ <CAFSuyDS6pZ4He4qqasuRni+tPv__k+HBv03Jtk3XVOo-hQhSQA@mail.gmail.com>
+Message-ID: <DM6PR02MB503615C29FD340C73B250EE8D1440@DM6PR02MB5036.namprd02.prod.outlook.com>
+
+Smart! That will make it a lot easier if they could do the coat in their own lab!
+
+Xiaoqing
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+Sent: Wednesday, November 27, 2019 11:05
+To: promcommitte
+Subject: Re: [snf-promcommittee] Materials Request Form
+
+Hi PROM Comm,
+
+What do you think? It seems like the easy path is to have him spin coat and bake in his own lab and just measure here?
+
+On Tue, Nov 26, 2019 at 5:42 PM Arash Afsarifard <arash at genapsys.com<mailto:arash at genapsys.com>> wrote:
+Hello,
+I would like to bring in wafers and process them with a solid-baked sugar layer on top. This sugar layer is not in a powder form, nor will it become one with this processing method. Please find the attached request form and email me if you have any questions or concerns.
+We would like for this process to remain private.
+Thank you,
+Arash Afsarifard
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20191127/ba5d73b1/attachment.html>
+

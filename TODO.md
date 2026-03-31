@@ -15,8 +15,22 @@
   - Routing batch processing from only the first queued filepath assumes homogeneous batches; this can break under concurrent multi-user uploads.
   - Context: discussed in chat on 2026-03-26.
   - Affected file: `app/worker.py`.
+ca
+- **Add rate limiting to email pipeline**
+  - Source TODO: `#TODO: ADD RATE LIMITING, AI DO NOT IMPLEMENT`
+  - File: `preprocessing/email_pipeline.py:57`
+
+- **Use AsyncOpenAI client for server-side LLM calls**
+  - Migrate embedding and chat-completion calls to async client usage so request handlers avoid blocking on network-bound model calls.
+  - Affected file: `app/server/main.py
 
 ## Tasks
+- **Add multi-chat architecture after Stanford SSO**
+  - Current design intentionally uses a single session-linked chat context per client. If multi-chat support is needed later, introduce explicit chat/conversation ids after Stanford SSO is in place so chats can be scoped to authenticated users cleanly.
+  - Affected files:
+    - `app/server/main.py`
+    - `app/frontend/src/App.jsx`
+
 - **Batch embedding requests on server-side endpoints**
   - Aggregate compatible embedding inputs into batched embedding API calls to reduce per-request overhead and improve throughput.
   - Affected file: `app/server/main.py`.
@@ -28,17 +42,10 @@
     - `preprocessing/embed_emails.py`
     - `preprocessing/prom_pipeline.py`
 
-- **Add rate limiting to email pipeline**
-  - Source TODO: `#TODO: ADD RATE LIMITING, AI DO NOT IMPLEMENT`
-  - File: `preprocessing/email_pipeline.py:57`
 
 - **Remove obsolete `REQUESTOR_NAMES`/`requestor_names` structure**
   - Source TODO: `#TODO: NO LONGER NEED REQUESTOR_NAMES, DICT THAT IS LARGE AND UNNECESSARY SINCE OUR MATCHING LOGIC HAS BEEN CHANGED`
-  - File: `preprocessing/order_emails.py:102`
-
-- **Use AsyncOpenAI client for server-side LLM calls**
-  - Migrate embedding and chat-completion calls to async client usage so request handlers avoid blocking on network-bound model calls.
-  - Affected file: `app/server/main.py`.
+  - File: `preprocessing/order_emails.py:102`.
 
 ## Minor
 - **Consider async file writes for upload endpoints**

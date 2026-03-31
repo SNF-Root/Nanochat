@@ -88,6 +88,94 @@ const uploadFile = (file, path, route, onProgress) =>
 
 const makeId = () => `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`
 
+function ConfirmUploadModal({
+  isOpen,
+  target,
+  selectionKind,
+  entries,
+  onConfirm,
+  onCancel,
+}) {
+  if (!isOpen) return null
+
+  const fileCount = entries.length
+  const preview = entries.slice(0, 8)
+  const hiddenCount = Math.max(0, fileCount - preview.length)
+
+  return (
+    <div className="absolute inset-0 z-40 flex items-center justify-center bg-slate-900/40 backdrop-blur-sm px-4 py-6">
+      <div className="w-full max-w-4xl max-h-full overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-2xl shadow-slate-900/20">
+        <div className="border-b border-slate-100 bg-gradient-to-r from-red-50 via-white to-slate-50 px-6 py-5 md:px-8 md:py-6">
+          <div className="inline-flex items-center gap-2 rounded-full border border-red-100 bg-red-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-red-700">
+            Confirm Upload
+          </div>
+          <h3 className="mt-3 text-2xl font-semibold text-slate-900 md:text-3xl">
+            Send {fileCount} {selectionKind === 'directory' ? 'directory items' : 'files'} to the {target.label} pipeline?
+          </h3>
+          <p className="mt-2 max-w-2xl text-sm text-slate-600 md:text-base">
+            Nothing will be sent to the server until you confirm. Review the selection below, then either continue or cancel.
+          </p>
+        </div>
+
+        <div className="grid gap-4 px-6 py-5 md:grid-cols-[14rem_1fr] md:px-8 md:py-6">
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+              Summary
+            </div>
+            <div className="mt-3 text-3xl font-semibold text-slate-900">
+              {fileCount}
+            </div>
+            <div className="mt-1 text-sm text-slate-600">
+              {selectionKind === 'directory' ? 'items from selected directory' : 'selected files'}
+            </div>
+            <div className="mt-4 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700">
+              Target: <span className="font-medium">{target.label}</span>
+            </div>
+          </div>
+
+          <div className="min-h-0 rounded-2xl border border-slate-200 bg-white">
+            <div className="border-b border-slate-100 px-4 py-3 text-sm font-medium text-slate-900">
+              Selection preview
+            </div>
+            <div className="max-h-[22rem] overflow-y-auto px-4 py-3">
+              <ul className="space-y-2">
+                {preview.map((entry) => (
+                  <li
+                    key={entry.id}
+                    className="rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm text-slate-700"
+                  >
+                    {entry.path}
+                  </li>
+                ))}
+              </ul>
+              {hiddenCount > 0 ? (
+                <div className="mt-3 text-sm text-slate-500">
+                  + {hiddenCount} more file{hiddenCount === 1 ? '' : 's'}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col-reverse gap-2 border-t border-slate-100 bg-slate-50 px-6 py-4 sm:flex-row sm:justify-end md:px-8">
+          <button
+            onClick={onCancel}
+            className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100"
+          >
+            Cancel
+          </button>
+          <button
+            onClick={onConfirm}
+            className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-red-700"
+          >
+            Confirm Upload
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function UploadedFilesPanel({ uploaded, onClear }) {
   return (
     <div className="rounded-3xl border border-slate-200 bg-white shadow-sm overflow-hidden h-[16rem] lg:h-full min-h-0 flex flex-col">
@@ -152,6 +240,7 @@ export default function UploadPromPage() {
   const [mode, setMode] = useState('idle') // 'idle' | 'queue'
   const [toasts, setToasts] = useState([])
   const [uploadType, setUploadType] = useState('prom')
+  const [pendingConfirmation, setPendingConfirmation] = useState(null)
 
   const target = UPLOAD_TARGETS[uploadType]
 
@@ -333,11 +422,44 @@ export default function UploadPromPage() {
     if (hasValid) setMode('queue')
   }
 
+  const stageEntriesForConfirmation = (entries, selectionKind) => {
+    const staged = entries
+      .filter((entry) => entry.path)
+      .map((entry) => ({
+        id: makeId(),
+        ...entry,
+      }))
+
+    if (staged.length === 0) return
+
+    setPendingConfirmation({
+      selectionKind,
+      entries: staged,
+    })
+  }
+
+  const confirmPendingUpload = async () => {
+    if (!pendingConfirmation) return
+    const entries = pendingConfirmation.entries.map(({ id, file, path }) => ({
+      file,
+      path,
+    }))
+    setPendingConfirmation(null)
+    await addFileEntries(entries)
+  }
+
+  const cancelPendingUpload = () => {
+    setPendingConfirmation(null)
+  }
+
   const addFiles = (files) => {
     const entries = files
       .map((file) => ({ file, path: getDisplayPath(file) }))
       .filter((it) => it.path)
-    return addFileEntries(entries)
+    const selectionKind = entries.some((entry) => entry.path.includes('/'))
+      ? 'directory'
+      : 'files'
+    return stageEntriesForConfirmation(entries, selectionKind)
   }
 
   const onPickFiles = (e) => {
@@ -406,7 +528,10 @@ export default function UploadPromPage() {
       return
     }
 
-    addFileEntries(collectedEntries)
+    const selectionKind = collectedEntries.some((entry) => entry.path.includes('/'))
+      ? 'directory'
+      : 'files'
+    stageEntriesForConfirmation(collectedEntries, selectionKind)
   }
 
   const clearAll = () => {
@@ -414,6 +539,7 @@ export default function UploadPromPage() {
     if (completionTimerRef.current) clearTimeout(completionTimerRef.current)
     completionTimerRef.current = null
     setItems([])
+    setPendingConfirmation(null)
     setMode('idle')
   }
 
@@ -427,6 +553,7 @@ export default function UploadPromPage() {
     setItems([])
     setUploaded([])
     setMode('idle')
+    setPendingConfirmation(null)
     await resetUploadCounter()
   }
 
@@ -484,6 +611,14 @@ export default function UploadPromPage() {
               isDragging ? 'border-red-300 ring-4 ring-red-100' : 'border-slate-200',
             ].join(' ')}
           >
+            <ConfirmUploadModal
+              isOpen={pendingConfirmation !== null}
+              target={target}
+              selectionKind={pendingConfirmation?.selectionKind}
+              entries={pendingConfirmation?.entries || []}
+              onConfirm={confirmPendingUpload}
+              onCancel={cancelPendingUpload}
+            />
             <div className="absolute inset-0 bg-gradient-to-br from-red-50/40 via-white to-slate-50/70" />
 
             {/* Idle (dropzone) */}
@@ -531,8 +666,7 @@ export default function UploadPromPage() {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-5">
                   <button
-                    onClick={async () => {
-                      await resetUploadCounter()
+                    onClick={() => {
                       fileInputRef.current?.click()
                     }}
                     className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-red-600 text-white hover:bg-red-700 transition-colors inline-flex items-center justify-center gap-2"

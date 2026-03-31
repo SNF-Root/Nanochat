@@ -4,7 +4,6 @@ import time
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime
 from collections import defaultdict
-from email.header import decode_header, make_header
 
 MBOX_FROM_RE = re.compile(r"^From\s")  
 MSGID_RE = re.compile(r"^Message-ID:\s*<([^>]+)>", re.IGNORECASE)
@@ -99,11 +98,8 @@ def join_emails_by_root(msg_refs: Dict[str, List[str]], root_msgid: str) -> List
     return thread
 
 
-#TODO: NO LONGER NEED REQUESTOR_NAMES, DICT THAT IS LARGE AND UNNECESSARY SINCE OUR MATCHING LOGIC HAS BEEN CHANGED
-
 def create_dict_of_threads(file_name: str):
     dict_of_threads = defaultdict(list)
-    requestor_names = {}  
     start = time.perf_counter()
     msg_refs, msg_start, msg_end, msg_order = parse_mbox_threads(file_name)
     end = time.perf_counter()
@@ -129,12 +125,7 @@ def create_dict_of_threads(file_name: str):
 
                 f.seek(first_start)
                 first_line = f.readline().strip()
-                second_line = f.readline().strip()
                 id_list = format_identifier_line(first_line)
-                requestor_name = extract_name_from_second_line(second_line)
-                
-                if id_list != ("", "") and requestor_name:
-                    requestor_names[id_list] = requestor_name
                 
                 dict_of_threads[id_list].append(thread_ids.copy())
             else:
@@ -142,7 +133,7 @@ def create_dict_of_threads(file_name: str):
 
     end = time.perf_counter()
     print(f"main loop took {end - start} seconds")
-    return dict_of_threads, msg_start, msg_end, requestor_names
+    return dict_of_threads, msg_start, msg_end
 
 
 
@@ -170,21 +161,6 @@ def format_identifier_line(line: str) -> Tuple[str, str]:
     return (date_str, tag)
 
 
-def extract_name_from_second_line(line: str) -> str:
-
-    m = re.search(r"From:.*?\(([^)]+)\)", line)
-    if not m:
-        return ""
-    
-    name = m.group(1).strip()
-    name_lower = re.sub(r'\s+', '', name.lower())
-    if "utf-8" in name_lower:
-        name_lower = str(make_header(decode_header(name)))
-        name_lower = re.sub(r'\s+', '', name_lower.lower())
-    return name_lower
-
-
-
 def get_email_by_msgid(file_name: str, msg_start: Dict[str, int], msg_end: Dict[str, int], msgid: str,) -> Optional[str]:
     msgid = msgid.strip()
     if msgid.startswith("<") and msgid.endswith(">"):
@@ -209,7 +185,7 @@ if __name__ == "__main__":
 
     for fname in files:
         path = base_dir + fname
-        dict_of_threads, msg_start, msg_end, requestor_names = create_dict_of_threads(path)
+        dict_of_threads, msg_start, msg_end = create_dict_of_threads(path)
 
         elements = dict_of_threads.get(('06/19/2023', 'narunl@stanford.edu'))
         print(elements)
@@ -225,10 +201,5 @@ if __name__ == "__main__":
         print(BANNER)
 
         print(msg_end)
-
-        for k, v in requestor_names.items():
-            print(k, v)
-
-
 
     

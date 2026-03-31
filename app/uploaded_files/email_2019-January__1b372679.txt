@@ -1,0 +1,4653 @@
+From mmrincon at stanford.edu  Tue Jan  8 11:05:01 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 8 Jan 2019 11:05:01 -0800
+Subject: [snf-promcommittee] Fwd:  Nanosense PROM request
+In-Reply-To: <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+References: <CAN6YDzyu-Zq8FKGbeqSSa=6yYMY2tZRgm66aUcDCnuGYnujrCg@mail.gmail.com>
+ <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+Message-ID: <CAFSuyDSHSR6XKCRb=A4CYSiLR809CzCoJGDYe4LTCjK4oONXWw@mail.gmail.com>
+
+Paul is wondering about this one, so I guess we are going to start the new
+year off right away :)
+
+Just a reminder about the meat of the request:
+
+   1.
+
+   Process Flow: CNT Coating Process for patterned 4" wafers. These wafers
+   will have gold/chrome metal, so will be classified as gold contaminated.
+   The patterning will be done with tools at SNF (Heidelberg/AJA/Webflexsolv),
+   using standard processes. Clean the wafer - this will be done
+   post-patterning
+
+   APTES coating will be done at an outside laboratory(Integrated Surface
+   Technologies)Soak in CNT ink (undiluted, centrifuged) for 45 min at
+   Webflexcorr using pyrex dishes.Allow excess CNT ink to drip/flow off and
+   allow wafers to slowly air dry at Webflexcorr.
+
+   The follow-on procedures and tools are:
+   1. LOL-3612 coating (Headway/SVGCoat), exposure (Heidelberg), develop
+   (SVGDEV)2. O2 plasma etch (PTOx or Oxford RIE)
+   3. Remove resist (WBFlexsolv)
+   4. bake (likely BlueM Oven)
+   5. Spot check resistance and follow-on IV measurements at probe station.
+
+
+---------- Forwarded message ---------
+From: Paul Comita <pcomita50 at gmail.com>
+Date: Tue, Dec 11, 2018 at 12:17 PM
+Subject: Re: [snf-promcommittee] Nanosense PROM request
+To: promcommitte <snf-promcommittee at lists.stanford.edu>
+Cc: Ludwig Galambos <ludwig.galambos at gmail.com>
+
+
+To committee members:
+See attached revised request form for Nanosense process with CNT ink. The
+material will be air dried, and not blown dry after the ink coating process
+as requested.
+Thanks,
+Paul
+
+On Thu, Dec 6, 2018 at 9:01 PM Paul Comita <pcomita50 at gmail.com> wrote:
+
+> To the PROM committee:
+> I previously sent an old version of the request from Nanosense/Google on
+> the CNT ink process.
+> I have attached the latest version of the request here. I have also
+> attached the MSDS of the CNT ink.  Let me know if you see any problems or
+> have any questions about it.
+> Thanks,
+> Paul
+>
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/d4d3afcc/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Nanosense CNT Ink Process or Materials Request Form12-11.doc.pdf
+Type: application/pdf
+Size: 313672 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/d4d3afcc/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: CombinedMSDS_NanoIntegris-131121.pdf
+Type: application/pdf
+Size: 76542 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/d4d3afcc/attachment-0003.pdf>
+
+From mmrincon at stanford.edu  Tue Jan  8 18:05:48 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 8 Jan 2019 18:05:48 -0800
+Subject: [snf-promcommittee] Fwd: PROM for Photosensitive Organic Insulator
+	DA1000
+In-Reply-To: <2c470458c9764ef88148bad657aa07b0@royole.com>
+References: <2c470458c9764ef88148bad657aa07b0@royole.com>
+Message-ID: <CAFSuyDSCWXaETxkkfU3y+kaEUpg4-CVEuztFg_q7ZhAXiGaaMQ@mail.gmail.com>
+
+Hi PROM comm,
+
+I am moving this one back up on our list too.  They would like to also get
+going next week if possible.
+
+Best,
+Michelle
+
+---------- Forwarded message ---------
+From: Amit Gupta <amgu at royole.com>
+Date: Mon, Dec 17, 2018 at 4:38 PM
+Subject: [snf-promcommittee] PROM for Photosensitive Organic Insulator
+DA1000
+To: snf-promcommittee at lists.stanford.edu <
+snf-promcommittee at lists.stanford.edu>
+
+
+
+Dear SNF PROM Committee,
+
+
+Please find attached the PROM application for using spin-on organic resist
+DA1000.  Please also find attached the MSDS and a slide deck with
+information of the material.
+
+
+Currently we have 5 chemicals stored at SNF.  Please find attached our
+inventory list (Excel file).  We plan to store DA1000 at SNF, bringing the
+total number of chemicals to 6.  If approved, I will update the inventory
+list, and send it back to the committee.
+
+
+We plan to commence the work on the material next year after the fab
+reopens.
+
+
+Thank you.
+
+
+Best,
+
+
+Amit
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/3000f744/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20181217_AGupta_PROM_DongjinDA1000.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 34152 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/3000f744/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Dongjin Semichem DA-1000_TechnicalReportforRoyolecompany180920.pdf
+Type: application/pdf
+Size: 2325933 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/3000f744/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: msds_DA-1000_en.pdf
+Type: application/pdf
+Size: 198779 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/3000f744/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20181217_SNF_Inventory_Royole.xlsx
+Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Size: 10139 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190108/3000f744/attachment-0001.xlsx>
+
+From mmrincon at stanford.edu  Wed Jan  9 13:44:16 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 9 Jan 2019 13:44:16 -0800
+Subject: [snf-promcommittee] Fwd: Request new chemical (AQUADAG E) for use
+ in Micromist coater
+In-Reply-To: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+Message-ID: <CAFSuyDQz6xSzTTepMzqDv4hvvsdPmvupp1ycVgyv72xj3X+zow@mail.gmail.com>
+
+and another one :)
+
+---------- Forwarded message ---------
+From: Alex F <afieguth at stanford.edu>
+Date: Fri, Dec 14, 2018 at 3:03 PM
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+Micromist coater
+To: <snf-promcommittee at lists.stanford.edu>
+
+
+Dear Ladies and Gentlemen,
+
+attached you will find the request in the .docx form as well as the MSDS of
+the material.
+Please feel free to contact me for any question or clarification which I
+might have missed to add.
+
+
+Cheers
+
+Alex
+
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/04837a40/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM_AquadagE_fieguth.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 103310 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/04837a40/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: AQUADAG E - SDS.pdf
+Type: application/pdf
+Size: 1444355 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/04837a40/attachment-0001.pdf>
+
+From mtang at stanford.edu  Wed Jan  9 13:50:51 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Wed, 9 Jan 2019 13:50:51 -0800
+Subject: [snf-promcommittee] Fwd: Request new chemical (AQUADAG E) for
+ use in Micromist coater
+In-Reply-To: <CAFSuyDQz6xSzTTepMzqDv4hvvsdPmvupp1ycVgyv72xj3X+zow@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDQz6xSzTTepMzqDv4hvvsdPmvupp1ycVgyv72xj3X+zow@mail.gmail.com>
+Message-ID: <d7b8c6b9-39fb-b2ce-be09-17ab17c19431@stanford.edu>
+
+Looks good to me!
+
+Mary
+
+On 1/9/2019 1:44 PM, Michelle Rincon wrote:
+> and another one :)
+>
+> ---------- Forwarded message ---------
+> From: *Alex F* <afieguth at stanford.edu <mailto:afieguth at stanford.edu>>
+> Date: Fri, Dec 14, 2018 at 3:03 PM
+> Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use 
+> in Micromist coater
+> To: <snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>>
+>
+>
+> Dear Ladies and Gentlemen,
+>
+> attached you will find the request in the .docx form as well as the 
+> MSDS of the material.
+> Please feel free to contact me for any question or clarification which 
+> I might have missed to add.
+>
+>
+> Cheers
+>
+> Alex
+>
+>
+> -- 
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/38533b4e/attachment.html>
+
+From mtang at stanford.edu  Wed Jan  9 13:53:05 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Wed, 9 Jan 2019 13:53:05 -0800
+Subject: [snf-promcommittee] Fwd: PROM for Photosensitive Organic
+ Insulator DA1000
+In-Reply-To: <CAFSuyDSCWXaETxkkfU3y+kaEUpg4-CVEuztFg_q7ZhAXiGaaMQ@mail.gmail.com>
+References: <2c470458c9764ef88148bad657aa07b0@royole.com>
+ <CAFSuyDSCWXaETxkkfU3y+kaEUpg4-CVEuztFg_q7ZhAXiGaaMQ@mail.gmail.com>
+Message-ID: <bf2e09a3-22e5-87a5-c2a7-cbb831ed6928@stanford.edu>
+
+Looks fine to me!
+
+M
+
+On 1/8/2019 6:05 PM, Michelle Rincon wrote:
+> Hi PROM comm,
+>
+> I am moving this one back up on our list too.? They would like to also 
+> get going next week if possible.
+>
+> Best,
+> Michelle
+>
+> ---------- Forwarded message ---------
+> From: *Amit Gupta* <amgu at royole.com <mailto:amgu at royole.com>>
+> Date: Mon, Dec 17, 2018 at 4:38 PM
+> Subject: [snf-promcommittee] PROM for Photosensitive Organic Insulator 
+> DA1000
+> To: snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu> 
+> <snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>>
+>
+>
+>
+> Dear SNF PROM Committee,
+>
+>
+> Please find attached the PROM application for using spin-on organic 
+> resist DA1000.? Please also find attached the MSDS and a slide deck 
+> with information of the material.
+>
+>
+> Currently we have 5 chemicals stored at SNF.? Please find attached our 
+> inventory list (Excel file).? We plan to store DA1000 at SNF, bringing 
+> the total number of chemicals to 6.? If approved, I will update the 
+> inventory list, and send it back to the committee.
+>
+>
+> We plan to commence the work on the material next year after the fab 
+> reopens.
+>
+>
+> Thank you.
+>
+>
+> Best,
+>
+>
+> Amit
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/a83a7a73/attachment.html>
+
+From usha at stanford.edu  Wed Jan  9 15:07:06 2019
+From: usha at stanford.edu (Usha Raghuram)
+Date: Wed, 9 Jan 2019 23:07:06 +0000
+Subject: [snf-promcommittee] Fwd:  Nanosense PROM request
+In-Reply-To: <CAFSuyDSHSR6XKCRb=A4CYSiLR809CzCoJGDYe4LTCjK4oONXWw@mail.gmail.com>
+References: <CAN6YDzyu-Zq8FKGbeqSSa=6yYMY2tZRgm66aUcDCnuGYnujrCg@mail.gmail.com>
+ <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+ <CAFSuyDSHSR6XKCRb=A4CYSiLR809CzCoJGDYe4LTCjK4oONXWw@mail.gmail.com>
+Message-ID: <BYAPR02MB4903CF23FABC620F1A26C7ACB88B0@BYAPR02MB4903.namprd02.prod.outlook.com>
+
+Michelle,
+
+My understanding is that once it dries up, it will be a film on the wafer and not dry particles.  If that is the case, I do not  see a problem.
+
+Usha
+
+From: snf-promcommittee [mailto:snf-promcommittee-bounces at lists.stanford.edu] On Behalf Of Michelle Rincon
+Sent: Tuesday, January 8, 2019 11:05 AM
+To: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] Fwd: Nanosense PROM request
+
+Paul is wondering about this one, so I guess we are going to start the new year off right away :)
+
+Just a reminder about the meat of the request:
+
+1.      Process Flow: CNT Coating Process for patterned 4" wafers. These wafers will have gold/chrome metal, so will be classified as gold contaminated. The patterning will be done with tools at SNF (Heidelberg/AJA/Webflexsolv), using standard processes. Clean the wafer - this will be done post-patterning
+
+APTES coating will be done at an outside laboratory(Integrated Surface Technologies)Soak in CNT ink (undiluted, centrifuged) for 45 min at Webflexcorr using pyrex dishes.Allow excess CNT ink to drip/flow off and allow wafers to slowly air dry at Webflexcorr.
+
+The follow-on procedures and tools are:
+1. LOL-3612 coating (Headway/SVGCoat), exposure (Heidelberg), develop (SVGDEV)2. O2 plasma etch (PTOx or Oxford RIE)
+3. Remove resist (WBFlexsolv)
+4. bake (likely BlueM Oven)
+5. Spot check resistance and follow-on IV measurements at probe station.
+
+---------- Forwarded message ---------
+From: Paul Comita <pcomita50 at gmail.com<mailto:pcomita50 at gmail.com>>
+Date: Tue, Dec 11, 2018 at 12:17 PM
+Subject: Re: [snf-promcommittee] Nanosense PROM request
+To: promcommitte <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Cc: Ludwig Galambos <ludwig.galambos at gmail.com<mailto:ludwig.galambos at gmail.com>>
+
+To committee members:
+See attached revised request form for Nanosense process with CNT ink. The material will be air dried, and not blown dry after the ink coating process as requested.
+Thanks,
+Paul
+
+On Thu, Dec 6, 2018 at 9:01 PM Paul Comita <pcomita50 at gmail.com<mailto:pcomita50 at gmail.com>> wrote:
+To the PROM committee:
+I previously sent an old version of the request from Nanosense/Google on the CNT ink process.
+I have attached the latest version of the request here. I have also attached the MSDS of the CNT ink.  Let me know if you see any problems or have any questions about it.
+Thanks,
+Paul
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/0250bb8d/attachment-0001.html>
+
+From usha at stanford.edu  Wed Jan  9 15:15:57 2019
+From: usha at stanford.edu (Usha Raghuram)
+Date: Wed, 9 Jan 2019 23:15:57 +0000
+Subject: [snf-promcommittee] Fwd: Request new chemical (AQUADAG E) for
+ use in Micromist coater
+In-Reply-To: <d7b8c6b9-39fb-b2ce-be09-17ab17c19431@stanford.edu>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDQz6xSzTTepMzqDv4hvvsdPmvupp1ycVgyv72xj3X+zow@mail.gmail.com>
+ <d7b8c6b9-39fb-b2ce-be09-17ab17c19431@stanford.edu>
+Message-ID: <BYAPR02MB49033E9FCEC3D7556B3F009DB88B0@BYAPR02MB4903.namprd02.prod.outlook.com>
+
+Michelle,
+
+I do not like the idea of cleaning in acetone or drying in a hot plate after the clean.  Can they do acetone followed by IPA clean and spin dry or N2 dry. Baking on a hot plate can follow if needed.
+
+Usha
+
+From: snf-promcommittee [mailto:snf-promcommittee-bounces at lists.stanford.edu] On Behalf Of Mary Tang
+Sent: Wednesday, January 9, 2019 1:51 PM
+To: Michelle Rincon <mmrincon at stanford.edu>; promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Fwd: Request new chemical (AQUADAG E) for use in Micromist coater
+
+
+Looks good to me!
+
+Mary
+On 1/9/2019 1:44 PM, Michelle Rincon wrote:
+and another one :)
+---------- Forwarded message ---------
+From: Alex F <afieguth at stanford.edu<mailto:afieguth at stanford.edu>>
+Date: Fri, Dec 14, 2018 at 3:03 PM
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in Micromist coater
+To: <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+Dear Ladies and Gentlemen,
+
+attached you will find the request in the .docx form as well as the MSDS of the material.
+Please feel free to contact me for any question or clarification which I might have missed to add.
+
+
+Cheers
+
+Alex
+
+
+--
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+_______________________________________________
+
+snf-promcommittee mailing list
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+--
+
+Mary X. Tang, Ph.D.
+
+Stanford Nanofabrication Facility
+
+Paul G. Allen Building, Rm 141
+
+420 Via Palou Mall
+
+Stanford, CA  94305
+
+(650)723-9980
+
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+
+https://snf.stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/7b867cd3/attachment.html>
+
+From mmrincon at stanford.edu  Wed Jan  9 16:34:05 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 9 Jan 2019 16:34:05 -0800
+Subject: [snf-promcommittee] Nanosense PROM request
+In-Reply-To: <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+References: <CAN6YDzyu-Zq8FKGbeqSSa=6yYMY2tZRgm66aUcDCnuGYnujrCg@mail.gmail.com>
+ <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+Message-ID: <CAFSuyDQ2UkvXinSQpL-P=jtKyFmv1zmmJDw9pA2aXfwDoxu3EQ@mail.gmail.com>
+
+Hi Paul and Ludwig,
+
+I will give you the final word after I confirm with Mahnaz tomorrow, but
+you are cleared to use the probe station, the wet bench with your OWN
+beakers, and the etchers.  There are some concerns with the Heidelberg,
+however.  The mechanism for the proximity sensing uses air blowing at the
+wafer surface, so there is some concern about tubes coming loose in the
+equipment.  We would like to suggest the Karl Suss for the processing
+instead.
+
+Best,
+Michelle
+
+
+
+On Tue, Dec 11, 2018 at 12:17 PM Paul Comita <pcomita50 at gmail.com> wrote:
+
+> To committee members:
+> See attached revised request form for Nanosense process with CNT ink. The
+> material will be air dried, and not blown dry after the ink coating process
+> as requested.
+> Thanks,
+> Paul
+>
+> On Thu, Dec 6, 2018 at 9:01 PM Paul Comita <pcomita50 at gmail.com> wrote:
+>
+>> To the PROM committee:
+>> I previously sent an old version of the request from Nanosense/Google on
+>> the CNT ink process.
+>> I have attached the latest version of the request here. I have also
+>> attached the MSDS of the CNT ink.  Let me know if you see any problems or
+>> have any questions about it.
+>> Thanks,
+>> Paul
+>>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190109/a16db9b0/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Thu Jan 10 11:12:32 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 10 Jan 2019 11:12:32 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+Message-ID: <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+
+Hi Alex,
+
+Happy New Year!  We are reviewing your request and have a concern regarding
+heating your substrate after being dipped in acetone.  What type of
+substrates will you be using?  Could you instead do an IPA rinse after the
+acetone, then spin dry or N2 dry and then use the hot plate if needed
+instead?
+
+Best,
+Michelle
+
+On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+
+> Dear Ladies and Gentlemen,
+>
+> attached you will find the request in the .docx form as well as the MSDS
+> of the material.
+> Please feel free to contact me for any question or clarification which I
+> might have missed to add.
+>
+>
+> Cheers
+>
+> Alex
+>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/ed9fe3e2/attachment.html>
+
+From mmrincon at stanford.edu  Thu Jan 10 11:32:10 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 10 Jan 2019 11:32:10 -0800
+Subject: [snf-promcommittee] PROM for Photosensitive Organic Insulator
+	DA1000
+In-Reply-To: <2c470458c9764ef88148bad657aa07b0@royole.com>
+References: <2c470458c9764ef88148bad657aa07b0@royole.com>
+Message-ID: <CAFSuyDTQ3++y4qtOrsLMWE79v=nzjWHLHyD+=rQvdG_cFQFxVA@mail.gmail.com>
+
+Hi Amit,
+
+Happy New Year!  I hope you enjoyed your break.
+
+Your request is approved.
+
+Best,
+Michelle
+
+On Mon, Dec 17, 2018 at 4:38 PM Amit Gupta <amgu at royole.com> wrote:
+
+>
+> Dear SNF PROM Committee,
+>
+>
+> Please find attached the PROM application for using spin-on organic resist
+> DA1000.  Please also find attached the MSDS and a slide deck with
+> information of the material.
+>
+>
+> Currently we have 5 chemicals stored at SNF.  Please find attached our
+> inventory list (Excel file).  We plan to store DA1000 at SNF, bringing the
+> total number of chemicals to 6.  If approved, I will update the inventory
+> list, and send it back to the committee.
+>
+>
+> We plan to commence the work on the material next year after the fab
+> reopens.
+>
+>
+> Thank you.
+>
+>
+> Best,
+>
+>
+> Amit
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/53e010e8/attachment.html>
+
+From afieguth at stanford.edu  Thu Jan 10 11:39:48 2019
+From: afieguth at stanford.edu (Alex F)
+Date: Thu, 10 Jan 2019 11:39:48 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+Message-ID: <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+
+Dear Michelle,
+
+happy new year and thanks for your answer. The substrates are all metals,
+and so far its planned to go for stainless steel, copper and maybe gold. In
+fact I forgot to add a step of rinsing with distilled water after the use
+of Acetone. Would that be sufficient? If not I will check whether IPA
+should work as well (I assume but want to be sure).
+
+Cheers
+
+Alex
+
+Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+michelle.rincon at gmail.com>:
+
+> Hi Alex,
+>
+> Happy New Year!  We are reviewing your request and have a concern
+> regarding heating your substrate after being dipped in acetone.  What type
+> of substrates will you be using?  Could you instead do an IPA rinse after
+> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+> instead?
+>
+> Best,
+> Michelle
+>
+> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>
+>> Dear Ladies and Gentlemen,
+>>
+>> attached you will find the request in the .docx form as well as the MSDS
+>> of the material.
+>> Please feel free to contact me for any question or clarification which I
+>> might have missed to add.
+>>
+>>
+>> Cheers
+>>
+>> Alex
+>>
+>>
+>> --
+>> --------------------------------
+>> Dr. Alexander Fieguth
+>>
+>> Member of Gratta group
+>> Department of Physics
+>> Stanford University
+>> Tel: +1-650-850-2456
+>>
+>> 382 Via Pueblo Mall, Room 132
+>> Stanford, CA 94305
+>> USA
+>> --------------------------------
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/d588edfb/attachment-0001.html>
+
+From amgu at royole.com  Thu Jan 10 11:46:07 2019
+From: amgu at royole.com (Amit Gupta)
+Date: Thu, 10 Jan 2019 19:46:07 +0000
+Subject: [snf-promcommittee] PROM for Photosensitive Organic Insulator
+ DA1000
+In-Reply-To: <CAFSuyDTQ3++y4qtOrsLMWE79v=nzjWHLHyD+=rQvdG_cFQFxVA@mail.gmail.com>
+References: <2c470458c9764ef88148bad657aa07b0@royole.com>,
+ <CAFSuyDTQ3++y4qtOrsLMWE79v=nzjWHLHyD+=rQvdG_cFQFxVA@mail.gmail.com>
+Message-ID: <21589c60a8114c5f9803e194a5da1abf@royole.com>
+
+Happy New Year to you as well Michelle and to the entire PROM committee.  Thank you for approving our PROM.
+
+
+Please find attached our updated chemical inventory at SNF.
+
+
+Best,
+
+Amit
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, January 10, 2019 11:32:10 AM
+To: Amit Gupta
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] PROM for Photosensitive Organic Insulator DA1000
+
+Hi Amit,
+
+Happy New Year!  I hope you enjoyed your break.
+
+Your request is approved.
+
+Best,
+Michelle
+
+On Mon, Dec 17, 2018 at 4:38 PM Amit Gupta <amgu at royole.com<mailto:amgu at royole.com>> wrote:
+
+
+Dear SNF PROM Committee,
+
+
+Please find attached the PROM application for using spin-on organic resist DA1000.  Please also find attached the MSDS and a slide deck with information of the material.
+
+
+Currently we have 5 chemicals stored at SNF.  Please find attached our inventory list (Excel file).  We plan to store DA1000 at SNF, bringing the total number of chemicals to 6.  If approved, I will update the inventory list, and send it back to the committee.
+
+
+We plan to commence the work on the material next year after the fab reopens.
+
+
+Thank you.
+
+
+Best,
+
+
+Amit
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/76a35eab/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20190110_SNF_Inventory_Royole.xlsx
+Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Size: 10178 bytes
+Desc: 20190110_SNF_Inventory_Royole.xlsx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/76a35eab/attachment.xlsx>
+
+From mmrincon at stanford.edu  Thu Jan 10 11:56:11 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 10 Jan 2019 11:56:11 -0800
+Subject: [snf-promcommittee] Nanosense PROM request
+In-Reply-To: <CAFSuyDQ2UkvXinSQpL-P=jtKyFmv1zmmJDw9pA2aXfwDoxu3EQ@mail.gmail.com>
+References: <CAN6YDzyu-Zq8FKGbeqSSa=6yYMY2tZRgm66aUcDCnuGYnujrCg@mail.gmail.com>
+ <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+ <CAFSuyDQ2UkvXinSQpL-P=jtKyFmv1zmmJDw9pA2aXfwDoxu3EQ@mail.gmail.com>
+Message-ID: <CAFSuyDRCKnRTM_bvouo76jD=m3yTx_fWWtXGHKsVnsKS-QLz=Q@mail.gmail.com>
+
+Hello Paul and Ludwig,
+
+The final update is that your request can be approved with the following
+modifications:
+1.  Please use the Headway in ExFab.
+2.  Please use the Karl Suss instead of the Heidelberg.  We are concerned
+about the backside containing tubes as well, so talk to Mahnaz about KS
+chuck- she can show you how to use blue dicing tape or yellow tape to
+protect the chuck and still maintain holes for the vacuum.
+3.  Make sure to use your own beakers on the wet bench.
+
+Best,
+Michelle
+
+
+On Wed, Jan 9, 2019 at 4:34 PM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> Hi Paul and Ludwig,
+>
+> I will give you the final word after I confirm with Mahnaz tomorrow, but
+> you are cleared to use the probe station, the wet bench with your OWN
+> beakers, and the etchers.  There are some concerns with the Heidelberg,
+> however.  The mechanism for the proximity sensing uses air blowing at the
+> wafer surface, so there is some concern about tubes coming loose in the
+> equipment.  We would like to suggest the Karl Suss for the processing
+> instead.
+>
+> Best,
+> Michelle
+>
+>
+>
+> On Tue, Dec 11, 2018 at 12:17 PM Paul Comita <pcomita50 at gmail.com> wrote:
+>
+>> To committee members:
+>> See attached revised request form for Nanosense process with CNT ink. The
+>> material will be air dried, and not blown dry after the ink coating process
+>> as requested.
+>> Thanks,
+>> Paul
+>>
+>> On Thu, Dec 6, 2018 at 9:01 PM Paul Comita <pcomita50 at gmail.com> wrote:
+>>
+>>> To the PROM committee:
+>>> I previously sent an old version of the request from Nanosense/Google on
+>>> the CNT ink process.
+>>> I have attached the latest version of the request here. I have also
+>>> attached the MSDS of the CNT ink.  Let me know if you see any problems or
+>>> have any questions about it.
+>>> Thanks,
+>>> Paul
+>>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/c85a0db8/attachment-0001.html>
+
+From ludwig.galambos at gmail.com  Thu Jan 10 13:47:23 2019
+From: ludwig.galambos at gmail.com (Ludwig G.)
+Date: Thu, 10 Jan 2019 13:47:23 -0800
+Subject: [snf-promcommittee] Nanosense PROM request
+In-Reply-To: <CAFSuyDRCKnRTM_bvouo76jD=m3yTx_fWWtXGHKsVnsKS-QLz=Q@mail.gmail.com>
+References: <CAN6YDzyu-Zq8FKGbeqSSa=6yYMY2tZRgm66aUcDCnuGYnujrCg@mail.gmail.com>
+ <CAN6YDzxQsW4eZiWP_XW6WUFuHy=tYJ7xA1t4krY7KjRAcjPo8Q@mail.gmail.com>
+ <CAFSuyDQ2UkvXinSQpL-P=jtKyFmv1zmmJDw9pA2aXfwDoxu3EQ@mail.gmail.com>
+ <CAFSuyDRCKnRTM_bvouo76jD=m3yTx_fWWtXGHKsVnsKS-QLz=Q@mail.gmail.com>
+Message-ID: <CAC4rqR-o3HnKDsbcy_Lm6KjvjYC5044yx4CFN4=aQor_74Cw+g@mail.gmail.com>
+
+thank you very much Michelle at al
+
+Best,
+Ludwig
+
+On Thu, Jan 10, 2019 at 11:56 AM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> Hello Paul and Ludwig,
+>
+> The final update is that your request can be approved with the following
+> modifications:
+> 1.  Please use the Headway in ExFab.
+> 2.  Please use the Karl Suss instead of the Heidelberg.  We are concerned
+> about the backside containing tubes as well, so talk to Mahnaz about KS
+> chuck- she can show you how to use blue dicing tape or yellow tape to
+> protect the chuck and still maintain holes for the vacuum.
+> 3.  Make sure to use your own beakers on the wet bench.
+>
+> Best,
+> Michelle
+>
+>
+> On Wed, Jan 9, 2019 at 4:34 PM Michelle Rincon <mmrincon at stanford.edu>
+> wrote:
+>
+>> Hi Paul and Ludwig,
+>>
+>> I will give you the final word after I confirm with Mahnaz tomorrow, but
+>> you are cleared to use the probe station, the wet bench with your OWN
+>> beakers, and the etchers.  There are some concerns with the Heidelberg,
+>> however.  The mechanism for the proximity sensing uses air blowing at the
+>> wafer surface, so there is some concern about tubes coming loose in the
+>> equipment.  We would like to suggest the Karl Suss for the processing
+>> instead.
+>>
+>> Best,
+>> Michelle
+>>
+>>
+>>
+>> On Tue, Dec 11, 2018 at 12:17 PM Paul Comita <pcomita50 at gmail.com> wrote:
+>>
+>>> To committee members:
+>>> See attached revised request form for Nanosense process with CNT ink.
+>>> The material will be air dried, and not blown dry after the ink coating
+>>> process as requested.
+>>> Thanks,
+>>> Paul
+>>>
+>>> On Thu, Dec 6, 2018 at 9:01 PM Paul Comita <pcomita50 at gmail.com> wrote:
+>>>
+>>>> To the PROM committee:
+>>>> I previously sent an old version of the request from Nanosense/Google
+>>>> on the CNT ink process.
+>>>> I have attached the latest version of the request here. I have also
+>>>> attached the MSDS of the CNT ink.  Let me know if you see any problems or
+>>>> have any questions about it.
+>>>> Thanks,
+>>>> Paul
+>>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/58ceab46/attachment.html>
+
+From michelle.rincon at gmail.com  Thu Jan 10 13:48:12 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 10 Jan 2019 13:48:12 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+Message-ID: <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+
+Hi Alex,
+
+Acetone will leave lots of residues, so in order to optimize the rinse the
+sequence commonly used is acetone, then methanol, then IPA, then water.
+You can probably skip the methanol, but getting an alcohol in between the
+acetone and the water should help with the residue prevention.  It is also
+important to not let the substrate dry in between the steps, so you should
+have the IPA next to the acetone so you can transfer it directly into the
+bath while it is still wet.  The metals you mentioned here should all be
+compatible with IPA, so that shouldn't be a problem.
+
+Best,
+Michelle
+
+On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+
+> Dear Michelle,
+>
+> happy new year and thanks for your answer. The substrates are all metals,
+> and so far its planned to go for stainless steel, copper and maybe gold. In
+> fact I forgot to add a step of rinsing with distilled water after the use
+> of Acetone. Would that be sufficient? If not I will check whether IPA
+> should work as well (I assume but want to be sure).
+>
+> Cheers
+>
+> Alex
+>
+> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Alex,
+>>
+>> Happy New Year!  We are reviewing your request and have a concern
+>> regarding heating your substrate after being dipped in acetone.  What type
+>> of substrates will you be using?  Could you instead do an IPA rinse after
+>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>> instead?
+>>
+>> Best,
+>> Michelle
+>>
+>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>
+>>> Dear Ladies and Gentlemen,
+>>>
+>>> attached you will find the request in the .docx form as well as the MSDS
+>>> of the material.
+>>> Please feel free to contact me for any question or clarification which I
+>>> might have missed to add.
+>>>
+>>>
+>>> Cheers
+>>>
+>>> Alex
+>>>
+>>>
+>>> --
+>>> --------------------------------
+>>> Dr. Alexander Fieguth
+>>>
+>>> Member of Gratta group
+>>> Department of Physics
+>>> Stanford University
+>>> Tel: +1-650-850-2456
+>>>
+>>> 382 Via Pueblo Mall, Room 132
+>>> Stanford, CA 94305
+>>> USA
+>>> --------------------------------
+>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/a876611b/attachment-0001.html>
+
+From afieguth at stanford.edu  Thu Jan 10 16:43:46 2019
+From: afieguth at stanford.edu (Alex F)
+Date: Thu, 10 Jan 2019 16:43:46 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+Message-ID: <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+
+Dear Michelle,
+
+okay, thanks for sharing your expertise with me. So I think adding the
+isopropanol is the way to go. Do I modify the document or is this done by
+you?
+
+Cheers
+
+Alex
+
+Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+michelle.rincon at gmail.com>:
+
+> Hi Alex,
+>
+> Acetone will leave lots of residues, so in order to optimize the rinse the
+> sequence commonly used is acetone, then methanol, then IPA, then water.
+> You can probably skip the methanol, but getting an alcohol in between the
+> acetone and the water should help with the residue prevention.  It is also
+> important to not let the substrate dry in between the steps, so you should
+> have the IPA next to the acetone so you can transfer it directly into the
+> bath while it is still wet.  The metals you mentioned here should all be
+> compatible with IPA, so that shouldn't be a problem.
+>
+> Best,
+> Michelle
+>
+> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>
+>> Dear Michelle,
+>>
+>> happy new year and thanks for your answer. The substrates are all metals,
+>> and so far its planned to go for stainless steel, copper and maybe gold. In
+>> fact I forgot to add a step of rinsing with distilled water after the use
+>> of Acetone. Would that be sufficient? If not I will check whether IPA
+>> should work as well (I assume but want to be sure).
+>>
+>> Cheers
+>>
+>> Alex
+>>
+>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>> michelle.rincon at gmail.com>:
+>>
+>>> Hi Alex,
+>>>
+>>> Happy New Year!  We are reviewing your request and have a concern
+>>> regarding heating your substrate after being dipped in acetone.  What type
+>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>> instead?
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>
+>>>> Dear Ladies and Gentlemen,
+>>>>
+>>>> attached you will find the request in the .docx form as well as the
+>>>> MSDS of the material.
+>>>> Please feel free to contact me for any question or clarification which
+>>>> I might have missed to add.
+>>>>
+>>>>
+>>>> Cheers
+>>>>
+>>>> Alex
+>>>>
+>>>>
+>>>> --
+>>>> --------------------------------
+>>>> Dr. Alexander Fieguth
+>>>>
+>>>> Member of Gratta group
+>>>> Department of Physics
+>>>> Stanford University
+>>>> Tel: +1-650-850-2456
+>>>>
+>>>> 382 Via Pueblo Mall, Room 132
+>>>> Stanford, CA 94305
+>>>> USA
+>>>> --------------------------------
+>>>>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+>>
+>> --
+>> --------------------------------
+>> Dr. Alexander Fieguth
+>>
+>> Member of Gratta group
+>> Department of Physics
+>> Stanford University
+>> Tel: +1-650-850-2456
+>>
+>> 382 Via Pueblo Mall, Room 132
+>> Stanford, CA 94305
+>> USA
+>> --------------------------------
+>>
+>>
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/9b453b91/attachment.html>
+
+From michelle.rincon at gmail.com  Thu Jan 10 17:01:59 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 10 Jan 2019 17:01:59 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+Message-ID: <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+
+Hi Alex,
+
+If you could modify the document and resubmit we can give it a final
+review!
+
+Best,
+Michelle
+
+On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+
+> Dear Michelle,
+>
+> okay, thanks for sharing your expertise with me. So I think adding the
+> isopropanol is the way to go. Do I modify the document or is this done by
+> you?
+>
+> Cheers
+>
+> Alex
+>
+> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Alex,
+>>
+>> Acetone will leave lots of residues, so in order to optimize the rinse
+>> the sequence commonly used is acetone, then methanol, then IPA, then
+>> water.  You can probably skip the methanol, but getting an alcohol in
+>> between the acetone and the water should help with the residue prevention.
+>> It is also important to not let the substrate dry in between the steps, so
+>> you should have the IPA next to the acetone so you can transfer it directly
+>> into the bath while it is still wet.  The metals you mentioned here should
+>> all be compatible with IPA, so that shouldn't be a problem.
+>>
+>> Best,
+>> Michelle
+>>
+>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>
+>>> Dear Michelle,
+>>>
+>>> happy new year and thanks for your answer. The substrates are all
+>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>> IPA should work as well (I assume but want to be sure).
+>>>
+>>> Cheers
+>>>
+>>> Alex
+>>>
+>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>> michelle.rincon at gmail.com>:
+>>>
+>>>> Hi Alex,
+>>>>
+>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>> instead?
+>>>>
+>>>> Best,
+>>>> Michelle
+>>>>
+>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>>
+>>>>> Dear Ladies and Gentlemen,
+>>>>>
+>>>>> attached you will find the request in the .docx form as well as the
+>>>>> MSDS of the material.
+>>>>> Please feel free to contact me for any question or clarification which
+>>>>> I might have missed to add.
+>>>>>
+>>>>>
+>>>>> Cheers
+>>>>>
+>>>>> Alex
+>>>>>
+>>>>>
+>>>>> --
+>>>>> --------------------------------
+>>>>> Dr. Alexander Fieguth
+>>>>>
+>>>>> Member of Gratta group
+>>>>> Department of Physics
+>>>>> Stanford University
+>>>>> Tel: +1-650-850-2456
+>>>>>
+>>>>> 382 Via Pueblo
+>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>> Mall, Room 132
+>>>>> Stanford, CA 94305
+>>>>> USA
+>>>>> --------------------------------
+>>>>>
+>>>>> _______________________________________________
+>>>>> snf-promcommittee mailing list
+>>>>> snf-promcommittee at lists.stanford.edu
+>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>
+>>>>
+>>>
+>>> --
+>>> --------------------------------
+>>> Dr. Alexander Fieguth
+>>>
+>>> Member of Gratta group
+>>> Department of Physics
+>>> Stanford University
+>>> Tel: +1-650-850-2456
+>>>
+>>> 382 Via Pueblo
+>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>> Room 132
+>>> Stanford, CA 94305
+>>> USA
+>>> --------------------------------
+>>>
+>>>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo
+> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+> Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/ba40aef7/attachment-0001.html>
+
+From afieguth at stanford.edu  Thu Jan 10 17:13:50 2019
+From: afieguth at stanford.edu (Alex F)
+Date: Thu, 10 Jan 2019 17:13:50 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+Message-ID: <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+
+Dear Michelle,
+
+attached you will find the modified version. Thanks for the review.
+
+Cheers
+
+Alex
+
+Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+michelle.rincon at gmail.com>:
+
+> Hi Alex,
+>
+> If you could modify the document and resubmit we can give it a final
+> review!
+>
+> Best,
+> Michelle
+>
+> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>
+>> Dear Michelle,
+>>
+>> okay, thanks for sharing your expertise with me. So I think adding the
+>> isopropanol is the way to go. Do I modify the document or is this done by
+>> you?
+>>
+>> Cheers
+>>
+>> Alex
+>>
+>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>> michelle.rincon at gmail.com>:
+>>
+>>> Hi Alex,
+>>>
+>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>> between the acetone and the water should help with the residue prevention.
+>>> It is also important to not let the substrate dry in between the steps, so
+>>> you should have the IPA next to the acetone so you can transfer it directly
+>>> into the bath while it is still wet.  The metals you mentioned here should
+>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>
+>>>> Dear Michelle,
+>>>>
+>>>> happy new year and thanks for your answer. The substrates are all
+>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>> IPA should work as well (I assume but want to be sure).
+>>>>
+>>>> Cheers
+>>>>
+>>>> Alex
+>>>>
+>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>> michelle.rincon at gmail.com>:
+>>>>
+>>>>> Hi Alex,
+>>>>>
+>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>> instead?
+>>>>>
+>>>>> Best,
+>>>>> Michelle
+>>>>>
+>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>>>
+>>>>>> Dear Ladies and Gentlemen,
+>>>>>>
+>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>> MSDS of the material.
+>>>>>> Please feel free to contact me for any question or clarification
+>>>>>> which I might have missed to add.
+>>>>>>
+>>>>>>
+>>>>>> Cheers
+>>>>>>
+>>>>>> Alex
+>>>>>>
+>>>>>>
+>>>>>> --
+>>>>>> --------------------------------
+>>>>>> Dr. Alexander Fieguth
+>>>>>>
+>>>>>> Member of Gratta group
+>>>>>> Department of Physics
+>>>>>> Stanford University
+>>>>>> Tel: +1-650-850-2456
+>>>>>>
+>>>>>> 382 Via Pueblo
+>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>> Mall, Room 132
+>>>>>> Stanford, CA 94305
+>>>>>> USA
+>>>>>> --------------------------------
+>>>>>>
+>>>>>> _______________________________________________
+>>>>>> snf-promcommittee mailing list
+>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>
+>>>>>
+>>>>
+>>>> --
+>>>> --------------------------------
+>>>> Dr. Alexander Fieguth
+>>>>
+>>>> Member of Gratta group
+>>>> Department of Physics
+>>>> Stanford University
+>>>> Tel: +1-650-850-2456
+>>>>
+>>>> 382 Via Pueblo
+>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>>> Room 132
+>>>> Stanford, CA 94305
+>>>> USA
+>>>> --------------------------------
+>>>>
+>>>>
+>>
+>> --
+>> --------------------------------
+>> Dr. Alexander Fieguth
+>>
+>> Member of Gratta group
+>> Department of Physics
+>> Stanford University
+>> Tel: +1-650-850-2456
+>>
+>> 382 Via Pueblo
+>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>> Room 132
+>> Stanford, CA 94305
+>> USA
+>> --------------------------------
+>>
+>>
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/309bc1c1/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM_AquadagE_fieguth_updated.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 102682 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190110/309bc1c1/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Fri Jan 11 10:18:53 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 11 Jan 2019 10:18:53 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+ <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+Message-ID: <CAFSuyDSRoYEvZ9CUV_E5gVknwaxh_AnoGGHOPDE5PvLDTnjc0A@mail.gmail.com>
+
+HI PROM Comm,
+
+Now that the cleaning step is straightened out, Swaroop and I were
+discussing the use of the Aquadag in Mister Mister.  It seems like it
+should be fine but we wanted to know if anyone else on the committee has
+some experience with it?
+
+Thanks!
+
+On Thu, Jan 10, 2019 at 5:14 PM Alex F <afieguth at stanford.edu> wrote:
+
+> Dear Michelle,
+>
+> attached you will find the modified version. Thanks for the review.
+>
+> Cheers
+>
+> Alex
+>
+> Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Alex,
+>>
+>> If you could modify the document and resubmit we can give it a final
+>> review!
+>>
+>> Best,
+>> Michelle
+>>
+>> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>>
+>>> Dear Michelle,
+>>>
+>>> okay, thanks for sharing your expertise with me. So I think adding the
+>>> isopropanol is the way to go. Do I modify the document or is this done by
+>>> you?
+>>>
+>>> Cheers
+>>>
+>>> Alex
+>>>
+>>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>>> michelle.rincon at gmail.com>:
+>>>
+>>>> Hi Alex,
+>>>>
+>>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>>> between the acetone and the water should help with the residue prevention.
+>>>> It is also important to not let the substrate dry in between the steps, so
+>>>> you should have the IPA next to the acetone so you can transfer it directly
+>>>> into the bath while it is still wet.  The metals you mentioned here should
+>>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>>
+>>>> Best,
+>>>> Michelle
+>>>>
+>>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>>
+>>>>> Dear Michelle,
+>>>>>
+>>>>> happy new year and thanks for your answer. The substrates are all
+>>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>>> IPA should work as well (I assume but want to be sure).
+>>>>>
+>>>>> Cheers
+>>>>>
+>>>>> Alex
+>>>>>
+>>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>>> michelle.rincon at gmail.com>:
+>>>>>
+>>>>>> Hi Alex,
+>>>>>>
+>>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>>> instead?
+>>>>>>
+>>>>>> Best,
+>>>>>> Michelle
+>>>>>>
+>>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>>>>
+>>>>>>> Dear Ladies and Gentlemen,
+>>>>>>>
+>>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>>> MSDS of the material.
+>>>>>>> Please feel free to contact me for any question or clarification
+>>>>>>> which I might have missed to add.
+>>>>>>>
+>>>>>>>
+>>>>>>> Cheers
+>>>>>>>
+>>>>>>> Alex
+>>>>>>>
+>>>>>>>
+>>>>>>> --
+>>>>>>> --------------------------------
+>>>>>>> Dr. Alexander Fieguth
+>>>>>>>
+>>>>>>> Member of Gratta group
+>>>>>>> Department of Physics
+>>>>>>> Stanford University
+>>>>>>> Tel: +1-650-850-2456
+>>>>>>>
+>>>>>>> 382 Via Pueblo
+>>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>>> Mall, Room 132
+>>>>>>> Stanford, CA 94305
+>>>>>>> USA
+>>>>>>> --------------------------------
+>>>>>>>
+>>>>>>> _______________________________________________
+>>>>>>> snf-promcommittee mailing list
+>>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>> --
+>>>>> --------------------------------
+>>>>> Dr. Alexander Fieguth
+>>>>>
+>>>>> Member of Gratta group
+>>>>> Department of Physics
+>>>>> Stanford University
+>>>>> Tel: +1-650-850-2456
+>>>>>
+>>>>> 382 Via Pueblo
+>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>> Mall, Room 132
+>>>>> Stanford, CA 94305
+>>>>> USA
+>>>>> --------------------------------
+>>>>>
+>>>>>
+>>>
+>>> --
+>>> --------------------------------
+>>> Dr. Alexander Fieguth
+>>>
+>>> Member of Gratta group
+>>> Department of Physics
+>>> Stanford University
+>>> Tel: +1-650-850-2456
+>>>
+>>> 382 Via Pueblo
+>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>> Room 132
+>>> Stanford, CA 94305
+>>> USA
+>>> --------------------------------
+>>>
+>>>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190111/aa63b967/attachment.html>
+
+From mmrincon at stanford.edu  Mon Jan 14 15:33:50 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 14 Jan 2019 15:33:50 -0800
+Subject: [snf-promcommittee] Fwd: SNF PROM request: ALD WO3 deposition on
+	Fiji 3
+In-Reply-To: <CAFSuyDRwPBOHVpOj5us_yvZVPEbOEfmg8hPQVowd2XZkMk5-4g@mail.gmail.com>
+References: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>
+ <CAFSuyDRwPBOHVpOj5us_yvZVPEbOEfmg8hPQVowd2XZkMk5-4g@mail.gmail.com>
+Message-ID: <CAFSuyDREDjdiLR8BV_bWruTpRfwnU3adum4etGwFrBrzZSJLqw@mail.gmail.com>
+
+Trying again...
+
+---------- Forwarded message ---------
+From: Michelle Rincon <mmrincon at stanford.edu>
+Date: Mon, Jan 14, 2019 at 3:27 PM
+Subject: Fwd: SNF PROM request: ALD WO3 deposition on Fiji 3
+To: promcommitte <snf-promcommittee at lists.stanford.edu>
+
+
+Closing the loop on the WO3 VPD analysis on Fiji3.  Basically, we still see
+some W on the VPD wafer after the isolation coating, but the levels are low
+and the risk of W being harmful to other gate oxides is minimal.  I propose
+doing something similar to what we did with the Li, and notify the few
+users who are on there that this exists and if they are concerned, they
+should do additional pre-coating of the chamber before they do their runs.
+
+Thoughts?
+
+Michelle
+
+
+---------- Forwarded message ---------
+From: David William Palm <dpalm at stanford.edu>
+Date: Fri, Aug 31, 2018 at 3:15 PM
+Subject: SNF PROM request: ALD WO3 deposition on Fiji 3
+To: snf-promcommittee at lists.stanford.edu <
+snf-promcommittee at lists.stanford.edu>
+Cc: Michelle Rincon <mmrincon at stanford.edu>
+
+
+Dear PROM committee,
+
+
+
+My name is Dave Palm ? I?m a third year PhD Student in Chemical Engineering
+and frequent user of ALD and PVD techniques in the SNF lab.
+
+
+
+I?m writing to request permission to conduct ALD synthesis experiments of
+tungsten oxide (WO3) in the Fiji 3 reactor. Since the tool is usually
+reserved for non-conducting films, Michelle and I felt that I should apply
+for permission to use it for depositing this semiconducting oxide.
+
+
+
+I have attached my PROM form and the MSDS for the precursor to this email.
+
+
+
+Please let me know if you need anything further!
+
+
+
+Sincerely,
+
+Dave
+
+
+
+
+
+David W. Palm
+PhD Candidate | Jaramillo Research Group
+Stanford University | Department of Chemical Engineering
+dpalm at stanford.edu | +1 330 984 3454
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190114/c6d74838/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Palm_WO3_Fiji 3_Process or Materials Request Form.doc.pdf
+Type: application/pdf
+Size: 348363 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190114/c6d74838/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MSDS bis-tert-butylimino-bis-dimethylamino-W.pdf
+Type: application/pdf
+Size: 36485 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190114/c6d74838/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: W on Fiji3 VPD Analysis.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 6348943 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190114/c6d74838/attachment-0001.docx>
+
+From mahnaz at stanford.edu  Tue Jan 15 21:11:14 2019
+From: mahnaz at stanford.edu (Mahnaz Mansourpour)
+Date: Wed, 16 Jan 2019 05:11:14 +0000
+Subject: [snf-promcommittee] FW: Pt Etching: Aqua Regia
+In-Reply-To: <CAMte1Oo3zBfTErS4VvRG0r9U=XLj+MTMheaOtDrQe+p=41Fa3g@mail.gmail.com>
+References: <CAMte1Oo3zBfTErS4VvRG0r9U=XLj+MTMheaOtDrQe+p=41Fa3g@mail.gmail.com>
+Message-ID: <MWHPR02MB27048EEC287BDE1B9D99E680A6820@MWHPR02MB2704.namprd02.prod.outlook.com>
+
+
+
+From: Amin Sandoughsaz [mailto:asandoughsaz at paradromics.com]
+Sent: Tuesday, January 15, 2019 11:09 AM
+To: Mahnaz Mansourpour <mahnaz at stanford.edu>
+Subject: Pt Etching: Aqua Regia
+
+Dear Mahnaz,
+
+First, I would like to thank you for yesterday's Lab Safety Tour, I learned a lot from you and I was really impressed by all your amazing works.
+
+I need to do Pt wet etching, I was wondering if SNF has Aqua Regia solution/process? I couldn't find it on the SNF Wiki.
+
+I'd really appreciate it if you let me know or connect me to staff who are in charge the wet etching.
+
+Thank you so much in advance,
+
+Best,
+Amin
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190116/84fa4348/attachment-0001.html>
+
+From mtang at stanford.edu  Wed Jan 16 06:38:19 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Wed, 16 Jan 2019 06:38:19 -0800
+Subject: [snf-promcommittee] FW: Pt Etching: Aqua Regia
+In-Reply-To: <MWHPR02MB27048EEC287BDE1B9D99E680A6820@MWHPR02MB2704.namprd02.prod.outlook.com>
+References: <CAMte1Oo3zBfTErS4VvRG0r9U=XLj+MTMheaOtDrQe+p=41Fa3g@mail.gmail.com>
+ <MWHPR02MB27048EEC287BDE1B9D99E680A6820@MWHPR02MB2704.namprd02.prod.outlook.com>
+Message-ID: <6eeb56fe-a3d0-24a2-d2cb-8eaa6d965493@stanford.edu>
+
+Hi Mahnaz -
+
+It might be a good idea for Amin to come to the next Process Clinic, 
+next Tuesday.? Aqua regia is the nuclear solution - as a couple of 
+labmembers discovered a few years ago when their sample completely 
+vaporized.? I'd suggest that if anyone has samples that truly warrant 
+aqua regia, they may want to send out to have it done.
+
+Please ask Amin to chat with a staff member about Paradromics process needs.
+
+Thanks,
+
+Mary
+
+On 1/15/2019 9:11 PM, Mahnaz Mansourpour wrote:
+>
+> *From:*Amin Sandoughsaz [mailto:asandoughsaz at paradromics.com]
+> *Sent:* Tuesday, January 15, 2019 11:09 AM
+> *To:* Mahnaz Mansourpour <mahnaz at stanford.edu>
+> *Subject:* Pt Etching: Aqua Regia
+>
+> Dear Mahnaz,
+>
+> First, I would like to thank you for yesterday's Lab Safety Tour, I 
+> learned a lot from you and I was really impressed by all your amazing 
+> works.
+>
+> I need to do Pt wet etching, I was wondering if SNF has Aqua Regia 
+> solution/process? I couldn't find it on the SNF Wiki.
+>
+> I'd really appreciate it if you let me know or connect me to staff who 
+> are in charge the wet etching.
+>
+> Thank you so much in advance,
+>
+> Best,
+>
+> Amin
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190116/b8a5cf96/attachment-0001.html>
+
+From afieguth at stanford.edu  Wed Jan 16 12:45:35 2019
+From: afieguth at stanford.edu (Alex F)
+Date: Wed, 16 Jan 2019 12:45:35 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+ <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+Message-ID: <CAJqnM9FPWV3YC-QVRi4T3R2Bhm7Nj-Q2u1ZB_qMQ=F+JosTnsg@mail.gmail.com>
+
+Dear Michelle,
+
+is everything okay with the change? Do I have to do anything further for
+the approval?
+
+Cheers
+
+Alex
+
+Am Do., 10. Jan. 2019 um 17:13 Uhr schrieb Alex F <afieguth at stanford.edu>:
+
+> Dear Michelle,
+>
+> attached you will find the modified version. Thanks for the review.
+>
+> Cheers
+>
+> Alex
+>
+> Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Alex,
+>>
+>> If you could modify the document and resubmit we can give it a final
+>> review!
+>>
+>> Best,
+>> Michelle
+>>
+>> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>>
+>>> Dear Michelle,
+>>>
+>>> okay, thanks for sharing your expertise with me. So I think adding the
+>>> isopropanol is the way to go. Do I modify the document or is this done by
+>>> you?
+>>>
+>>> Cheers
+>>>
+>>> Alex
+>>>
+>>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>>> michelle.rincon at gmail.com>:
+>>>
+>>>> Hi Alex,
+>>>>
+>>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>>> between the acetone and the water should help with the residue prevention.
+>>>> It is also important to not let the substrate dry in between the steps, so
+>>>> you should have the IPA next to the acetone so you can transfer it directly
+>>>> into the bath while it is still wet.  The metals you mentioned here should
+>>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>>
+>>>> Best,
+>>>> Michelle
+>>>>
+>>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>>
+>>>>> Dear Michelle,
+>>>>>
+>>>>> happy new year and thanks for your answer. The substrates are all
+>>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>>> IPA should work as well (I assume but want to be sure).
+>>>>>
+>>>>> Cheers
+>>>>>
+>>>>> Alex
+>>>>>
+>>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>>> michelle.rincon at gmail.com>:
+>>>>>
+>>>>>> Hi Alex,
+>>>>>>
+>>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>>> instead?
+>>>>>>
+>>>>>> Best,
+>>>>>> Michelle
+>>>>>>
+>>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>>>>
+>>>>>>> Dear Ladies and Gentlemen,
+>>>>>>>
+>>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>>> MSDS of the material.
+>>>>>>> Please feel free to contact me for any question or clarification
+>>>>>>> which I might have missed to add.
+>>>>>>>
+>>>>>>>
+>>>>>>> Cheers
+>>>>>>>
+>>>>>>> Alex
+>>>>>>>
+>>>>>>>
+>>>>>>> --
+>>>>>>> --------------------------------
+>>>>>>> Dr. Alexander Fieguth
+>>>>>>>
+>>>>>>> Member of Gratta group
+>>>>>>> Department of Physics
+>>>>>>> Stanford University
+>>>>>>> Tel: +1-650-850-2456
+>>>>>>>
+>>>>>>> 382 Via Pueblo
+>>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>>> Mall, Room 132
+>>>>>>> Stanford, CA 94305
+>>>>>>> USA
+>>>>>>> --------------------------------
+>>>>>>>
+>>>>>>> _______________________________________________
+>>>>>>> snf-promcommittee mailing list
+>>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>> --
+>>>>> --------------------------------
+>>>>> Dr. Alexander Fieguth
+>>>>>
+>>>>> Member of Gratta group
+>>>>> Department of Physics
+>>>>> Stanford University
+>>>>> Tel: +1-650-850-2456
+>>>>>
+>>>>> 382 Via Pueblo
+>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>> Mall, Room 132
+>>>>> Stanford, CA 94305
+>>>>> USA
+>>>>> --------------------------------
+>>>>>
+>>>>>
+>>>
+>>> --
+>>> --------------------------------
+>>> Dr. Alexander Fieguth
+>>>
+>>> Member of Gratta group
+>>> Department of Physics
+>>> Stanford University
+>>> Tel: +1-650-850-2456
+>>>
+>>> 382 Via Pueblo
+>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>> Room 132
+>>> Stanford, CA 94305
+>>> USA
+>>> --------------------------------
+>>>
+>>>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+>
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190116/f517bc23/attachment.html>
+
+From rvanlaer at stanford.edu  Thu Jan 17 11:33:06 2019
+From: rvanlaer at stanford.edu (=?UTF-8?Q?Rapha=C3=ABl_Van_Laer?=)
+Date: Thu, 17 Jan 2019 11:33:06 -0800
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by resist
+	in lampoly
+Message-ID: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+
+Dear PROM committee,
+
+I'm interested in etching silicon chips in the lampoly, where part of the
+silicon chip has a thin-film of lithium niobate on top of it. However, this
+thin-film of lithium niobate will be covered by resist and will not be
+exposed or etched.
+
+Does this sound reasonable? If so I'll send over the full PROM committee
+document?
+
+I suspect there might be a previous request on this topic, but not sure.
+
+Thanks!
+
+Best regards,
+Rapha?l
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190117/e706ba95/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Thu Jan 17 13:50:04 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 17 Jan 2019 13:50:04 -0800
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by
+ resist in lampoly
+In-Reply-To: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+References: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+Message-ID: <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+
+Hi Raphael,
+
+Here is our most recent LiN request for lampoly, and the contamination
+analysis by VPD-ICPMS that was completed. I just uploaded this to the
+archives so by tomorrow morning this should be available on the PROM
+archives on our new work-in-progress website.  Is your process going to be
+similar?
+
+Best,
+Michelle
+
+link to form:
+https://docs.google.com/document/d/e/2PACX-1vT-asRnVAySJc7InWTaSXf9r4AzK8LNZULJTjfXeJHdl2nM911pwV4JAC8zpWNixFVeuru2wRAGuyQY/pub
+
+website:
+https://snfexfab.stanford.edu/lab-user-guide/materialschemicals/process-or-materials-review-requests-prom-and-form
+
+On Thu, Jan 17, 2019 at 11:33 AM Rapha?l Van Laer <rvanlaer at stanford.edu>
+wrote:
+
+> Dear PROM committee,
+>
+> I'm interested in etching silicon chips in the lampoly, where part of the
+> silicon chip has a thin-film of lithium niobate on top of it. However, this
+> thin-film of lithium niobate will be covered by resist and will not be
+> exposed or etched.
+>
+> Does this sound reasonable? If so I'll send over the full PROM committee
+> document?
+>
+> I suspect there might be a previous request on this topic, but not sure.
+>
+> Thanks!
+>
+> Best regards,
+> Rapha?l
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190117/e0f7c0c7/attachment.html>
+
+From mmrincon at stanford.edu  Thu Jan 17 13:50:44 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 17 Jan 2019 13:50:44 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAFSuyDSRoYEvZ9CUV_E5gVknwaxh_AnoGGHOPDE5PvLDTnjc0A@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+ <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+ <CAFSuyDSRoYEvZ9CUV_E5gVknwaxh_AnoGGHOPDE5PvLDTnjc0A@mail.gmail.com>
+Message-ID: <CAFSuyDS-Zakao=Hr760F8g+G90g9kevvFZ4DZCnByG_fV3Cd4w@mail.gmail.com>
+
+Anyone? :)
+
+On Fri, Jan 11, 2019 at 10:18 AM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> HI PROM Comm,
+>
+> Now that the cleaning step is straightened out, Swaroop and I were
+> discussing the use of the Aquadag in Mister Mister.  It seems like it
+> should be fine but we wanted to know if anyone else on the committee has
+> some experience with it?
+>
+> Thanks!
+>
+> On Thu, Jan 10, 2019 at 5:14 PM Alex F <afieguth at stanford.edu> wrote:
+>
+>> Dear Michelle,
+>>
+>> attached you will find the modified version. Thanks for the review.
+>>
+>> Cheers
+>>
+>> Alex
+>>
+>> Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+>> michelle.rincon at gmail.com>:
+>>
+>>> Hi Alex,
+>>>
+>>> If you could modify the document and resubmit we can give it a final
+>>> review!
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>>>
+>>>> Dear Michelle,
+>>>>
+>>>> okay, thanks for sharing your expertise with me. So I think adding the
+>>>> isopropanol is the way to go. Do I modify the document or is this done by
+>>>> you?
+>>>>
+>>>> Cheers
+>>>>
+>>>> Alex
+>>>>
+>>>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>>>> michelle.rincon at gmail.com>:
+>>>>
+>>>>> Hi Alex,
+>>>>>
+>>>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>>>> between the acetone and the water should help with the residue prevention.
+>>>>> It is also important to not let the substrate dry in between the steps, so
+>>>>> you should have the IPA next to the acetone so you can transfer it directly
+>>>>> into the bath while it is still wet.  The metals you mentioned here should
+>>>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>>>
+>>>>> Best,
+>>>>> Michelle
+>>>>>
+>>>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>>>
+>>>>>> Dear Michelle,
+>>>>>>
+>>>>>> happy new year and thanks for your answer. The substrates are all
+>>>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>>>> IPA should work as well (I assume but want to be sure).
+>>>>>>
+>>>>>> Cheers
+>>>>>>
+>>>>>> Alex
+>>>>>>
+>>>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>>>> michelle.rincon at gmail.com>:
+>>>>>>
+>>>>>>> Hi Alex,
+>>>>>>>
+>>>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>>>> instead?
+>>>>>>>
+>>>>>>> Best,
+>>>>>>> Michelle
+>>>>>>>
+>>>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> Dear Ladies and Gentlemen,
+>>>>>>>>
+>>>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>>>> MSDS of the material.
+>>>>>>>> Please feel free to contact me for any question or clarification
+>>>>>>>> which I might have missed to add.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Cheers
+>>>>>>>>
+>>>>>>>> Alex
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> --
+>>>>>>>> --------------------------------
+>>>>>>>> Dr. Alexander Fieguth
+>>>>>>>>
+>>>>>>>> Member of Gratta group
+>>>>>>>> Department of Physics
+>>>>>>>> Stanford University
+>>>>>>>> Tel: +1-650-850-2456
+>>>>>>>>
+>>>>>>>> 382 Via Pueblo
+>>>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>>>> Mall, Room 132
+>>>>>>>> Stanford, CA 94305
+>>>>>>>> USA
+>>>>>>>> --------------------------------
+>>>>>>>>
+>>>>>>>> _______________________________________________
+>>>>>>>> snf-promcommittee mailing list
+>>>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>>> --
+>>>>>> --------------------------------
+>>>>>> Dr. Alexander Fieguth
+>>>>>>
+>>>>>> Member of Gratta group
+>>>>>> Department of Physics
+>>>>>> Stanford University
+>>>>>> Tel: +1-650-850-2456
+>>>>>>
+>>>>>> 382 Via Pueblo
+>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>> Mall, Room 132
+>>>>>> Stanford, CA 94305
+>>>>>> USA
+>>>>>> --------------------------------
+>>>>>>
+>>>>>>
+>>>>
+>>>> --
+>>>> --------------------------------
+>>>> Dr. Alexander Fieguth
+>>>>
+>>>> Member of Gratta group
+>>>> Department of Physics
+>>>> Stanford University
+>>>> Tel: +1-650-850-2456
+>>>>
+>>>> 382 Via Pueblo
+>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>>> Room 132
+>>>> Stanford, CA 94305
+>>>> USA
+>>>> --------------------------------
+>>>>
+>>>>
+>>
+>> --
+>> --------------------------------
+>> Dr. Alexander Fieguth
+>>
+>> Member of Gratta group
+>> Department of Physics
+>> Stanford University
+>> Tel: +1-650-850-2456
+>>
+>> 382 Via Pueblo Mall, Room 132
+>> Stanford, CA 94305
+>> USA
+>> --------------------------------
+>>
+>>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190117/df4908ff/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Jan 18 08:18:03 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 18 Jan 2019 08:18:03 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+ <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+Message-ID: <CAFSuyDT1gdOxZ-OvonCTw-r4E3f_71jWv+=cXR_NKX+MpAgduw@mail.gmail.com>
+
+Hi Alex,
+
+Your request is approved.  Please make sure to work with Swaroop on the
+cleaning procedure for the Micromister after your runs.
+
+Best,
+Michelle
+
+On Thu, Jan 10, 2019 at 5:14 PM Alex F <afieguth at stanford.edu> wrote:
+
+> Dear Michelle,
+>
+> attached you will find the modified version. Thanks for the review.
+>
+> Cheers
+>
+> Alex
+>
+> Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Alex,
+>>
+>> If you could modify the document and resubmit we can give it a final
+>> review!
+>>
+>> Best,
+>> Michelle
+>>
+>> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>>
+>>> Dear Michelle,
+>>>
+>>> okay, thanks for sharing your expertise with me. So I think adding the
+>>> isopropanol is the way to go. Do I modify the document or is this done by
+>>> you?
+>>>
+>>> Cheers
+>>>
+>>> Alex
+>>>
+>>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>>> michelle.rincon at gmail.com>:
+>>>
+>>>> Hi Alex,
+>>>>
+>>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>>> between the acetone and the water should help with the residue prevention.
+>>>> It is also important to not let the substrate dry in between the steps, so
+>>>> you should have the IPA next to the acetone so you can transfer it directly
+>>>> into the bath while it is still wet.  The metals you mentioned here should
+>>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>>
+>>>> Best,
+>>>> Michelle
+>>>>
+>>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>>
+>>>>> Dear Michelle,
+>>>>>
+>>>>> happy new year and thanks for your answer. The substrates are all
+>>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>>> IPA should work as well (I assume but want to be sure).
+>>>>>
+>>>>> Cheers
+>>>>>
+>>>>> Alex
+>>>>>
+>>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>>> michelle.rincon at gmail.com>:
+>>>>>
+>>>>>> Hi Alex,
+>>>>>>
+>>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>>> instead?
+>>>>>>
+>>>>>> Best,
+>>>>>> Michelle
+>>>>>>
+>>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu> wrote:
+>>>>>>
+>>>>>>> Dear Ladies and Gentlemen,
+>>>>>>>
+>>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>>> MSDS of the material.
+>>>>>>> Please feel free to contact me for any question or clarification
+>>>>>>> which I might have missed to add.
+>>>>>>>
+>>>>>>>
+>>>>>>> Cheers
+>>>>>>>
+>>>>>>> Alex
+>>>>>>>
+>>>>>>>
+>>>>>>> --
+>>>>>>> --------------------------------
+>>>>>>> Dr. Alexander Fieguth
+>>>>>>>
+>>>>>>> Member of Gratta group
+>>>>>>> Department of Physics
+>>>>>>> Stanford University
+>>>>>>> Tel: +1-650-850-2456
+>>>>>>>
+>>>>>>> 382 Via Pueblo
+>>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>>> Mall, Room 132
+>>>>>>> Stanford, CA 94305
+>>>>>>> USA
+>>>>>>> --------------------------------
+>>>>>>>
+>>>>>>> _______________________________________________
+>>>>>>> snf-promcommittee mailing list
+>>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>> --
+>>>>> --------------------------------
+>>>>> Dr. Alexander Fieguth
+>>>>>
+>>>>> Member of Gratta group
+>>>>> Department of Physics
+>>>>> Stanford University
+>>>>> Tel: +1-650-850-2456
+>>>>>
+>>>>> 382 Via Pueblo
+>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>> Mall, Room 132
+>>>>> Stanford, CA 94305
+>>>>> USA
+>>>>> --------------------------------
+>>>>>
+>>>>>
+>>>
+>>> --
+>>> --------------------------------
+>>> Dr. Alexander Fieguth
+>>>
+>>> Member of Gratta group
+>>> Department of Physics
+>>> Stanford University
+>>> Tel: +1-650-850-2456
+>>>
+>>> 382 Via Pueblo
+>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>> Room 132
+>>> Stanford, CA 94305
+>>> USA
+>>> --------------------------------
+>>>
+>>>
+>
+> --
+> --------------------------------
+> Dr. Alexander Fieguth
+>
+> Member of Gratta group
+> Department of Physics
+> Stanford University
+> Tel: +1-650-850-2456
+>
+> 382 Via Pueblo Mall, Room 132
+> Stanford, CA 94305
+> USA
+> --------------------------------
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190118/5c9f2219/attachment.html>
+
+From afieguth at stanford.edu  Fri Jan 18 08:35:00 2019
+From: afieguth at stanford.edu (Alex F)
+Date: Fri, 18 Jan 2019 08:35:00 -0800
+Subject: [snf-promcommittee] Request new chemical (AQUADAG E) for use in
+ Micromist coater
+In-Reply-To: <CAFSuyDT1gdOxZ-OvonCTw-r4E3f_71jWv+=cXR_NKX+MpAgduw@mail.gmail.com>
+References: <CAJqnM9Gre0x=RH_7enPuiJRJcpCfCEF3qSSF1WKTc51rdR9MFg@mail.gmail.com>
+ <CAFSuyDRODT_HyU3XLTup=AbAzGh3Fb0Q=QcZogo+KKp9mXjtFA@mail.gmail.com>
+ <CAJqnM9F5d61JBM16GNULqJyZH8JQ7zfNUX6neS1gB4jhPmyPMQ@mail.gmail.com>
+ <CAFSuyDTM-f6sGYa0zyU4p5VrpY6=A5L6BPyTtyiXXdpZJEorrg@mail.gmail.com>
+ <CAJqnM9H9KHpom0V+roiHMSuo4rH=rE9_tSPr+rBUHBmk4YZLRQ@mail.gmail.com>
+ <CAFSuyDRDkK8tzYP57ZXbdEAp=mKe8nYV+4pPq6xR=3SzBE96aA@mail.gmail.com>
+ <CAJqnM9EnPukHJRrOYXyYBBxafPCznyN92DbYVj1eD4Lw3Zz81A@mail.gmail.com>
+ <CAFSuyDT1gdOxZ-OvonCTw-r4E3f_71jWv+=cXR_NKX+MpAgduw@mail.gmail.com>
+Message-ID: <CAJqnM9ELaRcjgB8YTdi37zTEdsEC=sVeNu3A3MxcORAQ=GrJ=Q@mail.gmail.com>
+
+Hey Michelle,
+
+thanks, will do!
+
+Cheers
+
+Alex
+
+Am Fr., 18. Jan. 2019 um 08:18 Uhr schrieb Michelle Rincon <
+michelle.rincon at gmail.com>:
+
+> Hi Alex,
+>
+> Your request is approved.  Please make sure to work with Swaroop on the
+> cleaning procedure for the Micromister after your runs.
+>
+> Best,
+> Michelle
+>
+> On Thu, Jan 10, 2019 at 5:14 PM Alex F <afieguth at stanford.edu> wrote:
+>
+>> Dear Michelle,
+>>
+>> attached you will find the modified version. Thanks for the review.
+>>
+>> Cheers
+>>
+>> Alex
+>>
+>> Am Do., 10. Jan. 2019 um 17:02 Uhr schrieb Michelle Rincon <
+>> michelle.rincon at gmail.com>:
+>>
+>>> Hi Alex,
+>>>
+>>> If you could modify the document and resubmit we can give it a final
+>>> review!
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> On Thu, Jan 10, 2019 at 4:43 PM Alex F <afieguth at stanford.edu> wrote:
+>>>
+>>>> Dear Michelle,
+>>>>
+>>>> okay, thanks for sharing your expertise with me. So I think adding the
+>>>> isopropanol is the way to go. Do I modify the document or is this done by
+>>>> you?
+>>>>
+>>>> Cheers
+>>>>
+>>>> Alex
+>>>>
+>>>> Am Do., 10. Jan. 2019 um 13:48 Uhr schrieb Michelle Rincon <
+>>>> michelle.rincon at gmail.com>:
+>>>>
+>>>>> Hi Alex,
+>>>>>
+>>>>> Acetone will leave lots of residues, so in order to optimize the rinse
+>>>>> the sequence commonly used is acetone, then methanol, then IPA, then
+>>>>> water.  You can probably skip the methanol, but getting an alcohol in
+>>>>> between the acetone and the water should help with the residue prevention.
+>>>>> It is also important to not let the substrate dry in between the steps, so
+>>>>> you should have the IPA next to the acetone so you can transfer it directly
+>>>>> into the bath while it is still wet.  The metals you mentioned here should
+>>>>> all be compatible with IPA, so that shouldn't be a problem.
+>>>>>
+>>>>> Best,
+>>>>> Michelle
+>>>>>
+>>>>> On Thu, Jan 10, 2019 at 11:40 AM Alex F <afieguth at stanford.edu> wrote:
+>>>>>
+>>>>>> Dear Michelle,
+>>>>>>
+>>>>>> happy new year and thanks for your answer. The substrates are all
+>>>>>> metals, and so far its planned to go for stainless steel, copper and maybe
+>>>>>> gold. In fact I forgot to add a step of rinsing with distilled water after
+>>>>>> the use of Acetone. Would that be sufficient? If not I will check whether
+>>>>>> IPA should work as well (I assume but want to be sure).
+>>>>>>
+>>>>>> Cheers
+>>>>>>
+>>>>>> Alex
+>>>>>>
+>>>>>> Am Do., 10. Jan. 2019 um 11:13 Uhr schrieb Michelle Rincon <
+>>>>>> michelle.rincon at gmail.com>:
+>>>>>>
+>>>>>>> Hi Alex,
+>>>>>>>
+>>>>>>> Happy New Year!  We are reviewing your request and have a concern
+>>>>>>> regarding heating your substrate after being dipped in acetone.  What type
+>>>>>>> of substrates will you be using?  Could you instead do an IPA rinse after
+>>>>>>> the acetone, then spin dry or N2 dry and then use the hot plate if needed
+>>>>>>> instead?
+>>>>>>>
+>>>>>>> Best,
+>>>>>>> Michelle
+>>>>>>>
+>>>>>>> On Fri, Dec 14, 2018 at 3:03 PM Alex F <afieguth at stanford.edu>
+>>>>>>> wrote:
+>>>>>>>
+>>>>>>>> Dear Ladies and Gentlemen,
+>>>>>>>>
+>>>>>>>> attached you will find the request in the .docx form as well as the
+>>>>>>>> MSDS of the material.
+>>>>>>>> Please feel free to contact me for any question or clarification
+>>>>>>>> which I might have missed to add.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Cheers
+>>>>>>>>
+>>>>>>>> Alex
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> --
+>>>>>>>> --------------------------------
+>>>>>>>> Dr. Alexander Fieguth
+>>>>>>>>
+>>>>>>>> Member of Gratta group
+>>>>>>>> Department of Physics
+>>>>>>>> Stanford University
+>>>>>>>> Tel: +1-650-850-2456
+>>>>>>>>
+>>>>>>>> 382 Via Pueblo
+>>>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>>>> Mall, Room 132
+>>>>>>>> Stanford, CA 94305
+>>>>>>>> USA
+>>>>>>>> --------------------------------
+>>>>>>>>
+>>>>>>>> _______________________________________________
+>>>>>>>> snf-promcommittee mailing list
+>>>>>>>> snf-promcommittee at lists.stanford.edu
+>>>>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>>> --
+>>>>>> --------------------------------
+>>>>>> Dr. Alexander Fieguth
+>>>>>>
+>>>>>> Member of Gratta group
+>>>>>> Department of Physics
+>>>>>> Stanford University
+>>>>>> Tel: +1-650-850-2456
+>>>>>>
+>>>>>> 382 Via Pueblo
+>>>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g>
+>>>>>> Mall, Room 132
+>>>>>> Stanford, CA 94305
+>>>>>> USA
+>>>>>> --------------------------------
+>>>>>>
+>>>>>>
+>>>>
+>>>> --
+>>>> --------------------------------
+>>>> Dr. Alexander Fieguth
+>>>>
+>>>> Member of Gratta group
+>>>> Department of Physics
+>>>> Stanford University
+>>>> Tel: +1-650-850-2456
+>>>>
+>>>> 382 Via Pueblo
+>>>> <https://maps.google.com/?q=382+Via+Pueblo&entry=gmail&source=g> Mall,
+>>>> Room 132
+>>>> Stanford, CA 94305
+>>>> USA
+>>>> --------------------------------
+>>>>
+>>>>
+>>
+>> --
+>> --------------------------------
+>> Dr. Alexander Fieguth
+>>
+>> Member of Gratta group
+>> Department of Physics
+>> Stanford University
+>> Tel: +1-650-850-2456
+>>
+>> 382 Via Pueblo Mall, Room 132
+>> Stanford, CA 94305
+>> USA
+>> --------------------------------
+>>
+>>
+
+-- 
+--------------------------------
+Dr. Alexander Fieguth
+
+Member of Gratta group
+Department of Physics
+Stanford University
+Tel: +1-650-850-2456
+
+382 Via Pueblo Mall, Room 132
+Stanford, CA 94305
+USA
+--------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190118/8b7e94be/attachment-0001.html>
+
+From renasha at stanford.edu  Fri Jan 18 11:10:45 2019
+From: renasha at stanford.edu (Rena Sha)
+Date: Fri, 18 Jan 2019 19:10:45 +0000
+Subject: [snf-promcommittee] Would Love to Learn More About Stanford Nanofab!
+Message-ID: <BN8PR02MB5713A97D750ECF5628648FD6D5850@BN8PR02MB5713.namprd02.prod.outlook.com>
+
+Hi Stanford Nanofabrication Facility!
+
+
+I am currently a student at Stanford University and would love to learn more about the nanofabrication manufacturing process! I'm currently in a class where we are asked to take a deep dive into an industry/ area of interest and I would love to chat a little with you to understand more!
+
+
+I am on campus and would love to swing by the lab if that is convenient. What times are the best to visit?
+
+
+Thanks so much!
+
+Sincerely,
+
+Rena
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190118/d9e4a125/attachment.html>
+
+From mtang at stanford.edu  Fri Jan 18 11:51:01 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 18 Jan 2019 11:51:01 -0800
+Subject: [snf-promcommittee] Would Love to Learn More About Stanford
+ Nanofab!
+In-Reply-To: <BN8PR02MB5713A97D750ECF5628648FD6D5850@BN8PR02MB5713.namprd02.prod.outlook.com>
+References: <BN8PR02MB5713A97D750ECF5628648FD6D5850@BN8PR02MB5713.namprd02.prod.outlook.com>
+Message-ID: <36f4c9a4-2ab7-93ae-ec34-27fd6cae170a@stanford.edu>
+
+Dear Rena -
+
+
+Thanks for your interest in SNF!? I take it you've checked out the 
+website if you've found these email addresses.? I would like to invite 
+you to check out our labuser guide, which is a new work-in-progress, but 
+gives a flavor of the kind of work done here and the resources provided.
+
+https://snfexfab.stanford.edu/lab-user-guide
+
+
+You might also want to check out the NNCI, the NSF Network that 
+nano at stanford (which includes SNSF as well as SNF).? This has links to 
+other sites in this network: https://www.nnci.net
+
+
+Our labs are all engaged in research, broadly defined, and extending 
+well beyond "nano" -? more like a "tech shop" and nowhere near to 
+"production" or "nanomanufacturing", which I gather is your area of 
+interest.
+
+
+If you could expand on exactly what it is you are interested in, perhaps 
+we can better point you to the right resources?
+
+
+Best,
+
+
+Mary
+
+
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+
+On 1/18/2019 11:10 AM, Rena Sha wrote:
+>
+> Hi Stanford Nanofabrication Facility!
+>
+>
+> I am currently a student at Stanford University and would love to 
+> learn more about the nanofabrication manufacturing process! I'm 
+> currently in a class where we are asked to take a deep dive into an 
+> industry/ area of interest and I would love to chat a little with you 
+> to understand more!
+>
+>
+> I am on campus and would love to swing by the lab if that is 
+> convenient. What times are the best to visit?
+>
+>
+> Thanks so much!
+>
+> Sincerely,
+>
+> Rena
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190118/a80f8e3e/attachment.html>
+
+From mahnaz at stanford.edu  Fri Jan 18 14:07:40 2019
+From: mahnaz at stanford.edu (Mahnaz Mansourpour)
+Date: Fri, 18 Jan 2019 22:07:40 +0000
+Subject: [snf-promcommittee] Aqua Regina
+Message-ID: <MWHPR02MB27048693663E1C29708E2107A69C0@MWHPR02MB2704.namprd02.prod.outlook.com>
+
+No worries,  Request  has been pulled out.
+
+Mahnaz
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190118/406e4094/attachment-0001.html>
+
+From mmrincon at stanford.edu  Tue Jan 22 10:21:33 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 22 Jan 2019 10:21:33 -0800
+Subject: [snf-promcommittee] Fwd: SNF PROM request: ALD WO3 deposition on
+	Fiji 3
+In-Reply-To: <CAFSuyDREDjdiLR8BV_bWruTpRfwnU3adum4etGwFrBrzZSJLqw@mail.gmail.com>
+References: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>
+ <CAFSuyDRwPBOHVpOj5us_yvZVPEbOEfmg8hPQVowd2XZkMk5-4g@mail.gmail.com>
+ <CAFSuyDREDjdiLR8BV_bWruTpRfwnU3adum4etGwFrBrzZSJLqw@mail.gmail.com>
+Message-ID: <CAFSuyDTUvXezNHeJHgrG+eOO7rbZ0wjUSjvuneV1JcQJKvDQ5w@mail.gmail.com>
+
+Is everyone ok with opening up Fiji3 to WOx?
+
+---------- Forwarded message ---------
+From: Michelle Rincon <mmrincon at stanford.edu>
+Date: Mon, Jan 14, 2019 at 3:27 PM
+Subject: Fwd: SNF PROM request: ALD WO3 deposition on Fiji 3
+To: promcommitte <snf-promcommittee at lists.stanford.edu>
+
+
+Closing the loop on the WO3 VPD analysis on Fiji3.  Basically, we still see
+some W on the VPD wafer after the isolation coating, but the levels are low
+and the risk of W being harmful to other gate oxides is minimal.  I propose
+doing something similar to what we did with the Li, and notify the few
+users who are on there that this exists and if they are concerned, they
+should do additional pre-coating of the chamber before they do their runs.
+
+Thoughts?
+
+Michelle
+
+
+---------- Forwarded message ---------
+From: David William Palm <dpalm at stanford.edu>
+Date: Fri, Aug 31, 2018 at 3:15 PM
+Subject: SNF PROM request: ALD WO3 deposition on Fiji 3
+To: snf-promcommittee at lists.stanford.edu <
+snf-promcommittee at lists.stanford.edu>
+Cc: Michelle Rincon <mmrincon at stanford.edu>
+
+
+Dear PROM committee,
+
+
+
+My name is Dave Palm ? I?m a third year PhD Student in Chemical Engineering
+and frequent user of ALD and PVD techniques in the SNF lab.
+
+
+
+I?m writing to request permission to conduct ALD synthesis experiments of
+tungsten oxide (WO3) in the Fiji 3 reactor. Since the tool is usually
+reserved for non-conducting films, Michelle and I felt that I should apply
+for permission to use it for depositing this semiconducting oxide.
+
+
+
+I have attached my PROM form and the MSDS for the precursor to this email.
+
+
+
+Please let me know if you need anything further!
+
+
+
+Sincerely,
+
+Dave
+
+
+
+
+
+David W. Palm
+PhD Candidate | Jaramillo Research Group
+Stanford University | Department of Chemical Engineering
+dpalm at stanford.edu | +1 330 984 3454
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/55b1af9a/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Palm_WO3_Fiji 3_Process or Materials Request Form.doc.pdf
+Type: application/pdf
+Size: 348363 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/55b1af9a/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MSDS bis-tert-butylimino-bis-dimethylamino-W.pdf
+Type: application/pdf
+Size: 36485 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/55b1af9a/attachment-0004.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: W on Fiji3 VPD Analysis.pdf
+Type: application/pdf
+Size: 738992 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/55b1af9a/attachment-0005.pdf>
+
+From mtang at stanford.edu  Tue Jan 22 10:35:23 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Tue, 22 Jan 2019 10:35:23 -0800
+Subject: [snf-promcommittee] Fwd: SNF PROM request: ALD WO3 deposition
+ on Fiji 3
+In-Reply-To: <CAFSuyDTUvXezNHeJHgrG+eOO7rbZ0wjUSjvuneV1JcQJKvDQ5w@mail.gmail.com>
+References: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>
+ <CAFSuyDRwPBOHVpOj5us_yvZVPEbOEfmg8hPQVowd2XZkMk5-4g@mail.gmail.com>
+ <CAFSuyDREDjdiLR8BV_bWruTpRfwnU3adum4etGwFrBrzZSJLqw@mail.gmail.com>
+ <CAFSuyDTUvXezNHeJHgrG+eOO7rbZ0wjUSjvuneV1JcQJKvDQ5w@mail.gmail.com>
+Message-ID: <62d1adf0-b7bd-210b-1367-13f2744f2d06@stanford.edu>
+
+Sounds good to me.? W is backend CMOS-safe.
+
+M
+
+On 1/22/2019 10:21 AM, Michelle Rincon wrote:
+> Is everyone ok with opening up Fiji3 to WOx?
+>
+> ---------- Forwarded message ---------
+> From: *Michelle Rincon* <mmrincon at stanford.edu 
+> <mailto:mmrincon at stanford.edu>>
+> Date: Mon, Jan 14, 2019 at 3:27 PM
+> Subject: Fwd: SNF PROM request: ALD WO3 deposition on Fiji 3
+> To: promcommitte <snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>>
+>
+>
+> Closing the loop on the WO3 VPD analysis on Fiji3.? Basically, we 
+> still see some W on the VPD wafer after the isolation coating, but the 
+> levels are low and the risk of W being harmful to other gate oxides is 
+> minimal.? I propose doing something similar to what we did with the 
+> Li, and notify the few users who are on there that this exists and if 
+> they are concerned, they should do additional pre-coating of the 
+> chamber before they do their runs.
+>
+> Thoughts?
+>
+> Michelle
+>
+>
+> ---------- Forwarded message ---------
+> From: *David William Palm* <dpalm at stanford.edu 
+> <mailto:dpalm at stanford.edu>>
+> Date: Fri, Aug 31, 2018 at 3:15 PM
+> Subject: SNF PROM request: ALD WO3 deposition on Fiji 3
+> To: snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu> 
+> <snf-promcommittee at lists.stanford.edu 
+> <mailto:snf-promcommittee at lists.stanford.edu>>
+> Cc: Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+>
+>
+> Dear PROM committee,
+>
+> My name is Dave Palm ? I?m a third year PhD Student in Chemical 
+> Engineering and frequent user of ALD and PVD techniques in the SNF lab.
+>
+> I?m writing to request permission to conduct ALD synthesis experiments 
+> of tungsten oxide (WO3) in the Fiji 3 reactor. Since the tool is 
+> usually reserved for non-conducting films, Michelle and I felt that I 
+> should apply for permission to use it for depositing this 
+> semiconducting oxide.
+>
+> I have attached my PROM form and the MSDS for the precursor to this email.
+>
+> Please let me know if you need anything further!
+>
+> Sincerely,
+>
+> Dave
+>
+> David W. Palm
+> PhD Candidate | Jaramillo Research Group
+> Stanford University | Department of Chemical Engineering
+> dpalm at stanford.edu <mailto:dpalm at stanford.edu> | +1 330 984 3454
+>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/18082621/attachment.html>
+
+From rvanlaer at stanford.edu  Tue Jan 22 15:07:25 2019
+From: rvanlaer at stanford.edu (=?UTF-8?Q?Rapha=C3=ABl_Van_Laer?=)
+Date: Tue, 22 Jan 2019 15:07:25 -0800
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by
+ resist in lampoly
+In-Reply-To: <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+References: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+ <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+Message-ID: <CAODip4gbBywYYsO2ULqkJQfGrogMTDgW-DF4fUK0hA0VvoJN9g@mail.gmail.com>
+
+Hi Michelle,
+
+yes my process is quite similar, see below for illustration
+
+[image: image.png]
+So the lithium niobate (LiN) will be protected by CSAR resist during the
+lampoly etch. I will only etch silicon in the lampoly.
+
+Would this be OK?
+
+Best regards,
+Rapha?l
+
+
+Op do 17 jan. 2019 om 13:50 schreef Michelle Rincon <
+michelle.rincon at gmail.com>:
+
+> Hi Raphael,
+>
+> Here is our most recent LiN request for lampoly, and the contamination
+> analysis by VPD-ICPMS that was completed. I just uploaded this to the
+> archives so by tomorrow morning this should be available on the PROM
+> archives on our new work-in-progress website.  Is your process going to be
+> similar?
+>
+> Best,
+> Michelle
+>
+> link to form:
+> https://docs.google.com/document/d/e/2PACX-1vT-asRnVAySJc7InWTaSXf9r4AzK8LNZULJTjfXeJHdl2nM911pwV4JAC8zpWNixFVeuru2wRAGuyQY/pub
+>
+> website:
+> https://snfexfab.stanford.edu/lab-user-guide/materialschemicals/process-or-materials-review-requests-prom-and-form
+>
+> On Thu, Jan 17, 2019 at 11:33 AM Rapha?l Van Laer <rvanlaer at stanford.edu>
+> wrote:
+>
+>> Dear PROM committee,
+>>
+>> I'm interested in etching silicon chips in the lampoly, where part of the
+>> silicon chip has a thin-film of lithium niobate on top of it. However, this
+>> thin-film of lithium niobate will be covered by resist and will not be
+>> exposed or etched.
+>>
+>> Does this sound reasonable? If so I'll send over the full PROM committee
+>> document?
+>>
+>> I suspect there might be a previous request on this topic, but not sure.
+>>
+>> Thanks!
+>>
+>> Best regards,
+>> Rapha?l
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/675a2277/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24823 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/675a2277/attachment-0001.png>
+
+From rvanlaer at stanford.edu  Tue Jan 22 15:15:24 2019
+From: rvanlaer at stanford.edu (=?UTF-8?Q?Rapha=C3=ABl_Van_Laer?=)
+Date: Tue, 22 Jan 2019 15:15:24 -0800
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by
+ resist in lampoly
+In-Reply-To: <CAODip4gbBywYYsO2ULqkJQfGrogMTDgW-DF4fUK0hA0VvoJN9g@mail.gmail.com>
+References: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+ <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+ <CAODip4gbBywYYsO2ULqkJQfGrogMTDgW-DF4fUK0hA0VvoJN9g@mail.gmail.com>
+Message-ID: <CAODip4gwb1n8WgMsnUp9tRTw0+PJnuXKgbxyJUY-QsvtuiyPfg@mail.gmail.com>
+
+Sorry, had a small mistake in the drawing, see below for correct drawing
+
+[image: image.png]
+
+Rapha?l
+
+
+Op di 22 jan. 2019 om 15:07 schreef Rapha?l Van Laer <rvanlaer at stanford.edu
+>:
+
+> Hi Michelle,
+>
+> yes my process is quite similar, see below for illustration
+>
+> [image: image.png]
+> So the lithium niobate (LiN) will be protected by CSAR resist during the
+> lampoly etch. I will only etch silicon in the lampoly.
+>
+> Would this be OK?
+>
+> Best regards,
+> Rapha?l
+>
+>
+> Op do 17 jan. 2019 om 13:50 schreef Michelle Rincon <
+> michelle.rincon at gmail.com>:
+>
+>> Hi Raphael,
+>>
+>> Here is our most recent LiN request for lampoly, and the contamination
+>> analysis by VPD-ICPMS that was completed. I just uploaded this to the
+>> archives so by tomorrow morning this should be available on the PROM
+>> archives on our new work-in-progress website.  Is your process going to be
+>> similar?
+>>
+>> Best,
+>> Michelle
+>>
+>> link to form:
+>> https://docs.google.com/document/d/e/2PACX-1vT-asRnVAySJc7InWTaSXf9r4AzK8LNZULJTjfXeJHdl2nM911pwV4JAC8zpWNixFVeuru2wRAGuyQY/pub
+>>
+>> website:
+>> https://snfexfab.stanford.edu/lab-user-guide/materialschemicals/process-or-materials-review-requests-prom-and-form
+>>
+>> On Thu, Jan 17, 2019 at 11:33 AM Rapha?l Van Laer <rvanlaer at stanford.edu>
+>> wrote:
+>>
+>>> Dear PROM committee,
+>>>
+>>> I'm interested in etching silicon chips in the lampoly, where part of
+>>> the silicon chip has a thin-film of lithium niobate on top of it. However,
+>>> this thin-film of lithium niobate will be covered by resist and will not be
+>>> exposed or etched.
+>>>
+>>> Does this sound reasonable? If so I'll send over the full PROM committee
+>>> document?
+>>>
+>>> I suspect there might be a previous request on this topic, but not sure.
+>>>
+>>> Thanks!
+>>>
+>>> Best regards,
+>>> Rapha?l
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/ac75665e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24823 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/ac75665e/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24566 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190122/ac75665e/attachment-0003.png>
+
+From usha at stanford.edu  Wed Jan 23 10:32:21 2019
+From: usha at stanford.edu (Usha Raghuram)
+Date: Wed, 23 Jan 2019 18:32:21 +0000
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by
+ resist in lampoly
+In-Reply-To: <CAODip4gwb1n8WgMsnUp9tRTw0+PJnuXKgbxyJUY-QsvtuiyPfg@mail.gmail.com>
+References: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+ <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+ <CAODip4gbBywYYsO2ULqkJQfGrogMTDgW-DF4fUK0hA0VvoJN9g@mail.gmail.com>,
+ <CAODip4gwb1n8WgMsnUp9tRTw0+PJnuXKgbxyJUY-QsvtuiyPfg@mail.gmail.com>
+Message-ID: <BL0PR02MB48996D7A14D67A78123E3A3CB8990@BL0PR02MB4899.namprd02.prod.outlook.com>
+
+Michelle,
+
+
+We have done this before and as long as lithium niobate is covered and not exposed to etch, it is fine.
+
+
+Usha
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Rapha?l Van Laer <rvanlaer at stanford.edu>
+Sent: Tuesday, January 22, 2019 3:15:24 PM
+To: Michelle Rincon
+Cc: promcommitte
+Subject: Re: [snf-promcommittee] PROM request: lithium niobate covered by resist in lampoly
+
+Sorry, had a small mistake in the drawing, see below for correct drawing
+
+[image.png]
+
+Rapha?l
+
+
+Op di 22 jan. 2019 om 15:07 schreef Rapha?l Van Laer <rvanlaer at stanford.edu<mailto:rvanlaer at stanford.edu>>:
+Hi Michelle,
+
+yes my process is quite similar, see below for illustration
+
+[image.png]
+So the lithium niobate (LiN) will be protected by CSAR resist during the lampoly etch. I will only etch silicon in the lampoly.
+
+Would this be OK?
+
+Best regards,
+Rapha?l
+
+
+Op do 17 jan. 2019 om 13:50 schreef Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>>:
+Hi Raphael,
+
+Here is our most recent LiN request for lampoly, and the contamination analysis by VPD-ICPMS that was completed. I just uploaded this to the archives so by tomorrow morning this should be available on the PROM archives on our new work-in-progress website.  Is your process going to be similar?
+
+Best,
+Michelle
+
+link to form:  https://docs.google.com/document/d/e/2PACX-1vT-asRnVAySJc7InWTaSXf9r4AzK8LNZULJTjfXeJHdl2nM911pwV4JAC8zpWNixFVeuru2wRAGuyQY/pub
+
+website: https://snfexfab.stanford.edu/lab-user-guide/materialschemicals/process-or-materials-review-requests-prom-and-form
+
+On Thu, Jan 17, 2019 at 11:33 AM Rapha?l Van Laer <rvanlaer at stanford.edu<mailto:rvanlaer at stanford.edu>> wrote:
+Dear PROM committee,
+
+I'm interested in etching silicon chips in the lampoly, where part of the silicon chip has a thin-film of lithium niobate on top of it. However, this thin-film of lithium niobate will be covered by resist and will not be exposed or etched.
+
+Does this sound reasonable? If so I'll send over the full PROM committee document?
+
+I suspect there might be a previous request on this topic, but not sure.
+
+Thanks!
+
+Best regards,
+Rapha?l
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/31f1f297/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24823 bytes
+Desc: image.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/31f1f297/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24566 bytes
+Desc: image.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/31f1f297/attachment-0003.png>
+
+From michelle.rincon at gmail.com  Wed Jan 23 10:36:42 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 23 Jan 2019 10:36:42 -0800
+Subject: [snf-promcommittee] PROM request: lithium niobate covered by
+ resist in lampoly
+In-Reply-To: <CAODip4gwb1n8WgMsnUp9tRTw0+PJnuXKgbxyJUY-QsvtuiyPfg@mail.gmail.com>
+References: <CAODip4icjzpJAy2nLeCbxMhyxg7edeoakJP--H9ifOv1vtR6yQ@mail.gmail.com>
+ <CAFSuyDTRJ5y1EvZg2=sc_Lh-tunm15KpZ=jP_=bXodmVA9JkFg@mail.gmail.com>
+ <CAODip4gbBywYYsO2ULqkJQfGrogMTDgW-DF4fUK0hA0VvoJN9g@mail.gmail.com>
+ <CAODip4gwb1n8WgMsnUp9tRTw0+PJnuXKgbxyJUY-QsvtuiyPfg@mail.gmail.com>
+Message-ID: <CAFSuyDQKE2Bu5CrHVRV+z39JOgUULaqhwqfegAdBSWEY1cdsBg@mail.gmail.com>
+
+Hi Raphael,
+
+Thank you for the drawings!  You are approved to process your wafers on
+lampoly.
+
+Best,
+Michelle
+
+On Tue, Jan 22, 2019 at 3:15 PM Rapha?l Van Laer <rvanlaer at stanford.edu>
+wrote:
+
+> Sorry, had a small mistake in the drawing, see below for correct drawing
+>
+> [image: image.png]
+>
+> Rapha?l
+>
+>
+> Op di 22 jan. 2019 om 15:07 schreef Rapha?l Van Laer <
+> rvanlaer at stanford.edu>:
+>
+>> Hi Michelle,
+>>
+>> yes my process is quite similar, see below for illustration
+>>
+>> [image: image.png]
+>> So the lithium niobate (LiN) will be protected by CSAR resist during the
+>> lampoly etch. I will only etch silicon in the lampoly.
+>>
+>> Would this be OK?
+>>
+>> Best regards,
+>> Rapha?l
+>>
+>>
+>> Op do 17 jan. 2019 om 13:50 schreef Michelle Rincon <
+>> michelle.rincon at gmail.com>:
+>>
+>>> Hi Raphael,
+>>>
+>>> Here is our most recent LiN request for lampoly, and the contamination
+>>> analysis by VPD-ICPMS that was completed. I just uploaded this to the
+>>> archives so by tomorrow morning this should be available on the PROM
+>>> archives on our new work-in-progress website.  Is your process going to be
+>>> similar?
+>>>
+>>> Best,
+>>> Michelle
+>>>
+>>> link to form:
+>>> https://docs.google.com/document/d/e/2PACX-1vT-asRnVAySJc7InWTaSXf9r4AzK8LNZULJTjfXeJHdl2nM911pwV4JAC8zpWNixFVeuru2wRAGuyQY/pub
+>>>
+>>> website:
+>>> https://snfexfab.stanford.edu/lab-user-guide/materialschemicals/process-or-materials-review-requests-prom-and-form
+>>>
+>>> On Thu, Jan 17, 2019 at 11:33 AM Rapha?l Van Laer <rvanlaer at stanford.edu>
+>>> wrote:
+>>>
+>>>> Dear PROM committee,
+>>>>
+>>>> I'm interested in etching silicon chips in the lampoly, where part of
+>>>> the silicon chip has a thin-film of lithium niobate on top of it. However,
+>>>> this thin-film of lithium niobate will be covered by resist and will not be
+>>>> exposed or etched.
+>>>>
+>>>> Does this sound reasonable? If so I'll send over the full PROM
+>>>> committee document?
+>>>>
+>>>> I suspect there might be a previous request on this topic, but not sure.
+>>>>
+>>>> Thanks!
+>>>>
+>>>> Best regards,
+>>>> Rapha?l
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/62028371/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24823 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/62028371/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image.png
+Type: image/png
+Size: 24566 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/62028371/attachment-0003.png>
+
+From mmrincon at stanford.edu  Wed Jan 23 11:53:21 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 23 Jan 2019 11:53:21 -0800
+Subject: [snf-promcommittee] SNF PROM request: ALD WO3 deposition on
+	Fiji 3
+In-Reply-To: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>
+References: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQRWTW1iKnK9WE_FudB86HxWQPumdzsx3E3+e6QprJaPg@mail.gmail.com>
+
+Hi Dave,
+
+The request is approved!  Please let me know if you have any further
+questions.  I will archive the VPD analysis along with the request so we
+have it on record.
+
+Best,
+Michelle
+
+On Fri, Aug 31, 2018 at 3:15 PM David William Palm <dpalm at stanford.edu>
+wrote:
+
+> Dear PROM committee,
+>
+>
+>
+> My name is Dave Palm ? I?m a third year PhD Student in Chemical
+> Engineering and frequent user of ALD and PVD techniques in the SNF lab.
+>
+>
+>
+> I?m writing to request permission to conduct ALD synthesis experiments of
+> tungsten oxide (WO3) in the Fiji 3 reactor. Since the tool is usually
+> reserved for non-conducting films, Michelle and I felt that I should apply
+> for permission to use it for depositing this semiconducting oxide.
+>
+>
+>
+> I have attached my PROM form and the MSDS for the precursor to this email.
+>
+>
+>
+> Please let me know if you need anything further!
+>
+>
+>
+> Sincerely,
+>
+> Dave
+>
+>
+>
+>
+>
+> David W. Palm
+> PhD Candidate | Jaramillo Research Group
+> Stanford University | Department of Chemical Engineering
+> dpalm at stanford.edu | +1 330 984 3454
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/a886e001/attachment.html>
+
+From dpalm at stanford.edu  Wed Jan 23 12:29:36 2019
+From: dpalm at stanford.edu (David William Palm)
+Date: Wed, 23 Jan 2019 20:29:36 +0000
+Subject: [snf-promcommittee] SNF PROM request: ALD WO3 deposition on
+	Fiji 3
+In-Reply-To: <CAFSuyDQRWTW1iKnK9WE_FudB86HxWQPumdzsx3E3+e6QprJaPg@mail.gmail.com>
+References: <BY1PR0201MB101537C1ED177CECCECE7F9FC30F0@BY1PR0201MB1015.namprd02.prod.outlook.com>,
+ <CAFSuyDQRWTW1iKnK9WE_FudB86HxWQPumdzsx3E3+e6QprJaPg@mail.gmail.com>
+Message-ID: <BYAPR02MB5559D7FCCB2192D8F4022732C3990@BYAPR02MB5559.namprd02.prod.outlook.com>
+
+Great, thank you Michelle!
+
+Best,
+Dave
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Wednesday, January 23, 2019 11:53:21 AM
+To: David William Palm
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: SNF PROM request: ALD WO3 deposition on Fiji 3
+
+Hi Dave,
+
+The request is approved!  Please let me know if you have any further questions.  I will archive the VPD analysis along with the request so we have it on record.
+
+Best,
+Michelle
+
+On Fri, Aug 31, 2018 at 3:15 PM David William Palm <dpalm at stanford.edu<mailto:dpalm at stanford.edu>> wrote:
+Dear PROM committee,
+
+My name is Dave Palm ? I?m a third year PhD Student in Chemical Engineering and frequent user of ALD and PVD techniques in the SNF lab.
+
+I?m writing to request permission to conduct ALD synthesis experiments of tungsten oxide (WO3) in the Fiji 3 reactor. Since the tool is usually reserved for non-conducting films, Michelle and I felt that I should apply for permission to use it for depositing this semiconducting oxide.
+
+I have attached my PROM form and the MSDS for the precursor to this email.
+
+Please let me know if you need anything further!
+
+Sincerely,
+Dave
+
+
+David W. Palm
+PhD Candidate | Jaramillo Research Group
+Stanford University | Department of Chemical Engineering
+dpalm at stanford.edu<mailto:dpalm at stanford.edu> | +1 330 984 3454
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190123/3967f8a5/attachment.html>
+
+From aditsood at stanford.edu  Thu Jan 24 19:25:33 2019
+From: aditsood at stanford.edu (Aditya Sood)
+Date: Fri, 25 Jan 2019 03:25:33 +0000
+Subject: [snf-promcommittee] PROM request: Vanadium dioxide
+Message-ID: <CY4PR0201MB35717FBA8B34AC297E672309B89B0@CY4PR0201MB3571.namprd02.prod.outlook.com>
+
+Hello,
+
+
+Please find attached a PROM approval request for processing of Vanadium Dioxide (VO2) films. Attached are the MSDS for powdered VO2 (although our material is NOT in powdered form, it is a continuous polycrystalline film) and a previously approved PROM request for the same material by a different user (Stephanie Bohaichuk, Nov 2015).
+
+
+I look forward to hearing back from you soon,
+
+
+Best,
+
+Aditya Sood
+
+Postdoctoral fellow - MSE
+
+PI: Aaron Lindenberg
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/0062cd4d/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 01242019_PROM_Sood_VO2.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 107093 bytes
+Desc: 01242019_PROM_Sood_VO2.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/0062cd4d/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20151120 S. Bohaichuk- VO2 CNT devices process flow.pdf
+Type: application/pdf
+Size: 124314 bytes
+Desc: 20151120 S. Bohaichuk- VO2 CNT devices process flow.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/0062cd4d/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: VO2 MSDS Sigma Aldrich.pdf
+Type: application/pdf
+Size: 219300 bytes
+Desc: VO2 MSDS Sigma Aldrich.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/0062cd4d/attachment-0003.pdf>
+
+From mmrincon at stanford.edu  Fri Jan 25 10:06:55 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 25 Jan 2019 10:06:55 -0800
+Subject: [snf-promcommittee] PROM request: Vanadium dioxide
+In-Reply-To: <CY4PR0201MB35717FBA8B34AC297E672309B89B0@CY4PR0201MB3571.namprd02.prod.outlook.com>
+References: <CY4PR0201MB35717FBA8B34AC297E672309B89B0@CY4PR0201MB3571.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDSzQquE+-n6dMs-5Q46KBv4+TEE+Liypy=yj=EdfZDSAA@mail.gmail.com>
+
+Hi guys,
+
+I think this is straightforward- we talked yesterday and the anneal in
+the ALD should be ok as long as he doesn't take the heater jackets up
+beyond 300C. (He can set the chuck to 350 and there are separate set
+points for the heater jackets that control the chamber wall temps).
+
+I think the patterning part should be ok with VOx, right?
+
+Michelle
+
+On Thu, Jan 24, 2019 at 7:25 PM Aditya Sood <aditsood at stanford.edu> wrote:
+>
+> Hello,
+>
+>
+> Please find attached a PROM approval request for processing of Vanadium Dioxide (VO2) films. Attached are the MSDS for powdered VO2 (although our material is NOT in powdered form, it is a continuous polycrystalline film) and a previously approved PROM request for the same material by a different user (Stephanie Bohaichuk, Nov 2015).
+>
+>
+> I look forward to hearing back from you soon,
+>
+>
+> Best,
+>
+> Aditya Sood
+>
+> Postdoctoral fellow - MSE
+>
+> PI: Aaron Lindenberg
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+
+From hansenq at stanford.edu  Fri Jan 25 15:46:36 2019
+From: hansenq at stanford.edu (Hansen Qiao)
+Date: Fri, 25 Jan 2019 23:46:36 +0000
+Subject: [snf-promcommittee] Request for brining power supply into ExFab
+Message-ID: <MW2PR02MB3691F58BC551FD02D1C4B374D99B0@MW2PR02MB3691.namprd02.prod.outlook.com>
+
+Dear Prom Committee,
+
+Hello!
+My name is Hansen Qiao. I am a 2nd year MS student, and I have been an active member of SNF since July, 2018.
+I am making a request for brining a power supply to the ExFab and using it for a localized heated bonding project. Please refer to the attached file for more detailed information.
+Please let me know if there exists any problem with this request. Thank you!
+
+Yours sincerely,
+Hansen Qiao
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/bf8e7e19/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_HansenQiao_powersupply.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 958363 bytes
+Desc: Process or Materials Request Form_HansenQiao_powersupply.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190125/bf8e7e19/attachment-0001.docx>
+
+From mtang at stanford.edu  Sat Jan 26 08:18:53 2019
+From: mtang at stanford.edu (Mary Tang)
+Date: Sat, 26 Jan 2019 08:18:53 -0800
+Subject: [snf-promcommittee] Request for brining power supply into ExFab
+In-Reply-To: <MW2PR02MB3691F58BC551FD02D1C4B374D99B0@MW2PR02MB3691.namprd02.prod.outlook.com>
+References: <MW2PR02MB3691F58BC551FD02D1C4B374D99B0@MW2PR02MB3691.namprd02.prod.outlook.com>
+Message-ID: <f849371b-d536-b5a2-22ec-b225db524c4d@stanford.edu>
+
+Hi all -
+
+It's not entirely clear what Hansen's experiment is here, but I think he 
+may want to attend the next Process Clinic.? Presuming that he's 
+characterizing the eutectic process, I'm guessing he will want to 
+understand the temperature versus pressure versus bond time effects.? 
+And if I understand that correctly, then I think there are a few things 
+that would need to be addressed, which are not clear to me in this request:
+
+1.? Connections and set up.? Some thought about the safety aspects of 
+the set up are needed.? For example, ensuring everything is secured 
+before turning on power. Maybe a way to limit current.? I worked in a 
+lab where we removed anything metallic from hands and heads, including 
+making sure we had plastic safety glasses, because it's so easy for a 
+wire to pop off and make contact with you or the metal tables and 
+equipment we worked on. Anyway, someone should go through the set up 
+with Hansen, both for this request and probably again when he brings his 
+power supply in.
+
+2.? Resistive heating on silicon.? Depending on the layers and layout, I 
+think he could exceed the Si threshold voltage and push a lot of 
+electrons through the substrate.? I guess he'd just get more resistive 
+heating, so maybe that's OK.? But it seems better science to know this 
+going in.? It would be good to have an idea of the voltages and currents 
+involved, either through a back-of-the-envelope calculation or, better 
+yet, through making some samples and testing in his own work bench.
+
+3. Temperature control.? It's extra work, but might be worth it to 
+pattern an extra metal layer with a vastly different Seebeck coefficient 
+to obtain a built-in thermocouple.? For gold (is he using gold?), 
+nickel, iron, or tungsten might be good candidates. He could put these 
+in different locations on the substrate or even the pyrex side to get an 
+idea of what temperature distribution is like.? I think the heat flow 
+will be weird on this and will depend on how big his silicon substrate 
+is (since it's the heat dissipator) and its thermal contact with the 
+chuck.? So, I could be wrong, but suspect that the reproducibility of 
+the experiment will depend on a lot factors, so the more systematic the 
+conditions and monitoring done, the better chance of controlled processing.
+
+Mary
+
+
+On 1/25/2019 3:46 PM, Hansen Qiao wrote:
+>
+> Dear Prom Committee,
+>
+> Hello!
+>
+> My name is Hansen Qiao. I am a 2^nd year MS student, and I have been 
+> an active member of SNF since July, 2018.
+>
+> I am making a request for brining a power supply to the ExFab and 
+> using it for a localized heated bonding project. Please refer to the 
+> attached file for more detailed information.
+>
+> Please let me know if there exists any problem with this request. 
+> Thank you!
+>
+> Yours sincerely,
+>
+> Hansen Qiao
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190126/f7b9dc1c/attachment.html>
+
+From xil at stanford.edu  Mon Jan 28 22:12:22 2019
+From: xil at stanford.edu (Xiao Li)
+Date: Tue, 29 Jan 2019 06:12:22 +0000
+Subject: [snf-promcommittee] Process form for critical point drier use
+Message-ID: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+
+
+Hi,
+
+I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+
+Thank you!
+Xiao
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190129/b06b4538/attachment-0002.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Stanford PromCom form - Xiao Li.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 14565 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190129/b06b4538/attachment-0001.docx>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190129/b06b4538/attachment-0003.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 1554 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190129/b06b4538/attachment-0001.p7s>
+
+From michelle.rincon at gmail.com  Tue Jan 29 10:17:26 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Tue, 29 Jan 2019 10:17:26 -0800
+Subject: [snf-promcommittee] Process form for critical point drier use
+In-Reply-To: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+References: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+Message-ID: <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+
+Hi Xiao,
+
+Thank you for your submission.  The SDS you have linked to says that
+it is valid for Various Animal Cell Cultures at Biosafety Level 1 or
+2.  We do not have any biosafety clearance for the cleanroom, so it is
+very important to be clear about the bio safety of your cell samples.
+Do you have any additional information?
+
+Best,
+Michelle
+
+On Mon, Jan 28, 2019 at 10:12 PM Xiao Li <xil at stanford.edu> wrote:
+>
+> Hi,
+>
+> I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+>
+> Thank you!
+> Xiao
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+From xil at stanford.edu  Tue Jan 29 12:06:36 2019
+From: xil at stanford.edu (Xiao Li)
+Date: Tue, 29 Jan 2019 20:06:36 +0000
+Subject: [snf-promcommittee] Process form for critical point drier use
+In-Reply-To: <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+References: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+ <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+Message-ID: <BYAPR02MB5703F261133E850A99977B0FCA970@BYAPR02MB5703.namprd02.prod.outlook.com>
+
+Hi Michelle,
+
+Sorry that I haven't explained clearly in the form. Culturing the live cells requires biosafety clearance. But by the time I take the sample to clean room, the cells are already dead and fixed. Also, these is a commonly used normal cell line, so it requires relatively low biosafety level for culture.
+
+Besides, I noticed that this form has been approved: https://drive.google.com/file/d/1-P65YpwRPCuWeK0e9qfjDxrRUiy-f_jD/view. Essentially, I want to do the same thing, but with a different cell line. If necessary, please let me know what else I should report, with this form as an example.
+
+Thank you!
+Xiao
+
+-----Original Message-----
+From: Michelle Rincon [mailto:michelle.rincon at gmail.com] 
+Sent: Tuesday, January 29, 2019 10:17 AM
+To: Xiao Li <xil at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] Process form for critical point drier use
+
+Hi Xiao,
+
+Thank you for your submission.  The SDS you have linked to says that it is valid for Various Animal Cell Cultures at Biosafety Level 1 or 2.  We do not have any biosafety clearance for the cleanroom, so it is very important to be clear about the bio safety of your cell samples.
+Do you have any additional information?
+
+Best,
+Michelle
+
+On Mon, Jan 28, 2019 at 10:12 PM Xiao Li <xil at stanford.edu> wrote:
+>
+> Hi,
+>
+> I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+>
+> Thank you!
+> Xiao
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+From michelle.rincon at gmail.com  Tue Jan 29 14:41:28 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Tue, 29 Jan 2019 14:41:28 -0800
+Subject: [snf-promcommittee] Process form for critical point drier use
+In-Reply-To: <BYAPR02MB5703F261133E850A99977B0FCA970@BYAPR02MB5703.namprd02.prod.outlook.com>
+References: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+ <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+ <BYAPR02MB5703F261133E850A99977B0FCA970@BYAPR02MB5703.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQ1oNap_RQcz2ejOcRs+gx=pwWm4YQu6vixF9WyByNcnw@mail.gmail.com>
+
+Hi Xiao,
+
+Thank you for checking our archives :). The procedure does match, but
+the biosafety of the cell line had documentation demonstrating
+Biosafety level 1 for the cells.  We will need some sort of
+documentation that your cells are now at that safety level as well.
+Are there established procedures that document shifts in Biosafety
+levels due to processing?
+
+Best,
+Michelle
+
+On Tue, Jan 29, 2019 at 12:06 PM Xiao Li <xil at stanford.edu> wrote:
+>
+> Hi Michelle,
+>
+> Sorry that I haven't explained clearly in the form. Culturing the live cells requires biosafety clearance. But by the time I take the sample to clean room, the cells are already dead and fixed. Also, these is a commonly used normal cell line, so it requires relatively low biosafety level for culture.
+>
+> Besides, I noticed that this form has been approved: https://drive.google.com/file/d/1-P65YpwRPCuWeK0e9qfjDxrRUiy-f_jD/view. Essentially, I want to do the same thing, but with a different cell line. If necessary, please let me know what else I should report, with this form as an example.
+>
+> Thank you!
+> Xiao
+>
+> -----Original Message-----
+> From: Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> Sent: Tuesday, January 29, 2019 10:17 AM
+> To: Xiao Li <xil at stanford.edu>
+> Cc: snf-promcommittee at lists.stanford.edu
+> Subject: Re: [snf-promcommittee] Process form for critical point drier use
+>
+> Hi Xiao,
+>
+> Thank you for your submission.  The SDS you have linked to says that it is valid for Various Animal Cell Cultures at Biosafety Level 1 or 2.  We do not have any biosafety clearance for the cleanroom, so it is very important to be clear about the bio safety of your cell samples.
+> Do you have any additional information?
+>
+> Best,
+> Michelle
+>
+> On Mon, Jan 28, 2019 at 10:12 PM Xiao Li <xil at stanford.edu> wrote:
+> >
+> > Hi,
+> >
+> > I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+> >
+> > Thank you!
+> > Xiao
+> > _______________________________________________
+> > snf-promcommittee mailing list
+> > snf-promcommittee at lists.stanford.edu
+> > https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+From mmrincon at stanford.edu  Tue Jan 29 14:58:59 2019
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 29 Jan 2019 14:58:59 -0800
+Subject: [snf-promcommittee] Request for brining power supply into ExFab
+In-Reply-To: <BL0PR02MB489958399E014F6335B5E4E2B8970@BL0PR02MB4899.namprd02.prod.outlook.com>
+References: <MW2PR02MB3691F58BC551FD02D1C4B374D99B0@MW2PR02MB3691.namprd02.prod.outlook.com>
+ <BL0PR02MB489958399E014F6335B5E4E2B8970@BL0PR02MB4899.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDS4sLX77_vD2D=T6aDuvQL4q_fraEBJ23oXeC4e1bHxGg@mail.gmail.com>
+
+Thank you Elmer and Usha!
+
+Hansen, could you please update your PROM request with the procedures
+you develop with Elmer and Usha so we can have them for future
+reference?  You may want to work with Elmer for your first couple
+runs, but if you could update the PROM request before your first run
+on your own we can give you "official" approval.
+
+Best,
+Michelle
+
+On Tue, Jan 29, 2019 at 12:53 PM Usha Raghuram <usha at stanford.edu> wrote:
+>
+> Hansen,
+>
+>
+>
+> Can you talk to Elmer about the set up and make sure you all the power/ voltage needs and check we have room for the set up as well as connections and there are no safety issues.
+>
+>
+>
+> I have forwarded your PROM request to Elmer and he is aware of it.
+>
+>
+>
+> Usha
+>
+>
+>
+> From: snf-promcommittee [mailto:snf-promcommittee-bounces at lists.stanford.edu] On Behalf Of Hansen Qiao
+> Sent: Friday, January 25, 2019 3:47 PM
+> To: snf-promcommittee at lists.stanford.edu
+> Subject: [snf-promcommittee] Request for brining power supply into ExFab
+>
+>
+>
+> Dear Prom Committee,
+>
+>
+>
+> Hello!
+>
+> My name is Hansen Qiao. I am a 2nd year MS student, and I have been an active member of SNF since July, 2018.
+>
+> I am making a request for brining a power supply to the ExFab and using it for a localized heated bonding project. Please refer to the attached file for more detailed information.
+>
+> Please let me know if there exists any problem with this request. Thank you!
+>
+>
+>
+> Yours sincerely,
+>
+> Hansen Qiao
+
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+
+From xil at stanford.edu  Thu Jan 31 10:28:34 2019
+From: xil at stanford.edu (Xiao Li)
+Date: Thu, 31 Jan 2019 18:28:34 +0000
+Subject: [snf-promcommittee] Process form for critical point drier use
+In-Reply-To: <CAFSuyDQ1oNap_RQcz2ejOcRs+gx=pwWm4YQu6vixF9WyByNcnw@mail.gmail.com>
+References: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+ <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+ <BYAPR02MB5703F261133E850A99977B0FCA970@BYAPR02MB5703.namprd02.prod.outlook.com>
+ <CAFSuyDQ1oNap_RQcz2ejOcRs+gx=pwWm4YQu6vixF9WyByNcnw@mail.gmail.com>
+Message-ID: <BYAPR02MB5703074FCC7A5B3FEC45A090CA910@BYAPR02MB5703.namprd02.prod.outlook.com>
+
+Hi Michelle,
+
+If my understanding is correct, you need proof that the biosafety level will not be higher after the processing. Below is a proof.
+
+Fixation will decrease biosafety level, if properly done: https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.22454.
+
+" Although impractical for most cell sorting experiments, samples may be fixed in order to reduce the biocontainment level required. However, in this case, appropriate methods must be selected to reliably inactivate potentially bio?hazardous agents. Concerns exist about the effectiveness of standard fixation methods to reduce the level of infectivity in samples containing high titers of known viruses or unknown infectious agents resistant to inactivation 31, 32. Fixation procedures must be performed carefully within well?defined standard operating procedures; otherwise, samples that are presumed inactivated, may not be and therefore could pose a serious health risk to laboratory personnel. Cell sorting operators or managers and IBCs may require proof of inactivation for higher risk biohazards to ensure that the biosafety level selected is appropriate for the proposed sorting experiment."
+
+Regarding whether critical point dryer would shift biosafety level, I cannot find a document to prove that ...
+
+If you think this is not sufficient, I can keep looking for information to resolve the issue.
+
+Thanks!
+Xiao
+
+-----Original Message-----
+From: Michelle Rincon [mailto:michelle.rincon at gmail.com] 
+Sent: Tuesday, January 29, 2019 2:41 PM
+To: Xiao Li <xil at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] Process form for critical point drier use
+
+Hi Xiao,
+
+Thank you for checking our archives :). The procedure does match, but the biosafety of the cell line had documentation demonstrating Biosafety level 1 for the cells.  We will need some sort of documentation that your cells are now at that safety level as well.
+Are there established procedures that document shifts in Biosafety levels due to processing?
+
+Best,
+Michelle
+
+On Tue, Jan 29, 2019 at 12:06 PM Xiao Li <xil at stanford.edu> wrote:
+>
+> Hi Michelle,
+>
+> Sorry that I haven't explained clearly in the form. Culturing the live cells requires biosafety clearance. But by the time I take the sample to clean room, the cells are already dead and fixed. Also, these is a commonly used normal cell line, so it requires relatively low biosafety level for culture.
+>
+> Besides, I noticed that this form has been approved: https://drive.google.com/file/d/1-P65YpwRPCuWeK0e9qfjDxrRUiy-f_jD/view. Essentially, I want to do the same thing, but with a different cell line. If necessary, please let me know what else I should report, with this form as an example.
+>
+> Thank you!
+> Xiao
+>
+> -----Original Message-----
+> From: Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> Sent: Tuesday, January 29, 2019 10:17 AM
+> To: Xiao Li <xil at stanford.edu>
+> Cc: snf-promcommittee at lists.stanford.edu
+> Subject: Re: [snf-promcommittee] Process form for critical point drier 
+> use
+>
+> Hi Xiao,
+>
+> Thank you for your submission.  The SDS you have linked to says that it is valid for Various Animal Cell Cultures at Biosafety Level 1 or 2.  We do not have any biosafety clearance for the cleanroom, so it is very important to be clear about the bio safety of your cell samples.
+> Do you have any additional information?
+>
+> Best,
+> Michelle
+>
+> On Mon, Jan 28, 2019 at 10:12 PM Xiao Li <xil at stanford.edu> wrote:
+> >
+> > Hi,
+> >
+> > I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+> >
+> > Thank you!
+> > Xiao
+> > _______________________________________________
+> > snf-promcommittee mailing list
+> > snf-promcommittee at lists.stanford.edu
+> > https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+From michelle.rincon at gmail.com  Thu Jan 31 11:40:28 2019
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 31 Jan 2019 11:40:28 -0800
+Subject: [snf-promcommittee] Process form for critical point drier use
+In-Reply-To: <BYAPR02MB5703074FCC7A5B3FEC45A090CA910@BYAPR02MB5703.namprd02.prod.outlook.com>
+References: <7AA70E59-4DA6-4D25-9F1F-72E21D555FDF@stanford.edu>
+ <CAFSuyDTAdk6R2aBdWV2BeLLXMJnNfHj6pGPfPU_U6K27rb4LOg@mail.gmail.com>
+ <BYAPR02MB5703F261133E850A99977B0FCA970@BYAPR02MB5703.namprd02.prod.outlook.com>
+ <CAFSuyDQ1oNap_RQcz2ejOcRs+gx=pwWm4YQu6vixF9WyByNcnw@mail.gmail.com>
+ <BYAPR02MB5703074FCC7A5B3FEC45A090CA910@BYAPR02MB5703.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQ7wVtsCqNL7h17kZcqzh2oyFeucQ=O6megMb18iQHE=Q@mail.gmail.com>
+
+Hi Xiao,
+
+That is an interesting article!  My question was more along the lines
+of demonstrating that they are at Biosafety 1 before you bring them
+into the lab rather than the CPD shifting the biosafety level.  I
+checked your link again, and on the product page it describes your
+cells as BSL1 when you purchase them, so the SDS they have linked
+looks like it is a general overall one they may use for lots of their
+products.  Does that sound right?
+
+Best,
+Michelle
+
+On Thu, Jan 31, 2019 at 10:28 AM Xiao Li <xil at stanford.edu> wrote:
+>
+> Hi Michelle,
+>
+> If my understanding is correct, you need proof that the biosafety level will not be higher after the processing. Below is a proof.
+>
+> Fixation will decrease biosafety level, if properly done: https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.22454.
+>
+> " Although impractical for most cell sorting experiments, samples may be fixed in order to reduce the biocontainment level required. However, in this case, appropriate methods must be selected to reliably inactivate potentially bio?hazardous agents. Concerns exist about the effectiveness of standard fixation methods to reduce the level of infectivity in samples containing high titers of known viruses or unknown infectious agents resistant to inactivation 31, 32. Fixation procedures must be performed carefully within well?defined standard operating procedures; otherwise, samples that are presumed inactivated, may not be and therefore could pose a serious health risk to laboratory personnel. Cell sorting operators or managers and IBCs may require proof of inactivation for higher risk biohazards to ensure that the biosafety level selected is appropriate for the proposed sorting experiment."
+>
+> Regarding whether critical point dryer would shift biosafety level, I cannot find a document to prove that ...
+>
+> If you think this is not sufficient, I can keep looking for information to resolve the issue.
+>
+> Thanks!
+> Xiao
+>
+> -----Original Message-----
+> From: Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> Sent: Tuesday, January 29, 2019 2:41 PM
+> To: Xiao Li <xil at stanford.edu>
+> Cc: snf-promcommittee at lists.stanford.edu
+> Subject: Re: [snf-promcommittee] Process form for critical point drier use
+>
+> Hi Xiao,
+>
+> Thank you for checking our archives :). The procedure does match, but the biosafety of the cell line had documentation demonstrating Biosafety level 1 for the cells.  We will need some sort of documentation that your cells are now at that safety level as well.
+> Are there established procedures that document shifts in Biosafety levels due to processing?
+>
+> Best,
+> Michelle
+>
+> On Tue, Jan 29, 2019 at 12:06 PM Xiao Li <xil at stanford.edu> wrote:
+> >
+> > Hi Michelle,
+> >
+> > Sorry that I haven't explained clearly in the form. Culturing the live cells requires biosafety clearance. But by the time I take the sample to clean room, the cells are already dead and fixed. Also, these is a commonly used normal cell line, so it requires relatively low biosafety level for culture.
+> >
+> > Besides, I noticed that this form has been approved: https://drive.google.com/file/d/1-P65YpwRPCuWeK0e9qfjDxrRUiy-f_jD/view. Essentially, I want to do the same thing, but with a different cell line. If necessary, please let me know what else I should report, with this form as an example.
+> >
+> > Thank you!
+> > Xiao
+> >
+> > -----Original Message-----
+> > From: Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> > Sent: Tuesday, January 29, 2019 10:17 AM
+> > To: Xiao Li <xil at stanford.edu>
+> > Cc: snf-promcommittee at lists.stanford.edu
+> > Subject: Re: [snf-promcommittee] Process form for critical point drier
+> > use
+> >
+> > Hi Xiao,
+> >
+> > Thank you for your submission.  The SDS you have linked to says that it is valid for Various Animal Cell Cultures at Biosafety Level 1 or 2.  We do not have any biosafety clearance for the cleanroom, so it is very important to be clear about the bio safety of your cell samples.
+> > Do you have any additional information?
+> >
+> > Best,
+> > Michelle
+> >
+> > On Mon, Jan 28, 2019 at 10:12 PM Xiao Li <xil at stanford.edu> wrote:
+> > >
+> > > Hi,
+> > >
+> > > I am Xiao Li, a postdoc in Chemistry. I want to use critical point drier at Stanford Nanofabrication Facilities to prepare my cell samples (on nanostructures) for SEM imaging. Here is the form I filled to qualify for the process. Please don?t hesitate to contact me if you have any questions. I am looking forward to your approval.
+> > >
+> > > Thank you!
+> > > Xiao
+> > > _______________________________________________
+> > > snf-promcommittee mailing list
+> > > snf-promcommittee at lists.stanford.edu
+> > > https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+From hpang at nikonrca.com  Thu Jan 31 16:56:52 2019
+From: hpang at nikonrca.com (Henry Pang)
+Date: Fri, 1 Feb 2019 00:56:52 +0000
+Subject: [snf-promcommittee] Process & Materials Review Request Submission
+Message-ID: <aede4307710e488fb72921997972fdab@mail01.nikonrca.com>
+
+Dear SNF-PROMCOMM,
+
+I am submitting a Process or Materials Request Form titled "HD Microsystems HD-8930, PI-2610, PI-2545 polyimide precursors and VM-651 adhesion promoter". Supporting documents (SDS and process guides of materials) are also attached.
+
+Your time and consideration for this request is appreciated. We are also happy to answer any questions from you.
+
+Best regards,
+
+Henry Pang
+---------------------------------------------------
+Senior Mechanical Engineer
+Nikon Research Corporation of America
+1399 Shoreway Road, Belmont, CA 94002
+Phone: (650) 413-8123
+Email: hpang at nikonrca.com<mailto:hpang at nikonrca.com>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190201/934d6f05/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Supporting_Documents_hpang_20190129.zip
+Type: application/x-zip-compressed
+Size: 1478683 bytes
+Desc: Supporting_Documents_hpang_20190129.zip
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190201/934d6f05/attachment-0001.zip>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form hpang 20190129.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 109085 bytes
+Desc: Process or Materials Request Form hpang 20190129.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20190201/934d6f05/attachment-0001.docx>
+
