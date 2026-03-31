@@ -3,6 +3,7 @@ import redis.asyncio as redis
 from typing import List
 import os
 import sys
+import random
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PREPROCESSING_DIR = os.path.join(ROOT_DIR, "preprocessing")
@@ -20,8 +21,12 @@ from preprocessing.models.insert import Email
 
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=True)
 
-QUEUE_NAME = "pending_files"
-MAX_FILES = 20
+PROM_QUEUE_NAME = "pending_prom_files"
+EMAIL_QUEUE_NAME = "pending_email_files"
+MAX_PROM_FILES = 10
+MAX_EMAIL_FILES = 5
+BATCH_FILL_WINDOW_SECONDS = 0.2
+BATCH_FILL_POLL_INTERVAL_SECONDS = 0.02
 
 #PROM PIPELINE
 
@@ -79,32 +84,49 @@ async def create_threads_of_emails(batch: List[str]):
 #EMAIL PIPELINE
 
 async def collect_batch():
-    _, first_item = await redis_file_queue.blpop(QUEUE_NAME, timeout=0)
+    #queue prioritization does not scale to more than 2 queues right now, fix later
+    queue_order = (
+        [PROM_QUEUE_NAME, EMAIL_QUEUE_NAME]
+        if random.random() < 0.5
+        else [EMAIL_QUEUE_NAME, PROM_QUEUE_NAME]
+    )
+    queue_name, first_item = await redis_file_queue.blpop(queue_order, timeout=0)
+    if queue_name == PROM_QUEUE_NAME:
+        max_files = MAX_PROM_FILES
+    elif queue_name == EMAIL_QUEUE_NAME:
+        max_files = MAX_EMAIL_FILES
+    else:
+        max_files = 1
+
     batch = [first_item]
     print(f"{first_item} is the first item")
-    while len(batch) < MAX_FILES:
-        item = await redis_file_queue.lpop(QUEUE_NAME)
-        if item is None:
+    loop = asyncio.get_running_loop()
+    deadline = loop.time() + BATCH_FILL_WINDOW_SECONDS
+
+    while len(batch) < max_files:
+        item = await redis_file_queue.lpop(queue_name)
+        if item is not None:
+            batch.append(item)
+            continue
+
+        remaining = deadline - loop.time()
+        if remaining <= 0:
             break
-        batch.append(item)
-    return batch
+        await asyncio.sleep(min(BATCH_FILL_POLL_INTERVAL_SECONDS, remaining))
+
+    return (queue_name, batch)
 
 
 
 async def worker():
     while True:
-        batch = await collect_batch()
+        queue_name, batch = await collect_batch()
         if not batch:
             continue
-        if "prom" in batch[0]:
-            print("in prom pipeline")
+        if queue_name == PROM_QUEUE_NAME:
             await prom_process_batch(batch)
-        elif "email" in batch[0]:
-            print("in email pipeline")
+        elif queue_name == EMAIL_QUEUE_NAME:
             await create_threads_of_emails(batch)
-        else:
-            print("TYPE NOT SUPPORTED")
-
 
 if __name__ == "__main__":
     try: 

@@ -41,7 +41,7 @@ const getDisplayPath = (file) => file?.webkitRelativePath || file?.name || ''
 
 const resetUploadCounter = async () => {
   try {
-    await fetch('/upload/reset_counter', { method: 'POST' })
+    // await fetch('/upload/reset_counter', { method: 'POST' })
   } catch {
     // Counter reset failure should not block UI actions.
   }
@@ -95,16 +95,15 @@ function ConfirmUploadModal({
   entries,
   onConfirm,
   onCancel,
+  onRemoveEntry,
 }) {
   if (!isOpen) return null
 
   const fileCount = entries.length
-  const preview = entries.slice(0, 8)
-  const hiddenCount = Math.max(0, fileCount - preview.length)
 
   return (
-    <div className="absolute inset-0 z-40 flex items-center justify-center bg-slate-900/40 backdrop-blur-sm px-4 py-6">
-      <div className="w-full max-w-4xl max-h-full overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-2xl shadow-slate-900/20">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/45 backdrop-blur-sm px-4 py-6">
+      <div className="w-full max-w-5xl max-h-[88vh] overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-2xl shadow-slate-900/30">
         <div className="border-b border-slate-100 bg-gradient-to-r from-red-50 via-white to-slate-50 px-6 py-5 md:px-8 md:py-6">
           <div className="inline-flex items-center gap-2 rounded-full border border-red-100 bg-red-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-red-700">
             Confirm Upload
@@ -117,8 +116,8 @@ function ConfirmUploadModal({
           </p>
         </div>
 
-        <div className="grid gap-4 px-6 py-5 md:grid-cols-[14rem_1fr] md:px-8 md:py-6">
-          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+        <div className="grid gap-4 px-6 py-5 md:grid-cols-[15rem_1fr] md:px-8 md:py-6">
+          <div className="flex h-full min-h-[22rem] flex-col rounded-2xl border border-slate-200 bg-slate-50 p-4">
             <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
               Summary
             </div>
@@ -129,48 +128,58 @@ function ConfirmUploadModal({
               {selectionKind === 'directory' ? 'items from selected directory' : 'selected files'}
             </div>
             <div className="mt-4 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700">
-              Target: <span className="font-medium">{target.label}</span>
+               <span className="font-medium">{target.label}</span>
+            </div>
+            <div className="mt-auto flex flex-col gap-2 pt-8">
+              <button
+                onClick={onConfirm}
+                disabled={entries.length === 0}
+                className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                Accept Upload
+              </button>
+              <button
+                onClick={onCancel}
+                className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100"
+              >
+                Decline
+              </button>
             </div>
           </div>
 
-          <div className="min-h-0 rounded-2xl border border-slate-200 bg-white">
+          <div className="min-h-0 rounded-2xl border border-slate-200 bg-white overflow-hidden">
             <div className="border-b border-slate-100 px-4 py-3 text-sm font-medium text-slate-900">
               Selection preview
             </div>
-            <div className="max-h-[22rem] overflow-y-auto px-4 py-3">
+            <div className="h-[22rem] overflow-y-auto px-4 py-3">
               <ul className="space-y-2">
-                {preview.map((entry) => (
+                {entries.map((entry) => (
                   <li
                     key={entry.id}
-                    className="rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 text-sm text-slate-700"
+                    className="flex items-start gap-3 rounded-xl border border-slate-100 bg-slate-50 px-3 py-2"
                   >
-                    {entry.path}
+                    <div className="min-w-0 flex-1 text-sm text-slate-700">
+                      {entry.path}
+                    </div>
+                    <button
+                      onClick={() => onRemoveEntry(entry.id)}
+                      className="flex h-7 w-7 flex-none items-center justify-center rounded-full bg-white text-slate-400 transition-colors hover:bg-red-50 hover:text-red-600"
+                      aria-label={`Remove ${entry.path}`}
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
                   </li>
                 ))}
               </ul>
-              {hiddenCount > 0 ? (
-                <div className="mt-3 text-sm text-slate-500">
-                  + {hiddenCount} more file{hiddenCount === 1 ? '' : 's'}
+              {entries.length === 0 ? (
+                <div className="rounded-xl border border-dashed border-slate-200 px-4 py-6 text-sm text-slate-500">
+                  No files selected.
                 </div>
               ) : null}
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col-reverse gap-2 border-t border-slate-100 bg-slate-50 px-6 py-4 sm:flex-row sm:justify-end md:px-8">
-          <button
-            onClick={onCancel}
-            className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100"
-          >
-            Cancel
-          </button>
-          <button
-            onClick={onConfirm}
-            className="rounded-xl bg-red-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-colors hover:bg-red-700"
-          >
-            Confirm Upload
-          </button>
-        </div>
       </div>
     </div>
   )
@@ -259,7 +268,7 @@ export default function UploadPromPage() {
   }, [items])
 
   useEffect(() => {
-    resetUploadCounter()
+    // resetUploadCounter()
   }, [])
 
   useEffect(() => {
@@ -452,6 +461,16 @@ export default function UploadPromPage() {
     setPendingConfirmation(null)
   }
 
+  const removePendingEntry = (entryId) => {
+    setPendingConfirmation((prev) => {
+      if (!prev) return prev
+      return {
+        ...prev,
+        entries: prev.entries.filter((entry) => entry.id !== entryId),
+      }
+    })
+  }
+
   const addFiles = (files) => {
     const entries = files
       .map((file) => ({ file, path: getDisplayPath(file) }))
@@ -535,7 +554,7 @@ export default function UploadPromPage() {
   }
 
   const clearAll = () => {
-    resetUploadCounter()
+    // resetUploadCounter()
     if (completionTimerRef.current) clearTimeout(completionTimerRef.current)
     completionTimerRef.current = null
     setItems([])
@@ -554,7 +573,7 @@ export default function UploadPromPage() {
     setUploaded([])
     setMode('idle')
     setPendingConfirmation(null)
-    await resetUploadCounter()
+    // await resetUploadCounter()
   }
 
   return (
@@ -598,7 +617,7 @@ export default function UploadPromPage() {
           <UploadedFilesPanel
             uploaded={uploaded}
             onClear={() => {
-              resetUploadCounter()
+              // resetUploadCounter()
               setUploaded([])
             }}
           />
@@ -618,6 +637,7 @@ export default function UploadPromPage() {
               entries={pendingConfirmation?.entries || []}
               onConfirm={confirmPendingUpload}
               onCancel={cancelPendingUpload}
+              onRemoveEntry={removePendingEntry}
             />
             <div className="absolute inset-0 bg-gradient-to-br from-red-50/40 via-white to-slate-50/70" />
 

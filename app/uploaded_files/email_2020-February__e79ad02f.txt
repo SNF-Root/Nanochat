@@ -1,0 +1,5951 @@
+From kmn at stanford.edu  Sat Feb  1 12:55:10 2020
+From: kmn at stanford.edu (Katie Neilson)
+Date: Sat, 1 Feb 2020 20:55:10 +0000
+Subject: [snf-promcommittee] new material into SNF
+Message-ID: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+
+Good afternoon,
+
+I'm looking to bring a new 2D material into SNF. I've attached the PRoM committee form. Let me know if you need any more information or context- happy to provide.
+
+Katie
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200201/f3c221be/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SNF_PROM_InSe.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 102493 bytes
+Desc: SNF_PROM_InSe.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200201/f3c221be/attachment-0001.docx>
+
+From usha at stanford.edu  Sun Feb  2 10:41:50 2020
+From: usha at stanford.edu (Usha Raghuram)
+Date: Sun, 2 Feb 2020 18:41:50 +0000
+Subject: [snf-promcommittee] Ox-35 v-vi etch - contamination
+	testing	report
+In-Reply-To: <CAFSuyDQyGLAwvvR_5TUVnP5aOQCnTCODcJF6+xNHMXR5jYqJLQ@mail.gmail.com>
+References: <BY5PR02MB60515773C07DD48F97267BC6BB040@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <CAFSuyDSCUY8-ZfPxAc5N_xab73cL8WN-zjjYF-v98ohRunoR_g@mail.gmail.com>
+ <CH2PR02MB622996EC9D964D181B5839B1D1040@CH2PR02MB6229.namprd02.prod.outlook.com>,
+ <CAFSuyDQyGLAwvvR_5TUVnP5aOQCnTCODcJF6+xNHMXR5jYqJLQ@mail.gmail.com>
+Message-ID: <BYAPR02MB49039B81C34B60FDF95E3AB0B8010@BYAPR02MB4903.namprd02.prod.outlook.com>
+
+Yes.  I am fine with Ilan's bismuth etch.
+
+Usha
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Friday, January 31, 2020 9:38 AM
+To: Xiaoqing Xu <steelxu at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Ox-35 v-vi etch - contamination testing report
+
+Great! Usha, do you give your final approval as well?
+
+On Thu, Jan 30, 2020 at 10:59 AM Xiaoqing Xu <steelxu at stanford.edu<mailto:steelxu at stanford.edu>> wrote:
+I am OK with him running this any time, but would suggest him make a comment on badger every time he runs this process so other users could be aware of that. MOCVD users have to follow Savannah's procedure which is similar  to this one, except that they have to use their own CLEAN QUARTZ beaker and CLEAN teflon coated thermometer. MOCVD users have been doing this for their pieces cleaning.
+
+Xiaoqing
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu<mailto:snf-promcommittee-bounces at lists.stanford.edu>> on behalf of Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>>
+Sent: Thursday, January 30, 2020 10:02 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: [snf-promcommittee] Ox-35 v-vi etch - contamination testing report
+
+The results look good! Are we ok with approving his etch?
+
+And just to make sure we are all on the same page- are we saying he can run this any time and that all of the people who are going to use this tool and then go into the MOCVD will have to follow the cleaning procedure we have detailed for the VPD ICPMS test?
+
+
+
+On Wed, Jan 29, 2020 at 9:44 PM Ilan Thomas Rosen <irosen at stanford.edu<mailto:irosen at stanford.edu>> wrote:
+Dear committee members,
+
+Please find attached my report detailing the results of contamination evaluation testing for ICP etching of v-vi materials in Ox-35. I look forward to hearing back and I am happy to answer any remaining questions.
+
+Thank you,
+Ilan
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200202/9060cb36/attachment.html>
+
+From mmrincon at stanford.edu  Mon Feb  3 09:55:53 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 3 Feb 2020 09:55:53 -0800
+Subject: [snf-promcommittee] Gemanium Substrate with Sputtered Silicon
+ and Tungsten Layer Processing
+In-Reply-To: <CAFSuyDSbeH2sg-APM_vq8Wu5T1XRe9qbPA-1zKFRaJnf0_=wHg@mail.gmail.com>
+References: <BY5PR02MB6417C3BBFAB97BCA3682BBE7FC090@BY5PR02MB6417.namprd02.prod.outlook.com>
+ <CAFSuyDS-+=WuW-X4Fme_c6ScaNfYZ_Q7y4MfLTS=1mTgFfmMgA@mail.gmail.com>
+ <BY5PR02MB641741A39F854E68384C2C80FC0A0@BY5PR02MB6417.namprd02.prod.outlook.com>
+ <CAFSuyDSbeH2sg-APM_vq8Wu5T1XRe9qbPA-1zKFRaJnf0_=wHg@mail.gmail.com>
+Message-ID: <CAFSuyDSOU=QyL9v5ZfVYKALUcc7ow7izwsuxU22adF6+rL2Obg@mail.gmail.com>
+
+Moving back up in your inboxes! :)
+
+On Wed, Jan 29, 2020 at 5:01 PM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> Hi PROM Commers,
+>
+> Could those of you knowledgable in the Germanium world comment on this
+> flow? Specifically Uli is concerned that we used to have a separate wet
+> bench dedicated for Ge processing, but this flow is now using wbcleans.
+>
+> Thanks!
+> Michelle
+>
+>
+> On Mon, Jan 27, 2020 at 6:20 PM Matthew A. Cherry <mcherry1 at stanford.edu>
+> wrote:
+>
+>> Hi Michelle,
+>>
+>> I guess I was looking at just the right moment to miss it. Please see
+>> attached. I tried to separate the different etching steps by color to make
+>> it more clear.
+>>
+>> I can provide more information on the sputtering sources, substrates, and
+>> sputtering machine as needed. I have only included an MSDS for our
+>> photoresist, which is the only non-SNF-stocked chemical in the process.
+>>
+>> Thanks,
+>> Matt
+>> ------------------------------
+>> *From:* Michelle Rincon <michelle.rincon at gmail.com>
+>> *Sent:* Friday, January 24, 2020 5:49 PM
+>> *To:* Matthew A. Cherry <mcherry1 at stanford.edu>
+>> *Cc:* snf-promcommittee at lists.stanford.edu <
+>> snf-promcommittee at lists.stanford.edu>
+>> *Subject:* Re: [snf-promcommittee] Gemanium Substrate with Sputtered
+>> Silicon and Tungsten Layer Processing
+>>
+>> Hi Matt,
+>>
+>> I was working on the PROM form to make it downloadable today and I think
+>> I may have gotten in your way! Here is a link that I hope is working now:
+>> https://snfexfab.stanford.edu/snf/form/prom-process-or-materials-form
+>>
+>> Your question is a good one that is going to be a good discussion for the
+>> committee!
+>>
+>> Have a great weekend,
+>>
+>> Michelle
+>>
+>> On Fri, Jan 24, 2020 at 5:18 PM Matthew A. Cherry <mcherry1 at stanford.edu>
+>> wrote:
+>>
+>> Hello,
+>>
+>> In talking with Uli today, some questions came up about the correct
+>> equipment to use for a process that has been done at SNF for the last 20
+>> years.
+>>
+>> I don't see the PROM Committee form online, but please send me a blank
+>> copy or a link if you are able.
+>>
+>> The process in question uses pure germanium substrates with sputtered
+>> layers of silicon, tungsten, and aluminum. We use unheated H2O2 to etch the
+>> tungsten and the sputtered silicon layer exists to protect the germanium
+>> substrate during this step. This had been done at the old wbmetal bench,
+>> and is currently being done at the "new"/interim wbmetal bench. I'm unsure
+>> of the cross-contamination concerns of the germanium wet bench and the
+>> metals wet bench. It seems my understanding of the allowed substrate
+>> materials at the wbmetal bench is outdated.
+>>
+>> Thanks for any guidance,
+>> Matt
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200203/3278d72a/attachment.html>
+
+From skommera at stanford.edu  Mon Feb  3 10:03:26 2020
+From: skommera at stanford.edu (Swaroop Kommera)
+Date: Mon, 3 Feb 2020 18:03:26 +0000
+Subject: [snf-promcommittee] Fw: Request a new material in SNF
+In-Reply-To: <BYAPR02MB3960205A74C040F4D52A37EBD2040@BYAPR02MB3960.namprd02.prod.outlook.com>
+References: <BYAPR02MB3960BD273D1A19B52EAE7284D23C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDQv=+ybUDuUo2T1BsKQ+VECd58TtTSD5+1tJMxn=veMGg@mail.gmail.com>
+ <BYAPR02MB3960E9845549AFE630BEC095D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506166C267DC91CA86459BDFD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39609F4966DFD088E3C91F55D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506170AB2343F7802712FE3BD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39606307D01BA11AC2B04816D20C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDTbn6mFS760RByu7Gs8NEZ3ZdoDsbuZRjE0_FrrezhZtQ@mail.gmail.com>
+ <BYAPR02MB3960E92F008028689E5C2B34D20F0@BYAPR02MB3960.namprd02.prod.outlook.com>,
+ <CAFSuyDQW69un6fn_0r_UjFKQaKrfeLy-aE36QPmxtHZa7En=AQ@mail.gmail.com>
+ <BYAPR02MB3960205A74C040F4D52A37EBD2040@BYAPR02MB3960.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB43275EB3B3212363672A455BB6000@BYAPR02MB4327.namprd02.prod.outlook.com>
+
+Hi Prom Committee,
+   I am working with the student offline on this request. Once the discussions are completed, I will ask him to forward with the modifications, if needed.
+
+Swaroop
+
+From: Ji Won Seo <jwonseo at stanford.edu>
+Sent: Wednesday, January 29, 2020 4:48 PM
+To: Michelle Rincon <mmrincon at stanford.edu>; promcommitte <snf-promcommittee at lists.stanford.edu>
+Cc: Swaroop Kommera <skommera at stanford.edu>
+Subject: Re: [snf-promcommittee] Fw: Request a new material in SNF
+
+Hi, All.
+If you guys don't want to accept my proposed process,
+I will just use Headway 2 and hot plate near the Headway 2 for the NR26-12000PY samples.
+and
+If I want to use headway 3, I will use a hot plate in Headway 3 for the NR26-12000PY samples. (I will check accurate temperature of hot plate in Headway 3 using thermometer.)
+
+Please let me know when I can use headway 3.
+
+Thank you.
+
+Best, Ji Won.
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, January 29, 2020 4:38 PM
+To: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>; promcommitte <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Cc: Swaroop Kommera <skommera at stanford.edu<mailto:skommera at stanford.edu>>
+Subject: Re: [snf-promcommittee] Fw: Request a new material in SNF
+
+Hi Ji Won,
+
+There are many details that are missing from your plan that will need to be filled in to demonstrate that your proposed process is safe. Could you please address the following:
+
+1) What is the safe exposure limit for NR26-1200PY solvents?
+2) How much will you be exposed to during your walk across the lab?
+3) How much will your fellow labmembers be exposed to during your walk across the lab?
+4) What are the specific details of the carrier that you are proposing to use and how do you prove that it is a safe?
+
+Best,
+Michelle
+
+On Thu, Jan 23, 2020 at 11:55 AM Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>> wrote:
+Hi, All.
+As a suggestion in email below, I added a few sentence in request form again.
+Please check the attached file and let me know.
+Thank you.
+
+Best, Ji Won.
+
+________________________________
+From: Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>>
+Sent: Thursday, January 23, 2020 11:53 AM
+To: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: [snf-promcommittee] Fw: Request a new material in SNF
+
+Hi Ji Won,
+
+It is not safe to walk around the lab with a wet wafer. In your original request, the procedure we approved was to use both Headway 2 and the hotplate at Headway 2. Your proposal to modify that with use of Headway 3 and the hotplate at Headway 2 is not approved, but you can use the original and approved procedure. Please let me know if you have any questions!
+
+Best,
+Michelle
+
+
+On Wed, Jan 22, 2020 at 11:54 AM Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>> wrote:
+Hi, All.
+After discussion of my process with Swaroop, I added detail process of my photoresist in the previous form.
+I attach a revised form. Please check it.
+
+Thank you.
+
+Best, Ji Won.
+________________________________
+From: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Sent: Wednesday, January 8, 2020 10:57 AM
+To: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Cc: Gary J Sosa <gsosa at stanford.edu<mailto:gsosa at stanford.edu>>
+Subject: RE: [snf-promcommittee] Request a new material in SNF
+
+
+Yes, you will need this label
+
+HI Gary, Ji Won will need a label for a new version of negative resist
+
+
+
+Thanks
+
+phil
+
+
+
+From: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Sent: Wednesday, January 8, 2020 10:55 AM
+To: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Cc: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Subject: Re: [snf-promcommittee] Request a new material in SNF
+
+
+
+Sure. If you have any question, I can explain the process.
+
+
+
+Meanwhile, should I get a yellow label for new PR from Gary?
+
+________________________________
+
+?? ??: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+?? ??: ???, 1? 8, 2020 10:50 ??
+?? ??: Ji Won Seo
+??: Michelle Rincon
+??: RE: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi Ji Won
+
+
+
+I am feeling much better today, it is good to be back.
+
+You are approved to use the resist as requested. If possible I would like to ask you more about your process and learn how this resist works for your application.
+
+
+
+morning
+
+phillip
+
+
+
+From: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Sent: Wednesday, January 8, 2020 10:41 AM
+To: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Subject: Fw: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi, Phillip.
+
+I heard that you was sick yesterday.
+
+How are you feeling? I hope you feel get better soon.
+
+
+
+I have a favor to ask. As stated in the email below, I requested my new photoresist, and would like to use ASAP. So, please confirm it asap. Thank you.
+
+
+
+Best, Ji Won.
+
+
+
+________________________________
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, January 7, 2020 3:21 PM
+To: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Subject: Re: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi JiWon,
+
+
+
+Phil is sick today but hopefully will be back tomorrow so we can confirm that you are ok to use this! I will get back to you tomorrow I hope :)
+
+
+
+Michelle
+
+
+
+On Mon, Jan 6, 2020 at 12:49 PM Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>> wrote:
+
+Hi, This is Ji Won Seo, SNF member.
+
+I request for use and storage of a chemical, negative photoresist NR26-12000PY.
+
+The photoresist is almost same model with previous one that I am using in SNF now.
+
+
+
+I attach a PROM form for placing my chemical in SNF.
+
+
+
+Additionally, I attach a MSDS and protocol sheet.
+
+
+
+Please check it ASAP because it has to be hurry.
+
+
+
+Thank  you.
+
+
+
+Best, Ji Won.
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+
+
+--
+
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200203/b9b1c5ff/attachment-0001.html>
+
+From mmrincon at stanford.edu  Mon Feb  3 10:18:00 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 3 Feb 2020 10:18:00 -0800
+Subject: [snf-promcommittee] Fw: Request a new material in SNF
+In-Reply-To: <BYAPR02MB43275EB3B3212363672A455BB6000@BYAPR02MB4327.namprd02.prod.outlook.com>
+References: <BYAPR02MB3960BD273D1A19B52EAE7284D23C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDQv=+ybUDuUo2T1BsKQ+VECd58TtTSD5+1tJMxn=veMGg@mail.gmail.com>
+ <BYAPR02MB3960E9845549AFE630BEC095D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506166C267DC91CA86459BDFD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39609F4966DFD088E3C91F55D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506170AB2343F7802712FE3BD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39606307D01BA11AC2B04816D20C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDTbn6mFS760RByu7Gs8NEZ3ZdoDsbuZRjE0_FrrezhZtQ@mail.gmail.com>
+ <BYAPR02MB3960E92F008028689E5C2B34D20F0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDQW69un6fn_0r_UjFKQaKrfeLy-aE36QPmxtHZa7En=AQ@mail.gmail.com>
+ <BYAPR02MB3960205A74C040F4D52A37EBD2040@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB43275EB3B3212363672A455BB6000@BYAPR02MB4327.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTicRctW003-_Fx-AZnAUOKNPwyQ3FHgCOd-jmvbR9LDw@mail.gmail.com>
+
+Thanks Swaroop!
+
+On Mon, Feb 3, 2020 at 10:03 AM Swaroop Kommera <skommera at stanford.edu>
+wrote:
+
+> Hi Prom Committee,
+>
+>    I am working with the student offline on this request. Once the
+> discussions are completed, I will ask him to forward with the
+> modifications, if needed.
+>
+>
+>
+> Swaroop
+>
+>
+>
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 29, 2020 4:48 PM
+> *To:* Michelle Rincon <mmrincon at stanford.edu>; promcommitte <
+> snf-promcommittee at lists.stanford.edu>
+> *Cc:* Swaroop Kommera <skommera at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Fw: Request a new material in SNF
+>
+>
+>
+> Hi, All.
+>
+> If you guys don't want to accept my proposed process,
+>
+> I will just use Headway 2 and hot plate near the Headway 2 for the
+> NR26-12000PY samples.
+>
+> and
+>
+> If I want to use headway 3, I will use a hot plate in Headway 3 for the
+> NR26-12000PY samples. (I will check accurate temperature of hot plate in
+> Headway 3 using thermometer.)
+>
+>
+>
+> Please let me know when I can use headway 3.
+>
+>
+>
+> Thank you.
+>
+>
+>
+> Best, Ji Won.
+> ------------------------------
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Wednesday, January 29, 2020 4:38 PM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>; promcommitte <
+> snf-promcommittee at lists.stanford.edu>
+> *Cc:* Swaroop Kommera <skommera at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Fw: Request a new material in SNF
+>
+>
+>
+> Hi Ji Won,
+>
+>
+>
+> There are many details that are missing from your plan that will need to
+> be filled in to demonstrate that your proposed process is safe. Could you
+> please address the following:
+>
+>
+>
+> 1) What is the safe exposure limit for NR26-1200PY solvents?
+>
+> 2) How much will you be exposed to during your walk across the lab?
+>
+> 3) How much will your fellow labmembers be exposed to during your walk
+> across the lab?
+>
+> 4) What are the specific details of the carrier that you are proposing to
+> use and how do you prove that it is a safe?
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On Thu, Jan 23, 2020 at 11:55 AM Ji Won Seo <jwonseo at stanford.edu> wrote:
+>
+> Hi, All.
+>
+> As a suggestion in email below, I added a few sentence in request form
+> again.
+>
+> Please check the attached file and let me know.
+>
+> Thank you.
+>
+>
+>
+> Best, Ji Won.
+>
+>
+> ------------------------------
+>
+> *From:* Michelle Rincon <michelle.rincon at gmail.com>
+> *Sent:* Thursday, January 23, 2020 11:53 AM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Fw: Request a new material in SNF
+>
+>
+>
+> Hi Ji Won,
+>
+>
+>
+> It is not safe to walk around the lab with a wet wafer. In your original
+> request, the procedure we approved was to use both Headway 2 and the
+> hotplate at Headway 2. Your proposal to modify that with use of Headway 3
+> and the hotplate at Headway 2 is not approved, but you can use the original
+> and approved procedure. Please let me know if you have any questions!
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+>
+>
+> On Wed, Jan 22, 2020 at 11:54 AM Ji Won Seo <jwonseo at stanford.edu> wrote:
+>
+> Hi, All.
+>
+> After discussion of my process with Swaroop, I added detail process of my
+> photoresist in the previous form.
+>
+> I attach a revised form. Please check it.
+>
+>
+>
+> Thank you.
+>
+>
+>
+> Best, Ji Won.
+> ------------------------------
+>
+> *From:* Phillip Himmer <phimmer at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:57 AM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>
+> *Cc:* Gary J Sosa <gsosa at stanford.edu>
+> *Subject:* RE: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Yes, you will need this label
+>
+> HI Gary, Ji Won will need a label for a new version of negative resist
+>
+>
+>
+> Thanks
+>
+> phil
+>
+>
+>
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:55 AM
+> *To:* Phillip Himmer <phimmer at stanford.edu>
+> *Cc:* Michelle Rincon <mmrincon at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Sure. If you have any question, I can explain the process.
+>
+>
+>
+> Meanwhile, should I get a yellow label for new PR from Gary?
+> ------------------------------
+>
+> *??* *??**:* Phillip Himmer <phimmer at stanford.edu>
+> *??* *??**:* ???, 1? 8, 2020 10:50 ??
+> *??* *??**:* Ji Won Seo
+> *??**:* Michelle Rincon
+> *??**:* RE: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi Ji Won
+>
+>
+>
+> I am feeling much better today, it is good to be back.
+>
+> You are approved to use the resist as requested. If possible I would like
+> to ask you more about your process and learn how this resist works for your
+> application.
+>
+>
+>
+> morning
+>
+> phillip
+>
+>
+>
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:41 AM
+> *To:* Phillip Himmer <phimmer at stanford.edu>
+> *Subject:* Fw: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi, Phillip.
+>
+> I heard that you was sick yesterday.
+>
+> How are you feeling? I hope you feel get better soon.
+>
+>
+>
+> I have a favor to ask. As stated in the email below, I requested my new
+> photoresist, and would like to use ASAP. So, please confirm it asap. Thank
+> you.
+>
+>
+>
+> Best, Ji Won.
+>
+>
+> ------------------------------
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, January 7, 2020 3:21 PM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi JiWon,
+>
+>
+>
+> Phil is sick today but hopefully will be back tomorrow so we can confirm
+> that you are ok to use this! I will get back to you tomorrow I hope :)
+>
+>
+>
+> Michelle
+>
+>
+>
+> On Mon, Jan 6, 2020 at 12:49 PM Ji Won Seo <jwonseo at stanford.edu> wrote:
+>
+> Hi, This is Ji Won Seo, SNF member.
+>
+> I request for use and storage of a chemical, negative
+> photoresist NR26-12000PY.
+>
+> The photoresist is almost same model with previous one that I am using in
+> SNF now.
+>
+>
+>
+> I attach a PROM form for placing my chemical in SNF.
+>
+>
+>
+> Additionally, I attach a MSDS and protocol sheet.
+>
+>
+>
+> Please check it ASAP because it has to be hurry.
+>
+>
+>
+> Thank  you.
+>
+>
+>
+> Best, Ji Won.
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>
+> --
+>
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>
+> --
+>
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200203/2bcf52ee/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Mon Feb  3 10:47:22 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 3 Feb 2020 10:47:22 -0800
+Subject: [snf-promcommittee] Ox-35 v-vi etch - contamination testing
+	report
+In-Reply-To: <BY5PR02MB60515773C07DD48F97267BC6BB040@BY5PR02MB6051.namprd02.prod.outlook.com>
+References: <BY5PR02MB60515773C07DD48F97267BC6BB040@BY5PR02MB6051.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDRsSTpCNFC_ydOcvO7of+cC+DU99V-QzqAeEgmBPbTLiw@mail.gmail.com>
+
+Hi Ilan,
+
+Thank you for the summary. Your request is formally approved! Please let us
+know if anything changes.
+
+Best,
+Michelle
+
+On Wed, Jan 29, 2020 at 9:44 PM Ilan Thomas Rosen <irosen at stanford.edu>
+wrote:
+
+> Dear committee members,
+>
+> Please find attached my report detailing the results of contamination
+> evaluation testing for ICP etching of v-vi materials in Ox-35. I look
+> forward to hearing back and I am happy to answer any remaining questions.
+>
+> Thank you,
+> Ilan
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200203/2aab98a8/attachment.html>
+
+From mmrincon at stanford.edu  Mon Feb  3 11:16:35 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Mon, 3 Feb 2020 11:16:35 -0800
+Subject: [snf-promcommittee] new material into SNF
+In-Reply-To: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+References: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>
+
+I think this looks pretty reasonable- how do the litho and AJA people feel?
+:)
+
+On Sat, Feb 1, 2020 at 12:55 PM Katie Neilson <kmn at stanford.edu> wrote:
+
+> Good afternoon,
+>
+>
+>
+> I?m looking to bring a new 2D material into SNF. I?ve attached the PRoM
+> committee form. Let me know if you need any more information or context-
+> happy to provide.
+>
+>
+>
+> Katie
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200203/50169205/attachment.html>
+
+From mmrincon at stanford.edu  Tue Feb  4 13:17:15 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 4 Feb 2020 13:17:15 -0800
+Subject: [snf-promcommittee] new material into SNF
+In-Reply-To: <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>
+References: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+ <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>
+Message-ID: <CAFSuyDS7M_nQq1HZs68AjCg=F_yJDMCA7rv04WvO_QFysqW7NA@mail.gmail.com>
+
+nudge!
+
+On Mon, Feb 3, 2020 at 11:16 AM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> I think this looks pretty reasonable- how do the litho and AJA people
+> feel? :)
+>
+> On Sat, Feb 1, 2020 at 12:55 PM Katie Neilson <kmn at stanford.edu> wrote:
+>
+>> Good afternoon,
+>>
+>>
+>>
+>> I?m looking to bring a new 2D material into SNF. I?ve attached the PRoM
+>> committee form. Let me know if you need any more information or context-
+>> happy to provide.
+>>
+>>
+>>
+>> Katie
+>>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200204/c672a4db/attachment.html>
+
+From steelxu at stanford.edu  Tue Feb  4 13:27:14 2020
+From: steelxu at stanford.edu (Xiaoqing Xu)
+Date: Tue, 4 Feb 2020 21:27:14 +0000
+Subject: [snf-promcommittee] new material into SNF
+In-Reply-To: <CAFSuyDS7M_nQq1HZs68AjCg=F_yJDMCA7rv04WvO_QFysqW7NA@mail.gmail.com>
+References: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+ <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>,
+ <CAFSuyDS7M_nQq1HZs68AjCg=F_yJDMCA7rv04WvO_QFysqW7NA@mail.gmail.com>
+Message-ID: <CH2PR02MB6229EAEC91FE74A58A4EF6E9D1030@CH2PR02MB6229.namprd02.prod.outlook.com>
+
+Looks fine to me.
+
+Xiaoqing
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+Sent: Tuesday, February 4, 2020 1:17 PM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] new material into SNF
+
+nudge!
+
+On Mon, Feb 3, 2020 at 11:16 AM Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>> wrote:
+I think this looks pretty reasonable- how do the litho and AJA people feel? :)
+
+On Sat, Feb 1, 2020 at 12:55 PM Katie Neilson <kmn at stanford.edu<mailto:kmn at stanford.edu>> wrote:
+
+Good afternoon,
+
+
+
+I?m looking to bring a new 2D material into SNF. I?ve attached the PRoM committee form. Let me know if you need any more information or context- happy to provide.
+
+
+
+Katie
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200204/01a04d64/attachment.html>
+
+From george at psiquantum.com  Wed Feb  5 15:43:07 2020
+From: george at psiquantum.com (George Kovall)
+Date: Wed, 5 Feb 2020 23:43:07 +0000
+Subject: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+Message-ID: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+
+ProM Committee,
+
+Please see attached request to etch BTO thin films on 1cm x 1cm silicon substrates using BOE + HNO3.
+Let me know if you have any questions or comments.
+
+Thanks,
+George
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_BTO_WetEtch_BOE-HNO3.doc
+Type: application/msword
+Size: 128000 bytes
+Desc: Process or Materials Request Form_BTO_WetEtch_BOE-HNO3.doc
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0001.doc>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Zhang-BST_Wet-Etch.pdf
+Type: application/pdf
+Size: 853875 bytes
+Desc: Zhang-BST_Wet-Etch.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0004.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Pavy-BSTO_Wet_Etch_BHF_Antennas.pdf
+Type: application/pdf
+Size: 4110758 bytes
+Desc: Pavy-BSTO_Wet_Etch_BHF_Antennas.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0005.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Schwartz-Chemical_Etch_Of_Silicon.pdf
+Type: application/pdf
+Size: 5143926 bytes
+Desc: Schwartz-Chemical_Etch_Of_Silicon.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0006.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: White-SOP_SiliconEtch-HNA-1.pdf
+Type: application/pdf
+Size: 43680 bytes
+Desc: White-SOP_SiliconEtch-HNA-1.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200205/056cdf0e/attachment-0007.pdf>
+
+From phimmer at stanford.edu  Thu Feb  6 09:21:37 2020
+From: phimmer at stanford.edu (Phillip Himmer)
+Date: Thu, 6 Feb 2020 17:21:37 +0000
+Subject: [snf-promcommittee] new material into SNF
+In-Reply-To: <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>
+References: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+ <CAFSuyDRMp=bAPDfp5_Rz14AUq_gO1f5zbDg68L4qhuGV8-SySQ@mail.gmail.com>
+Message-ID: <BYAPR02MB5061AB20D50F5A816C223A62D11D0@BYAPR02MB5061.namprd02.prod.outlook.com>
+
+Hi Michelle
+
+Do we know anything about solubility in weak alkaline solutions( MF26A)? If not an issue I don?t see a problem.
+Please ask them to collect developer waste until they verify the material is insoluble in the developer.
+
+thanks
+phillip
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Michelle Rincon
+Sent: Monday, February 3, 2020 11:17 AM
+To: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] new material into SNF
+
+I think this looks pretty reasonable- how do the litho and AJA people feel? :)
+
+On Sat, Feb 1, 2020 at 12:55 PM Katie Neilson <kmn at stanford.edu<mailto:kmn at stanford.edu>> wrote:
+Good afternoon,
+
+I?m looking to bring a new 2D material into SNF. I?ve attached the PRoM committee form. Let me know if you need any more information or context- happy to provide.
+
+Katie
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200206/e9f90b59/attachment.html>
+
+From michelle.rincon at gmail.com  Thu Feb  6 10:24:56 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Thu, 6 Feb 2020 10:24:56 -0800
+Subject: [snf-promcommittee] new material into SNF
+In-Reply-To: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+References: <BY5PR02MB6209B2713C5F5F967586E657DF060@BY5PR02MB6209.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQSeCSWi4OSS3Q0MiQqy5QmN+xeYRw7rnqoNQXcqtr1jw@mail.gmail.com>
+
+Hi Katie,
+
+Thank you for your request. You are approved for use in the Lesker, but we
+do have some concerns with your materials' interaction with the developer.
+Do you have any data on that?
+
+Best,
+Michelle
+
+On Sat, Feb 1, 2020 at 12:55 PM Katie Neilson <kmn at stanford.edu> wrote:
+
+> Good afternoon,
+>
+>
+>
+> I?m looking to bring a new 2D material into SNF. I?ve attached the PRoM
+> committee form. Let me know if you need any more information or context-
+> happy to provide.
+>
+>
+>
+> Katie
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200206/821e5b7c/attachment.html>
+
+From piazzaa at stanford.edu  Thu Feb  6 14:40:46 2020
+From: piazzaa at stanford.edu (Alisha Piazza)
+Date: Thu, 6 Feb 2020 22:40:46 +0000
+Subject: [snf-promcommittee] PROM request HFE-7100 wbexfab-solv
+Message-ID: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200206/2f62009d/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: HFE7100_PROMForm.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 105832 bytes
+Desc: HFE7100_PROMForm.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200206/2f62009d/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Fri Feb  7 10:40:21 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 7 Feb 2020 10:40:21 -0800
+Subject: [snf-promcommittee] PROM request HFE-7100 wbexfab-solv
+In-Reply-To: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+References: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQEWzHgYVd19v_aYPXYTqRzG5GR8TmkEp4QK3NRAO-U2A@mail.gmail.com>
+
+Seems reasonable- are you good with this one Swaroop?
+
+On Thu, Feb 6, 2020 at 2:40 PM Alisha Piazza <piazzaa at stanford.edu> wrote:
+
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/169226bf/attachment.html>
+
+From mmrincon at stanford.edu  Fri Feb  7 10:57:11 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 7 Feb 2020 10:57:11 -0800
+Subject: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+In-Reply-To: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+References: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+Message-ID: <CAFSuyDSaMHNbTXUcv5GLBwpUms+NC2WdPjKLcjf1X3C16qYi5g@mail.gmail.com>
+
+George has done a lot of homework! He seems to be well aware of the safety
+hazards and the silicon etch issues and has proposed taking a lot of
+precautions. What do you guys think?
+
+On Wed, Feb 5, 2020 at 3:46 PM George Kovall <george at psiquantum.com> wrote:
+
+> ProM Committee,
+>
+>
+>
+> Please see attached request to etch BTO thin films on 1cm x 1cm silicon
+> substrates using BOE + HNO3.
+>
+> Let me know if you have any questions or comments.
+>
+>
+>
+> Thanks,
+>
+> George
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/8080f8cd/attachment.html>
+
+From skommera at stanford.edu  Fri Feb  7 11:08:27 2020
+From: skommera at stanford.edu (Swaroop Kommera)
+Date: Fri, 7 Feb 2020 19:08:27 +0000
+Subject: [snf-promcommittee] PROM request HFE-7100 wbexfab-solv
+In-Reply-To: <CAFSuyDQEWzHgYVd19v_aYPXYTqRzG5GR8TmkEp4QK3NRAO-U2A@mail.gmail.com>
+References: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+ <CAFSuyDQEWzHgYVd19v_aYPXYTqRzG5GR8TmkEp4QK3NRAO-U2A@mail.gmail.com>
+Message-ID: <BYAPR02MB432769848C54E8EA28DB240DB61C0@BYAPR02MB4327.namprd02.prod.outlook.com>
+
+Yes, I think would be OK. This will help with drying of Nanoscribe structures that have high aspect ratios for example.
+
+Swaroop
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Michelle Rincon
+Sent: Friday, February 7, 2020 10:40 AM
+To: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] PROM request HFE-7100 wbexfab-solv
+
+Seems reasonable- are you good with this one Swaroop?
+
+On Thu, Feb 6, 2020 at 2:40 PM Alisha Piazza <piazzaa at stanford.edu<mailto:piazzaa at stanford.edu>> wrote:
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/268f0112/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Feb  7 11:14:59 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 7 Feb 2020 11:14:59 -0800
+Subject: [snf-promcommittee] PROM request for OSTEMER
+In-Reply-To: <CAFSuyDQAo2bqAtokZMTL8FEuSUFVsr1bGRmfpnqn0Nwpc+ZwOw@mail.gmail.com>
+References: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+ <CAFSuyDQAo2bqAtokZMTL8FEuSUFVsr1bGRmfpnqn0Nwpc+ZwOw@mail.gmail.com>
+Message-ID: <CAFSuyDTw56ML+CzzLjH26mB6+L_0WZ7Ve4oN79A2iJRy6f-nVA@mail.gmail.com>
+
+I am struggling with this one- the part B of this solution is a category 4
+toxicity, which is higher than what we normally allow in 155, so I was
+going to suggest maybe she could use the wet bench in the ExFab, but the
+product sheets also make reference to a strong but harmless smell which
+sounds like it could cause concern for others working in that room...
+
+Any thoughts?
+
+On Thu, Jan 30, 2020 at 10:35 AM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> How about this stuff? It looks much more hazardous than anything else we
+> let go on in this room.
+>
+> On Tue, Jan 28, 2020 at 3:04 PM Naga Devaraju <naga_devaraju at takarabio.com>
+> wrote:
+>
+>> Dear Committee,
+>>
+>> Please find the request forms to bring in OSTEMER 322 and OSTEMER 324 as
+>> attached.
+>>
+>> I have attached TDS and SDS as well for all the materials. Please let me
+>> know if you need more information.
+>>
+>> Best,
+>>
+>>
+>>
+>>
+>>
+>> Naga Gopi Devaraju
+>>
+>> Principal Engineer, Fluidic Systems Development
+>>
+>> Takara Bio USA, Inc.
+>>
+>> 1290 Terra Bella Ave.
+>>
+>> Mountain View, CA 94043
+>>
+>> naga_devaraju at takarabio.com
+>>
+>> T: 650.450.5021
+>>
+>> [image: Outlook_footer]
+>>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/d78de5a9/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/d78de5a9/attachment.png>
+
+From michelle.rincon at gmail.com  Fri Feb  7 11:16:11 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 7 Feb 2020 11:16:11 -0800
+Subject: [snf-promcommittee] PROM request HFE-7100 wbexfab-solv
+In-Reply-To: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+References: <SN6PR02MB4190D831EA1576F8E5A2E19ECF1D0@SN6PR02MB4190.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDSrXyTqotC3SWM4UZto-jqe1eAVBWmV0wwBznSxiy2kLQ@mail.gmail.com>
+
+Hi Alisha,
+
+Your request is approved! Please contact Gary Sosa to get a yellow label
+for your chemical bottle.
+
+Best,
+Michelle
+
+On Thu, Feb 6, 2020 at 2:40 PM Alisha Piazza <piazzaa at stanford.edu> wrote:
+
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/af7f0d0d/attachment-0001.html>
+
+From mtang at stanford.edu  Fri Feb  7 11:35:03 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 7 Feb 2020 11:35:03 -0800
+Subject: [snf-promcommittee] PROM request for OSTEMER
+In-Reply-To: <CAFSuyDTw56ML+CzzLjH26mB6+L_0WZ7Ve4oN79A2iJRy6f-nVA@mail.gmail.com>
+References: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+ <CAFSuyDQAo2bqAtokZMTL8FEuSUFVsr1bGRmfpnqn0Nwpc+ZwOw@mail.gmail.com>
+ <CAFSuyDTw56ML+CzzLjH26mB6+L_0WZ7Ve4oN79A2iJRy6f-nVA@mail.gmail.com>
+Message-ID: <c8a02cf4-6000-ddd0-a3cc-daa02b08b8a2@stanford.edu>
+
+Hi Michelle --
+
+I see what you mean.? This is the stuff: Isocyanuric acid triallyl ester
+
+The NIH website has good info: 
+https://pubchem.ncbi.nlm.nih.gov/compound/Triallyl-isocyanurate#section=Toxicological-Information
+
+It looks like this is used in consumer products of adhesives, sealants, 
+paints and coatings.? It's harmful if swallowed or in contact with 
+skin.? Inhalation may be harmful.? Toxicity is comparatively low (1 
+gram/kg in rats).
+
+This would suggest to me that as long as appropriate PPE is used and all 
+handling is performed under fully exhausted hood or bench -- and good 
+lab/chemical hygiene is observed, this should be OK. I think that 
+pouring and mixing in the Thinky should be OK, but only if Naga is 
+experienced in handling chemicals.
+
+Mary
+
+
+On 2/7/2020 11:14 AM, Michelle Rincon wrote:
+> I am struggling with?this one- the part B of this solution is a 
+> category?4 toxicity, which is higher than what we normally allow in 
+> 155, so I was going to suggest maybe she could use the wet bench in 
+> the ExFab, but the product sheets also make reference to a strong but 
+> harmless smell which sounds like it could cause concern for others 
+> working in that room...
+>
+> Any thoughts?
+>
+> On Thu, Jan 30, 2020 at 10:35 AM Michelle Rincon 
+> <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>> wrote:
+>
+>     How about this stuff? It looks much more hazardous than anything
+>     else we let go on in this room.
+>
+>     On Tue, Jan 28, 2020 at 3:04 PM Naga Devaraju
+>     <naga_devaraju at takarabio.com <mailto:naga_devaraju at takarabio.com>>
+>     wrote:
+>
+>         Dear Committee,
+>
+>         Please find the request forms to bring in OSTEMER 322 and
+>         OSTEMER 324 as attached.
+>
+>         I have attached TDS and SDS as well for all the materials.
+>         Please let me know if you need more information.
+>
+>         Best,
+>
+>         Naga Gopi Devaraju
+>
+>         Principal Engineer, Fluidic Systems Development
+>
+>         Takara Bio USA, Inc.
+>
+>         1290 Terra Bella Ave.
+>
+>         Mountain View, CA 94043
+>
+>         naga_devaraju at takarabio.com <http://naga_devaraju at takarabio.com>
+>
+>         T: 650.450.5021
+>
+>         Outlook_footer
+>
+>         _______________________________________________
+>         snf-promcommittee mailing list
+>         snf-promcommittee at lists.stanford.edu
+>         <mailto:snf-promcommittee at lists.stanford.edu>
+>         https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>     -- 
+>     Michelle Rincon, PhD
+>     Senior Engineer
+>     Stanford Nanofabrication Facility
+>
+>     (650)-725-0307
+>     mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/626b277e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/626b277e/attachment-0001.png>
+
+From mmrincon at stanford.edu  Fri Feb  7 13:36:44 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 7 Feb 2020 13:36:44 -0800
+Subject: [snf-promcommittee] PROM request for OSTEMER
+In-Reply-To: <c8a02cf4-6000-ddd0-a3cc-daa02b08b8a2@stanford.edu>
+References: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+ <CAFSuyDQAo2bqAtokZMTL8FEuSUFVsr1bGRmfpnqn0Nwpc+ZwOw@mail.gmail.com>
+ <CAFSuyDTw56ML+CzzLjH26mB6+L_0WZ7Ve4oN79A2iJRy6f-nVA@mail.gmail.com>
+ <c8a02cf4-6000-ddd0-a3cc-daa02b08b8a2@stanford.edu>
+Message-ID: <CAFSuyDRxVv63tL1fUUhGU5Pbu6EhnbAyFFOi0yn_mpGefmAJsA@mail.gmail.com>
+
+Thank you Mary!
+
+On Fri, Feb 7, 2020 at 11:35 AM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hi Michelle --
+>
+> I see what you mean.  This is the stuff: Isocyanuric acid triallyl ester
+>
+> The NIH website has good info:
+> https://pubchem.ncbi.nlm.nih.gov/compound/Triallyl-isocyanurate#section=Toxicological-Information
+>
+> It looks like this is used in consumer products of adhesives, sealants,
+> paints and coatings.  It's harmful if swallowed or in contact with skin.
+> Inhalation may be harmful.  Toxicity is comparatively low (1 gram/kg in
+> rats).
+>
+> This would suggest to me that as long as appropriate PPE is used and all
+> handling is performed under fully exhausted hood or bench -- and good
+> lab/chemical hygiene is observed, this should be OK.  I think that pouring
+> and mixing in the Thinky should be OK, but only if Naga is experienced in
+> handling chemicals.
+>
+> Mary
+>
+>
+> On 2/7/2020 11:14 AM, Michelle Rincon wrote:
+>
+> I am struggling with this one- the part B of this solution is a category 4
+> toxicity, which is higher than what we normally allow in 155, so I was
+> going to suggest maybe she could use the wet bench in the ExFab, but the
+> product sheets also make reference to a strong but harmless smell which
+> sounds like it could cause concern for others working in that room...
+>
+> Any thoughts?
+>
+> On Thu, Jan 30, 2020 at 10:35 AM Michelle Rincon <mmrincon at stanford.edu>
+> wrote:
+>
+>> How about this stuff? It looks much more hazardous than anything else we
+>> let go on in this room.
+>>
+>> On Tue, Jan 28, 2020 at 3:04 PM Naga Devaraju <
+>> naga_devaraju at takarabio.com> wrote:
+>>
+>>> Dear Committee,
+>>>
+>>> Please find the request forms to bring in OSTEMER 322 and OSTEMER 324 as
+>>> attached.
+>>>
+>>> I have attached TDS and SDS as well for all the materials. Please let me
+>>> know if you need more information.
+>>>
+>>> Best,
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Naga Gopi Devaraju
+>>>
+>>> Principal Engineer, Fluidic Systems Development
+>>>
+>>> Takara Bio USA, Inc.
+>>>
+>>> 1290 Terra Bella Ave.
+>>>
+>>> Mountain View, CA 94043
+>>>
+>>> naga_devaraju at takarabio.com
+>>>
+>>> T: 650.450.5021
+>>>
+>>> [image: Outlook_footer]
+>>>
+>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/88ff287e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/88ff287e/attachment-0001.png>
+
+From michelle.rincon at gmail.com  Fri Feb  7 13:51:08 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 7 Feb 2020 13:51:08 -0800
+Subject: [snf-promcommittee] PROM request for RTV-615
+In-Reply-To: <BYAPR14MB27901F7308ECD499C1ED2A58910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+References: <BYAPR14MB27901F7308ECD499C1ED2A58910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+Message-ID: <CAFSuyDQLiofi5wshSE35oFt6Ux6rxOSGOm-gpiJqPnMKX_dz4A@mail.gmail.com>
+
+Hi Naga,
+
+Your request for RTV-615 is approved. Please make sure to contact Gary Sosa
+for labels for your bottles.
+
+Before using the material in Room 155, please make sure to add the MSDS's
+to the MSDS book located in that room.
+
+Best,
+Michelle
+
+On Tue, Jan 28, 2020 at 1:43 PM Naga Devaraju <naga_devaraju at takarabio.com>
+wrote:
+
+> Dear Committee,
+>
+> Please find the request form to bring in RTV-615 as attached.
+>
+> I have attached TDS and SDS here. Please let me know if you need more
+> information.
+>
+> Best,
+>
+>
+>
+>
+>
+> Naga Gopi Devaraju
+>
+> Principal Engineer, Fluidic Systems Development
+>
+> Takara Bio USA, Inc.
+>
+> 1290 Terra Bella Ave.
+>
+> Mountain View, CA 94043
+>
+> naga_devaraju at takarabio.com
+>
+> T: 650.450.5021
+>
+> [image: Outlook_footer]
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/02297e61/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/02297e61/attachment.png>
+
+From michelle.rincon at gmail.com  Fri Feb  7 14:00:54 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 7 Feb 2020 14:00:54 -0800
+Subject: [snf-promcommittee] PROM request for OSTEMER
+In-Reply-To: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+References: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+Message-ID: <CAFSuyDT2wtKuOwCxMg0bjbdD=HN0_t+-pKeJoVPNsVEpc3UiNg@mail.gmail.com>
+
+Hi Naga,
+
+Your request for the Ostemer is approved. The MSDS for the part B
+references oral and skin acute toxicity of level 4, which is much higher
+than standard PDMS hazard levels, so please also make sure to take great
+care when using this, and collect and clearly label all of your waste and
+put it in the waste collection area in the chemical room. Please also warn
+any other people working in the room with you that it will smell strongly.
+
+Please get in touch with Gary Sosa for your chemical labels.
+
+Best,
+Michelle
+
+On Tue, Jan 28, 2020 at 3:04 PM Naga Devaraju <naga_devaraju at takarabio.com>
+wrote:
+
+> Dear Committee,
+>
+> Please find the request forms to bring in OSTEMER 322 and OSTEMER 324 as
+> attached.
+>
+> I have attached TDS and SDS as well for all the materials. Please let me
+> know if you need more information.
+>
+> Best,
+>
+>
+>
+>
+>
+> Naga Gopi Devaraju
+>
+> Principal Engineer, Fluidic Systems Development
+>
+> Takara Bio USA, Inc.
+>
+> 1290 Terra Bella Ave.
+>
+> Mountain View, CA 94043
+>
+> naga_devaraju at takarabio.com
+>
+> T: 650.450.5021
+>
+> [image: Outlook_footer]
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/1110eaa1/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200207/1110eaa1/attachment-0001.png>
+
+From mtang at stanford.edu  Mon Feb 10 09:01:15 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Mon, 10 Feb 2020 09:01:15 -0800
+Subject: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+In-Reply-To: <CAFSuyDSaMHNbTXUcv5GLBwpUms+NC2WdPjKLcjf1X3C16qYi5g@mail.gmail.com>
+References: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+ <CAFSuyDSaMHNbTXUcv5GLBwpUms+NC2WdPjKLcjf1X3C16qYi5g@mail.gmail.com>
+Message-ID: <3ecbaca9-8338-45c3-b41e-2aafc1957052@stanford.edu>
+
+Hi Michelle -
+
+This looks good!? I think there will be some trial and error to dial 
+this process in so that resist isn't eroded.? It would be really nice if 
+George might be willing to share his protocol.
+
+My only comment is that I think that while waste could be collected 
+locally, I would recommend using the HF drain to dispose of waste and 
+rinsate - easier and safer than storing in waste containers.? Also, 
+given the excitement of the 49% HF/nitric incident a couple of years ago 
+where the Si sample was completely eaten away, I would suggest for 
+safety's sake that we ask George to reserve the whole bench for this work.
+
+We should also make sure Uli knows.
+
+Mary
+
+On 2/7/2020 10:57 AM, Michelle Rincon wrote:
+> George has done a lot of homework! He seems to be well aware of the 
+> safety hazards and the silicon etch issues and has proposed taking a 
+> lot of precautions. What do you guys think?
+>
+> On Wed, Feb 5, 2020 at 3:46 PM George Kovall <george at psiquantum.com 
+> <mailto:george at psiquantum.com>> wrote:
+>
+>     ProM Committee,
+>
+>     Please see attached request to etch BTO thin films on 1cm x 1cm
+>     silicon substrates using BOE + HNO3.
+>
+>     Let me know if you have any questions or comments.
+>
+>     Thanks,
+>
+>     George
+>
+>     _______________________________________________
+>     snf-promcommittee mailing list
+>     snf-promcommittee at lists.stanford.edu
+>     <mailto:snf-promcommittee at lists.stanford.edu>
+>     https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200210/3f57931d/attachment.html>
+
+From xyxing at stanford.edu  Mon Feb 10 14:22:57 2020
+From: xyxing at stanford.edu (Xiangyu Xing)
+Date: Mon, 10 Feb 2020 22:22:57 +0000
+Subject: [snf-promcommittee] Query about Fabricating CaF2 Substrates with
+	Ultraflat Surface
+Message-ID: <BYAPR02MB5590531EAA0CEDFEC40F8FA6AE190@BYAPR02MB5590.namprd02.prod.outlook.com>
+
+To Whom It May Concern,
+
+Thanks for your time to read this email.
+
+I'm Xiangyu Xing, a graduate student of Professor Michael Fayer's group from the chemistry department, and I'm writing to inquire about the possibility of fabricating CaF2 or ZnSe substrates with ultraflat surfaces. We plan to do some experiments necessitating an ultraflat surface of the CaF2 substrate, whereas we understand from the manufacturer that it's hard to polish CaF2 and therefore we are unable to obtain a very flat surface, so I'm wondering whether the SNF has the capability of fabricating CaF2 or ZnSe (I guess they are easier to be polished?) windows with ultraflat surfaces. And then we want to deposit another SiO2 layer onto the substrate. Can we also get an ultraflat layer when depositing the SiO2 layer?
+
+I would greatly appreciate your suggestions.
+
+Best regards,
+Xiangyu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200210/7360544f/attachment.html>
+
+From naga_devaraju at takarabio.com  Mon Feb 10 15:00:00 2020
+From: naga_devaraju at takarabio.com (Naga Devaraju)
+Date: Mon, 10 Feb 2020 23:00:00 +0000
+Subject: [snf-promcommittee] PROM request for OSTEMER
+In-Reply-To: <CAFSuyDT2wtKuOwCxMg0bjbdD=HN0_t+-pKeJoVPNsVEpc3UiNg@mail.gmail.com>
+References: <BYAPR14MB279059EDF8CD378CBFEA9EB7910A0@BYAPR14MB2790.namprd14.prod.outlook.com>
+ <CAFSuyDT2wtKuOwCxMg0bjbdD=HN0_t+-pKeJoVPNsVEpc3UiNg@mail.gmail.com>
+Message-ID: <BYAPR14MB2790CB5957EB605BF219D4CC91190@BYAPR14MB2790.namprd14.prod.outlook.com>
+
+Sounds great! Thank you Michelle.
+
+Best,
+Naga
+
+From: Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Friday, February 7, 2020 2:01 PM
+To: Naga Devaraju <naga_devaraju at takarabio.com>
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] PROM request for OSTEMER
+
+Hi Naga,
+
+Your request for the Ostemer is approved. The MSDS for the part B references oral and skin acute toxicity of level 4, which is much higher than standard PDMS hazard levels, so please also make sure to take great care when using this, and collect and clearly label all of your waste and put it in the waste collection area in the chemical room. Please also warn any other people working in the room with you that it will smell strongly.
+
+Please get in touch with Gary Sosa for your chemical labels.
+
+Best,
+Michelle
+
+On Tue, Jan 28, 2020 at 3:04 PM Naga Devaraju <naga_devaraju at takarabio.com<mailto:naga_devaraju at takarabio.com>> wrote:
+Dear Committee,
+Please find the request forms to bring in OSTEMER 322 and OSTEMER 324 as attached.
+I have attached TDS and SDS as well for all the materials. Please let me know if you need more information.
+Best,
+
+
+Naga Gopi Devaraju
+Principal Engineer, Fluidic Systems Development
+Takara Bio USA, Inc.
+1290 Terra Bella Ave.
+Mountain View, CA 94043
+naga_devaraju at takarabio.com<http://naga_devaraju at takarabio.com>
+T: 650.450.5021
+[Outlook_footer]
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200210/5026656e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 9775 bytes
+Desc: image001.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200210/5026656e/attachment-0001.png>
+
+From michelle.rincon at gmail.com  Mon Feb 10 15:56:57 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Mon, 10 Feb 2020 15:56:57 -0800
+Subject: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+In-Reply-To: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+References: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+Message-ID: <CAFSuyDSakB5Qo-MuRN+0F04CzTq09TidfWZDC2L0kcuEe8TuWA@mail.gmail.com>
+
+Hi George,
+
+Thank you for the well thought out PROM request. We are happy to hear you
+are well aware of the safety hazards associated with the fast etch rates.
+Just a few years ago we had some students create a cloud of NO2, which,
+fortunately was captured by our exhaust at the wet bench, but we would like
+to avoid any new incidents so we have a few additions to your protocol.
+1. Please reserve the whole wet bench for this etch.
+2. Please dispose of the waste down the HF drain.
+
+Could you please update your PROM request and re-submit with those
+additions for archiving purposes? And once you get it dialed in, we would
+love it if you could share as much of the final protocol as you can without
+violating IP concerns.
+
+Best,
+Michelle
+
+On Wed, Feb 5, 2020 at 3:46 PM George Kovall <george at psiquantum.com> wrote:
+
+> ProM Committee,
+>
+>
+>
+> Please see attached request to etch BTO thin films on 1cm x 1cm silicon
+> substrates using BOE + HNO3.
+>
+> Let me know if you have any questions or comments.
+>
+>
+>
+> Thanks,
+>
+> George
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200210/775b937d/attachment.html>
+
+From chengzhang516 at gmail.com  Wed Feb 12 11:57:17 2020
+From: chengzhang516 at gmail.com (Chengzhang li)
+Date: Wed, 12 Feb 2020 11:57:17 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+Message-ID: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+
+Hi,
+
+I need to use wet etch for Ti, here is information:
+
+Bring chemical to SNF for WET ETCH OF Ti
+
+Our wafer before wet etch:
+
+6?? standard blank silicon wafer
+
+Grow 65nm thermal oxide in the outsource foundry
+
+Deposit 100nm Ti in innotec
+
+Photoresist coat and pattern:
+
+Yes oven with HMDS
+
+   Coat 3612 1um on SVG and bake(2mm EBR)  in SVGCOAT3
+
+  Aligner exposure for 1.3s for each wafer(vacuum contact for exposure)in
+karlsuss 1
+
+Develop in svgdev
+
+Discuum dry etching in drytek 2
+
+
+
+Wet etch in wetbench webflexcorr-2
+
+                Using the hot plate in that bench to heat to 70C
+
+                 Using our own beaker as container to heat
+
+
+
+Collect of waste:
+
+                Using empty plastic bottle (SNF standard reuse empty
+bottom) and mark the information needed
+
+
+Please let me know what other information is needed.
+
+If we got approved, we will use secondary container to transfer and put
+yellow sticker on the bottle.
+
+
+Thanks
+
+
+Calvin
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200212/414dc55e/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Titanium Etchant TFTN GHS_b (1).doc
+Type: application/msword
+Size: 78336 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200212/414dc55e/attachment-0001.doc>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 103764 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200212/414dc55e/attachment-0001.docx>
+
+From michelle.rincon at gmail.com  Wed Feb 12 13:52:39 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 12 Feb 2020 13:52:39 -0800
+Subject: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+In-Reply-To: <DDBCCD90-DEF1-4173-A5DD-A389AB31661E@psiquantum.com>
+References: <001C1646-791A-4B81-8047-E9D6A6E0D5A9@psiquantum.com>
+ <CAFSuyDSakB5Qo-MuRN+0F04CzTq09TidfWZDC2L0kcuEe8TuWA@mail.gmail.com>
+ <DDBCCD90-DEF1-4173-A5DD-A389AB31661E@psiquantum.com>
+Message-ID: <CAFSuyDSvntBUASseKsDd5wU1GDk-=WOeVNoAmPRYYgwhi89yJA@mail.gmail.com>
+
+Thank you George!
+
+Your request is formally approved.
+
+Best,
+Michelle
+
+On Wed, Feb 12, 2020 at 10:57 AM George Kovall <george at psiquantum.com>
+wrote:
+
+> Hi Michelle,
+>
+>
+>
+> Thanks for the approval.
+>
+> We were informed of that incident so we made sure our proposal took those
+> safely concerns into account.
+>
+> I also enlisted some help for the Reason for Request section.
+>
+>
+>
+> I updated and attached our request with your requested additions.
+>
+>
+>
+> Best,
+>
+> George
+>
+>
+>
+> *From: *Michelle Rincon <michelle.rincon at gmail.com>
+> *Date: *Monday, February 10, 2020 at 3:56 PM
+> *To: *George Kovall <george at psiquantum.com>
+> *Cc: *"snf-promcommittee at lists.stanford.edu" <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject: *Re: [snf-promcommittee] BTO Wet Etch using BOE + HNO3
+>
+>
+>
+> Hi George,
+>
+>
+>
+> Thank you for the well thought out PROM request. We are happy to hear you
+> are well aware of the safety hazards associated with the fast etch rates.
+> Just a few years ago we had some students create a cloud of NO2, which,
+> fortunately was captured by our exhaust at the wet bench, but we would like
+> to avoid any new incidents so we have a few additions to your protocol.
+>
+> 1. Please reserve the whole wet bench for this etch.
+>
+> 2. Please dispose of the waste down the HF drain.
+>
+>
+>
+> Could you please update your PROM request and re-submit with those
+> additions for archiving purposes? And once you get it dialed in, we would
+> love it if you could share as much of the final protocol as you can without
+> violating IP concerns.
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On Wed, Feb 5, 2020 at 3:46 PM George Kovall <george at psiquantum.com>
+> wrote:
+>
+> ProM Committee,
+>
+>
+>
+> Please see attached request to etch BTO thin films on 1cm x 1cm silicon
+> substrates using BOE + HNO3.
+>
+> Let me know if you have any questions or comments.
+>
+>
+>
+> Thanks,
+>
+> George
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200212/15f6815e/attachment.html>
+
+From mmrincon at stanford.edu  Thu Feb 13 10:34:40 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 13 Feb 2020 10:34:40 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+In-Reply-To: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+References: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+Message-ID: <CAFSuyDTLFZW10biF7XY624maEWy1T0jHuU9_WP9CX+a9UfN12g@mail.gmail.com>
+
+I think this one looks pretty reasonable- thoughts?
+
+On Wed, Feb 12, 2020 at 11:56 AM Chengzhang li <chengzhang516 at gmail.com>
+wrote:
+
+> Hi,
+>
+> I need to use wet etch for Ti, here is information:
+>
+> Bring chemical to SNF for WET ETCH OF Ti
+>
+> Our wafer before wet etch:
+>
+> 6?? standard blank silicon wafer
+>
+> Grow 65nm thermal oxide in the outsource foundry
+>
+> Deposit 100nm Ti in innotec
+>
+> Photoresist coat and pattern:
+>
+> Yes oven with HMDS
+>
+>    Coat 3612 1um on SVG and bake(2mm EBR)  in SVGCOAT3
+>
+>   Aligner exposure for 1.3s for each wafer(vacuum contact for exposure)in
+> karlsuss 1
+>
+> Develop in svgdev
+>
+> Discuum dry etching in drytek 2
+>
+>
+>
+> Wet etch in wetbench webflexcorr-2
+>
+>                 Using the hot plate in that bench to heat to 70C
+>
+>                  Using our own beaker as container to heat
+>
+>
+>
+> Collect of waste:
+>
+>                 Using empty plastic bottle (SNF standard reuse empty
+> bottom) and mark the information needed
+>
+>
+> Please let me know what other information is needed.
+>
+> If we got approved, we will use secondary container to transfer and put
+> yellow sticker on the bottle.
+>
+>
+> Thanks
+>
+>
+> Calvin
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200213/44a1c25a/attachment.html>
+
+From mmrincon at stanford.edu  Fri Feb 14 09:43:08 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 14 Feb 2020 09:43:08 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+In-Reply-To: <CAFSuyDTLFZW10biF7XY624maEWy1T0jHuU9_WP9CX+a9UfN12g@mail.gmail.com>
+References: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+ <CAFSuyDTLFZW10biF7XY624maEWy1T0jHuU9_WP9CX+a9UfN12g@mail.gmail.com>
+Message-ID: <CAFSuyDRfQbUDSG=aOW8-FKHY_=BQ-2dJCnBCuiEJeehod7+AyA@mail.gmail.com>
+
+nudge :)
+
+On Thu, Feb 13, 2020 at 10:34 AM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> I think this one looks pretty reasonable- thoughts?
+>
+> On Wed, Feb 12, 2020 at 11:56 AM Chengzhang li <chengzhang516 at gmail.com>
+> wrote:
+>
+>> Hi,
+>>
+>> I need to use wet etch for Ti, here is information:
+>>
+>> Bring chemical to SNF for WET ETCH OF Ti
+>>
+>> Our wafer before wet etch:
+>>
+>> 6?? standard blank silicon wafer
+>>
+>> Grow 65nm thermal oxide in the outsource foundry
+>>
+>> Deposit 100nm Ti in innotec
+>>
+>> Photoresist coat and pattern:
+>>
+>> Yes oven with HMDS
+>>
+>>    Coat 3612 1um on SVG and bake(2mm EBR)  in SVGCOAT3
+>>
+>>   Aligner exposure for 1.3s for each wafer(vacuum contact for exposure)in
+>> karlsuss 1
+>>
+>> Develop in svgdev
+>>
+>> Discuum dry etching in drytek 2
+>>
+>>
+>>
+>> Wet etch in wetbench webflexcorr-2
+>>
+>>                 Using the hot plate in that bench to heat to 70C
+>>
+>>                  Using our own beaker as container to heat
+>>
+>>
+>>
+>> Collect of waste:
+>>
+>>                 Using empty plastic bottle (SNF standard reuse empty
+>> bottom) and mark the information needed
+>>
+>>
+>> Please let me know what other information is needed.
+>>
+>> If we got approved, we will use secondary container to transfer and put
+>> yellow sticker on the bottle.
+>>
+>>
+>> Thanks
+>>
+>>
+>> Calvin
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/77fdb24f/attachment.html>
+
+From mtang at stanford.edu  Fri Feb 14 10:21:45 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 14 Feb 2020 10:21:45 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+In-Reply-To: <CAFSuyDRfQbUDSG=aOW8-FKHY_=BQ-2dJCnBCuiEJeehod7+AyA@mail.gmail.com>
+References: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+ <CAFSuyDTLFZW10biF7XY624maEWy1T0jHuU9_WP9CX+a9UfN12g@mail.gmail.com>
+ <CAFSuyDRfQbUDSG=aOW8-FKHY_=BQ-2dJCnBCuiEJeehod7+AyA@mail.gmail.com>
+Message-ID: <4213af04-9a08-28c3-759b-f324f6a14585@stanford.edu>
+
+Hi all -
+
+I think this is fine -- it's just something like 25% HCl in water.? My 
+concern is that it's heated -- and is this the same Calvin who needs a 
+lot of help in the lab?? If so, then going over the chemical handling 
+part of things is probably a good idea (starting with making sure the 
+beaker can accommodate a 6" wafer, that it's glass, and all the wafer 
+handling tools are compatible with HCl.)
+
+I would suggest aspirating the waste and rinsate -- safer than 
+collecting locally.? Since it is inorganic waste with no hazardous 
+metals, it should be ok.
+
+Mary
+
+On 2/14/2020 9:43 AM, Michelle Rincon wrote:
+> nudge :)
+>
+> On Thu, Feb 13, 2020 at 10:34 AM Michelle Rincon 
+> <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>> wrote:
+>
+>     I think this one looks pretty reasonable- thoughts?
+>
+>     On Wed, Feb 12, 2020 at 11:56 AM Chengzhang li
+>     <chengzhang516 at gmail.com <mailto:chengzhang516 at gmail.com>> wrote:
+>
+>         Hi,
+>
+>         I need to use wet etch for Ti, here is information:
+>
+>         Bring chemical to SNF for WET ETCH OF Ti
+>
+>         Our wafer before wet etch:
+>
+>         6?? standard blank silicon wafer
+>
+>         Grow 65nm thermal oxide in the outsource foundry
+>
+>         Deposit 100nm Ti in innotec
+>
+>         Photoresist coat and pattern:
+>
+>         Yes oven with HMDS
+>
+>         Coat 3612 1um?on SVG and bake(2mm EBR)? in SVGCOAT3
+>
+>         ??Aligner exposure?for 1.3s for each wafer(vacuum contact for
+>         exposure)in karlsuss 1
+>
+>         Develop in svgdev
+>
+>         Discuum dry etching in drytek 2
+>
+>         Wet etch in wetbench webflexcorr-2
+>
+>         Using the hot plate in that bench to heat to 70C
+>
+>         Using our own beaker as container to heat
+>
+>         Collect of waste:
+>
+>         Using empty plastic bottle (SNF standard reuse empty bottom)
+>         and mark the information needed
+>
+>
+>         Please let me know what other information is needed.
+>
+>         If we got approved, we will use secondary container to
+>         transfer and put yellow sticker on the bottle.
+>
+>
+>         Thanks
+>
+>
+>         Calvin
+>
+>         _______________________________________________
+>         snf-promcommittee mailing list
+>         snf-promcommittee at lists.stanford.edu
+>         <mailto:snf-promcommittee at lists.stanford.edu>
+>         https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>     -- 
+>     Michelle Rincon, PhD
+>     Senior Engineer
+>     Stanford Nanofabrication Facility
+>
+>     (650)-725-0307
+>     mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+>
+>
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/29c70711/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Feb 14 10:32:20 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 14 Feb 2020 10:32:20 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+In-Reply-To: <4213af04-9a08-28c3-759b-f324f6a14585@stanford.edu>
+References: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+ <CAFSuyDTLFZW10biF7XY624maEWy1T0jHuU9_WP9CX+a9UfN12g@mail.gmail.com>
+ <CAFSuyDRfQbUDSG=aOW8-FKHY_=BQ-2dJCnBCuiEJeehod7+AyA@mail.gmail.com>
+ <4213af04-9a08-28c3-759b-f324f6a14585@stanford.edu>
+Message-ID: <CAFSuyDStw+m4R=bPD=MxGWJGtKg11d8w7hSaBJmq5NNRHU-EbA@mail.gmail.com>
+
+Ah! Maybe that is why his name is ringing a bell!
+
+Uli- have you talked to him about this one?
+
+On Fri, Feb 14, 2020 at 10:21 AM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hi all -
+>
+> I think this is fine -- it's just something like 25% HCl in water.  My
+> concern is that it's heated -- and is this the same Calvin who needs a lot
+> of help in the lab?  If so, then going over the chemical handling part of
+> things is probably a good idea (starting with making sure the beaker can
+> accommodate a 6" wafer, that it's glass, and all the wafer handling tools
+> are compatible with HCl.)
+>
+> I would suggest aspirating the waste and rinsate -- safer than collecting
+> locally.  Since it is inorganic waste with no hazardous metals, it should
+> be ok.
+>
+> Mary
+> On 2/14/2020 9:43 AM, Michelle Rincon wrote:
+>
+> nudge :)
+>
+> On Thu, Feb 13, 2020 at 10:34 AM Michelle Rincon <mmrincon at stanford.edu>
+> wrote:
+>
+>> I think this one looks pretty reasonable- thoughts?
+>>
+>> On Wed, Feb 12, 2020 at 11:56 AM Chengzhang li <chengzhang516 at gmail.com>
+>> wrote:
+>>
+>>> Hi,
+>>>
+>>> I need to use wet etch for Ti, here is information:
+>>>
+>>> Bring chemical to SNF for WET ETCH OF Ti
+>>>
+>>> Our wafer before wet etch:
+>>>
+>>> 6?? standard blank silicon wafer
+>>>
+>>> Grow 65nm thermal oxide in the outsource foundry
+>>>
+>>> Deposit 100nm Ti in innotec
+>>>
+>>> Photoresist coat and pattern:
+>>>
+>>> Yes oven with HMDS
+>>>
+>>>    Coat 3612 1um on SVG and bake(2mm EBR)  in SVGCOAT3
+>>>
+>>>   Aligner exposure for 1.3s for each wafer(vacuum contact for exposure)in
+>>> karlsuss 1
+>>>
+>>> Develop in svgdev
+>>>
+>>> Discuum dry etching in drytek 2
+>>>
+>>>
+>>>
+>>> Wet etch in wetbench webflexcorr-2
+>>>
+>>>                 Using the hot plate in that bench to heat to 70C
+>>>
+>>>                  Using our own beaker as container to heat
+>>>
+>>>
+>>>
+>>> Collect of waste:
+>>>
+>>>                 Using empty plastic bottle (SNF standard reuse empty
+>>> bottom) and mark the information needed
+>>>
+>>>
+>>> Please let me know what other information is needed.
+>>>
+>>> If we got approved, we will use secondary container to transfer and put
+>>> yellow sticker on the bottle.
+>>>
+>>>
+>>> Thanks
+>>>
+>>>
+>>> Calvin
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/70d2ec5b/attachment.html>
+
+From mitch at nazoom.com  Fri Feb 14 14:55:09 2020
+From: mitch at nazoom.com (Mitch Yanase)
+Date: Fri, 14 Feb 2020 14:55:09 -0800
+Subject: [snf-promcommittee] Request for approval
+Message-ID: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+
+Hi,
+
+ 
+
+The attached is Materials review request.
+
+We'd appreciate if you can approve it ASAP.
+
+ 
+
+Best,
+
+Mitch
+
+ 
+
+------------------------------------------
+
+Mitch Yanase
+
+Nazoom, LLC
+
+319 Eleanor Ave.
+
+Los Altos, CA 94022
+
+Email: mitch at nazoom.com <mailto:mitch at nazoom.com> 
+
+Tel: 650-814-8453
+
+http://www.nazoom.com/en.html
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/587b6d30/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: TMS-8(Eng).pdf
+Type: application/pdf
+Size: 60748 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/587b6d30/attachment-0001.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_TMS8.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 104526 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/587b6d30/attachment-0001.docx>
+
+From mtang at stanford.edu  Fri Feb 14 15:12:18 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 14 Feb 2020 15:12:18 -0800
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+Message-ID: <b5627f75-f002-6575-cb8d-5a72e9bd02bd@stanford.edu>
+
+Hi all -
+
+Here's info about this material: 
+https://pubchem.ncbi.nlm.nih.gov/compound/Texanol
+
+I'm loving this website!? Which has this to say about safety:
+
+The chemical has met Safer Choice Criteria for its functional 
+ingredient-class, but has some hazard profile issues. Specifically, a 
+chemical with this code is not associated with a low level of hazard 
+concern for all human health and environmental endpoints. (SeeSafer 
+Choice Criteri <https://www.epa.gov/saferchoice/standard#tab-2>a). While 
+it is a best-in-class chemical and among the safest available for a 
+particular function, the function fulfilled by the chemical should be 
+considered an area for safer chemistry innovation.
+
+A common use for this chemical is as a solvent for inkjet inks. 
+Considering that Mitch wants to use this in the Micromist, this makes sense.
+
+I've a couple of comments about his request.
+
+1.? He's spraying diluted silver paste (i.e. aerosolizing silver 
+particles).? This might be better done outside the cleanroom (155?).
+
+2.? The waste should be disposed of as solvent waste, appropriately 
+labeled and bagged or bottled.
+
+Phil or Swaroop -- do you have time to work with Mitch?? By the way, 
+what did we do with that bottle of silver paste he sent (I'm wondering 
+if this is the silver paste he's referring to - in which case, the PROM 
+form should include this as well.)
+
+Mary
+
+On 2/14/2020 2:55 PM, Mitch Yanase wrote:
+>
+> Hi,
+>
+> The attached is Materials review request.
+>
+> We?d appreciate if you can approve it ASAP.
+>
+> Best,
+>
+> Mitch
+>
+> ------------------------------------------
+>
+> Mitch Yanase
+>
+> Nazoom, LLC
+>
+> 319 Eleanor Ave.
+>
+> Los Altos, CA 94022
+>
+> Email: mitch at nazoom.com <mailto:mitch at nazoom.com>
+>
+> Tel: 650-814-8453
+>
+> http://www.nazoom.com/en.html
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/f6cf24b5/attachment.html>
+
+From michelle.rincon at gmail.com  Fri Feb 14 17:56:42 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 14 Feb 2020 17:56:42 -0800
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <b5627f75-f002-6575-cb8d-5a72e9bd02bd@stanford.edu>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+ <b5627f75-f002-6575-cb8d-5a72e9bd02bd@stanford.edu>
+Message-ID: <CAFSuyDTwvSvpgyjaMUdoCNQBKLpS7HZQYd3L80voswyVh3s=iw@mail.gmail.com>
+
+That is a great website! Thanks for that Mary!
+
+Aerosolizing silver does sound like something we need to contain pretty
+well. How is our current exhaust set up for the micro mist coater in the
+cleanroom? We have kind of taken over the fume hood space with
+not-easily-movable things like the Dimatix where it used to live in 155. We
+can get creative and I guess if it is on wheels we could bring it back in
+to 155 and move some of the more movable things in Fumehood1 for him to set
+up and run, but we can't keep it in there- Jeffrey Lin and Joanna are doing
+work in there and it's our only "flexible" hood.
+
+On Fri, Feb 14, 2020 at 3:12 PM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hi all -
+>
+> Here's info about this material:
+> https://pubchem.ncbi.nlm.nih.gov/compound/Texanol
+>
+> I'm loving this website!  Which has this to say about safety:
+>
+> The chemical has met Safer Choice Criteria for its functional
+> ingredient-class, but has some hazard profile issues. Specifically, a
+> chemical with this code is not associated with a low level of hazard
+> concern for all human health and environmental endpoints. (See Safer
+> Choice Criteri <https://www.epa.gov/saferchoice/standard#tab-2>a). While
+> it is a best-in-class chemical and among the safest available for a
+> particular function, the function fulfilled by the chemical should be
+> considered an area for safer chemistry innovation.
+>
+> A common use for this chemical is as a solvent for inkjet inks.
+> Considering that Mitch wants to use this in the Micromist, this makes sense.
+>
+> I've a couple of comments about his request.
+>
+> 1.  He's spraying diluted silver paste (i.e. aerosolizing silver
+> particles).  This might be better done outside the cleanroom (155?).
+>
+> 2.  The waste should be disposed of as solvent waste, appropriately
+> labeled and bagged or bottled.
+>
+> Phil or Swaroop -- do you have time to work with Mitch?  By the way, what
+> did we do with that bottle of silver paste he sent (I'm wondering if this
+> is the silver paste he's referring to - in which case, the PROM form should
+> include this as well.)
+>
+> Mary
+> On 2/14/2020 2:55 PM, Mitch Yanase wrote:
+>
+> Hi,
+>
+>
+>
+> The attached is Materials review request.
+>
+> We?d appreciate if you can approve it ASAP.
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> ------------------------------------------
+>
+> Mitch Yanase
+>
+> Nazoom, LLC
+>
+> 319 Eleanor Ave.
+>
+> Los Altos, CA 94022
+>
+> Email: mitch at nazoom.com
+>
+> Tel: 650-814-8453
+>
+> http://www.nazoom.com/en.html
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/47b3c96f/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Feb 14 17:58:53 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 14 Feb 2020 17:58:53 -0800
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+Message-ID: <CAFSuyDQ77-9rgfHd6PQmMg8Pir0H5n-j4riGvuonqzsWto8zAQ@mail.gmail.com>
+
+Hi Mitch,
+
+Thanks for this. I have a couple of questions for clarification- will you
+be using this to aerosolize your silver paste? If so, could you please also
+provide the MSDS for the paste?
+
+We are also wondering at what frequency and for approximately how long will
+you be performing this process?
+
+Thanks,
+Michelle
+
+On Fri, Feb 14, 2020 at 2:55 PM Mitch Yanase <mitch at nazoom.com> wrote:
+
+> Hi,
+>
+>
+>
+> The attached is Materials review request.
+>
+> We?d appreciate if you can approve it ASAP.
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> ------------------------------------------
+>
+> Mitch Yanase
+>
+> Nazoom, LLC
+>
+> 319 Eleanor Ave.
+>
+> Los Altos, CA 94022
+>
+> Email: mitch at nazoom.com
+>
+> Tel: 650-814-8453
+>
+> http://www.nazoom.com/en.html
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200214/6db580b8/attachment.html>
+
+From phimmer at stanford.edu  Tue Feb 18 09:43:20 2020
+From: phimmer at stanford.edu (Phillip Himmer)
+Date: Tue, 18 Feb 2020 17:43:20 +0000
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <CAFSuyDTwvSvpgyjaMUdoCNQBKLpS7HZQYd3L80voswyVh3s=iw@mail.gmail.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+ <b5627f75-f002-6575-cb8d-5a72e9bd02bd@stanford.edu>
+ <CAFSuyDTwvSvpgyjaMUdoCNQBKLpS7HZQYd3L80voswyVh3s=iw@mail.gmail.com>
+Message-ID: <BYAPR02MB506163358399C705BBC99D8DD1110@BYAPR02MB5061.namprd02.prod.outlook.com>
+
+Hi Mary
+
+Silver paste is sitting on my shelf. As I recall it was for a demonstration they were to have given last fall.
+Looks like it might be an interesting project.
+
+phil
+
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Michelle Rincon
+Sent: Friday, February 14, 2020 5:57 PM
+To: Mary Tang <mtang at stanford.edu>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Request for approval
+
+That is a great website! Thanks for that Mary!
+
+Aerosolizing silver does sound like something we need to contain pretty well. How is our current exhaust set up for the micro mist coater in the cleanroom? We have kind of taken over the fume hood space with not-easily-movable things like the Dimatix where it used to live in 155. We can get creative and I guess if it is on wheels we could bring it back in to 155 and move some of the more movable things in Fumehood1 for him to set up and run, but we can't keep it in there- Jeffrey Lin and Joanna are doing work in there and it's our only "flexible" hood.
+
+On Fri, Feb 14, 2020 at 3:12 PM Mary Tang <mtang at stanford.edu<mailto:mtang at stanford.edu>> wrote:
+
+Hi all -
+
+Here's info about this material: https://pubchem.ncbi.nlm.nih.gov/compound/Texanol
+
+I'm loving this website!  Which has this to say about safety:
+
+The chemical has met Safer Choice Criteria for its functional ingredient-class, but has some hazard profile issues. Specifically, a chemical with this code is not associated with a low level of hazard concern for all human health and environmental endpoints. (See Safer Choice Criteri<https://www.epa.gov/saferchoice/standard#tab-2>a). While it is a best-in-class chemical and among the safest available for a particular function, the function fulfilled by the chemical should be considered an area for safer chemistry innovation.
+
+A common use for this chemical is as a solvent for inkjet inks.  Considering that Mitch wants to use this in the Micromist, this makes sense.
+
+I've a couple of comments about his request.
+
+1.  He's spraying diluted silver paste (i.e. aerosolizing silver particles).  This might be better done outside the cleanroom (155?).
+
+2.  The waste should be disposed of as solvent waste, appropriately labeled and bagged or bottled.
+
+Phil or Swaroop -- do you have time to work with Mitch?  By the way, what did we do with that bottle of silver paste he sent (I'm wondering if this is the silver paste he's referring to - in which case, the PROM form should include this as well.)
+
+Mary
+On 2/14/2020 2:55 PM, Mitch Yanase wrote:
+Hi,
+
+The attached is Materials review request.
+We?d appreciate if you can approve it ASAP.
+
+Best,
+Mitch
+
+------------------------------------------
+Mitch Yanase
+Nazoom, LLC
+319 Eleanor Ave.
+Los Altos, CA 94022
+Email: mitch at nazoom.com<mailto:mitch at nazoom.com>
+Tel: 650-814-8453
+http://www.nazoom.com/en.html
+
+
+
+_______________________________________________
+
+snf-promcommittee mailing list
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+--
+
+Mary X. Tang, Ph.D.
+
+Stanford Nanofabrication Facility
+
+Paul G. Allen Building, Rm 141
+
+420 Via Palou Mall
+
+Stanford, CA  94305
+
+(650)723-9980
+
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+
+https://snf.stanford.edu
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/8157d043/attachment-0001.html>
+
+From dsantos at ganworks.com  Tue Feb 18 11:06:17 2020
+From: dsantos at ganworks.com (Dylan Santos)
+Date: Tue, 18 Feb 2020 11:06:17 -0800
+Subject: [snf-promcommittee] Request for use of MicroChem SU-8 2002 resist
+Message-ID: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+
+Hi ProM Committee,
+We would like to request approval for use of MicroChem SU-8 2002 series
+resist.
+
+Please see attached forms.
+
+Thanks,
+
+-- 
+Dylan Santos
+Process Engineer
+GaNWorks LLC
+Mobile(408)569-2901
+
+This email message is for the sole use of the intended recipient(s) and may
+contain confidential and privileged information. Any unauthorized review,
+use, disclosure, or distribution is strictly prohibited. If you are not the
+intended recipient, please contact the sender by reply email and destroy
+all copies of the original message.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/d3a69d79/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM_Request_SU8.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 105422 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/d3a69d79/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Micro-Chem_SU-8.pdf
+Type: application/pdf
+Size: 41631 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/d3a69d79/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Micro-Chem_SU-8-Developer.pdf
+Type: application/pdf
+Size: 6024890 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/d3a69d79/attachment-0003.pdf>
+
+From mtang at stanford.edu  Tue Feb 18 11:26:37 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Tue, 18 Feb 2020 11:26:37 -0800
+Subject: [snf-promcommittee] Request for use of MicroChem SU-8 2002
+	resist
+In-Reply-To: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+References: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+Message-ID: <8316f32d-d690-2485-8654-b15711b91898@stanford.edu>
+
+Hiya -
+
+My two cents': This looks fine to me.? It's the gamma butyrolactone 
+solvent-based formulation that presents some contact and inhalation 
+concerns, but doesn't appear to present issues if handled appropriately.
+https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Butyrolactone
+
+Yellow label from Gary would be needed.? I believe we provide SU8 
+developer (Phil?) so they shouldn't need to order or store.
+
+Mary
+
+
+On 2/18/2020 11:06 AM, Dylan Santos wrote:
+> Hi ProM Committee,
+> We would like to request approval for use of MicroChem SU-8 2002 
+> series resist.
+>
+> Please see attached forms.
+>
+> Thanks,
+>
+> -- 
+> Dylan Santos
+> Process Engineer
+> GaNWorks LLC
+> Mobile(408)569-2901
+>
+> This email message is for the sole use of the intended recipient(s) 
+> and may contain confidential and privileged information. Any 
+> unauthorized review, use, disclosure, or distribution is strictly 
+> prohibited. If you are not the intended recipient, please contact the 
+> sender by reply email and destroy all copies of the original message.
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-- 
+Mary X. Tang, Ph.D.
+Stanford Nanofabrication Facility
+Paul G. Allen Building, Rm 141
+420 Via Palou Mall
+Stanford, CA  94305
+(650)723-9980
+mtang at stanford.edu
+https://snf.stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200218/b7f893ae/attachment.html>
+
+From michelle.rincon at gmail.com  Wed Feb 19 10:49:45 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 19 Feb 2020 10:49:45 -0800
+Subject: [snf-promcommittee] Request for use of MicroChem SU-8 2002
+	resist
+In-Reply-To: <8316f32d-d690-2485-8654-b15711b91898@stanford.edu>
+References: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+ <8316f32d-d690-2485-8654-b15711b91898@stanford.edu>
+Message-ID: <CAFSuyDTwyOCwnSG8E4dS1XNBFhK4udTXgqDhKwboxiV4s36qqA@mail.gmail.com>
+
+Thanks Mary!
+
+Phil- does she need the developer?
+
+Michelle
+
+On Tue, Feb 18, 2020 at 11:26 AM Mary Tang <mtang at stanford.edu> wrote:
+
+> Hiya -
+>
+> My two cents': This looks fine to me.  It's the gamma butyrolactone
+> solvent-based formulation that presents some contact and inhalation
+> concerns, but doesn't appear to present issues if handled appropriately.
+> https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Butyrolactone
+>
+> Yellow label from Gary would be needed.  I believe we provide SU8
+> developer (Phil?) so they shouldn't need to order or store.
+>
+> Mary
+>
+>
+> On 2/18/2020 11:06 AM, Dylan Santos wrote:
+>
+> Hi ProM Committee,
+> We would like to request approval for use of MicroChem SU-8 2002 series
+> resist.
+>
+> Please see attached forms.
+>
+> Thanks,
+>
+> --
+> Dylan Santos
+> Process Engineer
+> GaNWorks LLC
+> Mobile(408)569-2901
+>
+> This email message is for the sole use of the intended recipient(s) and
+> may contain confidential and privileged information. Any unauthorized
+> review, use, disclosure, or distribution is strictly prohibited. If you are
+> not the intended recipient, please contact the sender by reply email and
+> destroy all copies of the original message.
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+> Mary X. Tang, Ph.D.
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building, Rm 141
+> 420 Via Palou Mall
+> Stanford, CA  94305
+> (650)723-9980mtang at stanford.eduhttps://snf.stanford.edu
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200219/396cb06b/attachment.html>
+
+From phimmer at stanford.edu  Wed Feb 19 11:01:20 2020
+From: phimmer at stanford.edu (Phillip Himmer)
+Date: Wed, 19 Feb 2020 19:01:20 +0000
+Subject: [snf-promcommittee] Request for use of MicroChem SU-8
+	2002	resist
+In-Reply-To: <CAFSuyDTwyOCwnSG8E4dS1XNBFhK4udTXgqDhKwboxiV4s36qqA@mail.gmail.com>
+References: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+ <8316f32d-d690-2485-8654-b15711b91898@stanford.edu>
+ <CAFSuyDTwyOCwnSG8E4dS1XNBFhK4udTXgqDhKwboxiV4s36qqA@mail.gmail.com>
+Message-ID: <BYAPR02MB506119139EC391F5F0D3CE15D1100@BYAPR02MB5061.namprd02.prod.outlook.com>
+
+Hi Michelle, Mary
+
+We stock SU-8 developer.
+
+phil
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Michelle Rincon
+Sent: Wednesday, February 19, 2020 10:50 AM
+To: Mary Tang <mtang at stanford.edu>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Request for use of MicroChem SU-8 2002 resist
+
+Thanks Mary!
+
+Phil- does she need the developer?
+
+Michelle
+
+On Tue, Feb 18, 2020 at 11:26 AM Mary Tang <mtang at stanford.edu<mailto:mtang at stanford.edu>> wrote:
+
+Hiya -
+
+My two cents': This looks fine to me.  It's the gamma butyrolactone solvent-based formulation that presents some contact and inhalation concerns, but doesn't appear to present issues if handled appropriately.
+https://pubchem.ncbi.nlm.nih.gov/compound/gamma-Butyrolactone
+
+Yellow label from Gary would be needed.  I believe we provide SU8 developer (Phil?) so they shouldn't need to order or store.
+
+Mary
+
+
+On 2/18/2020 11:06 AM, Dylan Santos wrote:
+Hi ProM Committee,
+We would like to request approval for use of MicroChem SU-8 2002 series resist.
+
+Please see attached forms.
+
+Thanks,
+
+--
+Dylan Santos
+Process Engineer
+GaNWorks LLC
+Mobile(408)569-2901
+
+This email message is for the sole use of the intended recipient(s) and may contain confidential and privileged information. Any unauthorized review, use, disclosure, or distribution is strictly prohibited. If you are not the intended recipient, please contact the sender by reply email and destroy all copies of the original message.
+
+
+_______________________________________________
+
+snf-promcommittee mailing list
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+--
+
+Mary X. Tang, Ph.D.
+
+Stanford Nanofabrication Facility
+
+Paul G. Allen Building, Rm 141
+
+420 Via Palou Mall
+
+Stanford, CA  94305
+
+(650)723-9980
+
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+
+https://snf.stanford.edu
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200219/caee0ea5/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Wed Feb 19 11:39:10 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 19 Feb 2020 11:39:10 -0800
+Subject: [snf-promcommittee] Request for use of MicroChem SU-8 2002
+	resist
+In-Reply-To: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+References: <CA+2cT4rYOnkWRtiAogsJLzQLb2ePzOn=HEmjyHit5Hr7rNEEWA@mail.gmail.com>
+Message-ID: <CAFSuyDS67s9aOp0ZzzZdsNdDXWgr+Sv+zAp_UnznwSwnCgmgWQ@mail.gmail.com>
+
+Hi Dylan,
+
+Your request is approved. We have the developer available here so you will
+not need to bring it in. Please contact Gary Sosa for your chemical label
+for your bottle.
+
+Let us know if you have any questions!
+
+Best,
+Michelle
+
+On Tue, Feb 18, 2020 at 11:14 AM Dylan Santos <dsantos at ganworks.com> wrote:
+
+> Hi ProM Committee,
+> We would like to request approval for use of MicroChem SU-8 2002 series
+> resist.
+>
+> Please see attached forms.
+>
+> Thanks,
+>
+> --
+> Dylan Santos
+> Process Engineer
+> GaNWorks LLC
+> Mobile(408)569-2901
+>
+> This email message is for the sole use of the intended recipient(s) and
+> may contain confidential and privileged information. Any unauthorized
+> review, use, disclosure, or distribution is strictly prohibited. If you are
+> not the intended recipient, please contact the sender by reply email and
+> destroy all copies of the original message.
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200219/76d6b905/attachment.html>
+
+From nlee92 at stanford.edu  Tue Feb 25 13:53:18 2020
+From: nlee92 at stanford.edu (Nathan Richard Lee)
+Date: Tue, 25 Feb 2020 21:53:18 +0000
+Subject: [snf-promcommittee] Bringing own bottles of LOL2000 / SPR3612 into
+	SNF
+Message-ID: <BYAPR02MB6008DC67B32AE27D1C4658F5BEED0@BYAPR02MB6008.namprd02.prod.outlook.com>
+
+Hi,
+
+I'm a graduate student labmember and would be interested in bringing in one bottle each of LOL2000 and SPR3612 into SNF for use by my research group (PI = Prof. Amir Safavi-Naeini).
+
+Although these resists are also supplied by SNF, we're interested in supplying our own in order to better monitor the cleanliness of our spin and develop recipes.  Would this be possible, and if so where might the bottles be stored? The yellow flammables cabinet in the litho room (next to wbmiscres and headway2) seems to be roughly at capacity.
+
+Please let me know if more information will be useful.
+
+Thank you!
+Best,
+Nathan Lee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/61b7ed93/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: AZ_LOL_2000_Photoresist_MSDS.pdf
+Type: application/pdf
+Size: 129339 bytes
+Desc: AZ_LOL_2000_Photoresist_MSDS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/61b7ed93/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MSDS_Megaposit_SPR_3012 Positive Photoresist.pdf
+Type: application/pdf
+Size: 202563 bytes
+Desc: MSDS_Megaposit_SPR_3012 Positive Photoresist.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/61b7ed93/attachment-0003.pdf>
+
+From arash at genapsys.com  Tue Feb 25 17:33:10 2020
+From: arash at genapsys.com (Arash Afsarifard)
+Date: Tue, 25 Feb 2020 17:33:10 -0800
+Subject: [snf-promcommittee] Materials Request Form
+Message-ID: <CANCgsEuK9TO-EXJ5ObPrGCVMD1rUj9MuZBCxAd8Y7FBf0hHT3Q@mail.gmail.com>
+
+Hello,
+
+I am submitting a PROM request form for manual positive photoresist coating
+and etching. I have attached the form and the MSDS of the photoresist.
+Let me know if you need any other information.
+
+Regards,
+Arash
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/57b6ee56/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_Positive Photoresist coating Genapsys.doc.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 91401 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/57b6ee56/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: TDUR-P902 PM 22cP 20190725 (B) GHS_US.doc
+Type: application/msword
+Size: 92160 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200225/57b6ee56/attachment-0001.doc>
+
+From jwonseo at stanford.edu  Tue Feb 25 22:59:51 2020
+From: jwonseo at stanford.edu (Ji Won Seo)
+Date: Wed, 26 Feb 2020 06:59:51 +0000
+Subject: [snf-promcommittee] Request a new material in SNF
+In-Reply-To: <BYAPR02MB39606307D01BA11AC2B04816D20C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+References: <BYAPR02MB3960BD273D1A19B52EAE7284D23C0@BYAPR02MB3960.namprd02.prod.outlook.com>,
+ <CAFSuyDQv=+ybUDuUo2T1BsKQ+VECd58TtTSD5+1tJMxn=veMGg@mail.gmail.com>
+ <BYAPR02MB3960E9845549AFE630BEC095D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>,
+ <BYAPR02MB506166C267DC91CA86459BDFD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39609F4966DFD088E3C91F55D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>,
+ <BYAPR02MB506170AB2343F7802712FE3BD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>,
+ <BYAPR02MB39606307D01BA11AC2B04816D20C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB3960DCF29769574AE5E8FBD9D2EA0@BYAPR02MB3960.namprd02.prod.outlook.com>
+
+Hi, All.
+After discussion of my process with Swaroop, I added detail process of my photoresist in the previous form.
+I attach a revised form. Please check it.
+
+Thank you.
+
+Best, Ji Won.
+
+________________________________
+From: Ji Won Seo <jwonseo at stanford.edu>
+Sent: Wednesday, January 22, 2020 11:50 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Fw: [snf-promcommittee] Request a new material in SNF
+
+Hi, All.
+After discussion of my process with Swaroop, I added detail process of my photoresist in the previous form.
+I attach a revised form. Please check it.
+
+Thank you.
+
+Best, Ji Won.
+________________________________
+From: Phillip Himmer <phimmer at stanford.edu>
+Sent: Wednesday, January 8, 2020 10:57 AM
+To: Ji Won Seo <jwonseo at stanford.edu>
+Cc: Gary J Sosa <gsosa at stanford.edu>
+Subject: RE: [snf-promcommittee] Request a new material in SNF
+
+
+Yes, you will need this label
+
+HI Gary, Ji Won will need a label for a new version of negative resist
+
+
+
+Thanks
+
+phil
+
+
+
+From: Ji Won Seo <jwonseo at stanford.edu>
+Sent: Wednesday, January 8, 2020 10:55 AM
+To: Phillip Himmer <phimmer at stanford.edu>
+Cc: Michelle Rincon <mmrincon at stanford.edu>
+Subject: Re: [snf-promcommittee] Request a new material in SNF
+
+
+
+Sure. If you have any question, I can explain the process.
+
+
+
+Meanwhile, should I get a yellow label for new PR from Gary?
+
+________________________________
+
+?? ??: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+?? ??: ???, 1? 8, 2020 10:50 ??
+?? ??: Ji Won Seo
+??: Michelle Rincon
+??: RE: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi Ji Won
+
+
+
+I am feeling much better today, it is good to be back.
+
+You are approved to use the resist as requested. If possible I would like to ask you more about your process and learn how this resist works for your application.
+
+
+
+morning
+
+phillip
+
+
+
+From: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Sent: Wednesday, January 8, 2020 10:41 AM
+To: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Subject: Fw: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi, Phillip.
+
+I heard that you was sick yesterday.
+
+How are you feeling? I hope you feel get better soon.
+
+
+
+I have a favor to ask. As stated in the email below, I requested my new photoresist, and would like to use ASAP. So, please confirm it asap. Thank you.
+
+
+
+Best, Ji Won.
+
+
+
+________________________________
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, January 7, 2020 3:21 PM
+To: Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>>
+Subject: Re: [snf-promcommittee] Request a new material in SNF
+
+
+
+Hi JiWon,
+
+
+
+Phil is sick today but hopefully will be back tomorrow so we can confirm that you are ok to use this! I will get back to you tomorrow I hope :)
+
+
+
+Michelle
+
+
+
+On Mon, Jan 6, 2020 at 12:49 PM Ji Won Seo <jwonseo at stanford.edu<mailto:jwonseo at stanford.edu>> wrote:
+
+Hi, This is Ji Won Seo, SNF member.
+
+I request for use and storage of a chemical, negative photoresist NR26-12000PY.
+
+The photoresist is almost same model with previous one that I am using in SNF now.
+
+
+
+I attach a PROM form for placing my chemical in SNF.
+
+
+
+Additionally, I attach a MSDS and protocol sheet.
+
+
+
+Please check it ASAP because it has to be hurry.
+
+
+
+Thank  you.
+
+
+
+Best, Ji Won.
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+
+
+--
+
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/5512086a/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Request Form_Ji Won Seo_3rd revised.docx
+Type: application/haansoftdocx
+Size: 104644 bytes
+Desc: Process or Materials Request Form_Ji Won Seo_3rd revised.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/5512086a/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Wed Feb 26 13:55:42 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 26 Feb 2020 13:55:42 -0800
+Subject: [snf-promcommittee] Bringing own bottles of LOL2000 / SPR3612
+ into SNF
+In-Reply-To: <BYAPR02MB6008DC67B32AE27D1C4658F5BEED0@BYAPR02MB6008.namprd02.prod.outlook.com>
+References: <BYAPR02MB6008DC67B32AE27D1C4658F5BEED0@BYAPR02MB6008.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQ6wdwqOGUVYSKNAjby1VOX1gB7hOo7JE0VB1ict4=1-w@mail.gmail.com>
+
+Hi PROM Comm,
+
+Do we have enough space to offer storage for them?
+
+On Tue, Feb 25, 2020 at 1:55 PM Nathan Richard Lee <nlee92 at stanford.edu>
+wrote:
+
+> Hi,
+>
+> I'm a graduate student labmember and would be interested in bringing in
+> one bottle each of LOL2000 and SPR3612 into SNF for use by my research
+> group (PI = Prof. Amir Safavi-Naeini).
+>
+> Although these resists are also supplied by SNF, we're interested in
+> supplying our own in order to better monitor the cleanliness of our spin
+> and develop recipes.  Would this be possible, and if so where might the
+> bottles be stored? The yellow flammables cabinet in the litho room (next to
+> wbmiscres and headway2) seems to be roughly at capacity.
+>
+> Please let me know if more information will be useful.
+>
+> Thank you!
+> Best,
+> Nathan Lee
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/e9e3cffa/attachment.html>
+
+From mmrincon at stanford.edu  Wed Feb 26 12:15:13 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 26 Feb 2020 12:15:13 -0800
+Subject: [snf-promcommittee] Materials Request Form
+In-Reply-To: <CANCgsEuK9TO-EXJ5ObPrGCVMD1rUj9MuZBCxAd8Y7FBf0hHT3Q@mail.gmail.com>
+References: <CANCgsEuK9TO-EXJ5ObPrGCVMD1rUj9MuZBCxAd8Y7FBf0hHT3Q@mail.gmail.com>
+Message-ID: <CAFSuyDSaVk=5TZGMHo=4B1aPbNHmLkYXrmOHeRSYFRYGdxO0oQ@mail.gmail.com>
+
+I think this looks pretty reasonable- Phil and Usha, what do you say?
+
+On Tue, Feb 25, 2020 at 5:34 PM Arash Afsarifard <arash at genapsys.com> wrote:
+
+> Hello,
+>
+> I am submitting a PROM request form for manual positive photoresist
+> coating and etching. I have attached the form and the MSDS of the
+> photoresist.
+> Let me know if you need any other information.
+>
+> Regards,
+> Arash
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/f2336a3f/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Wed Feb 26 16:30:28 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 26 Feb 2020 16:30:28 -0800
+Subject: [snf-promcommittee] Bring chemical to the lab
+In-Reply-To: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+References: <CADdn4+OjT2aSoH3Dz0OCouJF=T2UgxFa22Rxg44F=YsPZyxHZw@mail.gmail.com>
+Message-ID: <CAFSuyDTwwOsigreaztsRicRN4AW_8M_T1gA2B5Y-jUtVvQaUNg@mail.gmail.com>
+
+Hi Calvin,
+
+Apologies for the delay!
+
+Your request is approved with one adjustment. Please aspirate your waste
+rather than collecting it locally.
+
+Please let me know if you have any questions.
+
+Best,
+Michelle
+
+On Wed, Feb 12, 2020 at 11:56 AM Chengzhang li <chengzhang516 at gmail.com>
+wrote:
+
+> Hi,
+>
+> I need to use wet etch for Ti, here is information:
+>
+> Bring chemical to SNF for WET ETCH OF Ti
+>
+> Our wafer before wet etch:
+>
+> 6?? standard blank silicon wafer
+>
+> Grow 65nm thermal oxide in the outsource foundry
+>
+> Deposit 100nm Ti in innotec
+>
+> Photoresist coat and pattern:
+>
+> Yes oven with HMDS
+>
+>    Coat 3612 1um on SVG and bake(2mm EBR)  in SVGCOAT3
+>
+>   Aligner exposure for 1.3s for each wafer(vacuum contact for exposure)in
+> karlsuss 1
+>
+> Develop in svgdev
+>
+> Discuum dry etching in drytek 2
+>
+>
+>
+> Wet etch in wetbench webflexcorr-2
+>
+>                 Using the hot plate in that bench to heat to 70C
+>
+>                  Using our own beaker as container to heat
+>
+>
+>
+> Collect of waste:
+>
+>                 Using empty plastic bottle (SNF standard reuse empty
+> bottom) and mark the information needed
+>
+>
+> Please let me know what other information is needed.
+>
+> If we got approved, we will use secondary container to transfer and put
+> yellow sticker on the bottle.
+>
+>
+> Thanks
+>
+>
+> Calvin
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/42a24939/attachment.html>
+
+From michelle.rincon at gmail.com  Wed Feb 26 16:36:48 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Wed, 26 Feb 2020 16:36:48 -0800
+Subject: [snf-promcommittee] Request a new material in SNF
+In-Reply-To: <BYAPR02MB3960DCF29769574AE5E8FBD9D2EA0@BYAPR02MB3960.namprd02.prod.outlook.com>
+References: <BYAPR02MB3960BD273D1A19B52EAE7284D23C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <CAFSuyDQv=+ybUDuUo2T1BsKQ+VECd58TtTSD5+1tJMxn=veMGg@mail.gmail.com>
+ <BYAPR02MB3960E9845549AFE630BEC095D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506166C267DC91CA86459BDFD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39609F4966DFD088E3C91F55D23E0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB506170AB2343F7802712FE3BD13E0@BYAPR02MB5061.namprd02.prod.outlook.com>
+ <BYAPR02MB39606307D01BA11AC2B04816D20C0@BYAPR02MB3960.namprd02.prod.outlook.com>
+ <BYAPR02MB3960DCF29769574AE5E8FBD9D2EA0@BYAPR02MB3960.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDRNPqPfY2vm_YXBWDiU2MsUScc_GHU97cpuo3DJfBa-mw@mail.gmail.com>
+
+Hi Ji Won,
+
+Thank you for documenting the additional procedures. Your request to do
+these processes is approved. Please let us know if there are additional
+changes you would like to make.
+
+Best,
+Michelle
+
+On Tue, Feb 25, 2020 at 11:01 PM Ji Won Seo <jwonseo at stanford.edu> wrote:
+
+> Hi, All.
+> After discussion of my process with Swaroop, I added detail process of my
+> photoresist in the previous form.
+> I attach a revised form. Please check it.
+>
+> Thank you.
+>
+> Best, Ji Won.
+>
+> ------------------------------
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 22, 2020 11:50 AM
+> *To:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Fw: [snf-promcommittee] Request a new material in SNF
+>
+> Hi, All.
+> After discussion of my process with Swaroop, I added detail process of my
+> photoresist in the previous form.
+> I attach a revised form. Please check it.
+>
+> Thank you.
+>
+> Best, Ji Won.
+> ------------------------------
+> *From:* Phillip Himmer <phimmer at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:57 AM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>
+> *Cc:* Gary J Sosa <gsosa at stanford.edu>
+> *Subject:* RE: [snf-promcommittee] Request a new material in SNF
+>
+>
+> Yes, you will need this label
+>
+> HI Gary, Ji Won will need a label for a new version of negative resist
+>
+>
+>
+> Thanks
+>
+> phil
+>
+>
+>
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:55 AM
+> *To:* Phillip Himmer <phimmer at stanford.edu>
+> *Cc:* Michelle Rincon <mmrincon at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Sure. If you have any question, I can explain the process.
+>
+>
+>
+> Meanwhile, should I get a yellow label for new PR from Gary?
+> ------------------------------
+>
+> *??* *??**:* Phillip Himmer <phimmer at stanford.edu>
+> *??* *??**:* ???, 1? 8, 2020 10:50 ??
+> *??* *??**:* Ji Won Seo
+> *??**:* Michelle Rincon
+> *??**:* RE: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi Ji Won
+>
+>
+>
+> I am feeling much better today, it is good to be back.
+>
+> You are approved to use the resist as requested. If possible I would like
+> to ask you more about your process and learn how this resist works for your
+> application.
+>
+>
+>
+> morning
+>
+> phillip
+>
+>
+>
+> *From:* Ji Won Seo <jwonseo at stanford.edu>
+> *Sent:* Wednesday, January 8, 2020 10:41 AM
+> *To:* Phillip Himmer <phimmer at stanford.edu>
+> *Subject:* Fw: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi, Phillip.
+>
+> I heard that you was sick yesterday.
+>
+> How are you feeling? I hope you feel get better soon.
+>
+>
+>
+> I have a favor to ask. As stated in the email below, I requested my new
+> photoresist, and would like to use ASAP. So, please confirm it asap. Thank
+> you.
+>
+>
+>
+> Best, Ji Won.
+>
+>
+> ------------------------------
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, January 7, 2020 3:21 PM
+> *To:* Ji Won Seo <jwonseo at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request a new material in SNF
+>
+>
+>
+> Hi JiWon,
+>
+>
+>
+> Phil is sick today but hopefully will be back tomorrow so we can confirm
+> that you are ok to use this! I will get back to you tomorrow I hope :)
+>
+>
+>
+> Michelle
+>
+>
+>
+> On Mon, Jan 6, 2020 at 12:49 PM Ji Won Seo <jwonseo at stanford.edu> wrote:
+>
+> Hi, This is Ji Won Seo, SNF member.
+>
+> I request for use and storage of a chemical, negative
+> photoresist NR26-12000PY.
+>
+> The photoresist is almost same model with previous one that I am using in
+> SNF now.
+>
+>
+>
+> I attach a PROM form for placing my chemical in SNF.
+>
+>
+>
+> Additionally, I attach a MSDS and protocol sheet.
+>
+>
+>
+> Please check it ASAP because it has to be hurry.
+>
+>
+>
+> Thank  you.
+>
+>
+>
+> Best, Ji Won.
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>
+> --
+>
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200226/53896d39/attachment-0001.html>
+
+From ckerst at stanford.edu  Wed Feb 26 18:30:11 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 27 Feb 2020 02:30:11 +0000
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>,
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+Message-ID: <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+HI Michelle
+
+I am submitting the same PROM request with different NuSil materials. Attached find the PROM request and MSDS. Basically the same stuff with different numbers, slightly different curing times.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Monday, June 10, 2019 3:26 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Thanks for that! Your request is approved. Please print the MSDS's and the SOP and put them in the binders in 155 when you do your first procedure.
+
+Best,
+Michelle
+
+On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+HI Michelle
+
+
+Here is the PDF and word of the other document!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:52:29 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+Here is the PDF!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:51:22 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+I think this SOP should hopefully work. Does this work?
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, June 6, 2019 10:35:16 AM
+To: Capella Frances Kerst
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Your SOP is still missing all of the process steps :) Also I am surprised about the google doc issue- are you trying to do these on mobile devices?
+
+Best,
+Michelle
+
+On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Sorry here is the PDF SOP!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Tuesday, June 4, 2019 4:51:09 PM
+To: Michelle Rincon; snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+The form doesn't seem to be able to edited on my end. Here is the information for it. Attached are the SOP and MSDS.
+
+
+Request Title:     NuSIL MED 6010 and MED 6015
+
+Requestor:                    Capella Kerst                                    Date:  6/4/2019
+
+Non-SNF staff, please complete the following:
+
+Badger ID:           ckerst
+
+Company name/PI: Mark Cutkosky
+
+Send completed form to: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, June 4, 2019 4:29:01 PM
+To: Capella Frances Kerst
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Happy Tuesday! The PROM list serve is on the PROM form :) Could you please fill one out and submit it to the email? That way everyone gets a chance to see it and staffers can stay in the loop- it is ok to refer to the SOP for the process flow question on the form. Everything looks ok though so hopefully it will be a quick approval :) Could you save your SOP as a pdf instead? For some reason the formatting is wonky and I can't see the step by step part...
+
+https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+
+Michelle
+
+On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Happy Tuesday. I would like to mix new PDMS/silicone rubber material to cure. It is very similar to Sylgard 184 and 170. I can't find the PROM email list so if you would like me to official email the whole list serve I can do that as well. Attached please find my SOP and MSDS for the two new silicone rubbers.
+
+
+Thank you
+
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/33e15ecb/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Process or Materials Review Request FormCapella2_26.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 42783 bytes
+Desc: Process or Materials Review Request FormCapella2_26.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/33e15ecb/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: RE__NuSil_Silicone_Materials.zip
+Type: application/zip
+Size: 555870 bytes
+Desc: RE__NuSil_Silicone_Materials.zip
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/33e15ecb/attachment-0001.zip>
+
+From mmrincon at stanford.edu  Thu Feb 27 10:36:38 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 27 Feb 2020 10:36:38 -0800
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+ <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+
+Hi Capella,
+
+Thanks for the request. The forms you sent are the product sheets, not the
+MSDS's. Do you have those?
+
+Best,
+Michelle
+
+On Wed, Feb 26, 2020 at 6:30 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> HI Michelle
+>
+> I am submitting the same PROM request with different NuSil materials.
+> Attached find the PROM request and MSDS. Basically the same stuff with
+> different numbers, slightly different curing times.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Monday, June 10, 2019 3:26 PM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Thanks for that! Your request is approved. Please print the MSDS's and the
+> SOP and put them in the binders in 155 when you do your first procedure.
+>
+> Best,
+> Michelle
+>
+> On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> HI Michelle
+>
+>
+> Here is the PDF and word of the other document!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:52:29 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> Here is the PDF!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:51:22 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> I think this SOP should hopefully work. Does this work?
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, June 6, 2019 10:35:16 AM
+> *To:* Capella Frances Kerst
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Your SOP is still missing all of the process steps :) Also I am surprised
+> about the google doc issue- are you trying to do these on mobile devices?
+>
+> Best,
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Sorry here is the PDF SOP!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Tuesday, June 4, 2019 4:51:09 PM
+> *To:* Michelle Rincon; snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> The form doesn't seem to be able to edited on my end. Here is the
+> information for it. Attached are the SOP and MSDS.
+>
+>
+> Request Title:     NuSIL MED 6010 and MED 6015
+>
+>
+> Requestor:                    Capella Kerst
+>       Date:  6/4/2019
+>
+> Non-SNF staff, please complete the following:
+>
+> Badger ID:           ckerst
+>
+> Company name/PI: Mark Cutkosky
+>
+> Send completed form to: snf-promcommittee at lists.stanford.edu
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, June 4, 2019 4:29:01 PM
+> *To:* Capella Frances Kerst
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Happy Tuesday! The PROM list serve is on the PROM form :) Could you please
+> fill one out and submit it to the email? That way everyone gets a chance to
+> see it and staffers can stay in the loop- it is ok to refer to the SOP for
+> the process flow question on the form. Everything looks ok though so
+> hopefully it will be a quick approval :) Could you save your SOP as a pdf
+> instead? For some reason the formatting is wonky and I can't see the step
+> by step part...
+>
+>
+> https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+>
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Happy Tuesday. I would like to mix new PDMS/silicone rubber material to
+> cure. It is very similar to Sylgard 184 and 170. I can't find the PROM
+> email list so if you would like me to official email the whole list serve I
+> can do that as well. Attached please find my SOP and MSDS for the two new
+> silicone rubbers.
+>
+>
+> Thank you
+>
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/3f99cc12/attachment-0001.html>
+
+From ckerst at stanford.edu  Thu Feb 27 10:48:01 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 27 Feb 2020 18:48:01 +0000
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+ <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+Message-ID: <BYAPR02MB4309E1933A9040AEE10FCADEAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Hi Michelle
+
+I am so sorry!! Yes here are the MSDS!
+
+Thank you
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, February 27, 2020 10:36 AM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Thanks for the request. The forms you sent are the product sheets, not the MSDS's. Do you have those?
+
+Best,
+Michelle
+
+On Wed, Feb 26, 2020 at 6:30 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+HI Michelle
+
+I am submitting the same PROM request with different NuSil materials. Attached find the PROM request and MSDS. Basically the same stuff with different numbers, slightly different curing times.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Monday, June 10, 2019 3:26 PM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Thanks for that! Your request is approved. Please print the MSDS's and the SOP and put them in the binders in 155 when you do your first procedure.
+
+Best,
+Michelle
+
+On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+HI Michelle
+
+
+Here is the PDF and word of the other document!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:52:29 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+Here is the PDF!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:51:22 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+I think this SOP should hopefully work. Does this work?
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, June 6, 2019 10:35:16 AM
+To: Capella Frances Kerst
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Your SOP is still missing all of the process steps :) Also I am surprised about the google doc issue- are you trying to do these on mobile devices?
+
+Best,
+Michelle
+
+On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Sorry here is the PDF SOP!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Tuesday, June 4, 2019 4:51:09 PM
+To: Michelle Rincon; snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+The form doesn't seem to be able to edited on my end. Here is the information for it. Attached are the SOP and MSDS.
+
+
+Request Title:     NuSIL MED 6010 and MED 6015
+
+Requestor:                    Capella Kerst                                    Date:  6/4/2019
+
+Non-SNF staff, please complete the following:
+
+Badger ID:           ckerst
+
+Company name/PI: Mark Cutkosky
+
+Send completed form to: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, June 4, 2019 4:29:01 PM
+To: Capella Frances Kerst
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Happy Tuesday! The PROM list serve is on the PROM form :) Could you please fill one out and submit it to the email? That way everyone gets a chance to see it and staffers can stay in the loop- it is ok to refer to the SOP for the process flow question on the form. Everything looks ok though so hopefully it will be a quick approval :) Could you save your SOP as a pdf instead? For some reason the formatting is wonky and I can't see the step by step part...
+
+https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+
+Michelle
+
+On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Happy Tuesday. I would like to mix new PDMS/silicone rubber material to cure. It is very similar to Sylgard 184 and 170. I can't find the PROM email list so if you would like me to official email the whole list serve I can do that as well. Attached please find my SOP and MSDS for the two new silicone rubbers.
+
+
+Thank you
+
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/162c31c8/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MED-6019_US_English.pdf
+Type: application/pdf
+Size: 305471 bytes
+Desc: MED-6019_US_English.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/162c31c8/attachment-0003.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MED-4942_US_English.pdf
+Type: application/pdf
+Size: 314241 bytes
+Desc: MED-4942_US_English.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/162c31c8/attachment-0004.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: MED-4950_US_English.pdf
+Type: application/pdf
+Size: 314372 bytes
+Desc: MED-4950_US_English.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/162c31c8/attachment-0005.pdf>
+
+From mitch at nazoom.com  Thu Feb 27 12:31:24 2020
+From: mitch at nazoom.com (Mitch Yanase)
+Date: Thu, 27 Feb 2020 12:31:24 -0800
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <CAFSuyDQ77-9rgfHd6PQmMg8Pir0H5n-j4riGvuonqzsWto8zAQ@mail.gmail.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+ <CAFSuyDQ77-9rgfHd6PQmMg8Pir0H5n-j4riGvuonqzsWto8zAQ@mail.gmail.com>
+Message-ID: <016301d5edac$e2304630$a690d290$@nazoom.com>
+
+Hi Michelle,
+
+ 
+
+Attached is Silver paste SDS.
+
+ 
+
+Frequency and how long:
+
+*        We will set up the upgraded Micromist coater.  We?d like to try silver paste coating at that time.  Whole work would be 1 ? 1.5 days.
+
+*        We plan to have a training session with silver paste coating.  It will be a hour.
+
+*        Then as needed basis by Researcher @SNF.
+
+ 
+
+We wait for your approval!
+
+ 
+
+Best,
+
+Mitch
+
+ 
+
+From: Michelle Rincon [mailto:michelle.rincon at gmail.com] 
+Sent: Friday, February 14, 2020 5:59 PM
+To: Mitch Yanase <mitch at nazoom.com>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Request for approval
+
+ 
+
+Hi Mitch,
+
+ 
+
+Thanks for this. I have a couple of questions for clarification- will you be using this to aerosolize your silver paste? If so, could you please also provide the MSDS for the paste?
+
+ 
+
+We are also wondering at what frequency and for approximately how long will you be performing this process?
+
+ 
+
+Thanks,
+
+Michelle
+
+ 
+
+On Fri, Feb 14, 2020 at 2:55 PM Mitch Yanase <mitch at nazoom.com <mailto:mitch at nazoom.com> > wrote:
+
+Hi,
+
+ 
+
+The attached is Materials review request.
+
+We?d appreciate if you can approve it ASAP.
+
+ 
+
+Best,
+
+Mitch
+
+ 
+
+------------------------------------------
+
+Mitch Yanase
+
+Nazoom, LLC
+
+319 Eleanor Ave.
+
+Los Altos, CA 94022
+
+Email: mitch at nazoom.com <mailto:mitch at nazoom.com> 
+
+Tel: 650-814-8453
+
+http://www.nazoom.com/en.html
+
+ 
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu> 
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/646a0fce/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SDS_TR-651HP-C(Eng).pdf
+Type: application/pdf
+Size: 84159 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/646a0fce/attachment-0001.pdf>
+
+From mmrincon at stanford.edu  Thu Feb 27 15:37:23 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 27 Feb 2020 15:37:23 -0800
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <BYAPR02MB4309E1933A9040AEE10FCADEAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+ <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+ <BYAPR02MB4309E1933A9040AEE10FCADEAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDR34Zgv6TEhQTaJYcBP15Ft88rhZ1bCWefcZfTwHZsOhg@mail.gmail.com>
+
+Thanks Capella,
+
+I wish all of our process could be this non-toxic... Please make sure to
+add the MSDS printouts to the book in the lab before you bring them in.
+
+Also- your SOP format is missing a bunch of the process steps- would you be
+able to send me a pdf instead of a pages document?
+
+Michelle
+
+Best,
+Michelle
+
+On Thu, Feb 27, 2020 at 10:48 AM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> Hi Michelle
+>
+> I am so sorry!! Yes here are the MSDS!
+>
+> Thank you
+> Capella
+>
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, February 27, 2020 10:36 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Thanks for the request. The forms you sent are the product sheets, not the
+> MSDS's. Do you have those?
+>
+> Best,
+> Michelle
+>
+> On Wed, Feb 26, 2020 at 6:30 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> HI Michelle
+>
+> I am submitting the same PROM request with different NuSil materials.
+> Attached find the PROM request and MSDS. Basically the same stuff with
+> different numbers, slightly different curing times.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Monday, June 10, 2019 3:26 PM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Thanks for that! Your request is approved. Please print the MSDS's and the
+> SOP and put them in the binders in 155 when you do your first procedure.
+>
+> Best,
+> Michelle
+>
+> On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> HI Michelle
+>
+>
+> Here is the PDF and word of the other document!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:52:29 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> Here is the PDF!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:51:22 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> I think this SOP should hopefully work. Does this work?
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, June 6, 2019 10:35:16 AM
+> *To:* Capella Frances Kerst
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Your SOP is still missing all of the process steps :) Also I am surprised
+> about the google doc issue- are you trying to do these on mobile devices?
+>
+> Best,
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Sorry here is the PDF SOP!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Tuesday, June 4, 2019 4:51:09 PM
+> *To:* Michelle Rincon; snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> The form doesn't seem to be able to edited on my end. Here is the
+> information for it. Attached are the SOP and MSDS.
+>
+>
+> Request Title:     NuSIL MED 6010 and MED 6015
+>
+>
+> Requestor:                    Capella Kerst
+>       Date:  6/4/2019
+>
+> Non-SNF staff, please complete the following:
+>
+> Badger ID:           ckerst
+>
+> Company name/PI: Mark Cutkosky
+>
+> Send completed form to: snf-promcommittee at lists.stanford.edu
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, June 4, 2019 4:29:01 PM
+> *To:* Capella Frances Kerst
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Happy Tuesday! The PROM list serve is on the PROM form :) Could you please
+> fill one out and submit it to the email? That way everyone gets a chance to
+> see it and staffers can stay in the loop- it is ok to refer to the SOP for
+> the process flow question on the form. Everything looks ok though so
+> hopefully it will be a quick approval :) Could you save your SOP as a pdf
+> instead? For some reason the formatting is wonky and I can't see the step
+> by step part...
+>
+>
+> https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+>
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Happy Tuesday. I would like to mix new PDMS/silicone rubber material to
+> cure. It is very similar to Sylgard 184 and 170. I can't find the PROM
+> email list so if you would like me to official email the whole list serve I
+> can do that as well. Attached please find my SOP and MSDS for the two new
+> silicone rubbers.
+>
+>
+> Thank you
+>
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/edff112a/attachment-0001.html>
+
+From mmrincon at stanford.edu  Thu Feb 27 13:46:55 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 27 Feb 2020 13:46:55 -0800
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <016301d5edac$e2304630$a690d290$@nazoom.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+ <CAFSuyDQ77-9rgfHd6PQmMg8Pir0H5n-j4riGvuonqzsWto8zAQ@mail.gmail.com>
+ <016301d5edac$e2304630$a690d290$@nazoom.com>
+Message-ID: <CAFSuyDROx3Xfq0os_q2Qm6dd4C8vSzOyn9dtdg8ii2vNe0H1sw@mail.gmail.com>
+
+Yikes. Mary- your suspicions are right on the nose.
+
+Phil- have you talked to him about this one at all?
+
+As far as coming up with alternate plans for creating nanoparticle aerosols
+in the Headway 3 bench- I checked with Gary- it sounds like we can move all
+of the stuff out of fume hood 1, move the mister mister into the fume hood
+in 155, let it stay set up in there for a couple of days, then reverse
+everything afterwards.  BUT, that does set up a painful protocol for
+whenever the researcher wants to run this process since it sounds like it
+may be ongoing...
+
+On Thu, Feb 27, 2020 at 12:31 PM Mitch Yanase <mitch at nazoom.com> wrote:
+
+> Hi Michelle,
+>
+>
+>
+> Attached is Silver paste SDS.
+>
+>
+>
+> Frequency and how long:
+>
+> ?        We will set up the upgraded Micromist coater.  We?d like to try
+> silver paste coating at that time.  Whole work would be 1 ? 1.5 days.
+>
+> ?        We plan to have a training session with silver paste coating.
+> It will be a hour.
+>
+> ?        Then as needed basis by Researcher @SNF.
+>
+>
+>
+> We wait for your approval!
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> *From:* Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> *Sent:* Friday, February 14, 2020 5:59 PM
+> *To:* Mitch Yanase <mitch at nazoom.com>
+> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request for approval
+>
+>
+>
+> Hi Mitch,
+>
+>
+>
+> Thanks for this. I have a couple of questions for clarification- will you
+> be using this to aerosolize your silver paste? If so, could you please also
+> provide the MSDS for the paste?
+>
+>
+>
+> We are also wondering at what frequency and for approximately how long
+> will you be performing this process?
+>
+>
+>
+> Thanks,
+>
+> Michelle
+>
+>
+>
+> On Fri, Feb 14, 2020 at 2:55 PM Mitch Yanase <mitch at nazoom.com> wrote:
+>
+> Hi,
+>
+>
+>
+> The attached is Materials review request.
+>
+> We?d appreciate if you can approve it ASAP.
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> ------------------------------------------
+>
+> Mitch Yanase
+>
+> Nazoom, LLC
+>
+> 319 Eleanor Ave.
+>
+> Los Altos, CA 94022
+>
+> Email: mitch at nazoom.com
+>
+> Tel: 650-814-8453
+>
+> http://www.nazoom.com/en.html
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200227/d105c3ab/attachment-0001.html>
+
+From ckerst at stanford.edu  Thu Feb 27 16:57:23 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Fri, 28 Feb 2020 00:57:23 +0000
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <CAFSuyDR34Zgv6TEhQTaJYcBP15Ft88rhZ1bCWefcZfTwHZsOhg@mail.gmail.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+ <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+ <BYAPR02MB4309E1933A9040AEE10FCADEAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDR34Zgv6TEhQTaJYcBP15Ft88rhZ1bCWefcZfTwHZsOhg@mail.gmail.com>
+Message-ID: <BYAPR02MB4309393A182B116C60A6F5F3AFE80@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+HI Michelle
+
+This is the same issue as before with the computer haha I am so sorry!! I don't know why it does this. It is the same steps as all the other mixing PDMS stuff. Wait is it missing? I am measuring part A and B and then I am putting it into the thinkie and that is it.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, February 27, 2020 3:37 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Thanks Capella,
+
+I wish all of our process could be this non-toxic... Please make sure to add the MSDS printouts to the book in the lab before you bring them in.
+
+Also- your SOP format is missing a bunch of the process steps- would you be able to send me a pdf instead of a pages document?
+
+Michelle
+
+Best,
+Michelle
+
+On Thu, Feb 27, 2020 at 10:48 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I am so sorry!! Yes here are the MSDS!
+
+Thank you
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, February 27, 2020 10:36 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Thanks for the request. The forms you sent are the product sheets, not the MSDS's. Do you have those?
+
+Best,
+Michelle
+
+On Wed, Feb 26, 2020 at 6:30 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+HI Michelle
+
+I am submitting the same PROM request with different NuSil materials. Attached find the PROM request and MSDS. Basically the same stuff with different numbers, slightly different curing times.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Monday, June 10, 2019 3:26 PM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Thanks for that! Your request is approved. Please print the MSDS's and the SOP and put them in the binders in 155 when you do your first procedure.
+
+Best,
+Michelle
+
+On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+HI Michelle
+
+
+Here is the PDF and word of the other document!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:52:29 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+Here is the PDF!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Thursday, June 6, 2019 2:51:22 PM
+To: Michelle Rincon
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+I think this SOP should hopefully work. Does this work?
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, June 6, 2019 10:35:16 AM
+To: Capella Frances Kerst
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Your SOP is still missing all of the process steps :) Also I am surprised about the google doc issue- are you trying to do these on mobile devices?
+
+Best,
+Michelle
+
+On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Sorry here is the PDF SOP!
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Capella Frances Kerst
+Sent: Tuesday, June 4, 2019 4:51:09 PM
+To: Michelle Rincon; snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: SOP Prom request
+
+
+Hi Michelle
+
+
+The form doesn't seem to be able to edited on my end. Here is the information for it. Attached are the SOP and MSDS.
+
+
+Request Title:     NuSIL MED 6010 and MED 6015
+
+Requestor:                    Capella Kerst                                    Date:  6/4/2019
+
+Non-SNF staff, please complete the following:
+
+Badger ID:           ckerst
+
+Company name/PI: Mark Cutkosky
+
+Send completed form to: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+
+
+Thank you
+
+Capella
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Tuesday, June 4, 2019 4:29:01 PM
+To: Capella Frances Kerst
+Subject: Re: SOP Prom request
+
+Hi Capella,
+
+Happy Tuesday! The PROM list serve is on the PROM form :) Could you please fill one out and submit it to the email? That way everyone gets a chance to see it and staffers can stay in the loop- it is ok to refer to the SOP for the process flow question on the form. Everything looks ok though so hopefully it will be a quick approval :) Could you save your SOP as a pdf instead? For some reason the formatting is wonky and I can't see the step by step part...
+
+https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+
+Michelle
+
+On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+Hi Michelle
+
+
+Happy Tuesday. I would like to mix new PDMS/silicone rubber material to cure. It is very similar to Sylgard 184 and 170. I can't find the PROM email list so if you would like me to official email the whole list serve I can do that as well. Attached please find my SOP and MSDS for the two new silicone rubbers.
+
+
+Thank you
+
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200228/9c476afa/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Feb 28 09:29:45 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 28 Feb 2020 09:29:45 -0800
+Subject: [snf-promcommittee] SOP Prom request
+In-Reply-To: <BYAPR02MB4309393A182B116C60A6F5F3AFE80@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB592882115EF058C732BF1F6AAF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDSmZzR5A74oCog7XmW8t+fE5ds+42SGnFKS92a8KbeFEg@mail.gmail.com>
+ <BYAPR02MB59281F0D059554EDD5246EE5AF150@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BN8PR02MB5922ECC3411073B6F441F885AF150@BN8PR02MB5922.namprd02.prod.outlook.com>
+ <CAFSuyDTRqNBj8jevvYF+FJQo=Y6H2ZbcanHdrnGOgWJ4_c4J8Q@mail.gmail.com>
+ <BYAPR02MB59283B17C4E5BF7D645DA70DAF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB59286E005911258DCAC656D6AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <BYAPR02MB5928123F289C4921D5782A06AF170@BYAPR02MB5928.namprd02.prod.outlook.com>
+ <CAFSuyDQkOPcwLg40RWsUtQo3+9TCEw_9Ke_eT7mqYNcpUG9DXg@mail.gmail.com>
+ <BYAPR02MB4309B0AC3CDCD3AC5CF40A8EAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQ9zSQufT-5c-eLE4GRQPEH57NM0BO9tPqRLa+7+z2EQQ@mail.gmail.com>
+ <BYAPR02MB4309E1933A9040AEE10FCADEAFEB0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDR34Zgv6TEhQTaJYcBP15Ft88rhZ1bCWefcZfTwHZsOhg@mail.gmail.com>
+ <BYAPR02MB4309393A182B116C60A6F5F3AFE80@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDR+vWLaN+bPA0MkxcG_8u0bbhd1tpvKJu4ZKkpxckOtpA@mail.gmail.com>
+
+If you print it to a pdf instead of a printer and then send it to us, it
+should work! Right now none of the steps are showing up.
+
+On Thu, Feb 27, 2020 at 4:57 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> HI Michelle
+>
+> This is the same issue as before with the computer haha I am so sorry!! I
+> don't know why it does this. It is the same steps as all the other mixing
+> PDMS stuff. Wait is it missing? I am measuring part A and B and then I am
+> putting it into the thinkie and that is it.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, February 27, 2020 3:37 PM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Thanks Capella,
+>
+> I wish all of our process could be this non-toxic... Please make sure to
+> add the MSDS printouts to the book in the lab before you bring them in.
+>
+> Also- your SOP format is missing a bunch of the process steps- would you
+> be able to send me a pdf instead of a pages document?
+>
+> Michelle
+>
+> Best,
+> Michelle
+>
+> On Thu, Feb 27, 2020 at 10:48 AM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+> Hi Michelle
+>
+> I am so sorry!! Yes here are the MSDS!
+>
+> Thank you
+> Capella
+>
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, February 27, 2020 10:36 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Thanks for the request. The forms you sent are the product sheets, not the
+> MSDS's. Do you have those?
+>
+> Best,
+> Michelle
+>
+> On Wed, Feb 26, 2020 at 6:30 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> HI Michelle
+>
+> I am submitting the same PROM request with different NuSil materials.
+> Attached find the PROM request and MSDS. Basically the same stuff with
+> different numbers, slightly different curing times.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Monday, June 10, 2019 3:26 PM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Thanks for that! Your request is approved. Please print the MSDS's and the
+> SOP and put them in the binders in 155 when you do your first procedure.
+>
+> Best,
+> Michelle
+>
+> On Thu, Jun 6, 2019 at 3:28 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> HI Michelle
+>
+>
+> Here is the PDF and word of the other document!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:52:29 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> Here is the PDF!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Thursday, June 6, 2019 2:51:22 PM
+> *To:* Michelle Rincon
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> I think this SOP should hopefully work. Does this work?
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, June 6, 2019 10:35:16 AM
+> *To:* Capella Frances Kerst
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Your SOP is still missing all of the process steps :) Also I am surprised
+> about the google doc issue- are you trying to do these on mobile devices?
+>
+> Best,
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:52 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Sorry here is the PDF SOP!
+>
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Capella Frances Kerst
+> *Sent:* Tuesday, June 4, 2019 4:51:09 PM
+> *To:* Michelle Rincon; snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: SOP Prom request
+>
+>
+> Hi Michelle
+>
+>
+> The form doesn't seem to be able to edited on my end. Here is the
+> information for it. Attached are the SOP and MSDS.
+>
+>
+> Request Title:     NuSIL MED 6010 and MED 6015
+>
+>
+> Requestor:                    Capella Kerst
+>       Date:  6/4/2019
+>
+> Non-SNF staff, please complete the following:
+>
+> Badger ID:           ckerst
+>
+> Company name/PI: Mark Cutkosky
+>
+> Send completed form to: snf-promcommittee at lists.stanford.edu
+>
+> Thank you
+>
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Tuesday, June 4, 2019 4:29:01 PM
+> *To:* Capella Frances Kerst
+> *Subject:* Re: SOP Prom request
+>
+> Hi Capella,
+>
+> Happy Tuesday! The PROM list serve is on the PROM form :) Could you please
+> fill one out and submit it to the email? That way everyone gets a chance to
+> see it and staffers can stay in the loop- it is ok to refer to the SOP for
+> the process flow question on the form. Everything looks ok though so
+> hopefully it will be a quick approval :) Could you save your SOP as a pdf
+> instead? For some reason the formatting is wonky and I can't see the step
+> by step part...
+>
+>
+> https://gdoc.pub/doc/e/2PACX-1vQi4hhIqpG5t_nfi-2kQ5DCyaqxloPebjxAmVinQ8_XF7g7_cid0jF4v8LzL5WUSPRSIr4AxiJpz9dy
+>
+> Michelle
+>
+> On Tue, Jun 4, 2019 at 4:23 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+>
+> Happy Tuesday. I would like to mix new PDMS/silicone rubber material to
+> cure. It is very similar to Sylgard 184 and 170. I can't find the PROM
+> email list so if you would like me to official email the whole list serve I
+> can do that as well. Attached please find my SOP and MSDS for the two new
+> silicone rubbers.
+>
+>
+> Thank you
+>
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200228/b8ee3b84/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Fri Feb 28 09:33:03 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 28 Feb 2020 09:33:03 -0800
+Subject: [snf-promcommittee] Bringing own bottles of LOL2000 / SPR3612
+ into SNF
+In-Reply-To: <BYAPR02MB6008DC67B32AE27D1C4658F5BEED0@BYAPR02MB6008.namprd02.prod.outlook.com>
+References: <BYAPR02MB6008DC67B32AE27D1C4658F5BEED0@BYAPR02MB6008.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDSUW5tT49S_p=Z06LHUSKsBc23EJzvPo_iLHLOHmrShmA@mail.gmail.com>
+
+Hi Nathan,
+
+Your request is approved. Please work with Phil to find the space in the
+larger bottle volume solvent cabinets in the cleanroom service area. Please
+contact Gary Sosa to get yellow labels for your bottles.
+
+Best,
+Michelle
+
+On Tue, Feb 25, 2020 at 1:55 PM Nathan Richard Lee <nlee92 at stanford.edu>
+wrote:
+
+> Hi,
+>
+> I'm a graduate student labmember and would be interested in bringing in
+> one bottle each of LOL2000 and SPR3612 into SNF for use by my research
+> group (PI = Prof. Amir Safavi-Naeini).
+>
+> Although these resists are also supplied by SNF, we're interested in
+> supplying our own in order to better monitor the cleanliness of our spin
+> and develop recipes.  Would this be possible, and if so where might the
+> bottles be stored? The yellow flammables cabinet in the litho room (next to
+> wbmiscres and headway2) seems to be roughly at capacity.
+>
+> Please let me know if more information will be useful.
+>
+> Thank you!
+> Best,
+> Nathan Lee
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200228/ae3c4828/attachment.html>
+

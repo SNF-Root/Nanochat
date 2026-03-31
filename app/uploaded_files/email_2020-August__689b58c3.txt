@@ -1,0 +1,6340 @@
+From don.gardner at alumni.stanford.edu  Mon Aug  3 16:51:47 2020
+From: don.gardner at alumni.stanford.edu (Donald Gardner)
+Date: Mon, 3 Aug 2020 16:51:47 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+Message-ID: <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+
+Attached is the Stanford EHS SOP prepared with the information for BaTiO3 ceramic processing together with the PROM for your review and consideration.  I was not sure of some of the locations for things like the first aid kit for room 155, so please let me know.
+
+With best regards,
+Don
+
+
+
+On Jul 23, 2020, at 4:06 PM, Michelle Rincon <michelle.rincon at gmail.com> wrote:
+
+Hi Don,
+
+Thanks for your request. In Room 155, we use the Stanford EHS SOP template SU SOP Template <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>- could you please fill this out? I also just checked- it looks like you are not qualified on any of the equipment in 155- have you used that room before? If not, you get to be the guinea pig for my remote safety training for that space :)
+
+Best,
+Michelle
+
+On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner <don.gardner at alumni.stanford.edu <mailto:don.gardner at alumni.stanford.edu>> wrote:
+Hi Folks,
+
+Attached is our PROM request and a paper for forming BaTiO3 ceramics in SNF for your review and consideration.
+
+With best regards,
+Don Gardner
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200803/a1059b19/attachment-0003.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SOP for sintered BaTiOx.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 93761 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200803/a1059b19/attachment-0002.docx>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200803/a1059b19/attachment-0004.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM Process Request BaTiO3.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 107376 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200803/a1059b19/attachment-0003.docx>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200803/a1059b19/attachment-0005.html>
+
+From maurice at stanford.edu  Tue Aug  4 09:46:21 2020
+From: maurice at stanford.edu (maurice stevens)
+Date: Tue, 4 Aug 2020 09:46:21 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+ <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+Message-ID: <64651AC0-AB09-4788-A585-A62A9E950E9C@stanford.edu>
+
+Are we comfortable with this going through our Muffler Furnace?!?!
+
+
+Maurice Stevens
+Stanford Nanofabrication Facility
+Allen Room 145, Mail Code 4070
+420 Via Palou
+Stanford, CA  94305
+P. (650)725-3660
+F. (650)725.6278
+
+
+
+
+
+
+> On Aug 3, 2020, at 4:51 PM, Donald Gardner <don.gardner at alumni.stanford.edu> wrote:
+> 
+> Attached is the Stanford EHS SOP prepared with the information for BaTiO3 ceramic processing together with the PROM for your review and consideration.  I was not sure of some of the locations for things like the first aid kit for room 155, so please let me know.
+> 
+> With best regards,
+> Don
+> 
+> 
+> On Jul 23, 2020, at 4:06 PM, Michelle Rincon <michelle.rincon at gmail.com <mailto:michelle.rincon at gmail.com>> wrote:
+> 
+> Hi Don,
+> 
+> Thanks for your request. In Room 155, we use the Stanford EHS SOP template SU SOP Template <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>- could you please fill this out? I also just checked- it looks like you are not qualified on any of the equipment in 155- have you used that room before? If not, you get to be the guinea pig for my remote safety training for that space :)
+> 
+> Best,
+> Michelle
+> 
+> On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner <don.gardner at alumni.stanford.edu <mailto:don.gardner at alumni.stanford.edu>> wrote:
+> Hi Folks,
+> 
+> Attached is our PROM request and a paper for forming BaTiO3 ceramics in SNF for your review and consideration.
+> 
+> With best regards,
+> Don Gardner
+> 
+> 
+> 
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+> 
+> <SOP for sintered BaTiOx.docx><PROM Process Request BaTiO3.docx>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200804/b2b92ddf/attachment.html>
+
+From mmrincon at stanford.edu  Tue Aug  4 10:24:09 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 4 Aug 2020 10:24:09 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <64651AC0-AB09-4788-A585-A62A9E950E9C@stanford.edu>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+ <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+ <64651AC0-AB09-4788-A585-A62A9E950E9C@stanford.edu>
+Message-ID: <CAFSuyDSs2HM+RgAyr2yrYTCiiEw7P_UsMkab9JWaOevB5+E9-g@mail.gmail.com>
+
+Good question- are there any materials people who could help weigh in? :)
+
+I am also curious about how much DMF he plans to purchase and store and for
+a rough time estimate. I think I trust him to be careful and have good
+safety awareness in 155.
+
+Michelle
+
+On Tue, Aug 4, 2020 at 9:46 AM maurice stevens <maurice at stanford.edu> wrote:
+
+> Are we comfortable with this going through our Muffler Furnace?!?!
+>
+>
+> Maurice Stevens
+> Stanford Nanofabrication Facility
+> Allen Room 145, Mail Code 4070
+> 420 Via Palou
+> Stanford, CA  94305
+> P. (650)725-3660
+> F. (650)725.6278
+>
+>
+>
+>
+>
+>
+> On Aug 3, 2020, at 4:51 PM, Donald Gardner <
+> don.gardner at alumni.stanford.edu> wrote:
+>
+> Attached is the Stanford EHS SOP prepared with the information for BaTiO3
+> ceramic processing together with the PROM for your review and
+> consideration.  I was not sure of some of the locations for things like the
+> first aid kit for room 155, so please let me know.
+>
+> With best regards,
+> Don
+>
+>
+> On Jul 23, 2020, at 4:06 PM, Michelle Rincon <michelle.rincon at gmail.com>
+> wrote:
+>
+> Hi Don,
+>
+> Thanks for your request. In Room 155, we use the Stanford EHS SOP template SU
+> SOP Template
+> <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>-
+> could you please fill this out? I also just checked- it looks like you are
+> not qualified on any of the equipment in 155- have you used that room
+> before? If not, you get to be the guinea pig for my remote safety training
+> for that space :)
+>
+> Best,
+> Michelle
+>
+> On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner <
+> don.gardner at alumni.stanford.edu> wrote:
+>
+> Hi Folks,
+>
+> Attached is our PROM request and a paper for forming BaTiO3 ceramics in
+> SNF for your review and consideration.
+>
+> With best regards,
+> Don Gardner
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+> <SOP for sintered BaTiOx.docx><PROM Process Request BaTiO3.docx>
+>
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200804/3b02bbdf/attachment.html>
+
+From mtang at stanford.edu  Tue Aug  4 14:22:38 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Tue, 4 Aug 2020 14:22:38 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+ <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+Message-ID: <c33d55c8-92fb-ee02-544b-38ef3aa50560@stanford.edu>
+
+Hi all -
+
+I have to admit I hadn't read this until Maurice's comment.? My bad too, 
+as I'd mentioned the muffle furnace to Don, not knowing his plans.
+
+Honestly, I'm not sure where the furnace is these days.? When it was 
+under the hood in L119, the DMF and PVDF would probably be OK.? But the 
+temperatures!
+
+I don't know anything about ceramics and sintering (I'm looking to you 
+Materials Science people.)? But 1400C is really high!? I think it's 
+higher than the capability of the furnace, which I think tops out at 
+1100 C -- and even then, that makes me nervous without some additional 
+precautions against prying hands and curious students.? I think PVDF 
+burns at a couple hundred C, so would imagine it might not be doing a 
+good job as a binder at that point.
+
+Anyway, I will drop him a note, since I think I started it.? That said, 
+it looks like he can do the sintering at another location, so that might 
+be the best option.
+
+Mary
+
+On 8/3/2020 4:51 PM, Donald Gardner wrote:
+> Attached is the Stanford EHS SOP prepared with the information 
+> for?BaTiO3 ceramic processing together with the PROM for your review 
+> and consideration. ?I was not sure of some of the locations for things 
+> like the first aid kit for room 155, so please let me know.
+>
+> With best regards,
+> Don
+>
+>
+> On Jul 23, 2020, at 4:06 PM, Michelle Rincon 
+> <michelle.rincon at gmail.com <mailto:michelle.rincon at gmail.com>> wrote:
+>
+> Hi Don,
+>
+> Thanks for your request. In Room 155, we use the Stanford EHS SOP 
+> template SU SOP Template 
+> <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>- 
+> could you please fill this out? I also just?checked- it looks like you 
+> are not qualified on any of the equipment in 155- have you used that 
+> room before? If not, you get to be the guinea pig for my remote safety 
+> training for?that space :)
+>
+> Best,
+> Michelle
+>
+> On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner 
+> <don.gardner at alumni.stanford.edu 
+> <mailto:don.gardner at alumni.stanford.edu>> wrote:
+>
+>     Hi Folks,
+>
+>     Attached is our PROM request and a paper for forming BaTiO3
+>     ceramics in SNF for your review and consideration.
+>
+>     With best regards,
+>     Don Gardner
+>
+>
+>
+>     _______________________________________________
+>     snf-promcommittee mailing list
+>     snf-promcommittee at lists.stanford.edu
+>     <mailto:snf-promcommittee at lists.stanford.edu>
+>     https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>     <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200804/2ca787c2/attachment.html>
+
+From maurice at stanford.edu  Tue Aug  4 14:33:34 2020
+From: maurice at stanford.edu (maurice stevens)
+Date: Tue, 4 Aug 2020 14:33:34 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <c33d55c8-92fb-ee02-544b-38ef3aa50560@stanford.edu>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+ <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+ <c33d55c8-92fb-ee02-544b-38ef3aa50560@stanford.edu>
+Message-ID: <FCFD6C87-0726-4D68-B20D-453077F6FF47@stanford.edu>
+
+The muffle furnace is now in the wafer saw room.  Not in a hood anymore.
+
+-m
+
+> On Aug 4, 2020, at 2:22 PM, Mary Tang <mtang at stanford.edu> wrote:
+> 
+> Hi all -
+> 
+> I have to admit I hadn't read this until Maurice's comment.  My bad too, as I'd mentioned the muffle furnace to Don, not knowing his plans.
+> 
+> Honestly, I'm not sure where the furnace is these days.  When it was under the hood in L119, the DMF and PVDF would probably be OK.  But the temperatures!
+> 
+> I don't know anything about ceramics and sintering (I'm looking to you Materials Science people.)  But 1400C is really high!  I think it's higher than the capability of the furnace, which I think tops out at 1100 C -- and even then, that makes me nervous without some additional precautions against prying hands and curious students.  I think PVDF burns at a couple hundred C, so would imagine it might not be doing a good job as a binder at that point.
+> 
+> Anyway, I will drop him a note, since I think I started it.  That said, it looks like he can do the sintering at another location, so that might be the best option.
+> 
+> Mary
+> On 8/3/2020 4:51 PM, Donald Gardner wrote:
+>> Attached is the Stanford EHS SOP prepared with the information for BaTiO3 ceramic processing together with the PROM for your review and consideration.  I was not sure of some of the locations for things like the first aid kit for room 155, so please let me know.
+>> 
+>> With best regards,
+>> Don
+>> 
+>> 
+>> On Jul 23, 2020, at 4:06 PM, Michelle Rincon <michelle.rincon at gmail.com <mailto:michelle.rincon at gmail.com>> wrote:
+>> 
+>> Hi Don,
+>> 
+>> Thanks for your request. In Room 155, we use the Stanford EHS SOP template SU SOP Template <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>- could you please fill this out? I also just checked- it looks like you are not qualified on any of the equipment in 155- have you used that room before? If not, you get to be the guinea pig for my remote safety training for that space :)
+>> 
+>> Best,
+>> Michelle
+>> 
+>> On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner <don.gardner at alumni.stanford.edu <mailto:don.gardner at alumni.stanford.edu>> wrote:
+>> Hi Folks,
+>> 
+>> Attached is our PROM request and a paper for forming BaTiO3 ceramics in SNF for your review and consideration.
+>> 
+>> With best regards,
+>> Don Gardner
+>> 
+>> 
+>> 
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+>> 
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200804/9f3f7521/attachment.html>
+
+From michelle.rincon at gmail.com  Tue Aug  4 15:24:32 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Tue, 4 Aug 2020 15:24:32 -0700
+Subject: [snf-promcommittee] PROM for BaTiO3 ceramic processing
+In-Reply-To: <FCFD6C87-0726-4D68-B20D-453077F6FF47@stanford.edu>
+References: <6940E175-29D3-49AE-AFD3-D5A343A91711@alumni.stanford.edu>
+ <CAFSuyDQtpHT7X9S-aq1SieskQd1w2MYiW2hyuruRLoVEc_CiSg@mail.gmail.com>
+ <1050BB04-D15D-495B-837F-1CFC469141BA@alumni.stanford.edu>
+ <c33d55c8-92fb-ee02-544b-38ef3aa50560@stanford.edu>
+ <FCFD6C87-0726-4D68-B20D-453077F6FF47@stanford.edu>
+Message-ID: <CAFSuyDTrr8dviUdXNDWfhaFqtKTBrF+KV7bLpveQLxt1=Vzaqg@mail.gmail.com>
+
+Thank you Mary!
+
+On Tue, Aug 4, 2020 at 2:33 PM maurice stevens <maurice at stanford.edu> wrote:
+
+> The muffle furnace is now in the wafer saw room.  Not in a hood anymore.
+>
+> -m
+>
+> On Aug 4, 2020, at 2:22 PM, Mary Tang <mtang at stanford.edu> wrote:
+>
+> Hi all -
+>
+> I have to admit I hadn't read this until Maurice's comment.  My bad too,
+> as I'd mentioned the muffle furnace to Don, not knowing his plans.
+>
+> Honestly, I'm not sure where the furnace is these days.  When it was under
+> the hood in L119, the DMF and PVDF would probably be OK.  But the
+> temperatures!
+>
+> I don't know anything about ceramics and sintering (I'm looking to you
+> Materials Science people.)  But 1400C is really high!  I think it's higher
+> than the capability of the furnace, which I think tops out at 1100 C -- and
+> even then, that makes me nervous without some additional precautions
+> against prying hands and curious students.  I think PVDF burns at a couple
+> hundred C, so would imagine it might not be doing a good job as a binder at
+> that point.
+>
+> Anyway, I will drop him a note, since I think I started it.  That said, it
+> looks like he can do the sintering at another location, so that might be
+> the best option.
+>
+> Mary
+> On 8/3/2020 4:51 PM, Donald Gardner wrote:
+>
+> Attached is the Stanford EHS SOP prepared with the information for BaTiO3
+> ceramic processing together with the PROM for your review and
+> consideration.  I was not sure of some of the locations for things like the
+> first aid kit for room 155, so please let me know.
+>
+> With best regards,
+> Don
+>
+>
+> On Jul 23, 2020, at 4:06 PM, Michelle Rincon <michelle.rincon at gmail.com>
+> wrote:
+>
+> Hi Don,
+>
+> Thanks for your request. In Room 155, we use the Stanford EHS SOP template SU
+> SOP Template
+> <https://ehs.stanford.edu/wp-content/uploads/sops/SOP-template.docx>-
+> could you please fill this out? I also just checked- it looks like you are
+> not qualified on any of the equipment in 155- have you used that room
+> before? If not, you get to be the guinea pig for my remote safety training
+> for that space :)
+>
+> Best,
+> Michelle
+>
+> On Wed, Jul 22, 2020 at 4:08 PM Donald Gardner <
+> don.gardner at alumni.stanford.edu> wrote:
+>
+> Hi Folks,
+>
+> Attached is our PROM request and a paper for forming BaTiO3 ceramics in
+> SNF for your review and consideration.
+>
+> With best regards,
+> Don Gardner
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200804/52706955/attachment-0001.html>
+
+From alex.xing at 10xgenomics.com  Wed Aug  5 13:34:28 2020
+From: alex.xing at 10xgenomics.com (Alex Xing)
+Date: Wed, 5 Aug 2020 13:34:28 -0700
+Subject: [snf-promcommittee] chemicals for PROM approval
+In-Reply-To: <CAE7c8nBkOv8k9SLQboXP3aasavVj9NV6UPYitB8q3nSeUvQX9A@mail.gmail.com>
+References: <CAE7c8nCRJHA88UTtZQYvCyDNs6qu40g7TeAsMLSYJvsTA0-6qA@mail.gmail.com>
+ <CAFSuyDTDfbk8mdJVxkTc8PaqCZPUvHk0YdK+99J4NLic+GXMMA@mail.gmail.com>
+ <CAE7c8nBkOv8k9SLQboXP3aasavVj9NV6UPYitB8q3nSeUvQX9A@mail.gmail.com>
+Message-ID: <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+
+Hi Michelle,
+
+Please attached find the revised version of our protocol, which includes
+the new procedure to do 3 test wafers as Swaroop suggested.
+
+Let us know if you have any questions.
+
+Thanks,
+
+Alex
+
+On Wed, Jul 22, 2020 at 10:12 PM Alex Xing <alex.xing at 10xgenomics.com>
+wrote:
+
+> Hi Michelle,
+>
+> It was great to attend the clinic yesterday. Very helpful. Thanks for all
+> the great suggestions.
+>
+> To help SNF better understand the experiment process we are planning, the
+> attachment is a detailed step by step protocol, including the equipment we
+> are planning to use, the time and the labware. To quickly summarize them
+> here and answer your questions:
+>
+> 1. we will not mix anything in the cleanroom. All the biology reagents
+> will be in aqueous solutions as indicated in the PROM application.
+>
+> 2. we will not use labware from SNF. We will bring clean glass troughs for
+> our experiment to eliminate any contamination. See the attachment for a
+> detailed list.
+>
+> 3. We will follow the guidelines of SNF to transport chemicals to ensure
+> safety. For biology aqueous solutions, we will need to keep them on ice and
+> bring them into the lab. They will be in very small volume (10~20mL) tubes.
+> For photoresist, I am wondering what the best way is to transfer them into
+> the lab? I remember there was a recommended procedure during the training
+> but it will be great to have a refreshment. It will be great if we can
+> temporarily store them overnight while we are doing this 2-day experiment.
+>
+> 4. we plan to do this 2-day experiment on a weekend during mid-late August
+> and hope to avoid the traffic. It will take about 8 hours each day
+> following the protocol.
+>
+> Please let me know any questions you may have.
+>
+> Thanks,
+>
+> Alex
+>
+>
+>
+> On Tue, Jul 21, 2020 at 4:45 PM Michelle Rincon <mmrincon at stanford.edu>
+> wrote:
+>
+>> Hi Alex,
+>>
+>> It was nice to see you at the Process Clinic today! As we mentioned- it
+>> would very much help us if you could put together a step by step plan for
+>> what exactly you would like to do and at which location in the lab. Some of
+>> the details we would like you to address are:
+>> - Will you be mixing things within the cleanroom? The DNA MSDS lists that
+>> it is a powder- powders are not allowed in the cleanroom, for example, so
+>> if it is not in solution when you bring it in, we will have to find
+>> somewhere else for you to use it.
+>> - Would you also please clarify any labware that you may expect to use
+>> and if you will be supplying your own or if you think it is something we
+>> may have?
+>> - You also mentioned that you are not planning to store anything at SNF-
+>> is your plan to bring them with you each time you use them? Some of your
+>> materials are hazardous and we would want to make sure that your transport
+>> plan is safe- otherwise we can try and store them in the lab.
+>> - Could you provide some estimate of scheduling? The Heidelberg is a very
+>> busy tool and we are operating under Occupancy restrictions so a little
+>> planning around the scheduling details will be helpful.
+>>
+>> Thanks!
+>> Michelle
+>>
+>> On Mon, Jul 20, 2020 at 10:39 PM Alex Xing <alex.xing at 10xgenomics.com>
+>> wrote:
+>>
+>>> Hello,
+>>>
+>>> I have attached 5 chemicals and their MSDS for your review. They are
+>>> essential reagents for an experiment we are planning to do at SNF. Please
+>>> let me know if there are any questions. We would like keep this PROM
+>>> request detailed info confidential.
+>>>
+>>> Note: we are aware of developer MF-26A is available in SNF but we would
+>>> like to use MF321 as indicated here.
+>>>
+>>> Thank you,
+>>>
+>>> Alex
+>>>
+>>> --
+>>> Alex Xing, Ph.D.
+>>> Microfluidics Engineer 3
+>>> alex.xing at 10xgenomics.com
+>>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>>> 6230 Stoneridge Mall Road
+>>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>>> <http://www.10xgenomics.com/>
+>>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Alex Xing, Ph.D.
+> Microfluidics Engineer 3
+> alex.xing at 10xgenomics.com
+> [image: 10x Genomics] <http://www.10xgenomics.com/>
+> 6230 Stoneridge Mall Road
+> Pleasanton, CA 94588-3260  |  10xgenomics.com
+> <http://www.10xgenomics.com/>
+> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>
+
+
+-- 
+Alex Xing, Ph.D.
+Microfluidics Engineer 3
+alex.xing at 10xgenomics.com
+[image: 10x Genomics] <http://www.10xgenomics.com/>
+6230 Stoneridge Mall Road
+Pleasanton, CA 94588-3260  |  10xgenomics.com <http://www.10xgenomics.com/>
+[image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+<https://www.facebook.com/10xGenomics/> [image: YouTube]
+<https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200805/936ff873/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Experiment plan for SNF review_rev.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 16135 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200805/936ff873/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Wed Aug  5 13:41:21 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 5 Aug 2020 13:41:21 -0700
+Subject: [snf-promcommittee] chemicals for PROM approval
+In-Reply-To: <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+References: <CAE7c8nCRJHA88UTtZQYvCyDNs6qu40g7TeAsMLSYJvsTA0-6qA@mail.gmail.com>
+ <CAFSuyDTDfbk8mdJVxkTc8PaqCZPUvHk0YdK+99J4NLic+GXMMA@mail.gmail.com>
+ <CAE7c8nBkOv8k9SLQboXP3aasavVj9NV6UPYitB8q3nSeUvQX9A@mail.gmail.com>
+ <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+Message-ID: <CAFSuyDTzGNrwpU8UcL_SNfJmfxkumK8Z=Dpy4mi83yS7-K-r8Q@mail.gmail.com>
+
+Hi Swaroop- can you double check that this looks ok for the Heidelberg and
+Phil- can you confirm the wet bench stuff?
+
+On Wed, Aug 5, 2020 at 1:34 PM Alex Xing <alex.xing at 10xgenomics.com> wrote:
+
+> Hi Michelle,
+>
+> Please attached find the revised version of our protocol, which includes
+> the new procedure to do 3 test wafers as Swaroop suggested.
+>
+> Let us know if you have any questions.
+>
+> Thanks,
+>
+> Alex
+>
+> On Wed, Jul 22, 2020 at 10:12 PM Alex Xing <alex.xing at 10xgenomics.com>
+> wrote:
+>
+>> Hi Michelle,
+>>
+>> It was great to attend the clinic yesterday. Very helpful. Thanks for all
+>> the great suggestions.
+>>
+>> To help SNF better understand the experiment process we are planning, the
+>> attachment is a detailed step by step protocol, including the equipment we
+>> are planning to use, the time and the labware. To quickly summarize them
+>> here and answer your questions:
+>>
+>> 1. we will not mix anything in the cleanroom. All the biology reagents
+>> will be in aqueous solutions as indicated in the PROM application.
+>>
+>> 2. we will not use labware from SNF. We will bring clean glass troughs
+>> for our experiment to eliminate any contamination. See the attachment for a
+>> detailed list.
+>>
+>> 3. We will follow the guidelines of SNF to transport chemicals to ensure
+>> safety. For biology aqueous solutions, we will need to keep them on ice and
+>> bring them into the lab. They will be in very small volume (10~20mL) tubes.
+>> For photoresist, I am wondering what the best way is to transfer them into
+>> the lab? I remember there was a recommended procedure during the training
+>> but it will be great to have a refreshment. It will be great if we can
+>> temporarily store them overnight while we are doing this 2-day experiment.
+>>
+>> 4. we plan to do this 2-day experiment on a weekend during mid-late
+>> August and hope to avoid the traffic. It will take about 8 hours each day
+>> following the protocol.
+>>
+>> Please let me know any questions you may have.
+>>
+>> Thanks,
+>>
+>> Alex
+>>
+>>
+>>
+>> On Tue, Jul 21, 2020 at 4:45 PM Michelle Rincon <mmrincon at stanford.edu>
+>> wrote:
+>>
+>>> Hi Alex,
+>>>
+>>> It was nice to see you at the Process Clinic today! As we mentioned- it
+>>> would very much help us if you could put together a step by step plan for
+>>> what exactly you would like to do and at which location in the lab. Some of
+>>> the details we would like you to address are:
+>>> - Will you be mixing things within the cleanroom? The DNA MSDS lists
+>>> that it is a powder- powders are not allowed in the cleanroom, for example,
+>>> so if it is not in solution when you bring it in, we will have to find
+>>> somewhere else for you to use it.
+>>> - Would you also please clarify any labware that you may expect to use
+>>> and if you will be supplying your own or if you think it is something we
+>>> may have?
+>>> - You also mentioned that you are not planning to store anything at SNF-
+>>> is your plan to bring them with you each time you use them? Some of your
+>>> materials are hazardous and we would want to make sure that your transport
+>>> plan is safe- otherwise we can try and store them in the lab.
+>>> - Could you provide some estimate of scheduling? The Heidelberg is a
+>>> very busy tool and we are operating under Occupancy restrictions so a
+>>> little planning around the scheduling details will be helpful.
+>>>
+>>> Thanks!
+>>> Michelle
+>>>
+>>> On Mon, Jul 20, 2020 at 10:39 PM Alex Xing <alex.xing at 10xgenomics.com>
+>>> wrote:
+>>>
+>>>> Hello,
+>>>>
+>>>> I have attached 5 chemicals and their MSDS for your review. They are
+>>>> essential reagents for an experiment we are planning to do at SNF. Please
+>>>> let me know if there are any questions. We would like keep this PROM
+>>>> request detailed info confidential.
+>>>>
+>>>> Note: we are aware of developer MF-26A is available in SNF but we would
+>>>> like to use MF321 as indicated here.
+>>>>
+>>>> Thank you,
+>>>>
+>>>> Alex
+>>>>
+>>>> --
+>>>> Alex Xing, Ph.D.
+>>>> Microfluidics Engineer 3
+>>>> alex.xing at 10xgenomics.com
+>>>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>>>> 6230 Stoneridge Mall Road
+>>>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>>>> <http://www.10xgenomics.com/>
+>>>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>>>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>>>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>>>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+>>>
+>>> --
+>>> Michelle Rincon, PhD
+>>> Senior Engineer
+>>> Stanford Nanofabrication Facility
+>>>
+>>> (650)-725-0307
+>>> mmrincon at stanford.edu
+>>>
+>>
+>>
+>> --
+>> Alex Xing, Ph.D.
+>> Microfluidics Engineer 3
+>> alex.xing at 10xgenomics.com
+>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>> 6230 Stoneridge Mall Road
+>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>> <http://www.10xgenomics.com/>
+>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>
+>
+>
+> --
+> Alex Xing, Ph.D.
+> Microfluidics Engineer 3
+> alex.xing at 10xgenomics.com
+> [image: 10x Genomics] <http://www.10xgenomics.com/>
+> 6230 Stoneridge Mall Road
+> Pleasanton, CA 94588-3260  |  10xgenomics.com
+> <http://www.10xgenomics.com/>
+> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200805/f96ae67f/attachment-0001.html>
+
+From ckerst at stanford.edu  Wed Aug  5 22:53:29 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 6 Aug 2020 05:53:29 +0000
+Subject: [snf-promcommittee] SNF papers acknowledgment question
+Message-ID: <BYAPR02MB430930C38EB8F4EAFB5C64C8AF480@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Hi SNF Prom, Michelle, Maurice,
+
+Happy Wednesday. I am submitting a paper and I did work at SNF. Does the following statement still hold and is the award number still the same with all the crazy quarantine who knows what is what anymore so I wanted to check. "Work was performed in part in the nano at Stanford labs, which are supported by the National Science Foundation as part of the National Nanotechnology Coordinated Infrastructure under award ECCS-1542152."
+
+Thank you
+Capella
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200806/77b0efb1/attachment.html>
+
+From mtang at stanford.edu  Thu Aug  6 06:29:42 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Thu, 6 Aug 2020 06:29:42 -0700
+Subject: [snf-promcommittee] SNF papers acknowledgment question
+In-Reply-To: <BYAPR02MB430930C38EB8F4EAFB5C64C8AF480@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB430930C38EB8F4EAFB5C64C8AF480@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <369ce867-28b5-2e1d-e63f-10023cd94ebc@stanford.edu>
+
+Hi Capella -
+
+
+Congratulations!? And yes, the wording and award number are correct.
+
+
+Best,
+
+
+Mary
+
+
+
+On 8/5/2020 10:53 PM, Capella Frances Kerst wrote:
+> Hi SNF Prom, Michelle, Maurice,
+>
+> Happy Wednesday. I am submitting a paper and I did work at SNF. Does 
+> the following statement still hold and is the award number still the 
+> same with all the crazy quarantine who knows what is what anymore so I 
+> wanted to check. "Work was performed in part in the nano at Stanford 
+> labs, which are supported by the National Science Foundation as part 
+> of the National Nanotechnology Coordinated Infrastructure under award 
+> ECCS-1542152."
+>
+> Thank you
+> Capella
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200806/328c51d8/attachment.html>
+
+From ckerst at stanford.edu  Thu Aug  6 09:02:33 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 6 Aug 2020 16:02:33 +0000
+Subject: [snf-promcommittee] SNF papers acknowledgment question
+In-Reply-To: <369ce867-28b5-2e1d-e63f-10023cd94ebc@stanford.edu>
+References: <BYAPR02MB430930C38EB8F4EAFB5C64C8AF480@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <369ce867-28b5-2e1d-e63f-10023cd94ebc@stanford.edu>
+Message-ID: <BYAPR02MB430955A1E7A40224FC35D409AF480@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Hi Mary
+
+Thank you!! Hope you are doing well.
+
+Thank you
+Capella
+
+________________________________
+From: Mary Tang <mtang at stanford.edu>
+Sent: Thursday, August 6, 2020 6:29 AM
+To: Capella Frances Kerst <ckerst at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>; Maurice M Stevens <maurice at stanford.edu>; Michelle Rincon <mmrincon at stanford.edu>
+Subject: Re: [snf-promcommittee] SNF papers acknowledgment question
+
+
+Hi Capella -
+
+
+Congratulations!  And yes, the wording and award number are correct.
+
+
+Best,
+
+
+Mary
+
+
+
+On 8/5/2020 10:53 PM, Capella Frances Kerst wrote:
+Hi SNF Prom, Michelle, Maurice,
+
+Happy Wednesday. I am submitting a paper and I did work at SNF. Does the following statement still hold and is the award number still the same with all the crazy quarantine who knows what is what anymore so I wanted to check. "Work was performed in part in the nano at Stanford labs, which are supported by the National Science Foundation as part of the National Nanotechnology Coordinated Infrastructure under award ECCS-1542152."
+
+Thank you
+Capella
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200806/504eb277/attachment-0001.html>
+
+From jing_mo at natachem.com  Tue Aug 11 20:18:25 2020
+From: jing_mo at natachem.com (=?utf-8?B?SmltIEppbmc=?=)
+Date: Wed, 12 Aug 2020 11:18:25 +0800 (CST)
+Subject: [snf-promcommittee] =?utf-8?q?Metal_Organic_Compound_from_Nata?=
+Message-ID: <57870.221.224.51.162.1597202305.bossmail@mail.natachem.com>
+
+
+
+	Dear,
+
+	Hope you are the right person to receive this email. Or could you
+forward this email to purchasing department? Thank you very much.
+
+	As one of the leading suppliers to the LED industry, I?m honored to
+introduce our company, Jiangsu Nata Opto-Electronic Material Co., LTD.
+(hereinafter referred to as "Nata"), to you. Nata was established in
+2000 and it is a publicly traded company located in Suzhou Industrial
+Park, China. 
+
+	Nata produces Metal Organic Compound for LED and Electronic Gas for
+Semiconductor industries. Metal Organic Compound such as TMGa, TMIn,
+TEGa, TMAI, Cp2Mg, DMZn etc. has more than 99.9999% purity. Nata
+produces high pressure PH3 and AsH3 for LED industry SDS PH3 and AsH3
+for Semiconductor industry as well. Pls refer to attached
+specifications for both MO sources and Spec. gases. 
+
+	Last but not least, Nata is an international electronic material
+company whose customers are mainly distributed in China, United State,
+Germany, Japan, Taiwan, United Kingdom, etc. Our customers include
+Osram, Lumileds, EPstar, EPandleds and most major domestic customers,
+Sanan, xxx, xxx and etc.
+
+	Thank you for your time and look forward to cooperate with you!
+
+	Best Regard,
+
+	Jim Jing-------------- ?????????International
+Business
+    ???JIANGSU NATA OPTO-ELECTRONIC MATERIAL CO., LTD.
+??Add: No.67 Pingsheng Rd, Suzhou Industrial Park, Jiangsu
+Province, China
+ Tel: 86-18118255600
+ Fax: 86-512-62527116
+ www.natachem.com [1]    
+   
+
+Links:
+------
+[1] http://www.natachem.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200812/baa8db58/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: company profile.pdf
+Type: application/pdf
+Size: 607711 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200812/baa8db58/attachment-0001.pdf>
+
+From mmrincon at stanford.edu  Tue Aug 18 16:00:39 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 18 Aug 2020 16:00:39 -0700
+Subject: [snf-promcommittee] chemicals for PROM approval
+In-Reply-To: <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+References: <CAE7c8nCRJHA88UTtZQYvCyDNs6qu40g7TeAsMLSYJvsTA0-6qA@mail.gmail.com>
+ <CAFSuyDTDfbk8mdJVxkTc8PaqCZPUvHk0YdK+99J4NLic+GXMMA@mail.gmail.com>
+ <CAE7c8nBkOv8k9SLQboXP3aasavVj9NV6UPYitB8q3nSeUvQX9A@mail.gmail.com>
+ <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+Message-ID: <CAFSuyDQ5HAfY28DhpWDGL7r+bRTquCGd5d-LgakuOn8y9CCEVg@mail.gmail.com>
+
+Hi Alex,
+
+Here is your official approval! Please make sure to contact Swaroop when
+you are ready to start the experiment.
+
+Thank you for your patience!
+
+Best,
+Michelle
+
+On Wed, Aug 5, 2020 at 1:34 PM Alex Xing <alex.xing at 10xgenomics.com> wrote:
+
+> Hi Michelle,
+>
+> Please attached find the revised version of our protocol, which includes
+> the new procedure to do 3 test wafers as Swaroop suggested.
+>
+> Let us know if you have any questions.
+>
+> Thanks,
+>
+> Alex
+>
+> On Wed, Jul 22, 2020 at 10:12 PM Alex Xing <alex.xing at 10xgenomics.com>
+> wrote:
+>
+>> Hi Michelle,
+>>
+>> It was great to attend the clinic yesterday. Very helpful. Thanks for all
+>> the great suggestions.
+>>
+>> To help SNF better understand the experiment process we are planning, the
+>> attachment is a detailed step by step protocol, including the equipment we
+>> are planning to use, the time and the labware. To quickly summarize them
+>> here and answer your questions:
+>>
+>> 1. we will not mix anything in the cleanroom. All the biology reagents
+>> will be in aqueous solutions as indicated in the PROM application.
+>>
+>> 2. we will not use labware from SNF. We will bring clean glass troughs
+>> for our experiment to eliminate any contamination. See the attachment for a
+>> detailed list.
+>>
+>> 3. We will follow the guidelines of SNF to transport chemicals to ensure
+>> safety. For biology aqueous solutions, we will need to keep them on ice and
+>> bring them into the lab. They will be in very small volume (10~20mL) tubes.
+>> For photoresist, I am wondering what the best way is to transfer them into
+>> the lab? I remember there was a recommended procedure during the training
+>> but it will be great to have a refreshment. It will be great if we can
+>> temporarily store them overnight while we are doing this 2-day experiment.
+>>
+>> 4. we plan to do this 2-day experiment on a weekend during mid-late
+>> August and hope to avoid the traffic. It will take about 8 hours each day
+>> following the protocol.
+>>
+>> Please let me know any questions you may have.
+>>
+>> Thanks,
+>>
+>> Alex
+>>
+>>
+>>
+>> On Tue, Jul 21, 2020 at 4:45 PM Michelle Rincon <mmrincon at stanford.edu>
+>> wrote:
+>>
+>>> Hi Alex,
+>>>
+>>> It was nice to see you at the Process Clinic today! As we mentioned- it
+>>> would very much help us if you could put together a step by step plan for
+>>> what exactly you would like to do and at which location in the lab. Some of
+>>> the details we would like you to address are:
+>>> - Will you be mixing things within the cleanroom? The DNA MSDS lists
+>>> that it is a powder- powders are not allowed in the cleanroom, for example,
+>>> so if it is not in solution when you bring it in, we will have to find
+>>> somewhere else for you to use it.
+>>> - Would you also please clarify any labware that you may expect to use
+>>> and if you will be supplying your own or if you think it is something we
+>>> may have?
+>>> - You also mentioned that you are not planning to store anything at SNF-
+>>> is your plan to bring them with you each time you use them? Some of your
+>>> materials are hazardous and we would want to make sure that your transport
+>>> plan is safe- otherwise we can try and store them in the lab.
+>>> - Could you provide some estimate of scheduling? The Heidelberg is a
+>>> very busy tool and we are operating under Occupancy restrictions so a
+>>> little planning around the scheduling details will be helpful.
+>>>
+>>> Thanks!
+>>> Michelle
+>>>
+>>> On Mon, Jul 20, 2020 at 10:39 PM Alex Xing <alex.xing at 10xgenomics.com>
+>>> wrote:
+>>>
+>>>> Hello,
+>>>>
+>>>> I have attached 5 chemicals and their MSDS for your review. They are
+>>>> essential reagents for an experiment we are planning to do at SNF. Please
+>>>> let me know if there are any questions. We would like keep this PROM
+>>>> request detailed info confidential.
+>>>>
+>>>> Note: we are aware of developer MF-26A is available in SNF but we would
+>>>> like to use MF321 as indicated here.
+>>>>
+>>>> Thank you,
+>>>>
+>>>> Alex
+>>>>
+>>>> --
+>>>> Alex Xing, Ph.D.
+>>>> Microfluidics Engineer 3
+>>>> alex.xing at 10xgenomics.com
+>>>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>>>> 6230 Stoneridge Mall Road
+>>>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>>>> <http://www.10xgenomics.com/>
+>>>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>>>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>>>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>>>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>>> _______________________________________________
+>>>> snf-promcommittee mailing list
+>>>> snf-promcommittee at lists.stanford.edu
+>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>
+>>>
+>>>
+>>> --
+>>> Michelle Rincon, PhD
+>>> Senior Engineer
+>>> Stanford Nanofabrication Facility
+>>>
+>>> (650)-725-0307
+>>> mmrincon at stanford.edu
+>>>
+>>
+>>
+>> --
+>> Alex Xing, Ph.D.
+>> Microfluidics Engineer 3
+>> alex.xing at 10xgenomics.com
+>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>> 6230 Stoneridge Mall Road
+>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>> <http://www.10xgenomics.com/>
+>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>
+>
+>
+> --
+> Alex Xing, Ph.D.
+> Microfluidics Engineer 3
+> alex.xing at 10xgenomics.com
+> [image: 10x Genomics] <http://www.10xgenomics.com/>
+> 6230 Stoneridge Mall Road
+> Pleasanton, CA 94588-3260  |  10xgenomics.com
+> <http://www.10xgenomics.com/>
+> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200818/78223a37/attachment-0001.html>
+
+From alex.xing at 10xgenomics.com  Tue Aug 18 16:17:35 2020
+From: alex.xing at 10xgenomics.com (Alex Xing)
+Date: Tue, 18 Aug 2020 16:17:35 -0700
+Subject: [snf-promcommittee] chemicals for PROM approval
+In-Reply-To: <CAFSuyDQ5HAfY28DhpWDGL7r+bRTquCGd5d-LgakuOn8y9CCEVg@mail.gmail.com>
+References: <CAE7c8nCRJHA88UTtZQYvCyDNs6qu40g7TeAsMLSYJvsTA0-6qA@mail.gmail.com>
+ <CAFSuyDTDfbk8mdJVxkTc8PaqCZPUvHk0YdK+99J4NLic+GXMMA@mail.gmail.com>
+ <CAE7c8nBkOv8k9SLQboXP3aasavVj9NV6UPYitB8q3nSeUvQX9A@mail.gmail.com>
+ <CAE7c8nB7zEG0BGJ7jdoi8nCU03TA=HmvSWn_vkZa7WsqOZUQ5Q@mail.gmail.com>
+ <CAFSuyDQ5HAfY28DhpWDGL7r+bRTquCGd5d-LgakuOn8y9CCEVg@mail.gmail.com>
+Message-ID: <CAE7c8nChyr_n8wkU5VvytK9CoF7jegYwaAXaHqj8cF86a7_++g@mail.gmail.com>
+
+Awesome ! Thank you so much for all your help.
+
+Alex
+
+On Tue, Aug 18, 2020 at 4:01 PM Michelle Rincon <mmrincon at stanford.edu>
+wrote:
+
+> Hi Alex,
+>
+> Here is your official approval! Please make sure to contact Swaroop when
+> you are ready to start the experiment.
+>
+> Thank you for your patience!
+>
+> Best,
+> Michelle
+>
+> On Wed, Aug 5, 2020 at 1:34 PM Alex Xing <alex.xing at 10xgenomics.com>
+> wrote:
+>
+>> Hi Michelle,
+>>
+>> Please attached find the revised version of our protocol, which includes
+>> the new procedure to do 3 test wafers as Swaroop suggested.
+>>
+>> Let us know if you have any questions.
+>>
+>> Thanks,
+>>
+>> Alex
+>>
+>> On Wed, Jul 22, 2020 at 10:12 PM Alex Xing <alex.xing at 10xgenomics.com>
+>> wrote:
+>>
+>>> Hi Michelle,
+>>>
+>>> It was great to attend the clinic yesterday. Very helpful. Thanks for
+>>> all the great suggestions.
+>>>
+>>> To help SNF better understand the experiment process we are planning,
+>>> the attachment is a detailed step by step protocol, including the equipment
+>>> we are planning to use, the time and the labware. To quickly summarize them
+>>> here and answer your questions:
+>>>
+>>> 1. we will not mix anything in the cleanroom. All the biology reagents
+>>> will be in aqueous solutions as indicated in the PROM application.
+>>>
+>>> 2. we will not use labware from SNF. We will bring clean glass troughs
+>>> for our experiment to eliminate any contamination. See the attachment for a
+>>> detailed list.
+>>>
+>>> 3. We will follow the guidelines of SNF to transport chemicals to ensure
+>>> safety. For biology aqueous solutions, we will need to keep them on ice and
+>>> bring them into the lab. They will be in very small volume (10~20mL) tubes.
+>>> For photoresist, I am wondering what the best way is to transfer them into
+>>> the lab? I remember there was a recommended procedure during the training
+>>> but it will be great to have a refreshment. It will be great if we can
+>>> temporarily store them overnight while we are doing this 2-day experiment.
+>>>
+>>> 4. we plan to do this 2-day experiment on a weekend during mid-late
+>>> August and hope to avoid the traffic. It will take about 8 hours each day
+>>> following the protocol.
+>>>
+>>> Please let me know any questions you may have.
+>>>
+>>> Thanks,
+>>>
+>>> Alex
+>>>
+>>>
+>>>
+>>> On Tue, Jul 21, 2020 at 4:45 PM Michelle Rincon <mmrincon at stanford.edu>
+>>> wrote:
+>>>
+>>>> Hi Alex,
+>>>>
+>>>> It was nice to see you at the Process Clinic today! As we mentioned- it
+>>>> would very much help us if you could put together a step by step plan for
+>>>> what exactly you would like to do and at which location in the lab. Some of
+>>>> the details we would like you to address are:
+>>>> - Will you be mixing things within the cleanroom? The DNA MSDS lists
+>>>> that it is a powder- powders are not allowed in the cleanroom, for example,
+>>>> so if it is not in solution when you bring it in, we will have to find
+>>>> somewhere else for you to use it.
+>>>> - Would you also please clarify any labware that you may expect to use
+>>>> and if you will be supplying your own or if you think it is something we
+>>>> may have?
+>>>> - You also mentioned that you are not planning to store anything at
+>>>> SNF- is your plan to bring them with you each time you use them? Some of
+>>>> your materials are hazardous and we would want to make sure that your
+>>>> transport plan is safe- otherwise we can try and store them in the lab.
+>>>> - Could you provide some estimate of scheduling? The Heidelberg is a
+>>>> very busy tool and we are operating under Occupancy restrictions so a
+>>>> little planning around the scheduling details will be helpful.
+>>>>
+>>>> Thanks!
+>>>> Michelle
+>>>>
+>>>> On Mon, Jul 20, 2020 at 10:39 PM Alex Xing <alex.xing at 10xgenomics.com>
+>>>> wrote:
+>>>>
+>>>>> Hello,
+>>>>>
+>>>>> I have attached 5 chemicals and their MSDS for your review. They are
+>>>>> essential reagents for an experiment we are planning to do at SNF. Please
+>>>>> let me know if there are any questions. We would like keep this PROM
+>>>>> request detailed info confidential.
+>>>>>
+>>>>> Note: we are aware of developer MF-26A is available in SNF but we
+>>>>> would like to use MF321 as indicated here.
+>>>>>
+>>>>> Thank you,
+>>>>>
+>>>>> Alex
+>>>>>
+>>>>> --
+>>>>> Alex Xing, Ph.D.
+>>>>> Microfluidics Engineer 3
+>>>>> alex.xing at 10xgenomics.com
+>>>>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>>>>> 6230 Stoneridge Mall Road
+>>>>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>>>>> <http://www.10xgenomics.com/>
+>>>>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>>>>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>>>>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>>>>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>>>> _______________________________________________
+>>>>> snf-promcommittee mailing list
+>>>>> snf-promcommittee at lists.stanford.edu
+>>>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>>>>>
+>>>>
+>>>>
+>>>> --
+>>>> Michelle Rincon, PhD
+>>>> Senior Engineer
+>>>> Stanford Nanofabrication Facility
+>>>>
+>>>> (650)-725-0307
+>>>> mmrincon at stanford.edu
+>>>>
+>>>
+>>>
+>>> --
+>>> Alex Xing, Ph.D.
+>>> Microfluidics Engineer 3
+>>> alex.xing at 10xgenomics.com
+>>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>>> 6230 Stoneridge Mall Road
+>>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>>> <http://www.10xgenomics.com/>
+>>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>>
+>>
+>>
+>> --
+>> Alex Xing, Ph.D.
+>> Microfluidics Engineer 3
+>> alex.xing at 10xgenomics.com
+>> [image: 10x Genomics] <http://www.10xgenomics.com/>
+>> 6230 Stoneridge Mall Road
+>> Pleasanton, CA 94588-3260  |  10xgenomics.com
+>> <http://www.10xgenomics.com/>
+>> [image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+>> Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+>> <https://www.facebook.com/10xGenomics/> [image: YouTube]
+>> <https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Alex Xing, Ph.D.
+Microfluidics Engineer 3
+alex.xing at 10xgenomics.com
+[image: 10x Genomics] <http://www.10xgenomics.com/>
+6230 Stoneridge Mall Road
+Pleasanton, CA 94588-3260  |  10xgenomics.com <http://www.10xgenomics.com/>
+[image: LinkedIn] <https://www.linkedin.com/company/10x-technologies> [image:
+Twitter] <https://twitter.com/10xgenomics?lang=en> [image: Facebook]
+<https://www.facebook.com/10xGenomics/> [image: YouTube]
+<https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200818/5f0a472e/attachment-0001.html>
+
+From ckerst at stanford.edu  Wed Aug 19 21:32:00 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 20 Aug 2020 04:32:00 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+Message-ID: <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Hi Michelle
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Wednesday, August 19, 2020 11:21 AM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+
+Michelle
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+
+Thank you
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/804d909d/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SOP_posttreatmentPDMS molding.docx.pdf
+Type: application/pdf
+Size: 187245 bytes
+Desc: SOP_posttreatmentPDMS molding.docx.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/804d909d/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: N-HEXANE-ENVRNMTL-GRD-95---4L-pdf
+Type: application/octet-stream
+Size: 59730 bytes
+Desc: N-HEXANE-ENVRNMTL-GRD-95---4L-pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/804d909d/attachment-0001.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 11-3184-sylgard-184-elastomer.pdf
+Type: application/pdf
+Size: 62849 bytes
+Desc: 11-3184-sylgard-184-elastomer.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/804d909d/attachment-0003.pdf>
+
+From mmrincon at stanford.edu  Thu Aug 20 10:14:27 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 20 Aug 2020 10:14:27 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+
+Hi Capella,
+
+This is looking good- thank you! Maybe we talked about the hexane in the
+past but you were doing it somewhere else so you didn't create an nSiL SOP?
+I know we definitely had talked about it before...
+
+How big of a bottle of hexane will you be bringing and how long do you
+expect to store it in 155?
+
+Best,
+Michelle
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> Hi Michelle
+>
+> I could have SWORN I had it in like 2 years ago. I can not find it so I
+> made a new one. I really hope it gets approved quickly. defense so soon ?
+> oops for not having it before. I will just mix it by hand as I have been
+> doing outside (I want to be more safe and do it inside under a fume hood).
+> Hopefully the mixing by hand will make the approval quicker?
+> Also added the PDMS data sheet because why not, it is already in the book
+> and approved in the graphene SOP I had (I did find that in the email log)
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Wednesday, August 19, 2020 11:21 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Subject:* Re: hexane in thinkie
+>
+> Hi Capella,
+>
+> I don't seem to have the SOP you are mentioning with hexane- could you
+> please re-send it to me? Hexane is actually rarely used as a paint thinner
+> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+> vapor pressure and flash point, so I do worry a bit about having it in the
+> thinky- in addition to the fire risk due to the electricity, I would also
+> guess that it might all evaporate while you are trying to mix it. Have you
+> looked in the thinky manual that is in the drawer? Does it mention anything
+> about solvent compatibility?
+>
+> Also- Carsen checked out the computer after that last message you sent and
+> he mentioned he turned it on and it worked! Did you try turning it on? I am
+> not sure if someone is turning it off or if it just does that after not
+> being used for awhile but give that a try :)
+>
+> Michelle
+>
+> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+> Hi Michelle
+>
+> I need to thin the PDMS like we discussed on the call. A while ago I did
+> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+> it by hand, because I have but I would like to have the thinkie mix it.
+>
+> Thank you
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/21243b7a/attachment.html>
+
+From ckerst at stanford.edu  Thu Aug 20 12:00:04 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 20 Aug 2020 19:00:04 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+Message-ID: <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, August 20, 2020 10:14 AM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+Best,
+Michelle
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, August 19, 2020 11:21 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+
+Michelle
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+
+Thank you
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/5c099860/attachment-0001.html>
+
+From mmrincon at stanford.edu  Thu Aug 20 13:40:49 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 20 Aug 2020 13:40:49 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+
+Hi Phil and Swaroop-
+
+We haven't had people raiding your chemicals before- are you ok with that?
+Any special instructions?
+
+Thanks!
+Michelle
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until
+> latest December. But if that is too long I can do one month and get rid of
+> them after that.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, August 20, 2020 10:14 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: hexane in thinkie
+>
+> Hi Capella,
+>
+> This is looking good- thank you! Maybe we talked about the hexane in the
+> past but you were doing it somewhere else so you didn't create an nSiL SOP?
+> I know we definitely had talked about it before...
+>
+> How big of a bottle of hexane will you be bringing and how long do you
+> expect to store it in 155?
+>
+> Best,
+> Michelle
+>
+> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+> I could have SWORN I had it in like 2 years ago. I can not find it so I
+> made a new one. I really hope it gets approved quickly. defense so soon ?
+> oops for not having it before. I will just mix it by hand as I have been
+> doing outside (I want to be more safe and do it inside under a fume hood).
+> Hopefully the mixing by hand will make the approval quicker?
+> Also added the PDMS data sheet because why not, it is already in the book
+> and approved in the graphene SOP I had (I did find that in the email log)
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Wednesday, August 19, 2020 11:21 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Subject:* Re: hexane in thinkie
+>
+> Hi Capella,
+>
+> I don't seem to have the SOP you are mentioning with hexane- could you
+> please re-send it to me? Hexane is actually rarely used as a paint thinner
+> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+> vapor pressure and flash point, so I do worry a bit about having it in the
+> thinky- in addition to the fire risk due to the electricity, I would also
+> guess that it might all evaporate while you are trying to mix it. Have you
+> looked in the thinky manual that is in the drawer? Does it mention anything
+> about solvent compatibility?
+>
+> Also- Carsen checked out the computer after that last message you sent and
+> he mentioned he turned it on and it worked! Did you try turning it on? I am
+> not sure if someone is turning it off or if it just does that after not
+> being used for awhile but give that a try :)
+>
+> Michelle
+>
+> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+> Hi Michelle
+>
+> I need to thin the PDMS like we discussed on the call. A while ago I did
+> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+> it by hand, because I have but I would like to have the thinkie mix it.
+>
+> Thank you
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/da038fc1/attachment.html>
+
+From grahamj.ewing at stanford.edu  Thu Aug 20 13:46:52 2020
+From: grahamj.ewing at stanford.edu (Graham Joseph Ewing)
+Date: Thu, 20 Aug 2020 20:46:52 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+Message-ID: <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+
+She means the same amber jars from the cleanroom... I think. She has already bought a 4L jug of hexane. She will bring the hexane into our lab via her own amber jars, similar to the jars we have in the cleanroom.
+At least that is how I interpret her comments. Some clarification from Capella may be needed.
+
+Graham
+
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, August 20, 2020, 1:41 PM
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] hexane in thinkie
+
+Hi Phil and Swaroop-
+
+We haven't had people raiding your chemicals before- are you ok with that? Any special instructions?
+
+Thanks!
+Michelle
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, August 20, 2020 10:14 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+Best,
+Michelle
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, August 19, 2020 11:21 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+
+Michelle
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+
+Thank you
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/034177fd/attachment-0001.html>
+
+From mmrincon at stanford.edu  Thu Aug 20 13:52:22 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 20 Aug 2020 13:52:22 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQOjMg16PAHWtVVp5FmxH1ff0RYj-JL943bYWkjLh+aow@mail.gmail.com>
+
+Aaaah- thanks Graham! I will confirm with her!
+
+On Thu, Aug 20, 2020 at 1:46 PM Graham Joseph Ewing <
+grahamj.ewing at stanford.edu> wrote:
+
+> She means the same amber jars from the cleanroom... I think. She has
+> already bought a 4L jug of hexane. She will bring the hexane into our lab
+> via her own amber jars, similar to the jars we have in the cleanroom.
+> At least that is how I interpret her comments. Some clarification from
+> Capella may be needed.
+>
+> Graham
+>
+>
+> ------------------------------
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, August 20, 2020, 1:41 PM
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] hexane in thinkie
+>
+> Hi Phil and Swaroop-
+>
+> We haven't had people raiding your chemicals before- are you ok with that?
+> Any special instructions?
+>
+> Thanks!
+> Michelle
+>
+> On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+>> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it
+>> until latest December. But if that is too long I can do one month and get
+>> rid of them after that.
+>>
+>> Thank you
+>> Capella
+>> ------------------------------
+>> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>> *Sent:* Thursday, August 20, 2020 10:14 AM
+>> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>> *Cc:* snf-promcommittee at lists.stanford.edu <
+>> snf-promcommittee at lists.stanford.edu>
+>> *Subject:* Re: hexane in thinkie
+>>
+>> Hi Capella,
+>>
+>> This is looking good- thank you! Maybe we talked about the hexane in the
+>> past but you were doing it somewhere else so you didn't create an nSiL SOP?
+>> I know we definitely had talked about it before...
+>>
+>> How big of a bottle of hexane will you be bringing and how long do you
+>> expect to store it in 155?
+>>
+>> Best,
+>> Michelle
+>>
+>> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <
+>> ckerst at stanford.edu> wrote:
+>>
+>> Hi Michelle
+>>
+>> I could have SWORN I had it in like 2 years ago. I can not find it so I
+>> made a new one. I really hope it gets approved quickly. defense so soon ?
+>> oops for not having it before. I will just mix it by hand as I have been
+>> doing outside (I want to be more safe and do it inside under a fume hood).
+>> Hopefully the mixing by hand will make the approval quicker?
+>> Also added the PDMS data sheet because why not, it is already in the book
+>> and approved in the graphene SOP I had (I did find that in the email log)
+>>
+>> Thank you
+>> Capella
+>> ------------------------------
+>> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>> *Sent:* Wednesday, August 19, 2020 11:21 AM
+>> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>> *Subject:* Re: hexane in thinkie
+>>
+>> Hi Capella,
+>>
+>> I don't seem to have the SOP you are mentioning with hexane- could you
+>> please re-send it to me? Hexane is actually rarely used as a paint thinner
+>> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+>> vapor pressure and flash point, so I do worry a bit about having it in the
+>> thinky- in addition to the fire risk due to the electricity, I would also
+>> guess that it might all evaporate while you are trying to mix it. Have you
+>> looked in the thinky manual that is in the drawer? Does it mention anything
+>> about solvent compatibility?
+>>
+>> Also- Carsen checked out the computer after that last message you sent
+>> and he mentioned he turned it on and it worked! Did you try turning it on?
+>> I am not sure if someone is turning it off or if it just does that after
+>> not being used for awhile but give that a try :)
+>>
+>> Michelle
+>>
+>> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+>> ckerst at stanford.edu> wrote:
+>>
+>> Hi Michelle
+>>
+>> I need to thin the PDMS like we discussed on the call. A while ago I did
+>> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+>> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+>> it by hand, because I have but I would like to have the thinkie mix it.
+>>
+>> Thank you
+>> Capella
+>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/110e0a6a/attachment.html>
+
+From ckerst at stanford.edu  Thu Aug 20 14:06:48 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Thu, 20 Aug 2020 21:06:48 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+Message-ID: <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+I have the Hexane in amber jars already. I just need Gary to make labels once approved.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, August 20, 2020 2:05 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+Could you clarify a bit? Do you have hexane that you purchased in the other lab (SNF or ExFab) that you will be pouring into the amber bottles to use in 155?
+
+Thanks!
+Michelle
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, August 20, 2020 10:14 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+Best,
+Michelle
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, August 19, 2020 11:21 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+
+Michelle
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+
+Thank you
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/9c8b786f/attachment-0001.html>
+
+From mmrincon at stanford.edu  Thu Aug 20 14:05:17 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 20 Aug 2020 14:05:17 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+
+Hi Capella,
+
+Could you clarify a bit? Do you have hexane that you purchased in the other
+lab (SNF or ExFab) that you will be pouring into the amber bottles to use
+in 155?
+
+Thanks!
+Michelle
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until
+> latest December. But if that is too long I can do one month and get rid of
+> them after that.
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, August 20, 2020 10:14 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: hexane in thinkie
+>
+> Hi Capella,
+>
+> This is looking good- thank you! Maybe we talked about the hexane in the
+> past but you were doing it somewhere else so you didn't create an nSiL SOP?
+> I know we definitely had talked about it before...
+>
+> How big of a bottle of hexane will you be bringing and how long do you
+> expect to store it in 155?
+>
+> Best,
+> Michelle
+>
+> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+> Hi Michelle
+>
+> I could have SWORN I had it in like 2 years ago. I can not find it so I
+> made a new one. I really hope it gets approved quickly. defense so soon ?
+> oops for not having it before. I will just mix it by hand as I have been
+> doing outside (I want to be more safe and do it inside under a fume hood).
+> Hopefully the mixing by hand will make the approval quicker?
+> Also added the PDMS data sheet because why not, it is already in the book
+> and approved in the graphene SOP I had (I did find that in the email log)
+>
+> Thank you
+> Capella
+> ------------------------------
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Wednesday, August 19, 2020 11:21 AM
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+> *Subject:* Re: hexane in thinkie
+>
+> Hi Capella,
+>
+> I don't seem to have the SOP you are mentioning with hexane- could you
+> please re-send it to me? Hexane is actually rarely used as a paint thinner
+> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+> vapor pressure and flash point, so I do worry a bit about having it in the
+> thinky- in addition to the fire risk due to the electricity, I would also
+> guess that it might all evaporate while you are trying to mix it. Have you
+> looked in the thinky manual that is in the drawer? Does it mention anything
+> about solvent compatibility?
+>
+> Also- Carsen checked out the computer after that last message you sent and
+> he mentioned he turned it on and it worked! Did you try turning it on? I am
+> not sure if someone is turning it off or if it just does that after not
+> being used for awhile but give that a try :)
+>
+> Michelle
+>
+> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+> Hi Michelle
+>
+> I need to thin the PDMS like we discussed on the call. A while ago I did
+> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+> it by hand, because I have but I would like to have the thinkie mix it.
+>
+> Thank you
+> Capella
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/f05b42b0/attachment-0001.html>
+
+From mmrincon at stanford.edu  Thu Aug 20 17:39:58 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 20 Aug 2020 17:39:58 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+
+Hi Graham,
+
+Turns out she did have a large bottle (I haven't even asked where she got
+it from) that she apparently separated already into amber bottles in the
+fumehood by the wafer saw? And has stored them in 155 without labels. She
+never had approval for any of those steps so that is why it is so
+confusing. She is getting away with just a warning from me right now but
+that was totally backwards. Thank you for the heads up- it would have taken
+me much longer to figure out what in the world was going on...
+
+Michelle
+
+On Thu, Aug 20, 2020 at 1:46 PM Graham Joseph Ewing <
+grahamj.ewing at stanford.edu> wrote:
+
+> She means the same amber jars from the cleanroom... I think. She has
+> already bought a 4L jug of hexane. She will bring the hexane into our lab
+> via her own amber jars, similar to the jars we have in the cleanroom.
+> At least that is how I interpret her comments. Some clarification from
+> Capella may be needed.
+>
+> Graham
+>
+>
+> ------------------------------
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+> *Sent:* Thursday, August 20, 2020, 1:41 PM
+> *Cc:* snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] hexane in thinkie
+>
+> Hi Phil and Swaroop-
+>
+> We haven't had people raiding your chemicals before- are you ok with that?
+> Any special instructions?
+>
+> Thanks!
+> Michelle
+>
+> On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+>> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it
+>> until latest December. But if that is too long I can do one month and get
+>> rid of them after that.
+>>
+>> Thank you
+>> Capella
+>> ------------------------------
+>> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>> *Sent:* Thursday, August 20, 2020 10:14 AM
+>> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>> *Cc:* snf-promcommittee at lists.stanford.edu <
+>> snf-promcommittee at lists.stanford.edu>
+>> *Subject:* Re: hexane in thinkie
+>>
+>> Hi Capella,
+>>
+>> This is looking good- thank you! Maybe we talked about the hexane in the
+>> past but you were doing it somewhere else so you didn't create an nSiL SOP?
+>> I know we definitely had talked about it before...
+>>
+>> How big of a bottle of hexane will you be bringing and how long do you
+>> expect to store it in 155?
+>>
+>> Best,
+>> Michelle
+>>
+>> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <
+>> ckerst at stanford.edu> wrote:
+>>
+>> Hi Michelle
+>>
+>> I could have SWORN I had it in like 2 years ago. I can not find it so I
+>> made a new one. I really hope it gets approved quickly. defense so soon ?
+>> oops for not having it before. I will just mix it by hand as I have been
+>> doing outside (I want to be more safe and do it inside under a fume hood).
+>> Hopefully the mixing by hand will make the approval quicker?
+>> Also added the PDMS data sheet because why not, it is already in the book
+>> and approved in the graphene SOP I had (I did find that in the email log)
+>>
+>> Thank you
+>> Capella
+>> ------------------------------
+>> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>> *Sent:* Wednesday, August 19, 2020 11:21 AM
+>> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>> *Subject:* Re: hexane in thinkie
+>>
+>> Hi Capella,
+>>
+>> I don't seem to have the SOP you are mentioning with hexane- could you
+>> please re-send it to me? Hexane is actually rarely used as a paint thinner
+>> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+>> vapor pressure and flash point, so I do worry a bit about having it in the
+>> thinky- in addition to the fire risk due to the electricity, I would also
+>> guess that it might all evaporate while you are trying to mix it. Have you
+>> looked in the thinky manual that is in the drawer? Does it mention anything
+>> about solvent compatibility?
+>>
+>> Also- Carsen checked out the computer after that last message you sent
+>> and he mentioned he turned it on and it worked! Did you try turning it on?
+>> I am not sure if someone is turning it off or if it just does that after
+>> not being used for awhile but give that a try :)
+>>
+>> Michelle
+>>
+>> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+>> ckerst at stanford.edu> wrote:
+>>
+>> Hi Michelle
+>>
+>> I need to thin the PDMS like we discussed on the call. A while ago I did
+>> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+>> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+>> it by hand, because I have but I would like to have the thinkie mix it.
+>>
+>> Thank you
+>> Capella
+>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>>
+>>
+>> --
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu
+>>
+>
+>
+> --
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+>
+> (650)-725-0307
+> mmrincon at stanford.edu
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/770da442/attachment.html>
+
+From grahamj.ewing at stanford.edu  Thu Aug 20 18:16:26 2020
+From: grahamj.ewing at stanford.edu (Graham Joseph Ewing)
+Date: Fri, 21 Aug 2020 01:16:26 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>,
+ <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+Message-ID: <BY5PR02MB6051888CD94F83A67286397E915B0@BY5PR02MB6051.namprd02.prod.outlook.com>
+
+That all makes sense now. Capella mentioned walking across campus with a bottle of hexane yesterday. It made this email chain suspicious.
+I am often around when she is here. I'll keep an eye open to make sure things aren't being done "backwards" again.
+
+Graham
+
+
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, August 20, 2020, 5:40 PM
+To: Graham Joseph Ewing
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] hexane in thinkie
+
+Hi Graham,
+
+Turns out she did have a large bottle (I haven't even asked where she got it from) that she apparently separated already into amber bottles in the fumehood by the wafer saw? And has stored them in 155 without labels. She never had approval for any of those steps so that is why it is so confusing. She is getting away with just a warning from me right now but that was totally backwards. Thank you for the heads up- it would have taken me much longer to figure out what in the world was going on...
+
+Michelle
+
+On Thu, Aug 20, 2020 at 1:46 PM Graham Joseph Ewing <grahamj.ewing at stanford.edu<mailto:grahamj.ewing at stanford.edu>> wrote:
+She means the same amber jars from the cleanroom... I think. She has already bought a 4L jug of hexane. She will bring the hexane into our lab via her own amber jars, similar to the jars we have in the cleanroom.
+At least that is how I interpret her comments. Some clarification from Capella may be needed.
+
+Graham
+
+
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu<mailto:snf-promcommittee-bounces at lists.stanford.edu>> on behalf of Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, August 20, 2020, 1:41 PM
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] hexane in thinkie
+
+Hi Phil and Swaroop-
+
+We haven't had people raiding your chemicals before- are you ok with that? Any special instructions?
+
+Thanks!
+Michelle
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Thursday, August 20, 2020 10:14 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+Best,
+Michelle
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+Sent: Wednesday, August 19, 2020 11:21 AM
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+
+Michelle
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+Hi Michelle
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+
+Thank you
+Capella
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200821/b0484526/attachment-0001.html>
+
+From maurice at stanford.edu  Thu Aug 20 20:55:42 2020
+From: maurice at stanford.edu (maurice stevens)
+Date: Thu, 20 Aug 2020 20:55:42 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BY5PR02MB6051888CD94F83A67286397E915B0@BY5PR02MB6051.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+ <BY5PR02MB6051888CD94F83A67286397E915B0@BY5PR02MB6051.namprd02.prod.outlook.com>
+Message-ID: <0A31D9D7-235A-4BD4-9FF8-7F03E567CE5F@stanford.edu>
+
+I actually broke it down into the smaller bottles for her.  I thought that would be safer.
+
+She had convinced me that she had gotten approval already? until she asked where to get labels for the newly filled amber bottles.
+
+I?ll ask more direct questions in the future.
+
+-m
+
+
+> On Aug 20, 2020, at 6:16 PM, Graham Joseph Ewing <grahamj.ewing at stanford.edu <mailto:grahamj.ewing at stanford.edu>> wrote:
+> 
+> That all makes sense now. Capella mentioned walking across campus with a bottle of hexane yesterday. It made this email chain suspicious. 
+> I am often around when she is here. I'll keep an eye open to make sure things aren't being done "backwards" again.
+> 
+> Graham
+> 
+> 
+> 
+> From: Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Sent: Thursday, August 20, 2020, 5:40 PM
+> To: Graham Joseph Ewing
+> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> Subject: Re: [snf-promcommittee] hexane in thinkie
+> 
+> Hi Graham,
+> 
+> Turns out she did have a large bottle (I haven't even asked where she got it from) that she apparently separated already into amber bottles in the fumehood by the wafer saw? And has stored them in 155 without labels. She never had approval for any of those steps so that is why it is so confusing. She is getting away with just a warning from me right now but that was totally backwards. Thank you for the heads up- it would have taken me much longer to figure out what in the world was going on...
+> 
+> Michelle
+> 
+> On Thu, Aug 20, 2020 at 1:46 PM Graham Joseph Ewing <grahamj.ewing at stanford.edu <mailto:grahamj.ewing at stanford.edu>> wrote:
+> She means the same amber jars from the cleanroom... I think. She has already bought a 4L jug of hexane. She will bring the hexane into our lab via her own amber jars, similar to the jars we have in the cleanroom. 
+> At least that is how I interpret her comments. Some clarification from Capella may be needed.
+> 
+> Graham
+> 
+> 
+> From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu <mailto:snf-promcommittee-bounces at lists.stanford.edu>> on behalf of Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Sent: Thursday, August 20, 2020, 1:41 PM
+> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> Subject: Re: [snf-promcommittee] hexane in thinkie
+> 
+> Hi Phil and Swaroop-
+> 
+> We haven't had people raiding your chemicals before- are you ok with that? Any special instructions?
+> 
+> Thanks!
+> Michelle
+> 
+> On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+> 
+> Thank you
+> Capella
+> From: Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Sent: Thursday, August 20, 2020 10:14 AM
+> To: Capella Frances Kerst <ckerst at stanford.edu <mailto:ckerst at stanford.edu>>
+> Cc: snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>>
+> Subject: Re: hexane in thinkie
+>  
+> Hi Capella,
+> 
+> This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+> 
+> How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+> 
+> Best,
+> Michelle
+> 
+> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+> Hi Michelle
+> 
+> I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon ? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand will make the approval quicker?
+> Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+> 
+> Thank you
+> Capella
+> From: Michelle Rincon <mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>>
+> Sent: Wednesday, August 19, 2020 11:21 AM
+> To: Capella Frances Kerst <ckerst at stanford.edu <mailto:ckerst at stanford.edu>>
+> Subject: Re: hexane in thinkie
+>  
+> Hi Capella,
+> 
+> I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point, so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention anything about solvent compatibility?
+> 
+> Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give that a try :)
+> 
+> Michelle
+> 
+> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+> Hi Michelle
+> 
+> I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I would like to have the thinkie mix it.
+> 
+> Thank you
+> Capella
+> 
+> 
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+> 
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+> 
+> 
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+> 
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+> 
+> 
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+> 
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+> 
+> 
+> 
+> -- 
+> Michelle Rincon, PhD
+> Senior Engineer
+> Stanford Nanofabrication Facility
+> 
+> (650)-725-0307
+> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+> 
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu <mailto:snf-promcommittee at lists.stanford.edu>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200820/530ab8c4/attachment-0001.html>
+
+From mtang at stanford.edu  Fri Aug 21 06:56:51 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 21 Aug 2020 06:56:51 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <0A31D9D7-235A-4BD4-9FF8-7F03E567CE5F@stanford.edu>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+ <BY5PR02MB6051888CD94F83A67286397E915B0@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <0A31D9D7-235A-4BD4-9FF8-7F03E567CE5F@stanford.edu>
+Message-ID: <72cfb4dd-24f4-aeb2-51ce-2b788eaab560@stanford.edu>
+
+It takes a village....? Thanks, all!
+
+M
+
+On 8/20/2020 8:55 PM, maurice stevens wrote:
+> I actually broke it down into the smaller bottles for her. ?I thought 
+> that would be safer.
+>
+> She had convinced me that she had gotten approval already? until she 
+> asked where to get labels for the newly filled amber bottles.
+>
+> I?ll ask more direct questions in the future.
+>
+> -m
+>
+>
+>> On Aug 20, 2020, at 6:16 PM, Graham Joseph Ewing 
+>> <grahamj.ewing at stanford.edu <mailto:grahamj.ewing at stanford.edu>> wrote:
+>>
+>> That all makes sense now. Capella mentioned walking across campus 
+>> with a bottle of hexane yesterday. It made this email chain suspicious.
+>> I am often around when she is here. I'll keep an eye open to make 
+>> sure things aren't being done "backwards" again.
+>>
+>> Graham
+>>
+>>
+>>
+>> ------------------------------------------------------------------------
+>> *From:* Michelle Rincon <mmrincon at stanford.edu 
+>> <mailto:mmrincon at stanford.edu>>
+>> *Sent:* Thursday, August 20, 2020, 5:40 PM
+>> *To:* Graham Joseph Ewing
+>> *Cc:* snf-promcommittee at lists.stanford.edu 
+>> <mailto:snf-promcommittee at lists.stanford.edu>
+>> *Subject:* Re: [snf-promcommittee] hexane in thinkie
+>>
+>> Hi Graham,
+>>
+>> Turns out she did have a large bottle (I haven't even asked where she 
+>> got it from) that she apparently separated already into amber bottles 
+>> in the fumehood?by the wafer saw? And has stored them in 155 without 
+>> labels. She never had approval for any of those steps so that is why 
+>> it is so confusing. She is getting away with just a warning from me 
+>> right now but that was totally backwards. Thank you for the heads up- 
+>> it would have taken me much longer to figure out what in the world 
+>> was going on...
+>>
+>> Michelle
+>>
+>> On Thu, Aug 20, 2020 at 1:46 PM Graham Joseph Ewing 
+>> <grahamj.ewing at stanford.edu <mailto:grahamj.ewing at stanford.edu>> wrote:
+>>
+>>     She means the same amber jars from the cleanroom... I think. She
+>>     has already bought a 4L jug of hexane. She will bring the hexane
+>>     into our lab via her own amber jars, similar to the jars we have
+>>     in the cleanroom.
+>>     At least that is how I interpret her comments. Some clarification
+>>     from Capella may be needed.
+>>
+>>     Graham
+>>
+>>
+>>     ------------------------------------------------------------------------
+>>     *From:* snf-promcommittee
+>>     <snf-promcommittee-bounces at lists.stanford.edu
+>>     <mailto:snf-promcommittee-bounces at lists.stanford.edu>> on behalf
+>>     of Michelle Rincon <mmrincon at stanford.edu
+>>     <mailto:mmrincon at stanford.edu>>
+>>     *Sent:* Thursday, August 20, 2020, 1:41 PM
+>>     *Cc:* snf-promcommittee at lists.stanford.edu
+>>     <mailto:snf-promcommittee at lists.stanford.edu>
+>>     *Subject:* Re: [snf-promcommittee] hexane in thinkie
+>>
+>>     Hi Phil and Swaroop-
+>>
+>>     We haven't had people raiding your chemicals before- are you ok
+>>     with that? Any special instructions?
+>>
+>>     Thanks!
+>>     Michelle
+>>
+>>     On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst
+>>     <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+>>
+>>         7 little (6 oz?/8oz) amber jars from the cleanroom. I would
+>>         store it until latest December. But if that is too long I can
+>>         do one month and get rid of them after that.
+>>
+>>         Thank you
+>>         Capella
+>>         ------------------------------------------------------------------------
+>>         *From:* Michelle Rincon <mmrincon at stanford.edu
+>>         <mailto:mmrincon at stanford.edu>>
+>>         *Sent:* Thursday, August 20, 2020 10:14 AM
+>>         *To:* Capella Frances Kerst <ckerst at stanford.edu
+>>         <mailto:ckerst at stanford.edu>>
+>>         *Cc:* snf-promcommittee at lists.stanford.edu
+>>         <mailto:snf-promcommittee at lists.stanford.edu>
+>>         <snf-promcommittee at lists.stanford.edu
+>>         <mailto:snf-promcommittee at lists.stanford.edu>>
+>>         *Subject:* Re: hexane in thinkie
+>>         Hi Capella,
+>>
+>>         This is looking good- thank you! Maybe we talked about the
+>>         hexane in the past but you were doing it somewhere else so
+>>         you didn't create an nSiL SOP? I know we definitely had
+>>         talked about it before...
+>>
+>>         How big of a bottle of hexane will you be bringing and how
+>>         long do you expect to store it in 155?
+>>
+>>         Best,
+>>         Michelle
+>>
+>>         On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst
+>>         <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+>>
+>>             Hi Michelle
+>>
+>>             I could have SWORN I had it in like 2 years ago. I can
+>>             not find it so I made a new one. I really hope it gets
+>>             approved quickly. defense so soon ? oops for not having
+>>             it before. I will just mix it by hand as I have been
+>>             doing outside (I want to be more safe and do it inside
+>>             under a fume hood). Hopefully the mixing by hand will
+>>             make the approval quicker?
+>>             Also added the PDMS data sheet because why not, it is
+>>             already in the book and approved in the graphene SOP I
+>>             had (I did find that in the email log)
+>>
+>>             Thank you
+>>             Capella
+>>             ------------------------------------------------------------------------
+>>             *From:* Michelle Rincon <mmrincon at stanford.edu
+>>             <mailto:mmrincon at stanford.edu>>
+>>             *Sent:* Wednesday, August 19, 2020 11:21 AM
+>>             *To:* Capella Frances Kerst <ckerst at stanford.edu
+>>             <mailto:ckerst at stanford.edu>>
+>>             *Subject:* Re: hexane in thinkie
+>>             Hi Capella,
+>>
+>>             I don't seem to have the SOP you are mentioning with
+>>             hexane- could you please re-send it to me? Hexane is
+>>             actually rarely used as a paint thinner but I am guessing
+>>             you mean to thin down your PDMS? Hexane has a very low
+>>             vapor pressure and flash point, so I do worry a bit about
+>>             having it in the thinky- in addition to the fire risk due
+>>             to the electricity, I would also guess that it might all
+>>             evaporate while you are trying to mix it. Have you looked
+>>             in the thinky manual that is in the drawer? Does it
+>>             mention anything about solvent compatibility?
+>>
+>>             Also- Carsen checked out the computer after that last
+>>             message you sent and he mentioned he turned it on and it
+>>             worked! Did you try turning it on? I am not sure if
+>>             someone is turning it off or if it just does that after
+>>             not being used for awhile but give that a try :)
+>>
+>>             Michelle
+>>
+>>             On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst
+>>             <ckerst at stanford.edu <mailto:ckerst at stanford.edu>> wrote:
+>>
+>>                 Hi Michelle
+>>
+>>                 I need to thin the PDMS like we discussed on the
+>>                 call. A while ago I did an SOP for adding hexane to
+>>                 thin it. Would hexane (it is the paint thinner) added
+>>                 to PDMS cause any issues in the thinkie when mixing?
+>>                 I know I can mix it by hand, because I have but I
+>>                 would like to have the thinkie mix it.
+>>
+>>                 Thank you
+>>                 Capella
+>>
+>>
+>>
+>>             -- 
+>>             Michelle Rincon, PhD
+>>             Senior Engineer
+>>             Stanford Nanofabrication Facility
+>>
+>>             (650)-725-0307
+>>             mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>>
+>>
+>>
+>>         -- 
+>>         Michelle Rincon, PhD
+>>         Senior Engineer
+>>         Stanford Nanofabrication Facility
+>>
+>>         (650)-725-0307
+>>         mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>>
+>>
+>>
+>>     -- 
+>>     Michelle Rincon, PhD
+>>     Senior Engineer
+>>     Stanford Nanofabrication Facility
+>>
+>>     (650)-725-0307
+>>     mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>>
+>>
+>>
+>> -- 
+>> Michelle Rincon, PhD
+>> Senior Engineer
+>> Stanford Nanofabrication Facility
+>>
+>> (650)-725-0307
+>> mmrincon at stanford.edu <mailto:mmrincon at stanford.edu>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu 
+>> <mailto:snf-promcommittee at lists.stanford.edu>
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee 
+>> <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200821/6609cc03/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Aug 21 08:46:12 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 21 Aug 2020 08:46:12 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <72cfb4dd-24f4-aeb2-51ce-2b788eaab560@stanford.edu>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDQetpcficfMAhZ=MG682UXC8qpdr_q62bwe_wP+s8gssQ@mail.gmail.com>
+ <BY5PR02MB6051C61790150F70172770E3915A0@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <CAFSuyDTCBh4oZrZHoKFTdFKiU4LheJ1Ym3-P-nZjn3gOpJ_+Yg@mail.gmail.com>
+ <BY5PR02MB6051888CD94F83A67286397E915B0@BY5PR02MB6051.namprd02.prod.outlook.com>
+ <0A31D9D7-235A-4BD4-9FF8-7F03E567CE5F@stanford.edu>
+ <72cfb4dd-24f4-aeb2-51ce-2b788eaab560@stanford.edu>
+Message-ID: <CAFSuyDRjnDozx8jkFxuyczDr-N63-KbxxbxsEeuu3Yt6bJz12A@mail.gmail.com>
+
+That?s the phrase that popped into my mind too :) On the plus side at least
+I know that part was done safely- thanks Maurice!
+
+On Fri, Aug 21, 2020 at 6:56 AM Mary Tang <mtang at stanford.edu> wrote:
+
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> It takes a village....  Thanks, all!
+>
+>
+> M
+>
+>
+>
+>
+> On 8/20/2020 8:55 PM, maurice stevens
+>
+> wrote:
+>
+>
+>
+>
+>
+>
+>
+>
+> I actually broke it
+>
+> down into the smaller bottles for her.  I thought that would be
+>
+> safer.
+>
+>
+>
+>
+>
+>
+> She had convinced me that she had gotten approval
+>
+> already? until she asked where to get labels for the newly
+>
+> filled amber bottles.
+>
+>
+>
+>
+>
+>
+>
+> I?ll ask more direct questions in the future.
+>
+>
+>
+>
+>
+>
+>
+> -m
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> On Aug 20, 2020, at 6:16 PM, Graham Joseph
+>
+> Ewing <grahamj.ewing at stanford.edu>
+>
+> wrote:
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> That all
+>
+> makes sense now. Capella mentioned walking across
+>
+> campus with a bottle of hexane yesterday. It made
+>
+> this email chain suspicious.
+>
+>
+>
+>
+>
+>
+> I am often
+>
+> around when she is here. I'll keep an eye open
+>
+> to make sure things aren't being done
+>
+> "backwards" again.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Graham
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> ------------------------------
+>
+>
+> *From:*
+>
+> Michelle Rincon <mmrincon at stanford.edu>
+>
+>
+> *Sent:* Thursday, August
+>
+> 20, 2020, 5:40 PM
+>
+>
+> *To:* Graham Joseph Ewing
+>
+>
+> *Cc:* snf-promcommittee at lists.stanford.edu
+>
+>
+> *Subject:* Re:
+>
+> [snf-promcommittee] hexane in thinkie
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Graham,
+>
+>
+>
+>
+>
+>
+> Turns out she did have a large
+>
+> bottle (I haven't even asked where she got it
+>
+> from) that she apparently separated already into
+>
+> amber bottles in the fumehood by the wafer saw?
+>
+> And has stored them in 155 without labels. She
+>
+> never had approval for any of those steps so
+>
+> that is why it is so confusing. She is getting
+>
+> away with just a warning from me right now but
+>
+> that was totally backwards. Thank you for the
+>
+> heads up- it would have taken me much longer to
+>
+> figure out what in the world was going on...
+>
+>
+>
+>
+>
+>
+>
+> Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> On Thu, Aug 20,
+>
+> 2020 at 1:46 PM Graham Joseph Ewing <grahamj.ewing at stanford.edu>
+>
+> wrote:
+>
+>
+>
+>
+>
+>>
+>>
+>>
+>>
+>>
+>> She means the same amber jars from the
+>>
+>> cleanroom... I think. She has already bought
+>>
+>> a 4L jug of hexane. She will bring the
+>>
+>> hexane into our lab via her own amber jars,
+>>
+>> similar to the jars we have in the
+>>
+>> cleanroom.
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> At least that is how I interpret her
+>>
+>> comments. Some clarification from Capella
+>>
+>> may be needed.
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> Graham
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> ------------------------------
+>>
+>>
+>> *From:*
+>>
+>> snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu>
+>>
+>> on behalf of Michelle Rincon <mmrincon at stanford.edu>
+>>
+>>
+>> *Sent:* Thursday,
+>>
+>> August 20, 2020, 1:41 PM
+>>
+>>
+>> *Cc:*
+>>
+>> snf-promcommittee at lists.stanford.edu
+>>
+>>
+>> *Subject:* Re:
+>>
+>> [snf-promcommittee] hexane in thinkie
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> Hi Phil and Swaroop-
+>>
+>>
+>>
+>>
+>>
+>>
+>> We haven't had people
+>>
+>> raiding your chemicals before- are you
+>>
+>> ok with that? Any special instructions?
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> Thanks!
+>>
+>>
+>> Michelle
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> On Thu,
+>>
+>> Aug 20, 2020 at 12:00 PM Capella Frances
+>>
+>> Kerst <ckerst at stanford.edu>
+>>
+>> wrote:
+>>
+>>
+>>
+>>
+>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> 7 little (6 oz?/8oz) amber jars from
+>>>
+>>> the cleanroom. I would store it
+>>>
+>>> until latest December. But if that
+>>>
+>>> is too long I can do one month and
+>>>
+>>> get rid of them after that.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Thank you
+>>>
+>>>
+>>>
+>>>
+>>> Capella
+>>>
+>>>
+>>> ------------------------------
+>>>
+>>>
+>>>
+>>>
+>>> *From:*
+>>>
+>>> Michelle Rincon <mmrincon at stanford.edu>
+>>>
+>>>
+>>> *Sent:* Thursday,
+>>>
+>>> August 20, 2020 10:14 AM
+>>>
+>>>
+>>> *To:* Capella
+>>>
+>>> Frances Kerst <ckerst at stanford.edu>
+>>>
+>>>
+>>> *Cc:*
+>>>
+>>> snf-promcommittee at lists.stanford.edu <
+>>> snf-promcommittee at lists.stanford.edu>
+>>>
+>>>
+>>> *Subject:* Re:
+>>>
+>>> hexane in thinkie
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Hi Capella,
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> This is looking
+>>>
+>>> good- thank you! Maybe we talked
+>>>
+>>> about the hexane in the past but
+>>>
+>>> you were doing it somewhere else
+>>>
+>>> so you didn't create an nSiL
+>>>
+>>> SOP? I know we definitely had
+>>>
+>>> talked about it before...
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> How big of a bottle
+>>>
+>>> of hexane will you be bringing
+>>>
+>>> and how long do you expect to
+>>>
+>>> store it in 155?
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Best,
+>>>
+>>>
+>>> Michelle
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On Wed,
+>>>
+>>> Aug 19, 2020 at 9:32 PM Capella
+>>>
+>>> Frances Kerst <ckerst at stanford.edu>
+>>>
+>>> wrote:
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Hi Michelle
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> I could have SWORN I had it
+>>>
+>>> in like 2 years ago. I can
+>>>
+>>> not find it so I made a new
+>>>
+>>> one. I really hope it gets
+>>>
+>>> approved quickly. defense so
+>>>
+>>> soon
+>>>
+>>>
+>>>
+>>> ? oops for not having it
+>>>
+>>> before. I will just
+>>>
+>>> mix it by hand as I have
+>>>
+>>> been doing outside (I want
+>>>
+>>> to be more safe and do it
+>>>
+>>> inside under a fume hood).
+>>>
+>>> Hopefully the mixing by hand
+>>>
+>>> will make the approval
+>>>
+>>> quicker?
+>>>
+>>>
+>>>
+>>>
+>>> Also added the PDMS data
+>>>
+>>> sheet because why not, it is
+>>>
+>>> already in the book and
+>>>
+>>> approved in the graphene SOP
+>>>
+>>> I had (I did find that in
+>>>
+>>> the email log)
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Thank you
+>>>
+>>>
+>>>
+>>>
+>>> Capella
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> ------------------------------
+>>>
+>>>
+>>>
+>>>
+>>> *From:*
+>>>
+>>> Michelle Rincon <mmrincon at stanford.edu>
+>>>
+>>>
+>>> *Sent:*
+>>>
+>>> Wednesday, August 19, 2020
+>>>
+>>> 11:21 AM
+>>>
+>>>
+>>> *To:*
+>>>
+>>> Capella Frances Kerst <ckerst at stanford.edu>
+>>>
+>>>
+>>> *Subject:*
+>>>
+>>> Re: hexane in thinkie
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Hi
+>>>
+>>> Capella,
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> I don't seem
+>>>
+>>> to have the SOP you are
+>>>
+>>> mentioning with hexane-
+>>>
+>>> could you please re-send
+>>>
+>>> it to me? Hexane is
+>>>
+>>> actually rarely used as
+>>>
+>>> a paint thinner but I am
+>>>
+>>> guessing you mean to
+>>>
+>>> thin down your PDMS?
+>>>
+>>> Hexane has a very low
+>>>
+>>> vapor pressure and flash
+>>>
+>>> point, so I do worry a
+>>>
+>>> bit about having it in
+>>>
+>>> the thinky- in addition
+>>>
+>>> to the fire risk due to
+>>>
+>>> the electricity, I would
+>>>
+>>> also guess that it might
+>>>
+>>> all evaporate while you
+>>>
+>>> are trying to mix it.
+>>>
+>>> Have you looked in the
+>>>
+>>> thinky manual that is in
+>>>
+>>> the drawer? Does it
+>>>
+>>> mention anything about
+>>>
+>>> solvent compatibility?
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Also- Carsen
+>>>
+>>> checked out the computer
+>>>
+>>> after that last message
+>>>
+>>> you sent and he
+>>>
+>>> mentioned he turned it
+>>>
+>>> on and it worked! Did
+>>>
+>>> you try turning it on? I
+>>>
+>>> am not sure if someone
+>>>
+>>> is turning it off or if
+>>>
+>>> it just does that after
+>>>
+>>> not being used for
+>>>
+>>> awhile but give that a
+>>>
+>>> try :)
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Michelle
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On
+>>>
+>>> Wed, Aug 19, 2020 at
+>>>
+>>> 12:16 AM Capella Frances
+>>>
+>>> Kerst <ckerst at stanford.edu>
+>>>
+>>> wrote:
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Hi Michelle
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> I need to thin the
+>>>
+>>> PDMS like we
+>>>
+>>> discussed on the
+>>>
+>>> call. A while ago I
+>>>
+>>> did an SOP for
+>>>
+>>> adding hexane to
+>>>
+>>> thin it. Would
+>>>
+>>> hexane (it is the
+>>>
+>>> paint thinner) added
+>>>
+>>> to PDMS cause any
+>>>
+>>> issues in the
+>>>
+>>> thinkie when mixing?
+>>>
+>>> I know I can mix it
+>>>
+>>> by hand, because I
+>>>
+>>> have but I would
+>>>
+>>> like to have the
+>>>
+>>> thinkie mix it.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> Thank you
+>>>
+>>>
+>>>
+>>>
+>>> Capella
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>>
+>>>
+>>>
+>>> Michelle
+>>>
+>>> Rincon, PhD
+>>>
+>>>
+>>> Senior
+>>>
+>>> Engineer
+>>>
+>>>
+>>> Stanford
+>>>
+>>> Nanofabrication
+>>>
+>>> Facility
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> (650)-725-0307
+>>>
+>>>
+>>> mmrincon at stanford.edu
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>>
+>>>
+>>>
+>>> Michelle
+>>>
+>>> Rincon, PhD
+>>>
+>>>
+>>> Senior
+>>>
+>>> Engineer
+>>>
+>>>
+>>> Stanford
+>>>
+>>> Nanofabrication Facility
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> (650)-725-0307
+>>>
+>>>
+>>> mmrincon at stanford.edu
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>> --
+>>
+>>
+>>
+>>
+>> Michelle
+>>
+>> Rincon, PhD
+>>
+>>
+>> Senior
+>>
+>> Engineer
+>>
+>>
+>> Stanford
+>>
+>> Nanofabrication Facility
+>>
+>>
+>>
+>>
+>>
+>> (650)-725-0307
+>>
+>>
+>> mmrincon at stanford.edu
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+>
+>
+>
+> Michelle
+>
+> Rincon, PhD
+>
+>
+> Senior Engineer
+>
+>
+> Stanford Nanofabrication
+>
+> Facility
+>
+>
+>
+>
+>
+> (650)-725-0307
+>
+>
+> mmrincon at stanford.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> _______________________________________________
+>
+>
+> snf-promcommittee mailing list
+>
+>
+> snf-promcommittee at lists.stanford.edu
+>
+>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> _______________________________________________
+>
+> snf-promcommittee mailing list
+>
+> snf-promcommittee at lists.stanford.edu
+>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> _______________________________________________
+>
+> snf-promcommittee mailing list
+>
+> snf-promcommittee at lists.stanford.edu
+>
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200821/1b2a3b79/attachment-0001.html>
+
+From mmrincon at stanford.edu  Fri Aug 21 18:07:41 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Fri, 21 Aug 2020 18:07:41 -0700
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+ <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDT8YZpvpxjig3PxLq_M6F07T=J6ZHoRu=57auygkTWFvQ@mail.gmail.com>
+
+Hi Capella,
+
+Your request is approved. Please make sure to properly dispose of any
+hexane waste you may generate. Gary is your contact for the labels- please
+make sure to get one for each bottle, including the large one and each
+small one.
+
+Next time, make sure to get the approval BEFORE you bring any chemicals
+onsite.
+
+Please make sure to print out the MSDS and the SOP and put them in the
+appropriate binders BEFORE your first use of the hexane.
+
+Best,
+Michelle
+
+On Thu, Aug 20, 2020 at 2:06 PM Capella Frances Kerst <ckerst at stanford.edu>
+wrote:
+
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> I have the Hexane in amber jars already. I just need Gary to make labels
+> once approved.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Thank you
+>
+>
+>
+>
+> Capella
+>
+>
+>
+>
+> ------------------------------
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>
+>
+> *Sent:* Thursday, August 20, 2020 2:05 PM
+>
+>
+>
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>
+>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+>
+>
+> *Subject:* Re: hexane in thinkie
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Capella,
+>
+>
+>
+>
+>
+>
+> Could you clarify a bit? Do you have hexane that you purchased in the
+> other lab (SNF or ExFab) that you will be pouring into the amber bottles to
+> use in 155?
+>
+>
+>
+>
+>
+>
+>
+> Thanks!
+>
+>
+> Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> 7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until
+> latest December. But if that is too long I can do one month and get rid of
+> them after that.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Thank you
+>
+>
+>
+>
+> Capella
+>
+>
+>
+>
+> ------------------------------
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>
+>
+> *Sent:* Thursday, August 20, 2020 10:14 AM
+>
+>
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>
+>
+> *Cc:*
+>
+> snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu
+> >
+>
+>
+> *Subject:* Re: hexane in thinkie
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Capella,
+>
+>
+>
+>
+>
+>
+> This is looking good- thank you! Maybe we talked about the hexane in the
+> past but you were doing it somewhere else so you didn't create an nSiL SOP?
+> I know we definitely had talked about it before...
+>
+>
+>
+>
+>
+>
+>
+> How big of a bottle of hexane will you be bringing and how long do you
+> expect to store it in 155?
+>
+>
+>
+>
+>
+>
+>
+> Best,
+>
+>
+> Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu>
+> wrote:
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> I could have SWORN I had it in like 2 years ago. I can not find it so I
+> made a new one. I really hope it gets approved quickly. defense so soon
+>
+> ? oops for not having it before. I will just mix it by hand as I have
+> been doing outside (I want to be more safe and do it inside under a fume
+> hood). Hopefully the mixing by hand
+>
+> will make the approval quicker?
+>
+>
+>
+>
+> Also added the PDMS data sheet because why not, it is already in the book
+> and approved in the graphene SOP I had (I did find that in the email log)
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Thank you
+>
+>
+>
+>
+> Capella
+>
+>
+>
+>
+>
+>
+> ------------------------------
+>
+>
+>
+>
+> *From:* Michelle Rincon <mmrincon at stanford.edu>
+>
+>
+> *Sent:* Wednesday, August 19, 2020 11:21 AM
+>
+>
+> *To:* Capella Frances Kerst <ckerst at stanford.edu>
+>
+>
+> *Subject:* Re: hexane in thinkie
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Capella,
+>
+>
+>
+>
+>
+>
+> I don't seem to have the SOP you are mentioning with hexane- could you
+> please re-send it to me? Hexane is actually rarely used as a paint thinner
+> but I am guessing you mean to thin down your PDMS?  Hexane has a very low
+> vapor pressure and flash point,
+>
+> so I do worry a bit about having it in the thinky- in addition to the fire
+> risk due to the electricity, I would also guess that it might all evaporate
+> while you are trying to mix it. Have you looked in the thinky manual that
+> is in the drawer? Does it mention
+>
+> anything about solvent compatibility?
+>
+>
+>
+>
+>
+>
+>
+> Also- Carsen checked out the computer after that last message you sent and
+> he mentioned he turned it on and it worked! Did you try turning it on? I am
+> not sure if someone is turning it off or if it just does that after not
+> being used for awhile but give
+>
+> that a try :)
+>
+>
+>
+>
+>
+>
+>
+> Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <
+> ckerst at stanford.edu> wrote:
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Hi Michelle
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> I need to thin the PDMS like we discussed on the call. A while ago I did
+> an SOP for adding hexane to thin it. Would hexane (it is the paint thinner)
+> added to PDMS cause any issues in the thinkie when mixing? I know I can mix
+> it by hand, because I have but I
+>
+> would like to have the thinkie mix it.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Thank you
+>
+>
+>
+>
+> Capella
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+>
+>
+>
+> Michelle Rincon, PhD
+>
+>
+> Senior Engineer
+>
+>
+> Stanford Nanofabrication Facility
+>
+>
+>
+>
+>
+> (650)-725-0307
+>
+>
+> mmrincon at stanford.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+>
+>
+>
+> Michelle Rincon, PhD
+>
+>
+> Senior Engineer
+>
+>
+> Stanford Nanofabrication Facility
+>
+>
+>
+>
+>
+> (650)-725-0307
+>
+>
+> mmrincon at stanford.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+>
+>
+>
+> Michelle Rincon, PhD
+>
+>
+> Senior Engineer
+>
+>
+> Stanford Nanofabrication Facility
+>
+>
+>
+>
+>
+> (650)-725-0307
+>
+>
+> mmrincon at stanford.edu
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200821/4af82803/attachment.html>
+
+From ckerst at stanford.edu  Sun Aug 23 01:23:21 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Sun, 23 Aug 2020 08:23:21 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <CAFSuyDT8YZpvpxjig3PxLq_M6F07T=J6ZHoRu=57auygkTWFvQ@mail.gmail.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+ <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDT8YZpvpxjig3PxLq_M6F07T=J6ZHoRu=57auygkTWFvQ@mail.gmail.com>
+Message-ID: <BYAPR02MB43095298C832E73A44A5D358AF590@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Hi Michelle
+
+Thank you! Due to COVID I do not have access to a printer is it possible to use the printer in SNF? (Though I am not sure how.....is there a computer in the lab that prints???)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Friday, August 21, 2020 6:07 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+Your request is approved. Please make sure to properly dispose of any hexane waste you may generate. Gary is your contact for the labels- please make sure to get one for each bottle, including the large one and each small one.
+
+Next time, make sure to get the approval BEFORE you bring any chemicals onsite.
+
+Please make sure to print out the MSDS and the SOP and put them in the appropriate binders BEFORE your first use of the hexane.
+
+Best,
+Michelle
+
+On Thu, Aug 20, 2020 at 2:06 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I have the Hexane in amber jars already. I just need Gary to make labels once approved.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 2:05 PM
+
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+Could you clarify a bit? Do you have hexane that you purchased in the other lab (SNF or ExFab) that you will be pouring into the amber bottles to use in 155?
+
+
+
+
+
+
+
+Thanks!
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 10:14 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc:
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+
+
+
+
+
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+
+
+
+
+
+
+Best,
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon
+
+? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand
+
+will make the approval quicker?
+
+
+
+
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+________________________________
+
+
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Wednesday, August 19, 2020 11:21 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point,
+
+so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention
+
+anything about solvent compatibility?
+
+
+
+
+
+
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give
+
+that a try :)
+
+
+
+
+
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I
+
+would like to have the thinkie mix it.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200823/7ba59bbf/attachment-0001.html>
+
+From mtang at stanford.edu  Sun Aug 23 08:56:01 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Sun, 23 Aug 2020 15:56:01 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB43095298C832E73A44A5D358AF590@BYAPR02MB4309.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+ <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDT8YZpvpxjig3PxLq_M6F07T=J6ZHoRu=57auygkTWFvQ@mail.gmail.com>,
+ <BYAPR02MB43095298C832E73A44A5D358AF590@BYAPR02MB4309.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB57172E1CFA77294A241B7E4BC6590@BYAPR02MB5717.namprd02.prod.outlook.com>
+
+Hi Capella -
+
+There are three stand-alone printers in the SNF shared cube area that you can use.  There's a Xerox ColorQube under the large TV screen, a printer behind the desktop next to the ASML emulator, and one on the cube desk that is farthest from Maurice's office.  You can plug in your laptop through a standard USB connector.
+
+Mary
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Capella Frances Kerst <ckerst at stanford.edu>
+Sent: Sunday, August 23, 2020 1:23 AM
+To: Michelle Rincon <mmrincon at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] hexane in thinkie
+
+Hi Michelle
+
+Thank you! Due to COVID I do not have access to a printer is it possible to use the printer in SNF? (Though I am not sure how.....is there a computer in the lab that prints???)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Friday, August 21, 2020 6:07 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+Your request is approved. Please make sure to properly dispose of any hexane waste you may generate. Gary is your contact for the labels- please make sure to get one for each bottle, including the large one and each small one.
+
+Next time, make sure to get the approval BEFORE you bring any chemicals onsite.
+
+Please make sure to print out the MSDS and the SOP and put them in the appropriate binders BEFORE your first use of the hexane.
+
+Best,
+Michelle
+
+On Thu, Aug 20, 2020 at 2:06 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I have the Hexane in amber jars already. I just need Gary to make labels once approved.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 2:05 PM
+
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+Could you clarify a bit? Do you have hexane that you purchased in the other lab (SNF or ExFab) that you will be pouring into the amber bottles to use in 155?
+
+
+
+
+
+
+
+Thanks!
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 10:14 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc:
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+
+
+
+
+
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+
+
+
+
+
+
+Best,
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon
+
+? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand
+
+will make the approval quicker?
+
+
+
+
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+________________________________
+
+
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Wednesday, August 19, 2020 11:21 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point,
+
+so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention
+
+anything about solvent compatibility?
+
+
+
+
+
+
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give
+
+that a try :)
+
+
+
+
+
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I
+
+would like to have the thinkie mix it.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200823/c103585f/attachment-0001.html>
+
+From ckerst at stanford.edu  Mon Aug 24 09:16:40 2020
+From: ckerst at stanford.edu (Capella Frances Kerst)
+Date: Mon, 24 Aug 2020 16:16:40 +0000
+Subject: [snf-promcommittee] hexane in thinkie
+In-Reply-To: <BYAPR02MB57172E1CFA77294A241B7E4BC6590@BYAPR02MB5717.namprd02.prod.outlook.com>
+References: <BYAPR02MB4309D279D3C8C1EFA6179775AF5D0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDRcZYKPPznwvFzAYw2gcGo8ZzRgiQ14Y3vEeJ3pRFSk1A@mail.gmail.com>
+ <BYAPR02MB4309C54CD91D29AC6E21CDFDAF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDSbZGTpgX2zFXFxtS5h+ojqYsU9c4vicny_=zGp_E4g2g@mail.gmail.com>
+ <BYAPR02MB43094AB6749E76C273CF6EA9AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>
+ <CAFSuyDTC5eN1NJX1Da+K7+dWfp62vYZMC-DVd-DyGAbQge_09g@mail.gmail.com>
+ <BYAPR02MB43091421EFD3196680E3B164AF5A0@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <CAFSuyDT8YZpvpxjig3PxLq_M6F07T=J6ZHoRu=57auygkTWFvQ@mail.gmail.com>,
+ <BYAPR02MB43095298C832E73A44A5D358AF590@BYAPR02MB4309.namprd02.prod.outlook.com>,
+ <BYAPR02MB57172E1CFA77294A241B7E4BC6590@BYAPR02MB5717.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB43099F8374B71824DE4729B4AF560@BYAPR02MB4309.namprd02.prod.outlook.com>
+
+Great! Thank you!
+Capella
+________________________________
+From: Mary Tang <mtang at stanford.edu>
+Sent: Sunday, August 23, 2020 8:56 AM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella -
+
+There are three stand-alone printers in the SNF shared cube area that you can use.  There's a Xerox ColorQube under the large TV screen, a printer behind the desktop next to the ASML emulator, and one on the cube desk that is farthest from Maurice's office.  You can plug in your laptop through a standard USB connector.
+
+Mary
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Capella Frances Kerst <ckerst at stanford.edu>
+Sent: Sunday, August 23, 2020 1:23 AM
+To: Michelle Rincon <mmrincon at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] hexane in thinkie
+
+Hi Michelle
+
+Thank you! Due to COVID I do not have access to a printer is it possible to use the printer in SNF? (Though I am not sure how.....is there a computer in the lab that prints???)
+
+Thank you
+Capella
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Friday, August 21, 2020 6:07 PM
+To: Capella Frances Kerst <ckerst at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: hexane in thinkie
+
+Hi Capella,
+
+Your request is approved. Please make sure to properly dispose of any hexane waste you may generate. Gary is your contact for the labels- please make sure to get one for each bottle, including the large one and each small one.
+
+Next time, make sure to get the approval BEFORE you bring any chemicals onsite.
+
+Please make sure to print out the MSDS and the SOP and put them in the appropriate binders BEFORE your first use of the hexane.
+
+Best,
+Michelle
+
+On Thu, Aug 20, 2020 at 2:06 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I have the Hexane in amber jars already. I just need Gary to make labels once approved.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 2:05 PM
+
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+Could you clarify a bit? Do you have hexane that you purchased in the other lab (SNF or ExFab) that you will be pouring into the amber bottles to use in 155?
+
+
+
+
+
+
+
+Thanks!
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Thu, Aug 20, 2020 at 12:00 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+7 little (6 oz?/8oz) amber jars from the cleanroom. I would store it until latest December. But if that is too long I can do one month and get rid of them after that.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+________________________________
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Thursday, August 20, 2020 10:14 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Cc:
+
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+This is looking good- thank you! Maybe we talked about the hexane in the past but you were doing it somewhere else so you didn't create an nSiL SOP? I know we definitely had talked about it before...
+
+
+
+
+
+
+
+How big of a bottle of hexane will you be bringing and how long do you expect to store it in 155?
+
+
+
+
+
+
+
+Best,
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 9:32 PM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I could have SWORN I had it in like 2 years ago. I can not find it so I made a new one. I really hope it gets approved quickly. defense so soon
+
+? oops for not having it before. I will just mix it by hand as I have been doing outside (I want to be more safe and do it inside under a fume hood). Hopefully the mixing by hand
+
+will make the approval quicker?
+
+
+
+
+Also added the PDMS data sheet because why not, it is already in the book and approved in the graphene SOP I had (I did find that in the email log)
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+________________________________
+
+
+
+
+From: Michelle Rincon <mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>>
+
+
+Sent: Wednesday, August 19, 2020 11:21 AM
+
+
+To: Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>>
+
+
+Subject: Re: hexane in thinkie
+
+
+
+
+
+
+
+
+Hi Capella,
+
+
+
+
+
+
+I don't seem to have the SOP you are mentioning with hexane- could you please re-send it to me? Hexane is actually rarely used as a paint thinner but I am guessing you mean to thin down your PDMS?  Hexane has a very low vapor pressure and flash point,
+
+so I do worry a bit about having it in the thinky- in addition to the fire risk due to the electricity, I would also guess that it might all evaporate while you are trying to mix it. Have you looked in the thinky manual that is in the drawer? Does it mention
+
+anything about solvent compatibility?
+
+
+
+
+
+
+
+Also- Carsen checked out the computer after that last message you sent and he mentioned he turned it on and it worked! Did you try turning it on? I am not sure if someone is turning it off or if it just does that after not being used for awhile but give
+
+that a try :)
+
+
+
+
+
+
+
+Michelle
+
+
+
+
+
+
+
+
+
+On Wed, Aug 19, 2020 at 12:16 AM Capella Frances Kerst <ckerst at stanford.edu<mailto:ckerst at stanford.edu>> wrote:
+
+
+
+
+
+
+
+
+
+
+Hi Michelle
+
+
+
+
+
+
+
+
+
+
+
+I need to thin the PDMS like we discussed on the call. A while ago I did an SOP for adding hexane to thin it. Would hexane (it is the paint thinner) added to PDMS cause any issues in the thinkie when mixing? I know I can mix it by hand, because I have but I
+
+would like to have the thinkie mix it.
+
+
+
+
+
+
+
+
+
+
+
+Thank you
+
+
+
+
+Capella
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
+
+
+
+
+Michelle Rincon, PhD
+
+
+Senior Engineer
+
+
+Stanford Nanofabrication Facility
+
+
+
+
+
+(650)-725-0307
+
+
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+
+
+
+
+
+
+
+
+
+
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200824/58587219/attachment-0001.html>
+

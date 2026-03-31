@@ -48,6 +48,10 @@ ca
   - File: `preprocessing/order_emails.py:102`.
 
 ## Minor
+- **Queue prioritization does not scale to more than 2 queues right now, fix later**
+  - Current worker queue-priority logic is tailored to two queues and will need a more general scheduling approach if additional queue types are added.
+  - Affected file: `app/worker.py`.
+
 - **Consider async file writes for upload endpoints**
   - Source note: `#maybe use aiofiles and turn this blocking operation into async`
   - File: `app/server/main.py:185`
