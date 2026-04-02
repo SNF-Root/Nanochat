@@ -4,6 +4,8 @@ from typing import List
 import os
 import sys
 import random
+from pydantic import BaseModel
+import json
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PREPROCESSING_DIR = os.path.join(ROOT_DIR, "preprocessing")
@@ -20,6 +22,7 @@ from preprocessing.models.insert import Email
 
 
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=True)
+redis
 
 PROM_QUEUE_NAME = "pending_prom_files"
 EMAIL_QUEUE_NAME = "pending_email_files"
@@ -28,13 +31,29 @@ MAX_EMAIL_FILES = 6
 BATCH_FILL_WINDOW_SECONDS = 0.2
 BATCH_FILL_POLL_INTERVAL_SECONDS = 0.02
 
+
+class FileStatusUpdate(BaseModel):
+    user_id: str
+    upload_id:str
+    status: str
+    kind: str
+    filepath: str
+
+
+class FileObject(BaseModel):
+    user_id: str
+    stored_filename: str
+    kind: str
+    filepath: str
+
 #PROM PIPELINE
 
 def prom_extraction(batch: List[str]):
     problematic_files = []
     results = []
-    for filepath in batch:
-        prom_form = fork_then_extract(filepath)
+    for file_obj_str in batch:
+        file_obj = FileObject(**json.loads(file_obj_str))
+        prom_form = fork_then_extract(file_obj.filepath)
         if isinstance(prom_form, str) or prom_form is None:
             problematic_files.append(prom_form)
         else:
@@ -56,10 +75,11 @@ async def email_pipeline(email_batch: List[Email]):
 
 async def create_threads_of_emails(batch: List[str]):
     results = 0
-    for file in batch:
-        dict_of_threads, msg_start, msg_end = create_dict_of_threads(file)
+    for file_obj_str in batch:
+        file_obj = FileObject(**json.loads(file_obj_str))
+        dict_of_threads, msg_start, msg_end = create_dict_of_threads(file_obj.filepath)
         if not dict_of_threads:
-            print(f"no threads found in {file}")
+            print(f"no threads found in {file_obj.filepath}")
             continue
         email_objects = []
         for keys, vals in dict_of_threads.items():
@@ -67,13 +87,13 @@ async def create_threads_of_emails(batch: List[str]):
             for val in vals:
                 thread = ""
                 for item in val:
-                    email = get_email_by_msgid(file, msg_start, msg_end, item)
+                    email = get_email_by_msgid(file_obj.filepath, msg_start, msg_end, item)
                     if email is None:
-                        print(f"cannot find email in {file}, byte position")
+                        print(f"cannot find email in {file_obj.filepath}, byte position")
                         continue
                     processed_email = extract_main_message(email)
                     thread = thread + "\n" + processed_email
-                email_object = Email(date=date, filepath=file, requestor=requestor, raw_thread=thread)
+                email_object = Email(date=date, filepath=file_obj.filepath, requestor=requestor, raw_thread=thread)
                 email_objects.append(email_object)
         print(f"created {len(email_objects)} email_objects")
         print(f"SENDING {len(email_objects)} to EMAIL pipeline")

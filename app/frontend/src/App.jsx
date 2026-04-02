@@ -193,6 +193,19 @@ function App() {
     }
   }
 
+  const handleLogout = async () => {
+    try {
+      await fetch('/logout', {
+        method: 'POST',
+        credentials: 'include',
+      })
+    } catch (error) {
+      console.error('Logout request failed:', error)
+    } finally {
+      window.location.replace('/')
+    }
+  }
+
   const createChatSession = async () => {
     const response = await fetch('/session/init', {
       method: 'POST',
@@ -376,7 +389,7 @@ function App() {
         </div>
       ) : null}
 
-      <Header view={view} setView={setView} />
+      <Header view={view} setView={setView} hasUserSession={hasUserSession} onLogout={handleLogout} />
 
       <main
         className={`flex-1 flex flex-col px-4 ${

@@ -5,7 +5,7 @@ import uuid
 import shutil
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
-from fastapi.responses import StreamingResponse
+from fastapi.responses import RedirectResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
@@ -32,8 +32,8 @@ async def lifespan(_: FastAPI):
     try:
         yield
     finally:
-        await clear_all_context_history_keys()
-        clear_uploaded_files_dir()
+        await clear_all_user_keys()
+        clear_uploaded_files_dir() 
 
 
 app = FastAPI(lifespan=lifespan)
@@ -49,7 +49,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+#TODO: please change this to an async client for the love of concurrent streaming
 def create_openai_client() -> OpenAI:
     api_key = os.getenv("STANFORD_API_KEY")
     if not api_key:
@@ -92,6 +92,13 @@ class UploadFileResponse(BaseModel):
     size_bytes : int
     status: str
 
+class FileObject(BaseModel):
+    user_id: str
+    upload_id:str
+    kind: str
+    filepath: str
+
+
 class UploadCounterResetResponse(BaseModel):
     number_of_files_cleared: int
     status_of_queue: str
@@ -107,10 +114,10 @@ def _session_key(session_id: str) -> str:
 
 
 #called only on server shutdown
-async def clear_all_context_history_keys() -> int:
+async def clear_all_user_keys() -> int:
     deleted_count = 0
-    async for key in redis_chat_context.scan_iter(match="chat:session:*", count=100):
-        deleted_count += await redis_chat_context.delete(key)
+    async for key in redis_uids_sids.scan_iter():
+        deleted_count += await redis_uids_sids.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
 
@@ -215,7 +222,7 @@ async def set_session_id(request: Request, response: Response):
 
 
 
-@app.get("/logout")
+@app.post("/logout")
 async def logout(request: Request, response: Response):
     user_id = request.cookies.get(USER_COOKIE)
     if user_id:
@@ -235,17 +242,22 @@ UPLOAD_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "uploaded_files"))
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 def clear_uploaded_files_dir() -> None:
-    if os.path.isdir(UPLOAD_DIR):
-        shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
+    try:
+        if os.path.isdir(UPLOAD_DIR):
+            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
+    except Exception as e:
+        return f"Could not clear uploaded files {e}"
 
 
 
 
 @app.post("/upload/prom", response_model=UploadFileResponse)
 async def upload_file(
+    request: Request,
     file: UploadFile = File(...),
-    path: str = Form(...)
-) -> UploadFileResponse:
+    path: str = Form(...),
+    ) -> UploadFileResponse:
+    user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
     unique_suffix = uuid.uuid4().hex[:8]
@@ -257,7 +269,8 @@ async def upload_file(
         while chunk := await file.read(1024 * 1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    await redis_file_queue.rpush("pending_prom_files", filepath)
+    file_obj = FileObject(user_id, stored_filename, "prom", filepath)
+    await redis_file_queue.rpush("pending_prom_files", json.dumps(file_obj.model_dump()))
 
     return UploadFileResponse(
         filename=file.filename,
@@ -268,7 +281,8 @@ async def upload_file(
     )
 
 @app.post("/upload/emails", response_model=UploadFileResponse)
-async def upload_email(file: UploadFile = File(...), path: str = Form(...)) -> UploadFileResponse:
+async def upload_email(request:Request, file: UploadFile = File(...), path: str = Form(...)) -> UploadFileResponse:
+    user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
     unique_suffix = uuid.uuid4().hex[:8]
@@ -279,7 +293,8 @@ async def upload_email(file: UploadFile = File(...), path: str = Form(...)) -> U
         while chunk := await file.read(1024*1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    await redis_file_queue.rpush("pending_email_files", filepath)
+    file_obj = FileObject(user_id, stored_filename, "email", filepath)
+    await redis_file_queue.rpush("pending_email_files", json.dumps(file_obj.model_dump()))
     print("email file pushed to redis queue")
 
     return UploadFileResponse(
