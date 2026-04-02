@@ -11,6 +11,7 @@ export default defineConfig({
       '/embed': 'http://localhost:8000',
       '/search': 'http://localhost:8000',
       '/upload': 'http://localhost:8000',
+      '/user': 'http://localhost:8000',
       '/session': 'http://localhost:8000',
       '/context': 'http://localhost:8000',
       '/logout': 'http://localhost:8000'

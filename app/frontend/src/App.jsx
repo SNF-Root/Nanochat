@@ -6,6 +6,11 @@ import Footer from './components/Footer'
 import ChatView from './components/ChatView'
 import UploadPromPage from './components/UploadPromPage'
 
+function getSessionIdFromPath(pathname) {
+  const match = pathname.match(/^\/session\/([^/]+)$/)
+  return match ? match[1] : null
+}
+
 function App() {
   const isLogoutPath = window.location.pathname === '/logout'
   const [view, setView] = useState('search') // 'search' | 'upload'
@@ -15,6 +20,10 @@ function App() {
   const [searchMode, setSearchMode] = useState('emails')
   const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
+  const [hasUserSession, setHasUserSession] = useState(true)
+  const [isCheckingUserSession, setIsCheckingUserSession] = useState(true)
+  const [isCreatingUserSession, setIsCreatingUserSession] = useState(false)
+  const [currentSessionId, setCurrentSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
 
   const appendAssistantChunk = (assistantId, chunk) => {
     setMessages((prev) => {
@@ -120,12 +129,89 @@ function App() {
 
   }, [isLogoutPath])
 
+  useEffect(() => {
+    if (isLogoutPath) return
+
+    const checkUserSession = async () => {
+      try {
+        const response = await fetch('/user/status', {
+          method: 'GET',
+          credentials: 'include',
+        })
+
+        if (!response.ok) {
+          throw new Error(`User status request failed: ${response.status}`)
+        }
+
+        const data = await response.json()
+        setHasUserSession(Boolean(data.has_user))
+      } catch (error) {
+        console.error('User status request error:', error)
+      } finally {
+        setIsCheckingUserSession(false)
+      }
+    }
+
+    checkUserSession()
+  }, [isLogoutPath])
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentSessionId(getSessionIdFromPath(window.location.pathname))
+    }
+
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
   if (isLogoutPath) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-100 text-slate-600">
         Signing out...
       </div>
     )
+  }
+
+  const createUserSession = async () => {
+    setIsCreatingUserSession(true)
+
+    try {
+      const response = await fetch('/user/init', {
+        method: 'POST',
+        credentials: 'include',
+      })
+
+      if (!response.ok) {
+        throw new Error(`User init failed: ${response.status}`)
+      }
+
+      setHasUserSession(true)
+    } catch (error) {
+      console.error('User init request error:', error)
+    } finally {
+      setIsCreatingUserSession(false)
+    }
+  }
+
+  const createChatSession = async () => {
+    const response = await fetch('/session/init', {
+      method: 'POST',
+      credentials: 'include',
+    })
+
+    if (!response.ok) {
+      throw new Error(`Session init failed: ${response.status}`)
+    }
+
+    const data = await response.json()
+    if (!data.session_id) {
+      throw new Error('Session init did not return a session_id')
+    }
+
+    const nextSessionId = data.session_id
+    setCurrentSessionId(nextSessionId)
+    window.history.pushState({}, '', `/session/${nextSessionId}`)
+    return nextSessionId
   }
 
   // Lightweight search — returns top 5 results with titles
@@ -161,6 +247,8 @@ function App() {
 
   // Full embed + chat completion for a selected result
   const handleStartChat = async (result) => {
+    if (!hasUserSession) return
+
     const userQuery = query.trim() || result.title
     setSearchResults([])
     setQuery('')
@@ -180,13 +268,12 @@ function App() {
     let firstChunkReceived = false
 
     try {
-      await fetch('/session/init', {
-        method: 'GET',
-        credentials: 'include',
-      })
+      const sessionId = await createChatSession()
 
       const endpoint =
-        searchMode === 'proms' ? '/embed/proms/stream' : '/embed/emails/stream'
+        searchMode === 'proms'
+          ? `/session/${sessionId}/embed/proms/stream`
+          : `/session/${sessionId}/embed/emails/stream`
 
       await streamEmbedResponse(endpoint, result.title, (chunk) => {
         if (!firstChunkReceived) {
@@ -197,21 +284,7 @@ function App() {
       })
     } catch (error) {
       console.error('Stream embed request error:', error)
-      try {
-        const fallbackEndpoint =
-          searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
-        const fallbackResponse = await fetch(fallbackEndpoint, {
-          method: 'POST',
-          credentials: 'include',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text: result.title }),
-        })
-        if (!fallbackResponse.ok) throw new Error(`Fallback request failed: ${fallbackResponse.status}`)
-        const data = await fallbackResponse.json()
-        setAssistantText(assistantId, data.text)
-      } catch (fallbackError) {
-        setAssistantText(assistantId, 'Could not reach the server. Please try again.')
-      }
+      setAssistantText(assistantId, 'Could not reach the server. Please try again.')
     } finally {
       setIsThinking(false)
     }
@@ -219,6 +292,8 @@ function App() {
 
   // Send a follow-up message from within ChatView
   const sendChatMessage = async (text) => {
+    if (!hasUserSession || !currentSessionId) return
+
     const trimmed = text.trim()
     if (!trimmed) return
 
@@ -237,7 +312,9 @@ function App() {
 
     try {
       const endpoint =
-        searchMode === 'proms' ? '/embed/proms/stream' : '/embed/emails/stream'
+        searchMode === 'proms'
+          ? `/session/${currentSessionId}/embed/proms/stream`
+          : `/session/${currentSessionId}/embed/emails/stream`
 
       await streamEmbedResponse(endpoint, trimmed, (chunk) => {
         if (!firstChunkReceived) {
@@ -247,21 +324,8 @@ function App() {
         appendAssistantChunk(assistantId, chunk)
       })
     } catch (error) {
-      try {
-        const fallbackEndpoint =
-          searchMode === 'proms' ? '/embed/proms' : '/embed/emails'
-        const fallbackResponse = await fetch(fallbackEndpoint, {
-          method: 'POST',
-          credentials: 'include',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text: trimmed }),
-        })
-        if (!fallbackResponse.ok) throw new Error(`Fallback request failed: ${fallbackResponse.status}`)
-        const data = await fallbackResponse.json()
-        setAssistantText(assistantId, data.text)
-      } catch (fallbackError) {
-        setAssistantText(assistantId, 'Could not reach the server. Please try again.')
-      }
+      console.error('Stream embed request error:', error)
+      setAssistantText(assistantId, 'Could not reach the server. Please try again.')
     } finally {
       setIsThinking(false)
     }
@@ -272,7 +336,7 @@ function App() {
     handleSearch(suggestion)
   }
 
-  const hasMessages = messages.length > 0
+  const hasMessages = messages.length > 0 || Boolean(currentSessionId)
 
   return (
     <div
@@ -281,6 +345,37 @@ function App() {
         view === 'upload' ? 'h-screen overflow-hidden' : 'min-h-screen',
       ].join(' ')}
     >
+      {!isCheckingUserSession && !hasUserSession ? (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-300/25 px-4 backdrop-blur-[10px]">
+          <div className="w-full max-w-xl rounded-[32px] border border-slate-700/70 bg-slate-900 px-7 py-8 shadow-[0_24px_70px_rgba(15,23,42,0.28)] sm:px-8 sm:py-9">
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-red-950/60 ring-1 ring-red-900/60">
+                <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
+              </div>
+              <h2 className="mt-6 max-w-lg text-[2rem] font-semibold leading-[1.12] tracking-[-0.04em] text-slate-50 sm:text-[2.4rem]">
+                Create a user session before starting a chat.
+              </h2>
+              <div className="mt-8 flex items-center justify-between gap-4">
+                <div className="hidden text-sm text-slate-400 sm:block">
+                  Required once.
+                </div>
+                <div className="w-full sm:w-auto">
+                  <button
+                    type="button"
+                    onClick={createUserSession}
+                    disabled={isCreatingUserSession}
+                    className="inline-flex w-full items-center justify-center gap-3 rounded-2xl bg-red-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_14px_32px_rgba(220,38,38,0.22)] transition-all hover:bg-red-700 disabled:cursor-not-allowed disabled:bg-red-300 sm:w-auto"
+                  >
+                    <span>{isCreatingUserSession ? 'Creating session...' : 'Create user session'}</span>
+                    <span className="text-lg leading-none" aria-hidden="true">
+                      →
+                    </span>
+                  </button>
+                </div>
+              </div>
+          </div>
+        </div>
+      ) : null}
+
       <Header view={view} setView={setView} />
 
       <main

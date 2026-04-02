@@ -1,4 +1,5 @@
 import os
+from typing import Dict, List, Set
 import json
 import uuid
 import shutil
@@ -8,7 +9,7 @@ from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
-from typing import AsyncGenerator, Optional
+from typing import AsyncGenerator, Optional, Tuple
 from openai import OpenAI
 from preprocessing.database.pg import get_db_connection
 from .prompts import (
@@ -21,7 +22,7 @@ EMBEDDING_MODEL = "text-embedding-ada-002"
 CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
 
 
-SESSION_COOKIE = "session_id"
+USER_COOKIE = "user_id"
 SESSION_TTL_SECONDS = 60 * 60 * 24 
 
 
@@ -36,9 +37,9 @@ async def lifespan(_: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
-redis_memory = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
+redis_chat_context = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
-
+redis_uids_sids: Dict[str, Set[str]] = redis.Redis(host="redis", port=6379, db=2)
 
 app.add_middleware(
     CORSMiddleware,
@@ -96,63 +97,131 @@ class UploadCounterResetResponse(BaseModel):
     status_of_queue: str
 
 
+def _user_key(user_id: str) -> str:
+    return f"user:{user_id}:session_ids"
+
 def _session_key(session_id: str) -> str:
     return f"chat:session:{session_id}"
 
 
+
+
+#called only on server shutdown
 async def clear_all_context_history_keys() -> int:
     deleted_count = 0
-    async for key in redis_memory.scan_iter(match="chat:session:*", count=100):
-        deleted_count += await redis_memory.delete(key)
+    async for key in redis_chat_context.scan_iter(match="chat:session:*", count=100):
+        deleted_count += await redis_chat_context.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
 
 
-async def get_or_create_session_id(request: Request, response: Response) -> str:
-    session_id = request.cookies.get(SESSION_COOKIE)
-    if session_id:
-        return session_id
-
-    session_id = uuid.uuid4().hex
+async def create_user_id(request: Request, response: Response) -> str:
+    user_id = uuid.uuid4().hex
     response.set_cookie(
-        key=SESSION_COOKIE,
-        value=session_id,
+        key=USER_COOKIE,
+        value=user_id,
         max_age=SESSION_TTL_SECONDS,
         httponly=True,
         secure=False,      
         samesite="lax",
         path="/",
     )
-    return session_id
+    return user_id
+
+
+
+async def create_add_session_id(request: Request, response: Response) -> str:
+    user_id = request.cookies.get(USER_COOKIE)
+    session_id = uuid.uuid4().hex
+    added = await redis_uids_sids.sadd(_user_key(user_id), _session_key(session_id))
+    return session_id, added 
+
+async def get_session_ids(request: Request, response: Response):
+    user_id = request.cookies.get(USER_COOKIE)
+    return await redis_uids_sids.smembers(_user_key(user_id))
 
 
 
 
-@app.get("/session/init")
-async def home(request: Request, response: Response):
-    session_id = request.cookies.get(SESSION_COOKIE)
-    # if not session_id:
-    #     session_id = await get_or_create_session_id(request, response)
-    #     print("created session id")
-    if session_id:
-        await redis_memory.delete(_session_key(session_id))
-        response.delete_cookie(key=SESSION_COOKIE, path = "/")
-    session_id = await get_or_create_session_id(request, response)
+
+#should happen during upon entering home
+
+@app.post("/user/init")
+async def set_user_cookie(request: Request, response: Response):
+    user_id = request.cookies.get(USER_COOKIE)
+    if user_id:
+        has_context = True
+        sids: Set[str] = await redis_uids_sids.smembers(_user_key(user_id))
+        if not sids:
+            has_context = False
+        print(f"user id {user_id} is {sids}")
+        return {
+            "created_session": False,
+            "has_context": has_context,
+            "session_ids" : sids
+        }
+    user_id = await create_user_id(request, response)
     print("created session id")
     return {
-        "ok": True,
-        "has_session": True,
-        "has_context": False
+        "created_session": True,
+        "has_context": False,
+        "session_ids": ()
     }
 
 
-# @app.get("/logout")
-# async def logout(request: Request, response: Response):
-#     session_id = request.cookies.get(SESSION_COOKIE)
-#     if session_id:
-#         await redis_memory.delete(_session_key(session_id))
-#     response.delete_cookie(key=SESSION_COOKIE, path="/")
-#     return {"ok": True, "logged_out": True}
+@app.get("/user/status")
+async def user_status(request: Request):
+    user_id = request.cookies.get(USER_COOKIE)
+    return {
+        "has_user": bool(user_id),
+    }
+
+
+@app.post("/session/init")
+async def set_session_id(request: Request, response: Response):
+    user_id = request.cookies.get(USER_COOKIE)
+    if user_id:
+        session_id, added = await create_add_session_id(request, response)#needs to be some type of random uuid
+        user_session_set = await redis_uids_sids.smembers(_user_key(user_id))
+        cleaned_session_id = session_id.removeprefix("chat:session:")
+        if not added:
+            return {
+                "created_user": False,
+                "added": False,
+                "reason": "Duplicate element exists in set",
+                "session_id": None
+            }
+        return {
+            "created_user": False,
+            "added" : True,
+            "reason": f"Successful add to {user_id} where set is {user_session_set}",
+            "session_id": cleaned_session_id
+        }
+    else:
+        user_id = await create_user_id(request, response)
+        session_id, added = await create_add_session_id(request, response)
+        cleaned_session_id = session_id.removeprefix("chat:session:")
+        user_session_set = await redis_uids_sids.smembers(_user_key(user_id))
+        return {
+            "created_user": True,
+            "added" : True,
+            "reason": f"Successful add to {user_id} where set is {user_session_set}",
+            "session_id": cleaned_session_id
+        }
+
+
+
+
+
+
+
+@app.get("/logout")
+async def logout(request: Request, response: Response):
+    user_id = request.cookies.get(USER_COOKIE)
+    if user_id:
+        await redis_uids_sids.delete(_user_key(user_id))
+    response.delete_cookie(key=USER_COOKIE, path="/")
+    return {"ok": True, "logged_out": True}
     
 
 
@@ -235,39 +304,20 @@ async def show_list():
 
 @app.get("/context/show-list")
 async def show_context_list(request: Request):
-    print(
-        "[TRACE][/context/show-list]",
-        {
-            "referer": request.headers.get("referer"),
-            "origin": request.headers.get("origin"),
-            "user_agent": request.headers.get("user-agent"),
-            "session_cookie_in": request.cookies.get(SESSION_COOKIE),
-        },
-    )
-    session_id = request.cookies.get(SESSION_COOKIE)
-    if not session_id:
-        return {
-            "has_session": False,
-            "context_length": 0,
-            "context_history": [],
-        }
+    # if not user_id:
+        #hit them with a redirect
+    all_active_sessions = {}
+    for key in redis_uids_sids.scan_iter():
+        active_sessions = await redis_uids_sids.smembers(key)
+        all_active_sessions[key] = active_sessions
+    return all_active_sessions
 
-    key = _session_key(session_id)
-    raw_context = await redis_memory.get(key)
-    context_history = json.loads(raw_context) if raw_context else []
-    return {
-        "has_session": True,
-        "session_id": session_id,
-        "context_length": len(context_history),
-        "context_history": context_history,
-    }
 
 @app.post("/upload/reset_counter", response_model=UploadCounterResetResponse)
 async def reset_upload_counter() -> UploadCounterResetResponse:
     key = "promfile_upload_counter"
     queue_name = "pending_files"
     len_of_queue = await redis_file_queue.llen(queue_name)
-    await redis_memory.set(key, 0)
     await redis_file_queue.delete(queue_name)
     print(f"{key} set to 0")
     print(f"{queue_name} cleared")
@@ -296,6 +346,7 @@ def chat_completion(system_prompt: str, user_payload: str) -> str:
 
     
 async def stream_chat_completion_and_store(
+    session_id: str,
     system_prompt: str,
     user_payload: str,
     request: Request,
@@ -329,6 +380,7 @@ async def stream_chat_completion_and_store(
     finally:
         if full_response_text:
             await append_context_entry(
+                session_id, 
                 request,
                 response,
                 {
@@ -418,114 +470,15 @@ def search_proms(request: EmbedRequest) -> SearchResponse:
     return SearchResponse(results=results)
 
 
-@app.post("/embed/emails", response_model=EmbedResponse)
-async def embed_emails(payload: EmbedRequest, request: Request, response: Response) -> EmbedResponse:
-    query = payload.text.strip()
-    print(f"[DEBUG][emails] Received query: '{query}'")
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-    context_history = await get_context(request, response)
-    if len(context_history) == 0:
-        try:
-            print("[DEBUG][emails] Embedding query...")
-            query_embedding = embed_query(query)
-            print(f"[DEBUG][emails] Embedding succeeded, dim={len(query_embedding)}")
-        except Exception as error:
-            print(f"[ERROR][emails] Embedding failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
+@app.post("/session/{session_id}/embed/emails/stream")
+async def embed_emails_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
 
-        con = None
-        try:
-            print("[DEBUG][emails] Connecting to database...")
-            con = get_db_connection()
-            cursor = con.cursor()
-            cursor.execute(
-                """
-                SELECT
-                    date,
-                    requestor,
-                    filename,
-                    prom_approval,
-                    prom_considerations,
-                    chemicals,
-                    processes,
-                    raw_thread,
-                    1 - (embedding <=> %s::vector) AS similarity
-                FROM email_embeddings
-                ORDER BY embedding <=> %s::vector
-                LIMIT 1
-                """,
-                (query_embedding, query_embedding),
-            )
-            row = cursor.fetchone()
-            print(f"[DEBUG][emails] DB query done. Row found: {row is not None}")
-        except Exception as error:
-            print(f"[ERROR][emails] DB query failed: {error}")
-            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-        finally:
-            if con is not None:
-                con.close()
-
-        if row is None:
-            return EmbedResponse(text="No relevant emails found.")
-
-        (
-            date, requestor, filename, prom_approval, prom_considerations,
-            chemicals, processes, raw_thread, similarity,
-        ) = row
-
-        print(f"[DEBUG][emails] Best match: date={date}, requestor={requestor}, similarity={similarity:.4f}")
-
-        user_payload = (
-            "USER_QUESTION: Can you give me all the information on the email thread for this raw thread, don't summarize and be descriptive of important details such as considerations, safety concerns. do not give broad answer\n\n"
-            "RAW_THREAD:\n"
-            f"{raw_thread}\n\n"
-            f"PROM_APPROVAL: {prom_approval}\n"
-            f"PROM_CONSIDERATIONS: {prom_considerations}\n"
-            f"CHEMICALS: {chemicals}\n"
-            f"PROCESSES: {processes}\n"
-        )
-
-        try:
-            response_text = chat_completion(EMAIL_SYSTEM_PROMPT, user_payload)
-        except Exception as error:
-            print(f"[ERROR][emails] Chat completion failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Chat completion failed: {error}") from error
-    else:
-        try:
-            continuation_payload = {
-                "current_user_message": query,
-                "context_history": context_history,
-            }
-            response_text = chat_completion(
-                CONTINUATION_SYS_PROMPT,
-                json.dumps(continuation_payload),
-            )
-        except Exception as e:
-            print(f"[ERROR][emails] Chat continuation failed: {e}")
-            raise HTTPException(status_code=500, detail=f"Chat continuation failed: {e}") from e
-
-    await append_context_entry(
-        request,
-        response,
-        {
-            "route": "embed_emails",
-            "user_text": query,
-            "assistant_text": response_text,
-        },
-    )
-
-    return EmbedResponse(text=response_text)
-
-
-@app.post("/embed/emails/stream")
-async def embed_emails_stream(payload: EmbedRequest, request: Request, response: Response):
     query = payload.text.strip()
     print(f"[DEBUG][emails][stream] Received query: '{query}'")
     if not query:
         raise HTTPException(status_code=400, detail="Text is required")
 
-    context_history = await get_context(request, response)
+    context_history = await get_context(session_id, request, response)
     if len(context_history) == 0:
         try:
             print("[DEBUG][emails][stream] Embedding query...")
@@ -571,6 +524,7 @@ async def embed_emails_stream(payload: EmbedRequest, request: Request, response:
             async def no_email_results():
                 text = "No relevant emails found."
                 await append_context_entry(
+                    session_id,
                     request,
                     response,
                     {
@@ -610,6 +564,7 @@ async def embed_emails_stream(payload: EmbedRequest, request: Request, response:
         )
 
     stream = stream_chat_completion_and_store(
+        session_id,
         system_prompt=system_prompt,
         user_payload=user_payload,
         request=request,
@@ -623,141 +578,36 @@ async def embed_emails_stream(payload: EmbedRequest, request: Request, response:
 
 
 
-async def append_context_entry(request: Request, response: Response, entry: dict) -> str:
-    session_id = await get_or_create_session_id(request, response)
+async def append_context_entry(session_id: str, request: Request, response: Response, entry: dict) -> str:
     key = _session_key(session_id)
-    raw_context = await redis_memory.get(key)
+    raw_context = await redis_chat_context.get(key)
     context_history = json.loads(raw_context) if raw_context else []
     context_history.append(entry)
-    await redis_memory.set(key, json.dumps(context_history), ex=SESSION_TTL_SECONDS)
+    await redis_chat_context.set(key, json.dumps(context_history), ex=SESSION_TTL_SECONDS)
     return session_id
 
-async def get_context(request: Request, response: Response):
-    session_id = await get_or_create_session_id(request, response)
+async def get_context(session_id: str, request: Request, response: Response):
     key = _session_key(session_id)
-    raw_context = await redis_memory.get(key)
+    raw_context = await redis_chat_context.get(key)
     context_history = json.loads(raw_context) if raw_context else []
-    return context_history
+    return context_history 
 
 # async def context_length(request: Request, response: Response) -> int:
 #     session_id = await get_or_create_session_id(request, response)
 #     key = _session_key(session_id)
-#     raw_context = await redis_memory.get(key)
+#     raw_context = await redis_chat_context.get(key)
 #     context_history = json.loads(raw_context) if raw_context else []
-#     return len(context_history)
+#     return len(context_history)redis_uids_cids: Dic = 
 
 
-
-
-@app.post("/embed/proms", response_model=EmbedResponse)
-async def embed_proms(payload: EmbedRequest, request: Request, response: Response) -> EmbedResponse:
-    query = payload.text.strip()
-    print(f"[DEBUG][proms] Received query: '{query}'")
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-    context_history = await get_context(request, response)
-    if len(context_history) == 0:
-        try:
-            print("[DEBUG][proms] Embedding query...")
-            query_embedding = embed_query(query)
-            print(f"[DEBUG][proms] Embedding succeeded, dim={len(query_embedding)}")
-        except Exception as error:
-            print(f"[ERROR][proms] Embedding failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
-
-        con = None
-        try:
-            print("[DEBUG][proms] Connecting to database...")
-            con = get_db_connection()
-            cursor = con.cursor()
-            cursor.execute(
-                """
-                SELECT
-                    request_title,
-                    chemicals_and_processes,
-                    request_reason,
-                    process_flow,
-                    amount_and_form,
-                    1 - (request_embedding <=> %s::vector) AS similarity
-                FROM prom_embeddings
-                ORDER BY request_embedding <=> %s::vector
-                LIMIT 1
-                """,
-                (query_embedding, query_embedding),
-            )
-            row = cursor.fetchone()
-            print(f"[DEBUG][proms] DB query done. Row found: {row is not None}")
-        except Exception as error:
-            print(f"[ERROR][proms] DB query failed: {error}")
-            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-        finally:
-            if con is not None:
-                con.close()
-
-        if row is None:
-            return EmbedResponse(text="No relevant PROM requests found.")
-
-        (
-            request_title, chemicals_and_processes, request_reason,
-            process_flow, amount_and_form, similarity,
-        ) = row
-
-        print(f"[DEBUG][proms] Best match: title={request_title}, similarity={similarity:.4f}")
-
-        user_payload = (
-            f"USER_QUESTION: {query}\n\n"
-            f"REQUEST_TITLE: {request_title}\n"
-            f"CHEMICALS_AND_PROCESSES: {chemicals_and_processes}\n"
-            f"REQUEST_REASON: {request_reason}\n"
-            f"PROCESS_FLOW: {process_flow}\n"
-            f"AMOUNT_AND_FORM: {amount_and_form}\n"
-        )
-        
-
-        try:
-            response_text = chat_completion(
-                prom_prompt(request_title or "Untitled Request"),
-                user_payload,
-            )
-        except Exception as error:
-            print(f"[ERROR][proms] Chat completion failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Chat completion failed: {error}") from error
-    else:
-        try:
-            continuation_payload = {
-                "current_user_message": query,
-                "context_history": context_history,
-            }
-            response_text = chat_completion(
-                CONTINUATION_SYS_PROMPT,
-                json.dumps(continuation_payload),
-            )
-        except Exception as e:
-            print(f"[ERROR][proms] Chat continuation failed: {e}")
-            raise HTTPException(status_code=500, detail=f"Chat continuation failed: {e}") from e
-    
-
-    await append_context_entry(
-        request,
-        response,
-        {
-            "route": "embed_proms",
-            "user_text": query,
-            "assistant_text": response_text,
-        },
-    )
-
-    return EmbedResponse(text=response_text)
-
-
-@app.post("/embed/proms/stream")
-async def embed_proms_stream(payload: EmbedRequest, request: Request, response: Response):
+@app.post("/session/{session_id}/embed/proms/stream")
+async def embed_proms_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
     query = payload.text.strip()
     print(f"[DEBUG][proms][stream] Received query: '{query}'")
     if not query:
         raise HTTPException(status_code=400, detail="Text is required")
 
-    context_history = await get_context(request, response)
+    context_history = await get_context(session_id, request, response)
     if len(context_history) == 0:
         try:
             print("[DEBUG][proms][stream] Embedding query...")
@@ -800,6 +650,7 @@ async def embed_proms_stream(payload: EmbedRequest, request: Request, response: 
             async def no_prom_results():
                 text = "No relevant PROM requests found."
                 await append_context_entry(
+                    session_id,
                     request,
                     response,
                     {
@@ -838,6 +689,7 @@ async def embed_proms_stream(payload: EmbedRequest, request: Request, response: 
         )
 
     stream = stream_chat_completion_and_store(
+        session_id,
         system_prompt=system_prompt,
         user_payload=user_payload,
         request=request,

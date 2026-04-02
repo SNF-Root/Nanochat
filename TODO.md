@@ -11,6 +11,11 @@
   - Context: discussed in chat on 2026-03-26.
   - Affected file: `app/server/main.py`.
 
+- **Make queue-clearing logic user-scoped**
+  - Clearing upload queue state must operate per user rather than emptying the shared queue, otherwise one user's reset can interfere with another user's in-flight upload.
+  - Context: discussed in chat on 2026-04-01.
+  - Affected files: `app/server/main.py`, `app/worker.py`.
+
 - **Batch routing by first item type is only demo-safe**
   - Routing batch processing from only the first queued filepath assumes homogeneous batches; this can break under concurrent multi-user uploads.
   - Context: discussed in chat on 2026-03-26.

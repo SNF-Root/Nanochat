@@ -23,8 +23,8 @@ redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=T
 
 PROM_QUEUE_NAME = "pending_prom_files"
 EMAIL_QUEUE_NAME = "pending_email_files"
-MAX_PROM_FILES = 10
-MAX_EMAIL_FILES = 5
+MAX_PROM_FILES = 15
+MAX_EMAIL_FILES = 6
 BATCH_FILL_WINDOW_SECONDS = 0.2
 BATCH_FILL_POLL_INTERVAL_SECONDS = 0.02
 
