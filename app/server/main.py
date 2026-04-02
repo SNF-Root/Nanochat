@@ -40,6 +40,7 @@ app = FastAPI(lifespan=lifespan)
 redis_chat_context = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
 redis_uids_sids: Dict[str, Set[str]] = redis.Redis(host="redis", port=6379, db=2)
+redis_file_status_store = redis.Redis(host="redis", port=6379, db=3, decode_responses=True)
 
 app.add_middleware(
     CORSMiddleware,
@@ -109,6 +110,10 @@ def _user_key(user_id: str) -> str:
 
 def _session_key(session_id: str) -> str:
     return f"chat:session:{session_id}"
+
+
+def _upload_status_key(user_id: str) -> str:
+    return f"user:upload_file_status:{user_id}"
 
 
 
@@ -218,10 +223,6 @@ async def set_session_id(request: Request, response: Response):
 
 
 
-
-
-
-
 @app.post("/logout")
 async def logout(request: Request, response: Response):
     user_id = request.cookies.get(USER_COOKIE)
@@ -230,8 +231,6 @@ async def logout(request: Request, response: Response):
     response.delete_cookie(key=USER_COOKIE, path="/")
     return {"ok": True, "logged_out": True}
     
-
-
 
 
 
@@ -269,15 +268,25 @@ async def upload_file(
         while chunk := await file.read(1024 * 1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    file_obj = FileObject(user_id, stored_filename, "prom", filepath)
-    await redis_file_queue.rpush("pending_prom_files", json.dumps(file_obj.model_dump()))
-
+    file_obj = FileObject(
+        user_id=user_id,
+        upload_id=stored_filename,
+        kind="prom",
+        filepath=filepath,
+    )
+    print(user_id)
+    print(json.dumps(file_obj.model_dump()))
+    try:
+        queue_len = await redis_file_queue.rpush("pending_prom_files", json.dumps(file_obj.model_dump()))
+        print(f"succesfully added to queue with length {queue_len} for {user_id}")
+    except Exception as e:
+        print(f"cannot push to redis file queue | Error {e}")
     return UploadFileResponse(
         filename=file.filename,
         path = path,
         content_type = file.content_type,
         size_bytes = total_file_bytes,
-        status = "queued"
+        status = "Queued"
     )
 
 @app.post("/upload/emails", response_model=UploadFileResponse)
@@ -293,7 +302,12 @@ async def upload_email(request:Request, file: UploadFile = File(...), path: str 
         while chunk := await file.read(1024*1024):
             f.write(chunk)
             total_file_bytes += len(chunk)
-    file_obj = FileObject(user_id, stored_filename, "email", filepath)
+    file_obj = FileObject(
+        user_id=user_id,
+        upload_id=stored_filename,
+        kind="email",
+        filepath=filepath,
+    )
     await redis_file_queue.rpush("pending_email_files", json.dumps(file_obj.model_dump()))
     print("email file pushed to redis queue")
 
@@ -302,7 +316,7 @@ async def upload_email(request:Request, file: UploadFile = File(...), path: str 
         path=path,
         content_type="email_threads",
         size_bytes=total_file_bytes,
-        status="queued"
+        status="Queued"
     )
 
 
@@ -316,6 +330,14 @@ async def show_list():
     }
     return return_obj
 
+
+@app.get("/upload/get")
+async def get_uploads(request: Request):
+    user_id = request.cookies.get(USER_COOKIE)
+    if not user_id:
+        return []
+    items = await redis_file_status_store.lrange(_upload_status_key(user_id), 0, -1)
+    return [json.loads(item) for item in items]
 
 @app.get("/context/show-list")
 async def show_context_list(request: Request):

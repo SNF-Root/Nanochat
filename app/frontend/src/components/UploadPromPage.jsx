@@ -87,6 +87,32 @@ const uploadFile = (file, path, route, onProgress) =>
   })
 
 const makeId = () => `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`
+const TERMINAL_UPLOAD_STATUSES = new Set([
+  'Complete',
+  'Duplicate Already Exists',
+  'Could Not Insert',
+  'Could Not Upload',
+])
+
+const normalizeUploadStatusItems = (items, limit) => {
+  const deduped = []
+  const seen = new Set()
+
+  for (let index = items.length - 1; index >= 0; index -= 1) {
+    const raw = items[index]
+    const item = typeof raw === 'string' ? JSON.parse(raw) : raw
+    if (!item) continue
+
+    const key = item.upload_id || item.filepath
+    if (!key || seen.has(key)) continue
+    seen.add(key)
+    deduped.push(item)
+
+    if (limit && deduped.length >= limit) break
+  }
+
+  return deduped.reverse()
+}
 
 function ConfirmUploadModal({
   isOpen,
@@ -237,10 +263,119 @@ function UploadedFilesPanel({ uploaded, onClear }) {
   )
 }
 
+function UploadProgressModal({ isOpen, entries, onClose }) {
+  if (!isOpen) return null
+
+  return (
+    <div className="fixed inset-0 z-[110] flex items-center justify-center bg-slate-900/35 px-4 py-6 backdrop-blur-sm">
+      <div className="w-full max-w-4xl overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-2xl shadow-slate-900/20">
+        <div className="flex items-start justify-between gap-4 border-b border-slate-100 bg-gradient-to-r from-slate-50 via-white to-red-50/40 px-6 py-5 md:px-8">
+          <div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+              Upload Progress
+            </div>
+            <h3 className="mt-3 text-2xl font-semibold text-slate-900">
+              Worker processing status
+            </h3>
+            <p className="mt-1 text-sm text-slate-500">
+              Latest status for each uploaded file.
+            </p>
+          </div>
+          <button
+            onClick={onClose}
+            className="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-600 transition-colors hover:bg-slate-50 hover:text-slate-900"
+          >
+            Close
+          </button>
+        </div>
+
+        <div className="max-h-[65vh] overflow-y-auto px-6 py-5 md:px-8">
+          {entries.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-5 py-8 text-sm text-slate-500">
+              Waiting for worker updates...
+            </div>
+          ) : (
+            <div className="grid gap-3">
+              {entries.map((entry) => {
+                const isTerminal = TERMINAL_UPLOAD_STATUSES.has(entry.status)
+                const isFailure = entry.status !== 'Complete' && isTerminal
+                const filename = entry.filepath?.split('/').pop() || entry.upload_id
+
+                return (
+                  <div
+                    key={entry.upload_id || entry.filepath}
+                    className="rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-4"
+                  >
+                    <div className="flex items-start gap-4">
+                      <div
+                        className={[
+                          'mt-0.5 flex h-11 w-11 items-center justify-center rounded-2xl',
+                          isFailure
+                            ? 'bg-red-50 text-red-600'
+                            : isTerminal
+                              ? 'bg-emerald-50 text-emerald-600'
+                              : 'bg-slate-100 text-slate-600',
+                        ].join(' ')}
+                      >
+                        {isFailure ? (
+                          <AlertTriangle className="h-5 w-5" />
+                        ) : isTerminal ? (
+                          <CheckCircle2 className="h-5 w-5" />
+                        ) : (
+                          <FileText className="h-5 w-5" />
+                        )}
+                      </div>
+
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="min-w-0">
+                            <div className="truncate text-sm font-semibold text-slate-900">
+                              {filename}
+                            </div>
+                            <div className="mt-1 truncate text-xs text-slate-500">
+                              {entry.filepath}
+                            </div>
+                          </div>
+                          <span
+                            className={[
+                              'shrink-0 rounded-full border px-2.5 py-1 text-xs font-medium',
+                              isFailure
+                                ? 'border-red-100 bg-red-50 text-red-700'
+                                : isTerminal
+                                  ? 'border-emerald-100 bg-emerald-50 text-emerald-700'
+                                  : 'border-slate-200 bg-white text-slate-700',
+                            ].join(' ')}
+                          >
+                            {entry.status}
+                          </span>
+                        </div>
+
+                        <div className="mt-3 flex items-center gap-2 text-xs text-slate-500">
+                          <span className="rounded-full bg-white px-2 py-1 uppercase tracking-wide text-slate-500">
+                            {entry.kind}
+                          </span>
+                          <span className="truncate font-mono text-[11px] text-slate-400">
+                            {entry.upload_id}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function UploadPromPage() {
   const fileInputRef = useRef(null)
   const folderInputRef = useRef(null)
   const completionTimerRef = useRef(null)
+  const progressPollRef = useRef(null)
 
   const [items, setItems] = useState([])
   const [uploaded, setUploaded] = useState([])
@@ -250,6 +385,9 @@ export default function UploadPromPage() {
   const [toasts, setToasts] = useState([])
   const [uploadType, setUploadType] = useState('prom')
   const [pendingConfirmation, setPendingConfirmation] = useState(null)
+  const [isProgressOpen, setIsProgressOpen] = useState(false)
+  const [progressEntries, setProgressEntries] = useState([])
+  const [expectedProgressCount, setExpectedProgressCount] = useState(0)
 
   const target = UPLOAD_TARGETS[uploadType]
 
@@ -275,6 +413,8 @@ export default function UploadPromPage() {
     return () => {
       if (completionTimerRef.current) clearTimeout(completionTimerRef.current)
       completionTimerRef.current = null
+      if (progressPollRef.current) clearInterval(progressPollRef.current)
+      progressPollRef.current = null
     }
   }, [])
 
@@ -365,6 +505,9 @@ export default function UploadPromPage() {
           ...prev,
         ]
       })
+      setExpectedProgressCount(completed.length)
+      setProgressEntries([])
+      setIsProgressOpen(true)
       setItems([])
       setMode('idle')
       completionTimerRef.current = null
@@ -375,6 +518,49 @@ export default function UploadPromPage() {
       completionTimerRef.current = null
     }
   }, [counts.queued, counts.uploading, items, mode])
+
+  useEffect(() => {
+    if (!isProgressOpen) {
+      if (progressPollRef.current) clearInterval(progressPollRef.current)
+      progressPollRef.current = null
+      return
+    }
+
+    const poll = async () => {
+      try {
+        const response = await fetch('/upload/get', {
+          method: 'GET',
+          credentials: 'include',
+        })
+
+        if (!response.ok) {
+          throw new Error(`Upload status request failed: ${response.status}`)
+        }
+
+        const data = await response.json()
+        const nextEntries = normalizeUploadStatusItems(data || [], expectedProgressCount)
+        setProgressEntries(nextEntries)
+
+        if (
+          nextEntries.length > 0 &&
+          nextEntries.every((entry) => TERMINAL_UPLOAD_STATUSES.has(entry.status))
+        ) {
+          if (progressPollRef.current) clearInterval(progressPollRef.current)
+          progressPollRef.current = null
+        }
+      } catch (error) {
+        console.error('Upload status request error:', error)
+      }
+    }
+
+    poll()
+    progressPollRef.current = setInterval(poll, 50)
+
+    return () => {
+      if (progressPollRef.current) clearInterval(progressPollRef.current)
+      progressPollRef.current = null
+    }
+  }, [expectedProgressCount, isProgressOpen])
 
   const addFileEntries = async (entries) => {
     setError('')
@@ -573,11 +759,20 @@ export default function UploadPromPage() {
     setUploaded([])
     setMode('idle')
     setPendingConfirmation(null)
+    setIsProgressOpen(false)
+    setProgressEntries([])
+    setExpectedProgressCount(0)
     // await resetUploadCounter()
   }
 
   return (
     <div className="w-full max-w-6xl mx-auto h-full min-h-0 flex flex-col overflow-hidden">
+      <UploadProgressModal
+        isOpen={isProgressOpen}
+        entries={progressEntries}
+        onClose={() => setIsProgressOpen(false)}
+      />
+
       <div className="flex items-start justify-between gap-4 mb-2 flex-none">
         <div>
           <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-red-700 bg-red-50 border border-red-100 px-3 py-1 rounded-full">
