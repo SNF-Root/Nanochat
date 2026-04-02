@@ -26,3 +26,7 @@
 - **Remove obsolete `REQUESTOR_NAMES`/`requestor_names` structure**
   - Source TODO: `#TODO: NO LONGER NEED REQUESTOR_NAMES, DICT THAT IS LARGE AND UNNECESSARY SINCE OUR MATCHING LOGIC HAS BEEN CHANGED`
   - File: `preprocessing/order_emails.py:102`.
+
+- **Finished successful file upload notification system**
+  - Added the success-path upload notification flow so worker status updates can be surfaced back to the frontend upload UI.
+  - Affected files: `app/worker.py`, `app/server/main.py`, `app/frontend/src/components/UploadPromPage.jsx`.

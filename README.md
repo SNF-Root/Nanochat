@@ -1,6 +1,6 @@
-# PROM - Protocol Review and Operations Management
+# Nanochat
 
-A RAG-based system for searching and retrieving information from PROM (Protocol Review) forms and email threads.
+A RAG-based system for searching and retrieving information from PROM forms and email threads.
 
 ## Repository Structure
 

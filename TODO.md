@@ -19,6 +19,10 @@
 
 ## Tasks
 
+- **Need to finish failure upload notification system portion**
+  - Complete the failure-path upload status notifications so the frontend can reflect worker-side processing failures alongside success states.
+  - Affected files: `app/worker.py`, `app/server/main.py`, `app/frontend/src/components/UploadPromPage.jsx`.
+
 - **Batch embedding requests on server-side endpoints**
   - Aggregate compatible embedding inputs into batched embedding API calls to reduce per-request overhead and improve throughput.
   - Affected file: `app/server/main.py`.
