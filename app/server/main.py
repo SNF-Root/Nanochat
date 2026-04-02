@@ -307,7 +307,8 @@ async def show_context_list(request: Request):
     # if not user_id:
         #hit them with a redirect
     all_active_sessions = {}
-    for key in redis_uids_sids.scan_iter():
+
+    async for key in redis_uids_sids.scan_iter():
         active_sessions = await redis_uids_sids.smembers(key)
         all_active_sessions[key] = active_sessions
     return all_active_sessions

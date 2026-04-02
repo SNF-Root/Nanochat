@@ -1,6 +1,13 @@
 # TODO
 
 ## Important
+- **Use AsyncOpenAI client for server-side LLM calls**
+  - Migrate embedding and chat-completion calls to async client usage so request handlers avoid blocking on network-bound model calls.
+  - Affected file: `app/server/main.py
+  - CANNOT SERVE CONCURRENT USERS FOR STREAMING BECAUSE OUR LLM STREAMS ARE NOT ASYNC because of the lack of this
+  -VERY IMPORTANT PLEASE FIX SOON!
+
+
 - **Global upload queue race condition (`pending_files`)**
   - Current upload flow uses one shared Redis queue for all users/sessions, so concurrent uploads can mix work across users.
   - Context: discussed in chat on 2026-03-26.
@@ -20,7 +27,6 @@
   - Routing batch processing from only the first queued filepath assumes homogeneous batches; this can break under concurrent multi-user uploads.
   - Context: discussed in chat on 2026-03-26.
   - Affected file: `app/worker.py`.
-ca
 - **Add rate limiting to email pipeline**
   - Source TODO: `#TODO: ADD RATE LIMITING, AI DO NOT IMPLEMENT`
   - File: `preprocessing/email_pipeline.py:57`
