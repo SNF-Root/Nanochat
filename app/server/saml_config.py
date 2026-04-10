@@ -24,15 +24,21 @@ from onelogin.saml2.auth import OneLogin_Saml2_Auth
 def _load_idp_x509_cert() -> str:
     path = os.getenv("SAML_IDP_X509_CERT_PATH", "").strip()
     if path:
+        if os.path.isdir(path):
+            raise RuntimeError(
+                f"SAML_IDP_X509_CERT_PATH={path!r} is a directory, not a PEM file. "
+                "With Docker, bind-mount a host folder to /run/saml and name the cert idp.pem "
+                "(see compose.yml SAML_IDP_CERT_HOST_DIR). If you bind-mount a single file, the "
+                "host path must exist as a file before compose up, or Docker creates a directory."
+            )
         try:
             with open(path, encoding="utf-8") as f:
                 return f.read().strip()
         except OSError as e:
             raise RuntimeError(
                 f"Cannot read SAML_IDP_X509_CERT_PATH={path!r}: {e}. "
-                "In Docker, mount the host PEM into the container (e.g. "
-                "-v /etc/ssl/certs/your.pem:/run/saml/idp.pem:ro) and set "
-                "SAML_IDP_X509_CERT_PATH=/run/saml/idp.pem."
+                "In Docker, mount a host directory on /run/saml with idp.pem inside "
+                "(compose: SAML_IDP_CERT_HOST_DIR) or set SAML_IDP_X509_CERT_PATH to that file."
             ) from e
     raw = os.getenv("SAML_IDP_X509_CERT", "").strip()
     if raw:

@@ -30,8 +30,9 @@ services:
       - prom-network
     restart: unless-stopped
 
-  # SAML IdP PEM + allow-list YAML: set host paths in .env (required for compose config):
-  #   SAML_IDP_CERT_HOST_PATH, SAML_ALLOWED_EMAILS_HOST_PATH
+  # SAML: bind-mount a host directory to /run/saml and put the IdP PEM there as idp.pem.
+  # (Binding a missing host *file* to /run/saml/idp.pem makes Docker create a directory — avoid that.)
+  #   SAML_IDP_CERT_HOST_DIR (optional, default ./config/saml), SAML_ALLOWED_EMAILS_HOST_PATH
   server:
     build:
       context: .
@@ -60,7 +61,7 @@ services:
       - "8000:8000"  # backend on 8000
     volumes:
       - .:/app
-      - ${SAML_IDP_CERT_HOST_PATH:?Set SAML_IDP_CERT_HOST_PATH in .env to the IdP PEM on the host}:/run/saml/idp.pem:ro
+      - ${SAML_IDP_CERT_HOST_DIR:-./config/saml}:/run/saml:ro
       - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}:/run/config/allowed_emails.yaml:ro
     networks:
       - prom-network
