@@ -60,8 +60,8 @@ services:
       - "8000:8000"  # backend on 8000
     volumes:
       - .:/app
-      - ${SAML_IDP_CERT_HOST_PATH:?Set SAML_IDP_CERT_HOST_PATH in .env to the IdP PEM on the host}/run/saml/idp.pem:ro
-      - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}/run/config/allowed_emails.yaml:ro
+      - ${SAML_IDP_CERT_HOST_PATH:?Set SAML_IDP_CERT_HOST_PATH in .env to the IdP PEM on the host}:/run/saml/idp.pem:ro
+      - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}:/run/config/allowed_emails.yaml:ro
     networks:
       - prom-network
     restart: unless-stopped
