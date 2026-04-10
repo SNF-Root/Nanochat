@@ -30,6 +30,8 @@ services:
       - prom-network
     restart: unless-stopped
 
+  # SAML cert: compose.saml.yml → /run/saml/idp.pem
+  # Allow-list YAML: compose.auth.yml → /run/config/allowed_emails.yaml
   server:
     build:
       context: .

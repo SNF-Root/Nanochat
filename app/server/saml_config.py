@@ -24,8 +24,16 @@ from onelogin.saml2.auth import OneLogin_Saml2_Auth
 def _load_idp_x509_cert() -> str:
     path = os.getenv("SAML_IDP_X509_CERT_PATH", "").strip()
     if path:
-        with open(path, encoding="utf-8") as f:
-            return f.read().strip()
+        try:
+            with open(path, encoding="utf-8") as f:
+                return f.read().strip()
+        except OSError as e:
+            raise RuntimeError(
+                f"Cannot read SAML_IDP_X509_CERT_PATH={path!r}: {e}. "
+                "In Docker, mount the host PEM into the container (e.g. "
+                "-v /etc/ssl/certs/your.pem:/run/saml/idp.pem:ro) and set "
+                "SAML_IDP_X509_CERT_PATH=/run/saml/idp.pem."
+            ) from e
     raw = os.getenv("SAML_IDP_X509_CERT", "").strip()
     if raw:
         return raw.replace("\\n", "\n").strip()

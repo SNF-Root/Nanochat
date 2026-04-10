@@ -1,0 +1,13 @@
+# Optional overlay: mount IdP cert from the VM into the server container.
+# On the VM (example):
+#   export SAML_IDP_CERT_HOST_PATH=/etc/ssl/certs/your-idp-signing.pem
+#   docker compose -f compose.yml -f compose.saml.yml up -d
+#
+# Keep SAML_IDP_SSO_URL and other SAML_* vars in .env as you already do.
+
+services:
+  server:
+    volumes:
+      - ${SAML_IDP_CERT_HOST_PATH:?Set SAML_IDP_CERT_HOST_PATH to the PEM on the host}/run/saml/idp.pem:ro
+    environment:
+      SAML_IDP_X509_CERT_PATH: /run/saml/idp.pem
