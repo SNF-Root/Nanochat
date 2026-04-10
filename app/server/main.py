@@ -378,9 +378,24 @@ async def _saml_acs_finish(
 
 @app.get("/auth/saml/callback")
 async def saml_callback_get(request: Request):
-    """HTTP-Redirect binding: IdP returns SAMLResponse (and RelayState) in the query string."""
+    """
+    Some IdPs or proxies deliver SAMLResponse on the query string (redirect-style).
+    python3-saml's process_response() only inspects post_data, so we mirror those params
+    into post_data when present. Bare GET (bookmark, bad redirect) → send user to login.
+    """
     get_data = {k: str(v) for k, v in request.query_params.multi_items()}
-    return await _saml_acs_finish(request, get_data=get_data, post_data={})
+    if "SAMLResponse" not in get_data:
+        print(
+            "[SAML] GET /auth/saml/callback without SAMLResponse "
+            "(expect HTTP-POST to this URL; POST→GET redirect strips the body)"
+        )
+        return RedirectResponse(url="/auth/saml/login", status_code=303)
+    post_data = {
+        k: get_data[k]
+        for k in ("SAMLResponse", "RelayState")
+        if k in get_data
+    }
+    return await _saml_acs_finish(request, get_data=get_data, post_data=post_data)
 
 
 @app.post("/auth/saml/callback")
