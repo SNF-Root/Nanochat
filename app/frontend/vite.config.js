@@ -14,7 +14,10 @@ export default defineConfig({
       '/user': 'http://localhost:8000',
       '/session': 'http://localhost:8000',
       '/context': 'http://localhost:8000',
-      '/logout': 'http://localhost:8000'
+      '/logout': 'http://localhost:8000',
+      // SAML: must hit FastAPI (redirect to IdP), not the SPA index.html
+      '/auth': 'http://localhost:8000',
+      '/saml': 'http://localhost:8000',
     }
   }
 })

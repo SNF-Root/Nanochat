@@ -204,11 +204,13 @@ async def set_user_cookie(request: Request, response: Response):
     if saml_is_configured():
         user_id = request.cookies.get(USER_COOKIE)
         if not user_id:
+            print("[SAML] /user/init -> 401 saml_required (no user_id cookie)")
             raise HTTPException(
                 status_code=401,
                 detail={"error": "saml_required", "login_path": "/auth/saml/login"},
             )
         if not await redis_chat_context.get(_auth_user_key(user_id)):
+            print("[SAML] /user/init -> 401 saml_required (no SAML session in Redis for cookie)")
             raise HTTPException(
                 status_code=401,
                 detail={"error": "saml_required", "login_path": "/auth/saml/login"},
@@ -288,6 +290,14 @@ async def logout(request: Request, response: Response):
         await redis_chat_context.delete(_auth_user_key(user_id))
     response.delete_cookie(key=USER_COOKIE, path="/")
     return {"ok": True, "logged_out": True}
+
+
+@app.get("/saml/login")
+async def saml_login_alias():
+    """Shorthand URL; SAML AuthnRequest must use the canonical `/auth/saml/login` URL."""
+    if not saml_is_configured():
+        raise HTTPException(status_code=404, detail="SAML not configured")
+    return RedirectResponse(url="/auth/saml/login", status_code=307)
 
 
 @app.get("/auth/saml/login")
