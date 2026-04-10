@@ -1,3 +1,4 @@
+import logging
 import os
 from typing import Dict, List, Set
 import json
@@ -31,6 +32,8 @@ from .saml_config import (
     saml_login_public_url,
     sunet_from_saml,
 )
+
+logger = logging.getLogger(__name__)
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
 CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
@@ -334,15 +337,33 @@ async def _saml_acs_finish(
     auth = saml_auth_for_request(req_data)
     auth.process_response()
     if auth.get_errors():
-        print(f"[SAML] validation errors: {auth.get_errors()} {auth.get_last_error_reason()}")
+        logger.warning(
+            "[SAML] acs outcome=reject phase=saml_validation errors=%r reason=%r",
+            auth.get_errors(),
+            auth.get_last_error_reason(),
+        )
         raise HTTPException(status_code=403, detail="SAML validation failed")
 
     attrs = auth.get_attributes()
     nameid = auth.get_nameid()
     email = primary_email_from_saml(attrs, nameid)
     allowed = load_allowed_emails()
+    if not email:
+        keys = sorted(attrs.keys()) if attrs else []
+        logger.warning(
+            "[SAML] acs outcome=reject phase=credential "
+            "reason=no_email_in_assertion attribute_keys=%r nameid_present=%s",
+            keys,
+            bool(nameid),
+        )
+        raise HTTPException(status_code=403, detail="Not authorized for this application")
     if not is_email_allowed(email, allowed):
-        print(f"[SAML] deny-listed login attempt email={email!r}")
+        logger.warning(
+            "[SAML] acs outcome=reject phase=allowlist "
+            "reason=email_not_allowlisted email=%r allowlist_entries=%d",
+            email,
+            len(allowed),
+        )
         raise HTTPException(status_code=403, detail="Not authorized for this application")
 
     user_id = request.cookies.get(USER_COOKIE) or uuid.uuid4().hex
@@ -370,6 +391,12 @@ async def _saml_acs_finish(
         p = urlparse(acs_public_url())
         relay = f"{p.scheme}://{p.netloc}{relay}"
 
+    logger.info(
+        "[SAML] acs outcome=ok phase=session email=%r sunet=%r",
+        email,
+        sunet,
+    )
+
     out = RedirectResponse(url=relay, status_code=303)
     if not request.cookies.get(USER_COOKIE):
         out.set_cookie(USER_COOKIE, user_id, **_user_cookie_params())
@@ -385,9 +412,10 @@ async def saml_callback_get(request: Request):
     """
     get_data = {k: str(v) for k, v in request.query_params.multi_items()}
     if "SAMLResponse" not in get_data:
-        print(
-            "[SAML] GET /auth/saml/callback without SAMLResponse "
-            "(expect HTTP-POST to this URL; POST→GET redirect strips the body)"
+        logger.warning(
+            "[SAML] acs outcome=reject phase=transport "
+            "reason=get_callback_without_samlresponse "
+            "(IdP must POST SAMLResponse; a proxy that turns POST into GET drops the body)"
         )
         return RedirectResponse(url="/auth/saml/login", status_code=303)
     post_data = {

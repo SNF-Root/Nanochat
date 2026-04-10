@@ -10,6 +10,7 @@ Env:
   SAML_IDP_X509_CERT_PATH path to PEM file
   SAML_STRICT             "true"/"false" (default true)
   SAML_DEBUG              "true"/"false" (default false)
+  SAML_SP_NAMEID_FORMAT   NameIDPolicy Format in AuthnRequest (default transient for Stanford IdP)
 """
 
 from __future__ import annotations
@@ -70,30 +71,44 @@ def build_saml_settings() -> dict[str, Any]:
 
     strict = os.getenv("SAML_STRICT", "true").lower() in ("1", "true", "yes")
     debug = os.getenv("SAML_DEBUG", "false").lower() in ("1", "true", "yes")
+    # Stanford IdP documents transient (default) and persistent NameIDs — not emailAddress.
+    # Requesting emailAddress often yields a SAML Response with StatusCode Requester.
+    nameid_format = os.getenv(
+        "SAML_SP_NAMEID_FORMAT",
+        "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+    ).strip()
+
+    sp_block: dict[str, Any] = {
+        "entityId": entity_id,
+        "assertionConsumerService": {
+            "url": acs_url,
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST",
+        },
+        "NameIDFormat": nameid_format,
+        "x509cert": "",
+        "privateKey": "",
+    }
+    # Optional: only if your SP metadata in SPDB includes a matching AttributeConsumingService
+    # index; otherwise omit so AuthnRequest does not send AttributeConsumingServiceIndex="1"
+    # (which can trigger IdP error responses).
+    if os.getenv("SAML_SP_ATTRIBUTE_CONSUMING_SERVICE", "").lower() in (
+        "1",
+        "true",
+        "yes",
+    ):
+        sp_block["attributeConsumingService"] = {
+            "serviceName": "Nano Chat",
+            "serviceDescription": "Nano Chat SP",
+            "requestedAttributes": [
+                {"name": "urn:mace:dir:attribute-def:mail", "isRequired": False},
+                {"name": "urn:oid:0.9.2342.19200300.100.1.3", "isRequired": False},
+            ],
+        }
 
     return {
         "strict": strict,
         "debug": debug,
-        "sp": {
-            "entityId": entity_id,
-            "assertionConsumerService": {
-                "url": acs_url,
-                "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST",
-            },
-            "attributeConsumingService": {
-                "serviceName": "Nano Chat",
-                "serviceDescription": "Nano Chat SP",
-                "requestedAttributes": [
-                    {"name": "urn:mace:dir:attribute-def:mail", "isRequired": False},
-                    {"name": "urn:oid:0.9.2342.19200300.100.1.3", "isRequired": False},
-                ],
-            },
-            "NameIDFormat": (
-                "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
-            ),
-            "x509cert": "",
-            "privateKey": "",
-        },
+        "sp": sp_block,
         "idp": {
             "entityId": idp_entity or idp_sso,
             "singleSignOnService": {
