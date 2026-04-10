@@ -2,10 +2,8 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# SAML: bind-mount the host IdP PEM here at runtime (e.g. compose.saml.yml).
-RUN mkdir -p /run/saml && chmod 755 /run/saml
-# Auth: optional allow-list YAML (e.g. compose.auth.yml).
-RUN mkdir -p /run/config && chmod 755 /run/config
+# SAML IdP PEM + allow-list YAML: bind-mount host files here (see compose.yml).
+RUN mkdir -p /run/saml /run/config && chmod 755 /run/saml /run/config
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     pkg-config \

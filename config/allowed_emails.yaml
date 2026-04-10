@@ -1,5 +1,5 @@
 # Copy to your VM (or repo-local path) and bind-mount into the container.
-# Set SAML_ALLOWED_EMAILS_PATH=/run/config/allowed_emails.yaml (see compose.auth.yml).
+# Point SAML_ALLOWED_EMAILS_HOST_PATH in .env at this file on the host (compose.yml mounts it).
 
 allowed_emails:
   - alice@stanford.edu

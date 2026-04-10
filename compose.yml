@@ -30,8 +30,8 @@ services:
       - prom-network
     restart: unless-stopped
 
-  # SAML cert: compose.saml.yml → /run/saml/idp.pem
-  # Allow-list YAML: compose.auth.yml → /run/config/allowed_emails.yaml
+  # SAML IdP PEM + allow-list YAML: set host paths in .env (required for compose config):
+  #   SAML_IDP_CERT_HOST_PATH, SAML_ALLOWED_EMAILS_HOST_PATH
   server:
     build:
       context: .
@@ -53,11 +53,15 @@ services:
       REDIS_URL: redis://redis:6379/0
       STANFORD_API_KEY: ${STANFORD_API_KEY}
       STANFORD_BASE_URL: https://aiapi-prod.stanford.edu/v1
+      SAML_IDP_X509_CERT_PATH: /run/saml/idp.pem
+      SAML_ALLOWED_EMAILS_PATH: /run/config/allowed_emails.yaml
     ports:
       - "3000:3000"  # frontend on 3000
       - "8000:8000"  # backend on 8000
     volumes:
       - .:/app
+      - ${SAML_IDP_CERT_HOST_PATH:?Set SAML_IDP_CERT_HOST_PATH in .env to the IdP PEM on the host}/run/saml/idp.pem:ro
+      - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}/run/config/allowed_emails.yaml:ro
     networks:
       - prom-network
     restart: unless-stopped
