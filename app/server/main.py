@@ -318,15 +318,17 @@ async def saml_login(request: Request):
     return RedirectResponse(redirect_url)
 
 
-@app.post("/auth/saml/callback")
-async def saml_callback(request: Request):
+async def _saml_acs_finish(
+    request: Request,
+    *,
+    get_data: dict[str, str],
+    post_data: dict[str, str],
+) -> RedirectResponse:
     if not saml_is_configured():
         raise HTTPException(status_code=404, detail="SAML not configured")
-    form = await request.form()
-    post_data = {k: str(v) for k, v in form.multi_items()}
     req_data = build_request_data_for_url(
         public_url=acs_public_url(),
-        get_data={},
+        get_data=get_data,
         post_data=post_data,
     )
     auth = saml_auth_for_request(req_data)
@@ -356,7 +358,11 @@ async def saml_callback(request: Request):
         ex=SESSION_TTL_SECONDS,
     )
 
-    relay = post_data.get("RelayState") or os.getenv("SAML_FRONTEND_REDIRECT_URL", "").strip()
+    relay = (
+        post_data.get("RelayState")
+        or get_data.get("RelayState")
+        or os.getenv("SAML_FRONTEND_REDIRECT_URL", "").strip()
+    )
     if not relay:
         p = urlparse(acs_public_url())
         relay = f"{p.scheme}://{p.netloc}/"
@@ -368,6 +374,22 @@ async def saml_callback(request: Request):
     if not request.cookies.get(USER_COOKIE):
         out.set_cookie(USER_COOKIE, user_id, **_user_cookie_params())
     return out
+
+
+@app.get("/auth/saml/callback")
+async def saml_callback_get(request: Request):
+    """HTTP-Redirect binding: IdP returns SAMLResponse (and RelayState) in the query string."""
+    get_data = {k: str(v) for k, v in request.query_params.multi_items()}
+    return await _saml_acs_finish(request, get_data=get_data, post_data={})
+
+
+@app.post("/auth/saml/callback")
+async def saml_callback_post(request: Request):
+    """HTTP-POST binding: SAMLResponse and RelayState are form fields."""
+    form = await request.form()
+    post_data = {k: str(v) for k, v in form.multi_items()}
+    get_data = {k: str(v) for k, v in request.query_params.multi_items()}
+    return await _saml_acs_finish(request, get_data=get_data, post_data=post_data)
 
 
 @app.get("/saml/metadata")

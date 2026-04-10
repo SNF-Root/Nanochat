@@ -7,6 +7,7 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 3000,
     open: false,
+    allowedHosts: ['nano-chat.su.domains'],
     proxy: {
       '/embed': 'http://localhost:8000',
       '/search': 'http://localhost:8000',
