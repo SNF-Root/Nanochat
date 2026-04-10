@@ -151,8 +151,8 @@ def validating_llm_response(result: str) -> dict | None:
     
     chemicals_string = " ".join(chemicals_mentioned)
     processes_string = " ".join(processes_mentioned)
+    #REQUEST
     embed_string = f"Reason for Request: {prom_request}\n Process Flow: {llm_context}\n The chemical or material: {chemicals_string} {processes_string}"
-    
     return {
         "embedded_string": embed_string,
         "prom_considerations": prom_considerations,
