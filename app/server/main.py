@@ -31,6 +31,7 @@ from .saml_config import (
     saml_is_configured,
     saml_login_public_url,
     sunet_from_saml,
+    validate_saml_env_at_startup,
 )
 
 logger = logging.getLogger(__name__)
@@ -81,6 +82,7 @@ async def require_owned_chat_session(session_id: str, request: Request) -> None:
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
+    validate_saml_env_at_startup()
     try:
         yield
     finally:

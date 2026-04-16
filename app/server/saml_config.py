@@ -11,6 +11,10 @@ Env:
   SAML_STRICT             "true"/"false" (default true)
   SAML_DEBUG              "true"/"false" (default false)
   SAML_SP_NAMEID_FORMAT   NameIDPolicy Format in AuthnRequest (default transient for Stanford IdP)
+  SAML_SP_PRIVATE_KEY     SP private key PEM (use \\n for newlines) OR SAML_SP_PRIVATE_KEY_PATH
+  SAML_SP_X509_CERT       SP public cert PEM (same \\n rule) OR SAML_SP_X509_CERT_PATH
+                            Required whenever SAML_IDP_SSO_URL is set: pair must match what you
+                            published in SP metadata to Stanford (encryption/signing key in SPDB).
 """
 
 from __future__ import annotations
@@ -47,8 +51,75 @@ def _load_idp_x509_cert() -> str:
     return ""
 
 
+def _load_sp_private_key() -> str:
+    path = os.getenv("SAML_SP_PRIVATE_KEY_PATH", "").strip()
+    if path:
+        if os.path.isdir(path):
+            raise RuntimeError(
+                f"SAML_SP_PRIVATE_KEY_PATH={path!r} is a directory, not a PEM file."
+            )
+        try:
+            with open(path, encoding="utf-8") as f:
+                return f.read().strip()
+        except OSError as e:
+            raise RuntimeError(
+                f"Cannot read SAML_SP_PRIVATE_KEY_PATH={path!r}: {e}"
+            ) from e
+    raw = os.getenv("SAML_SP_PRIVATE_KEY", "").strip()
+    if raw:
+        return raw.replace("\\n", "\n").strip()
+    return ""
+
+
+def _load_sp_x509_cert() -> str:
+    path = os.getenv("SAML_SP_X509_CERT_PATH", "").strip()
+    if path:
+        if os.path.isdir(path):
+            raise RuntimeError(
+                f"SAML_SP_X509_CERT_PATH={path!r} is a directory, not a PEM file."
+            )
+        try:
+            with open(path, encoding="utf-8") as f:
+                return f.read().strip()
+        except OSError as e:
+            raise RuntimeError(
+                f"Cannot read SAML_SP_X509_CERT_PATH={path!r}: {e}"
+            ) from e
+    raw = os.getenv("SAML_SP_X509_CERT", "").strip()
+    if raw:
+        return raw.replace("\\n", "\n").strip()
+    return ""
+
+
 def saml_is_configured() -> bool:
-    return bool(os.getenv("SAML_IDP_SSO_URL", "").strip() and _load_idp_x509_cert())
+    if not os.getenv("SAML_IDP_SSO_URL", "").strip():
+        return False
+    if not _load_idp_x509_cert():
+        return False
+    if not _load_sp_private_key() or not _load_sp_x509_cert():
+        return False
+    return True
+
+
+def validate_saml_env_at_startup() -> None:
+    """If SAML_IDP_SSO_URL is set, require IdP cert and SP key pair (fail fast)."""
+    idp_sso = os.getenv("SAML_IDP_SSO_URL", "").strip()
+    if not idp_sso:
+        return
+    if not _load_idp_x509_cert():
+        raise RuntimeError(
+            "SAML_IDP_SSO_URL is set but the IdP X.509 certificate is missing. "
+            "Set SAML_IDP_X509_CERT_PATH or SAML_IDP_X509_CERT."
+        )
+    sp_key = _load_sp_private_key()
+    sp_cert = _load_sp_x509_cert()
+    if not sp_key or not sp_cert:
+        raise RuntimeError(
+            "SAML_IDP_SSO_URL is set but the SP private key or certificate is missing. "
+            "The IdP encrypts assertions using the public key from your SP metadata; this "
+            "process needs the matching private key. Set SAML_SP_PRIVATE_KEY_PATH and "
+            "SAML_SP_X509_CERT_PATH (or SAML_SP_PRIVATE_KEY and SAML_SP_X509_CERT)."
+        )
 
 
 def build_saml_settings() -> dict[str, Any]:
@@ -77,6 +148,13 @@ def build_saml_settings() -> dict[str, Any]:
         "SAML_SP_NAMEID_FORMAT",
         "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
     ).strip()
+    sp_private_key = _load_sp_private_key()
+    sp_x509 = _load_sp_x509_cert()
+    if not sp_private_key or not sp_x509:
+        raise RuntimeError(
+            "SAML requires SP credentials: set SAML_SP_PRIVATE_KEY_PATH and "
+            "SAML_SP_X509_CERT_PATH (or SAML_SP_PRIVATE_KEY and SAML_SP_X509_CERT)."
+        )
 
     sp_block: dict[str, Any] = {
         "entityId": entity_id,
@@ -85,8 +163,8 @@ def build_saml_settings() -> dict[str, Any]:
             "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST",
         },
         "NameIDFormat": nameid_format,
-        "x509cert": "",
-        "privateKey": "",
+        "x509cert": sp_x509,
+        "privateKey": sp_private_key,
     }
     # Optional: only if your SP metadata in SPDB includes a matching AttributeConsumingService
     # index; otherwise omit so AuthnRequest does not send AttributeConsumingServiceIndex="1"

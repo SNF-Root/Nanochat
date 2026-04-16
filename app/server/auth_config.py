@@ -1,10 +1,12 @@
 """Email allow-list for SAML-authenticated users.
 
 Env:
-  SAML_ALLOWED_EMAILS       Comma-separated addresses (optional; merged with file if both set)
-  SAML_ALLOWED_EMAILS_PATH  Path to YAML file (optional). Supported shapes:
+  SAML_ALLOWED_EMAILS_PATH  Path to YAML file (required for a non-empty allow-list).
+    Supported shapes:
     - Root list: ["a@b.com", ...]
     - Mapping with "allowed_emails" or "emails" key holding that list
+
+The YAML file is the only source of allowed addresses (no env-based list).
 """
 
 from __future__ import annotations
@@ -67,13 +69,17 @@ def _load_emails_from_yaml_path(path: str) -> set[str]:
 
 
 def load_allowed_emails() -> set[str]:
-    out: set[str] = set()
+    legacy = os.getenv("SAML_ALLOWED_EMAILS", "").strip()
+    if legacy:
+        raise RuntimeError(
+            "SAML_ALLOWED_EMAILS is no longer supported. Allowed emails must come only from "
+            "the YAML file at SAML_ALLOWED_EMAILS_PATH. Remove SAML_ALLOWED_EMAILS from the "
+            "environment and edit that file instead."
+        )
     path = os.getenv("SAML_ALLOWED_EMAILS_PATH", "").strip()
-    if path:
-        out |= _load_emails_from_yaml_path(path)
-    raw = os.getenv("SAML_ALLOWED_EMAILS", "")
-    out |= {e.strip().lower() for e in raw.split(",") if e.strip()}
-    return out
+    if not path:
+        return set()
+    return _load_emails_from_yaml_path(path)
 
 
 def is_email_allowed(email: str, allowed: set[str]) -> bool:
