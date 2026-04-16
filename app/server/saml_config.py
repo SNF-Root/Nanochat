@@ -15,6 +15,8 @@ Env:
   SAML_SP_X509_CERT       SP public cert PEM (same \\n rule) OR SAML_SP_X509_CERT_PATH
                             Required whenever SAML_IDP_SSO_URL is set: pair must match what you
                             published in SP metadata to Stanford (encryption/signing key in SPDB).
+  SAML_WANT_MESSAGES_SIGNED   Require XML signature on SAML Response (default true)
+  SAML_WANT_ASSERTIONS_SIGNED Require XML signature on Assertion (default false). Many IdPs sign only the Response; set true if your IdP signs assertions instead.
 """
 
 from __future__ import annotations
@@ -24,6 +26,13 @@ from typing import Any
 from urllib.parse import urlparse
 
 from onelogin.saml2.auth import OneLogin_Saml2_Auth
+
+
+def _env_bool(name: str, default: bool) -> bool:
+    raw = os.getenv(name, "").strip().lower()
+    if not raw:
+        return default
+    return raw in ("1", "true", "yes", "on")
 
 
 def _load_idp_x509_cert() -> str:
@@ -200,8 +209,9 @@ def build_saml_settings() -> dict[str, Any]:
             "authnRequestsSigned": False,
             "logoutRequestSigned": False,
             "logoutResponseSigned": False,
-            "wantMessagesSigned": False,
-            "wantAssertionsSigned": True,
+            # Default: signed Response, unsigned inner Assertion (typical for Shibboleth / many IdPs).
+            "wantMessagesSigned": _env_bool("SAML_WANT_MESSAGES_SIGNED", True),
+            "wantAssertionsSigned": _env_bool("SAML_WANT_ASSERTIONS_SIGNED", False),
             "wantAssertionsEncrypted": False,
             "wantNameIdEncrypted": False,
         },
