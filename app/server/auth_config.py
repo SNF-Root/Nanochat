@@ -1,21 +1,24 @@
 """Email allow-list for SAML-authenticated users.
 
 Env:
-  SAML_ALLOWED_EMAILS_PATH  Path to YAML file (required for a non-empty allow-list).
-    Supported shapes:
+  SAML_ALLOWED_EMAILS_PATH  Path to YAML file. Supported shapes:
     - Root list: ["a@b.com", ...]
     - Mapping with "allowed_emails" or "emails" key holding that list
-
-The YAML file is the only source of allowed addresses (no env-based list).
+  SAML_ALLOWED_EMAILS  Optional comma-separated list merged with the YAML set (deprecated;
+    prefer moving all addresses into the YAML file and unsetting this variable).
 """
 
 from __future__ import annotations
 
+import logging
 import os
 from pathlib import Path
 from typing import Any
 
 import yaml
+
+logger = logging.getLogger(__name__)
+_legacy_env_warned = False
 
 
 def _emails_from_yaml_doc(data: Any) -> set[str]:
@@ -69,17 +72,21 @@ def _load_emails_from_yaml_path(path: str) -> set[str]:
 
 
 def load_allowed_emails() -> set[str]:
-    legacy = os.getenv("SAML_ALLOWED_EMAILS", "").strip()
-    if legacy:
-        raise RuntimeError(
-            "SAML_ALLOWED_EMAILS is no longer supported. Allowed emails must come only from "
-            "the YAML file at SAML_ALLOWED_EMAILS_PATH. Remove SAML_ALLOWED_EMAILS from the "
-            "environment and edit that file instead."
-        )
+    global _legacy_env_warned
+    out: set[str] = set()
     path = os.getenv("SAML_ALLOWED_EMAILS_PATH", "").strip()
-    if not path:
-        return set()
-    return _load_emails_from_yaml_path(path)
+    if path:
+        out |= _load_emails_from_yaml_path(path)
+    raw = os.getenv("SAML_ALLOWED_EMAILS", "")
+    if raw.strip():
+        if not _legacy_env_warned:
+            logger.warning(
+                "SAML_ALLOWED_EMAILS is deprecated; merge these addresses into "
+                "SAML_ALLOWED_EMAILS_PATH and remove SAML_ALLOWED_EMAILS."
+            )
+            _legacy_env_warned = True
+        out |= {e.strip().lower() for e in raw.split(",") if e.strip()}
+    return out
 
 
 def is_email_allowed(email: str, allowed: set[str]) -> bool:
