@@ -14,7 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
 from typing import AsyncGenerator, Optional, Tuple
-from openai import OpenAI
+from openai import AsyncOpenAI
 from preprocessing.database.pg import get_db_connection
 from .auth_config import is_email_allowed, load_allowed_emails
 from .prompts import (
@@ -105,15 +105,13 @@ app.add_middleware(
 )
 
 #TODO: please change this to an async client for the love of concurrent streaming
-def create_openai_client() -> OpenAI:
+def create_openai_client() -> AsyncOpenAI:
     api_key = os.getenv("STANFORD_API_KEY")
     if not api_key:
         raise RuntimeError("Missing STANFORD_API_KEY")
 
     base_url = "https://aiapi-prod.stanford.edu/v1"
-    if os.getenv("STANFORD_API_KEY"):
-        return OpenAI(api_key=api_key, base_url=base_url)
-    return OpenAI(api_key=api_key)
+    return AsyncOpenAI(api_key=api_key, base_url=base_url)
 
 
 client = create_openai_client()
@@ -593,15 +591,15 @@ async def reset_upload_counter(
     return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
 
-def embed_query(text: str) -> list[float]:
-    response = client.embeddings.create(model=EMBEDDING_MODEL, input=text)
+async def embed_query(text: str) -> list[float]:
+    response = await client.embeddings.create(model=EMBEDDING_MODEL, input=text)
     return response.data[0].embedding
 
 
-def chat_completion(system_prompt: str, user_payload: str) -> str:
+async def chat_completion(system_prompt: str, user_payload: str) -> str:
     """Send a system + user message to the LLM and return the response text."""
     print(f"[DEBUG] Sending to chat completion (model={CHAT_MODEL})...")  
-    completion = client.chat.completions.create(
+    completion = await client.chat.completions.create(
         model=CHAT_MODEL,
         messages=[
             {"role": "system", "content": system_prompt},
@@ -625,7 +623,7 @@ async def stream_chat_completion_and_store(
     full_response_text = ""
     try:
         print(f"[DEBUG] Starting streamed chat completion (model={CHAT_MODEL})...")
-        stream = client.chat.completions.create(
+        stream = await client.chat.completions.create(
             model=CHAT_MODEL,
             stream=True,
             messages=[
@@ -634,7 +632,7 @@ async def stream_chat_completion_and_store(
             ],
             temperature=0.2,
         )
-        for event in stream:
+        async for event in stream:
             if not event.choices:
                 continue
             delta = event.choices[0].delta.content or ""
@@ -671,7 +669,7 @@ def search_emails(
     if not query:
         raise HTTPException(status_code=400, detail="Text is required")
 
-    query_embedding = embed_query(query)
+    query_embedding = await embed_query(query)
 
     con = None
     try:
@@ -713,7 +711,7 @@ def search_proms(
     if not query:
         raise HTTPException(status_code=400, detail="Text is required")
 
-    query_embedding = embed_query(query)
+    query_embedding = await embed_query(query)
 
     con = None
     try:
@@ -759,7 +757,7 @@ async def embed_emails_stream(
     if len(context_history) == 0:
         try:
             print("[DEBUG][emails][stream] Embedding query...")
-            query_embedding = embed_query(query)
+            query_embedding = await embed_query(query)
             print(f"[DEBUG][emails][stream] Embedding succeeded, dim={len(query_embedding)}")
         except Exception as error:
             print(f"[ERROR][emails][stream] Embedding failed: {error}")
@@ -891,7 +889,7 @@ async def embed_proms_stream(
     if len(context_history) == 0:
         try:
             print("[DEBUG][proms][stream] Embedding query...")
-            query_embedding = embed_query(query)
+            query_embedding = await embed_query(query)
             print(f"[DEBUG][proms][stream] Embedding succeeded, dim={len(query_embedding)}")
         except Exception as error:
             print(f"[ERROR][proms][stream] Embedding failed: {error}")

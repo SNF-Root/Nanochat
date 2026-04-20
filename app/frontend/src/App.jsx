@@ -35,13 +35,14 @@ function App() {
             id: assistantId,
             role: 'assistant',
             text: chunk,
+            isStreaming: true,
           },
         ]
       }
 
       return prev.map((message) =>
         message.id === assistantId
-          ? { ...message, text: message.text + chunk }
+          ? { ...message, text: message.text + chunk, isStreaming: true }
           : message
       )
     })
@@ -57,12 +58,24 @@ function App() {
             id: assistantId,
             role: 'assistant',
             text,
+            isStreaming: false,
           },
         ]
       }
 
       return prev.map((message) =>
-        message.id === assistantId ? { ...message, text } : message
+        message.id === assistantId ? { ...message, text, isStreaming: false } : message
+      )
+    })
+  }
+
+  const finalizeAssistantMessage = (assistantId) => {
+    setMessages((prev) => {
+      const idx = prev.findIndex((message) => message.id === assistantId)
+      if (idx === -1) return prev
+
+      return prev.map((message) =>
+        message.id === assistantId ? { ...message, isStreaming: false } : message
       )
     })
   }
@@ -309,6 +322,7 @@ function App() {
         }
         appendAssistantChunk(assistantId, chunk)
       })
+      finalizeAssistantMessage(assistantId)
     } catch (error) {
       console.error('Stream embed request error:', error)
       setAssistantText(assistantId, 'Could not reach the server. Please try again.')
@@ -350,6 +364,7 @@ function App() {
         }
         appendAssistantChunk(assistantId, chunk)
       })
+      finalizeAssistantMessage(assistantId)
     } catch (error) {
       console.error('Stream embed request error:', error)
       setAssistantText(assistantId, 'Could not reach the server. Please try again.')

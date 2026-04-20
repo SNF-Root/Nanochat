@@ -27,7 +27,7 @@ function SearchSection({
   const hasResults = searchResults && searchResults.length > 0
 
   return (
-    <div className="w-full max-w-2xl relative">
+    <div className="w-full max-w-xl relative">
       <form onSubmit={handleSubmit}>
         <div
           className={`bg-white shadow-lg shadow-slate-200/50 border border-slate-200 p-4 hover:shadow-xl hover:border-slate-300 transition-all duration-300 ${
@@ -37,20 +37,20 @@ function SearchSection({
           }`}
         >
           {/* Input Row */}
-          <div className="flex items-center gap-3 mb-3">
+          <div className="flex items-start gap-3 mb-3">
             <button
               type="button"
-              className="p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-lg transition-all"
+              className="mt-1 p-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-lg transition-all"
             >
               <Paperclip className="w-5 h-5" />
             </button>
-            <input
-              type="text"
+            <textarea
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="Ask anything about any past SNF internal document"
-              className="flex-1 text-slate-700 placeholder-slate-400 outline-none text-lg"
+              rows={2}
+              className="flex-1 min-h-[3.5rem] max-h-40 resize-none overflow-y-auto bg-transparent text-slate-700 placeholder-slate-400 outline-none text-lg leading-7 [overflow-wrap:anywhere]"
             />
           </div>
 
