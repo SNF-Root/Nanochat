@@ -9,6 +9,7 @@ pip-tools==7.5.3
 pipdeptree==2.31.0
 psycopg2-binary==2.9.10
 python-multipart==0.0.20
+python3-saml==1.16.0
 redis==5.2.1
 rq==2.1.0
 scikit-learn==1.8.0

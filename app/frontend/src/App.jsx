@@ -194,6 +194,20 @@ function App() {
         credentials: 'include',
       })
 
+      if (response.status === 401) {
+        const data = await response.json().catch(() => null)
+        const detail = data?.detail
+        if (
+          detail &&
+          typeof detail === 'object' &&
+          detail.error === 'saml_required' &&
+          typeof detail.login_path === 'string'
+        ) {
+          window.location.assign(detail.login_path)
+          return
+        }
+      }
+
       if (!response.ok) {
         throw new Error(`User init failed: ${response.status}`)
       }

@@ -1,4 +1,8 @@
 .env
+
+# IdP signing cert (mount via config/saml/ in Docker)
+config/saml/idp.pem
+.venv/
 setup_email_db.json
 files/
 prom/
