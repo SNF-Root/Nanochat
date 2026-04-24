@@ -92,6 +92,35 @@ def init_prom_table(con = None, drop_table: bool = False):
     return con
 
 
+def init_all_table(con = None, drop_table: bool = False):
+    should_close = False
+    if con is None:
+        con = get_db_connection()
+        should_close = True
+    cursor = con.cursor()
+    cursor.execute("CREATE EXTENSION IF NOT EXISTS vector")
+    if drop_table:
+        cursor.execute("DROP TABLE IF EXISTS all_embeddings")
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS all_embeddings (
+    entry_id SERIAL PRIMARY KEY,
+    prom_id INT NOT NULL UNIQUE REFERENCES prom_embeddings(prom_id),
+    email_id_1 INT REFERENCES email_embeddings(email_id),
+    email_id_2 INT REFERENCES email_embeddings(email_id),
+    email_id_3 INT REFERENCES email_embeddings(email_id),
+    prom_embedding vector(1536) NOT NULL
+    )
+    """)
+    print("FINISHED INITIATING MATCH TABLE")
+    con.commit()
+
+    if should_close:
+        con.close()
+        return None
+
+    return con
+
+
 
 def create_hnsw_idx(con=None):
     """Build HNSW index on prom_embeddings. Call AFTER bulk insert."""

@@ -1,11 +1,11 @@
 import psycopg2
 import time
-from order_emails import create_dict_of_threads, get_email_by_msgid
-from database.pg import get_db_connection, init_email_table
-from filter_emails import extract_main_message
-from embed_emails import run_pipeline
+from preprocessing.order_emails import create_dict_of_threads, get_email_by_msgid
+from preprocessing.database.pg import get_db_connection, init_email_table
+from preprocessing.filter_emails import extract_main_message
+from preprocessing.embed_emails import run_pipeline
 import asyncio
-from models.insert import Email
+from preprocessing.models.insert import Email
 import os
 
 

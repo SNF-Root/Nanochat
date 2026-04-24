@@ -1,11 +1,10 @@
-import os
 from typing import Dict, List, Set
 import json
 import uuid
 import shutil
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
-from fastapi.responses import RedirectResponse, StreamingResponse
+from fastapi.responses import RedirectResponse, StreamingResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
@@ -13,18 +12,29 @@ from typing import AsyncGenerator, Optional, Tuple
 from openai import AsyncOpenAI
 from preprocessing.database.pg import get_db_connection
 from .prompts import (
+    ALL_SYSTEM_PROMPT,
     CONTINUATION_SYS_PROMPT,
     EMAIL_SYSTEM_PROMPT,
     prom_prompt,
 )
+from .models.server_classes import EmbedRequest, EmbedResponse, SearchResponse, SearchResult, UploadCounterResetResponse, UploadFileResponse, FileObject
+import os
+
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-5.2")
 
 
 USER_COOKIE = "user_id"
 SESSION_TTL_SECONDS = 60 * 60 * 24 
 
+VALID_PROM_UPLOAD_EXTENSIONS = [".pdf", ".docx"]
+VALID_EMAIL_UPLOAD_EXTENSIONS = [".txt"]
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+UPLOAD_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "uploaded_files"))
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
 @asynccontextmanager
@@ -39,81 +49,8 @@ async def lifespan(_: FastAPI):
 app = FastAPI(lifespan=lifespan)
 redis_chat_context = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
-redis_uids_sids: Dict[str, Set[str]] = redis.Redis(host="redis", port=6379, db=2)
+redis_uids_sids = redis.Redis(host="redis", port=6379, db=2)
 redis_file_status_store = redis.Redis(host="redis", port=6379, db=3, decode_responses=True)
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-#TODO: please change this to an async client for the love of concurrent streaming
-def create_openai_client() -> AsyncOpenAI:
-    api_key = os.getenv("STANFORD_API_KEY")
-    if not api_key:
-        raise RuntimeError("Missing STANFORD_API_KEY")
-
-    base_url = "https://aiapi-prod.stanford.edu/v1"
-    return AsyncOpenAI(api_key=api_key, base_url=base_url)
-
-
-client = create_openai_client()
-
-
-class EmbedRequest(BaseModel):
-    text: str
-
-
-class EmbedResponse(BaseModel):
-    text: str
-
-
-class SearchResult(BaseModel):
-    id: int
-    title: str
-    similarity: float
-
-
-class SearchResponse(BaseModel):
-    results: list[SearchResult]
-
-class UploadRejectedFile(BaseModel):
-    filename: str
-    reason: str
-
-class UploadFileResponse(BaseModel):
-    filename: str
-    path: str
-    content_type : Optional[str] = None
-    size_bytes : int
-    status: str
-
-class FileObject(BaseModel):
-    user_id: str
-    upload_id:str
-    kind: str
-    filepath: str
-
-
-class UploadCounterResetResponse(BaseModel):
-    number_of_files_cleared: int
-    status_of_queue: str
-
-
-def _user_key(user_id: str) -> str:
-    return f"user:{user_id}:session_ids"
-
-def _session_key(session_id: str) -> str:
-    return f"chat:session:{session_id}"
-
-
-def _upload_status_key(user_id: str) -> str:
-    return f"user:upload_file_status:{user_id}"
-
-
 
 
 #called only on server shutdown
@@ -121,6 +58,8 @@ async def clear_all_user_keys() -> int:
     deleted_count = 0
     async for key in redis_uids_sids.scan_iter():
         deleted_count += await redis_uids_sids.delete(key)
+    async for key in redis_file_queue.scan_iter():
+        await redis_file_queue.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
 
@@ -134,7 +73,7 @@ async def create_user_id(request: Request, response: Response) -> str:
         httponly=True,
         secure=False,      
         samesite="lax",
-        path="/",
+        path="/"
     )
     return user_id
 
@@ -150,6 +89,43 @@ async def get_session_ids(request: Request, response: Response):
     user_id = request.cookies.get(USER_COOKIE)
     return await redis_uids_sids.smembers(_user_key(user_id))
 
+
+
+
+
+#TODO: please change this to an async client for the love of concurrent streaming
+def create_openai_client() -> AsyncOpenAI:
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing OPENAI_API_KEY")
+
+    return AsyncOpenAI(api_key=api_key)
+
+
+
+def clear_uploaded_files_dir() -> None:
+    try:
+        if os.path.isdir(UPLOAD_DIR):
+            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
+    except Exception as e:
+        return f"Could not clear uploaded files {e}"
+    
+
+def _user_key(user_id: str) -> str:
+    return f"user:{user_id}:session_ids"
+
+def _session_key(session_id: str) -> str:
+    return f"chat:session:{session_id}"
+
+
+def _upload_status_key(user_id: str) -> str:
+    return f"user:upload_file_status:{user_id}"
+
+
+
+
+
+client = create_openai_client()
 
 
 
@@ -232,22 +208,6 @@ async def logout(request: Request, response: Response):
 
 
 
-VALID_PROM_UPLOAD_EXTENSIONS = [".pdf", ".docx"]
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-UPLOAD_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "uploaded_files"))
-os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-def clear_uploaded_files_dir() -> None:
-    try:
-        if os.path.isdir(UPLOAD_DIR):
-            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
-    except Exception as e:
-        return f"Could not clear uploaded files {e}"
-
-
-
-
 @app.post("/upload/prom", response_model=UploadFileResponse)
 async def upload_file(
     request: Request,
@@ -257,6 +217,14 @@ async def upload_file(
     user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
+    if ext not in VALID_PROM_UPLOAD_EXTENSIONS:
+        return JSONResponse(
+            status_code = 400,
+            content = {
+            "filename": file.filename,
+            "reason": "Invalid File Format for Email",
+            "status": "Rejected",
+            })
     unique_suffix = uuid.uuid4().hex[:8]
     stored_filename = f"prom_{stem}__{unique_suffix}{ext}"
     filepath = os.path.join(UPLOAD_DIR, stored_filename)
@@ -292,6 +260,14 @@ async def upload_email(request:Request, file: UploadFile = File(...), path: str 
     user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
+    if ext not in VALID_EMAIL_UPLOAD_EXTENSIONS:
+        return JSONResponse(
+            status_code = 400,
+            content = {
+            "filename" : file.filename,
+           "reason" : "Invalid File Format for Email",
+            "status" : "Rejected"
+        })
     unique_suffix = uuid.uuid4().hex[:8]
     stored_filename = f"email_{stem}__{unique_suffix}{ext}"
     filepath = os.path.join(UPLOAD_DIR, stored_filename)
@@ -426,6 +402,46 @@ async def stream_chat_completion_and_store(
             )
 
 
+@app.post("/search/all", response_model=SearchResponse)
+async def search_emails(request: EmbedRequest) -> SearchResponse:
+    """Return the top 5 most similar prom->email1, email2, email3 connections"""
+    query = request.text.strip()
+    if not query:
+        raise HTTPException(status_code=400, detail="Text is required")
+
+    query_embedding = await embed_query(query)
+
+    con = None
+    try:
+        con = get_db_connection()
+        cursor = con.cursor()
+        cursor.execute(
+            """
+            SELECT
+                a.entry_id,
+                p.request_title,
+                1 - (a.prom_embedding <=> %s::vector) AS similarity
+            FROM all_embeddings a
+            JOIN prom_embeddings p
+                ON p.prom_id = a.prom_id
+            ORDER BY a.prom_embedding <=> %s::vector
+            LIMIT 5
+            """,
+            (query_embedding, query_embedding),
+        )
+        rows = cursor.fetchall()
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
+    finally:
+        if con is not None:
+            con.close()
+
+    results = [
+        SearchResult(id=row[0], title=row[1] or "No context available", similarity=float(row[2]))
+        for row in rows
+    ]
+    return SearchResponse(results=results)
+
 
 
 @app.post("/search/emails", response_model=SearchResponse)
@@ -504,6 +520,176 @@ async def search_proms(request: EmbedRequest) -> SearchResponse:
         for row in rows
     ]
     return SearchResponse(results=results)
+
+@app.post("/session/{session_id}/embed/all/stream")
+async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
+
+    query = payload.text.strip()
+    print(f"[DEBUG][all][stream] Received query: '{query}'")
+    if not query:
+        raise HTTPException(status_code=400, detail="Text is required")
+
+    context_history = await get_context(session_id, request, response)
+    if len(context_history) == 0:
+        try:
+            print("[DEBUG][all][stream] Embedding query...")
+            query_embedding = await embed_query(query)
+            print(f"[DEBUG][all][stream] Embedding succeeded, dim={len(query_embedding)}")
+        except Exception as error:
+            print(f"[ERROR][all][stream] Embedding failed: {error}")
+            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
+
+        con = None
+        try:
+            print("[DEBUG][all][stream] Connecting to database...")
+            con = get_db_connection()
+            cursor = con.cursor()
+            cursor.execute(
+                """
+                SELECT
+                    p.request_title,
+                    p.chemicals_and_processes,
+                    p.request_reason,
+                    p.process_flow,
+                    p.amount_and_form,
+                    e1.prom_approval AS email_1_prom_approval,
+                    e1.prom_considerations AS email_1_prom_considerations,
+                    e1.requestor AS email_1_requestor,
+                    e1.chemicals AS email_1_chemicals,
+                    e1.processes AS email_1_processes,
+                    LEFT(e1.raw_thread, 2000) AS email_1_raw_thread,
+                    e2.prom_approval AS email_2_prom_approval,
+                    e2.prom_considerations AS email_2_prom_considerations,
+                    e2.requestor AS email_2_requestor,
+                    e2.chemicals AS email_2_chemicals,
+                    e2.processes AS email_2_processes,
+                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread,
+                    e3.prom_approval AS email_3_prom_approval,
+                    e3.prom_considerations AS email_3_prom_considerations,
+                    e3.requestor AS email_3_requestor,
+                    e3.chemicals AS email_3_chemicals,
+                    e3.processes AS email_3_processes,
+                    LEFT(e3.raw_thread, 2000) AS email_3_raw_thread,
+                    1 - (a.prom_embedding <=> %s::vector) AS similarity
+                FROM all_embeddings a
+                JOIN prom_embeddings p
+                    ON p.prom_id = a.prom_id
+                LEFT JOIN email_embeddings e1
+                    ON e1.email_id = a.email_id_1
+                LEFT JOIN email_embeddings e2
+                    ON e2.email_id = a.email_id_2
+                LEFT JOIN email_embeddings e3
+                    ON e3.email_id = a.email_id_3
+                ORDER BY a.prom_embedding <=> %s::vector
+                LIMIT 1
+                """,
+                (query_embedding, query_embedding),
+            )
+            row = cursor.fetchone()
+            print(f"[DEBUG][emails][stream] DB query done. Row found: {row is not None}")
+        except Exception as error:
+            print(f"[ERROR][emails][stream] DB query failed: {error}")
+            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
+        finally:
+            if con is not None:
+                con.close()
+
+        if row is None:
+            async def no_email_results():
+                text = "No relevant emails found."
+                await append_context_entry(
+                    session_id,
+                    request,
+                    response,
+                    {
+                        "route": "embed_emails_stream",
+                        "user_text": query,
+                        "assistant_text": text,
+                    },
+                )
+                yield text
+
+            return StreamingResponse(no_email_results(), media_type="text/plain")
+
+        (
+            request_title,
+            chemicals_and_processes,
+            request_reason,
+            process_flow,
+            amount_and_form,
+            email_1_prom_approval,
+            email_1_prom_considerations,
+            email_1_requestor,
+            email_1_chemicals,
+            email_1_processes,
+            email_1_raw_thread,
+            email_2_prom_approval,
+            email_2_prom_considerations,
+            email_2_requestor,
+            email_2_chemicals,
+            email_2_processes,
+            email_2_raw_thread,
+            email_3_prom_approval,
+            email_3_prom_considerations,
+            email_3_requestor,
+            email_3_chemicals,
+            email_3_processes,
+            email_3_raw_thread,
+            similarity,
+        ) = row
+
+        print(f"[DEBUG][all][stream] Best match: title={request_title}, similarity={similarity:.4f}")
+
+        system_prompt = ALL_SYSTEM_PROMPT
+        user_payload = (
+            f"USER_QUESTION: {query}\n\n"
+            f"REQUEST_TITLE: {request_title}\n"
+            f"CHEMICALS_AND_PROCESSES: {chemicals_and_processes}\n"
+            f"REQUEST_REASON: {request_reason}\n"
+            f"PROCESS_FLOW: {process_flow}\n"
+            f"AMOUNT_AND_FORM: {amount_and_form}\n\n"
+            f"EMAIL_1_PROM_APPROVAL: {email_1_prom_approval}\n"
+            f"EMAIL_1_PROM_CONSIDERATIONS: {email_1_prom_considerations}\n"
+            f"EMAIL_1_REQUESTOR: {email_1_requestor}\n"
+            f"EMAIL_1_CHEMICALS: {email_1_chemicals}\n"
+            f"EMAIL_1_PROCESSES: {email_1_processes}\n"
+            f"EMAIL_1_RAW_THREAD_EXCERPT: {email_1_raw_thread}\n\n"
+            f"EMAIL_2_PROM_APPROVAL: {email_2_prom_approval}\n"
+            f"EMAIL_2_PROM_CONSIDERATIONS: {email_2_prom_considerations}\n"
+            f"EMAIL_2_REQUESTOR: {email_2_requestor}\n"
+            f"EMAIL_2_CHEMICALS: {email_2_chemicals}\n"
+            f"EMAIL_2_PROCESSES: {email_2_processes}\n"
+            f"EMAIL_2_RAW_THREAD_EXCERPT: {email_2_raw_thread}\n\n"
+            f"EMAIL_3_PROM_APPROVAL: {email_3_prom_approval}\n"
+            f"EMAIL_3_PROM_CONSIDERATIONS: {email_3_prom_considerations}\n"
+            f"EMAIL_3_REQUESTOR: {email_3_requestor}\n"
+            f"EMAIL_3_CHEMICALS: {email_3_chemicals}\n"
+            f"EMAIL_3_PROCESSES: {email_3_processes}\n"
+            f"EMAIL_3_RAW_THREAD_EXCERPT: {email_3_raw_thread}\n"
+        )
+    else:
+        system_prompt = CONTINUATION_SYS_PROMPT
+        user_payload = json.dumps(
+            {
+                "current_user_message": query,
+                "context_history": context_history,
+            }
+        )
+
+    stream = stream_chat_completion_and_store(
+        session_id,
+        system_prompt=system_prompt,
+        user_payload=user_payload,
+        request=request,
+        response=response,
+        context_entry={
+            "route": "embed_emails_stream",
+            "user_text": query,
+        },
+    )
+    return StreamingResponse(stream, media_type="text/plain")
+
+
 
 
 @app.post("/session/{session_id}/embed/emails/stream")

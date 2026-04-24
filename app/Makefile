@@ -16,10 +16,7 @@ frontend:
 
 workers:
 	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.setup_worker
-	@for i in 1 2 3 4; do \
-		cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.worker & \
-	done; \
-	wait
+	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.worker
 
 
 snfRAG:

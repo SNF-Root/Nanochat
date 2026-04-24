@@ -1,0 +1,838 @@
+From mmrincon at stanford.edu  Tue Dec  1 13:11:59 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 1 Dec 2020 13:11:59 -0800
+Subject: [snf-promcommittee] ProM request for bringing LaCoO3 thin films
+ to SNF for device fabrication
+In-Reply-To: <BYAPR02MB4773E7544ABE1D3BCFBCDB97DAF40@BYAPR02MB4773.namprd02.prod.outlook.com>
+References: <BYAPR02MB4773E7544ABE1D3BCFBCDB97DAF40@BYAPR02MB4773.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDRCbSxC-pZT0vm+1d1f3Q7zETrv423kMke6qtMxR=dSYA@mail.gmail.com>
+
+Hi PROM Comm,
+
+It looks like this is a litho/etch/AJA sequence- could the tool owner
+staffers take a peek? :)
+
+Thanks!
+Michelle
+
+On Mon, Nov 30, 2020 at 5:49 PM Mahnaz Islam <mzislam at stanford.edu> wrote:
+
+> Hello,
+> Attached is a ProM request for bringing LaCoO3 (LCO) thin films on Al2O3
+> and LaAlO3 (LAO) substrates into SNF for device fabrication.
+>
+> Mahnaz Islam
+> Badger: mzislam
+> Stanford ID: 06353422
+> 2nd year EE PhD student
+> Pop Lab
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201201/24f41e5b/attachment.html>
+
+From mmrincon at stanford.edu  Wed Dec  9 14:30:45 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Wed, 9 Dec 2020 14:30:45 -0800
+Subject: [snf-promcommittee] ProM request for bringing LaCoO3 thin films
+ to SNF for device fabrication
+In-Reply-To: <BYAPR02MB47739C9664BA82649D7F305CDACE0@BYAPR02MB4773.namprd02.prod.outlook.com>
+References: <BYAPR02MB4773E7544ABE1D3BCFBCDB97DAF40@BYAPR02MB4773.namprd02.prod.outlook.com>
+ <67c3f079-7d23-4299-f519-09f581f190c5@stanford.edu>
+ <BYAPR02MB47731EACFE0D282C897CC64ADAF30@BYAPR02MB4773.namprd02.prod.outlook.com>
+ <BYAPR02MB4342F29936291842B8BC0999B8F30@BYAPR02MB4342.namprd02.prod.outlook.com>
+ <BYAPR02MB4773C3B4FC2356A0E46ACF45DAF30@BYAPR02MB4773.namprd02.prod.outlook.com>
+ <BYAPR02MB47739C9664BA82649D7F305CDACE0@BYAPR02MB4773.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDQviO6OBW53CaGOpP4Tmn4+QcRLjCrhYkffKOH1Wi1JLw@mail.gmail.com>
+
+Hi Usha-
+
+Does it look like she documented the changes correctly?
+
+And everyone- are we ok with this material going through the litho process?
+
+On Mon, Dec 7, 2020 at 3:48 PM Mahnaz Islam <mzislam at stanford.edu> wrote:
+
+> Dear Michelle,
+> Usha and I had a meeting and I made some suggested changes to the PROM
+> request for LCO (attached). The two changes are using MRC etcher or ION
+> Beam Mill etcher (in SNSF) instead for PT-MTL for etching LCO and using
+> SAMCO for Photoresist strip.
+>
+> Usha suggested that I reach out to you for further approval.
+>
+> -Mahnaz
+> ------------------------------
+> *From:* Mahnaz Islam <mzislam at stanford.edu>
+> *Sent:* Wednesday, December 2, 2020 12:38 PM
+> *To:* Usha Raghuram <usha at stanford.edu>; Mary Tang <mtang at stanford.edu>;
+> Michelle Rincon <mmrincon at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] ProM request for bringing LaCoO3 thin
+> films to SNF for device fabrication
+>
+> Hi Usha,
+> I should clarify that Stephanie DID NOT etch LCO in PT-MTL. In my
+> previous email, I meant that she etched (VO2 and NbO2) on Sapphire
+> substrates in PT-MTL.
+>
+> Let me take two days to hear back from our collaborator, then perhaps
+> let's meet on Monday? I am available any time for a zoom call.
+>
+> Thanks again,
+> -Mahnaz
+> ------------------------------
+> *From:* Usha Raghuram <usha at stanford.edu>
+> *Sent:* Wednesday, December 2, 2020 12:27 PM
+> *To:* Mahnaz Islam <mzislam at stanford.edu>; Mary Tang <mtang at stanford.edu>;
+> Michelle Rincon <mmrincon at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] ProM request for bringing LaCoO3 thin
+> films to SNF for device fabrication
+>
+> Mahnaz,
+>
+> Lanthanum and cobalt do not have any volatile by-products in PT-MTL
+> chemistries and so, I would recommend using Ion Mill for this application
+> and not PT-MTL.  I am not sure if Stephanie has asked for PROM approval to
+> etch these materials in PT-MTL.  Another factor to consider is how to
+> attach the sample to the carrier wafer.  Kapton tape, though it may secure
+> the substrate, is not a good option as it does not provide heat transfer
+> during etch (including Ion Mill process) and the potential for resist
+> burning is very high.  We should really discuss these before you procced
+> any further.  Let us fix a time to talk about your process requirements.
+>
+> Usha
+>
+> ------------------------------
+> *From:* Mahnaz Islam <mzislam at stanford.edu>
+> *Sent:* Wednesday, December 2, 2020 12:15 PM
+> *To:* Mary Tang <mtang at stanford.edu>
+> *Cc:* Usha Raghuram <usha at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] ProM request for bringing LaCoO3 thin
+> films to SNF for device fabrication
+>
+> Hi Mary and Usha,
+> First, thank you for your prompt response, Mary!
+>
+> I agree that the LCO etching is the tricky bit. I have pieces of LCO on
+> LAO and Sapphire substrates that will need mounting on carrier wafers.
+> Stephanie had pieces on Sapphire substrate but not LAO, which she mounted
+> on carrier wafers using Kapton tape in PT-MTL. The thickness of the LCO
+> films range from ~50nm to 150 nm (I have multiples pieces).
+> I have reached out to my collaborator for a starting recipe, but have not
+> heard back...
+> Please let me know your opinion on how I should proceed.
+>
+> Thanks a lot!
+> -Mahnaz
+> ------------------------------
+> *From:* Mary Tang <mtang at stanford.edu>
+> *Sent:* Tuesday, December 1, 2020 7:16 AM
+> *To:* Mahnaz Islam <mzislam at stanford.edu>
+> *Cc:* Usha Raghuram <usha at stanford.edu>
+> *Subject:* Re: [snf-promcommittee] ProM request for bringing LaCoO3 thin
+> films to SNF for device fabrication
+>
+>
+> Hi Mahnaz -
+>
+>
+> Thanks for this follow up - this looks pretty straightforward!  The only
+> tricky bit may be the etch.  Please talk with Usha about this.  I expect
+> she will want to know if you have pieces that will be mounted on carrier
+> wafers or have whole wafers and the thickness of the films you want to
+> etch.  Did Stephanie also use these substrates in the PT-MTL?  And also, if
+> you have a starting recipe or recommendation from your collaborators about
+> the etch, that would probably be helpful.  I'm sure Usha will have more
+> questions!
+>
+>
+> Cheers -
+>
+> Mary
+>
+>
+> On 11/30/2020 5:48 PM, Mahnaz Islam wrote:
+>
+> Hello,
+> Attached is a ProM request for bringing LaCoO3 (LCO) thin films on Al2O3
+> and LaAlO3 (LAO) substrates into SNF for device fabrication.
+>
+> Mahnaz Islam
+> Badger: mzislam
+> Stanford ID: 06353422
+> 2nd year EE PhD student
+> Pop Lab
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing listsnf-promcommittee at lists.stanford.eduhttps://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201209/379df3bd/attachment.html>
+
+From hjchoi92 at stanford.edu  Thu Dec 17 11:41:34 2020
+From: hjchoi92 at stanford.edu (Hojung Choi)
+Date: Thu, 17 Dec 2020 19:41:34 +0000
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+Message-ID: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+
+Hello,
+
+I was wondering if there is an equipment in SNF that could provide the functionality of a UV laser cutter such as the DPSS Samurai UV marking system(link<https://www.dpss-lasers.com/products/samurai>), that uses 355nm UV laser to cut and etch patterns on thin film materials.
+
+If not, is there a way for a researcher or a group to request SNF to purchase one, providing substantial proof of need from multiple researchers?
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201217/46e5caf0/attachment.html>
+
+From mtang at stanford.edu  Thu Dec 17 14:50:28 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Thu, 17 Dec 2020 14:50:28 -0800
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+In-Reply-To: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+References: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+Message-ID: <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+
+Hi Hojung -
+
+
+Thanks for your interest in SNF!? I'm afraid we're shut for the Winter 
+Closure, but we'll be open again on Tuesday, Jan. 5.? In the meantime, 
+I'll try to answer your question.
+
+
+We have the Epilog Fusion M2 lasercutter, which has a 50 W CO2 laser 
+(10.6 um wavelength, spot size ~75 um) and A 50 W fiber laser (1 um 
+wavelength, spot size ~10 um, I think.)? The lasers can be operated in 
+raster or vector mode, varying laser power and speed.? As a fab, we have 
+a lot of different ways to pattern a pretty broad range of materials.
+
+
+What kind of thin film material do you want to engrave and what is the 
+feature size?
+
+
+Mary
+
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+
+
+On 12/17/2020 11:41 AM, Hojung Choi wrote:
+> Hello,
+>
+> I was wondering if there is an equipment in SNF that could provide the 
+> functionality of a UV laser cutter such as the DPSS Samurai UV marking 
+> system(link <https://www.dpss-lasers.com/products/samurai>), that uses 
+> 355nm UV laser to cut and etch patterns on thin film materials.
+>
+> If not, is there a way for a researcher or a group to request SNF to 
+> purchase one, providing substantial proof of need from multiple 
+> researchers?
+>
+> *All the best,*
+> *Hojung Choi*
+> Research Assistant
+> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201217/d6853f51/attachment.html>
+
+From hjchoi92 at stanford.edu  Fri Dec 18 10:30:57 2020
+From: hjchoi92 at stanford.edu (Hojung Choi)
+Date: Fri, 18 Dec 2020 18:30:57 +0000
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+In-Reply-To: <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+References: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>,
+ <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+Message-ID: <BY5PR02MB6018EBC1EBB1D99C1FB90314B3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+
+Hi Mary,
+
+Thank you for the prompt response. Most of our need is in cutting/etching patterns that are on the scale of tens of micrometers on thin film(~10 ~100 um) such as polyimide or PET films. Do you think the laser cutters you've mentioned can be useful for these purposes?
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+________________________________
+From: Mary Tang <mtang at stanford.edu>
+Sent: Thursday, December 17, 2020 14:50
+To: Hojung Choi <hjchoi92 at stanford.edu>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Inquiry on SNF equipment
+
+
+Hi Hojung -
+
+
+Thanks for your interest in SNF!  I'm afraid we're shut for the Winter Closure, but we'll be open again on Tuesday, Jan. 5.  In the meantime, I'll try to answer your question.
+
+
+We have the Epilog Fusion M2 lasercutter, which has a 50 W CO2 laser (10.6 um wavelength, spot size ~75 um) and A 50 W fiber laser (1 um wavelength, spot size ~10 um, I think.)  The lasers can be operated in raster or vector mode, varying laser power and speed.  As a fab, we have a lot of different ways to pattern a pretty broad range of materials.
+
+
+What kind of thin film material do you want to engrave and what is the feature size?
+
+Mary
+
+--
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+
+
+On 12/17/2020 11:41 AM, Hojung Choi wrote:
+Hello,
+
+I was wondering if there is an equipment in SNF that could provide the functionality of a UV laser cutter such as the DPSS Samurai UV marking system(link<https://www.dpss-lasers.com/products/samurai>), that uses 355nm UV laser to cut and etch patterns on thin film materials.
+
+If not, is there a way for a researcher or a group to request SNF to purchase one, providing substantial proof of need from multiple researchers?
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201218/949940b5/attachment-0001.html>
+
+From mtang at stanford.edu  Fri Dec 18 10:51:59 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 18 Dec 2020 10:51:59 -0800
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+In-Reply-To: <BY5PR02MB6018EBC1EBB1D99C1FB90314B3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+References: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+ <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+ <BY5PR02MB6018EBC1EBB1D99C1FB90314B3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+Message-ID: <da0b4a7a-03d0-0bd9-f9b7-00d01d1341b3@stanford.edu>
+
+Hi Hojung -
+
+
+I can't say, but can point you to these sites:
+
+https://www.ulsinc.com/materials/kapton-tapes
+
+https://www.ulsinc.com/materials/pet-film
+
+
+ From this, it would appear that the fiber laser could engrave/mark the 
+polyimide, but not the PET.? For cutting through the films, you would 
+need to use the CO2 laser.? The spot size of the CO2 laser is ~75 
+microns, so the minimum feature size would be >100 microns.
+
+
+But there may be other ways to pattern.? Do you have a sketch or 
+reference paper that describes the overall structure you plan to make?
+
+
+Mary
+
+
+On 12/18/2020 10:30 AM, Hojung Choi wrote:
+> Hi Mary,
+>
+> Thank you for the prompt response. Most of our need is in 
+> cutting/etching patterns that are on the scale of tens of micrometers 
+> on thin film(~10 ~100 um) such as polyimide or PET films. Do you think 
+> the laser cutters you've mentioned can be useful for these purposes?
+>
+> *All the best,*
+> *Hojung Choi*
+> Research Assistant
+> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>
+> ------------------------------------------------------------------------
+> *From:* Mary Tang <mtang at stanford.edu>
+> *Sent:* Thursday, December 17, 2020 14:50
+> *To:* Hojung Choi <hjchoi92 at stanford.edu>
+> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Inquiry on SNF equipment
+>
+> Hi Hojung -
+>
+>
+> Thanks for your interest in SNF!? I'm afraid we're shut for the Winter 
+> Closure, but we'll be open again on Tuesday, Jan. 5.? In the meantime, 
+> I'll try to answer your question.
+>
+>
+> We have the Epilog Fusion M2 lasercutter, which has a 50 W CO2 laser 
+> (10.6 um wavelength, spot size ~75 um) and A 50 W fiber laser (1 um 
+> wavelength, spot size ~10 um, I think.)? The lasers can be operated in 
+> raster or vector mode, varying laser power and speed.? As a fab, we 
+> have a lot of different ways to pattern a pretty broad range of materials.
+>
+>
+> What kind of thin film material do you want to engrave and what is the 
+> feature size?
+>
+>
+> Mary
+>
+> -- 
+> Mary X. Tang, Ph.D.
+> Managing Director
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building
+> 420 Via Palou Mall
+> Stanford, CA 94305
+> https://snf.stanford.edu  <https://snf.stanford.edu>
+> mtang at stanford.edu  <mailto:mtang at stanford.edu>
+>
+>
+> On 12/17/2020 11:41 AM, Hojung Choi wrote:
+>> Hello,
+>>
+>> I was wondering if there is an equipment in SNF that could provide 
+>> the functionality of a UV laser cutter such as the DPSS Samurai UV 
+>> marking system(link <https://www.dpss-lasers.com/products/samurai>), 
+>> that uses 355nm UV laser to cut and etch patterns on thin film 
+>> materials.
+>>
+>> If not, is there a way for a researcher or a group to request SNF to 
+>> purchase one, providing substantial proof of need from multiple 
+>> researchers?
+>>
+>> *All the best,*
+>> *Hojung Choi*
+>> Research Assistant
+>> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>>
+>>
+>> _______________________________________________
+>> snf-promcommittee mailing list
+>> snf-promcommittee at lists.stanford.edu  <mailto:snf-promcommittee at lists.stanford.edu>
+>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee  <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201218/b6507700/attachment.html>
+
+From hjchoi92 at stanford.edu  Fri Dec 18 15:24:42 2020
+From: hjchoi92 at stanford.edu (Hojung Choi)
+Date: Fri, 18 Dec 2020 23:24:42 +0000
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+In-Reply-To: <da0b4a7a-03d0-0bd9-f9b7-00d01d1341b3@stanford.edu>
+References: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+ <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+ <BY5PR02MB6018EBC1EBB1D99C1FB90314B3C30@BY5PR02MB6018.namprd02.prod.outlook.com>,
+ <da0b4a7a-03d0-0bd9-f9b7-00d01d1341b3@stanford.edu>
+Message-ID: <BY5PR02MB6018F6F6F46410E30759832DB3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+
+Thank you for the prompt response!
+
+The included file is one example of what I would want to cut on a PET film. But in general people want to cut something that's even finer.
+
+Is there a way a group of researchers from multiple research groups can request a purchase of an equipment?(such as the DPSS samurai UV laser cutter<https://www.dpss-lasers.com/products/samurai>) The one my lab has is currently down and is under maintenance. The issue is that the cost for maintenance is too high for a lab to sustain, and with the substantial demand on the capability the DPSS UV laser provides, it seems valuable that SNF has one.
+
+We were also wondering if it's even an option that SNF takes over the maintenance of our UV laser and stations it in SNF (after we repair it). This way both entities would save costs.
+
+
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+________________________________
+From: Mary Tang <mtang at stanford.edu>
+Sent: Friday, December 18, 2020 10:51
+To: Hojung Choi <hjchoi92 at stanford.edu>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Inquiry on SNF equipment
+
+
+Hi Hojung -
+
+
+I can't say, but can point you to these sites:
+
+https://www.ulsinc.com/materials/kapton-tapes
+
+https://www.ulsinc.com/materials/pet-film
+
+
+>From this, it would appear that the fiber laser could engrave/mark the polyimide, but not the PET.  For cutting through the films, you would need to use the CO2 laser.  The spot size of the CO2 laser is ~75 microns, so the minimum feature size would be >100 microns.
+
+
+But there may be other ways to pattern.  Do you have a sketch or reference paper that describes the overall structure you plan to make?
+
+
+Mary
+
+
+On 12/18/2020 10:30 AM, Hojung Choi wrote:
+Hi Mary,
+
+Thank you for the prompt response. Most of our need is in cutting/etching patterns that are on the scale of tens of micrometers on thin film(~10 ~100 um) such as polyimide or PET films. Do you think the laser cutters you've mentioned can be useful for these purposes?
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+________________________________
+From: Mary Tang <mtang at stanford.edu><mailto:mtang at stanford.edu>
+Sent: Thursday, December 17, 2020 14:50
+To: Hojung Choi <hjchoi92 at stanford.edu><mailto:hjchoi92 at stanford.edu>
+Cc: promcommitte <snf-promcommittee at lists.stanford.edu><mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Inquiry on SNF equipment
+
+
+Hi Hojung -
+
+
+Thanks for your interest in SNF!  I'm afraid we're shut for the Winter Closure, but we'll be open again on Tuesday, Jan. 5.  In the meantime, I'll try to answer your question.
+
+
+We have the Epilog Fusion M2 lasercutter, which has a 50 W CO2 laser (10.6 um wavelength, spot size ~75 um) and A 50 W fiber laser (1 um wavelength, spot size ~10 um, I think.)  The lasers can be operated in raster or vector mode, varying laser power and speed.  As a fab, we have a lot of different ways to pattern a pretty broad range of materials.
+
+
+What kind of thin film material do you want to engrave and what is the feature size?
+
+Mary
+
+--
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+
+
+On 12/17/2020 11:41 AM, Hojung Choi wrote:
+Hello,
+
+I was wondering if there is an equipment in SNF that could provide the functionality of a UV laser cutter such as the DPSS Samurai UV marking system(link<https://www.dpss-lasers.com/products/samurai>), that uses 355nm UV laser to cut and etch patterns on thin film materials.
+
+If not, is there a way for a researcher or a group to request SNF to purchase one, providing substantial proof of need from multiple researchers?
+
+All the best,
+Hojung Choi
+Research Assistant
+Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+
+
+
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu<mailto:mtang at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201218/ed6f1b18/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: integration_ver6_foamDielectricSensor.ai
+Type: application/postscript
+Size: 1200987 bytes
+Desc: integration_ver6_foamDielectricSensor.ai
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201218/ed6f1b18/attachment-0001.ai>
+
+From mtang at stanford.edu  Fri Dec 18 17:09:18 2020
+From: mtang at stanford.edu (Mary Tang)
+Date: Fri, 18 Dec 2020 17:09:18 -0800
+Subject: [snf-promcommittee] Inquiry on SNF equipment
+In-Reply-To: <BY5PR02MB6018F6F6F46410E30759832DB3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+References: <BY5PR02MB601872FBBA3DD59F010F9147B3C40@BY5PR02MB6018.namprd02.prod.outlook.com>
+ <fe787347-b1d8-bcdb-e428-20206293de09@stanford.edu>
+ <BY5PR02MB6018EBC1EBB1D99C1FB90314B3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+ <da0b4a7a-03d0-0bd9-f9b7-00d01d1341b3@stanford.edu>
+ <BY5PR02MB6018F6F6F46410E30759832DB3C30@BY5PR02MB6018.namprd02.prod.outlook.com>
+Message-ID: <7a83b101-e225-77d2-941d-fd4e22684bf7@stanford.edu>
+
+Hi Hojung -
+
+
+I didn't realize you had this in your lab!? If this does what you need, 
+then it would be best to use this.? Let's talk about options, off this 
+promcommittee list.
+
+
+Mary
+
+
+
+
+On 12/18/2020 3:24 PM, Hojung Choi wrote:
+> Thank you for the prompt response!
+>
+> The included file is one example of what I would want to cut on a PET 
+> film. But in general people want to cut something that's even finer.
+>
+> Is there a way a group of researchers from multiple research groups 
+> can request a purchase of an equipment?(such as the DPSS samurai UV 
+> laser cutter <https://www.dpss-lasers.com/products/samurai>) The one 
+> my lab has is currently down and is under maintenance. The issue is 
+> that the cost for maintenance is too high for a lab to sustain, and 
+> with the substantial demand on the capability the DPSS UV laser 
+> provides, it seems valuable that SNF has one.
+>
+> We were also wondering if it's even an option that SNF takes over the 
+> maintenance of our UV laser and stations it in SNF (after we repair 
+> it). This way both entities would save costs.
+>
+>
+>
+> *All the best,*
+> *Hojung Choi*
+> Research Assistant
+> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>
+> ------------------------------------------------------------------------
+> *From:* Mary Tang <mtang at stanford.edu>
+> *Sent:* Friday, December 18, 2020 10:51
+> *To:* Hojung Choi <hjchoi92 at stanford.edu>
+> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Inquiry on SNF equipment
+>
+> Hi Hojung -
+>
+>
+> I can't say, but can point you to these sites:
+>
+> https://www.ulsinc.com/materials/kapton-tapes 
+> <https://www.ulsinc.com/materials/kapton-tapes>
+>
+> https://www.ulsinc.com/materials/pet-film 
+> <https://www.ulsinc.com/materials/pet-film>
+>
+>
+> From this, it would appear that the fiber laser could engrave/mark the 
+> polyimide, but not the PET.? For cutting through the films, you would 
+> need to use the CO2 laser.? The spot size of the CO2 laser is ~75 
+> microns, so the minimum feature size would be >100 microns.
+>
+>
+> But there may be other ways to pattern.? Do you have a sketch or 
+> reference paper that describes the overall structure you plan to make?
+>
+>
+> Mary
+>
+>
+> On 12/18/2020 10:30 AM, Hojung Choi wrote:
+>> Hi Mary,
+>>
+>> Thank you for the prompt response. Most of our need is in 
+>> cutting/etching patterns that are on the scale of tens of micrometers 
+>> on thin film(~10 ~100 um) such as polyimide or PET films. Do you 
+>> think the laser cutters you've mentioned can be useful for these 
+>> purposes?
+>>
+>> *All the best,*
+>> *Hojung Choi*
+>> Research Assistant
+>> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>>
+>> ------------------------------------------------------------------------
+>> *From:* Mary Tang <mtang at stanford.edu> <mailto:mtang at stanford.edu>
+>> *Sent:* Thursday, December 17, 2020 14:50
+>> *To:* Hojung Choi <hjchoi92 at stanford.edu> <mailto:hjchoi92 at stanford.edu>
+>> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu> 
+>> <mailto:snf-promcommittee at lists.stanford.edu>
+>> *Subject:* Re: [snf-promcommittee] Inquiry on SNF equipment
+>>
+>> Hi Hojung -
+>>
+>>
+>> Thanks for your interest in SNF!? I'm afraid we're shut for the 
+>> Winter Closure, but we'll be open again on Tuesday, Jan. 5.? In the 
+>> meantime, I'll try to answer your question.
+>>
+>>
+>> We have the Epilog Fusion M2 lasercutter, which has a 50 W CO2 laser 
+>> (10.6 um wavelength, spot size ~75 um) and A 50 W fiber laser (1 um 
+>> wavelength, spot size ~10 um, I think.)? The lasers can be operated 
+>> in raster or vector mode, varying laser power and speed.? As a fab, 
+>> we have a lot of different ways to pattern a pretty broad range of 
+>> materials.
+>>
+>>
+>> What kind of thin film material do you want to engrave and what is 
+>> the feature size?
+>>
+>>
+>> Mary
+>>
+>> -- 
+>> Mary X. Tang, Ph.D.
+>> Managing Director
+>> Stanford Nanofabrication Facility
+>> Paul G. Allen Building
+>> 420 Via Palou Mall
+>> Stanford, CA 94305
+>> https://snf.stanford.edu  <https://snf.stanford.edu>
+>> mtang at stanford.edu  <mailto:mtang at stanford.edu>
+>>
+>>
+>> On 12/17/2020 11:41 AM, Hojung Choi wrote:
+>>> Hello,
+>>>
+>>> I was wondering if there is an equipment in SNF that could provide 
+>>> the functionality of a UV laser cutter such as the DPSS Samurai UV 
+>>> marking system(link <https://www.dpss-lasers.com/products/samurai>), 
+>>> that uses 355nm UV laser to cut and etch patterns on thin film 
+>>> materials.
+>>>
+>>> If not, is there a way for a researcher or a group to request SNF to 
+>>> purchase one, providing substantial proof of need from multiple 
+>>> researchers?
+>>>
+>>> *All the best,*
+>>> *Hojung Choi*
+>>> Research Assistant
+>>> Biomimetics & Dexterous Manipulation Laboratory | Stanford University
+>>>
+>>>
+>>> _______________________________________________
+>>> snf-promcommittee mailing list
+>>> snf-promcommittee at lists.stanford.edu  <mailto:snf-promcommittee at lists.stanford.edu>
+>>> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee  <https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee>
+> -- 
+> Mary X. Tang, Ph.D.
+> Managing Director
+> Stanford Nanofabrication Facility
+> Paul G. Allen Building
+> 420 Via Palou Mall
+> Stanford, CA 94305
+> https://snf.stanford.edu  <https://snf.stanford.edu>
+> mtang at stanford.edu  <mailto:mtang at stanford.edu>
+
+-- 
+Mary X. Tang, Ph.D.
+Managing Director
+Stanford Nanofabrication Facility
+Paul G. Allen Building
+420 Via Palou Mall
+Stanford, CA 94305
+https://snf.stanford.edu
+mtang at stanford.edu
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201218/a4055b80/attachment.html>
+
+From uthumser at stanford.edu  Sat Dec 19 10:03:11 2020
+From: uthumser at stanford.edu (Ulrike Martina Thumser)
+Date: Sat, 19 Dec 2020 18:03:11 +0000
+Subject: [snf-promcommittee] Fw: fabrication request
+In-Reply-To: <CAM4V1t2+D7awXc+CFvdPruzirHAApEcbQJjQCFYtuh=hRfTCHw@mail.gmail.com>
+References: <CAM4V1t2+D7awXc+CFvdPruzirHAApEcbQJjQCFYtuh=hRfTCHw@mail.gmail.com>
+Message-ID: <BY5PR02MB6356C0DF927B1D1935870EC9A2C20@BY5PR02MB6356.namprd02.prod.outlook.com>
+
+Sounds like something for the promcom
+
+________________________________
+From: Dhagat, Pallavi <dhagat at oregonstate.edu>
+Sent: Friday, December 18, 2020 3:57 PM
+To: Ulrike Martina Thumser <uthumser at stanford.edu>; James Haydon <jhaydon at stanford.edu>
+Subject: fabrication request
+
+Dear Jim and Uli,
+I am a Professor in the School of Electrical Engineering and Computer Science at Oregon State University. (We are a partner NNCI site.)
+
+I am reaching out to you to ask if you will be able to fabricate a few devices for us. They will involve (1) deposition and patterning (both optical and e-beam lithography) of aluminum and (2) deposition of ZnO.
+
+If yes, may I request a few minutes of your time to discuss the devices and cost? I can meet today (Friday, Dec. 18) and anytime during the holidays depending on what is most convenient for you. Please let me know.
+
+Thank you,
+Pallavi
+---
+Pallavi Dhagat, PhD, MBA
+Professor, School of EECS, Oregon State University, USA
+President, IEEE Magnetics Society
+tel: 541-737-9927
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20201219/21a3ecad/attachment-0001.html>
+

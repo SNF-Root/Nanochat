@@ -11,6 +11,18 @@ function getSessionIdFromPath(pathname) {
   return match ? match[1] : null
 }
 
+function getSearchEndpoint(searchMode) {
+  if (searchMode === 'proms') return '/search/proms'
+  if (searchMode === 'all') return '/search/all'
+  return '/search/emails'
+}
+
+function getStreamEndpoint(sessionId, searchMode) {
+  if (searchMode === 'proms') return `/session/${sessionId}/embed/proms/stream`
+  if (searchMode === 'all') return `/session/${sessionId}/embed/all/stream`
+  return `/session/${sessionId}/embed/emails/stream`
+}
+
 function App() {
   const isLogoutPath = window.location.pathname === '/logout'
   const [view, setView] = useState('search') // 'search' | 'upload'
@@ -249,8 +261,7 @@ function App() {
     setSearchResults([])
 
     try {
-      const endpoint =
-        searchMode === 'proms' ? '/search/proms' : '/search/emails'
+      const endpoint = getSearchEndpoint(searchMode)
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -296,10 +307,7 @@ function App() {
     try {
       const sessionId = await createChatSession()
 
-      const endpoint =
-        searchMode === 'proms'
-          ? `/session/${sessionId}/embed/proms/stream`
-          : `/session/${sessionId}/embed/emails/stream`
+      const endpoint = getStreamEndpoint(sessionId, searchMode)
 
       await streamEmbedResponse(endpoint, result.title, (chunk) => {
         if (!firstChunkReceived) {
@@ -338,10 +346,7 @@ function App() {
     let firstChunkReceived = false
 
     try {
-      const endpoint =
-        searchMode === 'proms'
-          ? `/session/${currentSessionId}/embed/proms/stream`
-          : `/session/${currentSessionId}/embed/emails/stream`
+      const endpoint = getStreamEndpoint(currentSessionId, searchMode)
 
       await streamEmbedResponse(endpoint, trimmed, (chunk) => {
         if (!firstChunkReceived) {

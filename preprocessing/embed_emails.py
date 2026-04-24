@@ -3,14 +3,13 @@ import asyncio
 from openai import AsyncOpenAI
 from typing import List
 import json
-from models.insert import Email
+from preprocessing.models.insert import Email
 from dataclasses import replace
 
 
 
 client = AsyncOpenAI(
-    api_key=os.environ.get("STANFORD_API_KEY"),
-    base_url="https://aiapi-prod.stanford.edu/v1"
+    api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
 
@@ -112,7 +111,7 @@ async def extract_prom_json(email_thread: str) -> str:
     system_prompt = SYSTEM_PROMPT_TEMPLATE.format(thread=email_thread)
 
     response = await client.chat.completions.create(
-        model="gpt-4.omini",
+        model="gpt-5.2",
         messages=[
             {"role": "system", "content": system_prompt}
         ],
@@ -189,12 +188,13 @@ async def run_pipeline(email_objects: List[Email], con):
     llm_sem = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
     inserted_counter = 0
     tasks = [process_single(email_object, llm_sem) for email_object in email_objects]
+    email_ids = []
     for coro in asyncio.as_completed(tasks):
         finished_email_object = await coro
         if finished_email_object:
             print(finished_email_object.embedded_string)
             print("*" * 100)
-            finished_email_object.insert_email(con)
+            email_ids.append(finished_email_object.insert_email(con))
             inserted_counter += 1
     print(f"inserted {inserted_counter} email objects")
     return inserted_counter

@@ -1,0 +1,1740 @@
+From prarthana at rigetti.com  Thu Jun 11 09:49:07 2020
+From: prarthana at rigetti.com (Prarthana Sanghani)
+Date: Thu, 11 Jun 2020 09:49:07 -0700
+Subject: [snf-promcommittee] Looking for Probing capabilities
+Message-ID: <CAKjQXyW2WTveRMjk=F+tu=b0rJuyU4rznYuUrpdTiqs7nn=jpA@mail.gmail.com>
+
+Hello,
+
+We're looking for a probing system to help us measure our devices'
+resistances.  For some background:
+- We have multiple sizes of devices, and we are looking to measure on the
+range of 10kOhm - 200 kOhm
+- We need to measure at low voltage to avoid breaking through our oxide
+barrier (~10mV)
+
+We also have some concerns about cross-contamination, but first would like
+to know if there's any tool available at SNF that can help us make these
+measurements, and what we would need to do in order to further evaluate &
+request access.
+
+Best,
+Prarthana
+
+-- 
+
+
+Prarthana Sanghani
+
+Process Engineer, Metrology
+
+prarthana at rigetti.com
+
+847.660.0510
+
+rigetti.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200611/8c9a157c/attachment.html>
+
+From steelxu at stanford.edu  Thu Jun 11 12:28:34 2020
+From: steelxu at stanford.edu (Xiaoqing Xu)
+Date: Thu, 11 Jun 2020 19:28:34 +0000
+Subject: [snf-promcommittee] Looking for Probing capabilities
+In-Reply-To: <CAKjQXyW2WTveRMjk=F+tu=b0rJuyU4rznYuUrpdTiqs7nn=jpA@mail.gmail.com>
+References: <CAKjQXyW2WTveRMjk=F+tu=b0rJuyU4rznYuUrpdTiqs7nn=jpA@mail.gmail.com>
+Message-ID: <CY4PR02MB2375BB612B7D2471967145F4D1800@CY4PR02MB2375.namprd02.prod.outlook.com>
+
+Hi Prarthana,
+
+We have a Micromanipulator6000 Iprobe station and a Lakeshore Hall measurement probe station. Please see the link:
+https://snfexfab.stanford.edu/guide/equipment/micromanipulator6000-iv-cv-probe-station-micromanipulator6000
+https://snfexfab.stanford.edu/guide/equipment/lakeshore-hall-measurement-system-lakeshorehall
+
+The micromanipulator6000 is installed with keysight B1500A analyzer, which is supposed to control down to  0.5?V. But we had some other user who had their oxide (1~2nm) break through when using the tool, so I am not sure if it works for you. The Lakeshore, on the other side, is mainly for Hall measurement, but can do I-V measurement of two terminal devices.
+
+What is your sample structure? transistor? diode? MOSCAP?
+
+Xiaoqing
+________________________________
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> on behalf of Prarthana Sanghani <prarthana at rigetti.com>
+Sent: Thursday, June 11, 2020 9:49 AM
+To: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] Looking for Probing capabilities
+
+Hello,
+
+We're looking for a probing system to help us measure our devices' resistances.  For some background:
+- We have multiple sizes of devices, and we are looking to measure on the range of 10kOhm - 200 kOhm
+- We need to measure at low voltage to avoid breaking through our oxide barrier (~10mV)
+
+We also have some concerns about cross-contamination, but first would like to know if there's any tool available at SNF that can help us make these measurements, and what we would need to do in order to further evaluate & request access.
+
+Best,
+Prarthana
+
+--
+
+[https://lh6.googleusercontent.com/dCc5CeUcCnoE3HtCpeEok8SXiyEabx5oKgLU7Lw6jO8ZjeWuLFKa6EjV2T7I_Ge3BH1MVsyp5ET1JWb1DhvqZuSA7xsu0iDRNWLxyRnUakEbYccsX9MwAnlfuvzojEZYeohe0aHg2nE]
+
+Prarthana Sanghani
+
+Process Engineer, Metrology
+
+prarthana at rigetti.com<mailto:prarthana at rigetti.com>
+
+847.660.0510
+
+rigetti.com<http://rigetti.com>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200611/2f33d592/attachment.html>
+
+From trlu at royole.com  Fri Jun 19 15:47:35 2020
+From: trlu at royole.com (Tracy Lu)
+Date: Fri, 19 Jun 2020 22:47:35 +0000
+Subject: [snf-promcommittee] PROM request for QDPR -- Royole
+Message-ID: <d38a797f99ac412dbd0faffdd158edf4@royole.com>
+
+Hi, SNF PROM committee,
+
+
+Royole is planning to start a new project that will use a new chemical -- quantum dots photo resist.
+
+
+Here I attached the PROM request form and MSDS from vendor.
+
+
+Please let me know if there is any question or you need any other supporting documents.
+
+
+Thanks!
+
+
+Best,
+
+Tracy
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200619/d59363c1/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PROM form_QDPR.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 109554 bytes
+Desc: PROM form_QDPR.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200619/d59363c1/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: QDPR MSDS.pdf
+Type: application/pdf
+Size: 289987 bytes
+Desc: QDPR MSDS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200619/d59363c1/attachment-0001.pdf>
+
+From kyoneda at suginocorp.com  Tue Jun 23 12:22:46 2020
+From: kyoneda at suginocorp.com (Keisuke Yoneda)
+Date: Tue, 23 Jun 2020 19:22:46 +0000
+Subject: [snf-promcommittee] Sugino Corp. =Introduction of Wet Jet Milling
+	Technology
+In-Reply-To: <DM6PR10MB436238A1933F55B08B2DEDDCC1940@DM6PR10MB4362.namprd10.prod.outlook.com>
+References: <DM6PR10MB436238A1933F55B08B2DEDDCC1940@DM6PR10MB4362.namprd10.prod.outlook.com>
+Message-ID: <DM6PR10MB43629B6F89EFAE253D1BC24FC1940@DM6PR10MB4362.namprd10.prod.outlook.com>
+
+Dear Sir/Madam,
+
+I am Keisuke Yoneda from Sugino Corp. located in Itasca.
+I am reaching out you to make sure if there is any opportunity that our wet jet milling equipment can be used by your lab member in your laboratory so that our equipment could support their advanced technology development.
+Our company mission is to support the technology innovation activity with our wet jet technology.
+
+Our equipment could produce slurry with nano-sized particle like Graphene dispersion, Nanocellulose dispersion or other nano-sized particles dispersion.
+The below link is the brochure of our wet jet milling equipment called Star Burst.
+https://issuu.com/suginocorp/docs/___p2214e-r_starburst
+
+The strong feature of ?Starburst?? include but not limited:
+1. Minimal Contamination
+2. Homogenized Particle Size
+3. High Pulverizing Capability
+4. Numerous use with other applications
+5. Operation & Maintenance Friendly (Intuitively Accessible Design: Ease in Cleaning/Maintenance
+
+We also have the trial service with the demo equipment to verify the performance of Star Burst in Itasca office.
+
+Please let me know if you are interested in the usage of Star Burst in your laboratory.
+Regards,
+Yone
+
+Keisuke Yoneda
+Sales Engineer
+
+[signature_1777039420]
+
+1380 Hamilton Parkway - Itasca, IL - 60143
+Email: kyoneda at suginocorp.com<mailto:kyoneda at suginocorp.com>
+Mobile: 248.709.2427
+www.suginocorp.com<http://www.suginocorp.com/>
+Connect with us:
+[signature_2127855311]<https://www.facebook.com/suginoUS>     [signature_1190636027] <https://www.linkedin.com/company/suginocorp>      [signature_1275196617] <https://www.youtube.com/channel/UCJAGqYPK3DBXUa2v-xPoFHw?view_as=subscriber>
+[cid:image015.png at 01D64969.9A72D920]<https://suginocorp.com/star-burst/>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image011.jpg
+Type: image/jpeg
+Size: 3294 bytes
+Desc: image011.jpg
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image012.png
+Type: image/png
+Size: 2323 bytes
+Desc: image012.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0004.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image013.png
+Type: image/png
+Size: 1737 bytes
+Desc: image013.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0005.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image014.png
+Type: image/png
+Size: 926 bytes
+Desc: image014.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0006.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image015.png
+Type: image/png
+Size: 45480 bytes
+Desc: image015.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200623/64f418d5/attachment-0007.png>
+
+From zyu21 at stanford.edu  Wed Jun 24 13:12:45 2020
+From: zyu21 at stanford.edu (Yujo Zhouchangwan Yu)
+Date: Wed, 24 Jun 2020 20:12:45 +0000
+Subject: [snf-promcommittee] New chemical request - Ce(iPrCp)3 - Yujo
+Message-ID: <DC1A126C-F699-417E-BCA1-E7E97EF5D937@stanford.edu>
+
+Dear PROM committee,
+
+I would like to request the use of a new chemical Ce(iPrCp)3 for CeO2 ALD in our lab. Please see the attached files and let me know if you have any questions. Thank you very much!
+
+Best,
+Yujo
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form_Ce(iPrCp)3_zyu.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 107698 bytes
+Desc: process_or_materials_request_form_Ce(iPrCp)3_zyu.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200624/ed02375d/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Tris(i-propylcyclopentadienyl)cerium (III) US SDS.pdf
+Type: application/pdf
+Size: 253445 bytes
+Desc: Tris(i-propylcyclopentadienyl)cerium (III) US SDS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200624/ed02375d/attachment-0001.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IMPACT_HZCO.pptx
+Type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+Size: 343763 bytes
+Desc: IMPACT_HZCO.pptx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200624/ed02375d/attachment-0001.pptx>
+
+From agupta66 at gmail.com  Thu Jun 25 11:44:34 2020
+From: agupta66 at gmail.com (Amit Gupta)
+Date: Thu, 25 Jun 2020 11:44:34 -0700
+Subject: [snf-promcommittee] PROM for Flex9H from Solip Tech
+Message-ID: <CA+eheBhP-ZEkH8mNB2NAPFGcGxerMq_Y-0Scxmv5gPymVtB=Zw@mail.gmail.com>
+
+Dear SNF PROM Committee,
+
+I hope this email finds you all well.
+
+As the lab is planned to be opened in the near future, I was writing
+to request the usage of a material called Flex9H from Solip Tech inside the
+fab.  It is a Siloxane based resin.  We will primarily be coating the
+material with the micromist coater, but may on occasion use headway2.
+
+We will not be storing the chemical in the fab at this time, but may
+request for the storage in the future depending on the usage.
+
+Please find attached the PROM form, data sheet and the MSDS for the
+material.
+
+Please let me know if you have any questions or concerns.
+
+-- 
+
+Best regards,
+Amit Gupta
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/99952afe/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20200625_AGupta_PROM_Flex9H.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 34676 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/99952afe/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: [TDS]Flex9H PH3352_MI70.pdf
+Type: application/pdf
+Size: 178541 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/99952afe/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SOLIP_Flex9H?_MIBK_EN_MSDS.pdf
+Type: application/pdf
+Size: 271569 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/99952afe/attachment-0003.pdf>
+
+From mmrincon at stanford.edu  Thu Jun 25 13:09:12 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 25 Jun 2020 13:09:12 -0700
+Subject: [snf-promcommittee] PROM for Flex9H from Solip Tech
+In-Reply-To: <CA+eheBhP-ZEkH8mNB2NAPFGcGxerMq_Y-0Scxmv5gPymVtB=Zw@mail.gmail.com>
+References: <CA+eheBhP-ZEkH8mNB2NAPFGcGxerMq_Y-0Scxmv5gPymVtB=Zw@mail.gmail.com>
+Message-ID: <CAFSuyDQuJ1E8p-R+yy-UMPaUsn5BB3vLQA+EG=TjijMEuhoWQg@mail.gmail.com>
+
+Hi PROM Comm,
+
+We have a couple of these from Royole- is Mister Mister up and ready? And
+Phil, it also looks like they are interested in Headway2. They are not
+planning to store this one.
+
+What do you think?
+
+On Thu, Jun 25, 2020 at 11:44 AM Amit Gupta <agupta66 at gmail.com> wrote:
+
+> Dear SNF PROM Committee,
+>
+> I hope this email finds you all well.
+>
+> As the lab is planned to be opened in the near future, I was writing
+> to request the usage of a material called Flex9H from Solip Tech inside the
+> fab.  It is a Siloxane based resin.  We will primarily be coating the
+> material with the micromist coater, but may on occasion use headway2.
+>
+> We will not be storing the chemical in the fab at this time, but may
+> request for the storage in the future depending on the usage.
+>
+> Please find attached the PROM form, data sheet and the MSDS for the
+> material.
+>
+> Please let me know if you have any questions or concerns.
+>
+> --
+>
+> Best regards,
+> Amit Gupta
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/622f2674/attachment.html>
+
+From mmrincon at stanford.edu  Thu Jun 25 13:35:48 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 25 Jun 2020 13:35:48 -0700
+Subject: [snf-promcommittee] PROM request for QDPR -- Royole
+In-Reply-To: <d38a797f99ac412dbd0faffdd158edf4@royole.com>
+References: <d38a797f99ac412dbd0faffdd158edf4@royole.com>
+Message-ID: <CAFSuyDSx0yJRWwPs-oGo1Mz94vXW4xFnrS1fwcQoT7B5yaCHaA@mail.gmail.com>
+
+And here is the one from Tracy. Phil- she wants to store in the fridge- is
+that possible? Is the fridge somewhere new now? :)
+
+Michelle
+
+On Fri, Jun 19, 2020 at 3:47 PM Tracy Lu <trlu at royole.com> wrote:
+
+> Hi, SNF PROM committee,
+>
+>
+> Royole is planning to start a new project that will use a new chemical --
+> quantum dots photo resist.
+>
+>
+> Here I attached the PROM request form and MSDS from vendor.
+>
+>
+> Please let me know if there is any question or you need any other
+> supporting documents.
+>
+>
+> Thanks!
+>
+>
+> Best,
+>
+> Tracy
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/fe3dcb4a/attachment.html>
+
+From mmrincon at stanford.edu  Thu Jun 25 15:03:43 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Thu, 25 Jun 2020 15:03:43 -0700
+Subject: [snf-promcommittee] PROM request for QDPR -- Royole
+In-Reply-To: <d38a797f99ac412dbd0faffdd158edf4@royole.com>
+References: <d38a797f99ac412dbd0faffdd158edf4@royole.com>
+Message-ID: <CAFSuyDRXgc7Uog7ZWzKrueLuzy7cVADrE-_yUF-sofkVH-fpLg@mail.gmail.com>
+
+Hi Tracy,
+
+It's nice to hear from you! :)
+
+We have typically asked users who are spinning quantum dots to use the
+laurell-g in the wafersaw room. Would that be an option for you?
+
+Best,
+Michelle
+
+On Fri, Jun 19, 2020 at 3:47 PM Tracy Lu <trlu at royole.com> wrote:
+
+> Hi, SNF PROM committee,
+>
+>
+> Royole is planning to start a new project that will use a new chemical --
+> quantum dots photo resist.
+>
+>
+> Here I attached the PROM request form and MSDS from vendor.
+>
+>
+> Please let me know if there is any question or you need any other
+> supporting documents.
+>
+>
+> Thanks!
+>
+>
+> Best,
+>
+> Tracy
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200625/f3a191a3/attachment-0001.html>
+
+From trlu at royole.com  Thu Jun 25 17:01:17 2020
+From: trlu at royole.com (Tracy Lu)
+Date: Fri, 26 Jun 2020 00:01:17 +0000
+Subject: [snf-promcommittee] PROM request for QDPR -- Royole
+In-Reply-To: <CAFSuyDRXgc7Uog7ZWzKrueLuzy7cVADrE-_yUF-sofkVH-fpLg@mail.gmail.com>
+References: <d38a797f99ac412dbd0faffdd158edf4@royole.com>,
+ <CAFSuyDRXgc7Uog7ZWzKrueLuzy7cVADrE-_yUF-sofkVH-fpLg@mail.gmail.com>
+Message-ID: <efd38da3eb0e4a72b8441d971239b8ec@royole.com>
+
+Hi, Michelle,
+
+
+It's so nice to hear from you too [?]
+
+
+The wafersaw room is not yellow room, right?  If that's the case,  Laurell-g is not an option for us. Our QDPR is a solution with quantum dots mixed in photo resist, and we need to do litho exposure and development after spin coating.
+
+
+Hope to meet you at SNF soon!
+
+
+Stay well!
+Tracy
+
+
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Thursday, June 25, 2020 3:03:43 PM
+To: Tracy Lu
+Cc: snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] PROM request for QDPR -- Royole
+
+Hi Tracy,
+
+It's nice to hear from you! :)
+
+We have typically asked users who are spinning quantum dots to use the laurell-g in the wafersaw room. Would that be an option for you?
+
+Best,
+Michelle
+
+On Fri, Jun 19, 2020 at 3:47 PM Tracy Lu <trlu at royole.com<mailto:trlu at royole.com>> wrote:
+
+Hi, SNF PROM committee,
+
+
+Royole is planning to start a new project that will use a new chemical -- quantum dots photo resist.
+
+
+Here I attached the PROM request form and MSDS from vendor.
+
+
+Please let me know if there is any question or you need any other supporting documents.
+
+
+Thanks!
+
+
+Best,
+
+Tracy
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200626/8977917e/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OutlookEmoji-?.png
+Type: image/png
+Size: 488 bytes
+Desc: OutlookEmoji-?.png
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200626/8977917e/attachment.png>
+
+From michelle.rincon at gmail.com  Fri Jun 26 11:46:47 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 26 Jun 2020 11:46:47 -0700
+Subject: [snf-promcommittee] New chemical request - Ce(iPrCp)3 - Yujo
+In-Reply-To: <DC1A126C-F699-417E-BCA1-E7E97EF5D937@stanford.edu>
+References: <DC1A126C-F699-417E-BCA1-E7E97EF5D937@stanford.edu>
+Message-ID: <CAFSuyDQRtodTHGbX_uuOOqU3JKEQ+KEqAGrFya1MZEj9CVx5aw@mail.gmail.com>
+
+Hi Yujo,
+
+Thanks for this! I have a couple of notes- could you please elaborate more
+on where the 100 cycles of HfO2 suggestion came from? You can include
+details from your discussion with the vendor, but we should have it
+documented in such a way that it will make sense to us a few years from now
+when we try to remember why we chose that. Also- sending hazardous
+materials back is often quite difficult for us- does the vendor need the
+unused material back when you are done with your work?
+
+Best,
+Michelle
+
+On Wed, Jun 24, 2020 at 1:12 PM Yujo Zhouchangwan Yu <zyu21 at stanford.edu>
+wrote:
+
+> Dear PROM committee,
+>
+> I would like to request the use of a new chemical Ce(iPrCp)3 for CeO2 ALD
+> in our lab. Please see the attached files and let me know if you have any
+> questions. Thank you very much!
+>
+> Best,
+> Yujo
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200626/301473e1/attachment.html>
+
+From michelle.rincon at gmail.com  Fri Jun 26 13:02:23 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Fri, 26 Jun 2020 13:02:23 -0700
+Subject: [snf-promcommittee] Request for approval
+In-Reply-To: <00cc01d5f34c$93818260$ba848720$@nazoom.com>
+References: <00a001d5e389$d037a4f0$70a6eed0$@nazoom.com>
+ <CAFSuyDQ77-9rgfHd6PQmMg8Pir0H5n-j4riGvuonqzsWto8zAQ@mail.gmail.com>
+ <007f01d5f1bc$3f1341f0$bd39c5d0$@nazoom.com>
+ <CAFSuyDTaYW3sWiDx1WYbp+s3m5baQwUxb2V=kuKmK2R07jn7ow@mail.gmail.com>
+ <010601d5f290$4a66c840$df3458c0$@nazoom.com>
+ <CAFSuyDR5kS4c8GPawUiDPdsEbR1ZVMG0eGVO3Ve-aZ=gfVrAmg@mail.gmail.com>
+ <00cc01d5f34c$93818260$ba848720$@nazoom.com>
+Message-ID: <CAFSuyDRC9oo37a7wuBtBZ+LF5hRLh90Z6-G618K1g-805q4O3A@mail.gmail.com>
+
+I am working on archiving- Swaroop- did Mitch ever do anything with this
+one? We had been talking about putting Mister Mister in a new location
+temporarily for him...
+
+On Thu, Mar 5, 2020 at 4:17 PM Mitch Yanase <mitch at nazoom.com> wrote:
+
+> Hi Michelle,
+>
+>
+>
+> Thank you!
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> *From:* Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> *Sent:* Thursday, March 5, 2020 10:11 AM
+> *To:* Mitch Yanase <mitch at nazoom.com>
+> *Cc:* masato.takita at nagase.co.jp; promcommitte <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request for approval
+>
+>
+>
+> Hi Mitch,
+>
+>
+>
+> Unfortunately the hood space in 155 that used to exist no longer does, we
+> have moved other equipment in there. The goal was to try and find other
+> alternate space- let me talk to him!
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On Wed, Mar 4, 2020 at 5:49 PM Mitch Yanase <mitch at nazoom.com> wrote:
+>
+> Hi Michelle,
+>
+>
+>
+> Yes, I already communicated with Swaroop and one of his idea was using
+> Room#155.
+>
+> Can I use the submitted chemicals as long as the Micromist coater is
+> running in Room # 155?
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> *From:* Michelle Rincon [mailto:michelle.rincon at gmail.com]
+> *Sent:* Tuesday, March 3, 2020 7:49 PM
+> *To:* Mitch Yanase <mitch at nazoom.com>
+> *Cc:* masato.takita at nagase.co.jp; promcommitte <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request for approval
+>
+>
+>
+> Hi Mitch,
+>
+>
+>
+> Unfortunately we are running into a problem with the creation of
+> aerosolized nanoparticles inside of the fab. Swaroop will work with you to
+> identify a path that will allow you to do this somewhere outside of the
+> cleanroom. Could you please get in touch with him?
+>
+>
+>
+> Best,
+>
+> Michelle
+>
+>
+>
+> On Tue, Mar 3, 2020 at 4:31 PM Mitch Yanase <mitch at nazoom.com> wrote:
+>
+> Hi Michelle,
+>
+>
+>
+> Can you approve below?
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> *From:* Mitch Yanase [mailto:mitch at nazoom.com]
+> *Sent:* Thursday, February 27, 2020 12:31 PM
+> *To:* 'Michelle Rincon' <michelle.rincon at gmail.com>
+> *Cc:* 'promcommitte' <snf-promcommittee at lists.stanford.edu>
+> *Subject:* RE: [snf-promcommittee] Request for approval
+>
+>
+>
+> Hi Michelle,
+>
+>
+>
+> Attached is Silver paste SDS.
+>
+>
+>
+> Frequency and how long:
+>
+> ?        We will set up the upgraded Micromist coater.  We?d like to try
+> silver paste coating at that time.  Whole work would be 1 ? 1.5 days.
+>
+> ?        We plan to have a training session with silver paste coating.
+> It will be a hour.
+>
+> ?        Then as needed basis by Researcher @SNF.
+>
+>
+>
+> We wait for your approval!
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> *From:* Michelle Rincon [mailto:michelle.rincon at gmail.com
+> <michelle.rincon at gmail.com>]
+> *Sent:* Friday, February 14, 2020 5:59 PM
+> *To:* Mitch Yanase <mitch at nazoom.com>
+> *Cc:* promcommitte <snf-promcommittee at lists.stanford.edu>
+> *Subject:* Re: [snf-promcommittee] Request for approval
+>
+>
+>
+> Hi Mitch,
+>
+>
+>
+> Thanks for this. I have a couple of questions for clarification- will you
+> be using this to aerosolize your silver paste? If so, could you please also
+> provide the MSDS for the paste?
+>
+>
+>
+> We are also wondering at what frequency and for approximately how long
+> will you be performing this process?
+>
+>
+>
+> Thanks,
+>
+> Michelle
+>
+>
+>
+> On Fri, Feb 14, 2020 at 2:55 PM Mitch Yanase <mitch at nazoom.com> wrote:
+>
+> Hi,
+>
+>
+>
+> The attached is Materials review request.
+>
+> We?d appreciate if you can approve it ASAP.
+>
+>
+>
+> Best,
+>
+> Mitch
+>
+>
+>
+> ------------------------------------------
+>
+> Mitch Yanase
+>
+> Nazoom, LLC
+>
+> 319 Eleanor Ave.
+>
+> Los Altos, CA 94022
+>
+> Email: mitch at nazoom.com
+>
+> Tel: 650-814-8453
+>
+> http://www.nazoom.com/en.html
+>
+>
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200626/76ceb220/attachment.html>
+
+From zyu21 at stanford.edu  Fri Jun 26 13:49:04 2020
+From: zyu21 at stanford.edu (Yujo Zhouchangwan Yu)
+Date: Fri, 26 Jun 2020 20:49:04 +0000
+Subject: [snf-promcommittee] New chemical request - Ce(iPrCp)3 - Yujo
+In-Reply-To: <CAFSuyDQRtodTHGbX_uuOOqU3JKEQ+KEqAGrFya1MZEj9CVx5aw@mail.gmail.com>
+References: <DC1A126C-F699-417E-BCA1-E7E97EF5D937@stanford.edu>
+ <CAFSuyDQRtodTHGbX_uuOOqU3JKEQ+KEqAGrFya1MZEj9CVx5aw@mail.gmail.com>
+Message-ID: <5F43FDDF-8360-4D97-BDC9-98B9416157FA@stanford.edu>
+
+Hi Michelle,
+
+Thank you for reviewing my request! Please see the message below from the vender. The vender suggested TMA process to passivate the chamber. Is TMA better than HfO2 for this purpose?
+
+For the material disposal - the vender doesn?t need the unused material. They just offered to help dispose. Do you have better suggestions for disposal?
+
+Thanks,
+Yujo
+
+
+
+
+Begin forwarded message:
+
+From: "Ivanov, Sergei V." <Sergei.Ivanov at versummaterials.com<mailto:Sergei.Ivanov at versummaterials.com>>
+Subject: RE: Ce(iPrCp)3 contamination concern?
+Date: June 9, 2020 at 04:28:36 PDT
+To: Wilman Tsai <wtsaia at stanford.edu<mailto:wtsaia at stanford.edu>>, Yujo Zhouchangwan Yu <zyu21 at stanford.edu<mailto:zyu21 at stanford.edu>>, Mansour Moinpour <mansour.moinpour at emdgroup.com<mailto:mansour.moinpour at emdgroup.com>>
+
+Dear Yujo and Wilman,
+
+As far as I know there is no chamber clean process available for CeO2.   If the chamber is contaminated with metal oxides it is mechanically cleaned by external vendor.
+
+We often done depositions of multi-component metal oxide films in the same chamber and don?t see contamination from element to element by XRF when using thermal ALD.
+
+On the other hand, we don?t use the same chamber for deposition of LowK films and metal oxide films.  Traces of metal contamination will impact dielectric quality of SiO2 films deposited in the same chamber.  Thus, other teams may see trace contamination with Ce or Hf if the same chamber is used interchangeably to deposit SiO2 for accurate dielectric measurements.
+
+I don?t see any issues if the chamber is dedicated to deposition of metal oxide films.  You still have to be careful to avoid chemical condensation in the lines and on the chamber walls.   Essentially, avoid any cold spots.  This is important for any chemical with low vapor pressure.
+
+When we switch from metal oxide deposition project (not form wafer to wafer) we deposit 50-100 nm of aluminum oxide from TMA and make sure that TMA process matches baseline.  If we can?t match the baseline, the chamber is disassembled and cleaned.  You may consider to run TMA before your HfO2/CeO2 project to ?passivate? the chamber from prior depositions.
+
+Hopefully this is helpful.
+
+Best regards,
+Sergei
+
+
+
+
+
+On Jun 26, 2020, at 11:46, Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>> wrote:
+
+Hi Yujo,
+
+Thanks for this! I have a couple of notes- could you please elaborate more on where the 100 cycles of HfO2 suggestion came from? You can include details from your discussion with the vendor, but we should have it documented in such a way that it will make sense to us a few years from now when we try to remember why we chose that. Also- sending hazardous materials back is often quite difficult for us- does the vendor need the unused material back when you are done with your work?
+
+Best,
+Michelle
+
+On Wed, Jun 24, 2020 at 1:12 PM Yujo Zhouchangwan Yu <zyu21 at stanford.edu<mailto:zyu21 at stanford.edu>> wrote:
+Dear PROM committee,
+
+I would like to request the use of a new chemical Ce(iPrCp)3 for CeO2 ALD in our lab. Please see the attached files and let me know if you have any questions. Thank you very much!
+
+Best,
+Yujo
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200626/d31a853d/attachment-0001.html>
+
+From zyu21 at stanford.edu  Fri Jun 26 17:07:24 2020
+From: zyu21 at stanford.edu (Yujo Zhouchangwan Yu)
+Date: Sat, 27 Jun 2020 00:07:24 +0000
+Subject: [snf-promcommittee] New chemical request - Ce(iPrCp)3 - Yujo
+In-Reply-To: <CAFSuyDRA+Yan0v9fDgMov9VXtUx012Xw6A8O=igiCh=bhCN+LA@mail.gmail.com>
+References: <DC1A126C-F699-417E-BCA1-E7E97EF5D937@stanford.edu>
+ <CAFSuyDQRtodTHGbX_uuOOqU3JKEQ+KEqAGrFya1MZEj9CVx5aw@mail.gmail.com>
+ <5F43FDDF-8360-4D97-BDC9-98B9416157FA@stanford.edu>
+ <CAFSuyDRA+Yan0v9fDgMov9VXtUx012Xw6A8O=igiCh=bhCN+LA@mail.gmail.com>
+Message-ID: <73B18E3B-EEDB-4635-A16D-05BC0200A85C@stanford.edu>
+
+Hi Michelle,
+
+Thank you! Please see the updated files for my request.
+
+Best,
+Yujo
+
+
+
+On Jun 26, 2020, at 16:02, Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>> wrote:
+
+Hi Yujo,
+
+Could you please incorporate that into your request and send it as one document? That makes the archival part of it better!
+
+I think for the disposal part, you can just say that SNF will dispose of it with EHS after your experiments are done.
+
+Thanks :)
+Michelle
+
+On Fri, Jun 26, 2020 at 1:49 PM Yujo Zhouchangwan Yu <zyu21 at stanford.edu<mailto:zyu21 at stanford.edu>> wrote:
+Hi Michelle,
+
+Thank you for reviewing my request! Please see the message below from the vender. The vender suggested TMA process to passivate the chamber. Is TMA better than HfO2 for this purpose?
+
+For the material disposal - the vender doesn?t need the unused material. They just offered to help dispose. Do you have better suggestions for disposal?
+
+Thanks,
+Yujo
+
+
+
+
+Begin forwarded message:
+
+From: "Ivanov, Sergei V." <Sergei.Ivanov at versummaterials.com<mailto:Sergei.Ivanov at versummaterials.com>>
+Subject: RE: Ce(iPrCp)3 contamination concern?
+Date: June 9, 2020 at 04:28:36 PDT
+To: Wilman Tsai <wtsaia at stanford.edu<mailto:wtsaia at stanford.edu>>, Yujo Zhouchangwan Yu <zyu21 at stanford.edu<mailto:zyu21 at stanford.edu>>, Mansour Moinpour <mansour.moinpour at emdgroup.com<mailto:mansour.moinpour at emdgroup.com>>
+
+Dear Yujo and Wilman,
+
+As far as I know there is no chamber clean process available for CeO2.   If the chamber is contaminated with metal oxides it is mechanically cleaned by external vendor.
+
+We often done depositions of multi-component metal oxide films in the same chamber and don?t see contamination from element to element by XRF when using thermal ALD.
+
+On the other hand, we don?t use the same chamber for deposition of LowK films and metal oxide films.  Traces of metal contamination will impact dielectric quality of SiO2 films deposited in the same chamber.  Thus, other teams may see trace contamination with Ce or Hf if the same chamber is used interchangeably to deposit SiO2 for accurate dielectric measurements.
+
+I don?t see any issues if the chamber is dedicated to deposition of metal oxide films.  You still have to be careful to avoid chemical condensation in the lines and on the chamber walls.   Essentially, avoid any cold spots.  This is important for any chemical with low vapor pressure.
+
+When we switch from metal oxide deposition project (not form wafer to wafer) we deposit 50-100 nm of aluminum oxide from TMA and make sure that TMA process matches baseline.  If we can?t match the baseline, the chamber is disassembled and cleaned.  You may consider to run TMA before your HfO2/CeO2 project to ?passivate? the chamber from prior depositions.
+
+Hopefully this is helpful.
+
+Best regards,
+Sergei
+
+
+
+
+
+On Jun 26, 2020, at 11:46, Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>> wrote:
+
+Hi Yujo,
+
+Thanks for this! I have a couple of notes- could you please elaborate more on where the 100 cycles of HfO2 suggestion came from? You can include details from your discussion with the vendor, but we should have it documented in such a way that it will make sense to us a few years from now when we try to remember why we chose that. Also- sending hazardous materials back is often quite difficult for us- does the vendor need the unused material back when you are done with your work?
+
+Best,
+Michelle
+
+On Wed, Jun 24, 2020 at 1:12 PM Yujo Zhouchangwan Yu <zyu21 at stanford.edu<mailto:zyu21 at stanford.edu>> wrote:
+Dear PROM committee,
+
+I would like to request the use of a new chemical Ce(iPrCp)3 for CeO2 ALD in our lab. Please see the attached files and let me know if you have any questions. Thank you very much!
+
+Best,
+Yujo
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200627/2594fb5c/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form_Ce(iPrCp)3_zyu_v02.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 108886 bytes
+Desc: process_or_materials_request_form_Ce(iPrCp)3_zyu_v02.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200627/2594fb5c/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Tris(i-propylcyclopentadienyl)cerium (III) US SDS.pdf
+Type: application/pdf
+Size: 253445 bytes
+Desc: Tris(i-propylcyclopentadienyl)cerium (III) US SDS.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200627/2594fb5c/attachment-0001.pdf>
+
+From agpranay at stanford.edu  Mon Jun 29 08:49:53 2020
+From: agpranay at stanford.edu (Pranay Agarwal)
+Date: Mon, 29 Jun 2020 15:49:53 +0000
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+Message-ID: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+
+Hello,
+
+I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I wish to bring SU8 2100 at SNF cleanroom for performing photolithography. Please find my request form and MSDS attached to this mail.
+
+Regards,
+
+Pranay Agarwal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200629/4b6923fa/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form Pranay.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 106285 bytes
+Desc: process_or_materials_request_form Pranay.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200629/4b6923fa/attachment-0001.docx>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Su8 2100 datasheet.pdf
+Type: application/pdf
+Size: 246127 bytes
+Desc: Su8 2100 datasheet.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200629/4b6923fa/attachment-0002.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: sds_su8_2000_series msds.pdf
+Type: application/pdf
+Size: 92437 bytes
+Desc: sds_su8_2000_series msds.pdf
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200629/4b6923fa/attachment-0003.pdf>
+
+From mmrincon at stanford.edu  Tue Jun 30 13:11:43 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 30 Jun 2020 13:11:43 -0700
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDS2Pi5ugNDLD=WZh3-1XbXYRb332=E+FOKwRke6HEm=4Q@mail.gmail.com>
+
+Hi Phil,
+
+Can you take a quick peek to confirm he is doing what you expected? Will he
+be storing it in the right place?
+
+Thanks!
+Michelle
+
+On Mon, Jun 29, 2020 at 8:50 AM Pranay Agarwal <agpranay at stanford.edu>
+wrote:
+
+> Hello,
+>
+>
+>
+> I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I
+> wish to bring SU8 2100 at SNF cleanroom for performing photolithography.
+> Please find my request form and MSDS attached to this mail.
+>
+>
+>
+> Regards,
+>
+>
+>
+> Pranay Agarwal
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/4b950c51/attachment.html>
+
+From phimmer at stanford.edu  Tue Jun 30 13:36:30 2020
+From: phimmer at stanford.edu (Phillip Himmer)
+Date: Tue, 30 Jun 2020 20:36:30 +0000
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+Message-ID: <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+
+Hi Pranay
+
+Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+Otherwise its OK
+
+Thanks
+phil
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Pranay Agarwal
+Sent: Monday, June 29, 2020 8:50 AM
+To: snf-promcommittee at lists.stanford.edu
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+
+Hello,
+
+I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I wish to bring SU8 2100 at SNF cleanroom for performing photolithography. Please find my request form and MSDS attached to this mail.
+
+Regards,
+
+Pranay Agarwal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/43b3ac77/attachment.html>
+
+From agpranay at stanford.edu  Tue Jun 30 13:37:15 2020
+From: agpranay at stanford.edu (Pranay Agarwal)
+Date: Tue, 30 Jun 2020 20:37:15 +0000
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>,
+ <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+Message-ID: <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+
+Will do, thank you.
+
+Sent from my T-Mobile 4G LTE Device
+Get Outlook for Android<https://aka.ms/ghei36>
+
+________________________________
+From: Phillip Himmer <phimmer at stanford.edu>
+Sent: Tuesday, June 30, 2020 1:36:30 PM
+To: Pranay Agarwal <agpranay at stanford.edu>
+Cc: snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: RE: Use of Microchem SU8 2100
+
+
+Hi Pranay
+
+
+
+Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+
+Otherwise its OK
+
+
+
+Thanks
+
+phil
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> On Behalf Of Pranay Agarwal
+Sent: Monday, June 29, 2020 8:50 AM
+To: snf-promcommittee at lists.stanford.edu
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+
+
+
+Hello,
+
+
+
+I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I wish to bring SU8 2100 at SNF cleanroom for performing photolithography. Please find my request form and MSDS attached to this mail.
+
+
+
+Regards,
+
+
+
+Pranay Agarwal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/3ac7a3ba/attachment-0001.html>
+
+From michelle.rincon at gmail.com  Tue Jun 30 13:50:39 2020
+From: michelle.rincon at gmail.com (Michelle Rincon)
+Date: Tue, 30 Jun 2020 13:50:39 -0700
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+ <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDTZ8QWYC9qf8e2L_OrryX-hAs9euejiGZAEuanRcZz8Qw@mail.gmail.com>
+
+Thanks Pranay and Phil,
+
+Pranay- can you please update the form with that information and resubmit
+for archiving?
+
+Michelle
+
+On Tue, Jun 30, 2020 at 1:37 PM Pranay Agarwal <agpranay at stanford.edu>
+wrote:
+
+> Will do, thank you.
+>
+> Sent from my T-Mobile 4G LTE Device
+> Get Outlook for Android <https://aka.ms/ghei36>
+>
+> ------------------------------
+> *From:* Phillip Himmer <phimmer at stanford.edu>
+> *Sent:* Tuesday, June 30, 2020 1:36:30 PM
+> *To:* Pranay Agarwal <agpranay at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* RE: Use of Microchem SU8 2100
+>
+>
+> Hi Pranay
+>
+>
+>
+> Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+>
+> Otherwise its OK
+>
+>
+>
+> Thanks
+>
+> phil
+>
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> *On
+> Behalf Of *Pranay Agarwal
+> *Sent:* Monday, June 29, 2020 8:50 AM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [snf-promcommittee] Use of Microchem SU8 2100
+>
+>
+>
+> Hello,
+>
+>
+>
+> I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I
+> wish to bring SU8 2100 at SNF cleanroom for performing photolithography.
+> Please find my request form and MSDS attached to this mail.
+>
+>
+>
+> Regards,
+>
+>
+>
+> Pranay Agarwal
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/db692acf/attachment.html>
+
+From agpranay at stanford.edu  Tue Jun 30 13:57:00 2020
+From: agpranay at stanford.edu (Pranay Agarwal)
+Date: Tue, 30 Jun 2020 20:57:00 +0000
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <CAFSuyDTZ8QWYC9qf8e2L_OrryX-hAs9euejiGZAEuanRcZz8Qw@mail.gmail.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+ <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CAFSuyDTZ8QWYC9qf8e2L_OrryX-hAs9euejiGZAEuanRcZz8Qw@mail.gmail.com>
+Message-ID: <BYAPR02MB44699C69545D61286C921BBAA46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+
+Hi Michelle,
+
+Please find updated form attached here.
+
+Thanks,
+
+Pranay
+
+From: Michelle Rincon <michelle.rincon at gmail.com>
+Sent: Tuesday, June 30, 2020 1:51 PM
+To: Pranay Agarwal <agpranay at stanford.edu>
+Cc: Phillip Himmer <phimmer at stanford.edu>; snf-promcommittee at lists.stanford.edu
+Subject: Re: [snf-promcommittee] Use of Microchem SU8 2100
+
+Thanks Pranay and Phil,
+
+Pranay- can you please update the form with that information and resubmit for archiving?
+
+Michelle
+
+On Tue, Jun 30, 2020 at 1:37 PM Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>> wrote:
+Will do, thank you.
+Sent from my T-Mobile 4G LTE Device
+Get Outlook for Android<https://aka.ms/ghei36>
+
+________________________________
+From: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Sent: Tuesday, June 30, 2020 1:36:30 PM
+To: Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: RE: Use of Microchem SU8 2100
+
+
+Hi Pranay
+
+
+
+Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+
+Otherwise its OK
+
+
+
+Thanks
+
+phil
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu<mailto:snf-promcommittee-bounces at lists.stanford.edu>> On Behalf Of Pranay Agarwal
+Sent: Monday, June 29, 2020 8:50 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+
+
+
+Hello,
+
+
+
+I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I wish to bring SU8 2100 at SNF cleanroom for performing photolithography. Please find my request form and MSDS attached to this mail.
+
+
+
+Regards,
+
+
+
+Pranay Agarwal
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/4efe04d8/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: process_or_materials_request_form Pranay.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 106250 bytes
+Desc: process_or_materials_request_form Pranay.docx
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/4efe04d8/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Tue Jun 30 14:01:20 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 30 Jun 2020 14:01:20 -0700
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <BYAPR02MB44699C69545D61286C921BBAA46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+ <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CAFSuyDTZ8QWYC9qf8e2L_OrryX-hAs9euejiGZAEuanRcZz8Qw@mail.gmail.com>
+ <BYAPR02MB44699C69545D61286C921BBAA46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+Message-ID: <CAFSuyDROwWig3SNNQcvMTh6NODUgTN7NYk0hyFQ-uMbF=Vd0Uw@mail.gmail.com>
+
+Thanks Pranay,
+
+You are officially approved! Gary will be able to help with your labels
+now.
+
+Michelle
+
+On Tue, Jun 30, 2020 at 1:57 PM Pranay Agarwal <agpranay at stanford.edu>
+wrote:
+
+> Hi Michelle,
+>
+>
+>
+> Please find updated form attached here.
+>
+>
+>
+> Thanks,
+>
+>
+>
+> Pranay
+>
+>
+>
+> *From:* Michelle Rincon <michelle.rincon at gmail.com>
+> *Sent:* Tuesday, June 30, 2020 1:51 PM
+> *To:* Pranay Agarwal <agpranay at stanford.edu>
+> *Cc:* Phillip Himmer <phimmer at stanford.edu>;
+> snf-promcommittee at lists.stanford.edu
+> *Subject:* Re: [snf-promcommittee] Use of Microchem SU8 2100
+>
+>
+>
+> Thanks Pranay and Phil,
+>
+>
+>
+> Pranay- can you please update the form with that information and resubmit
+> for archiving?
+>
+>
+>
+> Michelle
+>
+>
+>
+> On Tue, Jun 30, 2020 at 1:37 PM Pranay Agarwal <agpranay at stanford.edu>
+> wrote:
+>
+> Will do, thank you.
+>
+> Sent from my T-Mobile 4G LTE Device
+>
+> Get Outlook for Android <https://aka.ms/ghei36>
+>
+>
+> ------------------------------
+>
+> *From:* Phillip Himmer <phimmer at stanford.edu>
+> *Sent:* Tuesday, June 30, 2020 1:36:30 PM
+> *To:* Pranay Agarwal <agpranay at stanford.edu>
+> *Cc:* snf-promcommittee at lists.stanford.edu <
+> snf-promcommittee at lists.stanford.edu>
+> *Subject:* RE: Use of Microchem SU8 2100
+>
+>
+>
+> Hi Pranay
+>
+>
+>
+> Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+>
+> Otherwise its OK
+>
+>
+>
+> Thanks
+>
+> phil
+>
+> *From:* snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu> *On
+> Behalf Of *Pranay Agarwal
+> *Sent:* Monday, June 29, 2020 8:50 AM
+> *To:* snf-promcommittee at lists.stanford.edu
+> *Subject:* [snf-promcommittee] Use of Microchem SU8 2100
+>
+>
+>
+> Hello,
+>
+>
+>
+> I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I
+> wish to bring SU8 2100 at SNF cleanroom for performing photolithography.
+> Please find my request form and MSDS attached to this mail.
+>
+>
+>
+> Regards,
+>
+>
+>
+> Pranay Agarwal
+>
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+> --
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/91655567/attachment.html>
+
+From gsosa at stanford.edu  Tue Jun 30 14:11:24 2020
+From: gsosa at stanford.edu (Gary J Sosa)
+Date: Tue, 30 Jun 2020 21:11:24 +0000
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+In-Reply-To: <CAFSuyDROwWig3SNNQcvMTh6NODUgTN7NYk0hyFQ-uMbF=Vd0Uw@mail.gmail.com>
+References: <BYAPR02MB44699EF0C9317158363F8A64A46E0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CY4PR02MB24244EA57982ADEF3463B8F8D16F0@CY4PR02MB2424.namprd02.prod.outlook.com>
+ <BYAPR02MB4469D50245BA6279E719FFB3A46F0@BYAPR02MB4469.namprd02.prod.outlook.com>
+ <CAFSuyDTZ8QWYC9qf8e2L_OrryX-hAs9euejiGZAEuanRcZz8Qw@mail.gmail.com>
+ <BYAPR02MB44699C69545D61286C921BBAA46F0@BYAPR02MB4469.namprd02.prod.outlook.com>,
+ <CAFSuyDROwWig3SNNQcvMTh6NODUgTN7NYk0hyFQ-uMbF=Vd0Uw@mail.gmail.com>
+Message-ID: <BY5PR02MB60981BF84618351B6BE3021EDE6F0@BY5PR02MB6098.namprd02.prod.outlook.com>
+
+Thanks Michelle...
+
+  SU-8 is becoming very standard with a few different varieties. I just feel comfortable with a process review, as a sanity check. Just in case there is anything unusual in the process flow that can send up a red flag. I will contact the user so I can get the information for the label.
+
+    Thanks again,  ...Gary
+________________________________
+From: Michelle Rincon <mmrincon at stanford.edu>
+Sent: Tuesday, June 30, 2020 2:01 PM
+To: Gary J Sosa <gsosa at stanford.edu>; Pranay Agarwal <agpranay at stanford.edu>
+Cc: Phillip Himmer <phimmer at stanford.edu>; snf-promcommittee at lists.stanford.edu <snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Use of Microchem SU8 2100
+
+Thanks Pranay,
+
+You are officially approved! Gary will be able to help with your labels now.
+
+Michelle
+
+On Tue, Jun 30, 2020 at 1:57 PM Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>> wrote:
+
+Hi Michelle,
+
+
+
+Please find updated form attached here.
+
+
+
+Thanks,
+
+
+
+Pranay
+
+
+
+From: Michelle Rincon <michelle.rincon at gmail.com<mailto:michelle.rincon at gmail.com>>
+Sent: Tuesday, June 30, 2020 1:51 PM
+To: Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>>
+Cc: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>; snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: Re: [snf-promcommittee] Use of Microchem SU8 2100
+
+
+
+Thanks Pranay and Phil,
+
+
+
+Pranay- can you please update the form with that information and resubmit for archiving?
+
+
+
+Michelle
+
+
+
+On Tue, Jun 30, 2020 at 1:37 PM Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>> wrote:
+
+Will do, thank you.
+
+Sent from my T-Mobile 4G LTE Device
+
+Get Outlook for Android<https://aka.ms/ghei36>
+
+
+
+________________________________
+
+From: Phillip Himmer <phimmer at stanford.edu<mailto:phimmer at stanford.edu>>
+Sent: Tuesday, June 30, 2020 1:36:30 PM
+To: Pranay Agarwal <agpranay at stanford.edu<mailto:agpranay at stanford.edu>>
+Cc: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu> <snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>>
+Subject: RE: Use of Microchem SU8 2100
+
+
+
+Hi Pranay
+
+
+
+Please store the SU8 in the new Headway cabinet by the spin rinse dryer
+
+Otherwise its OK
+
+
+
+Thanks
+
+phil
+
+From: snf-promcommittee <snf-promcommittee-bounces at lists.stanford.edu<mailto:snf-promcommittee-bounces at lists.stanford.edu>> On Behalf Of Pranay Agarwal
+Sent: Monday, June 29, 2020 8:50 AM
+To: snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+Subject: [snf-promcommittee] Use of Microchem SU8 2100
+
+
+
+Hello,
+
+
+
+I am Pranay Agarwal, a postdoc in the department of orthopedic surgery. I wish to bring SU8 2100 at SNF cleanroom for performing photolithography. Please find my request form and MSDS attached to this mail.
+
+
+
+Regards,
+
+
+
+Pranay Agarwal
+
+_______________________________________________
+snf-promcommittee mailing list
+snf-promcommittee at lists.stanford.edu<mailto:snf-promcommittee at lists.stanford.edu>
+https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+
+--
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu<mailto:mmrincon at stanford.edu>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/59c9bb25/attachment-0001.html>
+
+From agupta66 at gmail.com  Tue Jun 30 15:49:33 2020
+From: agupta66 at gmail.com (Amit Gupta)
+Date: Tue, 30 Jun 2020 15:49:33 -0700
+Subject: [snf-promcommittee] PROM for Solip PRM 2150
+Message-ID: <CA+eheBhsTmraPhQ+SS2APbrLmQUeh1roF=SM5wAj_n_ng4Tdmw@mail.gmail.com>
+
+Dear SNF PROM Committee,
+
+I am requesting today to use Solip PRM 2150 which is a primer for Solip
+Flex9H.  I had requested the use of Solip Flex9H by submitting the PROM
+documents on June 25th 2020.
+Please find attached the SNF PROM application and MSDS for Solip PRM 2150.
+
+We will need to use the primer initially in some cases, such as when
+coating on plastic substrates, before coating with Solip Flex9H.
+
+Please let me know if you have any questions.
+
+Best,
+Amit
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/8f656f39/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Flex9H PRM 2150_MSDS_EN.pdf
+Type: application/pdf
+Size: 154567 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/8f656f39/attachment-0001.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 20200630_AGupta_PROM_PRM2150.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 34990 bytes
+Desc: not available
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/8f656f39/attachment-0001.docx>
+
+From mmrincon at stanford.edu  Tue Jun 30 16:15:02 2020
+From: mmrincon at stanford.edu (Michelle Rincon)
+Date: Tue, 30 Jun 2020 16:15:02 -0700
+Subject: [snf-promcommittee] PROM for Solip PRM 2150
+In-Reply-To: <CA+eheBhsTmraPhQ+SS2APbrLmQUeh1roF=SM5wAj_n_ng4Tdmw@mail.gmail.com>
+References: <CA+eheBhsTmraPhQ+SS2APbrLmQUeh1roF=SM5wAj_n_ng4Tdmw@mail.gmail.com>
+Message-ID: <CAFSuyDQDReY4r7h0YZ_jcsQONJN+9WaQ0i1G6c434RF26NPXng@mail.gmail.com>
+
+Phil- this looks like an addendum to the last one. What do you think?
+
+Thanks!
+Michelle
+
+On Tue, Jun 30, 2020 at 3:49 PM Amit Gupta <agupta66 at gmail.com> wrote:
+
+> Dear SNF PROM Committee,
+>
+> I am requesting today to use Solip PRM 2150 which is a primer for Solip
+> Flex9H.  I had requested the use of Solip Flex9H by submitting the PROM
+> documents on June 25th 2020.
+> Please find attached the SNF PROM application and MSDS for Solip PRM
+> 2150.
+>
+> We will need to use the primer initially in some cases, such as when
+> coating on plastic substrates, before coating with Solip Flex9H.
+>
+> Please let me know if you have any questions.
+>
+> Best,
+> Amit
+> _______________________________________________
+> snf-promcommittee mailing list
+> snf-promcommittee at lists.stanford.edu
+> https://mailman.stanford.edu/mailman/listinfo/snf-promcommittee
+>
+
+
+-- 
+Michelle Rincon, PhD
+Senior Engineer
+Stanford Nanofabrication Facility
+
+(650)-725-0307
+mmrincon at stanford.edu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://mailman.stanford.edu/mailman/private/snf-promcommittee/attachments/20200630/f778b45f/attachment.html>
+

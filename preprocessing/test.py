@@ -3,8 +3,8 @@ from pathlib import Path
 import re
 import pypdfium2.internal as pdfium_i
 import docx2txt
-from models.insert import PromForm
-from rgx_pattern import collapse_spaces, extract_date_from_section, first_span_after, fuzzy_find_header, strip_boilerplate
+from preprocessing.models.insert import PromForm
+from preprocessing.rgx_pattern import collapse_spaces, extract_date_from_section, first_span_after, fuzzy_find_header, strip_boilerplate
 
 
 #OLD CODE; ALL NECESSARY FUNCTIONS ARE BEING IMPORTED INTO prom_pipeline.py
@@ -86,6 +86,7 @@ def extract_to_promform(cleaned_text: str, file_path: str ) -> PromForm:
     cleaned_text is a string that has the whole file in it, its been cleaned to remove whitespace, and extra spaces.
     file_path is simply used as an identifier to show which file errored
     """
+
 
     numbered_fields = {}
     min_header_start = 0

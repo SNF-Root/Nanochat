@@ -70,15 +70,19 @@ const uploadFile = (file, path, route, onProgress) =>
     }
 
     xhr.onload = () => {
-      if (xhr.status < 200 || xhr.status >= 300) {
-        reject(new Error(`Upload failed (${xhr.status})`))
-        return
-      }
       let payload = null
       try {
         payload = xhr.responseText ? JSON.parse(xhr.responseText) : null
       } catch {
         payload = null
+      }
+      if (xhr.status < 200 || xhr.status >= 300) {
+        reject({
+          statusCode: xhr.status,
+          payload,
+          message: `Upload failed (${xhr.status})`,
+        })
+        return
       }
       resolve(payload)
     }
@@ -468,13 +472,18 @@ export default function UploadPromPage() {
           ),
         )
       } catch (e) {
+        const rejectionReason =
+          e?.payload?.status === 'Rejected'
+            ? e.payload.reason || 'Upload rejected'
+            : null
         setItems((prev) =>
           prev.map((p) =>
             p.id === it.id
               ? {
                   ...p,
-                  status: 'error',
-                  message: 'Upload failed',
+                  status: rejectionReason ? 'rejected' : 'error',
+                  progress: 100,
+                  message: rejectionReason || 'Upload failed',
                 }
               : p,
           ),
@@ -491,8 +500,13 @@ export default function UploadPromPage() {
     if (!hasAny || hasActive) return
 
     const completed = items.filter((it) => it.status === 'done').map((it) => it.path)
+    const hasRejectedOrErrored = items.some(
+      (it) => it.status === 'rejected' || it.status === 'error',
+    )
     if (completed.length === 0) {
-      setItems([])
+      if (!hasRejectedOrErrored) {
+        setItems([])
+      }
       setMode('idle')
       return
     }
@@ -965,9 +979,13 @@ export default function UploadPromPage() {
                   <ul className="divide-y divide-slate-100">
                   {items.map((it) => {
                     const isDone = it.status === 'done'
+                    const isRejected = it.status === 'rejected'
                     const isError = it.status === 'error'
+                    const isFailure = isRejected || isError
                     const statusLabel = isDone
                       ? 'Completed'
+                      : isRejected
+                        ? 'Rejected'
                       : it.status === 'uploading'
                         ? 'Uploading'
                         : it.status === 'queued'
@@ -984,14 +1002,14 @@ export default function UploadPromPage() {
                                 'mt-0.5 w-10 h-10 rounded-2xl flex items-center justify-center',
                                 isDone
                                   ? 'bg-emerald-50 text-emerald-600'
-                                  : isError
+                                  : isFailure
                                     ? 'bg-red-50 text-red-600'
                                     : 'bg-slate-50 text-slate-600',
                               ].join(' ')}
                             >
                               {isDone ? (
                                 <CheckCircle2 className="w-5 h-5" />
-                              ) : isError ? (
+                              ) : isFailure ? (
                                 <AlertTriangle className="w-5 h-5" />
                               ) : (
                                 <FileText className="w-5 h-5" />
@@ -1015,7 +1033,7 @@ export default function UploadPromPage() {
                                       'text-xs px-2.5 py-1 rounded-full border',
                                       isDone
                                         ? 'bg-emerald-50 text-emerald-700 border-emerald-100'
-                                        : isError
+                                        : isFailure
                                           ? 'bg-red-50 text-red-700 border-red-100'
                                           : 'bg-slate-50 text-slate-700 border-slate-200',
                                     ].join(' ')}
@@ -1039,21 +1057,26 @@ export default function UploadPromPage() {
                                       'h-full rounded-full transition-[width] duration-200',
                                       isDone
                                         ? 'bg-emerald-500'
-                                        : isError
+                                        : isFailure
                                           ? 'bg-red-400'
                                           : 'bg-gradient-to-r from-red-500 via-red-500 to-red-600',
                                     ].join(' ')}
                                     style={{
-                                      width: `${isError ? 100 : it.progress}%`,
+                                      width: `${isFailure ? 100 : it.progress}%`,
                                     }}
                                   />
                                 </div>
                                 <div className="flex items-center justify-between mt-1.5 text-xs text-slate-500">
-                                  <div className="truncate">
+                                  <div
+                                    className={[
+                                      'truncate',
+                                      isRejected ? 'text-red-700' : '',
+                                    ].join(' ')}
+                                  >
                                     {it.message ? it.message : ' '}
                                   </div>
                                   <div className="tabular-nums">
-                                    {isError ? '—' : `${it.progress}%`}
+                                    {isFailure ? '—' : `${it.progress}%`}
                                   </div>
                                 </div>
                               </div>

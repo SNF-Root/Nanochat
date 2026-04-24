@@ -1,6 +1,7 @@
 from dataclasses import asdict, dataclass, replace
 from typing import Optional, List
 import psycopg2
+from preprocessing.database.pg import get_db_connection
 
 @dataclass(frozen=True)
 class Email:
@@ -23,9 +24,13 @@ class Email:
         INSERT INTO email_embeddings (date, filename, requestor, prom_approval, prom_considerations, chemicals, processes, llm_context, raw_thread, embedded_string, embedding)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (date, filename, requestor, chemicals, processes) DO NOTHING
+        RETURNING email_id
         """, (self.date, self.filepath, self.requestor, self.prom_approval, self.prom_considerations, self.chemicals, self.processes, self.llm_context, self.raw_thread, self.embedded_string, self.embedding))
+        inserted_row = cursor.fetchone()
         con.commit()
-        return cursor.rowcount
+        if inserted_row:
+            return inserted_row[0]
+        return None
 
 @dataclass(frozen=True)
 class PromForm:
@@ -50,9 +55,78 @@ class PromForm:
         INSERT INTO prom_embeddings (date, filename, requestor, request_title, chemicals_and_processes, request_reason, process_flow, amount_and_form, staff_considerations, raw_prom, embedded_string, request_embedding, process_embedding)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (date, requestor, request_title) DO NOTHING
+        RETURNING prom_id
         """, (self.date, self.filename, self.requestor, self.request_title, self.chemicals_and_processes, self.request_reason, self.process_flow, self.amount_and_form, self.staff_considerations, self.raw_prom, self.embedded_string, self.request_embedding, self.process_embedding))
+        inserted_row = cursor.fetchone()
         con.commit()
-        return cursor.rowcount
+        if inserted_row:
+            print(inserted_row[0])
+            return inserted_row[0]
+        return None
 
     def is_empty(self) -> List[str]:
         return [field for field, value in asdict(self).items() if not value]
+
+
+@dataclass(frozen=True)
+class AllEntry:
+    prom_id: int
+    email_id_1: Optional[int] = None
+    email_id_2: Optional[int] = None
+    email_id_3: Optional[int] = None
+    prom_embedding: Optional[list[float]] = None
+
+    def insert_all(self, con):
+        cursor = con.cursor()
+        cursor.execute("""
+        INSERT INTO all_embeddings (prom_id, email_id_1, email_id_2, email_id_3, prom_embedding)
+        VALUES (%s, %s, %s, %s, %s)
+        ON CONFLICT (prom_id) DO NOTHING
+        RETURNING entry_id
+        """, (self.prom_id, self.email_id_1, self.email_id_2, self.email_id_3, self.prom_embedding))
+        inserted_row = cursor.fetchone()
+        con.commit()
+        if inserted_row:
+            return inserted_row[0]
+        return None
+
+
+#for searching up the prom_ids embedding vector
+
+def get_prom_embedding_vector(row_id: int):
+    """
+    get the embedding vector of the prom form using row_id
+    then return the embedding vector of the row_id.
+    this is using the unique entry id for prom
+    """
+    con = get_db_connection()
+    try:
+        cursor = con.cursor()
+        cursor.execute("""
+        SELECT request_embedding
+        FROM prom_embeddings
+        WHERE prom_id = %s
+        """, (row_id,))
+        result = cursor.fetchone()
+        if result is None:
+            return None
+        return result[0]
+    finally:
+        con.close()
+
+
+def find_email_matches(prom_vector):
+    con = get_db_connection()
+    try:
+        cursor = con.cursor()
+        cursor.execute("""
+        SELECT email_id
+        FROM email_embeddings
+        WHERE 1 - (embedding <=> %s::vector) > 0.8
+        ORDER BY embedding <=> %s::vector
+        LIMIT 3
+        """, (prom_vector, prom_vector))
+        results = cursor.fetchall()
+        return [row[0] for row in results]
+    finally:
+        con.close()

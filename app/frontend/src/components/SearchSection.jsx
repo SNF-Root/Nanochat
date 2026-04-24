@@ -80,6 +80,17 @@ function SearchSection({
               >
                 PROMs
               </button>
+              <button
+                type="button"
+                onClick={() => setSearchMode('all')}
+                className={`px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 ${
+                  searchMode === 'all'
+                    ? 'bg-white text-slate-800 shadow-sm'
+                    : 'text-slate-500 hover:text-slate-700'
+                }`}
+              >
+                All
+              </button>
             </div>
 
             {/* Action Buttons */}

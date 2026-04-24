@@ -1,4 +1,9 @@
-from preprocessing.database.pg import get_db_connection, init_prom_table, init_email_table
+from preprocessing.database.pg import (
+    get_db_connection,
+    init_prom_table,
+    init_email_table,
+    init_all_table,
+)
 
 if __name__ == "__main__":
     con = None
@@ -6,7 +11,8 @@ if __name__ == "__main__":
         con = get_db_connection()
         con = init_prom_table(con=con, drop_table=False)
         con = init_email_table(con=con, drop_table=False)
-        print("initialized prom_embeddings and email_embeddings tables")
+        con = init_all_table(con=con, drop_table=False)
+        print("initialized prom_embeddings, email_embeddings, and all_embeddings tables")
     except Exception as e:
         print("worker setup failed (db connect or table init)")
         print(e)

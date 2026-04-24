@@ -1,13 +1,13 @@
 
-from models.insert import PromForm
+from preprocessing.models.insert import PromForm
 import os
 from multiprocessing import Pool
 import time
 from typing import List
 from dataclasses import replace
-from database.pg import get_db_connection, init_prom_table
+from preprocessing.database.pg import get_db_connection, init_prom_table
 import asyncio
-from test import fork_then_extract, build_embed_string
+from preprocessing.test import fork_then_extract, build_embed_string
 from openai import AsyncOpenAI
 
 
@@ -16,8 +16,7 @@ MAX_CONCURRENT_PROM_REQUESTS = 20
 
 
 client = AsyncOpenAI(
-    api_key=os.environ.get("STANFORD_API_KEY"),
-    base_url="https://aiapi-prod.stanford.edu/v1"
+    api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
 
@@ -106,6 +105,7 @@ async def embed_pipeline(prom_form: PromForm, embed_sem: asyncio.Semaphore) -> P
 async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
     embed_sem = asyncio.Semaphore(MAX_CONCURRENT_PROM_REQUESTS)
     tasks = [embed_pipeline(prom_object, embed_sem=embed_sem) for prom_object in prom_objects]
+    prom_ids = []
     for coro in asyncio.as_completed(tasks):
         finished_prom_object = await coro
         # Skip if embed_pipeline returned an error string
@@ -113,9 +113,13 @@ async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
             print(finished_prom_object)
             print(f"Skipping: {finished_prom_object}")
             continue
-        finished_prom_object.insert_prom(con)
-        print(f"Finished Inserting {finished_prom_object.request_title}")
-    
+        prom_id = finished_prom_object.insert_prom(con)
+        if prom_id is not None:
+            prom_ids.append(prom_id)
+            print(f"Finished Inserting {finished_prom_object.request_title}")
+        else:
+            print("Skipping insertion, duplicate entry exists in prom_embeddings")
+    return prom_ids 
 
 
 if __name__ == "__main__":
