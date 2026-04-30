@@ -19,14 +19,17 @@ from .prompts import (
 )
 from .models.server_classes import EmbedRequest, EmbedResponse, SearchResponse, SearchResult, UploadCounterResetResponse, UploadFileResponse, FileObject
 import os
+from datetime import datetime, timezone
 
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-5.2")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
+STANFORD_BASE_URL = os.getenv("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
 
 
 USER_COOKIE = "user_id"
 SESSION_TTL_SECONDS = 60 * 60 * 24 
+CHAT_TTL_SECONDS = 60 * 60 * 2
 
 VALID_PROM_UPLOAD_EXTENSIONS = [".pdf", ".docx"]
 VALID_EMAIL_UPLOAD_EXTENSIONS = [".txt"]
@@ -34,7 +37,11 @@ VALID_EMAIL_UPLOAD_EXTENSIONS = [".txt"]
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "uploaded_files"))
+LOG_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "logs"))
+SEARCH_LOG_PATH = os.path.join(LOG_DIR, "search_all_queries.log")
+CHAT_LOG_PATH = os.path.join(LOG_DIR, "chat_all_queries.log")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
 
 
 @asynccontextmanager
@@ -82,7 +89,11 @@ async def create_user_id(request: Request, response: Response) -> str:
 async def create_add_session_id(request: Request, response: Response) -> str:
     user_id = request.cookies.get(USER_COOKIE)
     session_id = uuid.uuid4().hex
-    added = await redis_uids_sids.sadd(_user_key(user_id), _session_key(session_id))
+    session_key = _session_key(session_id)
+    added = await redis_uids_sids.sadd(_user_key(user_id), session_key)
+    # Initialize chat context key at session creation so first stream call
+    # does not look like an expired session.
+    await redis_chat_context.set(session_key, json.dumps([]), ex=CHAT_TTL_SECONDS)
     return session_id, added 
 
 async def get_session_ids(request: Request, response: Response):
@@ -91,15 +102,15 @@ async def get_session_ids(request: Request, response: Response):
 
 
 
-
-
-#TODO: please change this to an async client for the love of concurrent streaming
 def create_openai_client() -> AsyncOpenAI:
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("STANFORD_API_KEY")
     if not api_key:
-        raise RuntimeError("Missing OPENAI_API_KEY")
+        raise RuntimeError("Missing STANFORD_API_KEY")
 
-    return AsyncOpenAI(api_key=api_key)
+    return AsyncOpenAI(
+        api_key=api_key,
+        base_url=STANFORD_BASE_URL,
+    )
 
 
 
@@ -122,13 +133,12 @@ def _upload_status_key(user_id: str) -> str:
     return f"user:upload_file_status:{user_id}"
 
 
-
+def append_log_line(file_path: str, payload: dict) -> None:
+    with open(file_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
 
 
 client = create_openai_client()
-
-
-
 
 #should happen during upon entering home
 
@@ -336,25 +346,29 @@ async def reset_upload_counter() -> UploadCounterResetResponse:
     return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
 
+async def append_context_entry(session_id: str, request: Request, response: Response, entry: dict) -> str:
+    key = _session_key(session_id)
+    raw_context = await redis_chat_context.get(key)
+    if raw_context is None:
+        return None
+    context_history = json.loads(raw_context) if raw_context else []
+    context_history.append(entry)
+    await redis_chat_context.set(key, json.dumps(context_history), ex=CHAT_TTL_SECONDS)
+    return session_id
+
+async def get_context(session_id: str, request: Request, response: Response):
+    key = _session_key(session_id)
+    raw_context = await redis_chat_context.get(key)
+    #check to see if chat_key expired
+    if raw_context is None:
+        return None
+    context_history = json.loads(raw_context) if raw_context else []
+    return context_history 
+
 async def embed_query(text: str) -> list[float]:
     response = await client.embeddings.create(model=EMBEDDING_MODEL, input=text)
     return response.data[0].embedding
 
-
-async def chat_completion(system_prompt: str, user_payload: str) -> str:
-    """Send a system + user message to the LLM and return the response text."""
-    print(f"[DEBUG] Sending to chat completion (model={CHAT_MODEL})...")  
-    completion = await client.chat.completions.create(
-        model=CHAT_MODEL,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_payload},
-        ],
-        temperature=0.2,
-    )
-    response_text = completion.choices[0].message.content or ""
-    print(f"[DEBUG] Chat completion succeeded, response length: {len(response_text)}")
-    return response_text.strip() or "No summary returned."
 
     
 async def stream_chat_completion_and_store(
@@ -403,11 +417,22 @@ async def stream_chat_completion_and_store(
 
 
 @app.post("/search/all", response_model=SearchResponse)
-async def search_emails(request: EmbedRequest) -> SearchResponse:
+async def search_all(request: EmbedRequest) -> SearchResponse:
     """Return the top 5 most similar prom->email1, email2, email3 connections"""
     query = request.text.strip()
     if not query:
         raise HTTPException(status_code=400, detail="Text is required")
+    try:
+        append_log_line(
+            SEARCH_LOG_PATH,
+            {
+                "ts_utc": datetime.now(timezone.utc).isoformat(),
+                "route": "/search/all",
+                "query": query,
+            },
+        )
+    except Exception as error:
+        print(f"[WARN] Failed to write search query log: {error}")
 
     query_embedding = await embed_query(query)
 
@@ -443,93 +468,40 @@ async def search_emails(request: EmbedRequest) -> SearchResponse:
     return SearchResponse(results=results)
 
 
+@app.get("/api/session/{session_id}")
+async def rehydrate_chat(session_id: str, request: Request, response: Response):
+    context_history = await get_context(session_id, request=request, response=response)
+    if context_history is None:
+        print("in rehydration chat, and key has expired")
+        return RedirectResponse(url="/chat/expired", status_code=307)
+    return context_history
 
-@app.post("/search/emails", response_model=SearchResponse)
-async def search_emails(request: EmbedRequest) -> SearchResponse:
-    """Return the top 5 most similar email threads (llm_context + similarity)."""
-    query = request.text.strip()
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
+@app.get("/session/{session_id}")
+async def redirect_rehydrated_chat(session_id: str, request: Request, response: Response):
+    return RedirectResponse(url=f"http://localhost:3000/session/{session_id}")
 
-    query_embedding = await embed_query(query)
-
-    con = None
-    try:
-        con = get_db_connection()
-        cursor = con.cursor()
-        cursor.execute(
-            """
-            SELECT
-                email_id,
-                llm_context,
-                1 - (embedding <=> %s::vector) AS similarity
-            FROM email_embeddings
-            ORDER BY embedding <=> %s::vector
-            LIMIT 5
-            """,
-            (query_embedding, query_embedding),
-        )
-        rows = cursor.fetchall()
-    except Exception as error:
-        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-    finally:
-        if con is not None:
-            con.close()
-
-    results = [
-        SearchResult(id=row[0], title=row[1] or "No context available", similarity=float(row[2]))
-        for row in rows
-    ]
-    return SearchResponse(results=results)
-
-
-@app.post("/search/proms", response_model=SearchResponse)
-async def search_proms(request: EmbedRequest) -> SearchResponse:
-    """Return the top 5 most similar PROM requests (title + similarity only)."""
-    query = request.text.strip()
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-
-    query_embedding = await embed_query(query)
-
-    con = None
-    try:
-        con = get_db_connection()
-        cursor = con.cursor()
-        cursor.execute(
-            """
-            SELECT
-                prom_id,
-                request_title,
-                1 - (request_embedding <=> %s::vector) AS similarity
-            FROM prom_embeddings
-            ORDER BY request_embedding <=> %s::vector
-            LIMIT 5
-            """,
-            (query_embedding, query_embedding),
-        )
-        rows = cursor.fetchall()
-    except Exception as error:
-        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-    finally:
-        if con is not None:
-            con.close()
-
-    results = [
-        SearchResult(id=row[0], title=row[1] or "Untitled Request", similarity=float(row[2]))
-        for row in rows
-    ]
-    return SearchResponse(results=results)
 
 @app.post("/session/{session_id}/embed/all/stream")
 async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
-
     query = payload.text.strip()
     print(f"[DEBUG][all][stream] Received query: '{query}'")
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
+    try:
+        append_log_line(
+            CHAT_LOG_PATH,
+            {
+                "ts_utc": datetime.now(timezone.utc).isoformat(),
+                "route": "/session/{session_id}/embed/all/stream",
+                "session_id": session_id,
+                "query": query,
+            },
+        )
+    except Exception as error:
+        print(f"[WARN] Failed to write chat query log: {error}")
 
     context_history = await get_context(session_id, request, response)
+    if context_history is None:
+        print("in stream/embed/all, and key has expired")
+        return RedirectResponse(url="/chat/expired", status_code=307)
     if len(context_history) == 0:
         try:
             print("[DEBUG][all][stream] Embedding query...")
@@ -690,235 +662,3 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
     return StreamingResponse(stream, media_type="text/plain")
 
 
-
-
-@app.post("/session/{session_id}/embed/emails/stream")
-async def embed_emails_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
-
-    query = payload.text.strip()
-    print(f"[DEBUG][emails][stream] Received query: '{query}'")
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-
-    context_history = await get_context(session_id, request, response)
-    if len(context_history) == 0:
-        try:
-            print("[DEBUG][emails][stream] Embedding query...")
-            query_embedding = await embed_query(query)
-            print(f"[DEBUG][emails][stream] Embedding succeeded, dim={len(query_embedding)}")
-        except Exception as error:
-            print(f"[ERROR][emails][stream] Embedding failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
-
-        con = None
-        try:
-            print("[DEBUG][emails][stream] Connecting to database...")
-            con = get_db_connection()
-            cursor = con.cursor()
-            cursor.execute(
-                """
-                SELECT
-                    date,
-                    requestor,
-                    filename,
-                    prom_approval,
-                    prom_considerations,
-                    chemicals,
-                    processes,
-                    raw_thread,
-                    1 - (embedding <=> %s::vector) AS similarity
-                FROM email_embeddings
-                ORDER BY embedding <=> %s::vector
-                LIMIT 1
-                """,
-                (query_embedding, query_embedding),
-            )
-            row = cursor.fetchone()
-            print(f"[DEBUG][emails][stream] DB query done. Row found: {row is not None}")
-        except Exception as error:
-            print(f"[ERROR][emails][stream] DB query failed: {error}")
-            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-        finally:
-            if con is not None:
-                con.close()
-
-        if row is None:
-            async def no_email_results():
-                text = "No relevant emails found."
-                await append_context_entry(
-                    session_id,
-                    request,
-                    response,
-                    {
-                        "route": "embed_emails_stream",
-                        "user_text": query,
-                        "assistant_text": text,
-                    },
-                )
-                yield text
-
-            return StreamingResponse(no_email_results(), media_type="text/plain")
-
-        (
-            date, requestor, filename, prom_approval, prom_considerations,
-            chemicals, processes, raw_thread, similarity,
-        ) = row
-
-        print(f"[DEBUG][emails][stream] Best match: date={date}, requestor={requestor}, similarity={similarity:.4f}")
-
-        system_prompt = EMAIL_SYSTEM_PROMPT
-        user_payload = (
-            "USER_QUESTION: Can you give me all the information on the email thread for this raw thread, don't summarize and be descriptive of important details such as considerations, safety concerns. do not give broad answer\n\n"
-            "RAW_THREAD:\n"
-            f"{raw_thread}\n\n"
-            f"PROM_APPROVAL: {prom_approval}\n"
-            f"PROM_CONSIDERATIONS: {prom_considerations}\n"
-            f"CHEMICALS: {chemicals}\n"
-            f"PROCESSES: {processes}\n"
-        )
-    else:
-        system_prompt = CONTINUATION_SYS_PROMPT
-        user_payload = json.dumps(
-            {
-                "current_user_message": query,
-                "context_history": context_history,
-            }
-        )
-
-    stream = stream_chat_completion_and_store(
-        session_id,
-        system_prompt=system_prompt,
-        user_payload=user_payload,
-        request=request,
-        response=response,
-        context_entry={
-            "route": "embed_emails_stream",
-            "user_text": query,
-        },
-    )
-    return StreamingResponse(stream, media_type="text/plain")
-
-
-
-async def append_context_entry(session_id: str, request: Request, response: Response, entry: dict) -> str:
-    key = _session_key(session_id)
-    raw_context = await redis_chat_context.get(key)
-    context_history = json.loads(raw_context) if raw_context else []
-    context_history.append(entry)
-    await redis_chat_context.set(key, json.dumps(context_history), ex=SESSION_TTL_SECONDS)
-    return session_id
-
-async def get_context(session_id: str, request: Request, response: Response):
-    key = _session_key(session_id)
-    raw_context = await redis_chat_context.get(key)
-    context_history = json.loads(raw_context) if raw_context else []
-    return context_history 
-
-# async def context_length(request: Request, response: Response) -> int:
-#     session_id = await get_or_create_session_id(request, response)
-#     key = _session_key(session_id)
-#     raw_context = await redis_chat_context.get(key)
-#     context_history = json.loads(raw_context) if raw_context else []
-#     return len(context_history)redis_uids_cids: Dic = 
-
-
-@app.post("/session/{session_id}/embed/proms/stream")
-async def embed_proms_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
-    query = payload.text.strip()
-    print(f"[DEBUG][proms][stream] Received query: '{query}'")
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-
-    context_history = await get_context(session_id, request, response)
-    if len(context_history) == 0:
-        try:
-            print("[DEBUG][proms][stream] Embedding query...")
-            query_embedding = await embed_query(query)
-            print(f"[DEBUG][proms][stream] Embedding succeeded, dim={len(query_embedding)}")
-        except Exception as error:
-            print(f"[ERROR][proms][stream] Embedding failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
-
-        con = None
-        try:
-            print("[DEBUG][proms][stream] Connecting to database...")
-            con = get_db_connection()
-            cursor = con.cursor()
-            cursor.execute(
-                """
-                SELECT
-                    request_title,
-                    chemicals_and_processes,
-                    request_reason,
-                    process_flow,
-                    amount_and_form,
-                    1 - (request_embedding <=> %s::vector) AS similarity
-                FROM prom_embeddings
-                ORDER BY request_embedding <=> %s::vector
-                LIMIT 1
-                """,
-                (query_embedding, query_embedding),
-            )
-            row = cursor.fetchone()
-            print(f"[DEBUG][proms][stream] DB query done. Row found: {row is not None}")
-        except Exception as error:
-            print(f"[ERROR][proms][stream] DB query failed: {error}")
-            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-        finally:
-            if con is not None:
-                con.close()
-
-        if row is None:
-            async def no_prom_results():
-                text = "No relevant PROM requests found."
-                await append_context_entry(
-                    session_id,
-                    request,
-                    response,
-                    {
-                        "route": "embed_proms_stream",
-                        "user_text": query,
-                        "assistant_text": text,
-                    },
-                )
-                yield text
-
-            return StreamingResponse(no_prom_results(), media_type="text/plain")
-
-        (
-            request_title, chemicals_and_processes, request_reason,
-            process_flow, amount_and_form, similarity,
-        ) = row
-
-        print(f"[DEBUG][proms][stream] Best match: title={request_title}, similarity={similarity:.4f}")
-
-        system_prompt = prom_prompt(request_title or "Untitled Request")
-        user_payload = (
-            f"USER_QUESTION: {query}\n\n"
-            f"REQUEST_TITLE: {request_title}\n"
-            f"CHEMICALS_AND_PROCESSES: {chemicals_and_processes}\n"
-            f"REQUEST_REASON: {request_reason}\n"
-            f"PROCESS_FLOW: {process_flow}\n"
-            f"AMOUNT_AND_FORM: {amount_and_form}\n"
-        )
-    else:
-        system_prompt = CONTINUATION_SYS_PROMPT
-        user_payload = json.dumps(
-            {
-                "current_user_message": query,
-                "context_history": context_history,
-            }
-        )
-
-    stream = stream_chat_completion_and_store(
-        session_id,
-        system_prompt=system_prompt,
-        user_payload=user_payload,
-        request=request,
-        response=response,
-        context_entry={
-            "route": "embed_proms_stream",
-            "user_text": query,
-        },
-    )
-    return StreamingResponse(stream, media_type="text/plain")

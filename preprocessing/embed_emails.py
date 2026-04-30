@@ -9,7 +9,8 @@ from dataclasses import replace
 
 
 client = AsyncOpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+  api_key=os.environ.get("STANFORD_API_KEY"),
+  base_url=os.environ.get("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1"),
 )
 
 
@@ -111,7 +112,7 @@ async def extract_prom_json(email_thread: str) -> str:
     system_prompt = SYSTEM_PROMPT_TEMPLATE.format(thread=email_thread)
 
     response = await client.chat.completions.create(
-        model="gpt-5.2",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": system_prompt}
         ],

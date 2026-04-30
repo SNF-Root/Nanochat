@@ -13,10 +13,12 @@ from openai import AsyncOpenAI
 
 
 MAX_CONCURRENT_PROM_REQUESTS = 20
+STANFORD_BASE_URL = os.environ.get("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
 
 
 client = AsyncOpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.environ.get("STANFORD_API_KEY"),
+    base_url=STANFORD_BASE_URL,
 )
 
 

@@ -18,24 +18,40 @@ function getSearchEndpoint(searchMode) {
 }
 
 function getStreamEndpoint(sessionId, searchMode) {
-  if (searchMode === 'proms') return `/session/${sessionId}/embed/proms/stream`
-  if (searchMode === 'all') return `/session/${sessionId}/embed/all/stream`
-  return `/session/${sessionId}/embed/emails/stream`
+  // Temporarily force all chat streaming through the all route.
+  return `/session/${sessionId}/embed/all/stream`
+  // if (searchMode === 'proms') return `/session/${sessionId}/embed/proms/stream`
+  // if (searchMode === 'all') return `/session/${sessionId}/embed/all/stream`
+  // return `/session/${sessionId}/embed/emails/stream`
 }
 
 function App() {
   const isLogoutPath = window.location.pathname === '/logout'
+  const isExpiredPath = window.location.pathname === '/chat/expired'
   const [view, setView] = useState('search') // 'search' | 'upload'
   const [query, setQuery] = useState('')
   const [messages, setMessages] = useState([])
   const [isThinking, setIsThinking] = useState(false)
-  const [searchMode, setSearchMode] = useState('emails')
+  const [searchMode, setSearchMode] = useState('all')
   const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
   const [hasUserSession, setHasUserSession] = useState(true)
   const [isCheckingUserSession, setIsCheckingUserSession] = useState(true)
   const [isCreatingUserSession, setIsCreatingUserSession] = useState(false)
   const [currentSessionId, setCurrentSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
+
+  const handleSessionExpired = (response) => {
+    const redirectedToExpired =
+      response.redirected &&
+      response.url &&
+      new URL(response.url, window.location.origin).pathname === '/chat/expired'
+
+    if (response.status === 401 || redirectedToExpired) {
+      window.location.replace('/chat/expired')
+      return true
+    }
+    return false
+  }
 
   const appendAssistantChunk = (assistantId, chunk) => {
     setMessages((prev) => {
@@ -100,6 +116,10 @@ function App() {
       body: JSON.stringify({ text }),
     })
 
+    if (handleSessionExpired(response)) {
+      throw new Error('Session expired')
+    }
+
     if (!response.ok) {
       throw new Error(`Stream request failed: ${response.status}`)
     }
@@ -155,7 +175,7 @@ function App() {
   }, [isLogoutPath])
 
   useEffect(() => {
-    if (isLogoutPath) return
+    if (isLogoutPath || isExpiredPath) return
 
     const checkUserSession = async () => {
       try {
@@ -163,6 +183,8 @@ function App() {
           method: 'GET',
           credentials: 'include',
         })
+
+        if (handleSessionExpired(response)) return
 
         if (!response.ok) {
           throw new Error(`User status request failed: ${response.status}`)
@@ -178,7 +200,7 @@ function App() {
     }
 
     checkUserSession()
-  }, [isLogoutPath])
+  }, [isExpiredPath, isLogoutPath])
 
   useEffect(() => {
     const handlePopState = () => {
@@ -189,10 +211,94 @@ function App() {
     return () => window.removeEventListener('popstate', handlePopState)
   }, [])
 
+  useEffect(() => {
+    if (isLogoutPath || isExpiredPath || !currentSessionId) return
+
+    const rehydrateChat = async () => {
+      try {
+        const response = await fetch(`/api/session/${currentSessionId}`, {
+          method: 'GET',
+          credentials: 'include',
+        })
+
+        if (handleSessionExpired(response)) return
+
+        if (!response.ok) {
+          throw new Error(`Rehydrate request failed: ${response.status}`)
+        }
+
+        const contextHistory = await response.json()
+        console.log("[rehydrate] raw context payload:", contextHistory)
+        if (!Array.isArray(contextHistory)) {
+          setMessages([])
+          return
+        }
+
+        const rehydratedMessages = []
+        contextHistory.forEach((entry, idx) => {
+          if (entry?.user_text) {
+            rehydratedMessages.push({
+              id: `rehydrate-user-${idx}`,
+              role: 'user',
+              text: String(entry.user_text),
+              isStreaming: false,
+            })
+          }
+          if (entry?.assistant_text) {
+            rehydratedMessages.push({
+              id: `rehydrate-assistant-${idx}`,
+              role: 'assistant',
+              text: String(entry.assistant_text),
+              isStreaming: false,
+            })
+          }
+        })
+
+        console.log("[rehydrate] mapped message count:", rehydratedMessages.length)
+        setMessages(rehydratedMessages)
+      } catch (error) {
+        console.error('Rehydrate request error:', error)
+      }
+    }
+
+    rehydrateChat()
+  }, [currentSessionId, isExpiredPath, isLogoutPath])
+
   if (isLogoutPath) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-100 text-slate-600">
         Signing out...
+      </div>
+    )
+  }
+
+  if (isExpiredPath) {
+    return (
+      <div className="min-h-screen flex flex-col bg-gradient-to-b from-slate-50 to-slate-100">
+        <Header view={view} setView={setView} hasUserSession={hasUserSession} onLogout={handleLogout} />
+        <main className="flex-1 flex items-center justify-center px-4">
+          <div className="w-full max-w-2xl bg-white shadow-lg shadow-slate-200/50 border border-slate-200 rounded-2xl p-8 sm:p-10">
+            <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-red-700 bg-red-50 border border-red-100 px-3 py-1 rounded-full">
+              Session Expired
+            </div>
+            <h1 className="mt-4 text-4xl font-semibold text-slate-800 tracking-tight">
+              Your chat took a coffee break and never came back.
+            </h1>
+            <p className="mt-4 text-base text-slate-700 leading-7">
+              Your chat session expired from inactivity. We are in beta right now, and we plan to move
+              chat storage to PostgreSQL so your context can be preserved long-term.
+            </p>
+            
+            <button
+              type="button"
+              onClick={() => window.location.replace('/')}
+              className="mt-6 px-4 py-2.5 rounded-xl bg-red-600 text-white text-sm font-medium hover:bg-red-700 transition-colors"
+            >
+              Return Home
+            </button>
+          </div>
+        </main>
+        <Footer />
       </div>
     )
   }
@@ -206,6 +312,8 @@ function App() {
         credentials: 'include',
       })
 
+      if (handleSessionExpired(response)) return
+
       if (!response.ok) {
         throw new Error(`User init failed: ${response.status}`)
       }
@@ -218,7 +326,7 @@ function App() {
     }
   }
 
-  const handleLogout = async () => {
+  async function handleLogout() {
     try {
       await fetch('/logout', {
         method: 'POST',
@@ -236,6 +344,10 @@ function App() {
       method: 'POST',
       credentials: 'include',
     })
+
+    if (handleSessionExpired(response)) {
+      throw new Error('Session expired')
+    }
 
     if (!response.ok) {
       throw new Error(`Session init failed: ${response.status}`)
@@ -267,6 +379,8 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: trimmed }),
       })
+
+      if (handleSessionExpired(response)) return
 
       if (!response.ok) {
         console.error('Search request failed:', response.status)

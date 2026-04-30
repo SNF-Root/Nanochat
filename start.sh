@@ -73,7 +73,8 @@ run_script() {
     -e "DB_NAME=${DB_NAME}" \
     -e "DB_USER=${DB_USER}" \
     -e "DB_PASSWORD=${DB_PASSWORD}" \
-    -e "OPENAI_API_KEY=${OPENAI_API_KEY:-}" \
+    -e "STANFORD_API_KEY=${STANFORD_API_KEY:-}" \
+    -e "STANFORD_BASE_URL=${STANFORD_BASE_URL:-https://aiapi-prod.stanford.edu/v1}" \
     "${IMAGE_NAME}:${TAG}" \
     python "${script}"
 }
@@ -94,7 +95,8 @@ start_shell() {
     -e "DB_NAME=${DB_NAME}" \
     -e "DB_USER=${DB_USER}" \
     -e "DB_PASSWORD=${DB_PASSWORD}" \
-    -e "OPENAI_API_KEY=${OPENAI_API_KEY:-}" \
+    -e "STANFORD_API_KEY=${STANFORD_API_KEY:-}" \
+    -e "STANFORD_BASE_URL=${STANFORD_BASE_URL:-https://aiapi-prod.stanford.edu/v1}" \
     "${IMAGE_NAME}:${TAG}" \
     /bin/bash
 }

@@ -1,38 +1,27 @@
-
-
-
-## Tasks
-
-
 ## TODO
 - **Merge with SAML**
   - Make sure all endpoints require SAML Auth
   - Merge with current worker code
 
-- **Turn on three workers for the upload, and fix zrem race condition**
-  - Zrem happening three times when multiple workers 
-  - use process memory to isolate workers
-
  **Replace shared worker DB connection with pooled ownership**
   - Current workers still share a global synchronous Postgres connection, while some helper functions open their own connections ad hoc.
   - Rework DB access so worker tasks borrow connections from a pool with clearer ownership, then revisit async Postgres migration later.
   - Affected files: `app/worker.py`, `preprocessing/models/insert.py`, DB access layer.
-- **Fix reload chat window crash**
-  - Use local storage on client side to store messages so reload does not crash.
+
 - **Come prep-prepared with uploaded files**
   - Upload the data from the drive
   - Come with this next week
   - use new stanford api key
 
-- **Logging Queries**
-  - Use a text file and see what questions are people using
-  - Just see what questions people are asking it
-  - one text file for searching the different prom; see how people are searching for proms
-  - one text file for in-session chats; see how people are talking to the chatbot
-
- 
-
 ## Minor
+
+- **Hyper-optimize email→PROM matching for `all_embeddings`**
+  - Update the email extraction system prompt so `chemicals_mentioned` captures broader material/entity terms (e.g., nanoparticles), not only strict chemical names.
+  - Expand `processes_mentioned` to include fabrication steps, machine/tool mentions, and process-equipment context when explicitly present.
+  - Refocus `llm_context` to concise subject-matter context centered on the actual request topic (example: ZnO nanoparticles), instead of generic filler.
+  - Redesign email `embedded_string` format to align structurally and semantically with PROM embed strings to improve nearest-neighbor quality.
+  - Re-evaluate similarity threshold and top-k behavior in `find_email_matches` after prompt/string changes; validate match precision on known PROM-email pairs.
+  - Affected files: `preprocessing/embed_emails.py`, `preprocessing/models/insert.py`, `app/worker.py`, PROM-to-email evaluation flow.
 
 - **Revisit `llm_context` inside email embedding string**
   - Current email matching embeds `llm_context` alongside the extracted request, chemicals, and processes.
@@ -54,6 +43,11 @@
 - preprocessing/prom_pipeline.py
 - **Queue prioritization does not scale to more than 2 queues right now, fix later**
   - Current worker queue-priority logic is tailored to two queues and will need a more general scheduling approach if additional queue types are added.
+  - Affected file: `app/worker.py`.
+
+- **Retry ownership is process-local and breaks on worker restart**
+  - Current retry ownership for `prom_retry_ids` relies on in-memory worker state (`inserted_prom_ids`), which is lost if a worker crashes/restarts.
+  - Move ownership/claim tracking to Redis (shared state) so retry processing and `ZREM` behavior remain correct across worker restarts.
   - Affected file: `app/worker.py`.
 
 - **Queue prioritization does not scale to more than 2 queues right now, fix later**

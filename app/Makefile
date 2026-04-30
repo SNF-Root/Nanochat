@@ -3,7 +3,7 @@
 help:
 	@echo "  server   - Start the backend server"
 	@echo "  frontend - Start the frontend development server"
-	@echo "  workers  - Start 2 background upload workers"
+	@echo "  workers  - Start 3 background upload workers"
 	@echo "  snfRAG - Start both backend and frontend in parallel"
 	@echo "  stop     - Stop both servers"
 	@echo "  help     - Show this help message"
@@ -16,7 +16,12 @@ frontend:
 
 workers:
 	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.setup_worker
-	cd .. && PYTHONPATH=/app:/app/preprocessing python -m app.worker
+	@echo "Starting 3 upload workers..."
+	@cd .. && \
+	PYTHONPATH=/app:/app/preprocessing python -m app.worker & \
+	PYTHONPATH=/app:/app/preprocessing python -m app.worker & \
+	PYTHONPATH=/app:/app/preprocessing python -m app.worker & \
+	wait
 
 
 snfRAG:

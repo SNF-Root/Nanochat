@@ -30,3 +30,17 @@
 - **Finished successful file upload notification system**
   - Added the success-path upload notification flow so worker status updates can be surfaced back to the frontend upload UI.
   - Affected files: `app/worker.py`, `app/server/main.py`, `app/frontend/src/components/UploadPromPage.jsx`.
+
+- **Fix reload chat window crash**
+  - Use local storage on client side to store messages so reload does not crash.
+
+- **Turn on three workers for the upload, and fix zrem race condition**
+  - Zrem happening three times when multiple workers 
+  - use process memory to isolate workers
+
+- **Logging Queries**
+  - Use a text file and see what questions are asking in the search bar.
+  - Just see what questions people are asking it inside the chat rooms.
+  - one text file for searching the different prom; see how people are searching for proms | this is called stats/search_queries.txt
+  - one text file for in-session chats; see how people are talking to the chatbot | this is called stats/user_chat_queries.txt
+

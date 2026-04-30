@@ -56,7 +56,7 @@ function SearchSection({
 
           {/* Bottom Row */}
           <div className="flex items-center justify-between">
-            {/* Mode Toggle */}
+            {/* Mode Toggle (temporarily disabled)
             <div className="flex items-center bg-slate-100 rounded-lg border border-slate-200 p-0.5">
               <button
                 type="button"
@@ -92,6 +92,7 @@ function SearchSection({
                 All
               </button>
             </div>
+            */}
 
             {/* Action Buttons */}
             <div className="flex items-center gap-2">

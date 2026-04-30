@@ -177,7 +177,7 @@ def strip_bullets(text: str) -> str:
 
 client = AsyncOpenAI(
     api_key=os.environ.get("STANFORD_API_KEY"),
-    base_url="https://aiapi-prod.stanford.edu/v1"
+    base_url=os.environ.get("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
 )
 
 
