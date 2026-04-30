@@ -31,6 +31,8 @@
   - Added the success-path upload notification flow so worker status updates can be surfaced back to the frontend upload UI.
   - Affected files: `app/worker.py`, `app/server/main.py`, `app/frontend/src/components/UploadPromPage.jsx`.
 
+# Solved from Apr 27 - 30
+
 - **Fix reload chat window crash**
   - Use local storage on client side to store messages so reload does not crash.
 
