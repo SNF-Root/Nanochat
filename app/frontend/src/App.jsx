@@ -11,28 +11,22 @@ function getSessionIdFromPath(pathname) {
   return match ? match[1] : null
 }
 
-function getSearchEndpoint(searchMode) {
-  if (searchMode === 'proms') return '/search/proms'
-  if (searchMode === 'all') return '/search/all'
-  return '/search/emails'
+function getSearchEndpoint() {
+  return '/search/all'
 }
 
-function getStreamEndpoint(sessionId, searchMode) {
-  // Temporarily force all chat streaming through the all route.
+function getStreamEndpoint(sessionId) {
   return `/session/${sessionId}/embed/all/stream`
-  // if (searchMode === 'proms') return `/session/${sessionId}/embed/proms/stream`
-  // if (searchMode === 'all') return `/session/${sessionId}/embed/all/stream`
-  // return `/session/${sessionId}/embed/emails/stream`
 }
 
 function App() {
   const isLogoutPath = window.location.pathname === '/logout'
   const isExpiredPath = window.location.pathname === '/chat/expired'
+  const isForbiddenPath = window.location.pathname === '/chat/forbidden'
   const [view, setView] = useState('search') // 'search' | 'upload'
   const [query, setQuery] = useState('')
   const [messages, setMessages] = useState([])
   const [isThinking, setIsThinking] = useState(false)
-  const [searchMode, setSearchMode] = useState('all')
   const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
   const [hasUserSession, setHasUserSession] = useState(true)
@@ -40,14 +34,26 @@ function App() {
   const [isCreatingUserSession, setIsCreatingUserSession] = useState(false)
   const [currentSessionId, setCurrentSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
 
-  const handleSessionExpired = (response) => {
+  const handleSessionState = (response) => {
     const redirectedToExpired =
       response.redirected &&
       response.url &&
       new URL(response.url, window.location.origin).pathname === '/chat/expired'
+    const redirectedToForbidden =
+      response.redirected &&
+      response.url &&
+      new URL(response.url, window.location.origin).pathname === '/chat/forbidden'
 
-    if (response.status === 401 || redirectedToExpired) {
+    if (response.status === 401) {
+      window.location.assign('/auth/saml/login')
+      return true
+    }
+    if (redirectedToExpired) {
       window.location.replace('/chat/expired')
+      return true
+    }
+    if (response.status === 403 || redirectedToForbidden) {
+      window.location.replace('/chat/forbidden')
       return true
     }
     return false
@@ -116,7 +122,7 @@ function App() {
       body: JSON.stringify({ text }),
     })
 
-    if (handleSessionExpired(response)) {
+    if (handleSessionState(response)) {
       throw new Error('Session expired')
     }
 
@@ -175,7 +181,7 @@ function App() {
   }, [isLogoutPath])
 
   useEffect(() => {
-    if (isLogoutPath || isExpiredPath) return
+    if (isLogoutPath || isExpiredPath || isForbiddenPath) return
 
     const checkUserSession = async () => {
       try {
@@ -184,7 +190,7 @@ function App() {
           credentials: 'include',
         })
 
-        if (handleSessionExpired(response)) return
+        if (handleSessionState(response)) return
 
         if (!response.ok) {
           throw new Error(`User status request failed: ${response.status}`)
@@ -200,7 +206,7 @@ function App() {
     }
 
     checkUserSession()
-  }, [isExpiredPath, isLogoutPath])
+  }, [isExpiredPath, isForbiddenPath, isLogoutPath])
 
   useEffect(() => {
     const handlePopState = () => {
@@ -212,7 +218,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    if (isLogoutPath || isExpiredPath || !currentSessionId) return
+    if (isLogoutPath || isExpiredPath || isForbiddenPath || !currentSessionId) return
 
     const rehydrateChat = async () => {
       try {
@@ -221,7 +227,7 @@ function App() {
           credentials: 'include',
         })
 
-        if (handleSessionExpired(response)) return
+        if (handleSessionState(response)) return
 
         if (!response.ok) {
           throw new Error(`Rehydrate request failed: ${response.status}`)
@@ -262,7 +268,7 @@ function App() {
     }
 
     rehydrateChat()
-  }, [currentSessionId, isExpiredPath, isLogoutPath])
+  }, [currentSessionId, isExpiredPath, isForbiddenPath, isLogoutPath])
 
   if (isLogoutPath) {
     return (
@@ -293,6 +299,39 @@ function App() {
               type="button"
               onClick={() => window.location.replace('/')}
               className="mt-6 px-4 py-2.5 rounded-xl bg-red-600 text-white text-sm font-medium hover:bg-red-700 transition-colors"
+            >
+              Return Home
+            </button>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
+  }
+
+  if (isForbiddenPath) {
+    return (
+      <div className="min-h-screen flex flex-col bg-gradient-to-b from-slate-50 to-slate-100">
+        <Header view={view} setView={setView} hasUserSession={hasUserSession} onLogout={handleLogout} />
+        <main className="flex-1 flex items-center justify-center px-4">
+          <div className="w-full max-w-2xl bg-white shadow-lg shadow-slate-200/50 border border-slate-200 rounded-2xl p-8 sm:p-10">
+            <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-amber-700 bg-amber-50 border border-amber-100 px-3 py-1 rounded-full">
+              Access Denied
+            </div>
+            <h1 className="mt-4 text-4xl font-semibold text-slate-800 tracking-tight">
+              That chat was not yours to reopen.
+            </h1>
+            <p className="mt-4 text-base text-slate-700 leading-7">
+              You tried to access a chat session that does not belong to your account, so the app blocked
+              the request.
+            </p>
+            <p className="mt-3 text-sm text-slate-600 leading-6">
+              Return home and start from search to open a chat that belongs to your current session.
+            </p>
+            <button
+              type="button"
+              onClick={() => window.location.replace('/')}
+              className="mt-6 px-4 py-2.5 rounded-xl bg-amber-600 text-white text-sm font-medium hover:bg-amber-700 transition-colors"
             >
               Return Home
             </button>
@@ -357,7 +396,7 @@ function App() {
       credentials: 'include',
     })
 
-    if (handleSessionExpired(response)) {
+    if (handleSessionState(response)) {
       throw new Error('Session expired')
     }
 
@@ -385,14 +424,14 @@ function App() {
     setSearchResults([])
 
     try {
-      const endpoint = getSearchEndpoint(searchMode)
+      const endpoint = getSearchEndpoint()
       const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: trimmed }),
       })
 
-      if (handleSessionExpired(response)) return
+      if (handleSessionState(response)) return
 
       if (!response.ok) {
         console.error('Search request failed:', response.status)
@@ -433,7 +472,7 @@ function App() {
     try {
       const sessionId = await createChatSession()
 
-      const endpoint = getStreamEndpoint(sessionId, searchMode)
+      const endpoint = getStreamEndpoint(sessionId)
 
       await streamEmbedResponse(endpoint, result.title, (chunk) => {
         if (!firstChunkReceived) {
@@ -472,7 +511,7 @@ function App() {
     let firstChunkReceived = false
 
     try {
-      const endpoint = getStreamEndpoint(currentSessionId, searchMode)
+      const endpoint = getStreamEndpoint(currentSessionId)
 
       await streamEmbedResponse(endpoint, trimmed, (chunk) => {
         if (!firstChunkReceived) {
@@ -555,8 +594,6 @@ function App() {
             setQuery={setQuery}
             onSend={sendChatMessage}
             isThinking={isThinking}
-            searchMode={searchMode}
-            setSearchMode={setSearchMode}
           />
         ) : (
           <>
@@ -589,8 +626,6 @@ function App() {
               query={query}
               setQuery={setQuery}
               onSearch={handleSearch}
-              searchMode={searchMode}
-              setSearchMode={setSearchMode}
               searchResults={searchResults}
               isSearching={isSearching}
               onStartChat={handleStartChat}

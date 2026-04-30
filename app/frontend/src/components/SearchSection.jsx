@@ -4,8 +4,6 @@ function SearchSection({
   query,
   setQuery,
   onSearch,
-  searchMode,
-  setSearchMode,
   searchResults,
   isSearching,
   onStartChat,
@@ -54,46 +52,7 @@ function SearchSection({
             />
           </div>
 
-          {/* Bottom Row */}
           <div className="flex items-center justify-between">
-            {/* Mode Toggle (temporarily disabled)
-            <div className="flex items-center bg-slate-100 rounded-lg border border-slate-200 p-0.5">
-              <button
-                type="button"
-                onClick={() => setSearchMode('emails')}
-                className={`px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 ${
-                  searchMode === 'emails'
-                    ? 'bg-white text-slate-800 shadow-sm'
-                    : 'text-slate-500 hover:text-slate-700'
-                }`}
-              >
-                Emails
-              </button>
-              <button
-                type="button"
-                onClick={() => setSearchMode('proms')}
-                className={`px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 ${
-                  searchMode === 'proms'
-                    ? 'bg-white text-slate-800 shadow-sm'
-                    : 'text-slate-500 hover:text-slate-700'
-                }`}
-              >
-                PROMs
-              </button>
-              <button
-                type="button"
-                onClick={() => setSearchMode('all')}
-                className={`px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 ${
-                  searchMode === 'all'
-                    ? 'bg-white text-slate-800 shadow-sm'
-                    : 'text-slate-500 hover:text-slate-700'
-                }`}
-              >
-                All
-              </button>
-            </div>
-            */}
-
             {/* Action Buttons */}
             <div className="flex items-center gap-2">
               <button

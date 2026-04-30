@@ -187,7 +187,7 @@ function renderMarkdown(text) {
   return blocks.length ? blocks : text
 }
 
-function ChatView({ messages, query, setQuery, onSend, isThinking, searchMode, setSearchMode }) {
+function ChatView({ messages, query, setQuery, onSend, isThinking }) {
   return (
     <div className="flex-1 w-full max-w-4xl mx-auto flex flex-col">
       <div className="flex-1 overflow-y-auto space-y-4 pb-6">
@@ -224,7 +224,7 @@ function ChatView({ messages, query, setQuery, onSend, isThinking, searchMode, s
       </div>
 
       <div className="pt-2 flex justify-center">
-        <SearchSection query={query} setQuery={setQuery} onSearch={onSend} searchMode={searchMode} setSearchMode={setSearchMode} />
+        <SearchSection query={query} setQuery={setQuery} onSearch={onSend} />
       </div>
     </div>
   )
