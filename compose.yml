@@ -30,6 +30,13 @@ services:
       - prom-network
     restart: unless-stopped
 
+  # SAML: `docker build` copies the repo into /app (including /app/config/saml if present at build
+  # time). At runtime, this service bind-mounts SAML_IDP_CERT_HOST_DIR → /run/saml; the app reads
+  # IdP cert from SAML_IDP_X509_CERT_PATH=/run/saml/idp.pem. SP PEMs are NOT auto-wired: set in .env
+  # SAML_SP_PRIVATE_KEY_PATH=/run/saml/sp-key.pem and SAML_SP_X509_CERT_PATH=/run/saml/sp-cert.pem
+  # when sp-key.pem / sp-cert.pem live in that host directory (same layout as ./config/saml).
+  # (Binding a missing host *file* to /run/saml/*.pem makes Docker create a directory — avoid that.)
+  #   SAML_IDP_CERT_HOST_DIR (optional, default ./config/saml), SAML_ALLOWED_EMAILS_HOST_PATH
   server:
     build:
       context: .
@@ -51,11 +58,15 @@ services:
       REDIS_URL: redis://redis:6379/0
       STANFORD_API_KEY: ${STANFORD_API_KEY}
       STANFORD_BASE_URL: https://aiapi-prod.stanford.edu/v1
+      SAML_IDP_X509_CERT_PATH: /run/saml/idp.pem
+      SAML_ALLOWED_EMAILS_PATH: /run/config/allowed_emails.yaml
     ports:
       - "3000:3000"  # frontend on 3000
       - "8000:8000"  # backend on 8000
     volumes:
       - .:/app
+      - ${SAML_IDP_CERT_HOST_DIR:-./config/saml}:/run/saml:ro
+      - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}:/run/config/allowed_emails.yaml:ro
     networks:
       - prom-network
     restart: unless-stopped

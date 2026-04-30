@@ -1,25 +1,48 @@
+import logging
+import os
 from typing import Dict, List, Set
 import json
 import uuid
 import shutil
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
+from urllib.parse import urlparse
+from fastapi import Depends, FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
 from fastapi.responses import RedirectResponse, StreamingResponse, JSONResponse
+from onelogin.saml2.settings import OneLogin_Saml2_Settings
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
 from typing import AsyncGenerator, Optional, Tuple
 from openai import AsyncOpenAI
 from preprocessing.database.pg import get_db_connection
+from .auth_config import is_email_allowed, load_allowed_emails
+from datetime import datetime, timezone
+from .models.server_classes import (
+    EmbedRequest, 
+    EmbedResponse, 
+    SearchResponse, 
+    SearchResult, 
+    UploadCounterResetResponse, 
+    UploadFileResponse, 
+    FileObject
+)
 from .prompts import (
     ALL_SYSTEM_PROMPT,
     CONTINUATION_SYS_PROMPT,
     EMAIL_SYSTEM_PROMPT,
     prom_prompt,
 )
-from .models.server_classes import EmbedRequest, EmbedResponse, SearchResponse, SearchResult, UploadCounterResetResponse, UploadFileResponse, FileObject
-import os
-from datetime import datetime, timezone
+from .saml_config import (
+    acs_public_url,
+    build_request_data_for_url,
+    build_saml_settings,
+    primary_email_from_saml,
+    saml_auth_for_request,
+    saml_is_configured,
+    saml_login_public_url,
+    sunet_from_saml,
+    validate_saml_env_at_startup,
+)
 
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
@@ -30,6 +53,7 @@ STANFORD_BASE_URL = os.getenv("STANFORD_BASE_URL", "https://aiapi-prod.stanford.
 USER_COOKIE = "user_id"
 SESSION_TTL_SECONDS = 60 * 60 * 24 
 CHAT_TTL_SECONDS = 60 * 60 * 2
+
 
 VALID_PROM_UPLOAD_EXTENSIONS = [".pdf", ".docx"]
 VALID_EMAIL_UPLOAD_EXTENSIONS = [".txt"]
@@ -46,6 +70,7 @@ os.makedirs(LOG_DIR, exist_ok=True)
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
+    validate_saml_env_at_startup()
     try:
         yield
     finally:
@@ -55,33 +80,59 @@ async def lifespan(_: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 redis_chat_context = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
+redis_auth_store = redis.Redis(host="redis", port=6379, db=5, decode_responses=True)
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
 redis_uids_sids = redis.Redis(host="redis", port=6379, db=2)
 redis_file_status_store = redis.Redis(host="redis", port=6379, db=3, decode_responses=True)
-
+logger = logging.getLogger(__name__)
 
 #called only on server shutdown
 async def clear_all_user_keys() -> int:
     deleted_count = 0
     async for key in redis_uids_sids.scan_iter():
         deleted_count += await redis_uids_sids.delete(key)
+    async for key in redis_auth_store.scan_iter():
+        deleted_count += await redis_auth_store.delete(key)
     async for key in redis_file_queue.scan_iter():
         await redis_file_queue.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
 
+def clear_uploaded_files_dir() -> None:
+    try:
+        if os.path.isdir(UPLOAD_DIR):
+            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
+    except Exception as e:
+        return f"Could not clear uploaded files {e}"
+
+def _auth_user_key(user_id: str) -> str:
+    return f"auth:user:{user_id}"
+
+def _user_key(user_id: str) -> str:
+    return f"user:{user_id}:session_ids"
+
+def _session_key(session_id: str) -> str:
+    return f"chat:session:{session_id}"
+
+def _upload_status_key(user_id: str) -> str:
+    return f"user:upload_file_status:{user_id}"
+
+def append_log_line(file_path: str, payload: dict) -> None:
+    with open(file_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
+
+def _user_cookie_params() -> dict:
+    return {
+        "max_age": SESSION_TTL_SECONDS,
+        "httponly": True,
+        "secure": os.getenv("COOKIE_SECURE", "").lower() in ("1", "true", "yes"),
+        "samesite": "lax",
+        "path": "/",
+    }
 
 async def create_user_id(request: Request, response: Response) -> str:
     user_id = uuid.uuid4().hex
-    response.set_cookie(
-        key=USER_COOKIE,
-        value=user_id,
-        max_age=SESSION_TTL_SECONDS,
-        httponly=True,
-        secure=False,      
-        samesite="lax",
-        path="/"
-    )
+    response.set_cookie(key=USER_COOKIE, value=user_id, **_user_cookie_params())
     return user_id
 
 
@@ -112,38 +163,48 @@ def create_openai_client() -> AsyncOpenAI:
         base_url=STANFORD_BASE_URL,
     )
 
-
-
-def clear_uploaded_files_dir() -> None:
-    try:
-        if os.path.isdir(UPLOAD_DIR):
-            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
-    except Exception as e:
-        return f"Could not clear uploaded files {e}"
-    
-
-def _user_key(user_id: str) -> str:
-    return f"user:{user_id}:session_ids"
-
-def _session_key(session_id: str) -> str:
-    return f"chat:session:{session_id}"
-
-
-def _upload_status_key(user_id: str) -> str:
-    return f"user:upload_file_status:{user_id}"
-
-
-def append_log_line(file_path: str, payload: dict) -> None:
-    with open(file_path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-
-
 client = create_openai_client()
+
+
+async def require_saml_authentication(request: Request) -> None:
+    if not saml_is_configured():
+        return
+    user_id = request.cookies.get(USER_COOKIE)
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Authentication required")
+    raw = await redis_auth_store.get(_auth_user_key(user_id))
+    if not raw:
+        raise HTTPException(status_code=401, detail="Authentication required")
+
+
+async def require_owned_chat_session(session_id: str, request: Request) -> None:
+    if not saml_is_configured():
+        return
+    await require_saml_authentication(request)
+    user_id = request.cookies.get(USER_COOKIE)
+    members = await redis_uids_sids.smembers(_user_key(user_id))
+    if _session_key(session_id) not in members:
+        raise HTTPException(status_code=403, detail="Unknown chat session")
+
 
 #should happen during upon entering home
 
 @app.post("/user/init")
 async def set_user_cookie(request: Request, response: Response):
+    if saml_is_configured():
+        user_id = request.cookies.get(USER_COOKIE)
+        if not user_id:
+            print("[SAML] /user/init -> 401 saml_required (no user_id cookie)")
+            raise HTTPException(
+                status_code=401,
+                detail={"error": "saml_required", "login_path": "/auth/saml/login"},
+            )
+        if not await redis_auth_store.get(_auth_user_key(user_id)):
+            print("[SAML] /user/init -> 401 saml_required (no SAML session in Redis for cookie)")
+            raise HTTPException(
+                status_code=401,
+                detail={"error": "saml_required", "login_path": "/auth/saml/login"},
+            )
     user_id = request.cookies.get(USER_COOKIE)
     if user_id:
         has_context = True
@@ -154,27 +215,23 @@ async def set_user_cookie(request: Request, response: Response):
         return {
             "created_session": False,
             "has_context": has_context,
-            "session_ids" : sids
+            "session_ids": sids,
         }
     user_id = await create_user_id(request, response)
     print("created session id")
     return {
         "created_session": True,
         "has_context": False,
-        "session_ids": ()
-    }
-
-
-@app.get("/user/status")
-async def user_status(request: Request):
-    user_id = request.cookies.get(USER_COOKIE)
-    return {
-        "has_user": bool(user_id),
+        "session_ids": (),
     }
 
 
 @app.post("/session/init")
-async def set_session_id(request: Request, response: Response):
+async def set_session_id(
+    request: Request,
+    response: Response,
+    _: None = Depends(require_saml_authentication),
+):
     user_id = request.cookies.get(USER_COOKIE)
     if user_id:
         session_id, added = await create_add_session_id(request, response)#needs to be some type of random uuid
@@ -212,8 +269,161 @@ async def logout(request: Request, response: Response):
     user_id = request.cookies.get(USER_COOKIE)
     if user_id:
         await redis_uids_sids.delete(_user_key(user_id))
+        await redis_auth_store.delete(_auth_user_key(user_id))
     response.delete_cookie(key=USER_COOKIE, path="/")
     return {"ok": True, "logged_out": True}
+
+
+@app.get("/saml/login")
+async def saml_login_alias():
+    """Shorthand URL; SAML AuthnRequest must use the canonical `/auth/saml/login` URL."""
+    if not saml_is_configured():
+        raise HTTPException(status_code=404, detail="SAML not configured")
+    return RedirectResponse(url="/auth/saml/login", status_code=307)
+
+
+@app.get("/auth/saml/login")
+async def saml_login(request: Request):
+    if not saml_is_configured():
+        raise HTTPException(status_code=404, detail="SAML not configured")
+    req_data = build_request_data_for_url(
+        public_url=saml_login_public_url(),
+        get_data={k: str(v) for k, v in request.query_params.items()},
+        post_data={},
+    )
+    auth = saml_auth_for_request(req_data)
+    frontend = os.getenv("SAML_FRONTEND_REDIRECT_URL", "").strip()
+    if not frontend:
+        p = urlparse(acs_public_url())
+        frontend = f"{p.scheme}://{p.netloc}/"
+    redirect_url = auth.login(return_to=frontend)
+    return RedirectResponse(redirect_url)
+
+
+async def _saml_acs_finish(
+    request: Request,
+    *,
+    get_data: dict[str, str],
+    post_data: dict[str, str],
+) -> RedirectResponse:
+    if not saml_is_configured():
+        raise HTTPException(status_code=404, detail="SAML not configured")
+    req_data = build_request_data_for_url(
+        public_url=acs_public_url(),
+        get_data=get_data,
+        post_data=post_data,
+    )
+    auth = saml_auth_for_request(req_data)
+    auth.process_response()
+    if auth.get_errors():
+        logger.warning(
+            "[SAML] acs outcome=reject phase=saml_validation errors=%r reason=%r",
+            auth.get_errors(),
+            auth.get_last_error_reason(),
+        )
+        raise HTTPException(status_code=401, detail="SAML validation failed")
+
+    attrs = auth.get_attributes()
+    nameid = auth.get_nameid()
+    email = primary_email_from_saml(attrs, nameid)
+    allowed = load_allowed_emails()
+    if not email:
+        keys = sorted(attrs.keys()) if attrs else []
+        logger.warning(
+            "[SAML] acs outcome=reject phase=credential "
+            "reason=no_email_in_assertion attribute_keys=%r nameid_present=%s",
+            keys,
+            bool(nameid),
+        )
+        raise HTTPException(status_code=401, detail="Not authorized for this application")
+    if not is_email_allowed(email, allowed):
+        logger.warning(
+            "[SAML] acs outcome=reject phase=allowlist "
+            "reason=email_not_allowlisted email=%r allowlist_entries=%d",
+            email,
+            len(allowed),
+        )
+        raise HTTPException(status_code=401, detail="Not authorized for this application")
+
+    user_id = request.cookies.get(USER_COOKIE) or uuid.uuid4().hex
+    sunet = sunet_from_saml(attrs, nameid, email)
+    payload = {
+        "email": email,
+        "sunetid": sunet,
+        "nameid": nameid,
+    }
+    await redis_auth_store.set(
+        _auth_user_key(user_id),
+        json.dumps(payload),
+        ex=SESSION_TTL_SECONDS,
+    )
+
+    relay = (
+        post_data.get("RelayState")
+        or get_data.get("RelayState")
+        or os.getenv("SAML_FRONTEND_REDIRECT_URL", "").strip()
+    )
+    if not relay:
+        p = urlparse(acs_public_url())
+        relay = f"{p.scheme}://{p.netloc}/"
+    if relay.startswith("/"):
+        p = urlparse(acs_public_url())
+        relay = f"{p.scheme}://{p.netloc}{relay}"
+
+    logger.info(
+        "[SAML] acs outcome=ok phase=session email=%r sunet=%r",
+        email,
+        sunet,
+    )
+
+    out = RedirectResponse(url=relay, status_code=303)
+    if not request.cookies.get(USER_COOKIE):
+        out.set_cookie(USER_COOKIE, user_id, **_user_cookie_params())
+    return out
+
+
+@app.get("/auth/saml/callback")
+async def saml_callback_get(request: Request):
+    """
+    Some IdPs or proxies deliver SAMLResponse on the query string (redirect-style).
+    python3-saml's process_response() only inspects post_data, so we mirror those params
+    into post_data when present. Bare GET (bookmark, bad redirect) → send user to login.
+    """
+    get_data = {k: str(v) for k, v in request.query_params.multi_items()}
+    if "SAMLResponse" not in get_data:
+        logger.warning(
+            "[SAML] acs outcome=reject phase=transport "
+            "reason=get_callback_without_samlresponse "
+            "(IdP must POST SAMLResponse; a proxy that turns POST into GET drops the body)"
+        )
+        return RedirectResponse(url="/auth/saml/login", status_code=303)
+    post_data = {
+        k: get_data[k]
+        for k in ("SAMLResponse", "RelayState")
+        if k in get_data
+    }
+    return await _saml_acs_finish(request, get_data=get_data, post_data=post_data)
+
+
+@app.post("/auth/saml/callback")
+async def saml_callback_post(request: Request):
+    """HTTP-POST binding: SAMLResponse and RelayState are form fields."""
+    form = await request.form()
+    post_data = {k: str(v) for k, v in form.multi_items()}
+    get_data = {k: str(v) for k, v in request.query_params.multi_items()}
+    return await _saml_acs_finish(request, get_data=get_data, post_data=post_data)
+
+
+@app.get("/saml/metadata")
+async def saml_metadata():
+    if not saml_is_configured():
+        raise HTTPException(status_code=503, detail="SAML not configured")
+    settings = OneLogin_Saml2_Settings(build_saml_settings())
+    metadata = settings.get_sp_metadata()
+    errs = settings.validate_metadata(metadata)
+    if errs:
+        raise HTTPException(status_code=500, detail="Invalid SAML metadata configuration")
+    return Response(content=metadata, media_type="application/xml")
     
 
 
@@ -223,7 +433,8 @@ async def upload_file(
     request: Request,
     file: UploadFile = File(...),
     path: str = Form(...),
-    ) -> UploadFileResponse:
+    _: None = Depends(require_saml_authentication),
+) -> UploadFileResponse:
     user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
@@ -266,7 +477,12 @@ async def upload_file(
     )
 
 @app.post("/upload/emails", response_model=UploadFileResponse)
-async def upload_email(request:Request, file: UploadFile = File(...), path: str = Form(...)) -> UploadFileResponse:
+async def upload_email(
+    request: Request,
+    file: UploadFile = File(...),
+    path: str = Form(...),
+    _: None = Depends(require_saml_authentication),
+) -> UploadFileResponse:
     user_id: str = request.cookies.get(USER_COOKIE)
     safe_filename = os.path.basename(file.filename or "upload.bin")
     stem, ext = os.path.splitext(safe_filename)
@@ -305,7 +521,7 @@ async def upload_email(request:Request, file: UploadFile = File(...), path: str 
 
 
 @app.get("/upload/show-list")
-async def show_list():
+async def show_list(_: None = Depends(require_saml_authentication)):
     prom_data_items = await redis_file_queue.lrange("pending_prom_files", 0, -1)
     emails_data_items = await redis_file_queue.lrange("pending_email_files", 0, -1)
     return_obj = {
@@ -316,7 +532,10 @@ async def show_list():
 
 
 @app.get("/upload/get")
-async def get_uploads(request: Request):
+async def get_uploads(
+    request: Request,
+    _: None = Depends(require_saml_authentication),
+):
     user_id = request.cookies.get(USER_COOKIE)
     if not user_id:
         return []
@@ -324,7 +543,10 @@ async def get_uploads(request: Request):
     return [json.loads(item) for item in items]
 
 @app.get("/context/show-list")
-async def show_context_list(request: Request):
+async def show_context_list(
+    request: Request,
+    _: None = Depends(require_saml_authentication),
+):
     # if not user_id:
         #hit them with a redirect
     all_active_sessions = {}
@@ -336,7 +558,9 @@ async def show_context_list(request: Request):
 
 
 @app.post("/upload/reset_counter", response_model=UploadCounterResetResponse)
-async def reset_upload_counter() -> UploadCounterResetResponse:
+async def reset_upload_counter(
+    _: None = Depends(require_saml_authentication),
+) -> UploadCounterResetResponse:
     key = "promfile_upload_counter"
     queue_name = "pending_files"
     len_of_queue = await redis_file_queue.llen(queue_name)
@@ -417,7 +641,7 @@ async def stream_chat_completion_and_store(
 
 
 @app.post("/search/all", response_model=SearchResponse)
-async def search_all(request: EmbedRequest) -> SearchResponse:
+async def search_all(request: EmbedRequest, _: None = Depends(require_saml_authentication)) -> SearchResponse:
     """Return the top 5 most similar prom->email1, email2, email3 connections"""
     query = request.text.strip()
     if not query:
@@ -469,7 +693,7 @@ async def search_all(request: EmbedRequest) -> SearchResponse:
 
 
 @app.get("/api/session/{session_id}")
-async def rehydrate_chat(session_id: str, request: Request, response: Response):
+async def rehydrate_chat(session_id: str, request: Request, response: Response, _: None = Depends(require_owned_chat_session)):
     context_history = await get_context(session_id, request=request, response=response)
     if context_history is None:
         print("in rehydration chat, and key has expired")
@@ -477,12 +701,12 @@ async def rehydrate_chat(session_id: str, request: Request, response: Response):
     return context_history
 
 @app.get("/session/{session_id}")
-async def redirect_rehydrated_chat(session_id: str, request: Request, response: Response):
+async def redirect_rehydrated_chat(session_id: str, request: Request, response: Response, _: None = Depends(require_owned_chat_session)):
     return RedirectResponse(url=f"http://localhost:3000/session/{session_id}")
 
 
 @app.post("/session/{session_id}/embed/all/stream")
-async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
+async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response, _: None = Depends(require_owned_chat_session)):
     query = payload.text.strip()
     print(f"[DEBUG][all][stream] Received query: '{query}'")
     try:
@@ -660,5 +884,4 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
         },
     )
     return StreamingResponse(stream, media_type="text/plain")
-
 

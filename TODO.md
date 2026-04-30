@@ -1,5 +1,5 @@
 ## TODO
-- **Merge with SAML**
+ **Merge with SAML**
   - Make sure all endpoints require SAML Auth
   - Merge with current worker code
 
@@ -8,7 +8,7 @@
   - Rework DB access so worker tasks borrow connections from a pool with clearer ownership, then revisit async Postgres migration later.
   - Affected files: `app/worker.py`, `preprocessing/models/insert.py`, DB access layer.
 
-- **Come prep-prepared with uploaded files**
+ **Come prep-prepared with uploaded files**
   - Upload the data from the drive
   - Come with this next week
   - use new stanford api key

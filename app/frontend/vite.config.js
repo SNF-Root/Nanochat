@@ -7,6 +7,7 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 3000,
     open: false,
+    allowedHosts: ['nano-chat.su.domains'],
     proxy: {
       '/embed': 'http://localhost:8000',
       '/search': 'http://localhost:8000',
@@ -16,7 +17,10 @@ export default defineConfig({
       '/session/init': 'http://localhost:8000',
       '^/session/.*/embed/.*': 'http://localhost:8000',
       '/context': 'http://localhost:8000',
-      '/logout': 'http://localhost:8000'
+      '/logout': 'http://localhost:8000',
+      // SAML: must hit FastAPI (redirect to IdP), not the SPA index.html
+      '/auth': 'http://localhost:8000',
+      '/saml': 'http://localhost:8000',
     }
   }
 })
