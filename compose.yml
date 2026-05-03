@@ -59,13 +59,15 @@ services:
       STANFORD_API_KEY: ${STANFORD_API_KEY}
       STANFORD_BASE_URL: https://aiapi-prod.stanford.edu/v1
       SAML_IDP_X509_CERT_PATH: /run/saml/idp.pem
+      SAML_SP_PRIVATE_KEY_PATH: /run/saml/sp-key.pem
+      SAML_SP_X509_CERT_PATH: /run/saml/sp-cert.pem
       SAML_ALLOWED_EMAILS_PATH: /run/config/allowed_emails.yaml
     ports:
       - "3000:3000"  # frontend on 3000
       - "8000:8000"  # backend on 8000
     volumes:
       - .:/app
-      - ${SAML_IDP_CERT_HOST_DIR:-./config/saml}:/run/saml:ro
+      - /Users/abdulhannanmohammed/Documents/saml:/run/saml:ro
       - ${SAML_ALLOWED_EMAILS_HOST_PATH:?Set SAML_ALLOWED_EMAILS_HOST_PATH in .env to the allow-list YAML on the host}:/run/config/allowed_emails.yaml:ro
     networks:
       - prom-network
@@ -80,3 +82,4 @@ volumes:
 networks:
   prom-network:
     name: prom-network
+    external: true
