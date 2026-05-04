@@ -42,7 +42,6 @@ BATCH_FILL_POLL_INTERVAL_SECONDS = 0.02
 
 async def log_retry_zadd(prom_id: int, score: int, reason: str):
     added = await redis_prom_retry_store.zadd("prom_retry_ids", {int(prom_id): int(score)})
-    inserted_prom_ids.add(prom_id)
     current_score = await redis_prom_retry_store.zscore("prom_retry_ids", int(prom_id))
     queue_size = await redis_prom_retry_store.zcard("prom_retry_ids")
     print(
@@ -52,16 +51,20 @@ async def log_retry_zadd(prom_id: int, score: int, reason: str):
     return added
 
 
-async def log_retry_zrem(prom_id: int, reason: str):
-    if prom_id in inserted_prom_ids:        
-        removed = await redis_prom_retry_store.zrem("prom_retry_ids", int(prom_id))
-        queue_size = await redis_prom_retry_store.zcard("prom_retry_ids")
-        print(
-            f"[prom_retry_ids] ZREM prom_id={prom_id} "
-            f"reason={reason} removed={removed} size={queue_size}"
-        )
-        return removed
-    return None
+async def claim_due_prom_id():
+    popped = await redis_prom_retry_store.zpopmin("prom_retry_ids", 1)
+    if not popped:
+        return None, False
+
+    prom_id_raw, score_raw = popped[0]
+    prom_id = int(prom_id_raw)
+    score = int(float(score_raw))
+    now = int(time.time())
+
+    if score > now:
+        await redis_prom_retry_store.zadd("prom_retry_ids", {prom_id: score})
+        return (score - now), False
+    return prom_id, True
 
 
 class FileStatusUpdate(BaseModel):
@@ -218,71 +221,47 @@ async def insert_to_db_worker():
 
 async def check_nonmatch_prom_worker():
     try:
-        while True:  
-                now = int(time.time())
-                due_ids = await redis_prom_retry_store.zrangebyscore(
-                    "prom_retry_ids",
-                    '-inf',
-                    now,
-                    start=0,
-                    num=10
-                )
-                due_ids = [int(id) for id in due_ids] 
-                if not due_ids:
-                    await asyncio.sleep(10)
+        while True:
+            prom_id, time_done= await claim_due_prom_id()
+            #prom_id returns the time left if time_done is False
+            if prom_id is None and not time_done:
+                await asyncio.sleep(10)
+                continue
+            if not time_done and prom_id:
+                await asyncio.sleep(prom_id + 0.2)
+                continue
+
+            print(f"claimed prom_id={prom_id} from prom_retry_ids")
+            try:
+                prom_embedding_vector = get_prom_embedding_vector(prom_id)
+                if prom_embedding_vector is None:
+                    print("embedding vector is None, skipping")
                     continue
-                for prom_id in due_ids:
-                    print("found some prom ids that need retrying")
-                    if prom_id not in inserted_prom_ids:
-                        continue
-                    try:
-                        prom_embedding_vector = get_prom_embedding_vector(prom_id)
-                        if prom_embedding_vector is None:
-                            removed_prom = await log_retry_zrem(
-                                prom_id=prom_id,
-                                reason="embedding vector missing",
-                            )
-                            if removed_prom is None:
-                                print("skip zrem: not owned by this worker (embedding vector missing)")
-                            print("embedding vector is None, Skipping") 
-                            continue
-                        matching_emails = find_email_matches(prom_embedding_vector)
-                        matching_emails_len = len(matching_emails)
-                        if matching_emails_len == 0:
-                            #if no match right now try in 5 minutes
-                            retry_at = int(time.time()) + 5
-                            removed_prom = await log_retry_zrem(
-                                prom_id=prom_id,
-                                reason="no email match found before retry reschedule",
-                            )
-                            if removed_prom is None:
-                                print("skip zrem: not owned by this worker (before retry reschedule)")
-                            await log_retry_zadd(
-                                prom_id=prom_id,
-                                score=retry_at,
-                                reason="rescheduled after no email match",
-                            )
-                            await asyncio.sleep(30)
-                            continue
-                        insert_all_obj = AllEntry(
-                            prom_id=prom_id,
-                            email_id_1=matching_emails[0] if matching_emails_len > 0 else None,
-                            email_id_2=matching_emails[1] if matching_emails_len > 1 else None,
-                            email_id_3=matching_emails[2] if matching_emails_len > 2 else None,
-                            prom_embedding=prom_embedding_vector
-                        )
-                        insertion_status = insert_all_obj.insert_all(con)
-                        if insertion_status is None:
-                            print("insertion failed due to duplicate entry possibly")
-                        removed_prom = await log_retry_zrem(
-                            prom_id=prom_id,
-                            reason="insert_all completed",
-                        )
-                        if removed_prom is None:
-                            print("this is not this workers prom id")
-                    except Exception as item_error:
-                        print(f"retry worker item error for prom_id={prom_id}: {item_error}")
-                await asyncio.sleep(1)
+
+                matching_emails = find_email_matches(prom_embedding_vector)
+                matching_emails_len = len(matching_emails)
+                if matching_emails_len == 0:
+                    retry_at = int(time.time()) + 5
+                    await log_retry_zadd(
+                        prom_id=prom_id,
+                        score=retry_at,
+                        reason="rescheduled after no email match",
+                    )
+                    continue
+
+                insert_all_obj = AllEntry(
+                    prom_id=prom_id,
+                    email_id_1=matching_emails[0] if matching_emails_len > 0 else None,
+                    email_id_2=matching_emails[1] if matching_emails_len > 1 else None,
+                    email_id_3=matching_emails[2] if matching_emails_len > 2 else None,
+                    prom_embedding=prom_embedding_vector
+                )
+                insertion_status = insert_all_obj.insert_all(con)
+                if insertion_status is None:
+                    print("insertion failed due to duplicate entry possibly")
+            except Exception as item_error:
+                print(f"retry worker item error for prom_id={prom_id}: {item_error}")
+            await asyncio.sleep(0)
     except Exception as loop_error:
         print(f"retry worker loop error: {loop_error}")
         await asyncio.sleep(2)
@@ -295,7 +274,6 @@ async def main():
     )
 
 if __name__ == "__main__":
-    inserted_prom_ids = set()
     try: 
         con = get_db_connection()
     except Exception as e:

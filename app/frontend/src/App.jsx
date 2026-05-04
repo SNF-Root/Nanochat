@@ -108,12 +108,16 @@ function App() {
     })
   }
 
-  const streamEmbedResponse = async (endpoint, text, onChunk) => {
+  const streamEmbedResponse = async (endpoint, text, onChunk, entryId = null) => {
+    const body = { text }
+    if (entryId !== null && entryId !== undefined) {
+      body.entry_id = entryId
+    }
     const response = await fetch(endpoint, {
       method: 'POST',
       credentials: 'include',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify(body),
     })
 
     if (handleSessionExpired(response)) {
@@ -429,7 +433,7 @@ function App() {
           setIsThinking(false)
         }
         appendAssistantChunk(assistantId, chunk)
-      })
+      }, result.id)
       finalizeAssistantMessage(assistantId)
     } catch (error) {
       console.error('Stream embed request error:', error)

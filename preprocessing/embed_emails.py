@@ -32,7 +32,6 @@ SCHEMA (must match exactly)
 }}
 
 RULES (CRITICAL)
-- EARLY EXIT: If EMAIL_THREAD is NOT about a PROM request (e.g., scheduling, administrative, general discussion, announcements, lab tours, nanofabrication interest or any topic unrelated to chemicals, materials, or the request of doing a certain nanofabrication process), return ONLY: {{"prom_request": "", "prom_considerations":"", "chemicals_mentioned":[], "processes_mentioned":[], "prom_considerations":"", "prom_approval":"", "approval_evidence": "", "llm_context": ""}}
 - Use ONLY the text in EMAIL_THREAD. Do NOT guess.
 - Do NOT include email headers/metadata inside any extracted strings (e.g., lines containing "From:", "To:", "Cc:", "Subject:", dates/timestamps).
 - Do NOT include quoted reply history (lines starting with ">").
@@ -87,10 +86,15 @@ FIELD DEFINITIONS
   - If prom_approval="hard_to_tell", set approval_evidence="".
 
 - llm_context:
-  YOUR domain knowledge that enriches the extracted information. Consider the prom_request, prom_considerations, chemicals_mentioned, and processes_mentioned, then ADD relevant context from your training knowledge.
-  Include: chemical properties, safety considerations, common use cases, process compatibility, typical equipment requirements, or known best practices.
-  This should SUPPLEMENT (not repeat) the verbatim extractions.
-  Aim for ~200 tokens. Be specific and technically relevant to semiconductor/nanofabrication contexts.
+  Write a concise, retrieval-oriented summary that is semantically aligned with a PROM form.
+  It must stay grounded in EMAIL_THREAD only (no external domain knowledge).
+  Focus on:
+  1) requested action/tool/process,
+  2) materials/chemicals involved,
+  3) purpose/goal,
+  4) key constraints/safety/committee conditions.
+  Prefer terminology likely to appear in PROM forms.
+  Length: 60-120 tokens. No speculation.
 
 EMAIL_THREAD:
 <<<THREAD

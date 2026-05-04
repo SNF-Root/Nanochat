@@ -4,6 +4,7 @@ from typing import Optional, List, Dict, Tuple
 
 class EmbedRequest(BaseModel):
     text: str
+    entry_id: Optional[int] = None
 
 
 class EmbedResponse(BaseModel):
