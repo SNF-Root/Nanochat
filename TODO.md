@@ -13,6 +13,18 @@
   - Come with this next week
   - use new stanford api key
 
+- **Going to need some more robust file handling**
+  - Right now doing the file handling dir on the ebs and keeping it in the dir after upload
+  - V2, switch to s3. 
+  - Do more robust file handling, right now when server winds down and deletes all of the uploaded files dir
+  - Also when you upload emails they are showing up in uploaded files dir
+  
+- **Replace localStorage-based "Attach Context" with server-side session state**
+  - Current short-term UI stores attached PROM titles/entry_ids in `localStorage` keyed by `session_id`.
+  - Long-term: implement `/session/{session_id}/context/attach` + persist attached entry ids in Redis so the backend can reliably include them in stream prompts and across devices.
+  - Affected files: `app/frontend/src/components/SearchSection.jsx`, `app/frontend/src/App.jsx`, `app/server/main.py`.
+
+
 ## Minor
 
 - **Hyper-optimize email→PROM matching for `all_embeddings`**
@@ -58,4 +70,3 @@
   - Explore completion-path optimizations (e.g., concurrency limits, request coalescing, caching, or prompt/token trimming) to reduce latency and cost.
   - Affected file: `app/server/main.py`.
 
--

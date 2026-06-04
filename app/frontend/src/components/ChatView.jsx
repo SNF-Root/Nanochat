@@ -187,10 +187,23 @@ function renderMarkdown(text) {
   return blocks.length ? blocks : text
 }
 
-function ChatView({ messages, query, setQuery, onSend, isThinking, searchMode, setSearchMode }) {
+function ChatView({
+  messages,
+  query,
+  setQuery,
+  onSend,
+  isThinking,
+  searchMode,
+  setSearchMode,
+  composerTabs,
+  attachedPromTitles,
+  attachedPromIds,
+  sessionId,
+  onAddContextProms,
+}) {
   return (
-    <div className="flex-1 w-full max-w-4xl mx-auto flex flex-col">
-      <div className="flex-1 overflow-y-auto space-y-4 pb-6">
+    <div className="flex-1 min-h-0 w-full max-w-4xl mx-auto flex flex-col">
+      <div className="flex-1 min-h-0 overflow-y-auto space-y-4 pb-8">
         {messages.map((message) => (
           <div
             key={message.id}
@@ -223,8 +236,20 @@ function ChatView({ messages, query, setQuery, onSend, isThinking, searchMode, s
         )}
       </div>
 
-      <div className="pt-2 flex justify-center">
-        <SearchSection query={query} setQuery={setQuery} onSearch={onSend} searchMode={searchMode} setSearchMode={setSearchMode} />
+      <div className="sticky bottom-0 z-10 pt-2 flex justify-center bg-transparent">
+        <SearchSection
+          query={query}
+          setQuery={setQuery}
+          onSearch={onSend}
+          searchMode={searchMode}
+          setSearchMode={setSearchMode}
+          composerTabs={composerTabs}
+          enableAddContext={true}
+          attachedPromTitles={attachedPromTitles}
+          attachedPromIds={attachedPromIds}
+          sessionId={sessionId}
+          onAddContextProms={onAddContextProms}
+        />
       </div>
     </div>
   )

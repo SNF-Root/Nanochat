@@ -130,3 +130,58 @@ def find_email_matches(prom_vector):
         return [row[0] for row in results]
     finally:
         con.close()
+
+
+def claim_unmatched_all_entries(con, current_latest_email_id: int, limit: int):
+    cursor = con.cursor()
+    cursor.execute(
+        """
+        WITH candidates AS (
+            SELECT entry_id, prom_id, prom_embedding
+            FROM all_embeddings
+            WHERE email_id_1 IS NULL
+              AND email_id_2 IS NULL
+              AND email_id_3 IS NULL
+              AND last_matched_against_email_id < %s
+            ORDER BY entry_id
+            FOR UPDATE SKIP LOCKED
+            LIMIT %s
+        )
+        UPDATE all_embeddings a
+        SET last_matched_against_email_id = %s
+        FROM candidates
+        WHERE a.entry_id = candidates.entry_id
+        RETURNING candidates.entry_id, candidates.prom_id, candidates.prom_embedding
+        """,
+        (current_latest_email_id, limit, current_latest_email_id),
+    )
+    rows = cursor.fetchall()
+    con.commit()
+    return rows
+
+
+def update_all_entry_matches(
+    con,
+    entry_id: int,
+    current_latest_email_id: int,
+    matching_emails: List[int],
+):
+    cursor = con.cursor()
+    cursor.execute(
+        """
+        UPDATE all_embeddings
+        SET email_id_1 = %s,
+            email_id_2 = %s,
+            email_id_3 = %s,
+            last_matched_against_email_id = %s
+        WHERE entry_id = %s
+        """,
+        (
+            matching_emails[0] if len(matching_emails) > 0 else None,
+            matching_emails[1] if len(matching_emails) > 1 else None,
+            matching_emails[2] if len(matching_emails) > 2 else None,
+            current_latest_email_id,
+            entry_id,
+        ),
+    )
+    con.commit()

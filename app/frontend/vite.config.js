@@ -10,8 +10,11 @@ export default defineConfig({
     proxy: {
       '/embed': 'http://localhost:8000',
       '/search': 'http://localhost:8000',
+      '/add': 'http://localhost:8000',
       '/upload': 'http://localhost:8000',
       '/user': 'http://localhost:8000',
+      '/files': 'http://localhost:8000',
+      '/emails': 'http://localhost:8000',
       '/api': 'http://localhost:8000',
       '/session/init': 'http://localhost:8000',
       '^/session/.*/embed/.*': 'http://localhost:8000',

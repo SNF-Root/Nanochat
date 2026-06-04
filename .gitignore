@@ -1,6 +1,8 @@
 .env
 setup_email_db.json
 files/
+app/uploaded_files/
+app/logs/
 prom/
 __pycache__/
 .vscode/
