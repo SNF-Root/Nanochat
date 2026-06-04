@@ -11,14 +11,25 @@ class EmbedResponse(BaseModel):
     text: str
 
 
+class AddContext(BaseModel):
+    entry_ids: List[int]
+
 class SearchResult(BaseModel):
     id: int
     title: str
     similarity: float
+    prom_filename: Optional[str] = None
 
 
 class SearchResponse(BaseModel):
     results: list[SearchResult]
+
+class SearchStartResponse(BaseModel):
+    session_id: str
+    prom_filename: str
+    entry_id: int
+    query: str
+    request_title: str
 
 
 class UploadFileResponse(BaseModel):
