@@ -92,8 +92,6 @@ async def set_last_seen_email_id(email_id: int):
     await redis_file_queue.set(NON_MATCH_LAST_SEEN_EMAIL_ID_KEY, int(email_id))
 
 
-
-
 def prom_extraction(batch: List[str]):
     problematic_files = []
     results = []
@@ -101,7 +99,7 @@ def prom_extraction(batch: List[str]):
         file_obj = FileObject(**json.loads(file_obj_str))
         prom_form = fork_then_extract(file_obj.filepath)
         if isinstance(prom_form, str) or prom_form is None:
-            problematic_files.append(prom_form)
+            problematic_files.append((file_obj, prom_form))
         else:
             results.append(prom_form)
     results = filter_duplicates(results)
@@ -109,14 +107,29 @@ def prom_extraction(batch: List[str]):
 
 async def prom_process_batch(file_batch: List[str]):
     file_objects = [FileObject(**json.loads(file_obj_str)) for file_obj_str in file_batch]
+    file_objects_by_path = {file_obj.filepath: file_obj for file_obj in file_objects}
     results, problematic_files = prom_extraction(file_batch)
+    failed_upload_ids = set()
+
+    for file_obj, _error in problematic_files:
+        await push_status(file_obj, "Could Not Upload")
+        failed_upload_ids.add(file_obj.upload_id)
+
     if results:
-        prom_ids = await run_prom_pipeline(results, con)
+        prom_ids, duplicate_filenames = await run_prom_pipeline(results, con)
         for prom_id in prom_ids:
             if prom_id is None:
                 print("Insertion failed due to some reason, look at error before")
                 continue
+        for duplicate_filename in duplicate_filenames:
+            file_obj = file_objects_by_path.get(duplicate_filename)
+            if file_obj is None:
+                continue
+            await push_status(file_obj, "Duplicate Already Exists")
+            failed_upload_ids.add(file_obj.upload_id)
         for file_obj in file_objects:
+            if file_obj.upload_id in failed_upload_ids:
+                continue
             await push_status(file_obj, "Inserted Into Database")
             await push_status(file_obj, "Complete")
     return problematic_files
@@ -204,14 +217,16 @@ async def non_match_prom_worker():
         while True:
             pending_email_count = await redis_file_queue.llen(EMAIL_QUEUE_NAME)
             if pending_email_count > 0:
-                await asyncio.sleep(10)
+                await asyncio.sleep(2)
                 continue
 
             current_latest_email_id = get_latest_email_id_from_db(con)
             last_seen_email_id = await get_last_seen_email_id()
+            
 
+            #if the entry you get from the db is smaller or equal than the last seen entry, then go back to sleep
             if current_latest_email_id <= last_seen_email_id:
-                await asyncio.sleep(5)
+                await asyncio.sleep(0.2)
                 continue
 
             print(

@@ -87,6 +87,8 @@ async def clear_all_user_keys() -> int:
     async for key in redis_file_queue.scan_iter():
         await redis_file_queue.delete(key)
     async for key in redis_prom_retry_ids.scan_iter():
+        if key is "worker:last_seen_email_id":
+            continue
         await redis_prom_retry_ids.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count

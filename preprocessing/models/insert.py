@@ -122,7 +122,7 @@ def find_email_matches(prom_vector):
         cursor.execute("""
         SELECT email_id
         FROM email_embeddings
-        WHERE 1 - (embedding <=> %s::vector) > 0.85
+        WHERE 1 - (embedding <=> %s::vector) >= 0.84
         ORDER BY embedding <=> %s::vector
         LIMIT 3
         """, (prom_vector, prom_vector))

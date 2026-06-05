@@ -109,10 +109,11 @@ async def embed_pipeline(prom_form: PromForm, embed_sem: asyncio.Semaphore) -> P
     
     return replace(prom_form, embedded_string=embed_string, request_embedding=prom_embed, process_embedding=process_embed)
 
-async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
+async def run_prom_pipeline(prom_objects: List[PromForm], con):
     embed_sem = asyncio.Semaphore(MAX_CONCURRENT_PROM_REQUESTS)
     tasks = [embed_pipeline(prom_object, embed_sem=embed_sem) for prom_object in prom_objects]
     prom_ids = []
+    duplicate_filenames = []
     cursor = con.cursor()
     for coro in asyncio.as_completed(tasks):
         finished_prom_object = await coro
@@ -140,7 +141,8 @@ async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
             print(f"Finished Inserting {finished_prom_object.request_title}")
         else:
             print("Skipping insertion, duplicate entry exists in prom_embeddings")
-    return prom_ids 
+            duplicate_filenames.append(finished_prom_object.filename)
+    return prom_ids, duplicate_filenames
 
 
 if __name__ == "__main__":
