@@ -25,7 +25,7 @@ def init_email_table(con = None, drop_table: bool = False):
     cursor.execute("CREATE EXTENSION IF NOT EXISTS vector")
 
     if drop_table:
-        cursor.execute("DROP TABLE IF EXISTS email_embeddings")
+        cursor.execute("DROP TABLE IF EXISTS email_embeddings CASCADE")
 
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS email_embeddings (
@@ -62,7 +62,7 @@ def init_prom_table(con = None, drop_table: bool = False):
     cursor = con.cursor()
     cursor.execute("CREATE EXTENSION IF NOT EXISTS vector")
     if drop_table:
-        cursor.execute("DROP TABLE IF EXISTS prom_embeddings")
+        cursor.execute("DROP TABLE IF EXISTS prom_embeddings CASCADE")
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS prom_embeddings (
     prom_id SERIAL PRIMARY KEY,
@@ -81,7 +81,7 @@ def init_prom_table(con = None, drop_table: bool = False):
     process_embedding vector(1536),
     UNIQUE (date, requestor, request_title)
     )
-    """)
+   """)
     print("FINISHED INITIATING TABLE")
     con.commit()
 
@@ -100,7 +100,7 @@ def init_all_table(con = None, drop_table: bool = False):
     cursor = con.cursor()
     cursor.execute("CREATE EXTENSION IF NOT EXISTS vector")
     if drop_table:
-        cursor.execute("DROP TABLE IF EXISTS all_embeddings")
+        cursor.execute("DROP TABLE IF EXISTS all_embeddings CASCADE")
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS all_embeddings (
     entry_id SERIAL PRIMARY KEY,
@@ -108,8 +108,13 @@ def init_all_table(con = None, drop_table: bool = False):
     email_id_1 INT REFERENCES email_embeddings(email_id),
     email_id_2 INT REFERENCES email_embeddings(email_id),
     email_id_3 INT REFERENCES email_embeddings(email_id),
-    prom_embedding vector(1536) NOT NULL
+    prom_embedding vector(1536) NOT NULL,
+    last_matched_against_email_id INT NOT NULL DEFAULT 0
     )
+    """)
+    cursor.execute("""
+    ALTER TABLE all_embeddings
+    ADD COLUMN IF NOT EXISTS last_matched_against_email_id INT NOT NULL DEFAULT 0
     """)
     print("FINISHED INITIATING MATCH TABLE")
     con.commit()

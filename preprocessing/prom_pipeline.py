@@ -1,5 +1,10 @@
 
-from preprocessing.models.insert import PromForm
+from preprocessing.models.insert import (
+    AllEntry,
+    PromForm,
+    find_email_matches,
+    update_all_entry_matches,
+)
 import os
 from multiprocessing import Pool
 import time
@@ -104,10 +109,12 @@ async def embed_pipeline(prom_form: PromForm, embed_sem: asyncio.Semaphore) -> P
     
     return replace(prom_form, embedded_string=embed_string, request_embedding=prom_embed, process_embedding=process_embed)
 
-async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
+async def run_prom_pipeline(prom_objects: List[PromForm], con):
     embed_sem = asyncio.Semaphore(MAX_CONCURRENT_PROM_REQUESTS)
     tasks = [embed_pipeline(prom_object, embed_sem=embed_sem) for prom_object in prom_objects]
     prom_ids = []
+    duplicate_filenames = []
+    cursor = con.cursor()
     for coro in asyncio.as_completed(tasks):
         finished_prom_object = await coro
         # Skip if embed_pipeline returned an error string
@@ -117,11 +124,25 @@ async def run_prom_pipeline(prom_objects: List[PromForm], con) -> int:
             continue
         prom_id = finished_prom_object.insert_prom(con)
         if prom_id is not None:
+            entry_id = AllEntry(
+                prom_id=prom_id,
+                prom_embedding=finished_prom_object.request_embedding,
+            ).insert_all(con)
+            cursor.execute("SELECT COALESCE(MAX(email_id), 0) FROM email_embeddings")
+            current_latest_email_id = int(cursor.fetchone()[0] or 0)
+            matching_emails = find_email_matches(finished_prom_object.request_embedding)
+            update_all_entry_matches(
+                con=con,
+                entry_id=entry_id,
+                current_latest_email_id=current_latest_email_id,
+                matching_emails=matching_emails,
+            )
             prom_ids.append(prom_id)
             print(f"Finished Inserting {finished_prom_object.request_title}")
         else:
             print("Skipping insertion, duplicate entry exists in prom_embeddings")
-    return prom_ids 
+            duplicate_filenames.append(finished_prom_object.filename)
+    return prom_ids, duplicate_filenames
 
 
 if __name__ == "__main__":

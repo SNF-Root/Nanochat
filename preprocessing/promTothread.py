@@ -265,13 +265,11 @@ def build_embed_string(prom_form: PromForm) -> str:
     
     if prom_form.request_title:
         parts.append(f"Request Title: {prom_form.request_title}")
-    
+    if prom_form.request_reason:
+        parts.append(f"Reason for Request: {prom_form.request_reason[:600]}") 
     if prom_form.chemicals_and_processes:
         parts.append(f"Chemical or Material: {prom_form.chemicals_and_processes}")
-    
-    if prom_form.request_reason:
-        parts.append(f"Reason for Request: {prom_form.request_reason[:600]}")
-
+        
     
     return "\n".join(parts)
 

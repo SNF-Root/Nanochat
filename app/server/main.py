@@ -4,34 +4,26 @@ from typing import Dict, List, Set
 import json
 import uuid
 import shutil
+import re
+from pathlib import Path
 from contextlib import asynccontextmanager
 from urllib.parse import urlparse
 from fastapi import Depends, FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
-from fastapi.responses import RedirectResponse, StreamingResponse, JSONResponse
+from fastapi.responses import RedirectResponse, StreamingResponse, JSONResponse, FileResponse
 from onelogin.saml2.settings import OneLogin_Saml2_Settings
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis.asyncio as redis
 from typing import AsyncGenerator, Optional, Tuple
 from openai import AsyncOpenAI
-from preprocessing.database.pg import get_db_connection
 from .auth_config import is_email_allowed, load_allowed_emails
 from datetime import datetime, timezone
-from .models.server_classes import (
-    EmbedRequest, 
-    EmbedResponse, 
-    SearchResponse, 
-    SearchResult, 
-    UploadCounterResetResponse, 
-    UploadFileResponse, 
-    FileObject
-)
+
 from .prompts import (
     ALL_SYSTEM_PROMPT,
     CONTINUATION_SYS_PROMPT,
-    EMAIL_SYSTEM_PROMPT,
-    prom_prompt,
-)
+    CONTINUATION_ADDED_CONTEXT_SYS_PROMPT
+    )
 from .saml_config import (
     acs_public_url,
     build_request_data_for_url,
@@ -43,12 +35,24 @@ from .saml_config import (
     sunet_from_saml,
     validate_saml_env_at_startup,
 )
+from .models.server_classes import (
+    EmbedRequest,
+    EmbedResponse,
+    SearchResponse,
+    SearchResult,
+    SearchStartResponse,
+    UploadFileResponse,
+    FileObject,
+    AddContext
+)
+from .models.pool_db import init_pool, get_db_connection, release_db_conn, close_all_conns
+import ast
 
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
 CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
 STANFORD_BASE_URL = os.getenv("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
-
+DSN = os.getenv("DATABASE_URL", "postgresql://user:user_pw@localhost:5433/appdb")
 
 USER_COOKIE = "user_id"
 SESSION_TTL_SECONDS = 60 * 60 * 24 
@@ -72,18 +76,23 @@ os.makedirs(LOG_DIR, exist_ok=True)
 async def lifespan(_: FastAPI):
     validate_saml_env_at_startup()
     try:
+        initiated = init_pool(dsn=DSN)
+        if initiated is None:
+            print("pool of connections did not instantiate")
+            return
         yield
     finally:
         await clear_all_user_keys()
-        clear_uploaded_files_dir() 
+        #clear_uploaded_files_dir()
+        close_all_conns() 
 
 
 app = FastAPI(lifespan=lifespan)
-redis_chat_context = redis.from_url(os.getenv("REDIS_URL"), decode_responses=True)
-redis_auth_store = redis.Redis(host="redis", port=6379, db=5, decode_responses=True)
+redis_chat_context = redis.Redis(host="redis", port=6379, db=0, decode_responses=True)
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
 redis_uids_sids = redis.Redis(host="redis", port=6379, db=2)
 redis_file_status_store = redis.Redis(host="redis", port=6379, db=3, decode_responses=True)
+redis_auth_store = redis.Redis(host="redis", port=6379, db=5, decode_responses=True)
 logger = logging.getLogger(__name__)
 
 #called only on server shutdown
@@ -94,6 +103,8 @@ async def clear_all_user_keys() -> int:
     async for key in redis_auth_store.scan_iter():
         deleted_count += await redis_auth_store.delete(key)
     async for key in redis_file_queue.scan_iter():
+        if key == "worker:last_seen_email_id":
+            continue
         await redis_file_queue.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
@@ -129,6 +140,9 @@ def _user_cookie_params() -> dict:
         "samesite": "lax",
         "path": "/",
     }
+
+
+
 
 async def create_user_id(request: Request, response: Response) -> str:
     user_id = uuid.uuid4().hex
@@ -557,19 +571,9 @@ async def show_context_list(
     return all_active_sessions
 
 
-@app.post("/upload/reset_counter", response_model=UploadCounterResetResponse)
-async def reset_upload_counter(
-    _: None = Depends(require_saml_authentication),
-) -> UploadCounterResetResponse:
-    key = "promfile_upload_counter"
-    queue_name = "pending_files"
-    len_of_queue = await redis_file_queue.llen(queue_name)
-    await redis_file_queue.delete(queue_name)
-    print(f"{key} set to 0")
-    print(f"{queue_name} cleared")
-    return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
 
+#Use an RPUSH here. not just for the atomic lock, but because this is inefficient for no reason
 async def append_context_entry(session_id: str, request: Request, response: Response, entry: dict) -> str:
     key = _session_key(session_id)
     raw_context = await redis_chat_context.get(key)
@@ -588,6 +592,25 @@ async def get_context(session_id: str, request: Request, response: Response):
         return None
     context_history = json.loads(raw_context) if raw_context else []
     return context_history 
+
+
+def parse_entry_ids_value(entry_ids_raw):
+    if entry_ids_raw is None:
+        return []
+
+    try:
+        parsed_entry_ids = json.loads(entry_ids_raw)
+    except (TypeError, json.JSONDecodeError):
+        try:
+            parsed_entry_ids = ast.literal_eval(entry_ids_raw)
+        except (ValueError, SyntaxError):
+            parsed_entry_ids = []
+
+    if isinstance(parsed_entry_ids, int):
+        return [parsed_entry_ids]
+    if not isinstance(parsed_entry_ids, list):
+        return []
+    return parsed_entry_ids
 
 async def embed_query(text: str) -> list[float]:
     response = await client.embeddings.create(model=EMBEDDING_MODEL, input=text)
@@ -640,6 +663,171 @@ async def stream_chat_completion_and_store(
             )
 
 
+#big security risk here, user may be able to access files we dont want him to access. 
+#what if client asked to see .env file, first do auth, then make sure the parent dir is just /upload/
+@app.get("/files/retrieve_files", response_class=FileResponse)
+async def retrieve_file(file_name: str, _: None = Depends(require_saml_authentication)):
+    match = re.search(r"[^/\\?#]+(?=$|[?#])", file_name or "")
+    base_name = match.group(0) if match else (file_name or "")
+    file_path = Path(UPLOAD_DIR) / base_name
+    if file_path.suffix != ".docx" and file_path.suffix != ".pdf":
+        print("innapropriate file path requested")
+        raise HTTPException(status_code=403, detail=f"Forbidden")
+    if not file_path.is_file():
+        print(f"UPLOAD_DIR is {UPLOAD_DIR}")
+        print(file_path)
+        print("could not find file path")
+        raise HTTPException(status_code=404, detail=f"File {base_name} does not exist on server")
+    print(f"Path is {file_path}")
+    file_path_suffix = file_path.suffix[1:]
+    return FileResponse(
+        path = file_path,
+        media_type=f"application/{file_path_suffix}",
+        filename = base_name,
+        headers={
+            "Content-Disposition": "inline",
+            "Cache-Control": "private, max-age=3600"
+        }
+    )
+
+@app.get("/emails/retrieve_emails/{session_id}")
+async def retrieve_email(
+    session_id: str,
+    request: Request,
+    _: None = Depends(require_owned_chat_session),
+):
+    entry_key = f"chat:session:selected_entry:{session_id}"
+    entry_ids_raw = await redis_chat_context.get(entry_key)
+    parsed_entry_ids = parse_entry_ids_value(entry_ids_raw)
+    if not parsed_entry_ids:
+        return {}
+
+    con = None
+    return_entries_obj = {}
+
+    try:
+        con = get_db_connection()
+        cursor = con.cursor()
+        for entry_id_raw in parsed_entry_ids:
+            entry_id = int(entry_id_raw)
+            cursor = con.cursor()
+            cursor.execute(
+                """
+                SELECT
+                    p.request_title,
+                    e1.raw_thread,
+                    e2.raw_thread,
+                    e3.raw_thread
+                FROM all_embeddings a
+                JOIN prom_embeddings p
+                    ON p.prom_id = a.prom_id
+                LEFT JOIN email_embeddings e1
+                    ON e1.email_id = a.email_id_1
+                LEFT JOIN email_embeddings e2
+                    ON e2.email_id = a.email_id_2
+                LEFT JOIN email_embeddings e3
+                    ON e3.email_id = a.email_id_3
+                WHERE a.entry_id = %s
+                LIMIT 1
+                """,
+                (entry_id,),
+            )
+            row = cursor.fetchone()
+            if row is None:
+                continue
+
+            request_title, email_1, email_2, email_3 = row
+
+            return_entries_obj[str(entry_id)] = {
+                "entry_id": entry_id,
+                "request_title": request_title,
+                "email_1": email_1,
+                "email_2": email_2,
+                "email_3": email_3,
+            }
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
+    finally:
+        if con is not None:
+            release_db_conn(con=con)
+
+    return return_entries_obj
+
+@app.post("/search/start", response_model=SearchStartResponse)
+async def search_all_start(
+    payload: EmbedRequest,
+    request: Request,
+    response: Response,
+    _: None = Depends(require_saml_authentication),
+):
+    """Return the top match plus a fresh session id so the client can immediately start streaming chat."""
+    query = payload.text.strip()
+    if not query:
+        raise HTTPException(status_code=400, detail="Text is required")
+    try:
+        append_log_line(
+            SEARCH_LOG_PATH,
+            {
+                "ts_utc": datetime.now(timezone.utc).isoformat(),
+                "route": "/search/start",
+                "query": query,
+            },
+        )
+    except Exception as error:
+        print(f"[WARN] Failed to write start search query log: {error}")
+
+    query_embedding = await embed_query(query)
+
+    con = None
+    try:
+        con = get_db_connection()
+        cursor = con.cursor()
+        cursor.execute(
+            """
+            SELECT
+                a.entry_id,
+                p.request_title,
+                p.filename,
+                1 - (a.prom_embedding <=> %s::vector) AS similarity
+            FROM all_embeddings a
+            JOIN prom_embeddings p
+                ON p.prom_id = a.prom_id
+            ORDER BY a.prom_embedding <=> %s::vector
+            LIMIT 1
+            """,
+            (query_embedding, query_embedding),
+        )
+        rows = cursor.fetchall()
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
+    finally:
+        if con is not None:
+            release_db_conn(con=con)
+    if not rows:
+        raise HTTPException(status_code=404, detail="No results found")
+    print(rows)
+    entry_id = rows[0][0]
+    request_title = rows[0][1]
+    prom_filename = rows[0][2]
+    session_id, added = await create_add_session_id(request, response)
+    session_id = session_id if added else None
+    if not session_id:
+        raise HTTPException(status_code=500, detail="Failed to create chat session")
+    entry_id_key = f"chat:session:selected_entry:{session_id}"
+    lst_entry_id = [entry_id]
+    try: 
+        await redis_chat_context.set(entry_id_key, json.dumps(lst_entry_id), ex=CHAT_TTL_SECONDS)
+    except Exception as e:
+        print("unable to save entry_id_key into redis_chat_context")
+        print(e) 
+    return {
+        "session_id": session_id,
+        "entry_id": lst_entry_id[0],
+        "prom_filename": prom_filename,
+        "query": query,
+        "request_title": request_title,
+    }
+
 @app.post("/search/all", response_model=SearchResponse)
 async def search_all(request: EmbedRequest, _: None = Depends(require_saml_authentication)) -> SearchResponse:
     """Return the top 5 most similar prom->email1, email2, email3 connections"""
@@ -669,6 +857,7 @@ async def search_all(request: EmbedRequest, _: None = Depends(require_saml_authe
             SELECT
                 a.entry_id,
                 p.request_title,
+                p.filename,
                 1 - (a.prom_embedding <=> %s::vector) AS similarity
             FROM all_embeddings a
             JOIN prom_embeddings p
@@ -683,15 +872,121 @@ async def search_all(request: EmbedRequest, _: None = Depends(require_saml_authe
         raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
     finally:
         if con is not None:
-            con.close()
+            release_db_conn(con=con)
 
     results = [
-        SearchResult(id=row[0], title=row[1] or "No context available", similarity=float(row[2]))
+        SearchResult(
+            id=row[0],
+            title=row[1] or "No context available",
+            prom_filename=row[2],
+            similarity=float(row[3]),
+        )
         for row in rows
     ]
     return SearchResponse(results=results)
 
 
+@app.post("/add/context/{session_id}")
+async def add_context(
+    session_id: str,
+    payload: AddContext,
+    request: Request,
+    response: Response,
+    _: None = Depends(require_owned_chat_session),
+):
+    entry_ids = [int(entry_id) for entry_id in payload.entry_ids]
+    if not entry_ids:
+        raise HTTPException(status_code=400, detail="entry_ids is required")
+
+    entry_key = f"chat:session:selected_entry:{session_id}"
+    existing_entry_ids = parse_entry_ids_value(await redis_chat_context.get(entry_key))
+    merged_entry_ids = list(dict.fromkeys([*existing_entry_ids, *entry_ids]))
+
+    con = None
+    attached_context = []
+    try:
+        con = get_db_connection()
+        cursor = con.cursor()
+        for entry_id in entry_ids:
+            cursor.execute(
+                """
+                SELECT
+                    p.request_title,
+                    p.chemicals_and_processes,
+                    p.request_reason,
+                    p.process_flow,
+                    p.amount_and_form,
+                    e1.prom_approval AS email_1_prom_approval,
+                    LEFT(e1.raw_thread, 2000) AS email_1_raw_thread,
+                    e2.prom_approval AS email_2_prom_approval,
+                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread
+                FROM all_embeddings a
+                JOIN prom_embeddings p
+                    ON p.prom_id = a.prom_id
+                LEFT JOIN email_embeddings e1
+                    ON e1.email_id = a.email_id_1
+                LEFT JOIN email_embeddings e2
+                    ON e2.email_id = a.email_id_2
+                WHERE a.entry_id = %s
+                LIMIT 1
+                """,
+                (entry_id,),
+            )
+            row = cursor.fetchone()
+            if row is None:
+                continue
+
+            (
+                request_title,
+                chemicals_and_processes,
+                request_reason,
+                process_flow,
+                amount_and_form,
+                email_1_prom_approval,
+                email_1_raw_thread,
+                email_2_prom_approval,
+                email_2_raw_thread,
+            ) = row
+            attached_context.append(
+                {
+                    "entry_id": entry_id,
+                    "request_title": request_title,
+                    "chemicals_and_processes": chemicals_and_processes,
+                    "request_reason": request_reason,
+                    "process_flow": process_flow,
+                    "amount_and_form": amount_and_form,
+                    "email_1_prom_approval": email_1_prom_approval,
+                    "email_1_raw_thread_excerpt": email_1_raw_thread,
+                    "email_2_prom_approval": email_2_prom_approval,
+                    "email_2_raw_thread_excerpt": email_2_raw_thread,
+                }
+            )
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
+    finally:
+        if con is not None:
+            release_db_conn(con=con)
+
+    await redis_chat_context.set(entry_key, json.dumps(merged_entry_ids), ex=CHAT_TTL_SECONDS)
+
+    if attached_context:
+        await append_context_entry(
+            session_id,
+            request,
+            response,
+            {
+                "route": "add_context",
+                "user_text": "Add context",
+                "attached_entry_ids": entry_ids,
+                "attached_context": attached_context,
+            },
+        )
+
+    return {
+        "ok": True,
+        "attached_entry_ids": merged_entry_ids,
+        "attached_context_count": len(attached_context),
+    }
 @app.get("/api/session/{session_id}")
 async def rehydrate_chat(session_id: str, request: Request, response: Response, _: None = Depends(require_owned_chat_session)):
     context_history = await get_context(session_id, request=request, response=response)
@@ -708,6 +1003,7 @@ async def redirect_rehydrated_chat(session_id: str, request: Request, response: 
 @app.post("/session/{session_id}/embed/all/stream")
 async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response, _: None = Depends(require_owned_chat_session)):
     query = payload.text.strip()
+    entry_id = payload.entry_id
     print(f"[DEBUG][all][stream] Received query: '{query}'")
     try:
         append_log_line(
@@ -721,19 +1017,13 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
         )
     except Exception as error:
         print(f"[WARN] Failed to write chat query log: {error}")
-
     context_history = await get_context(session_id, request, response)
     if context_history is None:
         print("in stream/embed/all, and key has expired")
         return RedirectResponse(url="/chat/expired", status_code=307)
     if len(context_history) == 0:
-        try:
-            print("[DEBUG][all][stream] Embedding query...")
-            query_embedding = await embed_query(query)
-            print(f"[DEBUG][all][stream] Embedding succeeded, dim={len(query_embedding)}")
-        except Exception as error:
-            print(f"[ERROR][all][stream] Embedding failed: {error}")
-            raise HTTPException(status_code=500, detail=f"Embedding failed: {error}") from error
+        if entry_id is None:
+            raise HTTPException(status_code=400, detail="entry_id is required for first chat turn")
 
         con = None
         try:
@@ -749,24 +1039,9 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
                     p.process_flow,
                     p.amount_and_form,
                     e1.prom_approval AS email_1_prom_approval,
-                    e1.prom_considerations AS email_1_prom_considerations,
-                    e1.requestor AS email_1_requestor,
-                    e1.chemicals AS email_1_chemicals,
-                    e1.processes AS email_1_processes,
                     LEFT(e1.raw_thread, 2000) AS email_1_raw_thread,
                     e2.prom_approval AS email_2_prom_approval,
-                    e2.prom_considerations AS email_2_prom_considerations,
-                    e2.requestor AS email_2_requestor,
-                    e2.chemicals AS email_2_chemicals,
-                    e2.processes AS email_2_processes,
-                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread,
-                    e3.prom_approval AS email_3_prom_approval,
-                    e3.prom_considerations AS email_3_prom_considerations,
-                    e3.requestor AS email_3_requestor,
-                    e3.chemicals AS email_3_chemicals,
-                    e3.processes AS email_3_processes,
-                    LEFT(e3.raw_thread, 2000) AS email_3_raw_thread,
-                    1 - (a.prom_embedding <=> %s::vector) AS similarity
+                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread
                 FROM all_embeddings a
                 JOIN prom_embeddings p
                     ON p.prom_id = a.prom_id
@@ -774,12 +1049,10 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
                     ON e1.email_id = a.email_id_1
                 LEFT JOIN email_embeddings e2
                     ON e2.email_id = a.email_id_2
-                LEFT JOIN email_embeddings e3
-                    ON e3.email_id = a.email_id_3
-                ORDER BY a.prom_embedding <=> %s::vector
+                WHERE a.entry_id = %s
                 LIMIT 1
                 """,
-                (query_embedding, query_embedding),
+                (entry_id,),
             )
             row = cursor.fetchone()
             print(f"[DEBUG][emails][stream] DB query done. Row found: {row is not None}")
@@ -788,7 +1061,7 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
             raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
         finally:
             if con is not None:
-                con.close()
+                release_db_conn(con=con)
 
         if row is None:
             async def no_email_results():
@@ -814,27 +1087,11 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
             process_flow,
             amount_and_form,
             email_1_prom_approval,
-            email_1_prom_considerations,
-            email_1_requestor,
-            email_1_chemicals,
-            email_1_processes,
             email_1_raw_thread,
             email_2_prom_approval,
-            email_2_prom_considerations,
-            email_2_requestor,
-            email_2_chemicals,
-            email_2_processes,
             email_2_raw_thread,
-            email_3_prom_approval,
-            email_3_prom_considerations,
-            email_3_requestor,
-            email_3_chemicals,
-            email_3_processes,
-            email_3_raw_thread,
-            similarity,
         ) = row
-
-        print(f"[DEBUG][all][stream] Best match: title={request_title}, similarity={similarity:.4f}")
+        print(f"[DEBUG][all][stream] Deterministic entry lookup: entry_id={entry_id}, title={request_title}")
 
         system_prompt = ALL_SYSTEM_PROMPT
         user_payload = (
@@ -845,24 +1102,11 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
             f"PROCESS_FLOW: {process_flow}\n"
             f"AMOUNT_AND_FORM: {amount_and_form}\n\n"
             f"EMAIL_1_PROM_APPROVAL: {email_1_prom_approval}\n"
-            f"EMAIL_1_PROM_CONSIDERATIONS: {email_1_prom_considerations}\n"
-            f"EMAIL_1_REQUESTOR: {email_1_requestor}\n"
-            f"EMAIL_1_CHEMICALS: {email_1_chemicals}\n"
-            f"EMAIL_1_PROCESSES: {email_1_processes}\n"
             f"EMAIL_1_RAW_THREAD_EXCERPT: {email_1_raw_thread}\n\n"
             f"EMAIL_2_PROM_APPROVAL: {email_2_prom_approval}\n"
-            f"EMAIL_2_PROM_CONSIDERATIONS: {email_2_prom_considerations}\n"
-            f"EMAIL_2_REQUESTOR: {email_2_requestor}\n"
-            f"EMAIL_2_CHEMICALS: {email_2_chemicals}\n"
-            f"EMAIL_2_PROCESSES: {email_2_processes}\n"
-            f"EMAIL_2_RAW_THREAD_EXCERPT: {email_2_raw_thread}\n\n"
-            f"EMAIL_3_PROM_APPROVAL: {email_3_prom_approval}\n"
-            f"EMAIL_3_PROM_CONSIDERATIONS: {email_3_prom_considerations}\n"
-            f"EMAIL_3_REQUESTOR: {email_3_requestor}\n"
-            f"EMAIL_3_CHEMICALS: {email_3_chemicals}\n"
-            f"EMAIL_3_PROCESSES: {email_3_processes}\n"
-            f"EMAIL_3_RAW_THREAD_EXCERPT: {email_3_raw_thread}\n"
+            f"EMAIL_2_RAW_THREAD_EXCERPT: {email_2_raw_thread}\n"
         )
+        print(user_payload)
     else:
         system_prompt = CONTINUATION_SYS_PROMPT
         user_payload = json.dumps(
@@ -879,9 +1123,8 @@ async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Requ
         request=request,
         response=response,
         context_entry={
-            "route": "embed_emails_stream",
+            "route": "embed_all_stream",
             "user_text": query,
         },
     )
     return StreamingResponse(stream, media_type="text/plain")
-

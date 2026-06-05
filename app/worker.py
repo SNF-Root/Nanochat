@@ -6,7 +6,6 @@ import sys
 import random
 from pydantic import BaseModel
 import json
-import time
 
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -21,16 +20,14 @@ from preprocessing.order_emails import create_dict_of_threads, get_email_by_msgi
 from preprocessing.filter_emails import extract_main_message
 from preprocessing.embed_emails import run_pipeline
 from preprocessing.models.insert import (
-    AllEntry,
     Email,
+    claim_unmatched_all_entries,
     find_email_matches,
-    get_prom_embedding_vector,
+    update_all_entry_matches,
 )
 
 redis_file_queue = redis.Redis(host="redis", port=6379, db=1, decode_responses=True)
 redis_file_status_store = redis.Redis(host="redis", port=6379, db=3)
-redis_prom_retry_store = redis.Redis(host="redis", port=6379, db=4, decode_responses=True)
-
 
 PROM_QUEUE_NAME = "pending_prom_files"
 EMAIL_QUEUE_NAME = "pending_email_files"
@@ -38,30 +35,8 @@ MAX_PROM_FILES = 15
 MAX_EMAIL_FILES = 6
 BATCH_FILL_WINDOW_SECONDS = 0.2
 BATCH_FILL_POLL_INTERVAL_SECONDS = 0.02
-
-
-async def log_retry_zadd(prom_id: int, score: int, reason: str):
-    added = await redis_prom_retry_store.zadd("prom_retry_ids", {int(prom_id): int(score)})
-    inserted_prom_ids.add(prom_id)
-    current_score = await redis_prom_retry_store.zscore("prom_retry_ids", int(prom_id))
-    queue_size = await redis_prom_retry_store.zcard("prom_retry_ids")
-    print(
-        f"[prom_retry_ids] ZADD prom_id={prom_id} score={score} "
-        f"reason={reason} added={added} current_score={current_score} size={queue_size}"
-    )
-    return added
-
-
-async def log_retry_zrem(prom_id: int, reason: str):
-    if prom_id in inserted_prom_ids:        
-        removed = await redis_prom_retry_store.zrem("prom_retry_ids", int(prom_id))
-        queue_size = await redis_prom_retry_store.zcard("prom_retry_ids")
-        print(
-            f"[prom_retry_ids] ZREM prom_id={prom_id} "
-            f"reason={reason} removed={removed} size={queue_size}"
-        )
-        return removed
-    return None
+NON_MATCH_LAST_SEEN_EMAIL_ID_KEY = "worker:last_seen_email_id"
+NON_MATCH_PROM_BATCH_SIZE = 10
 
 
 class FileStatusUpdate(BaseModel):
@@ -99,8 +74,23 @@ async def push_status(file_obj: FileObject, status: str):
 
 
 
+def get_latest_email_id_from_db(con) -> int:
+    cursor = con.cursor()
+    cursor.execute("SELECT COALESCE(MAX(email_id), 0) FROM email_embeddings")
+    row = cursor.fetchone()
+    return int(row[0]) if row and row[0] is not None else 0
 
-#PROM PIPELINE
+
+async def get_last_seen_email_id() -> int:
+    raw_value = await redis_file_queue.get(NON_MATCH_LAST_SEEN_EMAIL_ID_KEY)
+    if raw_value is None:
+        return 0
+    return int(raw_value)
+
+
+async def set_last_seen_email_id(email_id: int):
+    await redis_file_queue.set(NON_MATCH_LAST_SEEN_EMAIL_ID_KEY, int(email_id))
+
 
 def prom_extraction(batch: List[str]):
     problematic_files = []
@@ -109,7 +99,7 @@ def prom_extraction(batch: List[str]):
         file_obj = FileObject(**json.loads(file_obj_str))
         prom_form = fork_then_extract(file_obj.filepath)
         if isinstance(prom_form, str) or prom_form is None:
-            problematic_files.append(prom_form)
+            problematic_files.append((file_obj, prom_form))
         else:
             results.append(prom_form)
     results = filter_duplicates(results)
@@ -117,19 +107,29 @@ def prom_extraction(batch: List[str]):
 
 async def prom_process_batch(file_batch: List[str]):
     file_objects = [FileObject(**json.loads(file_obj_str)) for file_obj_str in file_batch]
+    file_objects_by_path = {file_obj.filepath: file_obj for file_obj in file_objects}
     results, problematic_files = prom_extraction(file_batch)
+    failed_upload_ids = set()
+
+    for file_obj, _error in problematic_files:
+        await push_status(file_obj, "Could Not Upload")
+        failed_upload_ids.add(file_obj.upload_id)
+
     if results:
-        prom_ids = await run_prom_pipeline(results, con)
+        prom_ids, duplicate_filenames = await run_prom_pipeline(results, con)
         for prom_id in prom_ids:
             if prom_id is None:
                 print("Insertion failed due to some reason, look at error before")
                 continue
-            await log_retry_zadd(
-                prom_id=int(prom_id),
-                score=int(time.time()),
-                reason="initial enqueue after run_prom_pipeline",
-            )
+        for duplicate_filename in duplicate_filenames:
+            file_obj = file_objects_by_path.get(duplicate_filename)
+            if file_obj is None:
+                continue
+            await push_status(file_obj, "Duplicate Already Exists")
+            failed_upload_ids.add(file_obj.upload_id)
         for file_obj in file_objects:
+            if file_obj.upload_id in failed_upload_ids:
+                continue
             await push_status(file_obj, "Inserted Into Database")
             await push_status(file_obj, "Complete")
     return problematic_files
@@ -170,10 +170,7 @@ async def create_threads_of_emails(batch: List[str]):
         await push_status(file_obj, "Complete")
     return results
 
-#EMAIL PIPELINE
-
 async def collect_batch():
-    #queue prioritization does not scale to more than 2 queues right now, fix later
     print("insertion worker role on; checking batch")
     queue_order = (
         [PROM_QUEUE_NAME, EMAIL_QUEUE_NAME]
@@ -200,7 +197,6 @@ async def collect_batch():
         if remaining <= 0:
             break
         await asyncio.sleep(min(BATCH_FILL_POLL_INTERVAL_SECONDS, remaining))
-    #consider the creation of a route on the server that does the sync portion of this and pushes to redis as an alternative option
     for item in batch:
         item_obj = FileObject(**json.loads(item))
         await push_status(item_obj, "File Extraction Started")
@@ -216,86 +212,70 @@ async def insert_to_db_worker():
         elif queue_name == EMAIL_QUEUE_NAME:
             await create_threads_of_emails(batch)
 
-async def check_nonmatch_prom_worker():
+async def non_match_prom_worker():
     try:
-        while True:  
-                now = int(time.time())
-                due_ids = await redis_prom_retry_store.zrangebyscore(
-                    "prom_retry_ids",
-                    '-inf',
-                    now,
-                    start=0,
-                    num=10
-                )
-                due_ids = [int(id) for id in due_ids] 
-                if not due_ids:
-                    await asyncio.sleep(10)
-                    continue
-                for prom_id in due_ids:
-                    print("found some prom ids that need retrying")
-                    if prom_id not in inserted_prom_ids:
+        while True:
+            pending_email_count = await redis_file_queue.llen(EMAIL_QUEUE_NAME)
+            if pending_email_count > 0:
+                await asyncio.sleep(2)
+                continue
+
+            current_latest_email_id = get_latest_email_id_from_db(con)
+            last_seen_email_id = await get_last_seen_email_id()
+            
+
+            #if the entry you get from the db is smaller or equal than the last seen entry, then go back to sleep
+            if current_latest_email_id <= last_seen_email_id:
+                await asyncio.sleep(0.2)
+                continue
+
+            print(
+                f"[non_match_prom_worker] queue idle and new emails detected: "
+                f"last_seen_email_id={last_seen_email_id}, current_latest_email_id={current_latest_email_id}"
+            )
+
+            claimed_rows = claim_unmatched_all_entries(con, current_latest_email_id, NON_MATCH_PROM_BATCH_SIZE)
+            print(
+                f"[non_match_prom_worker] claimed {len(claimed_rows)} unmatched rows "
+                f"against email_id={current_latest_email_id}"
+            )
+
+            for entry_id, prom_id, prom_embedding_vector in claimed_rows:
+                try:
+                    if prom_embedding_vector is None:
+                        print(
+                            f"[non_match_prom_worker] prom_embedding is None for "
+                            f"entry_id={entry_id}, prom_id={prom_id}"
+                        )
                         continue
-                    try:
-                        prom_embedding_vector = get_prom_embedding_vector(prom_id)
-                        if prom_embedding_vector is None:
-                            removed_prom = await log_retry_zrem(
-                                prom_id=prom_id,
-                                reason="embedding vector missing",
-                            )
-                            if removed_prom is None:
-                                print("skip zrem: not owned by this worker (embedding vector missing)")
-                            print("embedding vector is None, Skipping") 
-                            continue
-                        matching_emails = find_email_matches(prom_embedding_vector)
-                        matching_emails_len = len(matching_emails)
-                        if matching_emails_len == 0:
-                            #if no match right now try in 5 minutes
-                            retry_at = int(time.time()) + 5
-                            removed_prom = await log_retry_zrem(
-                                prom_id=prom_id,
-                                reason="no email match found before retry reschedule",
-                            )
-                            if removed_prom is None:
-                                print("skip zrem: not owned by this worker (before retry reschedule)")
-                            await log_retry_zadd(
-                                prom_id=prom_id,
-                                score=retry_at,
-                                reason="rescheduled after no email match",
-                            )
-                            await asyncio.sleep(30)
-                            continue
-                        insert_all_obj = AllEntry(
-                            prom_id=prom_id,
-                            email_id_1=matching_emails[0] if matching_emails_len > 0 else None,
-                            email_id_2=matching_emails[1] if matching_emails_len > 1 else None,
-                            email_id_3=matching_emails[2] if matching_emails_len > 2 else None,
-                            prom_embedding=prom_embedding_vector
-                        )
-                        insertion_status = insert_all_obj.insert_all(con)
-                        if insertion_status is None:
-                            print("insertion failed due to duplicate entry possibly")
-                        removed_prom = await log_retry_zrem(
-                            prom_id=prom_id,
-                            reason="insert_all completed",
-                        )
-                        if removed_prom is None:
-                            print("this is not this workers prom id")
-                    except Exception as item_error:
-                        print(f"retry worker item error for prom_id={prom_id}: {item_error}")
-                await asyncio.sleep(1)
+
+                    matching_emails = find_email_matches(prom_embedding_vector)
+                    update_all_entry_matches(
+                        con=con,
+                        entry_id=entry_id,
+                        current_latest_email_id=current_latest_email_id,
+                        matching_emails=matching_emails,
+                    )
+                except Exception as item_error:
+                    print(
+                        f"[non_match_prom_worker] item error for "
+                        f"entry_id={entry_id}, prom_id={prom_id}: {item_error}"
+                    )
+
+            await set_last_seen_email_id(current_latest_email_id)
+            await asyncio.sleep(1 if claimed_rows else 5)
     except Exception as loop_error:
-        print(f"retry worker loop error: {loop_error}")
+        print(f"non_match_prom_worker loop error: {loop_error}")
         await asyncio.sleep(2)
 
 
 async def main():
     await asyncio.gather(
         insert_to_db_worker(), 
-        check_nonmatch_prom_worker()
+        non_match_prom_worker()
     )
 
 if __name__ == "__main__":
-    inserted_prom_ids = set()
     try: 
         con = get_db_connection()
     except Exception as e:
