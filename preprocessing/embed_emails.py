@@ -109,10 +109,7 @@ Return exactly one JSON object matching SCHEMA. JSON only.
 
 
 async def extract_prom_json(email_thread: str) -> str:
-    """
-    Async version - takes a raw email thread and returns the extracted PROM JSON.
-    Does not block CPU while waiting for OpenAI response.
-    """
+    
     system_prompt = SYSTEM_PROMPT_TEMPLATE.format(thread=email_thread)
 
     response = await client.chat.completions.create(
@@ -126,10 +123,6 @@ async def extract_prom_json(email_thread: str) -> str:
     return response.choices[0].message.content
 
 async def embed_concat_json(concat_thread: str) -> List[float]:
-    """
-    Async version of embedding, comes post LLM JSON retrieval in the pipeline
-    """
-
     response = await client.embeddings.create(
         model = "text-embedding-ada-002",
         input=concat_thread
@@ -139,7 +132,6 @@ async def embed_concat_json(concat_thread: str) -> List[float]:
 
 
 def validating_llm_response(result: str) -> dict | None:
-    """Parse LLM response, return dict matching Email dataclass attributes."""
     json_object = json.loads(result)
     chemicals_mentioned = json_object["chemicals_mentioned"]
     processes_mentioned = json_object["processes_mentioned"]
@@ -155,7 +147,6 @@ def validating_llm_response(result: str) -> dict | None:
     
     chemicals_string = " ".join(chemicals_mentioned)
     processes_string = " ".join(processes_mentioned)
-    #REQUEST
     embed_string = f"Reason for Request: {prom_request}\n Process Flow: {llm_context}\n The chemical or material: {chemicals_string} {processes_string}"
     return {
         "embedded_string": embed_string,
@@ -170,7 +161,6 @@ def validating_llm_response(result: str) -> dict | None:
 
         
 async def process_single(email_object: Email, llm_sem):
-    """Each thread flows through LLM → validate → embed → return updated Email."""
     async with llm_sem:
         llm_result = await extract_prom_json(email_object.raw_thread)
     
@@ -183,7 +173,6 @@ async def process_single(email_object: Email, llm_sem):
     
     embedding = await embed_concat_json(extracted["embedded_string"])
     
-    # Unpack dict + add embedding, all keys match Email attributes
     return replace(email_object, embedding=embedding, **extracted)
 
 

@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Header from './components/Header'
-import SearchSection from './components/SearchSection'
-import SuggestedQueries from './components/SuggestedQueries'
 import Footer from './components/Footer'
 import ChatView from './components/ChatView'
 import UploadPromPage from './components/UploadPromPage'
 import TestChatPage from './components/TestChatPage'
 import FileViewerModal from './components/FileViewerModal'
+import HomepageHero from './components/HomepageHero'
 
 const TEST_CHAT_SEED_MESSAGES = [
   {
@@ -64,18 +63,12 @@ function getSessionIdFromPath(pathname) {
   return match ? match[1] : null
 }
 
-function getSearchEndpoint(searchMode) {
-  if (searchMode === 'proms') return '/search/proms'
-  if (searchMode === 'all') return '/search/all'
-  return '/search/emails'
+function getAgentRetrievalEndpoint(sessionId) {
+  return `/session/${sessionId}/agent/retrieval`
 }
 
-function getStreamEndpoint(sessionId, searchMode) {
-  // Temporarily force all chat streaming through the all route.
-  return `/session/${sessionId}/embed/all/stream`
-  // if (searchMode === 'proms') return `/session/${sessionId}/embed/proms/stream`
-  // if (searchMode === 'all') return `/session/${sessionId}/embed/all/stream`
-  // return `/session/${sessionId}/embed/emails/stream`
+function sleep(ms) {
+  return new Promise((resolve) => window.setTimeout(resolve, ms))
 }
 
 function getAttachedPromsStorageKey(sessionId) {
@@ -350,43 +343,27 @@ function App() {
   const [query, setQuery] = useState('')
   const [messages, setMessages] = useState([])
   const [isThinking, setIsThinking] = useState(false)
-  const [searchMode, setSearchMode] = useState('all')
+  const [searchMode, setSearchMode] = useState('proms')
   const [activeComposerTab, setActiveComposerTab] = useState('')
   const [activePanel, setActivePanel] = useState('')
   const [promFilename, setPromFilename] = useState('')
   const [attachedPromTitles, setAttachedPromTitles] = useState([])
   const [attachedProms, setAttachedProms] = useState([])
   const [attachedPromSessionId, setAttachedPromSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
-  const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
+  const [agentPhase, setAgentPhase] = useState('idle')
+  const [agentSteps, setAgentSteps] = useState([])
   const [hasUserSession, setHasUserSession] = useState(true)
   const [isCheckingUserSession, setIsCheckingUserSession] = useState(true)
   const [isCreatingUserSession, setIsCreatingUserSession] = useState(false)
   const [currentSessionId, setCurrentSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
+  const skipRehydrateSessionIdsRef = useRef(new Set())
 
   const setAttachedPromsForSession = (sessionId, nextProms) => {
     setAttachedProms(nextProms)
     setAttachedPromSessionId(sessionId)
     setAttachedPromTitles(nextProms.map((item) => item.title).filter(Boolean))
     setPromFilename(nextProms[0]?.prom_filename || '')
-  }
-
-  const attachPromsForSession = (sessionId, proms) => {
-    if (!sessionId || !Array.isArray(proms) || !proms.length) return
-    setAttachedProms((prev) => {
-      const next = [...prev]
-      for (const prom of proms) {
-        if (!next.some((item) => item.id === prom.id)) {
-          next.push(prom)
-        }
-      }
-      setAttachedPromTitles(next.map((item) => item.title).filter(Boolean))
-      if (!promFilename && next[0]?.prom_filename) {
-        setPromFilename(next[0].prom_filename)
-      }
-      return next
-    })
-    setAttachedPromSessionId(sessionId)
   }
 
   const handleSessionExpired = (response) => {
@@ -457,16 +434,12 @@ function App() {
     })
   }
 
-  const streamEmbedResponse = async (endpoint, text, onChunk, entryId = null) => {
-    const body = { text }
-    if (entryId !== null && entryId !== undefined) {
-      body.entry_id = entryId
-    }
-    const response = await fetch(endpoint, {
+  const runAgentRetrieval = async (sessionId, text) => {
+    const response = await fetch(getAgentRetrievalEndpoint(sessionId), {
       method: 'POST',
       credentials: 'include',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
+      body: JSON.stringify({ text }),
     })
 
     if (handleSessionExpired(response)) {
@@ -474,36 +447,50 @@ function App() {
     }
 
     if (!response.ok) {
-      throw new Error(`Stream request failed: ${response.status}`)
+      throw new Error(`Agent retrieval failed: ${response.status}`)
     }
 
-    if (!response.body) {
-      const data = await response.json()
-      const fallbackText = data.text || ''
-      if (fallbackText) onChunk(fallbackText)
-      return fallbackText
+    return response.json()
+  }
+
+  const runAgentRetrievalFlow = async (sessionId, text, assistantId) => {
+    setAgentPhase('thinking')
+    setAgentSteps([])
+    const seenStepKeys = new Set()
+    const maxRounds = 4
+
+    for (let round = 0; round < maxRounds; round += 1) {
+      const data = await runAgentRetrieval(sessionId, text)
+      const executedSteps = Array.isArray(data.list_of_executed_steps)
+        ? data.list_of_executed_steps
+        : []
+
+      setAgentPhase('running')
+      for (const step of executedSteps) {
+        const stepKey = `${round}:${step.step_number}:${step.reason_for_step}`
+        if (seenStepKeys.has(stepKey)) continue
+        seenStepKeys.add(stepKey)
+        setAgentSteps((prev) => [...prev, step])
+        await sleep(420)
+      }
+
+      if (data.done) {
+        setAgentPhase('idle')
+        const finalText = data.text || 'The agent completed retrieval but did not return a final answer.'
+        setAssistantText(assistantId, finalText)
+        finalizeAssistantMessage(assistantId)
+        return finalText
+      }
+
+      setAgentPhase('thinking')
+      await sleep(350)
     }
 
-    const reader = response.body.getReader()
-    const decoder = new TextDecoder()
-    let fullText = ''
-
-    while (true) {
-      const { value, done } = await reader.read()
-      if (done) break
-      const chunk = decoder.decode(value, { stream: true })
-      if (!chunk) continue
-      fullText += chunk
-      onChunk(chunk)
-    }
-
-    const tail = decoder.decode()
-    if (tail) {
-      fullText += tail
-      onChunk(tail)
-    }
-
-    return fullText
+    setAgentPhase('idle')
+    const fallbackText = 'The agent reached the retrieval loop limit before producing a final answer.'
+    setAssistantText(assistantId, fallbackText)
+    finalizeAssistantMessage(assistantId)
+    return fallbackText
   }
 
   useEffect(() => {
@@ -590,6 +577,10 @@ function App() {
 
   useEffect(() => {
     if (isLogoutPath || isExpiredPath || isTestChatPath || !currentSessionId) return
+    if (skipRehydrateSessionIdsRef.current.has(currentSessionId)) {
+      skipRehydrateSessionIdsRef.current.delete(currentSessionId)
+      return
+    }
 
     const rehydrateChat = async () => {
       try {
@@ -741,13 +732,11 @@ function App() {
     return nextSessionId
   }
 
-  // Lightweight search — returns top 5 results with titles
   const handleSearch = async (searchQuery) => {
     const trimmed = searchQuery.trim()
     if (!trimmed) return
 
     setIsSearching(true)
-    setSearchResults([])
     try {
       // Fast path: create a session + return top match so we can immediately stream chat (no "Chat" click).
       const response = await fetch('/search/start', {
@@ -767,23 +756,15 @@ function App() {
       const data = await response.json()
       const {
         session_id: sessionId,
-        entry_id: entryId,
         query: echoedQuery,
-        prom_filename: nextPromFilename,
-        request_title: requestTitle,
       } = data || {}
-      if (!sessionId || entryId === undefined || entryId === null) {
-        console.error('Search start did not return session_id/entry_id:', data)
+      if (!sessionId) {
+        console.error('Search start did not return session_id:', data)
         return
       }
 
-      setAttachedPromsForSession(sessionId, [
-        {
-          id: entryId,
-          title: requestTitle || 'Untitled PROM',
-          prom_filename: nextPromFilename || '',
-        },
-      ])
+      skipRehydrateSessionIdsRef.current.add(sessionId)
+      setAttachedPromsForSession(sessionId, [])
       setCurrentSessionId(sessionId)
       window.history.pushState({}, '', `/session/${sessionId}`)
 
@@ -800,68 +781,12 @@ function App() {
 
       setIsThinking(true)
       const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
-      let firstChunkReceived = false
-      const streamEndpoint = getStreamEndpoint(sessionId, searchMode)
-
-      await streamEmbedResponse(
-        streamEndpoint,
-        echoedQuery || trimmed,
-        (chunk) => {
-          if (!firstChunkReceived) {
-            firstChunkReceived = true
-            setIsThinking(false)
-          }
-          appendAssistantChunk(assistantId, chunk)
-        },
-        entryId
-      )
-      finalizeAssistantMessage(assistantId)
+      setIsThinking(false)
+      await runAgentRetrievalFlow(sessionId, echoedQuery || trimmed, assistantId)
     } catch (error) {
       console.error('Search request error:', error)
     } finally {
       setIsSearching(false)
-    }
-  }
-
-  // Full embed + chat completion for a selected result
-  const handleStartChat = async (result) => {
-    if (!hasUserSession) return
-
-    const userQuery = query.trim() || result.title
-    setSearchResults([])
-    setQuery('')
-
-    // Show the original search query as the user message
-    setMessages((prev) => [
-      ...prev,
-      {
-        id: `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
-        role: 'user',
-        text: userQuery,
-      },
-    ])
-
-    setIsThinking(true)
-    const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
-    let firstChunkReceived = false
-
-    try {
-      const sessionId = await createChatSession()
-
-      const endpoint = getStreamEndpoint(sessionId, searchMode)
-
-      await streamEmbedResponse(endpoint, result.title, (chunk) => {
-        if (!firstChunkReceived) {
-          firstChunkReceived = true
-          setIsThinking(false)
-        }
-        appendAssistantChunk(assistantId, chunk)
-      }, result.id)
-      finalizeAssistantMessage(assistantId)
-    } catch (error) {
-      console.error('Stream embed request error:', error)
-      setAssistantText(assistantId, 'Could not reach the server. Please try again.')
-    } finally {
       setIsThinking(false)
     }
   }
@@ -884,60 +809,16 @@ function App() {
     setQuery('')
     setIsThinking(true)
     const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
-    let firstChunkReceived = false
 
     try {
-      const endpoint = getStreamEndpoint(currentSessionId, searchMode)
-
-      await streamEmbedResponse(endpoint, trimmed, (chunk) => {
-        if (!firstChunkReceived) {
-          firstChunkReceived = true
-          setIsThinking(false)
-        }
-        appendAssistantChunk(assistantId, chunk)
-      })
-      finalizeAssistantMessage(assistantId)
+      setIsThinking(false)
+      await runAgentRetrievalFlow(currentSessionId, trimmed, assistantId)
     } catch (error) {
       console.error('Stream embed request error:', error)
       setAssistantText(assistantId, 'Could not reach the server. Please try again.')
     } finally {
       setIsThinking(false)
     }
-  }
-
-  const handleSuggestionClick = (suggestion) => {
-    setQuery(suggestion)
-    handleSearch(suggestion)
-  }
-
-  const handleAddContextProms = async (results) => {
-    if (!currentSessionId || !Array.isArray(results) || !results.length) return
-
-    const response = await fetch(`/add/context/${currentSessionId}`, {
-      method: 'POST',
-      credentials: 'include',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        entry_ids: results.map((result) => result.id),
-      }),
-    })
-
-    if (handleSessionExpired(response)) {
-      throw new Error('Session expired')
-    }
-
-    if (!response.ok) {
-      throw new Error(`Add context failed: ${response.status}`)
-    }
-
-    attachPromsForSession(
-      currentSessionId,
-      results.map((result) => ({
-        id: result.id,
-        title: result.title || 'Untitled PROM',
-        prom_filename: result.prom_filename || '',
-      })),
-    )
   }
 
   const hasMessages = messages.length > 0 || Boolean(currentSessionId)
@@ -1026,37 +907,35 @@ function App() {
   return (
     <div
       className={[
-        'flex flex-col bg-gradient-to-b from-slate-50 to-slate-100',
+        'snf-page-grid flex flex-col text-[var(--snf-ink)]',
         view === 'upload' ? 'h-screen overflow-hidden' : 'min-h-screen',
       ].join(' ')}
     >
       {!isCheckingUserSession && !hasUserSession ? (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-300/25 px-4 backdrop-blur-[10px]">
-          <div className="w-full max-w-xl rounded-[32px] border border-slate-700/70 bg-slate-900 px-7 py-8 shadow-[0_24px_70px_rgba(15,23,42,0.28)] sm:px-8 sm:py-9">
-              <div className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-red-950/60 ring-1 ring-red-900/60">
-                <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-[rgba(43,38,32,0.28)] px-4 backdrop-blur-[4px]">
+          <div className="w-full max-w-xl rounded-[1rem] border border-[rgba(43,38,32,0.16)] bg-[rgba(245,241,232,0.96)] px-7 py-7 shadow-[0_24px_70px_rgba(43,38,32,0.24)] sm:px-9 sm:py-8">
+            <div className="font-['IBM_Plex_Mono'] text-[0.72rem] uppercase tracking-[0.22em] text-[rgba(43,38,32,0.52)]">
+              nanochat access
+            </div>
+            <h2 className="mt-4 font-['IBM_Plex_Mono'] text-[1.65rem] font-semibold leading-tight tracking-[-0.03em] text-[var(--snf-ink)] sm:text-[2rem]">
+              Authenticate to continue.
+            </h2>
+            <p className="mt-3 max-w-md text-[0.98rem] leading-7 text-[rgba(43,38,32,0.68)]">
+              Create a user session to search the SNF archive and continue your conversation.
+            </p>
+            <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="font-['IBM_Plex_Mono'] text-[0.72rem] uppercase tracking-[0.16em] text-[rgba(43,38,32,0.46)]">
+                Required once
               </div>
-              <h2 className="mt-6 max-w-lg text-[2rem] font-semibold leading-[1.12] tracking-[-0.04em] text-slate-50 sm:text-[2.4rem]">
-                Create a user session before starting a chat.
-              </h2>
-              <div className="mt-8 flex items-center justify-between gap-4">
-                <div className="hidden text-sm text-slate-400 sm:block">
-                  Required once.
-                </div>
-                <div className="w-full sm:w-auto">
-                  <button
-                    type="button"
-                    onClick={createUserSession}
-                    disabled={isCreatingUserSession}
-                    className="inline-flex w-full items-center justify-center gap-3 rounded-2xl bg-red-600 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_14px_32px_rgba(220,38,38,0.22)] transition-all hover:bg-red-700 disabled:cursor-not-allowed disabled:bg-red-300 sm:w-auto"
-                  >
-                    <span>{isCreatingUserSession ? 'Creating session...' : 'Create user session'}</span>
-                    <span className="text-lg leading-none" aria-hidden="true">
-                      →
-                    </span>
-                  </button>
-                </div>
-              </div>
+              <button
+                type="button"
+                onClick={createUserSession}
+                disabled={isCreatingUserSession}
+                className="inline-flex w-full items-center justify-center rounded-[0.7rem] bg-[var(--snf-ink)] px-6 py-3.5 font-['IBM_Plex_Mono'] text-[0.82rem] font-semibold uppercase tracking-[0.13em] text-[rgba(245,241,232,0.95)] shadow-[0_14px_28px_rgba(43,38,32,0.18)] transition-all hover:-translate-y-0.5 hover:bg-[#17140f] disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+              >
+                {isCreatingUserSession ? 'Authenticating' : 'Authenticate'}
+              </button>
+            </div>
           </div>
         </div>
       ) : null}
@@ -1068,7 +947,7 @@ function App() {
           view === 'upload'
             ? 'items-stretch py-2 min-h-0 overflow-hidden'
             : hasMessages
-              ? 'items-stretch py-6 min-h-0'
+              ? 'items-stretch p-0 min-h-0'
               : 'items-center justify-center py-12'
         }`}
       >
@@ -1089,13 +968,9 @@ function App() {
                 setQuery={setQuery}
                 onSend={sendChatMessage}
                 isThinking={isThinking}
-                searchMode={searchMode}
-                setSearchMode={setSearchMode}
                 composerTabs={composerTabs}
-                attachedPromTitles={attachedPromTitles}
-                attachedPromIds={attachedProms.map((p) => p.id)}
-                sessionId={currentSessionId}
-                onAddContextProms={handleAddContextProms}
+                agentPhase={agentPhase}
+                agentSteps={agentSteps}
               />
             </div>
 
@@ -1123,44 +998,14 @@ function App() {
           </div>
         ) : (
           <>
-            {/* Search Icon */}
-            <div className="mb-8">
-              <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center shadow-lg shadow-red-200">
-                <svg
-                  className="w-10 h-10 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2.5}
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                  />
-                </svg>
-              </div>
-            </div>
-
-            {/* Title */}
-            <h1 className="text-4xl font-semibold text-slate-800 mb-10">
-              What are you searching for?
-            </h1>
-
-            {/* Search Section */}
-            <SearchSection
+            <HomepageHero
               query={query}
               setQuery={setQuery}
               onSearch={handleSearch}
               searchMode={searchMode}
               setSearchMode={setSearchMode}
-              searchResults={searchResults}
               isSearching={isSearching}
-              onStartChat={handleStartChat}
             />
-
-            {/* Suggested Queries */}
-            <SuggestedQueries onSuggestionClick={handleSuggestionClick} />
           </>
         )}
       </main>

@@ -18,6 +18,7 @@ export default defineConfig({
       '/api': 'http://localhost:8000',
       '/session/init': 'http://localhost:8000',
       '^/session/.*/embed/.*': 'http://localhost:8000',
+      '^/session/.*/agent/.*': 'http://localhost:8000',
       '/context': 'http://localhost:8000',
       '/logout': 'http://localhost:8000'
     }

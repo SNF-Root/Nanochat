@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --snf-paper: #ddd3c2;
+  --snf-topbar: #2f2a24;
+  --snf-topbar-text: #f3eee5;
+  --snf-ink: #2b2620;
+  --snf-muted: #6b6152;
+  --snf-panel: #231f19;
+  --snf-accent: #d3a05a;
+}
 
 * {
   margin: 0;
@@ -9,9 +21,55 @@
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: #f8fafc;
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--snf-paper);
+  color: var(--snf-ink);
   min-height: 100vh;
+}
+
+.snf-page-grid {
+  background-color: var(--snf-paper);
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(43, 38, 32, 0.06) 0,
+      rgba(43, 38, 32, 0.06) 1px,
+      transparent 1px,
+      transparent 44px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(43, 38, 32, 0.06) 0,
+      rgba(43, 38, 32, 0.06) 1px,
+      transparent 1px,
+      transparent 44px
+    );
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.snf-wafer-grid {
+  background-image:
+    linear-gradient(rgba(43, 38, 32, 0.24) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(43, 38, 32, 0.24) 1px, transparent 1px);
+  background-size: 1.85rem 1.85rem;
+  background-position: center;
+}
+
+.snf-caret {
+  animation: snf-caret-blink 1.05s steps(1) infinite;
+}
+
+@keyframes snf-caret-blink {
+  0%, 49% {
+    opacity: 1;
+  }
+
+  50%, 100% {
+    opacity: 0;
+  }
 }
 
 /* Custom scrollbar */

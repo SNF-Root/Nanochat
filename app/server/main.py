@@ -1,42 +1,56 @@
 from typing import Dict, List, Set
 import json
 import uuid
-import shutil
-import re
-from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Form, Request, Response
 from fastapi.responses import RedirectResponse, StreamingResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 import redis.asyncio as redis
-from typing import AsyncGenerator, Optional, Tuple
+from typing import Optional, Tuple
 from openai import AsyncOpenAI
 from .prompts import (
     ALL_SYSTEM_PROMPT,
     CONTINUATION_SYS_PROMPT,
     EMAIL_SYSTEM_PROMPT,
     prom_prompt,
+    AGENT_ACTION_CONTINUATION_PROMPT,
+    AGENT_ACTION_REQUEST_PROMPT
 )
 from .models.server_classes import (
-    EmbedRequest,
-    EmbedResponse,
-    SearchResponse,
-    SearchResult,
+    AgentRequest,
     SearchStartResponse,
     UploadCounterResetResponse,
     UploadFileResponse,
     FileObject,
-    AddContext
+    AgentAction,
+    AgentRetrievalResponse,
 )
+from .agent_execution import execute_agent_actions
 from .models.pool_db import init_pool, get_db_connection, release_db_conn, close_all_conns
+from . import retrieval_helpers, upload_helpers
+from .retrieval_helpers import (
+    _session_key,
+    _user_key,
+    append_agent_action_history,
+    append_chat_entry,
+    append_log_line,
+    clear_agent_action_history,
+    get_agent_action_history,
+    get_chat_context,
+    parse_entry_ids_value,
+)
+from .upload_helpers import (
+    _upload_status_key,
+    clear_uploaded_files_dir,
+)
 import os
 from datetime import datetime, timezone
-import ast
 
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4o")
+AGENT_PLANNER_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4")
+RESPONSE_CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4")
 STANFORD_BASE_URL = os.getenv("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
 DSN = os.getenv("DATABASE_URL", "postgresql://user:user_pw@localhost:5433/appdb")
 
@@ -53,6 +67,10 @@ UPLOAD_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "uploaded_files"))
 LOG_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "logs"))
 SEARCH_LOG_PATH = os.path.join(LOG_DIR, "search_all_queries.log")
 CHAT_LOG_PATH = os.path.join(LOG_DIR, "chat_all_queries.log")
+SEMANTIC_EMBEDDING_COLUMNS = {
+        "prom_embeddings": "request_embedding",
+        "email_embeddings": "embedding",
+    }
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
@@ -77,6 +95,11 @@ redis_file_queue = redis.Redis(host="redis", port=6379, db=1)
 redis_uids_sids = redis.Redis(host="redis", port=6379, db=2)
 redis_file_status_store = redis.Redis(host="redis", port=6379, db=3, decode_responses=True)
 redis_prom_retry_ids = redis.Redis(host="redis", port=6379, db=4, decode_responses=True)
+retrieval_helpers.redis_chat_context = redis_chat_context
+retrieval_helpers.CHAT_TTL_SECONDS = CHAT_TTL_SECONDS
+retrieval_helpers.EMBEDDING_MODEL = EMBEDDING_MODEL
+retrieval_helpers.CHAT_MODEL = AGENT_PLANNER_MODEL
+upload_helpers.UPLOAD_DIR = UPLOAD_DIR
 
 
 #called only on server shutdown
@@ -87,15 +110,11 @@ async def clear_all_user_keys() -> int:
     async for key in redis_file_queue.scan_iter():
         await redis_file_queue.delete(key)
     async for key in redis_prom_retry_ids.scan_iter():
-        if key is "worker:last_seen_email_id":
+        if key == "worker:last_seen_email_id":
             continue
         await redis_prom_retry_ids.delete(key)
     print(f"[DEBUG] Cleared {deleted_count} context history keys on shutdown")
     return deleted_count
-
-
-
-
 
 async def create_user_id(request: Request, response: Response) -> str:
     user_id = uuid.uuid4().hex
@@ -138,33 +157,8 @@ def create_openai_client() -> AsyncOpenAI:
         base_url=STANFORD_BASE_URL,
     )
 
-
-
-def clear_uploaded_files_dir() -> None:
-    try:
-        if os.path.isdir(UPLOAD_DIR):
-            shutil.rmtree(UPLOAD_DIR, ignore_errors=True)
-    except Exception as e:
-        return f"Could not clear uploaded files {e}"
-    
-
-def _user_key(user_id: str) -> str:
-    return f"user:{user_id}:session_ids"
-
-def _session_key(session_id: str) -> str:
-    return f"chat:session:{session_id}"
-
-
-def _upload_status_key(user_id: str) -> str:
-    return f"user:upload_file_status:{user_id}"
-
-
-def append_log_line(file_path: str, payload: dict) -> None:
-    with open(file_path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-
-
 client = create_openai_client()
+retrieval_helpers.client = client
 
 #should happen during upon entering home
 
@@ -373,113 +367,25 @@ async def reset_upload_counter() -> UploadCounterResetResponse:
     print(f"{queue_name} cleared")
     return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
-#Use an RPUSH here. not just for the atomic lock, but because this is inefficient for no reason
-async def append_context_entry(session_id: str, request: Request, response: Response, entry: dict) -> str:
-    key = _session_key(session_id)
-    raw_context = await redis_chat_context.get(key)
-    if raw_context is None:
-        return None
-    context_history = json.loads(raw_context) if raw_context else []
-    context_history.append(entry)
-    await redis_chat_context.set(key, json.dumps(context_history), ex=CHAT_TTL_SECONDS)
-    return session_id
-
-async def get_context(session_id: str, request: Request, response: Response):
-    key = _session_key(session_id)
-    raw_context = await redis_chat_context.get(key)
-    #check to see if chat_key expired
-    if raw_context is None:
-        return None
-    context_history = json.loads(raw_context) if raw_context else []
-    return context_history 
-
-
-def parse_entry_ids_value(entry_ids_raw):
-    if entry_ids_raw is None:
-        return []
-
-    try:
-        parsed_entry_ids = json.loads(entry_ids_raw)
-    except (TypeError, json.JSONDecodeError):
-        try:
-            parsed_entry_ids = ast.literal_eval(entry_ids_raw)
-        except (ValueError, SyntaxError):
-            parsed_entry_ids = []
-
-    if isinstance(parsed_entry_ids, int):
-        return [parsed_entry_ids]
-    if not isinstance(parsed_entry_ids, list):
-        return []
-    return parsed_entry_ids
-
-async def embed_query(text: str) -> list[float]:
-    response = await client.embeddings.create(model=EMBEDDING_MODEL, input=text)
-    return response.data[0].embedding
-
-
-    
-async def stream_chat_completion_and_store(
-    session_id: str,
-    system_prompt: str,
-    user_payload: str,
-    request: Request,
-    response: Response,
-    context_entry: dict,
-) -> AsyncGenerator[str, None]:
-    full_response_text = ""
-    try:
-        print(f"[DEBUG] Starting streamed chat completion (model={CHAT_MODEL})...")
-        stream = await client.chat.completions.create(
-            model=CHAT_MODEL,
-            stream=True,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_payload},
-            ],
-            temperature=0.2,
-        )
-        async for event in stream:
-            if not event.choices:
-                continue
-            delta = event.choices[0].delta.content or ""
-            if delta:
-                full_response_text += delta
-                yield delta
-    except Exception as error:
-        print(f"[ERROR] Streamed chat completion failed: {error}")
-        if not full_response_text:
-            full_response_text = "Sorry, something went wrong. Please try again."
-            yield full_response_text
-    finally:
-        if full_response_text:
-            await append_context_entry(
-                session_id, 
-                request,
-                response,
-                {
-                    **context_entry,
-                    "assistant_text": full_response_text,
-                },
-            )
-
-
 #big security risk here, user may be able to access files we dont want him to access. 
 #what if client asked to see .env file, first do auth, then make sure the parent dir is just /upload/
-@app.get("/files/retrieve_files", response_class=FileResponse)
-def retrieve_file(file_name: str):
-    match = re.search(r"[^/\\?#]+(?=$|[?#])", file_name or "")
-    base_name = match.group(0) if match else (file_name or "")
-    file_path = Path(UPLOAD_DIR) / base_name
-    if file_path.suffix != ".docx" and file_path.suffix != ".pdf":
-        print("innapropriate file path requested")
-        raise HTTPException(status_code=403, detail=f"Forbidden")
-    if not file_path.is_file():
-        print(f"UPLOAD_DIR is {UPLOAD_DIR}")
-        print(file_path)
-        print("could not find file path")
-        raise HTTPException(status_code=404, detail=f"File {base_name} does not exist on server")
-    print(f"Path is {file_path}")
-    file_path_suffix = file_path.suffix[1:]
+@app.get("/files/retrieve_proms/{session_id}", response_class=FileResponse)
+async def retrieve_prom(session_id: str):
+    redis_entry_key = f"chat:session:selected_entry:{session_id}"
+    raw_entries_for_session = await redis_chat_context.get(redis_entry_key)
+    entries_for_session = json.loads(raw_entries_for_session) if raw_entries_for_session else [] 
+    try:
+        con = get_db_connection()
+        cursor = con.cursor()
+        cursor.execute(
+        """
+        SELECT
+            #finish this query here so that we select all filesnames where row_id = entry_id in table {prom|embedding} depending on the shape            
+
+        """
+        )
+    except Exception as err:
+        print()
     return FileResponse(
         path = file_path,
         media_type=f"application/{file_path_suffix}",
@@ -549,11 +455,12 @@ async def retrieve_email(session_id: str):
 
     return return_entries_obj
 
+
 @app.post("/search/start", response_model=SearchStartResponse)
-async def search_all_start(payload: EmbedRequest, request: Request, response: Response):
-    """Return the top match plus a fresh session id so the client can immediately start streaming chat."""
-    query = payload.text.strip()
-    if not query:
+async def attach_session_id_to_user(payload: AgentRequest, request: Request, response: Response):
+    """create a session_id for the session and attach it to the user"""
+    user_query = payload.text.strip()
+    if not user_query:
         raise HTTPException(status_code=400, detail="Text is required")
     try:
         append_log_line(
@@ -561,220 +468,21 @@ async def search_all_start(payload: EmbedRequest, request: Request, response: Re
             {
                 "ts_utc": datetime.now(timezone.utc).isoformat(),
                 "route": "/search/start",
-                "query": query,
+                "query": user_query,
             },
         )
     except Exception as error:
         print(f"[WARN] Failed to write start search query log: {error}")
-
-    query_embedding = await embed_query(query)
-
-    con = None
-    try:
-        con = get_db_connection()
-        cursor = con.cursor()
-        cursor.execute(
-            """
-            SELECT
-                a.entry_id,
-                p.request_title,
-                p.filename,
-                1 - (a.prom_embedding <=> %s::vector) AS similarity
-            FROM all_embeddings a
-            JOIN prom_embeddings p
-                ON p.prom_id = a.prom_id
-            ORDER BY a.prom_embedding <=> %s::vector
-            LIMIT 1
-            """,
-            (query_embedding, query_embedding),
-        )
-        rows = cursor.fetchall()
-    except Exception as error:
-        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-    finally:
-        if con is not None:
-            release_db_conn(con=con)
-    if not rows:
-        raise HTTPException(status_code=404, detail="No results found")
-    print(rows)
-    entry_id = rows[0][0]
-    request_title = rows[0][1]
-    prom_filename = rows[0][2]
     session_init = await set_session_id(request=request, response=response)
     session_id = session_init.get("session_id") if isinstance(session_init, dict) else None
     if not session_id:
-        raise HTTPException(status_code=500, detail="Failed to create chat session")
-    entry_id_key = f"chat:session:selected_entry:{session_id}"
-    lst_entry_id = [entry_id]
-    try: 
-        await redis_chat_context.set(entry_id_key, json.dumps(lst_entry_id), ex=CHAT_TTL_SECONDS)
-    except Exception as e:
-        print("unable to save entry_id_key into redis_chat_context")
-        print(e) 
-    return {
-        "session_id": session_id,
-        "entry_id": lst_entry_id[0],
-        "prom_filename": prom_filename,
-        "query": query,
-        "request_title": request_title,
-    }
-
-@app.post("/search/all", response_model=SearchResponse)
-async def search_all(request: EmbedRequest) -> SearchResponse:
-    """Return the top 5 most similar prom->email1, email2, email3 connections"""
-    query = request.text.strip()
-    if not query:
-        raise HTTPException(status_code=400, detail="Text is required")
-    try:
-        append_log_line(
-            SEARCH_LOG_PATH,
-            {
-                "ts_utc": datetime.now(timezone.utc).isoformat(),
-                "route": "/search/all",
-                "query": query,
-            },
-        )
-    except Exception as error:
-        print(f"[WARN] Failed to write search query log: {error}")
-
-    query_embedding = await embed_query(query)
-
-    con = None
-    try:
-        con = get_db_connection()
-        cursor = con.cursor()
-        cursor.execute(
-            """
-            SELECT
-                a.entry_id,
-                p.request_title,
-                p.filename,
-                1 - (a.prom_embedding <=> %s::vector) AS similarity
-            FROM all_embeddings a
-            JOIN prom_embeddings p
-                ON p.prom_id = a.prom_id
-            ORDER BY a.prom_embedding <=> %s::vector
-            LIMIT 5
-            """,
-            (query_embedding, query_embedding),
-        )
-        rows = cursor.fetchall()
-    except Exception as error:
-        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-    finally:
-        if con is not None:
-            release_db_conn(con=con)
-
-    results = [
-        SearchResult(
-            id=row[0],
-            title=row[1] or "No context available",
-            prom_filename=row[2],
-            similarity=float(row[3]),
-        )
-        for row in rows
-    ]
-    return SearchResponse(results=results)
+        raise HTTPException(status_code=500, detail="Failed to create chat session") 
+    return SearchStartResponse(session_id=session_id, query=user_query)
 
 
-@app.post("/add/context/{session_id}")
-async def add_context(session_id: str, payload: AddContext, request: Request, response: Response):
-    entry_ids = [int(entry_id) for entry_id in payload.entry_ids]
-    if not entry_ids:
-        raise HTTPException(status_code=400, detail="entry_ids is required")
-
-    entry_key = f"chat:session:selected_entry:{session_id}"
-    existing_entry_ids = parse_entry_ids_value(await redis_chat_context.get(entry_key))
-    merged_entry_ids = list(dict.fromkeys([*existing_entry_ids, *entry_ids]))
-
-    con = None
-    attached_context = []
-    try:
-        con = get_db_connection()
-        cursor = con.cursor()
-        for entry_id in entry_ids:
-            cursor.execute(
-                """
-                SELECT
-                    p.request_title,
-                    p.chemicals_and_processes,
-                    p.request_reason,
-                    p.process_flow,
-                    p.amount_and_form,
-                    e1.prom_approval AS email_1_prom_approval,
-                    LEFT(e1.raw_thread, 2000) AS email_1_raw_thread,
-                    e2.prom_approval AS email_2_prom_approval,
-                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread
-                FROM all_embeddings a
-                JOIN prom_embeddings p
-                    ON p.prom_id = a.prom_id
-                LEFT JOIN email_embeddings e1
-                    ON e1.email_id = a.email_id_1
-                LEFT JOIN email_embeddings e2
-                    ON e2.email_id = a.email_id_2
-                WHERE a.entry_id = %s
-                LIMIT 1
-                """,
-                (entry_id,),
-            )
-            row = cursor.fetchone()
-            if row is None:
-                continue
-
-            (
-                request_title,
-                chemicals_and_processes,
-                request_reason,
-                process_flow,
-                amount_and_form,
-                email_1_prom_approval,
-                email_1_raw_thread,
-                email_2_prom_approval,
-                email_2_raw_thread,
-            ) = row
-            attached_context.append(
-                {
-                    "entry_id": entry_id,
-                    "request_title": request_title,
-                    "chemicals_and_processes": chemicals_and_processes,
-                    "request_reason": request_reason,
-                    "process_flow": process_flow,
-                    "amount_and_form": amount_and_form,
-                    "email_1_prom_approval": email_1_prom_approval,
-                    "email_1_raw_thread_excerpt": email_1_raw_thread,
-                    "email_2_prom_approval": email_2_prom_approval,
-                    "email_2_raw_thread_excerpt": email_2_raw_thread,
-                }
-            )
-    except Exception as error:
-        raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
-    finally:
-        if con is not None:
-            release_db_conn(con=con)
-
-    await redis_chat_context.set(entry_key, json.dumps(merged_entry_ids), ex=CHAT_TTL_SECONDS)
-
-    if attached_context:
-        await append_context_entry(
-            session_id,
-            request,
-            response,
-            {
-                "route": "add_context",
-                "user_text": "Add context",
-                "attached_entry_ids": entry_ids,
-                "attached_context": attached_context,
-            },
-        )
-
-    return {
-        "ok": True,
-        "attached_entry_ids": merged_entry_ids,
-        "attached_context_count": len(attached_context),
-    }
 @app.get("/api/session/{session_id}")
 async def rehydrate_chat(session_id: str, request: Request, response: Response):
-    context_history = await get_context(session_id, request=request, response=response)
+    context_history = await get_chat_context(session_id)
     if context_history is None:
         print("in rehydration chat, and key has expired")
         return RedirectResponse(url="/chat/expired", status_code=307)
@@ -785,131 +493,114 @@ async def redirect_rehydrated_chat(session_id: str, request: Request, response: 
     return RedirectResponse(url=f"http://localhost:3000/session/{session_id}")
 
 
-@app.post("/session/{session_id}/embed/all/stream")
-async def embed_all_stream(session_id: str, payload: EmbedRequest, request: Request, response: Response):
-    query = payload.text.strip()
-    entry_id = payload.entry_id
-    print(f"[DEBUG][all][stream] Received query: '{query}'")
-    try:
-        append_log_line(
-            CHAT_LOG_PATH,
-            {
-                "ts_utc": datetime.now(timezone.utc).isoformat(),
-                "route": "/session/{session_id}/embed/all/stream",
-                "session_id": session_id,
-                "query": query,
-            },
-        )
-    except Exception as error:
-        print(f"[WARN] Failed to write chat query log: {error}")
-    context_history = await get_context(session_id, request, response)
+@app.post("/session/{session_id}/agent/retrieval", response_model=AgentRetrievalResponse)
+async def run_agent_action(session_id: str, payload: AgentRequest, request: Request, response: Response):
+    user_query = payload.text.strip()
+    print(user_query)
+    if not user_query:
+        raise HTTPException(status_code=400, detail="Text is required")
+
+    context_history = await get_chat_context(session_id)
     if context_history is None:
-        print("in stream/embed/all, and key has expired")
         return RedirectResponse(url="/chat/expired", status_code=307)
-    if len(context_history) == 0:
-        if entry_id is None:
-            raise HTTPException(status_code=400, detail="entry_id is required for first chat turn")
 
-        con = None
+    try:
+        agent_prompt = AGENT_ACTION_REQUEST_PROMPT.replace("{user_query}", user_query)
+        agent_action_history = await get_agent_action_history(session_id)
+        agent_prompt = agent_prompt.replace(
+            "{past_agent_actions}",
+            json.dumps(agent_action_history, indent=2),
+        )
+        print("sending for agentic planning")
+        planner_completion = await client.beta.chat.completions.parse(
+            model=AGENT_PLANNER_MODEL,
+            messages=[
+                {"role": "user", "content": agent_prompt},
+            ],
+            temperature=0.2,
+            response_format=AgentAction,
+        )
+
+        returned_agent_action_json = planner_completion.choices[0].message
+        agent_action_obj = returned_agent_action_json.parsed
+        if agent_action_obj is None:
+            print("[AGENT_ACTION_VALIDATION] Planner did not produce a parsed AgentAction.")
+            print(f"[AGENT_ACTION_VALIDATION] refusal={returned_agent_action_json.refusal}")
+            print(f"[AGENT_ACTION_VALIDATION] content={returned_agent_action_json.content}")
+            raise HTTPException(status_code=500, detail="Agent did not return a valid AgentAction")
+
+        con = get_db_connection()
         try:
-            print("[DEBUG][all][stream] Connecting to database...")
-            con = get_db_connection()
-            cursor = con.cursor()
-            cursor.execute(
-                """
-                SELECT
-                    p.request_title,
-                    p.chemicals_and_processes,
-                    p.request_reason,
-                    p.process_flow,
-                    p.amount_and_form,
-                    e1.prom_approval AS email_1_prom_approval,
-                    LEFT(e1.raw_thread, 2000) AS email_1_raw_thread,
-                    e2.prom_approval AS email_2_prom_approval,
-                    LEFT(e2.raw_thread, 2000) AS email_2_raw_thread
-                FROM all_embeddings a
-                JOIN prom_embeddings p
-                    ON p.prom_id = a.prom_id
-                LEFT JOIN email_embeddings e1
-                    ON e1.email_id = a.email_id_1
-                LEFT JOIN email_embeddings e2
-                    ON e2.email_id = a.email_id_2
-                WHERE a.entry_id = %s
-                LIMIT 1
-                """,
-                (entry_id,),
+            executed_steps = await execute_agent_actions(
+                client,
+                con,
+                agent_action_obj,
+                EMBEDDING_MODEL,
+                SEMANTIC_EMBEDDING_COLUMNS,
             )
-            row = cursor.fetchone()
-            print(f"[DEBUG][emails][stream] DB query done. Row found: {row is not None}")
-        except Exception as error:
-            print(f"[ERROR][emails][stream] DB query failed: {error}")
-            raise HTTPException(status_code=500, detail=f"DB query failed: {error}") from error
         finally:
-            if con is not None:
-                release_db_conn(con=con)
-
-        if row is None:
-            async def no_email_results():
-                text = "No relevant emails found."
-                await append_context_entry(
+            release_db_conn(con=con)
+        
+        if agent_action_obj.after_execution == "return_to_llm":
+            for executed_step in executed_steps:
+                await append_agent_action_history(
                     session_id,
-                    request,
-                    response,
                     {
-                        "route": "embed_emails_stream",
-                        "user_text": query,
-                        "assistant_text": text,
+                        "agent_action": agent_action_obj.model_dump_json(),
+                        "retrieved_context_for_action": executed_step.query_results
                     },
                 )
-                yield text
+            return AgentRetrievalResponse(
+                text=None,
+                list_of_executed_steps=executed_steps,
+                done=False,
+            )
+        elif agent_action_obj.after_execution == "generate_final_answer":
+            retrieved_context = json.dumps(
+                [
+                    {
+                        "agent_action": agent_action_obj.model_dump(),
+                        "retrieved_context_for_action": executed_step.query_results,
+                    }
+                    for executed_step in executed_steps
+                ],
+                indent=2,
+            )
+            past_chat_context = json.dumps(context_history, indent=2)
+            answer_prompt = CONTINUATION_SYS_PROMPT.format(
+                past_retrieved_context=retrieved_context,
+                past_chat_context=past_chat_context,
+                current_user_question=user_query,
+            )
+            answer_completion = await client.chat.completions.create(
+                model=RESPONSE_CHAT_MODEL,
+                messages=[
+                    {"role": "system", "content": answer_prompt},
+                ],
+                temperature=0.2,
+            )
+            assistant_text = answer_completion.choices[0].message.content or ""
+            await append_chat_entry(
+                session_id,
+                request,
+                response,
+                {
+                    "route": "run_agent_action",
+                    "user_text": user_query,
+                    "assistant_text": assistant_text,
+                },
+            )
+            await clear_agent_action_history(session_id)
+            return AgentRetrievalResponse(
+                text=assistant_text,
+                list_of_executed_steps=executed_steps,
+                done=True,
+            )
+            
 
-            return StreamingResponse(no_email_results(), media_type="text/plain")
-
-        (
-            request_title,
-            chemicals_and_processes,
-            request_reason,
-            process_flow,
-            amount_and_form,
-            email_1_prom_approval,
-            email_1_raw_thread,
-            email_2_prom_approval,
-            email_2_raw_thread,
-        ) = row
-        print(f"[DEBUG][all][stream] Deterministic entry lookup: entry_id={entry_id}, title={request_title}")
-
-        system_prompt = ALL_SYSTEM_PROMPT
-        user_payload = (
-            f"USER_QUESTION: {query}\n\n"
-            f"REQUEST_TITLE: {request_title}\n"
-            f"CHEMICALS_AND_PROCESSES: {chemicals_and_processes}\n"
-            f"REQUEST_REASON: {request_reason}\n"
-            f"PROCESS_FLOW: {process_flow}\n"
-            f"AMOUNT_AND_FORM: {amount_and_form}\n\n"
-            f"EMAIL_1_PROM_APPROVAL: {email_1_prom_approval}\n"
-            f"EMAIL_1_RAW_THREAD_EXCERPT: {email_1_raw_thread}\n\n"
-            f"EMAIL_2_PROM_APPROVAL: {email_2_prom_approval}\n"
-            f"EMAIL_2_RAW_THREAD_EXCERPT: {email_2_raw_thread}\n"
-        )
-        print(user_payload)
-    else:
-        system_prompt = CONTINUATION_SYS_PROMPT
-        user_payload = json.dumps(
-            {
-                "current_user_message": query,
-                "context_history": context_history,
-            }
-        )
-
-    stream = stream_chat_completion_and_store(
-        session_id,
-        system_prompt=system_prompt,
-        user_payload=user_payload,
-        request=request,
-        response=response,
-        context_entry={
-            "route": "embed_all_stream",
-            "user_text": query,
-        },
-    )
-    return StreamingResponse(stream, media_type="text/plain")
+    except ValidationError as error:
+        print("[AGENT_ACTION_VALIDATION] Pydantic validation failed for AgentAction.")
+        print(error)
+        raise HTTPException(status_code=500, detail="AgentAction schema validation failed") from error
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"Agentic retrieval failed: {error}") from error
