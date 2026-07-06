@@ -1,10 +1,19 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { renderAsync } from 'docx-preview'
 import mammoth from 'mammoth/mammoth.browser'
 
 function getFileExtension(fileName) {
   const idx = fileName.lastIndexOf('.')
   if (idx === -1) return ''
   return fileName.slice(idx + 1).toLowerCase()
+}
+
+function getArrayBufferKind(arrayBuffer) {
+  const bytes = new Uint8Array(arrayBuffer.slice(0, 8))
+  const signature = Array.from(bytes).map((byte) => String.fromCharCode(byte)).join('')
+  if (signature.startsWith('%PDF')) return 'pdf'
+  if (signature.startsWith('PK')) return 'docx'
+  return 'unknown'
 }
 
 function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
@@ -35,12 +44,28 @@ function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
   const activeFileName = activeFile?.fileName || ''
   const activeFileUrl = activeFile?.fileUrl || ''
   const extension = useMemo(() => getFileExtension(activeFileName), [activeFileName])
+  const docxContainerRef = useRef(null)
   const [docxHtml, setDocxHtml] = useState('')
   const [docxError, setDocxError] = useState('')
+  const [docxPreviewReady, setDocxPreviewReady] = useState(false)
+  const [fallbackText, setFallbackText] = useState('')
+  const [detectedKind, setDetectedKind] = useState('')
+  const [objectUrl, setObjectUrl] = useState('')
   const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
     let cancelled = false
+    let nextObjectUrl = ''
+
+    setDocxHtml('')
+    setDocxError('')
+    setDocxPreviewReady(false)
+    setFallbackText('')
+    setDetectedKind('')
+    setObjectUrl('')
+    if (docxContainerRef.current) {
+      docxContainerRef.current.innerHTML = ''
+    }
 
     if (extension !== 'docx') {
       setDocxHtml('')
@@ -60,6 +85,46 @@ function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
         if (!response.ok) throw new Error(`HTTP ${response.status}`)
 
         const arrayBuffer = await response.arrayBuffer()
+        const kind = getArrayBufferKind(arrayBuffer)
+        if (cancelled) return
+        setDetectedKind(kind)
+
+        if (kind === 'pdf') {
+          nextObjectUrl = URL.createObjectURL(new Blob([arrayBuffer], { type: 'application/pdf' }))
+          setObjectUrl(nextObjectUrl)
+          return
+        }
+
+        if (kind !== 'docx') {
+          const text = new TextDecoder('utf-8', { fatal: false }).decode(arrayBuffer)
+          setFallbackText(text.slice(0, 20000))
+          setDocxError('This file is not a valid DOCX package.')
+          return
+        }
+
+        if (!docxContainerRef.current) {
+          throw new Error('Document preview container was not available.')
+        }
+
+        try {
+          docxContainerRef.current.innerHTML = ''
+          await renderAsync(arrayBuffer, docxContainerRef.current, null, {
+            className: 'snf-docx-preview',
+            inWrapper: true,
+            ignoreWidth: false,
+            ignoreHeight: false,
+            ignoreFonts: false,
+            breakPages: true,
+            renderHeaders: true,
+            renderFooters: true,
+          })
+          if (cancelled) return
+          setDocxPreviewReady(true)
+          return
+        } catch (previewError) {
+          console.warn('[DOCX_PREVIEW] Falling back to Mammoth renderer.', previewError)
+        }
+
         const result = await mammoth.convertToHtml({ arrayBuffer })
         if (cancelled) return
         setDocxHtml(result.value || '')
@@ -74,25 +139,26 @@ function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
     run()
     return () => {
       cancelled = true
+      if (nextObjectUrl) URL.revokeObjectURL(nextObjectUrl)
     }
   }, [extension, activeFileUrl])
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/35 px-4 py-6 backdrop-blur-[10px]">
-      <div className="w-full max-w-4xl rounded-[24px] border border-[#d9e2ef] bg-white/95 shadow-[0_24px_60px_rgba(44,62,89,0.16)]">
-        <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
-          <div className="text-sm font-semibold uppercase tracking-[0.14em] text-[#556987]">{title}</div>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(43,38,32,0.38)] px-4 py-6 backdrop-blur-[8px]">
+      <div className="w-full max-w-5xl rounded-[1.1rem] border border-[rgba(43,38,32,0.18)] bg-[rgba(245,241,232,0.96)] shadow-[0_28px_80px_rgba(43,38,32,0.28)]">
+        <div className="flex items-center justify-between border-b border-[rgba(43,38,32,0.14)] px-6 py-5">
+          <div className="font-['IBM_Plex_Mono'] text-[0.82rem] font-semibold uppercase tracking-[0.24em] text-[rgba(43,38,32,0.68)]">{title}</div>
           <button
             type="button"
             aria-label={`Close ${title}`}
             onClick={onClose}
-            className="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-600 transition-colors hover:bg-slate-50"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.42)] font-['IBM_Plex_Mono'] text-sm font-semibold text-[rgba(43,38,32,0.72)] transition-colors hover:bg-[rgba(255,255,255,0.72)]"
           >
             X
           </button>
         </div>
 
-        <div className="h-[min(76vh,860px)] overflow-hidden p-5">
+        <div className="h-[min(76vh,860px)] overflow-hidden p-6">
           {normalizedFiles.length > 1 ? (
             <div className="mb-4 flex flex-wrap gap-2">
               {normalizedFiles.map((f) => (
@@ -101,10 +167,10 @@ function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
                   type="button"
                   onClick={() => setActiveKey(f.key)}
                   className={[
-                    'max-w-full truncate rounded-full border px-3 py-1 text-xs font-semibold transition-colors',
+                    'max-w-full truncate rounded-[0.35rem] border px-3 py-1 font-[IBM_Plex_Mono] text-xs font-semibold uppercase tracking-[0.1em] transition-colors',
                     f.key === (activeFile?.key || '')
-                      ? 'border-slate-300 bg-slate-900 text-white'
-                      : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50',
+                      ? 'border-[var(--snf-ink)] bg-[var(--snf-ink)] text-[rgba(245,241,232,0.95)]'
+                      : 'border-[rgba(43,38,32,0.16)] bg-[rgba(255,255,255,0.4)] text-[rgba(43,38,32,0.72)] hover:bg-[rgba(255,255,255,0.7)]',
                   ].join(' ')}
                   title={f.label}
                 >
@@ -114,49 +180,71 @@ function FileViewerModal({ title, files, fileUrl, fileName, onClose }) {
             </div>
           ) : null}
 
-          {extension === 'pdf' ? (
-            <div className="h-full overflow-hidden rounded-[20px] border border-slate-200 bg-slate-50">
-              <iframe title={activeFileName} src={activeFileUrl} className="h-full w-full" />
-            </div>
-          ) : extension === 'docx' ? (
-            <div className="h-full overflow-y-auto rounded-[20px] border border-slate-200 bg-white p-6 text-slate-800">
-              {isLoading ? (
-                <div className="text-sm text-slate-500">Loading document…</div>
-              ) : docxError ? (
-                <div className="text-sm text-red-700">
-                  Could not render DOCX ({docxError}).{' '}
+          <div className="h-full rounded-[0.8rem] border border-[#b79a4b] bg-[#dec77f] p-5 shadow-[0_10px_22px_rgba(43,38,32,0.16)]">
+            {extension === 'pdf' ? (
+              <div className="h-full overflow-hidden rounded-[0.65rem] border border-[rgba(43,38,32,0.16)] bg-[rgba(245,241,232,0.72)]">
+                <iframe title={activeFileName} src={activeFileUrl} className="h-full w-full" />
+              </div>
+            ) : extension === 'docx' ? (
+              <div className="h-full overflow-y-auto rounded-[0.65rem] border border-[rgba(43,38,32,0.16)] bg-[rgba(245,241,232,0.72)] p-7 text-[var(--snf-ink)] [scrollbar-color:rgba(43,38,32,0.22)_transparent] [scrollbar-width:thin]">
+                {detectedKind === 'pdf' && objectUrl ? (
+                  <iframe title={activeFileName} src={objectUrl} className="h-full min-h-[60vh] w-full rounded-[0.5rem]" />
+                ) : docxError ? (
+                  <div className="text-sm leading-7 text-[#9a2f24]">
+                    {docxError}{' '}
+                    <a className="underline" href={activeFileUrl} target="_blank" rel="noreferrer">
+                      Open directly
+                    </a>
+                    .
+                    {fallbackText ? (
+                      <pre className="mt-5 max-h-[52vh] overflow-auto whitespace-pre-wrap rounded-[0.5rem] border border-[rgba(43,38,32,0.12)] bg-[rgba(245,241,232,0.75)] p-4 text-[0.9rem] leading-6 text-[rgba(43,38,32,0.76)]">
+                        {fallbackText}
+                      </pre>
+                    ) : null}
+                  </div>
+                ) : (
+                  <>
+                    {isLoading && !docxPreviewReady && !docxHtml ? (
+                      <div className="mb-4 font-['IBM_Plex_Mono'] text-sm uppercase tracking-[0.16em] text-[rgba(43,38,32,0.52)]">Loading document...</div>
+                    ) : null}
+                    <div
+                      ref={docxContainerRef}
+                      className={[
+                        'snf-docx-preview-shell text-[rgba(43,38,32,0.86)]',
+                        docxPreviewReady ? 'block' : 'hidden',
+                      ].join(' ')}
+                    />
+                    {docxHtml ? (
+                      // Mammoth is retained as a fallback when layout-oriented DOCX preview fails.
+                      <div className="max-w-none leading-7 text-[rgba(43,38,32,0.82)]" dangerouslySetInnerHTML={{ __html: docxHtml }} />
+                    ) : null}
+                    {!isLoading && !docxPreviewReady && !docxHtml ? (
+                      <div className="text-sm text-[rgba(43,38,32,0.58)]">
+                        No content to display.{' '}
+                        <a className="underline" href={activeFileUrl} target="_blank" rel="noreferrer">
+                          Open directly
+                        </a>
+                        .
+                      </div>
+                    ) : null}
+                  </>
+                )}
+              </div>
+            ) : (
+              <div className="h-full overflow-y-auto rounded-[0.65rem] border border-[rgba(43,38,32,0.16)] bg-[rgba(245,241,232,0.72)] p-7">
+                <p className="text-sm text-[rgba(43,38,32,0.76)]">
+                  Preview not supported for{' '}
+                  <code className="rounded bg-[rgba(43,38,32,0.08)] px-1 py-0.5 font-mono">{extension || 'unknown'}</code>.
+                </p>
+                <p className="mt-3 text-sm text-[rgba(43,38,32,0.76)]">
                   <a className="underline" href={activeFileUrl} target="_blank" rel="noreferrer">
                     Open directly
                   </a>
                   .
-                </div>
-              ) : docxHtml ? (
-                // Mammoth outputs HTML; we render it as-is inside the modal.
-                <div className="max-w-none leading-7" dangerouslySetInnerHTML={{ __html: docxHtml }} />
-              ) : (
-                <div className="text-sm text-slate-500">
-                  No content to display.{' '}
-                  <a className="underline" href={activeFileUrl} target="_blank" rel="noreferrer">
-                    Open directly
-                  </a>
-                  .
-                </div>
-              )}
-            </div>
-          ) : (
-            <div className="h-full overflow-y-auto rounded-[20px] border border-slate-200 bg-white p-6">
-              <p className="text-sm text-slate-700">
-                Preview not supported for{' '}
-                <code className="rounded bg-slate-100 px-1 py-0.5 font-mono">{extension || 'unknown'}</code>.
-              </p>
-              <p className="mt-3 text-sm text-slate-700">
-                <a className="underline" href={activeFileUrl} target="_blank" rel="noreferrer">
-                  Open directly
-                </a>
-                .
-              </p>
-            </div>
-          )}
+                </p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

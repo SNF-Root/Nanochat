@@ -17,6 +17,8 @@ export default defineConfig({
       '/emails': 'http://localhost:8000',
       '/api': 'http://localhost:8000',
       '/session/init': 'http://localhost:8000',
+      '^/session/.*/retrieve_file.*': 'http://localhost:8000',
+      '^/session/.*/retrieved_entries.*': 'http://localhost:8000',
       '^/session/.*/embed/.*': 'http://localhost:8000',
       '^/session/.*/agent/.*': 'http://localhost:8000',
       '/context': 'http://localhost:8000',

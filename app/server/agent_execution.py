@@ -11,6 +11,23 @@ def _joined_columns(columns: list[str]) -> str:
     return ", ".join(columns)
 
 
+UI_RESULT_COLUMNS = {
+    "prom_embeddings": ["prom_id", "filename", "date", "requestor", "request_title"],
+    "email_embeddings": ["email_id", "filename", "date", "requestor", "embedded_string"],
+}
+
+
+def _columns_with_ui_metadata(columns: list[str], target_table: str, include_ui_columns: bool) -> list[str]:
+    next_columns = list(columns)
+    if not include_ui_columns:
+        return next_columns
+
+    for column in UI_RESULT_COLUMNS.get(target_table, []):
+        if column not in next_columns:
+            next_columns.append(column)
+    return next_columns
+
+
 def truncate(value, limit: int):
     if value is None:
         return None
@@ -20,16 +37,31 @@ def truncate(value, limit: int):
     return text[:limit] + "...[truncated]"
 
 
-def execute_sql_query(con, sql_query_obj):
-    columns = _joined_columns(sql_query_obj.target_columns)
-    query = (
-        f"SELECT {columns} "
-        f"FROM {sql_query_obj.target_table} "
-        f"WHERE {sql_query_obj.column_to_search_target_string} ILIKE ANY (%s) "
-        f"LIMIT %s"
+def execute_sql_query(con, sql_query_obj, include_ui_columns: bool = False):
+    target_columns = _columns_with_ui_metadata(
+        sql_query_obj.target_columns,
+        sql_query_obj.target_table,
+        include_ui_columns,
     )
-    like_patterns = [f"%{target}%" for target in sql_query_obj.target_string]
-    params = (like_patterns, sql_query_obj.row_limit)
+    columns = _joined_columns(target_columns)
+    search_column = sql_query_obj.column_to_search_target_string
+    if search_column in {"prom_id", "email_id"}:
+        query = (
+            f"SELECT {columns} "
+            f"FROM {sql_query_obj.target_table} "
+            f"WHERE {search_column} = ANY (%s) "
+            f"LIMIT %s"
+        )
+        params = ([int(target) for target in sql_query_obj.target_string], sql_query_obj.row_limit)
+    else:
+        query = (
+            f"SELECT {columns} "
+            f"FROM {sql_query_obj.target_table} "
+            f"WHERE {search_column} ILIKE ANY (%s) "
+            f"LIMIT %s"
+        )
+        like_patterns = [f"%{target}%" for target in sql_query_obj.target_string]
+        params = (like_patterns, sql_query_obj.row_limit)
     cursor = con.cursor()
     cursor.execute(query, params)
     rows = cursor.fetchall()
@@ -49,8 +81,14 @@ async def execute_semantic_search(
     semantic_search_obj,
     embedding_model: str,
     semantic_embedding_columns: dict[str, str],
+    include_ui_columns: bool = False,
 ):
-    columns = _joined_columns(semantic_search_obj.target_columns)
+    target_columns = _columns_with_ui_metadata(
+        semantic_search_obj.target_columns,
+        semantic_search_obj.target_table,
+        include_ui_columns,
+    )
+    columns = _joined_columns(target_columns)
     embedding_column = semantic_embedding_columns[semantic_search_obj.target_table]
     query_embedding = await embed_query(client, embedding_model, semantic_search_obj.query_str)
     query = (
@@ -91,12 +129,13 @@ async def execute_agent_actions(
     agent_action,
     embedding_model: str,
     semantic_embedding_columns: dict[str, str],
+    include_ui_columns: bool = False,
 ):
     executed_steps = []
     for step in agent_action.steps:
         print(f"\n[STEP {step.step_number} RESULTS]")
         if step.action_type == "sql_query":
-            results = execute_sql_query(con, step.sql_query)
+            results = execute_sql_query(con, step.sql_query, include_ui_columns=include_ui_columns)
         else:
             results = await execute_semantic_search(
                 client,
@@ -104,6 +143,7 @@ async def execute_agent_actions(
                 step.semantic_search,
                 embedding_model,
                 semantic_embedding_columns,
+                include_ui_columns=include_ui_columns,
             )
         executed_steps.append(
             ExecutedStep(

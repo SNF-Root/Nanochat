@@ -69,6 +69,13 @@ class AgentRetrievalResponse(BaseModel):
     text: Optional[str] = None
     list_of_executed_steps: List[ExecutedStep]
     done: bool
+    retrieved_entries: List[dict] = []
+
+class RetrievalPlanningDecision(BaseModel):
+    needs_retrieval: bool
+    rewritten_query: str
+    answer_from_chat_context: Optional[str] = None
+    reason: str
 
 class AgentRequest(BaseModel):
     text: str

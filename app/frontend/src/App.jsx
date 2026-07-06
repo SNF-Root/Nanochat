@@ -58,6 +58,8 @@ const TEST_CHAT_SEED_MESSAGES = [
   },
 ]
 
+const AGENT_RETRIEVAL_ERROR_TEXT = 'Nano is not feeling well right now, please try again with a similar query.'
+
 function getSessionIdFromPath(pathname) {
   const match = pathname.match(/^\/session\/([^/]+)$/)
   return match ? match[1] : null
@@ -67,12 +69,16 @@ function getAgentRetrievalEndpoint(sessionId) {
   return `/session/${sessionId}/agent/retrieval`
 }
 
+function getAgentRetrievalLimitFinalizeEndpoint(sessionId) {
+  return `/session/${sessionId}/agent/retrieval/finalize_limit`
+}
+
 function sleep(ms) {
   return new Promise((resolve) => window.setTimeout(resolve, ms))
 }
 
 function getAttachedPromsStorageKey(sessionId) {
-  return `attached_proms:${sessionId}`
+  return `retrieved_entries:${sessionId}`
 }
 
 function readAttachedPromsFromStorage(sessionId) {
@@ -102,8 +108,34 @@ function writeAttachedPromsToStorage(sessionId, attachedProms) {
   }
 }
 
+function parseRawEmailThread(rawThread) {
+  const raw = String(rawThread || '').trim()
+  if (!raw) return []
+
+  const parts = raw.split(/\n-{20,}\nMSGID:\s*([^\n]+)\n-{20,}\n/g)
+  if (parts.length < 3) {
+    return [{ id: 'email-message-1', label: 'Message 1', body: raw }]
+  }
+
+  const messages = []
+  for (let index = 1; index < parts.length; index += 2) {
+    const msgid = parts[index]?.trim()
+    const body = parts[index + 1]?.trim()
+    if (!body) continue
+    messages.push({
+      id: msgid || `email-message-${messages.length + 1}`,
+      label: `Message ${messages.length + 1}`,
+      msgid,
+      body,
+    })
+  }
+
+  return messages.length ? messages : [{ id: 'email-message-1', label: 'Message 1', body: raw }]
+}
+
 function EmailViewerModal({
   sessionId,
+  selectedEntry,
   onClose,
   onSessionExpired,
 }) {
@@ -119,6 +151,24 @@ function EmailViewerModal({
     let cancelled = false
 
     const loadEmails = async () => {
+      if (selectedEntry?.raw_thread) {
+        setEmailsState({
+          isLoading: false,
+          error: '',
+          entries: [{
+            key: `${selectedEntry.table}:${selectedEntry.row_id}`,
+            entryId: selectedEntry.row_id,
+            requestTitle: selectedEntry.request_title || 'Email thread',
+            emails: [{
+              key: 'email_1',
+              label: 'Email',
+              rawThread: selectedEntry.raw_thread,
+            }],
+          }],
+        })
+        return
+      }
+
       if (!sessionId) {
         setEmailsState({
           isLoading: false,
@@ -193,7 +243,7 @@ function EmailViewerModal({
     return () => {
       cancelled = true
     }
-  }, [onSessionExpired, sessionId])
+  }, [onSessionExpired, selectedEntry, sessionId])
 
   useEffect(() => {
     if (!emailsState.entries.length) {
@@ -223,57 +273,52 @@ function EmailViewerModal({
 
   const activeEmail =
     activeEntry?.emails?.find((email) => email.key === activeEmailKey) || activeEntry?.emails?.[0] || null
+  const activeEmailMessages = parseRawEmailThread(activeEmail?.rawThread)
 
   return (
-    <div className="absolute inset-x-0 top-6 z-40 mx-auto w-full max-w-5xl rounded-[24px] border border-[#d9e2ef] bg-white/95 shadow-[0_24px_60px_rgba(44,62,89,0.16)] backdrop-blur-md">
-      <div className="flex items-center justify-between border-b border-slate-200 px-5 py-4">
+    <div className="absolute inset-x-0 top-6 z-40 mx-auto w-full max-w-5xl rounded-[1.1rem] border border-[rgba(43,38,32,0.18)] bg-[rgba(245,241,232,0.96)] shadow-[0_28px_80px_rgba(43,38,32,0.28)] backdrop-blur-[8px]">
+      <div className="flex items-center justify-between border-b border-[rgba(43,38,32,0.14)] px-6 py-5">
         <div>
-          <div className="text-sm font-semibold uppercase tracking-[0.14em] text-[#556987]">
+          <div className="font-['IBM_Plex_Mono'] text-[0.82rem] font-semibold uppercase tracking-[0.24em] text-[rgba(43,38,32,0.68)]">
             Emails
           </div>
-          <div className="mt-1 text-xs text-slate-500">
-            Review the email threads tied to this PROM result.
+          <div className="mt-1 font-['IBM_Plex_Mono'] text-[0.68rem] uppercase tracking-[0.12em] text-[rgba(43,38,32,0.46)]">
+            Retrieved thread
           </div>
         </div>
         <button
           type="button"
           aria-label="Close emails"
           onClick={onClose}
-          className="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm font-semibold text-slate-600 transition-colors hover:bg-slate-50"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.42)] font-['IBM_Plex_Mono'] text-sm font-semibold text-[rgba(43,38,32,0.72)] transition-colors hover:bg-[rgba(255,255,255,0.72)]"
         >
           X
         </button>
       </div>
 
-      <div className="h-[min(72vh,860px)] overflow-hidden p-5">
+      <div className="h-[min(72vh,860px)] overflow-hidden p-6">
         {emailsState.isLoading ? (
-          <div className="flex h-full items-center justify-center rounded-[20px] border border-slate-200 bg-slate-50 px-6 text-sm text-slate-500">
+          <div className="flex h-full items-center justify-center rounded-[0.9rem] border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.42)] px-6 font-['IBM_Plex_Mono'] text-sm uppercase tracking-[0.16em] text-[rgba(43,38,32,0.52)]">
             Pulling the email threads into view...
           </div>
         ) : emailsState.error ? (
-          <div className="flex h-full items-center justify-center rounded-[20px] border border-red-100 bg-red-50/70 px-6 text-center">
+          <div className="flex h-full items-center justify-center rounded-[0.9rem] border border-[#b96c5b]/25 bg-[#f3d8cf]/45 px-6 text-center">
             <div>
-              <p className="text-base font-semibold text-red-800">Could not load emails.</p>
-              <p className="mt-2 text-sm text-red-700">{emailsState.error}</p>
+              <p className="font-['IBM_Plex_Mono'] text-sm font-semibold uppercase tracking-[0.16em] text-[#9a2f24]">Could not load emails.</p>
+              <p className="mt-2 text-sm text-[#9a2f24]">{emailsState.error}</p>
             </div>
           </div>
         ) : emailsState.entries.length === 0 ? (
-          <div className="flex h-full items-center justify-center rounded-[20px] border border-slate-200 bg-gradient-to-br from-slate-50 via-white to-rose-50 px-6 text-center">
+          <div className="flex h-full items-center justify-center rounded-[0.9rem] border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.42)] px-6 text-center">
             <div className="max-w-lg">
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-rose-100 text-2xl">
-                :(
-              </div>
-              <p className="mt-4 text-lg font-semibold text-slate-900">
+              <p className="font-['IBM_Plex_Mono'] text-sm font-semibold uppercase tracking-[0.16em] text-[var(--snf-ink)]">
                 Sorry, we could not find relevant emails for this PROM request.
-              </p>
-              <p className="mt-2 text-sm leading-6 text-slate-600">
-                This one showed up without any linked email threads. A lonely little PROM, for now.
               </p>
             </div>
           </div>
         ) : (
-          <div className="flex h-full flex-col overflow-hidden rounded-[20px] border border-slate-200 bg-slate-50/70">
-            <div className="border-b border-slate-200 bg-white/90 px-4 py-3">
+          <div className="flex h-full flex-col overflow-hidden rounded-[0.9rem] border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.32)]">
+            <div className="border-b border-[rgba(43,38,32,0.12)] bg-[rgba(255,255,255,0.24)] px-4 py-3">
               <div className="flex flex-wrap gap-2">
                 {emailsState.entries.map((entry, index) => (
                   <button
@@ -281,10 +326,10 @@ function EmailViewerModal({
                     type="button"
                     onClick={() => setActiveEntryKey(entry.key)}
                     className={[
-                      'rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors',
+                      "max-w-full truncate rounded-[0.35rem] border px-3 py-1.5 font-['IBM_Plex_Mono'] text-xs font-semibold uppercase tracking-[0.1em] transition-colors",
                       entry.key === activeEntry?.key
-                        ? 'border-slate-900 bg-slate-900 text-white'
-                        : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50',
+                        ? 'border-[var(--snf-ink)] bg-[var(--snf-ink)] text-[rgba(245,241,232,0.95)]'
+                        : 'border-[rgba(43,38,32,0.16)] bg-[rgba(255,255,255,0.38)] text-[rgba(43,38,32,0.72)] hover:bg-[rgba(255,255,255,0.7)]',
                     ].join(' ')}
                   >
                     {entry.requestTitle || `PROM ${index + 1}`}
@@ -292,15 +337,15 @@ function EmailViewerModal({
                 ))}
               </div>
             </div>
-            <div className="flex-1 overflow-y-auto px-5 py-5">
-              <article className="mx-auto max-w-4xl rounded-[18px] border border-slate-200 bg-white px-6 py-5 shadow-sm">
-                <div className="mb-4 border-b border-slate-100 pb-4">
+            <div className="flex-1 overflow-y-auto px-6 py-6 [scrollbar-color:rgba(43,38,32,0.22)_transparent] [scrollbar-width:thin]">
+              <article className="mx-auto max-w-4xl rounded-[0.8rem] border border-[#b79a4b] bg-[#dec77f] px-6 py-5 shadow-[0_10px_22px_rgba(43,38,32,0.16)]">
+                <div className="mb-5 border-b border-[rgba(43,38,32,0.14)] pb-5">
                   <div className="flex items-center justify-between gap-3">
                     <div>
-                      <p className="text-sm font-semibold text-slate-900">
+                      <p className="text-[1rem] font-semibold leading-snug text-[var(--snf-ink)]">
                         {activeEntry?.requestTitle}
                       </p>
-                      <p className="mt-1 text-xs text-slate-500">
+                      <p className="mt-2 font-['IBM_Plex_Mono'] text-[0.68rem] uppercase tracking-[0.12em] text-[rgba(43,38,32,0.54)]">
                         Entry ID {activeEntry?.entryId}
                       </p>
                     </div>
@@ -312,10 +357,10 @@ function EmailViewerModal({
                         type="button"
                         onClick={() => setActiveEmailKey(email.key)}
                         className={[
-                          'rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors',
+                          "rounded-[0.35rem] border px-3 py-1.5 font-['IBM_Plex_Mono'] text-xs font-semibold uppercase tracking-[0.1em] transition-colors",
                           email.key === activeEmail?.key
-                            ? 'border-red-200 bg-red-50 text-red-700'
-                            : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50',
+                            ? 'border-[var(--snf-ink)] bg-[var(--snf-ink)] text-[rgba(245,241,232,0.95)]'
+                            : 'border-[rgba(43,38,32,0.16)] bg-[rgba(255,255,255,0.32)] text-[rgba(43,38,32,0.72)] hover:bg-[rgba(255,255,255,0.55)]',
                         ].join(' ')}
                       >
                         {email.label}
@@ -323,9 +368,28 @@ function EmailViewerModal({
                     ))}
                   </div>
                 </div>
-                <pre className="whitespace-pre-wrap break-words font-sans text-sm leading-7 text-slate-700">
-                  {activeEmail?.rawThread}
-                </pre>
+                <div className="space-y-5">
+                  {activeEmailMessages.map((message) => (
+                    <section
+                      key={message.id}
+                      className="rounded-[0.65rem] border border-[rgba(43,38,32,0.16)] bg-[rgba(245,241,232,0.72)] px-5 py-4"
+                    >
+                      <div className="mb-4 flex flex-wrap items-center gap-2 border-b border-[rgba(43,38,32,0.12)] pb-3">
+                        <span className="rounded-[0.35rem] border border-[rgba(43,38,32,0.14)] bg-[rgba(255,255,255,0.3)] px-3 py-1 font-['IBM_Plex_Mono'] text-xs font-semibold uppercase tracking-[0.1em] text-[rgba(43,38,32,0.72)]">
+                          {message.label}
+                        </span>
+                        {message.msgid ? (
+                          <span className="min-w-0 truncate font-mono text-[0.72rem] text-[rgba(43,38,32,0.42)]">
+                            {message.msgid}
+                          </span>
+                        ) : null}
+                      </div>
+                      <pre className="whitespace-pre-wrap break-words font-sans text-[0.95rem] leading-7 text-[rgba(43,38,32,0.78)]">
+                        {message.body}
+                      </pre>
+                    </section>
+                  ))}
+                </div>
               </article>
             </div>
           </div>
@@ -344,12 +408,10 @@ function App() {
   const [messages, setMessages] = useState([])
   const [isThinking, setIsThinking] = useState(false)
   const [searchMode, setSearchMode] = useState('proms')
-  const [activeComposerTab, setActiveComposerTab] = useState('')
   const [activePanel, setActivePanel] = useState('')
-  const [promFilename, setPromFilename] = useState('')
-  const [attachedPromTitles, setAttachedPromTitles] = useState([])
   const [attachedProms, setAttachedProms] = useState([])
   const [attachedPromSessionId, setAttachedPromSessionId] = useState(() => getSessionIdFromPath(window.location.pathname))
+  const [selectedRetrievedEntry, setSelectedRetrievedEntry] = useState(null)
   const [isSearching, setIsSearching] = useState(false)
   const [agentPhase, setAgentPhase] = useState('idle')
   const [agentSteps, setAgentSteps] = useState([])
@@ -362,8 +424,24 @@ function App() {
   const setAttachedPromsForSession = (sessionId, nextProms) => {
     setAttachedProms(nextProms)
     setAttachedPromSessionId(sessionId)
-    setAttachedPromTitles(nextProms.map((item) => item.title).filter(Boolean))
-    setPromFilename(nextProms[0]?.prom_filename || '')
+  }
+
+  const loadRetrievedEntriesFromBackend = async (sessionId) => {
+    if (!sessionId) return []
+    const response = await fetch(`/session/${sessionId}/retrieved_entries`, {
+      method: 'GET',
+      credentials: 'include',
+    })
+    if (handleSessionExpired(response)) {
+      throw new Error('Session expired')
+    }
+    if (!response.ok) {
+      throw new Error(`Retrieved entries request failed: ${response.status}`)
+    }
+    const data = await response.json()
+    const entries = Array.isArray(data) ? data : []
+    setAttachedPromsForSession(sessionId, entries)
+    return entries
   }
 
   const handleSessionExpired = (response) => {
@@ -434,6 +512,15 @@ function App() {
     })
   }
 
+  const handleAgentRetrievalFailure = (assistantId) => {
+    setAgentPhase('idle')
+    setAgentSteps([])
+    setIsThinking(false)
+    setIsSearching(false)
+    setAssistantText(assistantId, AGENT_RETRIEVAL_ERROR_TEXT)
+    finalizeAssistantMessage(assistantId)
+  }
+
   const runAgentRetrieval = async (sessionId, text) => {
     const response = await fetch(getAgentRetrievalEndpoint(sessionId), {
       method: 'POST',
@@ -448,6 +535,25 @@ function App() {
 
     if (!response.ok) {
       throw new Error(`Agent retrieval failed: ${response.status}`)
+    }
+
+    return response.json()
+  }
+
+  const finalizeLimitedAgentRetrieval = async (sessionId, text) => {
+    const response = await fetch(getAgentRetrievalLimitFinalizeEndpoint(sessionId), {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    })
+
+    if (handleSessionExpired(response)) {
+      throw new Error('Session expired')
+    }
+
+    if (!response.ok) {
+      throw new Error(`Agent retrieval finalization failed: ${response.status}`)
     }
 
     return response.json()
@@ -476,6 +582,9 @@ function App() {
 
       if (data.done) {
         setAgentPhase('idle')
+        if (Array.isArray(data.retrieved_entries) && data.retrieved_entries.length) {
+          setAttachedPromsForSession(sessionId, data.retrieved_entries)
+        }
         const finalText = data.text || 'The agent completed retrieval but did not return a final answer.'
         setAssistantText(assistantId, finalText)
         finalizeAssistantMessage(assistantId)
@@ -486,8 +595,13 @@ function App() {
       await sleep(350)
     }
 
+    setAgentPhase('thinking')
+    const data = await finalizeLimitedAgentRetrieval(sessionId, text)
     setAgentPhase('idle')
-    const fallbackText = 'The agent reached the retrieval loop limit before producing a final answer.'
+    if (Array.isArray(data.retrieved_entries) && data.retrieved_entries.length) {
+      setAttachedPromsForSession(sessionId, data.retrieved_entries)
+    }
+    const fallbackText = data.text || 'The agent searched the data store but could not produce a supported final answer.'
     setAssistantText(assistantId, fallbackText)
     finalizeAssistantMessage(assistantId)
     return fallbackText
@@ -555,8 +669,7 @@ function App() {
     if (!currentSessionId) {
       setAttachedProms([])
       setAttachedPromSessionId(null)
-      setAttachedPromTitles([])
-      setPromFilename('')
+      setSelectedRetrievedEntry(null)
       return
     }
 
@@ -564,10 +677,15 @@ function App() {
     if (!storedProms.length && attachedPromSessionId === currentSessionId && attachedProms.length) {
       return
     }
-    setAttachedProms(storedProms)
-    setAttachedPromSessionId(currentSessionId)
-    setAttachedPromTitles(storedProms.map((item) => item.title).filter(Boolean))
-    setPromFilename(storedProms[0]?.prom_filename || '')
+    if (storedProms.length) {
+      setAttachedPromsForSession(currentSessionId, storedProms)
+      return
+    }
+
+    loadRetrievedEntriesFromBackend(currentSessionId).catch((error) => {
+      console.error('Retrieved entries fallback failed:', error)
+      setAttachedPromsForSession(currentSessionId, [])
+    })
   }, [currentSessionId])
 
   useEffect(() => {
@@ -737,6 +855,7 @@ function App() {
     if (!trimmed) return
 
     setIsSearching(true)
+    let assistantId = null
     try {
       // Fast path: create a session + return top match so we can immediately stream chat (no "Chat" click).
       const response = await fetch('/search/start', {
@@ -780,11 +899,14 @@ function App() {
       setQuery('')
 
       setIsThinking(true)
-      const assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
+      assistantId = `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
       setIsThinking(false)
       await runAgentRetrievalFlow(sessionId, echoedQuery || trimmed, assistantId)
     } catch (error) {
       console.error('Search request error:', error)
+      if (assistantId) {
+        handleAgentRetrievalFailure(assistantId)
+      }
     } finally {
       setIsSearching(false)
       setIsThinking(false)
@@ -815,7 +937,7 @@ function App() {
       await runAgentRetrievalFlow(currentSessionId, trimmed, assistantId)
     } catch (error) {
       console.error('Stream embed request error:', error)
-      setAssistantText(assistantId, 'Could not reach the server. Please try again.')
+      handleAgentRetrievalFailure(assistantId)
     } finally {
       setIsThinking(false)
     }
@@ -823,38 +945,18 @@ function App() {
 
   const hasMessages = messages.length > 0 || Boolean(currentSessionId)
   const testChatMessages = messages.length > 0 ? messages : TEST_CHAT_SEED_MESSAGES
-  const promFiles = attachedProms
-    .filter((item) => item && item.prom_filename)
-    .map((item) => ({
-      key: `${item.id}:${item.prom_filename}`,
-      label: item.title || item.prom_filename,
-      fileName: item.prom_filename,
-      fileUrl: `/files/retrieve_files?file_name=${encodeURIComponent(item.prom_filename)}`,
-    }))
-  const composerTabs = [
-    {
-      key: 'PROM',
-      label: 'PROM',
-      isActive: activeComposerTab === 'PROM',
-      onClick: async () => {
-        setActiveComposerTab('PROM')
-        if (!promFiles.length) {
-          console.warn('PROM tab clicked before prom_filename was set.')
-          return
-        }
-        setActivePanel('PROM')
-      },
-    },
-    {
-      key: 'emails',
-      label: 'emails',
-      isActive: activeComposerTab === 'emails',
-      onClick: async () => {
-        setActiveComposerTab('emails')
-        setActivePanel('emails')
-      },
-    },
-  ]
+  const selectedPromFile = selectedRetrievedEntry?.kind === 'PROM' && currentSessionId
+    ? [{
+        key: `${selectedRetrievedEntry.table}:${selectedRetrievedEntry.row_id}`,
+        label: selectedRetrievedEntry.request_title || 'PROM',
+        fileName: selectedRetrievedEntry.filename,
+        fileUrl: `/session/${currentSessionId}/retrieve_file?filename=${encodeURIComponent(selectedRetrievedEntry.filename)}`,
+      }]
+    : []
+  const handleRetrievedEntryClick = (entry) => {
+    setSelectedRetrievedEntry(entry)
+    setActivePanel(entry?.kind === 'EMAIL' ? 'EMAIL' : 'PROM')
+  }
 
   const sendTestChatMessage = async (text) => {
     if (currentSessionId) {
@@ -968,30 +1070,32 @@ function App() {
                 setQuery={setQuery}
                 onSend={sendChatMessage}
                 isThinking={isThinking}
-                composerTabs={composerTabs}
                 agentPhase={agentPhase}
                 agentSteps={agentSteps}
+                retrievedEntries={attachedProms}
+                onRetrievedEntryClick={handleRetrievedEntryClick}
               />
             </div>
 
             {activePanel === 'PROM' ? (
               <FileViewerModal
                 title="PROM"
-                files={promFiles}
+                files={selectedPromFile}
                 onClose={() => {
                   setActivePanel('')
-                  setActiveComposerTab('')
+                  setSelectedRetrievedEntry(null)
                 }}
               />
             ) : null}
 
-            {activePanel === 'emails' ? (
+            {activePanel === 'EMAIL' ? (
               <EmailViewerModal
                 sessionId={currentSessionId}
+                selectedEntry={selectedRetrievedEntry}
                 onSessionExpired={handleSessionExpired}
                 onClose={() => {
                   setActivePanel('')
-                  setActiveComposerTab('')
+                  setSelectedRetrievedEntry(null)
                 }}
               />
             ) : null}

@@ -21,6 +21,10 @@ def _agentaction_key(session_id: str) -> str:
     return f"chat:agent:actions:history:{session_id}"
 
 
+def _retrieved_entries_key(session_id: str) -> str:
+    return f"chat:session:retrieved_entries:{session_id}"
+
+
 def append_log_line(file_path: str, payload: dict) -> None:
     with open(file_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(payload, ensure_ascii=False) + "\n")
@@ -93,6 +97,53 @@ def parse_entry_ids_value(entry_ids_raw):
     if not isinstance(parsed_entry_ids, list):
         return []
     return parsed_entry_ids
+
+
+def parse_retrieved_entries_value(entries_raw):
+    if entries_raw is None:
+        return []
+
+    try:
+        parsed_entries = json.loads(entries_raw)
+    except (TypeError, json.JSONDecodeError):
+        return []
+
+    return parsed_entries if isinstance(parsed_entries, list) else []
+
+
+def merge_retrieved_entries(existing_entries: list[dict], new_entries: list[dict]) -> list[dict]:
+    merged_entries = []
+    seen = set()
+
+    for entry in [*existing_entries, *new_entries]:
+        if not isinstance(entry, dict):
+            continue
+        filename = str(entry.get("filename") or "")
+        table = str(entry.get("table") or "")
+        row_id = str(entry.get("row_id") or "")
+        dedupe_key = (table, row_id, filename)
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+        merged_entries.append(entry)
+
+    return merged_entries
+
+
+async def get_retrieved_entries(session_id: str) -> list[dict]:
+    raw_entries = await redis_chat_context.get(_retrieved_entries_key(session_id))
+    return parse_retrieved_entries_value(raw_entries)
+
+
+async def merge_retrieved_entries_for_session(session_id: str, new_entries: list[dict]) -> list[dict]:
+    existing_entries = await get_retrieved_entries(session_id)
+    merged_entries = merge_retrieved_entries(existing_entries, new_entries)
+    await redis_chat_context.set(
+        _retrieved_entries_key(session_id),
+        json.dumps(merged_entries),
+        ex=CHAT_TTL_SECONDS,
+    )
+    return merged_entries
 
 
 async def embed_query(client_override, embedding_model: str, text: str) -> list[float]:

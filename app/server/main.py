@@ -15,7 +15,8 @@ from .prompts import (
     EMAIL_SYSTEM_PROMPT,
     prom_prompt,
     AGENT_ACTION_CONTINUATION_PROMPT,
-    AGENT_ACTION_REQUEST_PROMPT
+    AGENT_ACTION_REQUEST_PROMPT,
+    RETRIEVAL_PLANNER_PROMPT,
 )
 from .models.server_classes import (
     AgentRequest,
@@ -25,6 +26,7 @@ from .models.server_classes import (
     FileObject,
     AgentAction,
     AgentRetrievalResponse,
+    RetrievalPlanningDecision,
 )
 from .agent_execution import execute_agent_actions
 from .models.pool_db import init_pool, get_db_connection, release_db_conn, close_all_conns
@@ -38,6 +40,8 @@ from .retrieval_helpers import (
     clear_agent_action_history,
     get_agent_action_history,
     get_chat_context,
+    get_retrieved_entries,
+    merge_retrieved_entries_for_session,
     parse_entry_ids_value,
 )
 from .upload_helpers import (
@@ -49,7 +53,7 @@ from datetime import datetime, timezone
 
 
 EMBEDDING_MODEL = "text-embedding-ada-002"
-AGENT_PLANNER_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4")
+AGENT_PLANNER_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4-nano")
 RESPONSE_CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-5.4")
 STANFORD_BASE_URL = os.getenv("STANFORD_BASE_URL", "https://aiapi-prod.stanford.edu/v1")
 DSN = os.getenv("DATABASE_URL", "postgresql://user:user_pw@localhost:5433/appdb")
@@ -73,6 +77,271 @@ SEMANTIC_EMBEDDING_COLUMNS = {
     }
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
+
+
+def extract_email_request_title(embedded_string: Optional[str]) -> str:
+    if not embedded_string:
+        return ""
+    start_marker = "Reason for Request:"
+    end_marker = "Process Flow:"
+    start_idx = embedded_string.find(start_marker)
+    if start_idx == -1:
+        return ""
+    start_idx += len(start_marker)
+    end_idx = embedded_string.find(end_marker, start_idx)
+    if end_idx == -1:
+        end_idx = len(embedded_string)
+    return embedded_string[start_idx:end_idx].strip()
+
+
+async def plan_retrieval_from_chat_context(
+    context_history: list[dict],
+    user_query: str,
+) -> RetrievalPlanningDecision:
+    planner_prompt = RETRIEVAL_PLANNER_PROMPT.replace(
+        "{past_chat_context}",
+        json.dumps(context_history, indent=2),
+    ).replace("{current_user_question}", user_query)
+    completion = await client.beta.chat.completions.parse(
+        model=AGENT_PLANNER_MODEL,
+        messages=[
+            {"role": "user", "content": planner_prompt},
+        ],
+        temperature=0.1,
+        response_format=RetrievalPlanningDecision,
+    )
+    message = completion.choices[0].message
+    planning_decision = message.parsed
+    if planning_decision is None:
+        print("[RETRIEVAL_PLANNER_VALIDATION] Planner did not produce a parsed decision.")
+        print(f"[RETRIEVAL_PLANNER_VALIDATION] refusal={message.refusal}")
+        print(f"[RETRIEVAL_PLANNER_VALIDATION] content={message.content}")
+        raise HTTPException(status_code=500, detail="Retrieval planner did not return a valid decision")
+    return planning_decision
+
+
+async def plan_agent_action_from_history(
+    user_query: str,
+    agent_action_history: list[dict],
+) -> AgentAction:
+    agent_prompt = AGENT_ACTION_REQUEST_PROMPT.replace("{user_query}", user_query)
+    agent_prompt = agent_prompt.replace(
+        "{past_agent_actions}",
+        json.dumps(agent_action_history, indent=2),
+    )
+    print("sending for agentic planning")
+    planner_completion = await client.beta.chat.completions.parse(
+        model=AGENT_PLANNER_MODEL,
+        messages=[
+            {"role": "user", "content": agent_prompt},
+        ],
+        temperature=0.2,
+        response_format=AgentAction,
+    )
+
+    returned_agent_action_json = planner_completion.choices[0].message
+    agent_action_obj = returned_agent_action_json.parsed
+    if agent_action_obj is None:
+        print("[AGENT_ACTION_VALIDATION] Planner did not produce a parsed AgentAction.")
+        print(f"[AGENT_ACTION_VALIDATION] refusal={returned_agent_action_json.refusal}")
+        print(f"[AGENT_ACTION_VALIDATION] content={returned_agent_action_json.content}")
+        raise HTTPException(status_code=500, detail="Agent did not return a valid AgentAction")
+    return agent_action_obj
+
+
+def normalize_upload_file_path(filename: str) -> str:
+    safe_filename = os.path.basename(filename or "")
+    if not safe_filename:
+        raise HTTPException(status_code=404, detail="Missing filename")
+
+    upload_root = os.path.abspath(UPLOAD_DIR)
+    file_path = os.path.abspath(os.path.join(upload_root, safe_filename))
+    if os.path.commonpath([upload_root, file_path]) != upload_root:
+        raise HTTPException(status_code=403, detail="Invalid file path")
+    if not os.path.isfile(file_path):
+        raise HTTPException(status_code=404, detail="File not found")
+    return file_path
+
+
+def build_file_response(file_path: str) -> FileResponse:
+    base_name = os.path.basename(file_path)
+    suffix = os.path.splitext(base_name)[1].lstrip(".").lower()
+    media_type = (
+        "application/pdf"
+        if suffix == "pdf"
+        else "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        if suffix == "docx"
+        else "text/plain"
+        if suffix == "txt"
+        else "application/octet-stream"
+    )
+    return FileResponse(
+        path=file_path,
+        media_type=media_type,
+        filename=base_name,
+        headers={
+            "Content-Disposition": "inline",
+            "Cache-Control": "private, max-age=3600",
+        },
+    )
+
+
+def fetch_prom_retrieved_entry(cursor, prom_id: int) -> Optional[dict]:
+    cursor.execute(
+        """
+        SELECT filename, date, requestor, request_title
+        FROM prom_embeddings
+        WHERE prom_id = %s
+        LIMIT 1
+        """,
+        (prom_id,),
+    )
+    row = cursor.fetchone()
+    if row is None:
+        return None
+
+    filename, date, requestor, request_title = row
+    return {
+        "kind": "PROM",
+        "table": "prom_embeddings",
+        "row_id": prom_id,
+        "filename": os.path.basename(filename or ""),
+        "date": date,
+        "requestor": requestor,
+        "request_title": request_title or os.path.basename(filename or "") or f"PROM {prom_id}",
+    }
+
+
+def fetch_email_retrieved_entry(cursor, email_id: int) -> Optional[dict]:
+    cursor.execute(
+        """
+        SELECT filename, date, requestor, embedded_string, raw_thread
+        FROM email_embeddings
+        WHERE email_id = %s
+        LIMIT 1
+        """,
+        (email_id,),
+    )
+    row = cursor.fetchone()
+    if row is None:
+        return None
+
+    filename, date, requestor, embedded_string, raw_thread = row
+    request_title = extract_email_request_title(embedded_string)
+    return {
+        "kind": "EMAIL",
+        "table": "email_embeddings",
+        "row_id": email_id,
+        "filename": os.path.basename(filename or ""),
+        "date": date,
+        "requestor": requestor,
+        "request_title": request_title or os.path.basename(filename or "") or f"Email {email_id}",
+        "raw_thread": raw_thread,
+    }
+
+
+def build_retrieved_entries_from_steps(con, executed_steps) -> list[dict]:
+    entries = []
+    seen = set()
+    cursor = con.cursor()
+
+    for executed_step in executed_steps:
+        params = executed_step.semantic_params if executed_step.action_type == "semantic_search" else executed_step.sql_params
+        table = getattr(params, "target_table", "")
+        for row in executed_step.query_results or []:
+            if table == "prom_embeddings":
+                row_id = row.get("prom_id")
+                fetch_entry = fetch_prom_retrieved_entry
+            elif table == "email_embeddings":
+                row_id = row.get("email_id")
+                fetch_entry = fetch_email_retrieved_entry
+            else:
+                continue
+
+            try:
+                row_id = int(row_id)
+            except (TypeError, ValueError):
+                continue
+
+            dedupe_key = (table, row_id)
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+
+            entry = fetch_entry(cursor, row_id)
+            if entry is not None:
+                entries.append(entry)
+
+    return entries
+
+
+async def execute_final_agent_action(
+    session_id: str,
+    request: Request,
+    response: Response,
+    user_query: str,
+    effective_user_query: str,
+    context_history: list[dict],
+    agent_action_obj: AgentAction,
+) -> AgentRetrievalResponse:
+    con = get_db_connection()
+    try:
+        executed_steps = await execute_agent_actions(
+            client,
+            con,
+            agent_action_obj,
+            EMBEDDING_MODEL,
+            SEMANTIC_EMBEDDING_COLUMNS,
+            include_ui_columns=True,
+        )
+        retrieved_entries = build_retrieved_entries_from_steps(con, executed_steps)
+    finally:
+        release_db_conn(con=con)
+
+    merged_retrieved_entries = await merge_retrieved_entries_for_session(
+        session_id,
+        retrieved_entries,
+    )
+    retrieved_context = json.dumps(
+        [
+            {
+                "agent_action": agent_action_obj.model_dump(),
+                "retrieved_context_for_action": executed_step.query_results,
+            }
+            for executed_step in executed_steps
+        ],
+        indent=2,
+    )
+    answer_prompt = CONTINUATION_SYS_PROMPT.format(
+        past_retrieved_context=retrieved_context,
+        past_chat_context=json.dumps(context_history, indent=2),
+        current_user_question=effective_user_query,
+    )
+    answer_completion = await client.chat.completions.create(
+        model=RESPONSE_CHAT_MODEL,
+        messages=[
+            {"role": "system", "content": answer_prompt},
+        ],
+        temperature=0.2,
+    )
+    assistant_text = answer_completion.choices[0].message.content or ""
+    await append_chat_entry(
+        session_id,
+        request,
+        response,
+        {
+            "route": "run_agent_action",
+            "user_text": user_query,
+            "assistant_text": assistant_text,
+        },
+    )
+    await clear_agent_action_history(session_id)
+    return AgentRetrievalResponse(
+        text=assistant_text,
+        list_of_executed_steps=executed_steps,
+        done=True,
+        retrieved_entries=merged_retrieved_entries,
+    )
 
 
 @asynccontextmanager
@@ -367,6 +636,25 @@ async def reset_upload_counter() -> UploadCounterResetResponse:
     print(f"{queue_name} cleared")
     return UploadCounterResetResponse(number_of_files_cleared=len_of_queue, status_of_queue="cleared") 
 
+
+@app.get("/session/{session_id}/retrieved_entries")
+async def retrieve_session_entries(session_id: str):
+    return await get_retrieved_entries(session_id)
+
+
+@app.get("/session/{session_id}/retrieve_file", response_class=FileResponse)
+async def retrieve_session_file(session_id: str, filename: str = Query(...)):
+    entries = await get_retrieved_entries(session_id)
+    safe_filename = os.path.basename(filename or "")
+    is_allowed = any(
+        entry.get("kind") == "PROM" and os.path.basename(entry.get("filename") or "") == safe_filename
+        for entry in entries
+    )
+    if not is_allowed:
+        raise HTTPException(status_code=403, detail="File is not attached to this session")
+
+    return build_file_response(normalize_upload_file_path(safe_filename))
+
 #big security risk here, user may be able to access files we dont want him to access. 
 #what if client asked to see .env file, first do auth, then make sure the parent dir is just /upload/
 @app.get("/files/retrieve_proms/{session_id}", response_class=FileResponse)
@@ -505,29 +793,52 @@ async def run_agent_action(session_id: str, payload: AgentRequest, request: Requ
         return RedirectResponse(url="/chat/expired", status_code=307)
 
     try:
-        agent_prompt = AGENT_ACTION_REQUEST_PROMPT.replace("{user_query}", user_query)
         agent_action_history = await get_agent_action_history(session_id)
-        agent_prompt = agent_prompt.replace(
-            "{past_agent_actions}",
-            json.dumps(agent_action_history, indent=2),
-        )
-        print("sending for agentic planning")
-        planner_completion = await client.beta.chat.completions.parse(
-            model=AGENT_PLANNER_MODEL,
-            messages=[
-                {"role": "user", "content": agent_prompt},
-            ],
-            temperature=0.2,
-            response_format=AgentAction,
-        )
+        if agent_action_history:
+            effective_user_query = user_query
+        else:
+            retrieval_plan = await plan_retrieval_from_chat_context(context_history, user_query)
+            effective_user_query = retrieval_plan.rewritten_query.strip() or user_query
+            print(
+                "[RETRIEVAL_PLANNER] "
+                f"needs_retrieval={retrieval_plan.needs_retrieval} "
+                f"reason={retrieval_plan.reason}"
+            )
 
-        returned_agent_action_json = planner_completion.choices[0].message
-        agent_action_obj = returned_agent_action_json.parsed
-        if agent_action_obj is None:
-            print("[AGENT_ACTION_VALIDATION] Planner did not produce a parsed AgentAction.")
-            print(f"[AGENT_ACTION_VALIDATION] refusal={returned_agent_action_json.refusal}")
-            print(f"[AGENT_ACTION_VALIDATION] content={returned_agent_action_json.content}")
-            raise HTTPException(status_code=500, detail="Agent did not return a valid AgentAction")
+            if not retrieval_plan.needs_retrieval:
+                assistant_text = (retrieval_plan.answer_from_chat_context or "").strip()
+                if not assistant_text:
+                    raise HTTPException(status_code=500, detail="Retrieval planner did not return an answer")
+                await append_chat_entry(
+                    session_id,
+                    request,
+                    response,
+                    {
+                        "route": "run_agent_action",
+                        "user_text": user_query,
+                        "assistant_text": assistant_text,
+                    },
+                )
+                await clear_agent_action_history(session_id)
+                return AgentRetrievalResponse(
+                    text=assistant_text,
+                    list_of_executed_steps=[],
+                    done=True,
+                    retrieved_entries=[],
+                )
+
+        agent_action_obj = await plan_agent_action_from_history(effective_user_query, agent_action_history)
+
+        if agent_action_obj.after_execution == "generate_final_answer":
+            return await execute_final_agent_action(
+                session_id,
+                request,
+                response,
+                user_query,
+                effective_user_query,
+                context_history,
+                agent_action_obj,
+            )
 
         con = get_db_connection()
         try:
@@ -537,6 +848,7 @@ async def run_agent_action(session_id: str, payload: AgentRequest, request: Requ
                 agent_action_obj,
                 EMBEDDING_MODEL,
                 SEMANTIC_EMBEDDING_COLUMNS,
+                include_ui_columns=False,
             )
         finally:
             release_db_conn(con=con)
@@ -555,47 +867,6 @@ async def run_agent_action(session_id: str, payload: AgentRequest, request: Requ
                 list_of_executed_steps=executed_steps,
                 done=False,
             )
-        elif agent_action_obj.after_execution == "generate_final_answer":
-            retrieved_context = json.dumps(
-                [
-                    {
-                        "agent_action": agent_action_obj.model_dump(),
-                        "retrieved_context_for_action": executed_step.query_results,
-                    }
-                    for executed_step in executed_steps
-                ],
-                indent=2,
-            )
-            past_chat_context = json.dumps(context_history, indent=2)
-            answer_prompt = CONTINUATION_SYS_PROMPT.format(
-                past_retrieved_context=retrieved_context,
-                past_chat_context=past_chat_context,
-                current_user_question=user_query,
-            )
-            answer_completion = await client.chat.completions.create(
-                model=RESPONSE_CHAT_MODEL,
-                messages=[
-                    {"role": "system", "content": answer_prompt},
-                ],
-                temperature=0.2,
-            )
-            assistant_text = answer_completion.choices[0].message.content or ""
-            await append_chat_entry(
-                session_id,
-                request,
-                response,
-                {
-                    "route": "run_agent_action",
-                    "user_text": user_query,
-                    "assistant_text": assistant_text,
-                },
-            )
-            await clear_agent_action_history(session_id)
-            return AgentRetrievalResponse(
-                text=assistant_text,
-                list_of_executed_steps=executed_steps,
-                done=True,
-            )
             
 
     except ValidationError as error:
@@ -604,3 +875,31 @@ async def run_agent_action(session_id: str, payload: AgentRequest, request: Requ
         raise HTTPException(status_code=500, detail="AgentAction schema validation failed") from error
     except Exception as error:
         raise HTTPException(status_code=500, detail=f"Agentic retrieval failed: {error}") from error
+
+
+@app.post("/session/{session_id}/agent/retrieval/finalize_limit", response_model=AgentRetrievalResponse)
+async def finalize_limited_agent_retrieval(session_id: str, payload: AgentRequest, request: Request, response: Response):
+    user_query = payload.text.strip()
+    if not user_query:
+        raise HTTPException(status_code=400, detail="Text is required")
+
+    context_history = await get_chat_context(session_id)
+    if context_history is None:
+        return RedirectResponse(url="/chat/expired", status_code=307)
+
+    agent_action_history = await get_agent_action_history(session_id)
+    if not agent_action_history:
+        raise HTTPException(status_code=400, detail="No agent retrieval context found for this session")
+
+    final_agent_action = await plan_agent_action_from_history(user_query, agent_action_history)
+    if final_agent_action.after_execution != "generate_final_answer":
+        final_agent_action.after_execution = "generate_final_answer"
+    return await execute_final_agent_action(
+        session_id,
+        request,
+        response,
+        user_query,
+        user_query,
+        context_history,
+        final_agent_action,
+    )

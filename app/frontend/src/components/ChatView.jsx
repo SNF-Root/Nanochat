@@ -155,85 +155,10 @@ function renderMarkdown(text) {
   return blocks.length ? blocks : text
 }
 
-function WaferToggle({ label, active, onClick }) {
-  const outerStroke = active ? 'rgba(191,142,69,0.95)' : 'rgba(214,204,186,0.9)'
-
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className="relative flex h-[5rem] w-[5rem] items-center justify-center rounded-full transition-transform hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--snf-accent)]"
-    >
-      <svg viewBox="0 0 100 100" className="h-full w-full">
-        <circle cx="50" cy="50" r="47" fill="rgba(255,255,255,0.08)" stroke={outerStroke} strokeWidth="4" />
-        <circle cx="50" cy="50" r="36" fill="#ddd3c2" stroke="rgba(43,38,32,0.28)" strokeWidth="1.8" />
-        <path d="M 50 14 A 36 36 0 0 0 29 21 L 38 31 A 22 22 0 0 1 50 28 Z" fill="rgba(43,38,32,0.34)" />
-        <line x1="50" y1="14" x2="50" y2="86" stroke="rgba(43,38,32,0.28)" strokeWidth="1.4" />
-        <line x1="14" y1="50" x2="86" y2="50" stroke="rgba(43,38,32,0.28)" strokeWidth="1.4" />
-        <line x1="24" y1="24" x2="76" y2="24" stroke="rgba(43,38,32,0.18)" strokeWidth="1.2" />
-        <line x1="24" y1="76" x2="76" y2="76" stroke="rgba(43,38,32,0.18)" strokeWidth="1.2" />
-        <line x1="24" y1="24" x2="24" y2="76" stroke="rgba(43,38,32,0.18)" strokeWidth="1.2" />
-        <line x1="76" y1="24" x2="76" y2="76" stroke="rgba(43,38,32,0.18)" strokeWidth="1.2" />
-        <text
-          x="50"
-          y="56"
-          textAnchor="middle"
-          className="font-['IBM_Plex_Mono'] text-[0.8rem] font-semibold uppercase tracking-[-0.03em]"
-          fill="#2b2620"
-        >
-          {label}
-        </text>
-      </svg>
-    </button>
-  )
-}
-
-function getValue(row, keys) {
-  for (const key of keys) {
-    if (row && row[key] !== undefined && row[key] !== null && String(row[key]).trim()) {
-      return String(row[key])
-    }
-  }
-  return ''
-}
-
-function normalizeResultRows(steps) {
-  const seen = new Set()
-  const rows = []
-
-  for (const step of steps || []) {
-    for (const row of step.query_results || []) {
-      const id = getValue(row, ['id', 'entry_id', 'prom_id', 'request_id']) || `${step.step_number}-${rows.length + 1}`
-      const title = getValue(row, ['request_title', 'title', 'name']) || 'Retrieved PROM result'
-      const key = `${id}:${title}`
-      if (seen.has(key)) continue
-      seen.add(key)
-
-      rows.push({
-        id,
-        title,
-        subtitle: getValue(row, ['requestor', 'submitter', 'author', 'company', 'pi']) || getValue(row, ['date', 'request_date', 'created_at']),
-        status: getValue(row, ['status', 'approval_status', 'decision']),
-      })
-      if (rows.length >= 3) return rows
-    }
-  }
-
-  return rows
-}
-
-function ResultRack({ agentSteps, composerTabs }) {
-  const results = useMemo(() => normalizeResultRows(agentSteps), [agentSteps])
-  const promTab = composerTabs?.find((tab) => tab.key === 'PROM')
-  const emailTab = composerTabs?.find((tab) => tab.key === 'emails')
-
+function ResultRack({ retrievedEntries, onRetrievedEntryClick }) {
+  const results = useMemo(() => Array.isArray(retrievedEntries) ? retrievedEntries : [], [retrievedEntries])
   return (
     <aside className="sticky top-5 self-start w-full shrink-0 lg:w-[23rem] xl:w-[26rem]">
-      <div className="mb-4 flex justify-center gap-5">
-        <WaferToggle label="PROMS" active={!emailTab?.isActive} onClick={promTab?.onClick} />
-        <WaferToggle label="EMAILS" active={emailTab?.isActive} onClick={emailTab?.onClick} />
-      </div>
-
       <div className="relative min-h-[34rem] bg-[rgba(255,255,255,0.34)] px-5 py-9">
         <div className="absolute left-0 top-0 h-9 w-9 border-l-[4px] border-t-[4px] border-[var(--snf-ink)]" />
         <div className="absolute right-0 top-0 h-9 w-9 border-r-[4px] border-t-[4px] border-[var(--snf-ink)]" />
@@ -241,35 +166,35 @@ function ResultRack({ agentSteps, composerTabs }) {
         <div className="absolute bottom-0 right-0 h-9 w-9 border-b-[4px] border-r-[4px] border-[var(--snf-ink)]" />
 
         <div className="font-['IBM_Plex_Mono'] text-[0.7rem] uppercase tracking-[0.22em] text-[rgba(122,108,87,0.78)]">
-          {results.length ? `${results.length} results · sorted by relevance` : 'PROM results'}
+          {results.length ? `${results.length} retrieved files` : 'retrieved files'}
         </div>
 
-        <div className="mt-8 space-y-5">
+        <div className="mt-8 max-h-[27rem] space-y-5 overflow-y-auto px-1 pt-5 [scrollbar-color:rgba(43,38,32,0.22)_transparent] [scrollbar-width:thin]">
           {results.length ? (
             results.map((result, index) => (
-              <article
-                key={`${result.id}-${index}`}
-                className="relative rounded-[0.35rem] border border-[#b79a4b] bg-[#dec77f] px-4 py-4 shadow-[0_6px_12px_rgba(43,38,32,0.18)] transition-transform duration-150 hover:-translate-y-2 hover:rotate-[-0.5deg] hover:shadow-[0_12px_22px_rgba(43,38,32,0.22)]"
+              <button
+                key={`${result.table}-${result.row_id}-${index}`}
+                type="button"
+                onClick={() => onRetrievedEntryClick?.(result)}
+                className="relative block w-full rounded-[0.35rem] border border-[#b79a4b] bg-[#dec77f] px-4 py-4 text-left shadow-[0_6px_12px_rgba(43,38,32,0.18)] transition-transform duration-150 hover:-translate-y-2 hover:rotate-[-0.5deg] hover:shadow-[0_12px_22px_rgba(43,38,32,0.22)]"
               >
-                <div className="absolute -top-4 left-4 rounded-t-[0.3rem] border border-b-0 border-[#b79a4b] bg-[#dec77f] px-4 py-1 font-['IBM_Plex_Mono'] text-[0.68rem] uppercase tracking-[0.16em] text-[rgba(43,38,32,0.72)]">
-                  PROM-{String(result.id).padStart(3, '0').slice(-3)}
+                <div className="absolute -top-4 left-4 z-10 rounded-t-[0.3rem] border border-b-0 border-[#b79a4b] bg-[#dec77f] px-4 py-1 font-['IBM_Plex_Mono'] text-[0.68rem] uppercase tracking-[0.16em] text-[rgba(43,38,32,0.72)]">
+                  {result.kind || 'FILE'}
                 </div>
-                {result.status ? (
-                  <div className="absolute right-4 top-[-0.7rem] rotate-[-5deg] border-2 border-[rgba(66,112,88,0.72)] px-2 py-0.5 font-['IBM_Plex_Mono'] text-[0.62rem] font-semibold uppercase tracking-[0.12em] text-[rgba(66,112,88,0.85)]">
-                    {result.status}
-                  </div>
-                ) : null}
                 <h3 className="mt-2 text-[0.92rem] font-semibold leading-snug text-[var(--snf-ink)]">
-                  {result.title}
+                  {result.request_title || 'Untitled retrieval'}
                 </h3>
-                {result.subtitle ? (
-                  <p className="mt-2 text-[0.78rem] text-[rgba(43,38,32,0.66)]">{result.subtitle}</p>
+                {result.requestor ? (
+                  <p className="mt-2 text-[0.78rem] text-[rgba(43,38,32,0.66)]">{result.requestor}</p>
                 ) : null}
-              </article>
+                {result.date ? (
+                  <p className="mt-1 font-['IBM_Plex_Mono'] text-[0.68rem] uppercase tracking-[0.12em] text-[rgba(43,38,32,0.54)]">{result.date}</p>
+                ) : null}
+              </button>
             ))
           ) : (
             <div className="flex min-h-[24rem] items-center justify-center text-center font-['IBM_Plex_Mono'] text-[0.72rem] uppercase tracking-[0.28em] text-[rgba(122,108,87,0.78)]">
-              PROMS APPEAR HERE
+              FILES APPEAR HERE
             </div>
           )}
         </div>
@@ -367,7 +292,8 @@ function ChatView({
   isThinking,
   agentPhase,
   agentSteps,
-  composerTabs,
+  retrievedEntries,
+  onRetrievedEntryClick,
 }) {
   const scrollRef = useRef(null)
   const isAgentBusy = isThinking || agentPhase === 'thinking' || agentPhase === 'running'
@@ -380,7 +306,7 @@ function ChatView({
 
   return (
     <div className="mx-auto flex h-full min-h-0 w-full max-w-[118rem] gap-8 px-8 py-5">
-      <ResultRack agentSteps={agentSteps} composerTabs={composerTabs} />
+      <ResultRack retrievedEntries={retrievedEntries} onRetrievedEntryClick={onRetrievedEntryClick} />
 
       <section className="flex min-w-0 flex-1 flex-col">
         <div
